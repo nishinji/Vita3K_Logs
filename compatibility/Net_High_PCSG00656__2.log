@@ -1,0 +1,820 @@
+[00:33:14.938] |I| [config::init_config]: backend-renderer: OpenGL
+[00:33:14.939] |I| [config::init_config]: log-level: 0
+[00:33:15.062] |I| [SDL_main]: Vita3K v0.1.6 2841-0c75bbb5
+[00:33:15.063] |I| [SDL_main]: Number of logical CPU cores: 8
+[00:33:15.063] |I| [SDL_main]: Available ram memory: 16215 MiB
+[00:33:16.066] |I| [renderer::gl::create]: GPU = NVIDIA GeForce RTX 3060 Laptop GPU/PCIe/SSE2
+[00:33:16.066] |I| [renderer::gl::create]: GL_VERSION = 4.6.0 NVIDIA 516.94
+[00:33:16.067] |I| [renderer::gl::create]: GL_SHADING_LANGUAGE_VERSION = 4.60 NVIDIA
+[00:33:16.069] |I| [renderer::gl::create]: Your GPU supports shader interlock, some games that use programmable blending will have better performance.
+[00:34:23.558] |I| [config::init_config]: input-content-path: Othmane\Downloads\windows-latest\Vita3K.exe
+[00:34:23.559] |I| [config::init_config]: input-installed-path: PCSG00656
+[00:34:23.561] |I| [config::init_config]: backend-renderer: Vulkan
+[00:34:23.561] |I| [config::init_config]: log-level: 0
+[00:34:23.763] |I| [SDL_main]: Vita3K v0.1.6 2841-0c75bbb5
+[00:34:23.764] |I| [SDL_main]: Number of logical CPU cores: 8
+[00:34:23.764] |I| [SDL_main]: Available ram memory: 16215 MiB
+[00:34:24.163] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[00:34:24.386] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060 Laptop GPU
+[00:34:24.386] |I| [renderer::vulkan::VKState::create]: Driver version: 516.94.0.0
+[00:34:24.888] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[00:34:26.182] |E| [SDL_main]: File dropped: [Othmane\Downloads\windows-latest\Vita3K.exe] is not supported.
+[00:34:26.837] |I| [load_app_impl]: cpu-backend: Dynarmic
+[00:34:26.837] |I| [load_app_impl]: CPU Optimisation state: true
+[00:34:26.838] |I| [load_app_impl]: ngs state: true
+[00:34:26.838] |I| [load_app_impl]: Resolution multiplier: 1
+[00:34:26.838] |I| [load_app_impl]: modules mode: Auto & Manual
+[00:34:26.839] |I| [load_app_impl]: lle-modules: libhttp
+[00:34:26.839] |I| [load_app_impl]: Title: NET HIGH
+[00:34:26.839] |I| [load_app_impl]: Serial: PCSG00656
+[00:34:26.842] |I| [load_app_impl]: Version: 1.00
+[00:34:26.845] |I| [load_app_impl]: Category: gd
+[00:34:26.866] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6FFFFF01...
+[00:34:26.866] |I| [load_self]: Loaded module segment 0 @ [0x00004000 - 0x000558A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[00:34:26.870] |I| [load_self]: Loaded module segment 1 @ [0x00056000 - 0x000588A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[00:34:26.873] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[00:34:26.875] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4B314
+[00:34:26.882] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x404DC
+[00:34:26.884] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x4463C, setting to stub value 0xDEADBEEF
+[00:34:26.887] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x461D0, setting to stub value 0xDEADBEEF
+[00:34:26.890] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[00:34:26.902] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6FFFFF01...
+[00:34:26.903] |I| [load_self]: Loaded module segment 0 @ [0x0005B000 - 0x00087CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[00:34:26.905] |I| [load_self]: Loaded module segment 1 @ [0x00088000 - 0x0008D255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[00:34:26.909] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[00:34:26.911] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x87BC8
+[00:34:26.913] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7EF08
+[00:34:26.915] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[00:34:26.923] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6FFFFF01...
+[00:34:26.924] |I| [load_self]: Loaded module segment 0 @ [0x0008E000 - 0x000A19A4 / 0x81000000] (size: 0x000139A4) of module app0:sce_module/libult.suprx
+[00:34:26.927] |I| [load_self]: Loaded module segment 1 @ [0x000A2000 - 0x000A2814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[00:34:26.930] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[00:34:26.932] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA02D0
+[00:34:26.933] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9D858
+[00:34:26.935] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[00:34:26.956] |I| [load_self]: Loaded module segment 0 @ [0x000A3000 - 0x000F3F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[00:34:26.958] |I| [load_self]: Loaded module segment 1 @ [0x000F4000 - 0x000F42F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[00:34:26.961] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[00:34:26.962] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xDF7DC
+[00:34:26.964] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xDEF10
+[00:34:26.965] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[00:34:26.973] |I| [load_self]: Loaded module segment 0 @ [0x000F5000 - 0x00104F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[00:34:26.975] |I| [load_self]: Loaded module segment 1 @ [0x00105000 - 0x00105008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[00:34:26.977] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[00:34:26.979] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x103710
+[00:34:26.980] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x103300
+[00:34:26.981] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[00:34:27.191] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6FFFFF01...
+[00:34:27.192] |I| [load_self]: Loaded module segment 0 @ [0x00106000 - 0x00417753 / 0x81000000] (size: 0x00311753) of module app0:eboot.bin
+[00:34:27.195] |I| [load_self]: Loaded module segment 1 @ [0x00418000 - 0x007410A8 / 0x81312000] (size: 0x003290A8) of module app0:eboot.bin
+[00:34:27.198] |I| [load_self]: Linking SELF app0:eboot.bin...
+[00:34:27.199] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x37C240
+[00:34:27.203] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x466A24
+[00:34:27.205] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x3F55E4
+[00:34:27.207] |I| [load_app_impl]: Main executable ITH_Project (eboot.bin) loaded
+[00:34:27.236] |D| [run_app]: Running module_start of library: SceLibc at address 0x4871
+[00:34:27.305] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[00:34:27.305] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[00:34:27.309] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[00:34:27.323] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[00:34:27.333] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5B001
+[00:34:27.358] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[00:34:27.359] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[00:34:27.367] |D| [run_app]: Running module_start of library: SceUlt at address 0x91769
+[00:34:27.392] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[00:34:27.393] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[00:34:27.715] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[00:34:27.720] |W| [unimplemented_impl]: Unimplemented sceMotionGetAngleThreshold import called.
+[00:34:27.722] |I| [load_module]: Loading module ID: 0x13
+[00:34:27.732] |I| [load_self]: sys/external/libsystemgesture.suprx: Skipping special segment 0x6FFFFF01...
+[00:34:27.734] |I| [load_self]: Loaded module segment 0 @ [0x00784000 - 0x0078708C / 0x81000000] (size: 0x0000308C) of module sys/external/libsystemgesture.suprx
+[00:34:27.748] |I| [load_self]: Loaded module segment 1 @ [0x0598F000 - 0x0598FBF0 / 0x81004000] (size: 0x00000BF0) of module sys/external/libsystemgesture.suprx
+[00:34:27.757] |I| [load_self]: Linking SELF sys/external/libsystemgesture.suprx...
+[00:34:27.763] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x787074
+[00:34:27.767] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x786BD4
+[00:34:27.772] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") loaded
+[00:34:27.776] |D| [load_module]: Running module_start of module: SceSystemGesture
+[00:34:27.779] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") module_start returned 0x0
+[00:34:27.793] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x6078A08B sceSystemGestureInitializePrimitiveTouchRecognizer at 0x37C1B4
+[00:34:27.806] |W| [unimplemented_impl]: Unimplemented sceTouchGetPixelDensity2 import called.
+[00:34:27.810] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xC3367370 sceSystemGestureCreateTouchRecognizer at 0x37C1E4
+[00:34:27.813] |E| [call_import]: Import function for NID 0xE340C078 not found (thread name: PCSG00656, thread ID: 7)
+[00:34:27.890] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[00:34:27.891] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[00:34:28.227] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[00:34:28.228] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[00:34:28.473] |T| [write_file]: *** TTY: 0 : param == NULL
+[00:34:28.476] |T| [write_file]: *** TTY: 1 : param == NULL
+[00:34:28.483] |T| [write_file]: *** TTY: 2 : param == NULL
+[00:34:28.485] |T| [write_file]: *** TTY: 3 : param == NULL
+[00:34:28.488] |T| [write_file]: *** TTY: 4 : param == NULL
+[00:34:28.489] |T| [write_file]: *** TTY: 5 : param == NULL
+[00:34:28.491] |T| [write_file]: *** TTY: 6 : param == NULL
+[00:34:28.496] |T| [write_file]: *** TTY: 7 : param == NULL
+[00:34:28.498] |T| [write_file]: *** TTY: 8 : param == NULL
+[00:34:28.500] |T| [write_file]: *** TTY: 9 : param == NULL
+[00:34:28.502] |T| [write_file]: *** TTY: 10 : param == NULL
+[00:34:28.504] |T| [write_file]: *** TTY: 11 : param != NULL
+[00:34:28.505] |T| [write_file]: *** TTY: 12 : param == NULL
+[00:34:28.508] |T| [write_file]: *** TTY: 13 : param == NULL
+[00:34:28.512] |T| [write_file]: *** TTY: 14 : param != NULL
+[00:34:28.527] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
+[00:34:28.685] |T| [export_sceNgsPatchCreateRouting]: Patching 0x5D49080:0:0 to 0x5D4DF80:0
+[00:34:28.770] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/NETHIGH.acf
+[00:34:28.771] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/NETHIGH.acf (ux0:/app/PCSG00656/resource/sound/NETHIGH.acf), fd: 0x3
+[00:34:28.785] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[00:34:28.792] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/NETHIGH.acf
+[00:34:28.794] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/NETHIGH.acf (ux0:/app/PCSG00656/resource/sound/NETHIGH.acf), fd: 0x4
+[00:34:28.811] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[00:34:28.892] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/SYSTEM.acb
+[00:34:28.893] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/SYSTEM.acb (ux0:/app/PCSG00656/resource/sound/SYSTEM.acb), fd: 0x5
+[00:34:28.905] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[00:34:28.915] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/SYSTEM.acb
+[00:34:28.917] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/SYSTEM.acb (ux0:/app/PCSG00656/resource/sound/SYSTEM.acb), fd: 0x6
+[00:34:28.928] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[00:34:28.956] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/BGM.acb
+[00:34:28.956] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/BGM.acb (ux0:/app/PCSG00656/resource/sound/BGM.acb), fd: 0x7
+[00:34:28.960] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[00:34:28.964] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/BGM.acb
+[00:34:28.967] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/BGM.acb (ux0:/app/PCSG00656/resource/sound/BGM.acb), fd: 0x8
+[00:34:28.973] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[00:34:28.986] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/BGM.awb
+[00:34:28.988] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/BGM.awb (ux0:/app/PCSG00656/resource/sound/BGM.awb), fd: 0x9
+[00:34:29.126] |I| [export_sceIoOpen]: Opening file: app0:/resource.psarc
+[00:34:29.127] |T| [open_file]: sceIoOpen: Opening file app0:/resource.psarc (ux0:/app/PCSG00656/resource.psarc), fd: 0xA
+[00:34:29.180] |T| [close_file]: sceIoClose: Closing file fd: 0xA
+[00:34:29.203] |I| [export_sceIoOpen]: Opening file: app0:/resource.psarc
+[00:34:29.203] |T| [open_file]: sceIoOpen: Opening file app0:/resource.psarc (ux0:/app/PCSG00656/resource.psarc), fd: 0xB
+[00:34:29.397] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[00:34:29.397] |W| [unimplemented_impl]: Unimplemented sceMotionMagnetometerOn import called.
+[00:34:29.403] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xD941B90 sceSystemGestureResetTouchRecognizer at 0x37C1A4
+[00:34:29.437] |I| [export_sceIoOpen]: Opening file: app0:/resource/font/FOT-SkipStd-D.otf
+[00:34:29.438] |T| [open_file]: sceIoOpen: Opening file app0:/resource/font/FOT-SkipStd-D.otf (ux0:/app/PCSG00656/resource/font/FOT-SkipStd-D.otf), fd: 0xC
+[00:34:29.447] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/resource/font/FOT-SkipStd-D.otf
+
+[00:34:29.467] |W| [unimplemented_impl]: Unimplemented sceIoIoctl import called.
+[00:34:29.475] |T| [close_file]: sceIoClose: Closing file fd: 0xC
+[00:34:29.646] |I| [export_sceIoOpen]: Opening file: app0:/resource/font/FOT-RodinCattleyaPro-B_2.otf
+[00:34:29.648] |T| [open_file]: sceIoOpen: Opening file app0:/resource/font/FOT-RodinCattleyaPro-B_2.otf (ux0:/app/PCSG00656/resource/font/FOT-RodinCattleyaPro-B_2.otf), fd: 0xD
+[00:34:29.666] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/resource/font/FOT-RodinCattleyaPro-B_2.otf
+
+[00:34:29.686] |T| [close_file]: sceIoClose: Closing file fd: 0xD
+[00:34:29.705] |I| [export_sceIoOpen]: Opening file: app0:/resource/font/FOT-SkipStd-D.otf
+[00:34:29.706] |T| [open_file]: sceIoOpen: Opening file app0:/resource/font/FOT-SkipStd-D.otf (ux0:/app/PCSG00656/resource/font/FOT-SkipStd-D.otf), fd: 0xE
+[00:34:29.730] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/resource/font/FOT-SkipStd-D.otf
+
+[00:34:29.740] |T| [close_file]: sceIoClose: Closing file fd: 0xE
+[00:34:29.763] |I| [export_sceIoOpen]: Opening file: app0:/resource/font/FOT-UDKakugo_LargePro-B.otf
+[00:34:29.765] |T| [open_file]: sceIoOpen: Opening file app0:/resource/font/FOT-UDKakugo_LargePro-B.otf (ux0:/app/PCSG00656/resource/font/FOT-UDKakugo_LargePro-B.otf), fd: 0xF
+[00:34:29.783] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/resource/font/FOT-UDKakugo_LargePro-B.otf
+
+[00:34:29.785] |T| [close_file]: sceIoClose: Closing file fd: 0xF
+[00:34:29.867] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[00:34:29.912] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSG00656, thread ID: 7)
+[00:34:29.918] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[00:34:29.930] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR09054_00/TROPHY.TRP (ux0:/app/PCSG00656/sce_sys/trophy/NPWR09054_00/TROPHY.TRP), fd: 0x10
+[00:34:29.936] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR09054_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR09054_00/TROPUSR.DAT), fd: 0x11
+[00:34:29.948] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR09054_00/TROPCONF.SFM), fd: 0x12
+[00:34:29.965] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 2566
+[00:34:29.974] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[00:34:29.979] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR09054_00/TROP.SFM), fd: 0x13
+[00:34:29.988] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 6432
+[00:34:29.999] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[00:34:30.011] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP_00.SFM (ux0:/user/00/trophy/conf/NPWR09054_00/TROP_00.SFM), fd: 0x14
+[00:34:30.025] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 7176
+[00:34:30.028] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[00:34:30.041] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/ICON0.PNG), fd: 0x15
+[00:34:30.048] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 91389
+[00:34:30.049] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[00:34:30.058] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/ICON0_00.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/ICON0_00.PNG), fd: 0x16
+[00:34:30.065] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 91389
+[00:34:30.073] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[00:34:30.077] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP000.PNG), fd: 0x17
+[00:34:30.087] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 108169
+[00:34:30.092] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[00:34:30.100] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP001.PNG), fd: 0x18
+[00:34:30.112] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 106821
+[00:34:30.124] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[00:34:30.132] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP002.PNG), fd: 0x19
+[00:34:30.148] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 106821
+[00:34:30.156] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[00:34:30.165] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP003.PNG), fd: 0x1A
+[00:34:30.174] |T| [write_file]: install_trophy_context: Writing to fd: 0x1A, size: 106821
+[00:34:30.187] |T| [close_file]: install_trophy_context: Closing file fd: 0x1A
+[00:34:30.193] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP004.PNG), fd: 0x1B
+[00:34:30.203] |T| [write_file]: install_trophy_context: Writing to fd: 0x1B, size: 106821
+[00:34:30.211] |T| [close_file]: install_trophy_context: Closing file fd: 0x1B
+[00:34:30.215] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP005.PNG), fd: 0x1C
+[00:34:30.230] |T| [write_file]: install_trophy_context: Writing to fd: 0x1C, size: 106821
+[00:34:30.232] |T| [close_file]: install_trophy_context: Closing file fd: 0x1C
+[00:34:30.235] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP006.PNG), fd: 0x1D
+[00:34:30.249] |T| [write_file]: install_trophy_context: Writing to fd: 0x1D, size: 106821
+[00:34:30.263] |T| [close_file]: install_trophy_context: Closing file fd: 0x1D
+[00:34:30.269] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP007.PNG), fd: 0x1E
+[00:34:30.280] |T| [write_file]: install_trophy_context: Writing to fd: 0x1E, size: 106821
+[00:34:30.291] |T| [close_file]: install_trophy_context: Closing file fd: 0x1E
+[00:34:30.299] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP008.PNG), fd: 0x1F
+[00:34:30.322] |T| [write_file]: install_trophy_context: Writing to fd: 0x1F, size: 106821
+[00:34:30.333] |T| [close_file]: install_trophy_context: Closing file fd: 0x1F
+[00:34:30.344] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP009.PNG), fd: 0x20
+[00:34:30.367] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 106821
+[00:34:30.376] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[00:34:30.382] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP010.PNG), fd: 0x21
+[00:34:30.389] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 106821
+[00:34:30.396] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[00:34:30.403] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP011.PNG), fd: 0x22
+[00:34:30.420] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 106821
+[00:34:30.424] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[00:34:30.427] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP012.PNG), fd: 0x23
+[00:34:30.439] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 106821
+[00:34:30.445] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[00:34:30.453] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP013.PNG), fd: 0x24
+[00:34:30.461] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 101662
+[00:34:30.463] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[00:34:30.470] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP014.PNG), fd: 0x25
+[00:34:30.475] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 101662
+[00:34:30.476] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[00:34:30.479] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP015.PNG), fd: 0x26
+[00:34:30.488] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 98874
+[00:34:30.489] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[00:34:30.492] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP016.PNG), fd: 0x27
+[00:34:30.499] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 98874
+[00:34:30.501] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[00:34:30.506] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP017.PNG), fd: 0x28
+[00:34:30.512] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 98874
+[00:34:30.514] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[00:34:30.518] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP018.PNG), fd: 0x29
+[00:34:30.527] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 98874
+[00:34:30.529] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[00:34:30.532] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP019.PNG), fd: 0x2A
+[00:34:30.536] |T| [write_file]: install_trophy_context: Writing to fd: 0x2A, size: 106821
+[00:34:30.538] |T| [close_file]: install_trophy_context: Closing file fd: 0x2A
+[00:34:30.546] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP020.PNG), fd: 0x2B
+[00:34:30.554] |T| [write_file]: install_trophy_context: Writing to fd: 0x2B, size: 106821
+[00:34:30.559] |T| [close_file]: install_trophy_context: Closing file fd: 0x2B
+[00:34:30.562] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP021.PNG), fd: 0x2C
+[00:34:30.566] |T| [write_file]: install_trophy_context: Writing to fd: 0x2C, size: 106821
+[00:34:30.568] |T| [close_file]: install_trophy_context: Closing file fd: 0x2C
+[00:34:30.573] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP022.PNG), fd: 0x2D
+[00:34:30.576] |T| [write_file]: install_trophy_context: Writing to fd: 0x2D, size: 106821
+[00:34:30.579] |T| [close_file]: install_trophy_context: Closing file fd: 0x2D
+[00:34:30.582] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP023.PNG), fd: 0x2E
+[00:34:30.585] |T| [write_file]: install_trophy_context: Writing to fd: 0x2E, size: 106821
+[00:34:30.590] |T| [close_file]: install_trophy_context: Closing file fd: 0x2E
+[00:34:30.593] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP024.PNG), fd: 0x2F
+[00:34:30.597] |T| [write_file]: install_trophy_context: Writing to fd: 0x2F, size: 106821
+[00:34:30.603] |T| [close_file]: install_trophy_context: Closing file fd: 0x2F
+[00:34:30.606] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP025.PNG), fd: 0x30
+[00:34:30.610] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 106821
+[00:34:30.612] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[00:34:30.614] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP026.PNG), fd: 0x31
+[00:34:30.621] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 106821
+[00:34:30.623] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[00:34:30.626] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP027.PNG), fd: 0x32
+[00:34:30.631] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 98874
+[00:34:30.637] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[00:34:30.641] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP028.PNG), fd: 0x33
+[00:34:30.650] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 98874
+[00:34:30.652] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[00:34:30.655] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP029.PNG), fd: 0x34
+[00:34:30.658] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 98874
+[00:34:30.661] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[00:34:30.668] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP030.PNG), fd: 0x35
+[00:34:30.672] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 98874
+[00:34:30.674] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[00:34:30.676] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP031.PNG), fd: 0x36
+[00:34:30.683] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 98874
+[00:34:30.685] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[00:34:30.688] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP032.PNG), fd: 0x37
+[00:34:30.698] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 98874
+[00:34:30.703] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[00:34:30.710] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP033.PNG), fd: 0x38
+[00:34:30.717] |T| [write_file]: install_trophy_context: Writing to fd: 0x38, size: 98874
+[00:34:30.719] |T| [close_file]: install_trophy_context: Closing file fd: 0x38
+[00:34:30.729] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP034.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP034.PNG), fd: 0x39
+[00:34:30.742] |T| [write_file]: install_trophy_context: Writing to fd: 0x39, size: 106821
+[00:34:30.750] |T| [close_file]: install_trophy_context: Closing file fd: 0x39
+[00:34:30.760] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP035.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP035.PNG), fd: 0x3A
+[00:34:30.773] |T| [write_file]: install_trophy_context: Writing to fd: 0x3A, size: 101662
+[00:34:30.780] |T| [close_file]: install_trophy_context: Closing file fd: 0x3A
+[00:34:30.790] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP036.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP036.PNG), fd: 0x3B
+[00:34:30.808] |T| [write_file]: install_trophy_context: Writing to fd: 0x3B, size: 98874
+[00:34:30.815] |T| [close_file]: install_trophy_context: Closing file fd: 0x3B
+[00:34:30.824] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09054_00/TROP037.PNG (ux0:/user/00/trophy/conf/NPWR09054_00/TROP037.PNG), fd: 0x3C
+[00:34:30.842] |T| [write_file]: install_trophy_context: Writing to fd: 0x3C, size: 101662
+[00:34:30.850] |T| [close_file]: install_trophy_context: Closing file fd: 0x3C
+[00:34:30.855] |T| [close_file]: create_trophy_context: Closing file fd: 0x11
+[00:34:30.866] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR09054_00 create successfuly!
+[00:34:30.891] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[00:34:31.032] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xEE681E1D sceFiosFHOpenWithModeSync at 0x404C0
+[00:34:31.036] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xA75F3C4A sceFiosFHSeek at 0x40460
+[00:34:31.041] |E| [call_import]: Import function for NID 0xE340C006 not found (thread name: PCSG00656, thread ID: 7)
+[00:34:31.046] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xB309E327 sceFiosIsValidHandle at 0x40480
+[00:34:31.050] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x76945919 sceFiosFHReadSync at 0x40440
+[00:34:31.065] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x45182328 sceFiosFHCloseSync at 0x40420
+[00:34:31.106] |E| [logging::ret_error_impl]: sceGxmTextureSetMinFilter returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
+[00:34:31.316] |W| [unimplemented_impl]: Unimplemented sceAppUtilSaveDataMount import called.
+[00:34:31.321] |I| [export_sceIoOpen]: Opening file: savedata1:ithi0030.bin
+[00:34:31.326] |T| [open_file]: sceIoOpen: Opening file savedata1:ithi0030.bin (ux0:/user/00/savedata/PCSG00656/ithi0030.bin), fd: 0x3D
+[00:34:31.330] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_30.bin (ux0:/user/00/savedata/PCSG00656/SlotParam_30.bin), fd: 0x3E
+[00:34:31.343] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x3E
+[00:34:31.351] |T| [close_file]: sceIoClose: Closing file fd: 0x3D
+[00:34:31.356] |W| [unimplemented_impl]: Unimplemented sceAppUtilSaveDataUmount import called.
+[00:34:31.359] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0030.bin
+[00:34:31.373] |T| [open_file]: sceIoOpen: Opening file savedata0:ithi0030.bin (ux0:/user/00/savedata/PCSG00656/ithi0030.bin), fd: 0x3F
+[00:34:31.388] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_30.bin (ux0:/user/00/savedata/PCSG00656/SlotParam_30.bin), fd: 0x40
+[00:34:31.398] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x40
+[00:34:31.413] |T| [close_file]: sceIoClose: Closing file fd: 0x3F
+[00:34:31.426] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
+[00:34:31.431] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xDF4C665A sceSystemGestureUpdatePrimitiveTouchRecognizer at 0x37C204
+[00:34:31.454] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xC750D3DA sceSystemGestureGetPrimitiveTouchEvents at 0x37C1F4
+[00:34:31.459] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x851FB144 sceSystemGestureUpdateTouchRecognizer at 0x37C1D4
+[00:34:31.468] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x789D867C sceSystemGestureGetTouchEvents at 0x37C1C4
+[00:34:31.501] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e4e01ecdb7464643d512417110bb3b4b3ded83058b2ec7e5f9404ab34ff1aa93
+[00:34:31.502] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[00:34:31.504] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader e4e01ecdb7464643d512417110bb3b4b3ded83058b2ec7e5f9404ab34ff1aa93
+[00:34:31.513] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[00:34:31.514] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[00:34:31.532] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8eb970c97280b55801e69d433a7d849e136d6b30edcdebaba310b5891f1f692f
+[00:34:31.534] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8eb970c97280b55801e69d433a7d849e136d6b30edcdebaba310b5891f1f692f
+[00:34:31.538] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) clearColor
+[00:34:31.539] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[00:34:37.582] |W| [stubbed_impl]: Stubbed sceKernelSendSignal import called. (sceKernelSendSignal)
+[00:34:37.604] |I| [export_sceIoOpen]: Opening file: app0:/resource/movie/marvelous_logo.usm
+[00:34:37.605] |T| [open_file]: sceIoOpen: Opening file app0:/resource/movie/marvelous_logo.usm (ux0:/app/PCSG00656/resource/movie/marvelous_logo.usm), fd: 0x41
+[00:34:37.630] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 88bc5a2c6450b49fd5f06a0c49faa836063c27bb4af0f691f5fd1948c34ac4ce
+[00:34:37.632] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 88bc5a2c6450b49fd5f06a0c49faa836063c27bb4af0f691f5fd1948c34ac4ce
+[00:34:37.635] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[00:34:37.636] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexcoord
+[00:34:37.642] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float2) displayOffset
+[00:34:37.643] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (float2) sizeInDisplay
+[00:34:37.647] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) textureOffset
+[00:34:37.648] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float2) sizeInTexture
+[00:34:37.651] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float1) depth
+[00:34:37.655] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) worldMat[2]
+[00:34:37.657] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) blunch
+[00:34:37.659] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ps
+[00:34:37.663] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float2) basepos
+[00:34:37.665] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float2) basePosVH
+[00:34:37.672] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[00:34:37.703] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[00:34:37.713] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 7
+[00:34:37.739] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_11, size = 2
+[00:34:37.748] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_14, size = 4
+[00:34:37.758] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_18, size = 4
+[00:34:37.773] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_23, size = 3
+[00:34:37.783] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_26, size = 1
+[00:34:37.786] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_27, size = 1
+[00:34:37.789] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_28, size = 1
+[00:34:37.794] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_29, size = 3
+[00:34:37.800] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_32, size = 1
+[00:34:37.804] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_33, size = 8
+[00:34:37.827] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_42, size = 2
+[00:34:37.832] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_45, size = 3
+[00:34:37.842] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_48, size = 4
+[00:34:37.850] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_52, size = 1
+[00:34:37.874] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b6ba26020265d53ad489017f03d2f27cde184cc28551f7f0189f0734b66e6de6
+[00:34:37.878] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader b6ba26020265d53ad489017f03d2f27cde184cc28551f7f0189f0734b66e6de6
+[00:34:37.889] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) colorCoeff
+[00:34:37.890] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(tex, TEXCOORD0.xy)
+[00:34:37.893] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[00:34:37.938] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 93c90419e216854165fc07d6e2915c5ee05f964b8a7865bc42e007496d6717bd
+[00:34:37.941] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 93c90419e216854165fc07d6e2915c5ee05f964b8a7865bc42e007496d6717bd
+[00:34:37.944] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[00:34:37.945] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) offset
+[00:34:37.948] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) size
+[00:34:37.950] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) depth
+[00:34:37.953] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[00:34:37.962] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[00:34:37.976] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 02982e92fb5233d76f5269a2f34aa295680febc1b9b4cdc8e06b070dc90a33b3
+[00:34:37.979] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 02982e92fb5233d76f5269a2f34aa295680febc1b9b4cdc8e06b070dc90a33b3
+[00:34:37.984] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color
+[00:34:37.985] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[00:34:41.503] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f4e551ff999e630ea8a9c77fdf8bb8180b2fc6562bf3e4b50af7a24e3d8a6c4e
+[00:34:41.509] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader f4e551ff999e630ea8a9c77fdf8bb8180b2fc6562bf3e4b50af7a24e3d8a6c4e
+[00:34:41.512] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[00:34:41.516] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord
+[00:34:41.521] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[00:34:41.545] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8e4e8a6cdd459794cf0b2052f0337d0e9735524813ce52d70ca15ec083ed5e1b
+[00:34:41.550] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8e4e8a6cdd459794cf0b2052f0337d0e9735524813ce52d70ca15ec083ed5e1b
+[00:34:41.557] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(tex, TEXCOORD0.xy)
+[00:34:41.558] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[00:34:41.901] |T| [export_sceNgsPatchCreateRouting]: Patching 0x5D3B590:0:0 to 0x5D49080:0
+[00:34:44.617] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[00:34:49.369] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0000.bin
+[00:34:49.369] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0000.bin (target path: savedata0:ithi0000.bin)
+[00:34:49.373] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.381] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0001.bin
+[00:34:49.384] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0001.bin (target path: savedata0:ithi0001.bin)
+[00:34:49.395] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.399] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0002.bin
+[00:34:49.402] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0002.bin (target path: savedata0:ithi0002.bin)
+[00:34:49.412] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.416] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0003.bin
+[00:34:49.418] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0003.bin (target path: savedata0:ithi0003.bin)
+[00:34:49.428] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.431] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0004.bin
+[00:34:49.436] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0004.bin (target path: savedata0:ithi0004.bin)
+[00:34:49.443] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.446] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0005.bin
+[00:34:49.448] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0005.bin (target path: savedata0:ithi0005.bin)
+[00:34:49.457] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.460] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0006.bin
+[00:34:49.462] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0006.bin (target path: savedata0:ithi0006.bin)
+[00:34:49.468] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.476] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0007.bin
+[00:34:49.484] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0007.bin (target path: savedata0:ithi0007.bin)
+[00:34:49.491] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.503] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0008.bin
+[00:34:49.518] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0008.bin (target path: savedata0:ithi0008.bin)
+[00:34:49.533] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.537] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0009.bin
+[00:34:49.549] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0009.bin (target path: savedata0:ithi0009.bin)
+[00:34:49.558] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.567] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0010.bin
+[00:34:49.572] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0010.bin (target path: savedata0:ithi0010.bin)
+[00:34:49.595] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.594] |T| [export_sceNgsPatchCreateRouting]: Patching 0x5D3FEFC:0:0 to 0x5D49080:0
+[00:34:49.601] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0011.bin
+[00:34:49.616] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0011.bin (target path: savedata0:ithi0011.bin)
+[00:34:49.627] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.632] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0012.bin
+[00:34:49.637] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0012.bin (target path: savedata0:ithi0012.bin)
+[00:34:49.645] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.655] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0013.bin
+[00:34:49.661] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0013.bin (target path: savedata0:ithi0013.bin)
+[00:34:49.676] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.683] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0014.bin
+[00:34:49.691] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0014.bin (target path: savedata0:ithi0014.bin)
+[00:34:49.709] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.722] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0015.bin
+[00:34:49.735] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0015.bin (target path: savedata0:ithi0015.bin)
+[00:34:49.742] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.751] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0016.bin
+[00:34:49.762] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0016.bin (target path: savedata0:ithi0016.bin)
+[00:34:49.767] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.777] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0017.bin
+[00:34:49.783] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0017.bin (target path: savedata0:ithi0017.bin)
+[00:34:49.798] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.807] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0018.bin
+[00:34:49.814] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0018.bin (target path: savedata0:ithi0018.bin)
+[00:34:49.827] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.831] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0019.bin
+[00:34:49.843] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0019.bin (target path: savedata0:ithi0019.bin)
+[00:34:49.850] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.856] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0020.bin
+[00:34:49.862] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0020.bin (target path: savedata0:ithi0020.bin)
+[00:34:49.876] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.884] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0021.bin
+[00:34:49.891] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0021.bin (target path: savedata0:ithi0021.bin)
+[00:34:49.906] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.916] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0022.bin
+[00:34:49.922] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0022.bin (target path: savedata0:ithi0022.bin)
+[00:34:49.938] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.944] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0023.bin
+[00:34:49.951] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0023.bin (target path: savedata0:ithi0023.bin)
+[00:34:49.969] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.978] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0024.bin
+[00:34:49.982] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0024.bin (target path: savedata0:ithi0024.bin)
+[00:34:49.992] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:49.998] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0025.bin
+[00:34:50.006] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0025.bin (target path: savedata0:ithi0025.bin)
+[00:34:50.015] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:50.020] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0026.bin
+[00:34:50.024] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0026.bin (target path: savedata0:ithi0026.bin)
+[00:34:50.035] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:50.040] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0027.bin
+[00:34:50.045] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0027.bin (target path: savedata0:ithi0027.bin)
+[00:34:50.058] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:50.069] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0028.bin
+[00:34:50.073] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0028.bin (target path: savedata0:ithi0028.bin)
+[00:34:50.082] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:50.084] |I| [export_sceIoOpen]: Opening file: savedata0:ithi0029.bin
+[00:34:50.089] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00656/ithi0029.bin (target path: savedata0:ithi0029.bin)
+[00:34:50.104] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:34:50.123] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/voice_acb/Sys_Kur.acb
+[00:34:50.126] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/voice_acb/Sys_Kur.acb (ux0:/app/PCSG00656/resource/sound/voice_acb/Sys_Kur.acb), fd: 0x42
+[00:34:50.136] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[00:34:50.139] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/voice_acb/Sys_Kur.acb
+[00:34:50.141] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/voice_acb/Sys_Kur.acb (ux0:/app/PCSG00656/resource/sound/voice_acb/Sys_Kur.acb), fd: 0x43
+[00:34:50.148] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[00:34:50.210] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/voice_awb/Sys_Kur.awb
+[00:34:50.211] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/voice_awb/Sys_Kur.awb (ux0:/app/PCSG00656/resource/sound/voice_awb/Sys_Kur.awb), fd: 0x44
+[00:34:51.039] |T| [export_sceNgsPatchCreateRouting]: Patching 0x5D40418:0:0 to 0x5D49080:0
+[00:34:55.031] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[00:34:55.032] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[00:34:55.060] |T| [export_sceNgsPatchCreateRouting]: Patching 0x5D3BC90:0:0 to 0x5D49080:0
+[00:34:56.032] |T| [write_file]: *** TTY: Live2D version 2.1.00 beta 1 for Vita
+[00:34:58.100] |I| [export_sceIoOpen]: Opening file: app0:/resource/font/FOT-SkipStd-D.otf
+[00:34:58.103] |T| [open_file]: sceIoOpen: Opening file app0:/resource/font/FOT-SkipStd-D.otf (ux0:/app/PCSG00656/resource/font/FOT-SkipStd-D.otf), fd: 0x45
+[00:34:58.119] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/resource/font/FOT-SkipStd-D.otf
+
+[00:34:58.146] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[00:34:58.354] |I| [export_sceIoOpen]: Opening file: app0:/resource/font/FOT-KafuTechnoStd-U.otf
+[00:34:58.356] |T| [open_file]: sceIoOpen: Opening file app0:/resource/font/FOT-KafuTechnoStd-U.otf (ux0:/app/PCSG00656/resource/font/FOT-KafuTechnoStd-U.otf), fd: 0x46
+[00:34:58.372] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/resource/font/FOT-KafuTechnoStd-U.otf
+
+[00:34:58.380] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[00:34:58.394] |I| [export_sceIoOpen]: Opening file: app0:/resource/font/FOT-KafuTechnoStd-U.otf
+[00:34:58.395] |T| [open_file]: sceIoOpen: Opening file app0:/resource/font/FOT-KafuTechnoStd-U.otf (ux0:/app/PCSG00656/resource/font/FOT-KafuTechnoStd-U.otf), fd: 0x47
+[00:34:58.405] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/resource/font/FOT-KafuTechnoStd-U.otf
+
+[00:34:58.414] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[00:34:58.585] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/GADGET_UI.acb
+[00:34:58.587] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/GADGET_UI.acb (ux0:/app/PCSG00656/resource/sound/GADGET_UI.acb), fd: 0x48
+[00:34:58.597] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[00:34:58.609] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/GADGET_UI.acb
+[00:34:58.612] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/GADGET_UI.acb (ux0:/app/PCSG00656/resource/sound/GADGET_UI.acb), fd: 0x49
+[00:34:58.621] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[00:34:58.635] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/ADV.acb
+[00:34:58.636] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/ADV.acb (ux0:/app/PCSG00656/resource/sound/ADV.acb), fd: 0x4A
+[00:34:58.652] |T| [close_file]: sceIoClose: Closing file fd: 0x4A
+[00:34:58.663] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/ADV.acb
+[00:34:58.665] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/ADV.acb (ux0:/app/PCSG00656/resource/sound/ADV.acb), fd: 0x4B
+[00:34:58.681] |T| [close_file]: sceIoClose: Closing file fd: 0x4B
+[00:34:59.193] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/BATTLE_TOURON.acb
+[00:34:59.194] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/BATTLE_TOURON.acb (ux0:/app/PCSG00656/resource/sound/BATTLE_TOURON.acb), fd: 0x4C
+[00:34:59.202] |T| [close_file]: sceIoClose: Closing file fd: 0x4C
+[00:34:59.206] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/BATTLE_TOURON.acb
+[00:34:59.207] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/BATTLE_TOURON.acb (ux0:/app/PCSG00656/resource/sound/BATTLE_TOURON.acb), fd: 0x4D
+[00:34:59.212] |T| [close_file]: sceIoClose: Closing file fd: 0x4D
+[00:34:59.382] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/SLG.acb
+[00:34:59.383] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/SLG.acb (ux0:/app/PCSG00656/resource/sound/SLG.acb), fd: 0x4E
+[00:34:59.391] |T| [close_file]: sceIoClose: Closing file fd: 0x4E
+[00:34:59.394] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/SLG.acb
+[00:34:59.396] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/SLG.acb (ux0:/app/PCSG00656/resource/sound/SLG.acb), fd: 0x4F
+[00:34:59.403] |T| [close_file]: sceIoClose: Closing file fd: 0x4F
+[00:34:59.490] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[00:35:00.409] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/BATTLE_ENZETSU.acb
+[00:35:00.411] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/BATTLE_ENZETSU.acb (ux0:/app/PCSG00656/resource/sound/BATTLE_ENZETSU.acb), fd: 0x50
+[00:35:00.425] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[00:35:00.434] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/BATTLE_ENZETSU.acb
+[00:35:00.440] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/BATTLE_ENZETSU.acb (ux0:/app/PCSG00656/resource/sound/BATTLE_ENZETSU.acb), fd: 0x51
+[00:35:00.448] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[00:35:00.570] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/c03_00.model.json
+[00:35:00.571] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/c03_00.model.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/c03_00.model.json), fd: 0x52
+[00:35:00.578] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[00:35:00.623] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/c03_00.model.moc
+[00:35:00.627] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/c03_00.model.moc (ux0:/app/PCSG00656/resource/l2dchara/c03_00/c03_00.model.moc), fd: 0x53
+[00:35:00.635] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[00:35:00.707] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 991dc2fc2cc2efc5c527e80ab592beaebdd72c80ff3deada8141c4ea9b533bd0
+[00:35:00.707] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/ADV.acb
+[00:35:00.709] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 991dc2fc2cc2efc5c527e80ab592beaebdd72c80ff3deada8141c4ea9b533bd0
+[00:35:00.712] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/ADV.acb (ux0:/app/PCSG00656/resource/sound/ADV.acb), fd: 0x54
+[00:35:00.716] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[00:35:00.717] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/c03_00.1024/texture_00.png
+[00:35:00.721] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[00:35:00.724] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexcoord
+[00:35:00.728] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/c03_00.1024/texture_00.png (ux0:/app/PCSG00656/resource/l2dchara/c03_00/c03_00.1024/texture_00.png), fd: 0x55
+[00:35:00.730] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) depth
+[00:35:00.730] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/ADV.acb
+[00:35:00.737] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float2) center
+[00:35:00.740] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/ADV.acb (ux0:/app/PCSG00656/resource/sound/ADV.acb), fd: 0x56
+[00:35:00.742] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) rot
+[00:35:00.744] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[00:35:00.746] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[00:35:00.746] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) scale
+[00:35:00.755] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 29
+[00:35:00.840] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 12
+[00:35:00.857] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/c03_00.1024/texture_01.png
+[00:35:00.864] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/c03_00.1024/texture_01.png (ux0:/app/PCSG00656/resource/l2dchara/c03_00/c03_00.1024/texture_01.png), fd: 0x57
+[00:35:00.873] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[00:35:00.883] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a63b3a7339c137d4d5162d52b01762e42e0fc86c544b6f31f66c0919c68371d0
+[00:35:00.884] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader a63b3a7339c137d4d5162d52b01762e42e0fc86c544b6f31f66c0919c68371d0
+[00:35:00.889] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) colorCoeff
+[00:35:00.892] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(tex, TEXCOORD0.xy)
+[00:35:00.894] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[00:35:00.977] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/c03_00.1024/texture_02.png
+[00:35:00.978] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/c03_00.1024/texture_02.png (ux0:/app/PCSG00656/resource/l2dchara/c03_00/c03_00.1024/texture_02.png), fd: 0x58
+[00:35:00.989] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[00:35:01.098] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/c03_00.1024/texture_03.png
+[00:35:01.100] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/c03_00.1024/texture_03.png (ux0:/app/PCSG00656/resource/l2dchara/c03_00/c03_00.1024/texture_03.png), fd: 0x59
+[00:35:01.113] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[00:35:01.227] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/c03_00.1024/texture_04.png
+[00:35:01.229] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/c03_00.1024/texture_04.png (ux0:/app/PCSG00656/resource/l2dchara/c03_00/c03_00.1024/texture_04.png), fd: 0x5A
+[00:35:01.241] |T| [close_file]: sceIoClose: Closing file fd: 0x5A
+[00:35:01.357] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h00.json
+[00:35:01.358] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h00.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h00.json), fd: 0x5B
+[00:35:01.365] |T| [close_file]: sceIoClose: Closing file fd: 0x5B
+[00:35:01.396] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h01.json
+[00:35:01.398] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h01.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h01.json), fd: 0x5C
+[00:35:01.405] |T| [close_file]: sceIoClose: Closing file fd: 0x5C
+[00:35:01.412] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h01t.json
+[00:35:01.413] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h01t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h01t.json), fd: 0x5D
+[00:35:01.422] |T| [close_file]: sceIoClose: Closing file fd: 0x5D
+[00:35:01.425] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h02.json
+[00:35:01.428] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h02.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h02.json), fd: 0x5E
+[00:35:01.435] |T| [close_file]: sceIoClose: Closing file fd: 0x5E
+[00:35:01.439] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h02_t.json
+[00:35:01.440] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h02_t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h02_t.json), fd: 0x5F
+[00:35:01.450] |T| [close_file]: sceIoClose: Closing file fd: 0x5F
+[00:35:01.454] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h03.json
+[00:35:01.457] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h03.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h03.json), fd: 0x60
+[00:35:01.464] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[00:35:01.468] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h03_t.json
+[00:35:01.470] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h03_t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h03_t.json), fd: 0x61
+[00:35:01.473] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[00:35:01.481] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h04.json
+[00:35:01.483] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h04.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h04.json), fd: 0x62
+[00:35:01.488] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[00:35:01.493] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h05.json
+[00:35:01.497] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h05.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h05.json), fd: 0x63
+[00:35:01.502] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[00:35:01.508] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h05_t.json
+[00:35:01.512] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h05_t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h05_t.json), fd: 0x64
+[00:35:01.517] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[00:35:01.520] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h06.json
+[00:35:01.526] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h06.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h06.json), fd: 0x65
+[00:35:01.530] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[00:35:01.536] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h06_t.json
+[00:35:01.537] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h06_t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h06_t.json), fd: 0x66
+[00:35:01.544] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[00:35:01.550] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h07.json
+[00:35:01.553] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h07.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h07.json), fd: 0x67
+[00:35:01.561] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[00:35:01.565] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h07_t.json
+[00:35:01.566] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h07_t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h07_t.json), fd: 0x68
+[00:35:01.573] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[00:35:01.577] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h08.json
+[00:35:01.580] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h08.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h08.json), fd: 0x69
+[00:35:01.588] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[00:35:01.594] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h09.json
+[00:35:01.595] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h09.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h09.json), fd: 0x6A
+[00:35:01.604] |T| [close_file]: sceIoClose: Closing file fd: 0x6A
+[00:35:01.608] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h09_t.json
+[00:35:01.611] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h09_t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h09_t.json), fd: 0x6B
+[00:35:01.619] |T| [close_file]: sceIoClose: Closing file fd: 0x6B
+[00:35:01.624] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h10.json
+[00:35:01.626] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h10.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h10.json), fd: 0x6C
+[00:35:01.630] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/voice_acb/ADV_CH.acb
+[00:35:01.638] |T| [close_file]: sceIoClose: Closing file fd: 0x6C
+[00:35:01.639] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/voice_acb/ADV_CH.acb (ux0:/app/PCSG00656/resource/sound/voice_acb/ADV_CH.acb), fd: 0x6D
+[00:35:01.641] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h10_t.json
+[00:35:01.648] |T| [close_file]: sceIoClose: Closing file fd: 0x6D
+[00:35:01.650] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h10_t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h10_t.json), fd: 0x6E
+[00:35:01.653] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/voice_acb/ADV_CH.acb
+[00:35:01.655] |T| [close_file]: sceIoClose: Closing file fd: 0x6E
+[00:35:01.659] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/voice_acb/ADV_CH.acb (ux0:/app/PCSG00656/resource/sound/voice_acb/ADV_CH.acb), fd: 0x6F
+[00:35:01.665] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h11.json
+[00:35:01.668] |T| [close_file]: sceIoClose: Closing file fd: 0x6F
+[00:35:01.675] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h11.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h11.json), fd: 0x70
+[00:35:01.685] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[00:35:01.686] |I| [export_sceIoOpen]: Opening file: app0:/resource/sound/voice_awb/ADV_CH.awb
+[00:35:01.689] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h11_t.json
+[00:35:01.690] |T| [open_file]: sceIoOpen: Opening file app0:/resource/sound/voice_awb/ADV_CH.awb (ux0:/app/PCSG00656/resource/sound/voice_awb/ADV_CH.awb), fd: 0x71
+[00:35:01.698] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h11_t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h11_t.json), fd: 0x72
+[00:35:01.705] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[00:35:01.712] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h12.json
+[00:35:01.715] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h12.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h12.json), fd: 0x73
+[00:35:01.720] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[00:35:01.730] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h12_t.json
+[00:35:01.733] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h12_t.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h12_t.json), fd: 0x74
+[00:35:01.739] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[00:35:01.742] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h13.json
+[00:35:01.743] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h13.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h13.json), fd: 0x75
+[00:35:01.750] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[00:35:01.759] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h14.json
+[00:35:01.761] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_h14.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h14.json), fd: 0x76
+[00:35:01.763] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[00:35:01.767] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_h15.json
+[00:35:01.771] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_h15.json (target path: app0:/resource/l2dchara/c03_00/expressions/c06_00_h15.json)
+[00:35:01.779] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:35:01.783] |E| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint8_t at address: 0x0
+PC: 0x002a4130,   SP: 0x02bbadd0,   LR: 0x002a2c3d
+r0 : 0x02bbaddc   r6 : 0x00000000
+r1 : 0x00721e70   r7 : 0x00000000
+r2 : 0x00002ff4   r8 : 0x062187a0
+r3 : 0x00000000   r9 : 0x00000000
+r4 : 0x02bbaea8   r10: 0x00013a37
+r5 : 0x00000000   r11: 0x00000000
+r12: 0x00000000
+Thumb: true
+
+[00:35:01.789] |E| [ArmDynarmicCallback::MemoryRead]: Executing: cmp r6, sl
+[00:35:01.790] |C| [handle_access_violation]: Unhandled write protected region was valid. Address=0x1
+[00:35:01.797] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_lh00.json
+[00:35:01.798] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_lh00.json (target path: app0:/resource/l2dchara/c03_00/expressions/c06_00_lh00.json)
+[00:35:01.808] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[00:35:01.813] |E| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint8_t at address: 0x0
+PC: 0x002a4136,   SP: 0x02bbadd0,   LR: 0x002a2c3d
+r0 : 0x02bbaddc   r6 : 0x00000000
+r1 : 0x00721e70   r7 : 0x00000000
+r2 : 0x00003006   r8 : 0x062187a0
+r3 : 0x00000000   r9 : 0x00000000
+r4 : 0x02bbaea8   r10: 0x00013a37
+r5 : 0x00000000   r11: 0x00000000
+r12: 0x00000000
+Thumb: true
+
+[00:35:01.823] |E| [ArmDynarmicCallback::MemoryRead]: Executing: add.w ip, r6, sb
+[00:35:01.827] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/expressions/c06_00_lh01.json
+[00:35:01.835] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/expressions/c06_00_lh01.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/expressions/c06_00_lh01.json), fd: 0x77
+[00:35:01.841] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[00:35:01.853] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/c03_00.pose.json
+[00:35:01.854] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/c03_00.pose.json (ux0:/app/PCSG00656/resource/l2dchara/c03_00/c03_00.pose.json), fd: 0x78
+[00:35:01.866] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[00:35:01.952] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_d00.mtn
+[00:35:01.953] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_d00.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_d00.mtn), fd: 0x79
+[00:35:01.958] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[00:35:01.977] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_d01.mtn
+[00:35:01.978] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_d01.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_d01.mtn), fd: 0x7A
+[00:35:01.988] |T| [close_file]: sceIoClose: Closing file fd: 0x7A
+[00:35:01.993] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_d02.mtn
+[00:35:01.996] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_d02.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_d02.mtn), fd: 0x7B
+[00:35:02.002] |T| [close_file]: sceIoClose: Closing file fd: 0x7B
+[00:35:02.005] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_d03.mtn
+[00:35:02.009] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_d03.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_d03.mtn), fd: 0x7C
+[00:35:02.020] |T| [close_file]: sceIoClose: Closing file fd: 0x7C
+[00:35:02.023] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m00.mtn
+[00:35:02.027] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m00.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m00.mtn), fd: 0x7D
+[00:35:02.033] |T| [close_file]: sceIoClose: Closing file fd: 0x7D
+[00:35:02.036] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m01.mtn
+[00:35:02.037] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m01.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m01.mtn), fd: 0x7E
+[00:35:02.042] |T| [close_file]: sceIoClose: Closing file fd: 0x7E
+[00:35:02.051] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m02.mtn
+[00:35:02.053] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m02.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m02.mtn), fd: 0x7F
+[00:35:02.059] |T| [close_file]: sceIoClose: Closing file fd: 0x7F
+[00:35:02.066] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m03.mtn
+[00:35:02.068] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m03.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m03.mtn), fd: 0x80
+[00:35:02.073] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[00:35:02.079] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m04.mtn
+[00:35:02.081] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m04.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m04.mtn), fd: 0x81
+[00:35:02.087] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[00:35:02.093] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m05.mtn
+[00:35:02.096] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m05.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m05.mtn), fd: 0x82
+[00:35:02.101] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[00:35:02.105] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m06.mtn
+[00:35:02.111] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m06.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m06.mtn), fd: 0x83
+[00:35:02.118] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[00:35:02.127] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m07.mtn
+[00:35:02.130] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m07.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m07.mtn), fd: 0x84
+[00:35:02.134] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[00:35:02.139] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m08.mtn
+[00:35:02.140] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m08.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m08.mtn), fd: 0x85
+[00:35:02.145] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[00:35:02.149] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m09.mtn
+[00:35:02.157] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m09.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m09.mtn), fd: 0x86
+[00:35:02.163] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[00:35:02.172] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m10.mtn
+[00:35:02.174] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m10.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m10.mtn), fd: 0x87
+[00:35:02.180] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[00:35:02.188] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m11.mtn
+[00:35:02.189] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m11.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m11.mtn), fd: 0x88
+[00:35:02.193] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[00:35:02.198] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m12.mtn
+[00:35:02.200] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m12.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m12.mtn), fd: 0x89
+[00:35:02.204] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[00:35:02.209] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m13.mtn
+[00:35:02.212] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m13.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m13.mtn), fd: 0x8A
+[00:35:02.218] |T| [close_file]: sceIoClose: Closing file fd: 0x8A
+[00:35:02.221] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m14.mtn
+[00:35:02.224] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m14.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m14.mtn), fd: 0x8B
+[00:35:02.226] |T| [close_file]: sceIoClose: Closing file fd: 0x8B
+[00:35:02.234] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m15.mtn
+[00:35:02.236] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m15.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m15.mtn), fd: 0x8C
+[00:35:02.240] |T| [close_file]: sceIoClose: Closing file fd: 0x8C
+[00:35:02.246] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m16.mtn
+[00:35:02.250] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m16.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m16.mtn), fd: 0x8D
+[00:35:02.255] |T| [close_file]: sceIoClose: Closing file fd: 0x8D
+[00:35:02.257] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m17.mtn
+[00:35:02.261] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m17.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m17.mtn), fd: 0x8E
+[00:35:02.264] |T| [close_file]: sceIoClose: Closing file fd: 0x8E
+[00:35:02.266] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m18.mtn
+[00:35:02.267] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m18.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m18.mtn), fd: 0x8F
+[00:35:02.270] |T| [close_file]: sceIoClose: Closing file fd: 0x8F
+[00:35:02.273] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m19.mtn
+[00:35:02.279] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m19.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m19.mtn), fd: 0x90
+[00:35:02.283] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[00:35:02.286] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m20.mtn
+[00:35:02.287] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m20.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m20.mtn), fd: 0x91
+[00:35:02.293] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[00:35:02.297] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m21.mtn
+[00:35:02.298] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m21.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m21.mtn), fd: 0x92
+[00:35:02.302] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[00:35:02.304] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m22.mtn
+[00:35:02.308] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m22.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m22.mtn), fd: 0x93
+[00:35:02.314] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[00:35:02.320] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m23.mtn
+[00:35:02.326] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m23.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m23.mtn), fd: 0x94
+[00:35:02.332] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[00:35:02.335] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m24.mtn
+[00:35:02.338] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m24.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m24.mtn), fd: 0x95
+[00:35:02.342] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[00:35:02.345] |I| [export_sceIoOpen]: Opening file: app0:/resource/l2dchara/c03_00/motions/c06_00_m06r.mtn
+[00:35:02.348] |T| [open_file]: sceIoOpen: Opening file app0:/resource/l2dchara/c03_00/motions/c06_00_m06r.mtn (ux0:/app/PCSG00656/resource/l2dchara/c03_00/motions/c06_00_m06r.mtn), fd: 0x96
+[00:35:02.356] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[00:35:10.728] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 11c4c1879f7164d95fe27ccb8adca7bc87682ad1cf41e335cef2b5cd2c308426
+[00:35:10.733] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 11c4c1879f7164d95fe27ccb8adca7bc87682ad1cf41e335cef2b5cd2c308426
+[00:35:10.737] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[00:35:10.741] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord
+[00:35:10.745] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) wvp[4]
+[00:35:10.747] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[00:35:10.769] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 0cd10ffd92b9c5f32ad0e30654700271c757708c4e5cb1e1ba6ab9e148b813f9
+[00:35:10.775] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 0cd10ffd92b9c5f32ad0e30654700271c757708c4e5cb1e1ba6ab9e148b813f9
+[00:35:10.779] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uBaseColor
+[00:35:10.782] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(testTex, TEXCOORD0.xy)
+[00:35:10.785] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[00:35:33.700] |T| [export_sceNgsPatchCreateRouting]: Patching 0x5D40934:0:0 to 0x5D49080:0
+[00:35:40.075] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[00:35:40.076] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[00:36:06.588] |E| [logging::ret_error_impl]: _sceKernelLockMutex returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)

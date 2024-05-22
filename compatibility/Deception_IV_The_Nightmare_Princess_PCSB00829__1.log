@@ -1,0 +1,816 @@
+[01:28:14.480] |I| [config::init_config]: backend-renderer: Vulkan
+[01:28:14.481] |I| [config::init_config]: log-level: 0
+[01:28:14.549] |I| [SDL_main]: Vita3K v0.1.8 3150-1b7e038d
+[01:28:14.549] |I| [SDL_main]: Number of logical CPU cores: 8
+[01:28:14.549] |I| [SDL_main]: Available ram memory: 16215 MiB
+[01:28:14.674] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[01:28:14.789] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060 Laptop GPU
+[01:28:14.790] |I| [renderer::vulkan::VKState::create]: Driver version: 531.29.0.0
+[01:28:14.791] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[01:28:15.250] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[01:28:15.917] |W| [compat::load_compat_app_db]: App with Title ID PCSF00012 has an issue but no status label. Please check GitHub issue 1464 and request a status label be added.
+[01:28:15.917] |W| [compat::load_compat_app_db]: App with Title ID PCSG01080 has an issue but no status label. Please check GitHub issue 1463 and request a status label be added.
+[01:28:16.623] |I| [compat::update_compat_app_db]: Applications compatibility database is outdated, attempting to download latest updated at: 05-10-2023 00:24:58
+[01:28:17.748] |W| [compat::load_compat_app_db]: App with Title ID PCSF00012 has an issue but no status label. Please check GitHub issue 1464 and request a status label be added.
+[01:28:17.748] |W| [compat::load_compat_app_db]: App with Title ID PCSG01080 has an issue but no status label. Please check GitHub issue 1463 and request a status label be added.
+[01:28:22.576] |I| [load_app_impl]: cpu-backend: Dynarmic
+[01:28:22.577] |I| [load_app_impl]: CPU Optimisation state: true
+[01:28:22.578] |I| [load_app_impl]: ngs state: true
+[01:28:22.579] |I| [load_app_impl]: Resolution multiplier: 1
+[01:28:22.579] |I| [load_app_impl]: modules mode: Automatic
+[01:28:22.580] |I| [load_app_impl]: Title: Deception IV: The Nightmare Princess
+[01:28:22.581] |I| [load_app_impl]: Serial: PCSB00829
+[01:28:22.582] |I| [load_app_impl]: Version: 1.00
+[01:28:22.582] |I| [load_app_impl]: Category: gd
+[01:28:22.621] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[01:28:22.622] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x00054C54 / 0x81000000] (size: 0x0004FC54) of module app0:sce_module/libc.suprx
+[01:28:22.623] |I| [load_self]: Loaded module segment 1 @ [0x00055000 - 0x00057688 / 0x81050000] (size: 0x00002688) of module app0:sce_module/libc.suprx
+[01:28:22.625] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[01:28:22.626] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x4a744
+[01:28:22.626] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x404f8
+[01:28:22.627] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[01:28:22.639] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[01:28:22.639] |I| [load_self]: Loaded module segment 0 @ [0x00058000 - 0x0008333C / 0x81000000] (size: 0x0002B33C) of module app0:sce_module/libfios2.suprx
+[01:28:22.641] |I| [load_self]: Loaded module segment 1 @ [0x00084000 - 0x0008923D / 0x8102C000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[01:28:22.641] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[01:28:22.642] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x83244
+[01:28:22.645] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x7a878
+[01:28:22.645] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[01:28:22.653] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[01:28:22.653] |I| [load_self]: Loaded module segment 0 @ [0x0008A000 - 0x0009D9A4 / 0x81000000] (size: 0x000139A4) of module app0:sce_module/libult.suprx
+[01:28:22.654] |I| [load_self]: Loaded module segment 1 @ [0x0009E000 - 0x0009E814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[01:28:22.655] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[01:28:22.655] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x9c2d0
+[01:28:22.656] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x99858
+[01:28:22.660] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[01:28:22.675] |I| [load_self]: Loaded module segment 0 @ [0x0009F000 - 0x000EFF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[01:28:22.676] |I| [load_self]: Loaded module segment 1 @ [0x000F0000 - 0x000F02F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[01:28:22.682] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[01:28:22.683] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xdb7dc
+[01:28:22.684] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xdaf10
+[01:28:22.684] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[01:28:22.690] |I| [load_self]: Loaded module segment 0 @ [0x000F1000 - 0x00100F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[01:28:22.693] |I| [load_self]: Loaded module segment 1 @ [0x00101000 - 0x00101008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[01:28:22.696] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[01:28:22.696] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xff710
+[01:28:22.697] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xff300
+[01:28:22.697] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[01:28:22.912] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[01:28:22.912] |I| [load_self]: Loaded module segment 0 @ [0x00102000 - 0x005D7454 / 0x81000000] (size: 0x004D5454) of module app0:eboot.bin
+[01:28:22.913] |I| [load_self]: Loaded module segment 1 @ [0x005D8000 - 0x007C2DA8 / 0x814D6000] (size: 0x001EADA8) of module app0:eboot.bin
+[01:28:22.914] |I| [load_self]: Linking SELF app0:eboot.bin...
+[01:28:22.914] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x500148
+[01:28:22.915] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x60ca5c
+[01:28:22.918] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x573ef4
+[01:28:22.919] |I| [load_app_impl]: Main executable ProjectK3_4PNGP_Master (eboot.bin) loaded
+[01:28:22.920] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[01:28:22.923] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[01:28:22.928] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/67
+[01:28:22.933] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/67
+[01:28:22.943] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/67
+[01:28:22.948] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/67
+[01:28:22.954] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/67
+[01:28:22.960] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/67
+[01:28:22.964] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 7/67
+[01:28:22.994] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 8/67
+[01:28:23.001] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 9/67
+[01:28:23.035] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 10/67
+[01:28:23.045] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 11/67
+[01:28:23.075] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 12/67
+[01:28:23.083] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 13/67
+[01:28:23.116] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 14/67
+[01:28:23.123] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 15/67
+[01:28:23.149] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 16/67
+[01:28:23.157] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 17/67
+[01:28:23.163] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 18/67
+[01:28:23.167] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 19/67
+[01:28:23.193] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 20/67
+[01:28:23.203] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 21/67
+[01:28:23.236] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 22/67
+[01:28:23.246] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 23/67
+[01:28:23.273] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 24/67
+[01:28:23.283] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 25/67
+[01:28:23.314] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 26/67
+[01:28:23.323] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 27/67
+[01:28:23.352] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 28/67
+[01:28:23.359] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 29/67
+[01:28:23.392] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 30/67
+[01:28:23.400] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 31/67
+[01:28:23.426] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 32/67
+[01:28:23.434] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 33/67
+[01:28:23.461] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 34/67
+[01:28:23.468] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 35/67
+[01:28:23.498] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 36/67
+[01:28:23.511] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 37/67
+[01:28:23.537] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 38/67
+[01:28:23.547] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 39/67
+[01:28:23.579] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 40/67
+[01:28:23.590] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 41/67
+[01:28:23.614] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 42/67
+[01:28:23.626] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 43/67
+[01:28:23.658] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 44/67
+[01:28:23.666] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 45/67
+[01:28:23.694] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 46/67
+[01:28:23.701] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 47/67
+[01:28:23.713] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 48/67
+[01:28:23.719] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 49/67
+[01:28:23.748] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 50/67
+[01:28:23.752] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 51/67
+[01:28:23.758] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 52/67
+[01:28:23.762] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 53/67
+[01:28:23.774] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 54/67
+[01:28:23.780] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 55/67
+[01:28:23.789] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 56/67
+[01:28:23.796] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 57/67
+[01:28:23.808] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 58/67
+[01:28:23.816] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 59/67
+[01:28:23.831] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 60/67
+[01:28:23.841] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 61/67
+[01:28:23.849] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 62/67
+[01:28:23.855] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 63/67
+[01:28:23.863] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 64/67
+[01:28:23.869] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 65/67
+[01:28:23.899] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 66/67
+[01:28:23.911] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 67/67
+[01:28:23.939] |D| [run_app]: Running module_start of library: SceLibc at address 0x5871
+[01:28:23.970] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[01:28:23.971] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[01:28:23.972] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[01:28:23.983] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[01:28:23.988] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x58001
+[01:28:24.011] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[01:28:24.012] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[01:28:24.018] |D| [run_app]: Running module_start of library: SceUlt at address 0x8d769
+[01:28:24.042] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[01:28:24.042] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[01:28:24.239] |I| [load_module]: Loading module ID: 0x4c
+[01:28:24.246] |I| [load_self]: sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[01:28:24.247] |I| [load_self]: Loaded module segment 0 @ [0x00850000 - 0x008649FC / 0x81000000] (size: 0x000149FC) of module sys/external/libsceavplayer.suprx
+[01:28:24.248] |I| [load_self]: Loaded module segment 1 @ [0x00805000 - 0x0080506C / 0x81015000] (size: 0x0000006C) of module sys/external/libsceavplayer.suprx
+[01:28:24.250] |I| [load_self]: Linking SELF sys/external/libsceavplayer.suprx...
+[01:28:24.251] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x861d40
+[01:28:24.254] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x860548
+[01:28:24.259] |I| [load_module]: Module SceAvPlayer (at "sys/external/libsceavplayer.suprx") loaded
+[01:28:24.259] |D| [load_module]: Running module_start of module: SceAvPlayer
+[01:28:24.263] |I| [load_module]: Module SceAvPlayer (at "sys/external/libsceavplayer.suprx") module_start returned 0x0
+[01:28:24.269] |I| [load_self]: sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[01:28:24.270] |I| [load_self]: Loaded module segment 0 @ [0x00865000 - 0x00874D20 / 0x81000000] (size: 0x0000FD20) of module sys/external/libscemp4.suprx
+[01:28:24.274] |I| [load_self]: Loaded module segment 1 @ [0x00806000 - 0x00806028 / 0x81010000] (size: 0x00000028) of module sys/external/libscemp4.suprx
+[01:28:24.277] |I| [load_self]: Linking SELF sys/external/libscemp4.suprx...
+[01:28:24.278] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8749d0
+[01:28:24.279] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8738c4
+[01:28:24.280] |I| [load_module]: Module SceMp4 (at "sys/external/libscemp4.suprx") loaded
+[01:28:24.281] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[01:28:24.282] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[01:28:24.289] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[01:28:24.478] |I| [export_sceIoOpen]: Opening file: app0:FILE_NGP/license_area.txt
+[01:28:24.479] |T| [open_file]: sceIoOpen: Opening file app0:FILE_NGP/license_area.txt (ux0:/app/PCSB00829/FILE_NGP/license_area.txt), fd: 0x3
+[01:28:24.482] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[01:28:24.589] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[01:28:24.590] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[01:28:24.709] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[01:28:24.752] |E| [call_import]: Import function for NID 0xd7f0f610 not found (thread name: PCSB00829, thread ID: 7)
+[01:28:24.755] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[01:28:24.841] |T| [open_dir]: _sceIoDopen: Opening dir app0:./FILE_NGP (ux0:/app/PCSB00829/./FILE_NGP), fd: 0x4
+[01:28:24.842] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE of fd: 0x4
+[01:28:24.845] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/archive00.lnk of fd: 0x4
+[01:28:24.845] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ETC of fd: 0x4
+[01:28:24.846] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/LANG_JP of fd: 0x4
+[01:28:24.847] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/lfm_order.bin of fd: 0x4
+[01:28:24.849] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/license_area.txt of fd: 0x4
+[01:28:24.850] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/load_img.bin of fd: 0x4
+[01:28:24.857] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/load_img.bin
+[01:28:24.859] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/load_img.bin (ux0:/app/PCSB00829/./FILE_NGP/load_img.bin), fd: 0x5
+[01:28:24.866] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[01:28:24.877] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/load_img.bin
+[01:28:24.877] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/load_img.bin (ux0:/app/PCSB00829/./FILE_NGP/load_img.bin), fd: 0x6
+[01:28:24.898] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[01:28:24.919] |T| [open_dir]: _sceIoDopen: Opening dir app0:./FILE_NGP/ARCHIVE (ux0:/app/PCSB00829/./FILE_NGP/ARCHIVE), fd: 0x7
+[01:28:24.922] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/archive001.lnk of fd: 0x7
+[01:28:24.923] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/lfm_order_001.bin of fd: 0x7
+[01:28:24.924] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/load_img001.bin of fd: 0x7
+[01:28:24.925] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/ARCHIVE/load_img001.bin
+[01:28:24.926] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/ARCHIVE/load_img001.bin (ux0:/app/PCSB00829/./FILE_NGP/ARCHIVE/load_img001.bin), fd: 0x8
+[01:28:24.928] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[01:28:24.929] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/ARCHIVE/load_img001.bin
+[01:28:24.929] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/ARCHIVE/load_img001.bin (ux0:/app/PCSB00829/./FILE_NGP/ARCHIVE/load_img001.bin), fd: 0x9
+[01:28:24.931] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[01:28:24.935] |T| [open_dir]: _sceIoDopen: Opening dir app0:./FILE_NGP/ARCHIVE (ux0:/app/PCSB00829/./FILE_NGP/ARCHIVE), fd: 0xa
+[01:28:24.936] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/archive001.lnk of fd: 0xa
+[01:28:24.937] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/lfm_order_001.bin of fd: 0xa
+[01:28:24.939] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/load_img001.bin of fd: 0xa
+[01:28:24.939] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xa
+[01:28:24.942] |T| [open_dir]: _sceIoDopen: Opening dir app0:./FILE_NGP (ux0:/app/PCSB00829/./FILE_NGP), fd: 0xb
+[01:28:24.943] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE of fd: 0xb
+[01:28:24.943] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/archive00.lnk of fd: 0xb
+[01:28:24.944] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ETC of fd: 0xb
+[01:28:24.944] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/LANG_JP of fd: 0xb
+[01:28:24.945] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/lfm_order.bin of fd: 0xb
+[01:28:24.947] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/lfm_order.bin
+[01:28:24.947] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/lfm_order.bin (ux0:/app/PCSB00829/./FILE_NGP/lfm_order.bin), fd: 0xc
+[01:28:24.963] |T| [open_dir]: _sceIoDopen: Opening dir app0:./FILE_NGP/ARCHIVE (ux0:/app/PCSB00829/./FILE_NGP/ARCHIVE), fd: 0xd
+[01:28:24.964] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/archive001.lnk of fd: 0xd
+[01:28:24.966] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/lfm_order_001.bin of fd: 0xd
+[01:28:24.968] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/ARCHIVE/lfm_order_001.bin
+[01:28:24.969] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/ARCHIVE/lfm_order_001.bin (ux0:/app/PCSB00829/./FILE_NGP/ARCHIVE/lfm_order_001.bin), fd: 0xe
+[01:28:24.973] |T| [open_dir]: _sceIoDopen: Opening dir app0:./FILE_NGP/ARCHIVE (ux0:/app/PCSB00829/./FILE_NGP/ARCHIVE), fd: 0xf
+[01:28:24.974] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/archive001.lnk of fd: 0xf
+[01:28:24.975] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/lfm_order_001.bin of fd: 0xf
+[01:28:24.976] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE/load_img001.bin of fd: 0xf
+[01:28:24.977] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xf
+[01:28:24.979] |T| [open_dir]: _sceIoDopen: Opening dir app0:./FILE_NGP (ux0:/app/PCSB00829/./FILE_NGP), fd: 0x10
+[01:28:24.979] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/ARCHIVE of fd: 0x10
+[01:28:24.980] |T| [read_dir]: _sceIoDread: Reading entry app0:./FILE_NGP/archive00.lnk of fd: 0x10
+[01:28:24.981] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/archive00.lnk
+[01:28:24.984] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/archive00.lnk (ux0:/app/PCSB00829/./FILE_NGP/archive00.lnk), fd: 0x11
+[01:28:24.988] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/ARCHIVE/archive001.lnk
+[01:28:24.988] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/ARCHIVE/archive001.lnk (ux0:/app/PCSB00829/./FILE_NGP/ARCHIVE/archive001.lnk), fd: 0x12
+[01:28:25.128] |I| [load_module]: Loading module ID: 0x13
+[01:28:25.130] |I| [load_self]: sys/external/libsystemgesture.suprx: Skipping special segment 0x6fffff01...
+[01:28:25.131] |I| [load_self]: Loaded module segment 0 @ [0x14C60000 - 0x14C6308C / 0x81000000] (size: 0x0000308C) of module sys/external/libsystemgesture.suprx
+[01:28:25.131] |I| [load_self]: Loaded module segment 1 @ [0x0B41D000 - 0x0B41DBF0 / 0x81004000] (size: 0x00000BF0) of module sys/external/libsystemgesture.suprx
+[01:28:25.132] |I| [load_self]: Linking SELF sys/external/libsystemgesture.suprx...
+[01:28:25.133] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x14c63074
+[01:28:25.135] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x14c62bd4
+[01:28:25.135] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") loaded
+[01:28:25.136] |D| [load_module]: Running module_start of module: SceSystemGesture
+[01:28:25.136] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") module_start returned 0x0
+[01:28:25.138] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x6078a08b sceSystemGestureInitializePrimitiveTouchRecognizer at 0x4ff6f8
+[01:28:25.139] |W| [stubbed_impl]: Stubbed sceTouchGetPixelDensity2 import called. (Return constant values (22.0))
+[01:28:25.140] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xc3367370 sceSystemGestureCreateTouchRecognizer at 0x4ff728
+[01:28:25.410] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_src.swf
+[01:28:25.410] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_src.swf), fd: 0x13
+[01:28:25.413] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[01:28:25.414] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_tgt.swf
+[01:28:25.415] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_tgt.swf), fd: 0x14
+[01:28:25.416] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[01:28:25.648] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Saving/saving_src.swf
+[01:28:25.649] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Saving/saving_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Saving/saving_src.swf), fd: 0x15
+[01:28:25.651] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[01:28:25.652] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Saving/saving_tgt.swf
+[01:28:25.653] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Saving/saving_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Saving/saving_tgt.swf), fd: 0x16
+[01:28:25.657] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[01:28:25.678] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 6, using passthrough.
+[01:28:25.679] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[01:28:25.680] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[01:28:25.688] |T| [ngs::simple::PlayerVoiceDefinition::new_modules]: Simple player voice definition stubbed
+[01:28:25.689] |T| [ngs::simple::Atrac9VoiceDefinition::new_modules]: AT9 player voice definition stubbed
+[01:28:25.690] |T| [ngs::simple::PlayerVoiceDefinition::new_modules]: Simple player voice definition stubbed
+[01:28:25.697] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD656A70:0:0 to 0xD656F08:0
+[01:28:25.698] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD6565D8:0:0 to 0xD656A70:0
+[01:28:25.698] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD655D18:0:0 to 0xD6565D8:0
+[01:28:25.699] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD656080:0:0 to 0xD6565D8:0
+[01:28:25.701] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD655080:0:0 to 0xD6565D8:0
+[01:28:25.701] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD6553E8:0:0 to 0xD655D18:0
+[01:28:25.730] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[01:28:25.811] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/BGM/BGMLink.g1l
+[01:28:25.812] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/BGM/BGMLink.g1l (ux0:/app/PCSB00829/./FILE_NGP/SOUND/BGM/BGMLink.g1l), fd: 0x17
+[01:28:25.814] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[01:28:25.819] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/BGM/BGMLink.g1l
+[01:28:25.819] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/BGM/BGMLink.g1l (ux0:/app/PCSB00829/./FILE_NGP/SOUND/BGM/BGMLink.g1l), fd: 0x18
+[01:28:25.826] |W| [unimplemented_impl]: Unimplemented sceNgsSystemLock import called.
+[01:28:25.826] |W| [unimplemented_impl]: Unimplemented sceNgsSystemUnlock import called.
+[01:28:27.132] |I| [load_module]: Loading module ID: 0x3
+[01:28:27.149] |I| [load_self]: Loaded module segment 0 @ [0x14CF7000 - 0x14D5DEA4 / 0x81000000] (size: 0x00066EA4) of module sys/external/libssl.suprx
+[01:28:27.149] |I| [load_self]: Loaded module segment 1 @ [0x14D5E000 - 0x14D63188 / 0x81067000] (size: 0x00005188) of module sys/external/libssl.suprx
+[01:28:27.150] |I| [load_self]: Linking SELF sys/external/libssl.suprx...
+[01:28:27.151] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x14d499b0
+[01:28:27.152] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x14d43c70
+[01:28:27.152] |I| [load_module]: Module SceLibSsl (at "sys/external/libssl.suprx") loaded
+[01:28:27.157] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x3c733316 sceSslInit at 0x4ff508
+[01:28:27.161] |W| [stubbed_impl]: Stubbed sceHttpInit import called. (ignore poolSize)
+[01:28:27.162] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
+[01:28:27.163] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[01:28:27.164] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterInGameDataMessageHandler import called.
+[01:28:27.202] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[01:28:27.203] |W| [unimplemented_impl]: Unimplemented sceNpBasicCheckCallback import called.
+[01:28:27.206] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[01:28:27.209] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xdf4c665a sceSystemGestureUpdatePrimitiveTouchRecognizer at 0x4ff738
+[01:28:27.212] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x851fb144 sceSystemGestureUpdateTouchRecognizer at 0x4ff718
+[01:28:27.213] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x13ad2218 sceSystemGestureGetTouchEventsCount at 0x4ff6d8
+[01:28:27.225] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MiB emuenv mem)
+[01:28:27.249] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[01:28:27.325] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CompanyLogo/company_logo_src.swf
+[01:28:27.326] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CompanyLogo/company_logo_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CompanyLogo/company_logo_src.swf), fd: 0x19
+[01:28:27.331] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[01:28:27.333] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CompanyLogo/company_logo_tgt.swf
+[01:28:27.333] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CompanyLogo/company_logo_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CompanyLogo/company_logo_tgt.swf), fd: 0x1a
+[01:28:27.335] |T| [close_file]: sceIoClose: Closing file fd: 0x1a
+[01:28:28.440] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x74724147 sceSystemGestureGetTouchEventByIndex at 0x4ff708
+[01:28:28.466] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x5570b83e sceSystemGestureGetTouchEventByEventID at 0x4ff6e8
+[01:28:33.780] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonWindow/common_window_src.swf
+[01:28:33.780] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonWindow/common_window_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonWindow/common_window_src.swf), fd: 0x1b
+[01:28:33.782] |T| [close_file]: sceIoClose: Closing file fd: 0x1b
+[01:28:33.783] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonWindow/common_window_tgt.swf
+[01:28:33.783] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonWindow/common_window_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonWindow/common_window_tgt.swf), fd: 0x1c
+[01:28:33.785] |T| [close_file]: sceIoClose: Closing file fd: 0x1c
+[01:28:33.797] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonWindow/common_window_choice_tgt.swf
+[01:28:33.798] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonWindow/common_window_choice_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonWindow/common_window_choice_tgt.swf), fd: 0x1d
+[01:28:33.805] |T| [close_file]: sceIoClose: Closing file fd: 0x1d
+[01:28:33.865] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[01:28:40.328] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD6397A0:0:0 to 0xD6565D8:0
+[01:28:40.567] |W| [stubbed_impl]: Stubbed sceKernelSendSignal import called. (sceKernelSendSignal)
+[01:28:40.579] |W| [stubbed_impl]: Stubbed _sceFiberAttachContextAndSwitch import called. (Todo: not sure for now)
+[01:28:40.582] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00829/SlotParam_0.bin), fd: 0x1e
+[01:28:40.585] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x1e
+[01:28:40.694] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR09250_00/TROPHY.TRP (ux0:/app/PCSB00829/sce_sys/trophy/NPWR09250_00/TROPHY.TRP), fd: 0x1f
+[01:28:40.696] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR09250_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR09250_00/TROPUSR.DAT), fd: 0x20
+[01:28:40.700] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR09250_00/TROPCONF.SFM), fd: 0x21
+[01:28:40.707] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 2416
+[01:28:40.713] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[01:28:40.726] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR09250_00/TROP.SFM), fd: 0x22
+[01:28:40.731] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 7641
+[01:28:40.734] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[01:28:40.737] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP_00.SFM (ux0:/user/00/trophy/conf/NPWR09250_00/TROP_00.SFM), fd: 0x23
+[01:28:40.741] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 8925
+[01:28:40.745] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[01:28:40.748] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR09250_00/TROP_02.SFM), fd: 0x24
+[01:28:40.757] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 8292
+[01:28:40.760] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[01:28:40.763] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR09250_00/TROP_04.SFM), fd: 0x25
+[01:28:40.770] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 8454
+[01:28:40.774] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[01:28:40.778] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/ICON0.PNG), fd: 0x26
+[01:28:40.785] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 93684
+[01:28:40.788] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[01:28:40.791] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP000.PNG), fd: 0x27
+[01:28:40.794] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 105647
+[01:28:40.800] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[01:28:40.804] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP001.PNG), fd: 0x28
+[01:28:40.816] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 50106
+[01:28:40.818] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[01:28:40.822] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP002.PNG), fd: 0x29
+[01:28:40.825] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 50106
+[01:28:40.832] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[01:28:40.834] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP003.PNG), fd: 0x2a
+[01:28:40.838] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 50106
+[01:28:40.840] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[01:28:40.846] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP004.PNG), fd: 0x2b
+[01:28:40.850] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 50106
+[01:28:40.852] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[01:28:40.855] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP005.PNG), fd: 0x2c
+[01:28:40.862] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 50106
+[01:28:40.864] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[01:28:40.867] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP006.PNG), fd: 0x2d
+[01:28:40.872] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 84729
+[01:28:40.877] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[01:28:40.879] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP007.PNG), fd: 0x2e
+[01:28:40.885] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 84729
+[01:28:40.887] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[01:28:40.894] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP008.PNG), fd: 0x2f
+[01:28:40.898] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 74303
+[01:28:40.900] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[01:28:40.903] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP009.PNG), fd: 0x30
+[01:28:40.917] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 50106
+[01:28:40.920] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[01:28:40.923] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP010.PNG), fd: 0x31
+[01:28:40.925] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 50106
+[01:28:40.926] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[01:28:40.928] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP011.PNG), fd: 0x32
+[01:28:40.931] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 84729
+[01:28:40.931] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[01:28:40.934] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP012.PNG), fd: 0x33
+[01:28:40.935] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 74303
+[01:28:40.941] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[01:28:40.944] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP013.PNG), fd: 0x34
+[01:28:40.946] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 84729
+[01:28:40.947] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[01:28:40.949] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP014.PNG), fd: 0x35
+[01:28:40.952] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 74303
+[01:28:40.956] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[01:28:40.958] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP015.PNG), fd: 0x36
+[01:28:40.961] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 74303
+[01:28:40.962] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[01:28:40.963] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP016.PNG), fd: 0x37
+[01:28:40.965] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 74303
+[01:28:40.966] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[01:28:40.967] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP017.PNG), fd: 0x38
+[01:28:40.972] |T| [write_file]: install_trophy_context: Writing to fd: 0x38, size: 74303
+[01:28:40.974] |T| [close_file]: install_trophy_context: Closing file fd: 0x38
+[01:28:40.976] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP018.PNG), fd: 0x39
+[01:28:40.977] |T| [write_file]: install_trophy_context: Writing to fd: 0x39, size: 50106
+[01:28:40.978] |T| [close_file]: install_trophy_context: Closing file fd: 0x39
+[01:28:40.980] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP019.PNG), fd: 0x3a
+[01:28:40.982] |T| [write_file]: install_trophy_context: Writing to fd: 0x3a, size: 50106
+[01:28:40.983] |T| [close_file]: install_trophy_context: Closing file fd: 0x3a
+[01:28:40.986] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP020.PNG), fd: 0x3b
+[01:28:40.992] |T| [write_file]: install_trophy_context: Writing to fd: 0x3b, size: 50106
+[01:28:40.993] |T| [close_file]: install_trophy_context: Closing file fd: 0x3b
+[01:28:40.995] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP021.PNG), fd: 0x3c
+[01:28:40.996] |T| [write_file]: install_trophy_context: Writing to fd: 0x3c, size: 50106
+[01:28:40.997] |T| [close_file]: install_trophy_context: Closing file fd: 0x3c
+[01:28:40.999] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP022.PNG), fd: 0x3d
+[01:28:41.000] |T| [write_file]: install_trophy_context: Writing to fd: 0x3d, size: 50106
+[01:28:41.007] |T| [close_file]: install_trophy_context: Closing file fd: 0x3d
+[01:28:41.008] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP023.PNG), fd: 0x3e
+[01:28:41.012] |T| [write_file]: install_trophy_context: Writing to fd: 0x3e, size: 50106
+[01:28:41.013] |T| [close_file]: install_trophy_context: Closing file fd: 0x3e
+[01:28:41.015] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP024.PNG), fd: 0x3f
+[01:28:41.019] |T| [write_file]: install_trophy_context: Writing to fd: 0x3f, size: 50106
+[01:28:41.020] |T| [close_file]: install_trophy_context: Closing file fd: 0x3f
+[01:28:41.023] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP025.PNG), fd: 0x40
+[01:28:41.024] |T| [write_file]: install_trophy_context: Writing to fd: 0x40, size: 50106
+[01:28:41.025] |T| [close_file]: install_trophy_context: Closing file fd: 0x40
+[01:28:41.027] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP026.PNG), fd: 0x41
+[01:28:41.029] |T| [write_file]: install_trophy_context: Writing to fd: 0x41, size: 50106
+[01:28:41.030] |T| [close_file]: install_trophy_context: Closing file fd: 0x41
+[01:28:41.031] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP027.PNG), fd: 0x42
+[01:28:41.036] |T| [write_file]: install_trophy_context: Writing to fd: 0x42, size: 50106
+[01:28:41.039] |T| [close_file]: install_trophy_context: Closing file fd: 0x42
+[01:28:41.041] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP028.PNG), fd: 0x43
+[01:28:41.043] |T| [write_file]: install_trophy_context: Writing to fd: 0x43, size: 50106
+[01:28:41.044] |T| [close_file]: install_trophy_context: Closing file fd: 0x43
+[01:28:41.045] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP029.PNG), fd: 0x44
+[01:28:41.047] |T| [write_file]: install_trophy_context: Writing to fd: 0x44, size: 50106
+[01:28:41.049] |T| [close_file]: install_trophy_context: Closing file fd: 0x44
+[01:28:41.051] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP030.PNG), fd: 0x45
+[01:28:41.056] |T| [write_file]: install_trophy_context: Writing to fd: 0x45, size: 84729
+[01:28:41.056] |T| [close_file]: install_trophy_context: Closing file fd: 0x45
+[01:28:41.058] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP031.PNG), fd: 0x46
+[01:28:41.059] |T| [write_file]: install_trophy_context: Writing to fd: 0x46, size: 50106
+[01:28:41.060] |T| [close_file]: install_trophy_context: Closing file fd: 0x46
+[01:28:41.061] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP032.PNG), fd: 0x47
+[01:28:41.063] |T| [write_file]: install_trophy_context: Writing to fd: 0x47, size: 50106
+[01:28:41.066] |T| [close_file]: install_trophy_context: Closing file fd: 0x47
+[01:28:41.069] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP033.PNG), fd: 0x48
+[01:28:41.071] |T| [write_file]: install_trophy_context: Writing to fd: 0x48, size: 50106
+[01:28:41.072] |T| [close_file]: install_trophy_context: Closing file fd: 0x48
+[01:28:41.073] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09250_00/TROP034.PNG (ux0:/user/00/trophy/conf/NPWR09250_00/TROP034.PNG), fd: 0x49
+[01:28:41.076] |T| [write_file]: install_trophy_context: Writing to fd: 0x49, size: 50106
+[01:28:41.077] |T| [close_file]: install_trophy_context: Closing file fd: 0x49
+[01:28:41.078] |T| [close_file]: create_trophy_context: Closing file fd: 0x20
+[01:28:41.079] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR09250_00 create successfuly!
+[01:28:43.086] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[01:28:43.288] |T| [open_file]: sceSaveDataDialogInit: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00829/SlotParam_0.bin), fd: 0x4a
+[01:28:43.289] |T| [close_file]: sceSaveDataDialogInit: Closing file fd: 0x4a
+[01:28:43.292] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00829/SlotParam_0.bin), fd: 0x4b
+[01:28:43.294] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x4b
+[01:28:43.332] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00829/SlotParam_0.bin), fd: 0x4c
+[01:28:43.333] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4c
+[01:28:43.335] |I| [export_sceIoOpen]: Opening file: savedata0:/app0000.dat
+[01:28:43.335] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0000.dat (ux0:/user/00/savedata/PCSB00829/app0000.dat), fd: 0x4d
+[01:28:43.337] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[01:28:43.422] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00829/SlotParam_0.bin), fd: 0x4e
+[01:28:43.423] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x4e
+[01:28:46.737] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_src.swf
+[01:28:46.738] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_src.swf), fd: 0x4f
+[01:28:46.744] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[01:28:46.745] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_tgt.swf
+[01:28:46.747] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_tgt.swf), fd: 0x50
+[01:28:46.756] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[01:28:48.017] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_src.swf
+[01:28:48.018] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_src.swf), fd: 0x51
+[01:28:48.022] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[01:28:48.023] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_tgt.swf
+[01:28:48.024] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Loading/nowloading_01_tgt.swf), fd: 0x52
+[01:28:48.028] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[01:28:48.249] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Title/titlemenu_src.swf
+[01:28:48.250] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Title/titlemenu_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Title/titlemenu_src.swf), fd: 0x53
+[01:28:48.256] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[01:28:48.258] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Title/titlemenu_tgt.swf
+[01:28:48.258] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Title/titlemenu_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Title/titlemenu_tgt.swf), fd: 0x54
+[01:28:48.260] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[01:28:48.419] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Title/titlemenu_fnt_tgt.swf
+[01:28:48.419] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Title/titlemenu_fnt_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Title/titlemenu_fnt_tgt.swf), fd: 0x55
+[01:28:48.421] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[01:28:48.472] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBigWindow/long_window_src.swf
+[01:28:48.472] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBigWindow/long_window_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBigWindow/long_window_src.swf), fd: 0x56
+[01:28:48.474] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[01:28:48.474] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBigWindow/long_window_tgt.swf
+[01:28:48.475] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBigWindow/long_window_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBigWindow/long_window_tgt.swf), fd: 0x57
+[01:28:48.476] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[01:28:48.541] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBlackOut/common_blackout_src.swf
+[01:28:48.541] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBlackOut/common_blackout_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBlackOut/common_blackout_src.swf), fd: 0x58
+[01:28:48.543] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[01:28:48.543] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBlackOut/common_blackout_tgt.swf
+[01:28:48.543] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBlackOut/common_blackout_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBlackOut/common_blackout_tgt.swf), fd: 0x59
+[01:28:48.545] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[01:28:48.605] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBack/common_bg_src.swf
+[01:28:48.605] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBack/common_bg_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBack/common_bg_src.swf), fd: 0x5a
+[01:28:48.606] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[01:28:48.607] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBack/common_bg_tgt.swf
+[01:28:48.607] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBack/common_bg_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBack/common_bg_tgt.swf), fd: 0x5b
+[01:28:48.613] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[01:28:48.745] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBackQuest/common_bg_quest_src.swf
+[01:28:48.745] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBackQuest/common_bg_quest_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBackQuest/common_bg_quest_src.swf), fd: 0x5c
+[01:28:48.746] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[01:28:48.746] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBackQuest/common_bg_quest_vita_tgt.swf
+[01:28:48.747] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBackQuest/common_bg_quest_vita_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBackQuest/common_bg_quest_vita_tgt.swf), fd: 0x5d
+[01:28:48.751] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[01:28:48.898] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonTitle/common_title_src.swf
+[01:28:48.899] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonTitle/common_title_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonTitle/common_title_src.swf), fd: 0x5e
+[01:28:48.900] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[01:28:48.901] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonTitle/common_title_tgt.swf
+[01:28:48.902] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonTitle/common_title_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonTitle/common_title_tgt.swf), fd: 0x5f
+[01:28:48.903] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[01:28:48.957] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonTitleQuest/common_qst_title_src.swf
+[01:28:48.958] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonTitleQuest/common_qst_title_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonTitleQuest/common_qst_title_src.swf), fd: 0x60
+[01:28:48.959] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[01:28:48.960] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonTitleQuest/common_qst_title_tgt.swf
+[01:28:48.960] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonTitleQuest/common_qst_title_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonTitleQuest/common_qst_title_tgt.swf), fd: 0x61
+[01:28:48.962] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[01:28:49.064] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_src.swf
+[01:28:49.064] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_src.swf), fd: 0x62
+[01:28:49.065] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[01:28:49.066] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_tgt.swf
+[01:28:49.066] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_tgt.swf), fd: 0x63
+[01:28:49.068] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[01:28:49.083] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_src.swf
+[01:28:49.083] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_src.swf), fd: 0x64
+[01:28:49.087] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[01:28:49.087] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_tgt.swf
+[01:28:49.087] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_tgt.swf), fd: 0x65
+[01:28:49.090] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[01:28:49.132] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_costume_src.swf
+[01:28:49.132] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_costume_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_costume_src.swf), fd: 0x66
+[01:28:49.134] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[01:28:49.134] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_02_tgt.swf
+[01:28:49.135] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_02_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_02_tgt.swf), fd: 0x67
+[01:28:49.137] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[01:28:49.219] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_01_tgt.swf
+[01:28:49.220] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_01_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_01_tgt.swf), fd: 0x68
+[01:28:49.221] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[01:28:49.239] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/quest_costume_tgt.swf
+[01:28:49.240] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/quest_costume_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EquipmentCostume/quest_costume_tgt.swf), fd: 0x69
+[01:28:49.244] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[01:28:49.292] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_src.swf
+[01:28:49.292] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_src.swf), fd: 0x6a
+[01:28:49.294] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[01:28:49.294] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_02_tgt.swf
+[01:28:49.294] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_02_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_02_tgt.swf), fd: 0x6b
+[01:28:49.296] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[01:28:49.304] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_01_tgt.swf
+[01:28:49.304] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_01_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_01_tgt.swf), fd: 0x6c
+[01:28:49.306] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[01:28:49.311] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_cursor_tgt.swf
+[01:28:49.312] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_cursor_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_cursor_tgt.swf), fd: 0x6d
+[01:28:49.315] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[01:28:49.318] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_list_tgt.swf
+[01:28:49.318] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_list_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_list_tgt.swf), fd: 0x6e
+[01:28:49.320] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[01:28:49.329] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_eqp_tgt.swf
+[01:28:49.330] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_eqp_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EnemyList/enemy_list_eqp_tgt.swf), fd: 0x6f
+[01:28:49.331] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[01:28:49.340] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EnemyList/death_file_rare_tgt.swf
+[01:28:49.342] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EnemyList/death_file_rare_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EnemyList/death_file_rare_tgt.swf), fd: 0x70
+[01:28:49.343] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[01:28:49.377] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EnemyInfo/enemy_info_src.swf
+[01:28:49.377] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EnemyInfo/enemy_info_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EnemyInfo/enemy_info_src.swf), fd: 0x71
+[01:28:49.378] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[01:28:49.379] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EnemyInfo/enemy_info_tgt.swf
+[01:28:49.379] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EnemyInfo/enemy_info_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EnemyInfo/enemy_info_tgt.swf), fd: 0x72
+[01:28:49.380] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[01:28:49.424] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_costume_src.swf
+[01:28:49.425] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_costume_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_costume_src.swf), fd: 0x73
+[01:28:49.426] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[01:28:49.427] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_02_tgt.swf
+[01:28:49.428] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_02_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_02_tgt.swf), fd: 0x74
+[01:28:49.429] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[01:28:49.430] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_01_tgt.swf
+[01:28:49.430] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_01_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/EquipmentCostume/equip_cotsume_01_tgt.swf), fd: 0x75
+[01:28:49.431] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[01:28:49.509] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonRankingBoard/common_board_src.swf
+[01:28:49.510] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonRankingBoard/common_board_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonRankingBoard/common_board_src.swf), fd: 0x76
+[01:28:49.511] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[01:28:49.511] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonRankingBoard/common_board_tgt.swf
+[01:28:49.512] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonRankingBoard/common_board_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonRankingBoard/common_board_tgt.swf), fd: 0x77
+[01:28:49.515] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[01:28:49.549] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/QuestTree/newquest_src_useu.swf
+[01:28:49.549] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/QuestTree/newquest_src_useu.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/QuestTree/newquest_src_useu.swf), fd: 0x78
+[01:28:49.553] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[01:28:49.553] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/QuestTree/newquest_tree_tgt_vita_useu.swf
+[01:28:49.554] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/QuestTree/newquest_tree_tgt_vita_useu.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/QuestTree/newquest_tree_tgt_vita_useu.swf), fd: 0x79
+[01:28:49.556] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[01:28:49.576] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/QuestTree/newquest_src.swf
+[01:28:49.577] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/QuestTree/newquest_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/QuestTree/newquest_src.swf), fd: 0x7a
+[01:28:49.579] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[01:28:49.580] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/QuestTree/newquest_chain_tgt.swf
+[01:28:49.580] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/QuestTree/newquest_chain_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/QuestTree/newquest_chain_tgt.swf), fd: 0x7b
+[01:28:49.581] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[01:28:49.730] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/QuestTreeWindow/newquest_window_src_useu.swf
+[01:28:49.731] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/QuestTreeWindow/newquest_window_src_useu.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/QuestTreeWindow/newquest_window_src_useu.swf), fd: 0x7c
+[01:28:49.733] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[01:28:49.733] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/QuestTreeWindow/newquest_window_tgt_vita_useu.swf
+[01:28:49.734] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/QuestTreeWindow/newquest_window_tgt_vita_useu.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/QuestTreeWindow/newquest_window_tgt_vita_useu.swf), fd: 0x7d
+[01:28:49.736] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[01:28:50.981] |E| [logging::ret_error_impl]: sceKernelWaitEventFlag returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[01:28:51.006] |E| [export___sce_aeabi_idiv0]: Division by zero
+[01:28:51.007] |W| [unimplemented_impl]: Unimplemented __sce_aeabi_idiv0 import called.
+[01:28:51.021] |W| [stubbed_impl]: Stubbed sceNgsVoiceInit import called. (Default preset not implemented)
+[01:28:51.030] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650B10:0:0 to 0xD6565D8:0
+[01:28:51.035] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650B10:0:0 to 0xD655080:0
+[01:28:51.078] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[01:28:51.080] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.082] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[01:28:51.087] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_10.bin (target path: savedata0:/SlotParam_10.bin)
+[01:28:51.091] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.097] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_11.bin (target path: savedata0:/SlotParam_11.bin)
+[01:28:51.101] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.104] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_12.bin (target path: savedata0:/SlotParam_12.bin)
+[01:28:51.107] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.113] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_13.bin (target path: savedata0:/SlotParam_13.bin)
+[01:28:51.118] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.120] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_14.bin (target path: savedata0:/SlotParam_14.bin)
+[01:28:51.127] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.129] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_15.bin (target path: savedata0:/SlotParam_15.bin)
+[01:28:51.135] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.137] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_16.bin (target path: savedata0:/SlotParam_16.bin)
+[01:28:51.144] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.150] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_17.bin (target path: savedata0:/SlotParam_17.bin)
+[01:28:51.157] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.159] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_18.bin (target path: savedata0:/SlotParam_18.bin)
+[01:28:51.163] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.166] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_19.bin (target path: savedata0:/SlotParam_19.bin)
+[01:28:51.174] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.181] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_20.bin (target path: savedata0:/SlotParam_20.bin)
+[01:28:51.187] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.189] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_21.bin (target path: savedata0:/SlotParam_21.bin)
+[01:28:51.195] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.197] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_22.bin (target path: savedata0:/SlotParam_22.bin)
+[01:28:51.205] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.208] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_23.bin (target path: savedata0:/SlotParam_23.bin)
+[01:28:51.213] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.218] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_24.bin (target path: savedata0:/SlotParam_24.bin)
+[01:28:51.224] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.226] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_25.bin (target path: savedata0:/SlotParam_25.bin)
+[01:28:51.235] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.237] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_26.bin (target path: savedata0:/SlotParam_26.bin)
+[01:28:51.241] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.244] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_27.bin (target path: savedata0:/SlotParam_27.bin)
+[01:28:51.252] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.255] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_28.bin (target path: savedata0:/SlotParam_28.bin)
+[01:28:51.260] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.265] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_29.bin (target path: savedata0:/SlotParam_29.bin)
+[01:28:51.278] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.288] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_30.bin (target path: savedata0:/SlotParam_30.bin)
+[01:28:51.298] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.302] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_31.bin (target path: savedata0:/SlotParam_31.bin)
+[01:28:51.305] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.308] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_32.bin (target path: savedata0:/SlotParam_32.bin)
+[01:28:51.317] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.320] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_33.bin (target path: savedata0:/SlotParam_33.bin)
+[01:28:51.323] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.331] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_34.bin (target path: savedata0:/SlotParam_34.bin)
+[01:28:51.335] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.338] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_35.bin (target path: savedata0:/SlotParam_35.bin)
+[01:28:51.344] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.346] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_36.bin (target path: savedata0:/SlotParam_36.bin)
+[01:28:51.352] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.355] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_37.bin (target path: savedata0:/SlotParam_37.bin)
+[01:28:51.362] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.365] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_38.bin (target path: savedata0:/SlotParam_38.bin)
+[01:28:51.371] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.383] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_39.bin (target path: savedata0:/SlotParam_39.bin)
+[01:28:51.388] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.392] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_40.bin (target path: savedata0:/SlotParam_40.bin)
+[01:28:51.394] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.397] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_41.bin (target path: savedata0:/SlotParam_41.bin)
+[01:28:51.399] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.402] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_42.bin (target path: savedata0:/SlotParam_42.bin)
+[01:28:51.411] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.413] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_43.bin (target path: savedata0:/SlotParam_43.bin)
+[01:28:51.418] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.424] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_44.bin (target path: savedata0:/SlotParam_44.bin)
+[01:28:51.428] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.430] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_45.bin (target path: savedata0:/SlotParam_45.bin)
+[01:28:51.434] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.441] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_46.bin (target path: savedata0:/SlotParam_46.bin)
+[01:28:51.445] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.447] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_47.bin (target path: savedata0:/SlotParam_47.bin)
+[01:28:51.451] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.458] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_48.bin (target path: savedata0:/SlotParam_48.bin)
+[01:28:51.461] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.463] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00829/SlotParam_49.bin (target path: savedata0:/SlotParam_49.bin)
+[01:28:51.466] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[01:28:51.474] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_1.bin (ux0:/user/00/savedata/PCSB00829/SlotParam_1.bin), fd: 0x7e
+[01:28:51.487] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x7e
+[01:28:53.740] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD639B2C:0:0 to 0xD6565D8:0
+[01:28:53.741] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD639EB8:0:0 to 0xD6565D8:0
+[01:28:54.913] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63A244:0:0 to 0xD6565D8:0
+[01:28:55.067] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_1.bin (ux0:/user/00/savedata/PCSB00829/SlotParam_1.bin), fd: 0x7f
+[01:28:55.069] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x7f
+[01:28:55.073] |I| [export_sceIoOpen]: Opening file: savedata0:/app0001.dat
+[01:28:55.074] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0001.dat (ux0:/user/00/savedata/PCSB00829/app0001.dat), fd: 0x80
+[01:28:55.085] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[01:28:56.784] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/MainMenuImg/mainmenu_img_src.swf
+[01:28:56.785] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/MainMenuImg/mainmenu_img_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/MainMenuImg/mainmenu_img_src.swf), fd: 0x81
+[01:28:56.787] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[01:28:56.788] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/MainMenuImg/mainmenu_img_tgt.swf
+[01:28:56.789] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/MainMenuImg/mainmenu_img_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/MainMenuImg/mainmenu_img_tgt.swf), fd: 0x82
+[01:28:56.792] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[01:28:56.845] |E| [export___sce_aeabi_idiv0]: Division by zero
+[01:28:56.846] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650B10:0:0 to 0xD6565D8:0
+[01:28:56.846] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650B10:0:0 to 0xD655080:0
+[01:28:58.249] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63A5D0:0:0 to 0xD6565D8:0
+[01:28:58.372] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_src.swf
+[01:28:58.373] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_src.swf), fd: 0x83
+[01:28:58.375] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[01:28:58.376] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_tgt.swf
+[01:28:58.377] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonMenu/common_menu_tgt.swf), fd: 0x84
+[01:28:58.378] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[01:28:58.393] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_src.swf
+[01:28:58.393] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_src.swf), fd: 0x85
+[01:28:58.395] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[01:28:58.395] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_tgt.swf
+[01:28:58.395] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonCaption/common_caption_tgt.swf), fd: 0x86
+[01:28:58.400] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[01:28:58.441] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Event/event_src.swf
+[01:28:58.441] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Event/event_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Event/event_src.swf), fd: 0x87
+[01:28:58.443] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[01:28:58.443] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Event/event_tgt_03.swf
+[01:28:58.444] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Event/event_tgt_03.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Event/event_tgt_03.swf), fd: 0x88
+[01:28:58.447] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[01:28:58.461] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Event/event_tgt_02.swf
+[01:28:58.462] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Event/event_tgt_02.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Event/event_tgt_02.swf), fd: 0x89
+[01:28:58.466] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[01:28:58.470] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Event/event_tgt_01.swf
+[01:28:58.471] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Event/event_tgt_01.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Event/event_tgt_01.swf), fd: 0x8a
+[01:28:58.472] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[01:28:58.495] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/Event/event_button_tgt.swf
+[01:28:58.496] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/Event/event_button_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/Event/event_button_tgt.swf), fd: 0x8b
+[01:28:58.498] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[01:28:58.559] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBackIngame/common_bg_ingame_src.swf
+[01:28:58.560] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBackIngame/common_bg_ingame_src.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBackIngame/common_bg_ingame_src.swf), fd: 0x8c
+[01:28:58.561] |T| [close_file]: sceIoClose: Closing file fd: 0x8c
+[01:28:58.562] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/LANG_JP/UI/CommonBackIngame/common_bg_ingame_tgt.swf
+[01:28:58.563] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/LANG_JP/UI/CommonBackIngame/common_bg_ingame_tgt.swf (ux0:/app/PCSB00829/./FILE_NGP/LANG_JP/UI/CommonBackIngame/common_bg_ingame_tgt.swf), fd: 0x8d
+[01:28:58.566] |T| [close_file]: sceIoClose: Closing file fd: 0x8d
+[01:28:59.863] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:28:59.864] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x8e
+[01:28:59.869] |T| [close_file]: sceIoClose: Closing file fd: 0x8e
+[01:28:59.948] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:28:59.949] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:00.096] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63A95C:0:0 to 0xD6565D8:0
+[01:29:00.102] |I| [ngs::atrac9::Module::decode_more_data]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[01:29:00.198] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:00.199] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x8f
+[01:29:00.205] |T| [close_file]: sceIoClose: Closing file fd: 0x8f
+[01:29:00.266] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:00.266] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:00.398] |E| [export___sce_aeabi_idiv0]: Division by zero
+[01:29:00.398] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650B10:0:0 to 0xD6565D8:0
+[01:29:00.399] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650B10:0:0 to 0xD655080:0
+[01:29:00.436] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63ACE8:0:0 to 0xD6565D8:0
+[01:29:00.526] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:00.526] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x90
+[01:29:00.529] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[01:29:00.595] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:00.596] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:00.727] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63B074:0:0 to 0xD6565D8:0
+[01:29:01.406] |E| [export___sce_aeabi_idiv0]: Division by zero
+[01:29:01.407] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650B10:0:0 to 0xD6565D8:0
+[01:29:01.409] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650B10:0:0 to 0xD655080:0
+[01:29:01.507] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:01.508] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x91
+[01:29:01.517] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[01:29:01.576] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:01.577] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:01.708] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63B400:0:0 to 0xD6565D8:0
+[01:29:01.972] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:01.973] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x92
+[01:29:01.980] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[01:29:02.042] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:02.043] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:02.207] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63B78C:0:0 to 0xD6565D8:0
+[01:29:02.308] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:02.309] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x93
+[01:29:02.316] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[01:29:02.376] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:02.376] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:02.508] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63BB18:0:0 to 0xD6565D8:0
+[01:29:02.615] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:02.616] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x94
+[01:29:02.622] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[01:29:02.675] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:02.675] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:02.774] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63BEA4:0:0 to 0xD6565D8:0
+[01:29:02.875] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:02.876] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x95
+[01:29:02.887] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[01:29:02.948] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:02.949] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:03.095] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63C230:0:0 to 0xD6565D8:0
+[01:29:03.208] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:03.210] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x96
+[01:29:03.221] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[01:29:03.282] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:03.283] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:03.382] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63C5BC:0:0 to 0xD6565D8:0
+[01:29:03.488] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:03.489] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x97
+[01:29:03.497] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[01:29:03.551] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:03.552] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:03.834] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63C948:0:0 to 0xD6565D8:0
+[01:29:03.976] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:03.978] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x98
+[01:29:03.986] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[01:29:04.044] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63CCD4:0:0 to 0xD6565D8:0
+[01:29:04.132] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:04.132] |T| [open_file]: sceIoOpen: Opening file app0:./FILE_NGP/SOUND/VOICE/voice.pac (ux0:/app/PCSB00829/./FILE_NGP/SOUND/VOICE/voice.pac), fd: 0x99
+[01:29:04.140] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[01:29:04.170] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD6565D8:0
+[01:29:04.170] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD650E90:0:0 to 0xD655080:0
+[01:29:04.298] |T| [export_sceNgsPatchCreateRouting]: Patching 0xD63D060:0:0 to 0xD6565D8:0
+[01:29:04.411] |I| [export_sceIoOpen]: Opening file: app0:./FILE_NGP/SOUND/VOICE/voice.pac
+[01:29:04.413] |T| [open_file]: sceIoOpen: Openin

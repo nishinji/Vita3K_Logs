@@ -1,0 +1,764 @@
+[15:46:52.842] |I| [config::init_config]: backend-renderer: Vulkan
+[15:46:52.846] |I| [config::init_config]: log-level: 0
+[15:46:53.077] |I| [SDL_main]: Vita3K v0.1.6 2995-81eb58b2
+[15:46:53.078] |I| [SDL_main]: Number of logical CPU cores: 2
+[15:46:53.078] |I| [SDL_main]: Available ram memory: 3959 MiB
+[15:46:53.527] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[15:46:53.713] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[15:46:53.718] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[15:46:53.755] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[15:47:11.621] |I| [load_app_impl]: cpu-backend: Dynarmic
+[15:47:11.622] |I| [load_app_impl]: CPU Optimisation state: true
+[15:47:11.622] |I| [load_app_impl]: ngs state: true
+[15:47:11.622] |I| [load_app_impl]: Resolution multiplier: 1
+[15:47:11.623] |I| [load_app_impl]: modules mode: Automatic
+[15:47:11.623] |I| [load_app_impl]: Title: Flying Hamster HD
+[15:47:11.623] |I| [load_app_impl]: Serial: PCSE00257
+[15:47:11.624] |I| [load_app_impl]: Version: 1.00
+[15:47:11.624] |I| [load_app_impl]: Category: gd
+[15:47:11.704] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6FFFFF01...
+[15:47:11.707] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x00052A2C / 0x81000000] (size: 0x0004DA2C) of module app0:sce_module/libc.suprx
+[15:47:11.707] |I| [load_self]: Loaded module segment 1 @ [0x00053000 - 0x000556F8 / 0x8104E000] (size: 0x000026F8) of module app0:sce_module/libc.suprx
+[15:47:11.707] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[15:47:11.709] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x3E798
+[15:47:11.709] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0x487D4
+[15:47:11.709] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[15:47:11.792] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6FFFFF01...
+[15:47:11.794] |I| [load_self]: Loaded module segment 0 @ [0x00056000 - 0x0007E928 / 0x81000000] (size: 0x00028928) of module app0:sce_module/libfios2.suprx
+[15:47:11.796] |I| [load_self]: Loaded module segment 1 @ [0x0007F000 - 0x000841FD / 0x81029000] (size: 0x000051FD) of module app0:sce_module/libfios2.suprx
+[15:47:11.800] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[15:47:11.801] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x766A8
+[15:47:11.803] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0x7E810
+[15:47:11.805] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[15:47:11.875] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6FFFFF01...
+[15:47:11.876] |I| [load_self]: Loaded module segment 0 @ [0x00085000 - 0x00099744 / 0x81000000] (size: 0x00014744) of module app0:sce_module/libult.suprx
+[15:47:11.881] |I| [load_self]: Loaded module segment 1 @ [0x0009A000 - 0x0009A814 / 0x81015000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[15:47:11.884] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[15:47:11.885] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x95658
+[15:47:11.887] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0x980A0
+[15:47:11.888] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[15:47:12.046] |I| [load_self]: Loaded module segment 0 @ [0x0009B000 - 0x000EBF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[15:47:12.049] |I| [load_self]: Loaded module segment 1 @ [0x000EC000 - 0x000EC2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[15:47:12.054] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[15:47:12.055] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0xD77DC
+[15:47:12.057] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0xD6F10
+[15:47:12.058] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[15:47:12.153] |I| [load_self]: Loaded module segment 0 @ [0x000ED000 - 0x000FCF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[15:47:12.156] |I| [load_self]: Loaded module segment 1 @ [0x000FD000 - 0x000FD008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[15:47:12.159] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[15:47:12.164] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0xFB710
+[15:47:12.165] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0xFB300
+[15:47:12.168] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[15:47:12.530] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6FFFFF01...
+[15:47:12.532] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81102ABC / 0x81000000] (size: 0x00102ABC) of module app0:eboot.bin
+[15:47:12.534] |I| [load_self]: Loaded module segment 1 @ [0x81103000 - 0x81167000 / 0x81103000] (size: 0x00064000) of module app0:eboot.bin
+[15:47:12.537] |I| [load_self]: Linking SELF app0:eboot.bin...
+[15:47:12.538] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x810E77C0
+[15:47:12.540] |D| [load_var_exports]:  NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x811041A0
+[15:47:12.541] |I| [load_app_impl]: Main executable newton_vita (eboot.bin) loaded
+[15:47:12.616] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/4
+[15:47:12.649] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/4
+[15:47:12.735] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/4
+[15:47:12.758] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/4
+[15:47:12.834] |D| [run_app]: Running module_start of library: SceLibc at address 0x5809
+[15:47:13.060] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[15:47:13.063] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[15:47:13.065] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[15:47:13.096] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[15:47:13.109] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x56001
+[15:47:13.165] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[15:47:13.167] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[15:47:13.181] |D| [run_app]: Running module_start of library: SceUlt at address 0x885ED
+[15:47:13.235] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[15:47:13.236] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[15:47:13.453] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[15:47:16.860] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[15:47:17.398] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MiB emuenv mem)
+[15:47:19.321] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[15:47:19.325] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[15:47:20.463] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[15:47:20.473] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[15:47:20.575] |W| [stubbed_impl]: Stubbed sceNgsVoiceInit import called. (Default preset not implemented)
+[15:47:20.594] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 2, using passthrough.
+[15:47:20.596] |T| [write_file]: *** TTY: # Audio out thread started
+[15:47:20.604] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[15:47:20.609] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[15:47:20.614] |I| [ngs::scream::Atrac9VoiceDefinition::new_modules]: Scream Atrac9 voice definition stubbed
+[15:47:20.621] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[15:47:20.625] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[15:47:20.628] |I| [ngs::scream::Atrac9VoiceDefinition::new_modules]: Scream Atrac9 voice definition stubbed
+[15:47:20.631] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[15:47:20.641] |T| [export_sceNgsPatchCreateRouting]: Patching 0x189EF0:0:0 to 0x15A0B0:0
+[15:47:20.644] |T| [export_sceNgsPatchCreateRouting]: Patching 0x18A258:0:0 to 0x15A0B0:0
+[15:47:20.646] |T| [export_sceNgsPatchCreateRouting]: Patching 0x18A5C0:0:0 to 0x15A0B0:0
+[15:47:20.672] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15A0B0:0:0 to 0x15A560:0
+[15:47:20.675] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15A720:0:0 to 0x15A0B0:0
+[15:47:20.680] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15AD50:0:0 to 0x15A0B0:0
+[15:47:20.685] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15B380:0:0 to 0x15A0B0:0
+[15:47:20.694] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15B9B0:1:1 to 0x189EF0:0
+[15:47:20.697] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15B9B0:1:1 to 0x18A258:0
+[15:47:20.700] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15B9B0:1:1 to 0x18A5C0:0
+[15:47:20.703] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15BD30:1:1 to 0x189EF0:0
+[15:47:20.704] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15BD30:1:1 to 0x18A258:0
+[15:47:20.706] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15BD30:1:1 to 0x18A5C0:0
+[15:47:20.708] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15C0B0:1:1 to 0x189EF0:0
+[15:47:20.709] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15C0B0:1:1 to 0x18A258:0
+[15:47:20.713] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15C0B0:1:1 to 0x18A5C0:0
+[15:47:20.714] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15C430:1:1 to 0x189EF0:0
+[15:47:20.718] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15C430:1:1 to 0x18A258:0
+[15:47:20.719] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15C430:1:1 to 0x18A5C0:0
+[15:47:20.721] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15C7B0:1:1 to 0x189EF0:0
+[15:47:20.723] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15C7B0:1:1 to 0x18A258:0
+[15:47:20.724] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15C7B0:1:1 to 0x18A5C0:0
+[15:47:20.726] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15CB30:1:1 to 0x189EF0:0
+[15:47:20.729] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15CB30:1:1 to 0x18A258:0
+[15:47:20.730] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15CB30:1:1 to 0x18A5C0:0
+[15:47:20.734] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15CEB0:1:1 to 0x189EF0:0
+[15:47:20.736] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15CEB0:1:1 to 0x18A258:0
+[15:47:20.737] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15CEB0:1:1 to 0x18A5C0:0
+[15:47:20.740] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15D230:1:1 to 0x189EF0:0
+[15:47:20.743] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15D230:1:1 to 0x18A258:0
+[15:47:20.745] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15D230:1:1 to 0x18A5C0:0
+[15:47:20.751] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1812E0:1:1 to 0x189EF0:0
+[15:47:20.753] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1812E0:1:1 to 0x18A258:0
+[15:47:20.754] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1812E0:1:1 to 0x18A5C0:0
+[15:47:20.756] |T| [export_sceNgsPatchCreateRouting]: Patching 0x181660:1:1 to 0x189EF0:0
+[15:47:20.758] |T| [export_sceNgsPatchCreateRouting]: Patching 0x181660:1:1 to 0x18A258:0
+[15:47:20.760] |T| [export_sceNgsPatchCreateRouting]: Patching 0x181660:1:1 to 0x18A5C0:0
+[15:47:20.763] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1819E0:1:1 to 0x189EF0:0
+[15:47:20.764] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1819E0:1:1 to 0x18A258:0
+[15:47:20.767] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1819E0:1:1 to 0x18A5C0:0
+[15:47:20.768] |T| [export_sceNgsPatchCreateRouting]: Patching 0x181D60:1:1 to 0x189EF0:0
+[15:47:20.770] |T| [export_sceNgsPatchCreateRouting]: Patching 0x181D60:1:1 to 0x18A258:0
+[15:47:20.772] |T| [export_sceNgsPatchCreateRouting]: Patching 0x181D60:1:1 to 0x18A5C0:0
+[15:47:20.774] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1820E0:1:1 to 0x189EF0:0
+[15:47:20.776] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1820E0:1:1 to 0x18A258:0
+[15:47:20.778] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1820E0:1:1 to 0x18A5C0:0
+[15:47:20.779] |T| [export_sceNgsPatchCreateRouting]: Patching 0x182460:1:1 to 0x189EF0:0
+[15:47:20.781] |T| [export_sceNgsPatchCreateRouting]: Patching 0x182460:1:1 to 0x18A258:0
+[15:47:20.784] |T| [export_sceNgsPatchCreateRouting]: Patching 0x182460:1:1 to 0x18A5C0:0
+[15:47:20.786] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1827E0:1:1 to 0x189EF0:0
+[15:47:20.787] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1827E0:1:1 to 0x18A258:0
+[15:47:20.790] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1827E0:1:1 to 0x18A5C0:0
+[15:47:20.793] |T| [export_sceNgsPatchCreateRouting]: Patching 0x182B60:1:1 to 0x189EF0:0
+[15:47:20.794] |T| [export_sceNgsPatchCreateRouting]: Patching 0x182B60:1:1 to 0x18A258:0
+[15:47:20.796] |T| [export_sceNgsPatchCreateRouting]: Patching 0x182B60:1:1 to 0x18A5C0:0
+[15:47:20.802] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15E840:1:1 to 0x189EF0:0
+[15:47:20.805] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15E840:1:1 to 0x18A258:0
+[15:47:20.806] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15E840:1:1 to 0x18A5C0:0
+[15:47:20.808] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15EBC0:1:1 to 0x189EF0:0
+[15:47:20.810] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15EBC0:1:1 to 0x18A258:0
+[15:47:20.814] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15EBC0:1:1 to 0x18A5C0:0
+[15:47:20.814] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15EF40:1:1 to 0x189EF0:0
+[15:47:20.817] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15EF40:1:1 to 0x18A258:0
+[15:47:20.819] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15EF40:1:1 to 0x18A5C0:0
+[15:47:20.823] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15F2C0:1:1 to 0x189EF0:0
+[15:47:20.824] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15F2C0:1:1 to 0x18A258:0
+[15:47:20.827] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15F2C0:1:1 to 0x18A5C0:0
+[15:47:20.828] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15F640:1:1 to 0x189EF0:0
+[15:47:20.829] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15F640:1:1 to 0x18A258:0
+[15:47:20.831] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15F640:1:1 to 0x18A5C0:0
+[15:47:20.834] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15F9C0:1:1 to 0x189EF0:0
+[15:47:20.837] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15F9C0:1:1 to 0x18A258:0
+[15:47:20.839] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15F9C0:1:1 to 0x18A5C0:0
+[15:47:20.841] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15FD40:1:1 to 0x189EF0:0
+[15:47:20.843] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15FD40:1:1 to 0x18A258:0
+[15:47:20.844] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15FD40:1:1 to 0x18A5C0:0
+[15:47:20.846] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1600C0:1:1 to 0x189EF0:0
+[15:47:20.847] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1600C0:1:1 to 0x18A258:0
+[15:47:20.853] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1600C0:1:1 to 0x18A5C0:0
+[15:47:20.857] |T| [export_sceNgsPatchCreateRouting]: Patching 0x160440:1:1 to 0x189EF0:0
+[15:47:20.860] |T| [export_sceNgsPatchCreateRouting]: Patching 0x160440:1:1 to 0x18A258:0
+[15:47:20.861] |T| [export_sceNgsPatchCreateRouting]: Patching 0x160440:1:1 to 0x18A5C0:0
+[15:47:20.863] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1607C0:1:1 to 0x189EF0:0
+[15:47:20.864] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1607C0:1:1 to 0x18A258:0
+[15:47:20.867] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1607C0:1:1 to 0x18A5C0:0
+[15:47:20.870] |T| [export_sceNgsPatchCreateRouting]: Patching 0x160B40:1:1 to 0x189EF0:0
+[15:47:20.873] |T| [export_sceNgsPatchCreateRouting]: Patching 0x160B40:1:1 to 0x18A258:0
+[15:47:20.875] |T| [export_sceNgsPatchCreateRouting]: Patching 0x160B40:1:1 to 0x18A5C0:0
+[15:47:20.878] |T| [export_sceNgsPatchCreateRouting]: Patching 0x160EC0:1:1 to 0x189EF0:0
+[15:47:20.879] |T| [export_sceNgsPatchCreateRouting]: Patching 0x160EC0:1:1 to 0x18A258:0
+[15:47:20.881] |T| [export_sceNgsPatchCreateRouting]: Patching 0x160EC0:1:1 to 0x18A5C0:0
+[15:47:20.886] |T| [export_sceNgsPatchCreateRouting]: Patching 0x161240:1:1 to 0x189EF0:0
+[15:47:20.887] |T| [export_sceNgsPatchCreateRouting]: Patching 0x161240:1:1 to 0x18A258:0
+[15:47:20.890] |T| [export_sceNgsPatchCreateRouting]: Patching 0x161240:1:1 to 0x18A5C0:0
+[15:47:20.892] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1615C0:1:1 to 0x189EF0:0
+[15:47:20.893] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1615C0:1:1 to 0x18A258:0
+[15:47:20.895] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1615C0:1:1 to 0x18A5C0:0
+[15:47:20.897] |T| [export_sceNgsPatchCreateRouting]: Patching 0x161940:1:1 to 0x189EF0:0
+[15:47:20.897] |T| [export_sceNgsPatchCreateRouting]: Patching 0x161940:1:1 to 0x18A258:0
+[15:47:20.903] |T| [export_sceNgsPatchCreateRouting]: Patching 0x161940:1:1 to 0x18A5C0:0
+[15:47:20.904] |T| [export_sceNgsPatchCreateRouting]: Patching 0x161CC0:1:1 to 0x189EF0:0
+[15:47:20.906] |T| [export_sceNgsPatchCreateRouting]: Patching 0x161CC0:1:1 to 0x18A258:0
+[15:47:20.907] |T| [export_sceNgsPatchCreateRouting]: Patching 0x161CC0:1:1 to 0x18A5C0:0
+[15:47:20.909] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162040:1:1 to 0x189EF0:0
+[15:47:20.910] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162040:1:1 to 0x18A258:0
+[15:47:20.912] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162040:1:1 to 0x18A5C0:0
+[15:47:20.913] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1623C0:1:1 to 0x189EF0:0
+[15:47:20.919] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1623C0:1:1 to 0x18A258:0
+[15:47:20.920] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1623C0:1:1 to 0x18A5C0:0
+[15:47:20.923] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162740:1:1 to 0x189EF0:0
+[15:47:20.924] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162740:1:1 to 0x18A258:0
+[15:47:20.925] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162740:1:1 to 0x18A5C0:0
+[15:47:20.927] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162AC0:1:1 to 0x189EF0:0
+[15:47:20.928] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162AC0:1:1 to 0x18A258:0
+[15:47:20.929] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162AC0:1:1 to 0x18A5C0:0
+[15:47:20.936] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162E40:1:1 to 0x189EF0:0
+[15:47:20.937] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162E40:1:1 to 0x18A258:0
+[15:47:20.939] |T| [export_sceNgsPatchCreateRouting]: Patching 0x162E40:1:1 to 0x18A5C0:0
+[15:47:20.940] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1631C0:1:1 to 0x189EF0:0
+[15:47:20.942] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1631C0:1:1 to 0x18A258:0
+[15:47:20.944] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1631C0:1:1 to 0x18A5C0:0
+[15:47:20.945] |T| [export_sceNgsPatchCreateRouting]: Patching 0x163540:1:1 to 0x189EF0:0
+[15:47:20.948] |T| [export_sceNgsPatchCreateRouting]: Patching 0x163540:1:1 to 0x18A258:0
+[15:47:20.953] |T| [export_sceNgsPatchCreateRouting]: Patching 0x163540:1:1 to 0x18A5C0:0
+[15:47:20.954] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1638C0:1:1 to 0x189EF0:0
+[15:47:20.956] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1638C0:1:1 to 0x18A258:0
+[15:47:20.957] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1638C0:1:1 to 0x18A5C0:0
+[15:47:20.958] |T| [export_sceNgsPatchCreateRouting]: Patching 0x163C40:1:1 to 0x189EF0:0
+[15:47:20.960] |T| [export_sceNgsPatchCreateRouting]: Patching 0x163C40:1:1 to 0x18A258:0
+[15:47:20.961] |T| [export_sceNgsPatchCreateRouting]: Patching 0x163C40:1:1 to 0x18A5C0:0
+[15:47:20.968] |T| [export_sceNgsPatchCreateRouting]: Patching 0x163FC0:1:1 to 0x189EF0:0
+[15:47:20.968] |T| [export_sceNgsPatchCreateRouting]: Patching 0x163FC0:1:1 to 0x18A258:0
+[15:47:20.970] |T| [export_sceNgsPatchCreateRouting]: Patching 0x163FC0:1:1 to 0x18A5C0:0
+[15:47:20.972] |T| [export_sceNgsPatchCreateRouting]: Patching 0x164340:1:1 to 0x189EF0:0
+[15:47:20.974] |T| [export_sceNgsPatchCreateRouting]: Patching 0x164340:1:1 to 0x18A258:0
+[15:47:20.975] |T| [export_sceNgsPatchCreateRouting]: Patching 0x164340:1:1 to 0x18A5C0:0
+[15:47:20.978] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1646C0:1:1 to 0x189EF0:0
+[15:47:20.979] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1646C0:1:1 to 0x18A258:0
+[15:47:20.985] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1646C0:1:1 to 0x18A5C0:0
+[15:47:20.986] |T| [export_sceNgsPatchCreateRouting]: Patching 0x164A40:1:1 to 0x189EF0:0
+[15:47:20.987] |T| [export_sceNgsPatchCreateRouting]: Patching 0x164A40:1:1 to 0x18A258:0
+[15:47:20.988] |T| [export_sceNgsPatchCreateRouting]: Patching 0x164A40:1:1 to 0x18A5C0:0
+[15:47:20.990] |T| [export_sceNgsPatchCreateRouting]: Patching 0x164DC0:1:1 to 0x189EF0:0
+[15:47:20.992] |T| [export_sceNgsPatchCreateRouting]: Patching 0x164DC0:1:1 to 0x18A258:0
+[15:47:20.995] |T| [export_sceNgsPatchCreateRouting]: Patching 0x164DC0:1:1 to 0x18A5C0:0
+[15:47:20.996] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165140:1:1 to 0x189EF0:0
+[15:47:21.000] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165140:1:1 to 0x18A258:0
+[15:47:21.001] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165140:1:1 to 0x18A5C0:0
+[15:47:21.003] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1654C0:1:1 to 0x189EF0:0
+[15:47:21.004] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1654C0:1:1 to 0x18A258:0
+[15:47:21.007] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1654C0:1:1 to 0x18A5C0:0
+[15:47:21.010] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165840:1:1 to 0x189EF0:0
+[15:47:21.013] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165840:1:1 to 0x18A258:0
+[15:47:21.013] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165840:1:1 to 0x18A5C0:0
+[15:47:21.017] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165BC0:1:1 to 0x189EF0:0
+[15:47:21.019] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165BC0:1:1 to 0x18A258:0
+[15:47:21.020] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165BC0:1:1 to 0x18A5C0:0
+[15:47:21.023] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165F40:1:1 to 0x189EF0:0
+[15:47:21.027] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165F40:1:1 to 0x18A258:0
+[15:47:21.028] |T| [export_sceNgsPatchCreateRouting]: Patching 0x165F40:1:1 to 0x18A5C0:0
+[15:47:21.031] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1662C0:1:1 to 0x189EF0:0
+[15:47:21.035] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1662C0:1:1 to 0x18A258:0
+[15:47:21.035] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1662C0:1:1 to 0x18A5C0:0
+[15:47:21.037] |T| [export_sceNgsPatchCreateRouting]: Patching 0x166640:1:1 to 0x189EF0:0
+[15:47:21.038] |T| [export_sceNgsPatchCreateRouting]: Patching 0x166640:1:1 to 0x18A258:0
+[15:47:21.042] |T| [export_sceNgsPatchCreateRouting]: Patching 0x166640:1:1 to 0x18A5C0:0
+[15:47:21.045] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1669C0:1:1 to 0x189EF0:0
+[15:47:21.047] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1669C0:1:1 to 0x18A258:0
+[15:47:21.051] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1669C0:1:1 to 0x18A5C0:0
+[15:47:21.052] |T| [export_sceNgsPatchCreateRouting]: Patching 0x166D40:1:1 to 0x189EF0:0
+[15:47:21.055] |T| [export_sceNgsPatchCreateRouting]: Patching 0x166D40:1:1 to 0x18A258:0
+[15:47:21.057] |T| [export_sceNgsPatchCreateRouting]: Patching 0x166D40:1:1 to 0x18A5C0:0
+[15:47:21.059] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1670C0:1:1 to 0x189EF0:0
+[15:47:21.061] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1670C0:1:1 to 0x18A258:0
+[15:47:21.063] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1670C0:1:1 to 0x18A5C0:0
+[15:47:21.064] |T| [export_sceNgsPatchCreateRouting]: Patching 0x167440:1:1 to 0x189EF0:0
+[15:47:21.067] |T| [export_sceNgsPatchCreateRouting]: Patching 0x167440:1:1 to 0x18A258:0
+[15:47:21.068] |T| [export_sceNgsPatchCreateRouting]: Patching 0x167440:1:1 to 0x18A5C0:0
+[15:47:21.071] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1677C0:1:1 to 0x189EF0:0
+[15:47:21.074] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1677C0:1:1 to 0x18A258:0
+[15:47:21.076] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1677C0:1:1 to 0x18A5C0:0
+[15:47:21.078] |T| [export_sceNgsPatchCreateRouting]: Patching 0x167B40:1:1 to 0x189EF0:0
+[15:47:21.079] |T| [export_sceNgsPatchCreateRouting]: Patching 0x167B40:1:1 to 0x18A258:0
+[15:47:21.081] |T| [export_sceNgsPatchCreateRouting]: Patching 0x167B40:1:1 to 0x18A5C0:0
+[15:47:21.085] |T| [export_sceNgsPatchCreateRouting]: Patching 0x167EC0:1:1 to 0x189EF0:0
+[15:47:21.087] |T| [export_sceNgsPatchCreateRouting]: Patching 0x167EC0:1:1 to 0x18A258:0
+[15:47:21.089] |T| [export_sceNgsPatchCreateRouting]: Patching 0x167EC0:1:1 to 0x18A5C0:0
+[15:47:21.090] |T| [export_sceNgsPatchCreateRouting]: Patching 0x168240:1:1 to 0x189EF0:0
+[15:47:21.093] |T| [export_sceNgsPatchCreateRouting]: Patching 0x168240:1:1 to 0x18A258:0
+[15:47:21.095] |T| [export_sceNgsPatchCreateRouting]: Patching 0x168240:1:1 to 0x18A5C0:0
+[15:47:21.096] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1685C0:1:1 to 0x189EF0:0
+[15:47:21.097] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1685C0:1:1 to 0x18A258:0
+[15:47:21.101] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1685C0:1:1 to 0x18A5C0:0
+[15:47:21.103] |T| [export_sceNgsPatchCreateRouting]: Patching 0x168940:1:1 to 0x189EF0:0
+[15:47:21.106] |T| [export_sceNgsPatchCreateRouting]: Patching 0x168940:1:1 to 0x18A258:0
+[15:47:21.107] |T| [export_sceNgsPatchCreateRouting]: Patching 0x168940:1:1 to 0x18A5C0:0
+[15:47:21.110] |T| [export_sceNgsPatchCreateRouting]: Patching 0x168CC0:1:1 to 0x189EF0:0
+[15:47:21.112] |T| [export_sceNgsPatchCreateRouting]: Patching 0x168CC0:1:1 to 0x18A258:0
+[15:47:21.113] |T| [export_sceNgsPatchCreateRouting]: Patching 0x168CC0:1:1 to 0x18A5C0:0
+[15:47:21.114] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169040:1:1 to 0x189EF0:0
+[15:47:21.117] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169040:1:1 to 0x18A258:0
+[15:47:21.120] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169040:1:1 to 0x18A5C0:0
+[15:47:21.122] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1693C0:1:1 to 0x189EF0:0
+[15:47:21.124] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1693C0:1:1 to 0x18A258:0
+[15:47:21.125] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1693C0:1:1 to 0x18A5C0:0
+[15:47:21.127] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169740:1:1 to 0x189EF0:0
+[15:47:21.128] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169740:1:1 to 0x18A258:0
+[15:47:21.129] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169740:1:1 to 0x18A5C0:0
+[15:47:21.131] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169AC0:1:1 to 0x189EF0:0
+[15:47:21.137] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169AC0:1:1 to 0x18A258:0
+[15:47:21.138] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169AC0:1:1 to 0x18A5C0:0
+[15:47:21.140] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169E40:1:1 to 0x189EF0:0
+[15:47:21.142] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169E40:1:1 to 0x18A258:0
+[15:47:21.143] |T| [export_sceNgsPatchCreateRouting]: Patching 0x169E40:1:1 to 0x18A5C0:0
+[15:47:21.144] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16A1C0:1:1 to 0x189EF0:0
+[15:47:21.146] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16A1C0:1:1 to 0x18A258:0
+[15:47:21.147] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16A1C0:1:1 to 0x18A5C0:0
+[15:47:21.151] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16A540:1:1 to 0x189EF0:0
+[15:47:21.153] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16A540:1:1 to 0x18A258:0
+[15:47:21.155] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16A540:1:1 to 0x18A5C0:0
+[15:47:21.158] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16A8C0:1:1 to 0x189EF0:0
+[15:47:21.158] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16A8C0:1:1 to 0x18A258:0
+[15:47:21.160] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16A8C0:1:1 to 0x18A5C0:0
+[15:47:21.161] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16AC40:1:1 to 0x189EF0:0
+[15:47:21.163] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16AC40:1:1 to 0x18A258:0
+[15:47:21.164] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16AC40:1:1 to 0x18A5C0:0
+[15:47:21.169] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16AFC0:1:1 to 0x189EF0:0
+[15:47:21.170] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16AFC0:1:1 to 0x18A258:0
+[15:47:21.173] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16AFC0:1:1 to 0x18A5C0:0
+[15:47:21.174] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16B340:1:1 to 0x189EF0:0
+[15:47:21.175] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16B340:1:1 to 0x18A258:0
+[15:47:21.177] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16B340:1:1 to 0x18A5C0:0
+[15:47:21.178] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16B6C0:1:1 to 0x189EF0:0
+[15:47:21.180] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16B6C0:1:1 to 0x18A258:0
+[15:47:21.185] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16B6C0:1:1 to 0x18A5C0:0
+[15:47:21.186] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16BA40:1:1 to 0x189EF0:0
+[15:47:21.188] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16BA40:1:1 to 0x18A258:0
+[15:47:21.190] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16BA40:1:1 to 0x18A5C0:0
+[15:47:21.192] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16BDC0:1:1 to 0x189EF0:0
+[15:47:21.193] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16BDC0:1:1 to 0x18A258:0
+[15:47:21.194] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16BDC0:1:1 to 0x18A5C0:0
+[15:47:21.196] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16C140:1:1 to 0x189EF0:0
+[15:47:21.198] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16C140:1:1 to 0x18A258:0
+[15:47:21.202] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16C140:1:1 to 0x18A5C0:0
+[15:47:21.204] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16C4C0:1:1 to 0x189EF0:0
+[15:47:21.206] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16C4C0:1:1 to 0x18A258:0
+[15:47:21.207] |T| [export_sceNgsPatchCreateRouting]: Patching 0x16C4C0:1:1 to 0x18A5C0:0
+[15:47:21.211] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184170:1:1 to 0x189EF0:0
+[15:47:21.214] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184170:1:1 to 0x18A258:0
+[15:47:21.218] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184170:1:1 to 0x18A5C0:0
+[15:47:21.220] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1844F0:1:1 to 0x189EF0:0
+[15:47:21.221] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1844F0:1:1 to 0x18A258:0
+[15:47:21.223] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1844F0:1:1 to 0x18A5C0:0
+[15:47:21.224] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184870:1:1 to 0x189EF0:0
+[15:47:21.226] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184870:1:1 to 0x18A258:0
+[15:47:21.227] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184870:1:1 to 0x18A5C0:0
+[15:47:21.228] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184BF0:1:1 to 0x189EF0:0
+[15:47:21.234] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184BF0:1:1 to 0x18A258:0
+[15:47:21.236] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184BF0:1:1 to 0x18A5C0:0
+[15:47:21.237] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184F70:1:1 to 0x189EF0:0
+[15:47:21.238] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184F70:1:1 to 0x18A258:0
+[15:47:21.239] |T| [export_sceNgsPatchCreateRouting]: Patching 0x184F70:1:1 to 0x18A5C0:0
+[15:47:21.241] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1852F0:1:1 to 0x189EF0:0
+[15:47:21.243] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1852F0:1:1 to 0x18A258:0
+[15:47:21.244] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1852F0:1:1 to 0x18A5C0:0
+[15:47:21.247] |T| [export_sceNgsPatchCreateRouting]: Patching 0x185670:1:1 to 0x189EF0:0
+[15:47:21.250] |T| [export_sceNgsPatchCreateRouting]: Patching 0x185670:1:1 to 0x18A258:0
+[15:47:21.253] |T| [export_sceNgsPatchCreateRouting]: Patching 0x185670:1:1 to 0x18A5C0:0
+[15:47:21.254] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1859F0:1:1 to 0x189EF0:0
+[15:47:21.256] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1859F0:1:1 to 0x18A258:0
+[15:47:21.257] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1859F0:1:1 to 0x18A5C0:0
+[15:47:21.264] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1758D0:1:1 to 0x189EF0:0
+[15:47:21.268] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1758D0:1:1 to 0x18A258:0
+[15:47:21.269] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1758D0:1:1 to 0x18A5C0:0
+[15:47:21.271] |T| [export_sceNgsPatchCreateRouting]: Patching 0x175C5C:1:1 to 0x189EF0:0
+[15:47:21.273] |T| [export_sceNgsPatchCreateRouting]: Patching 0x175C5C:1:1 to 0x18A258:0
+[15:47:21.274] |T| [export_sceNgsPatchCreateRouting]: Patching 0x175C5C:1:1 to 0x18A5C0:0
+[15:47:21.276] |T| [export_sceNgsPatchCreateRouting]: Patching 0x175FE8:1:1 to 0x189EF0:0
+[15:47:21.278] |T| [export_sceNgsPatchCreateRouting]: Patching 0x175FE8:1:1 to 0x18A258:0
+[15:47:21.280] |T| [export_sceNgsPatchCreateRouting]: Patching 0x175FE8:1:1 to 0x18A5C0:0
+[15:47:21.285] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176374:1:1 to 0x189EF0:0
+[15:47:21.286] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176374:1:1 to 0x18A258:0
+[15:47:21.287] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176374:1:1 to 0x18A5C0:0
+[15:47:21.289] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176700:1:1 to 0x189EF0:0
+[15:47:21.290] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176700:1:1 to 0x18A258:0
+[15:47:21.291] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176700:1:1 to 0x18A5C0:0
+[15:47:21.295] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176A8C:1:1 to 0x189EF0:0
+[15:47:21.297] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176A8C:1:1 to 0x18A258:0
+[15:47:21.300] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176A8C:1:1 to 0x18A5C0:0
+[15:47:21.301] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176E18:1:1 to 0x189EF0:0
+[15:47:21.304] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176E18:1:1 to 0x18A258:0
+[15:47:21.305] |T| [export_sceNgsPatchCreateRouting]: Patching 0x176E18:1:1 to 0x18A5C0:0
+[15:47:21.307] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1771A4:1:1 to 0x189EF0:0
+[15:47:21.309] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1771A4:1:1 to 0x18A258:0
+[15:47:21.311] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1771A4:1:1 to 0x18A5C0:0
+[15:47:21.313] |T| [export_sceNgsPatchCreateRouting]: Patching 0x177530:1:1 to 0x189EF0:0
+[15:47:21.315] |T| [export_sceNgsPatchCreateRouting]: Patching 0x177530:1:1 to 0x18A258:0
+[15:47:21.317] |T| [export_sceNgsPatchCreateRouting]: Patching 0x177530:1:1 to 0x18A5C0:0
+[15:47:21.319] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1778BC:1:1 to 0x189EF0:0
+[15:47:21.321] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1778BC:1:1 to 0x18A258:0
+[15:47:21.323] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1778BC:1:1 to 0x18A5C0:0
+[15:47:21.325] |T| [export_sceNgsPatchCreateRouting]: Patching 0x177C48:1:1 to 0x189EF0:0
+[15:47:21.327] |T| [export_sceNgsPatchCreateRouting]: Patching 0x177C48:1:1 to 0x18A258:0
+[15:47:21.328] |T| [export_sceNgsPatchCreateRouting]: Patching 0x177C48:1:1 to 0x18A5C0:0
+[15:47:21.331] |T| [export_sceNgsPatchCreateRouting]: Patching 0x177FD4:1:1 to 0x189EF0:0
+[15:47:21.335] |T| [export_sceNgsPatchCreateRouting]: Patching 0x177FD4:1:1 to 0x18A258:0
+[15:47:21.336] |T| [export_sceNgsPatchCreateRouting]: Patching 0x177FD4:1:1 to 0x18A5C0:0
+[15:47:21.338] |T| [export_sceNgsPatchCreateRouting]: Patching 0x178360:1:1 to 0x189EF0:0
+[15:47:21.339] |T| [export_sceNgsPatchCreateRouting]: Patching 0x178360:1:1 to 0x18A258:0
+[15:47:21.343] |T| [export_sceNgsPatchCreateRouting]: Patching 0x178360:1:1 to 0x18A5C0:0
+[15:47:21.345] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1786EC:1:1 to 0x189EF0:0
+[15:47:21.346] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1786EC:1:1 to 0x18A258:0
+[15:47:21.348] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1786EC:1:1 to 0x18A5C0:0
+[15:47:21.352] |T| [export_sceNgsPatchCreateRouting]: Patching 0x178A78:1:1 to 0x189EF0:0
+[15:47:21.353] |T| [export_sceNgsPatchCreateRouting]: Patching 0x178A78:1:1 to 0x18A258:0
+[15:47:21.355] |T| [export_sceNgsPatchCreateRouting]: Patching 0x178A78:1:1 to 0x18A5C0:0
+[15:47:21.358] |T| [export_sceNgsPatchCreateRouting]: Patching 0x178E04:1:1 to 0x189EF0:0
+[15:47:21.359] |T| [export_sceNgsPatchCreateRouting]: Patching 0x178E04:1:1 to 0x18A258:0
+[15:47:21.361] |T| [export_sceNgsPatchCreateRouting]: Patching 0x178E04:1:1 to 0x18A5C0:0
+[15:47:21.363] |T| [export_sceNgsPatchCreateRouting]: Patching 0x179190:1:1 to 0x189EF0:0
+[15:47:21.365] |T| [export_sceNgsPatchCreateRouting]: Patching 0x179190:1:1 to 0x18A258:0
+[15:47:21.367] |T| [export_sceNgsPatchCreateRouting]: Patching 0x179190:1:1 to 0x18A5C0:0
+[15:47:21.369] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17951C:1:1 to 0x189EF0:0
+[15:47:21.370] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17951C:1:1 to 0x18A258:0
+[15:47:21.374] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17951C:1:1 to 0x18A5C0:0
+[15:47:21.375] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1798A8:1:1 to 0x189EF0:0
+[15:47:21.377] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1798A8:1:1 to 0x18A258:0
+[15:47:21.379] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1798A8:1:1 to 0x18A5C0:0
+[15:47:21.381] |T| [export_sceNgsPatchCreateRouting]: Patching 0x179C34:1:1 to 0x189EF0:0
+[15:47:21.381] |T| [export_sceNgsPatchCreateRouting]: Patching 0x179C34:1:1 to 0x18A258:0
+[15:47:21.385] |T| [export_sceNgsPatchCreateRouting]: Patching 0x179C34:1:1 to 0x18A5C0:0
+[15:47:21.389] |T| [export_sceNgsPatchCreateRouting]: Patching 0x179FC0:1:1 to 0x189EF0:0
+[15:47:21.390] |T| [export_sceNgsPatchCreateRouting]: Patching 0x179FC0:1:1 to 0x18A258:0
+[15:47:21.393] |T| [export_sceNgsPatchCreateRouting]: Patching 0x179FC0:1:1 to 0x18A5C0:0
+[15:47:21.394] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17A34C:1:1 to 0x189EF0:0
+[15:47:21.396] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17A34C:1:1 to 0x18A258:0
+[15:47:21.397] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17A34C:1:1 to 0x18A5C0:0
+[15:47:21.401] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17A6D8:1:1 to 0x189EF0:0
+[15:47:21.403] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17A6D8:1:1 to 0x18A258:0
+[15:47:21.405] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17A6D8:1:1 to 0x18A5C0:0
+[15:47:21.407] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17AA64:1:1 to 0x189EF0:0
+[15:47:21.409] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17AA64:1:1 to 0x18A258:0
+[15:47:21.410] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17AA64:1:1 to 0x18A5C0:0
+[15:47:21.413] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17ADF0:1:1 to 0x189EF0:0
+[15:47:21.414] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17ADF0:1:1 to 0x18A258:0
+[15:47:21.418] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17ADF0:1:1 to 0x18A5C0:0
+[15:47:21.421] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17B17C:1:1 to 0x189EF0:0
+[15:47:21.423] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17B17C:1:1 to 0x18A258:0
+[15:47:21.426] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17B17C:1:1 to 0x18A5C0:0
+[15:47:21.427] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17B508:1:1 to 0x189EF0:0
+[15:47:21.429] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17B508:1:1 to 0x18A258:0
+[15:47:21.430] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17B508:1:1 to 0x18A5C0:0
+[15:47:21.431] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17B894:1:1 to 0x189EF0:0
+[15:47:21.437] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17B894:1:1 to 0x18A258:0
+[15:47:21.438] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17B894:1:1 to 0x18A5C0:0
+[15:47:21.440] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17BC20:1:1 to 0x189EF0:0
+[15:47:21.441] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17BC20:1:1 to 0x18A258:0
+[15:47:21.443] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17BC20:1:1 to 0x18A5C0:0
+[15:47:21.447] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17BFAC:1:1 to 0x189EF0:0
+[15:47:21.450] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17BFAC:1:1 to 0x18A258:0
+[15:47:21.453] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17BFAC:1:1 to 0x18A5C0:0
+[15:47:21.456] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17C338:1:1 to 0x189EF0:0
+[15:47:21.457] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17C338:1:1 to 0x18A258:0
+[15:47:21.459] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17C338:1:1 to 0x18A5C0:0
+[15:47:21.461] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17C6C4:1:1 to 0x189EF0:0
+[15:47:21.463] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17C6C4:1:1 to 0x18A258:0
+[15:47:21.468] |T| [export_sceNgsPatchCreateRouting]: Patching 0x17C6C4:1:1 to 0x18A5C0:0
+[15:47:21.475] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187000:1:1 to 0x189EF0:0
+[15:47:21.477] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187000:1:1 to 0x18A258:0
+[15:47:21.479] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187000:1:1 to 0x18A5C0:0
+[15:47:21.481] |T| [export_sceNgsPatchCreateRouting]: Patching 0x18738C:1:1 to 0x189EF0:0
+[15:47:21.490] |T| [export_sceNgsPatchCreateRouting]: Patching 0x18738C:1:1 to 0x18A258:0
+[15:47:21.493] |T| [export_sceNgsPatchCreateRouting]: Patching 0x18738C:1:1 to 0x18A5C0:0
+[15:47:21.495] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187718:1:1 to 0x189EF0:0
+[15:47:21.496] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187718:1:1 to 0x18A258:0
+[15:47:21.497] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187718:1:1 to 0x18A5C0:0
+[15:47:21.503] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187AA4:1:1 to 0x189EF0:0
+[15:47:21.504] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187AA4:1:1 to 0x18A258:0
+[15:47:21.507] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187AA4:1:1 to 0x18A5C0:0
+[15:47:21.508] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187E30:1:1 to 0x189EF0:0
+[15:47:21.509] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187E30:1:1 to 0x18A258:0
+[15:47:21.510] |T| [export_sceNgsPatchCreateRouting]: Patching 0x187E30:1:1 to 0x18A5C0:0
+[15:47:21.513] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1881BC:1:1 to 0x189EF0:0
+[15:47:21.515] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1881BC:1:1 to 0x18A258:0
+[15:47:21.519] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1881BC:1:1 to 0x18A5C0:0
+[15:47:21.521] |T| [export_sceNgsPatchCreateRouting]: Patching 0x188548:1:1 to 0x189EF0:0
+[15:47:21.523] |T| [export_sceNgsPatchCreateRouting]: Patching 0x188548:1:1 to 0x18A258:0
+[15:47:21.524] |T| [export_sceNgsPatchCreateRouting]: Patching 0x188548:1:1 to 0x18A5C0:0
+[15:47:21.526] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1888D4:1:1 to 0x189EF0:0
+[15:47:21.527] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1888D4:1:1 to 0x18A258:0
+[15:47:21.528] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1888D4:1:1 to 0x18A5C0:0
+[15:47:21.559] |T| [write_file]: *** TTY: SCREAM Version 7.6.9 Build 0 of Branch SCE Built on Mar 25 2013 at 08:21:47
+[15:47:21.564] |T| [write_file]: *** TTY: SndStream Version 7.6.9 Build 0 of Branch SCE Built on Mar 25 2013 at 08:21:48
+[15:47:21.767] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[15:47:21.772] |I| [export_sceIoOpen]: Opening file: app0:/stream/stage01.at9
+[15:47:22.043] |T| [open_file]: sceIoOpen: Opening file app0:/stream/stage01.at9 (ux0:/app/PCSE00257/stream/stage01.at9), fd: 0x3
+[15:47:22.456] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[15:47:22.462] |I| [export_sceIoOpen]: Opening file: app0:/stream/stage02.at9
+[15:47:22.464] |T| [open_file]: sceIoOpen: Opening file app0:/stream/stage02.at9 (ux0:/app/PCSE00257/stream/stage02.at9), fd: 0x4
+[15:47:22.543] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[15:47:22.546] |I| [export_sceIoOpen]: Opening file: app0:/stream/title.at9
+[15:47:22.548] |T| [open_file]: sceIoOpen: Opening file app0:/stream/title.at9 (ux0:/app/PCSE00257/stream/title.at9), fd: 0x5
+[15:47:22.625] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[15:47:22.628] |I| [export_sceIoOpen]: Opening file: app0:/stream/howToPlay.at9
+[15:47:22.630] |T| [open_file]: sceIoOpen: Opening file app0:/stream/howToPlay.at9 (ux0:/app/PCSE00257/stream/howToPlay.at9), fd: 0x6
+[15:47:22.711] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[15:47:22.714] |I| [export_sceIoOpen]: Opening file: app0:/stream/stageClear.at9
+[15:47:22.718] |T| [open_file]: sceIoOpen: Opening file app0:/stream/stageClear.at9 (ux0:/app/PCSE00257/stream/stageClear.at9), fd: 0x7
+[15:47:22.740] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[15:47:22.741] |I| [export_sceIoOpen]: Opening file: app0:/stream/introPart2.at9
+[15:47:22.744] |T| [open_file]: sceIoOpen: Opening file app0:/stream/introPart2.at9 (ux0:/app/PCSE00257/stream/introPart2.at9), fd: 0x8
+[15:47:22.775] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[15:47:22.777] |I| [export_sceIoOpen]: Opening file: app0:/stream/boss.at9
+[15:47:22.779] |T| [open_file]: sceIoOpen: Opening file app0:/stream/boss.at9 (ux0:/app/PCSE00257/stream/boss.at9), fd: 0x9
+[15:47:22.808] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[15:47:22.831] |I| [export_sceIoOpen]: Opening file: app0:/stream/stage03.at9
+[15:47:22.835] |T| [open_file]: sceIoOpen: Opening file app0:/stream/stage03.at9 (ux0:/app/PCSE00257/stream/stage03.at9), fd: 0xA
+[15:47:22.884] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[15:47:22.886] |T| [close_file]: sceIoClose: Closing file fd: 0xA
+[15:47:22.893] |I| [export_sceIoOpen]: Opening file: app0:/stream/continue.at9
+[15:47:22.895] |T| [open_file]: sceIoOpen: Opening file app0:/stream/continue.at9 (ux0:/app/PCSE00257/stream/continue.at9), fd: 0xB
+[15:47:22.962] |T| [close_file]: sceIoClose: Closing file fd: 0xB
+[15:47:22.965] |I| [export_sceIoOpen]: Opening file: app0:/stream/gameOver.at9
+[15:47:22.969] |T| [open_file]: sceIoOpen: Opening file app0:/stream/gameOver.at9 (ux0:/app/PCSE00257/stream/gameOver.at9), fd: 0xC
+[15:47:23.124] |T| [close_file]: sceIoClose: Closing file fd: 0xC
+[15:47:23.635] |I| [export_sceIoOpen]: Opening file: app0:/stream/intro.at9
+[15:47:23.637] |T| [open_file]: sceIoOpen: Opening file app0:/stream/intro.at9 (ux0:/app/PCSE00257/stream/intro.at9), fd: 0xD
+[15:47:23.659] |T| [close_file]: sceIoClose: Closing file fd: 0xD
+[15:47:23.671] |I| [export_sceIoOpen]: Opening file: app0:/stream/stage04Part1.at9
+[15:47:23.675] |T| [open_file]: sceIoOpen: Opening file app0:/stream/stage04Part1.at9 (ux0:/app/PCSE00257/stream/stage04Part1.at9), fd: 0xE
+[15:47:23.808] |T| [close_file]: sceIoClose: Closing file fd: 0xE
+[15:47:23.838] |I| [export_sceIoOpen]: Opening file: app0:/stream/stage05.at9
+[15:47:23.840] |T| [open_file]: sceIoOpen: Opening file app0:/stream/stage05.at9 (ux0:/app/PCSE00257/stream/stage05.at9), fd: 0xF
+[15:47:23.981] |T| [close_file]: sceIoClose: Closing file fd: 0xF
+[15:47:24.004] |I| [export_sceIoOpen]: Opening file: app0:/stream/stageSecret.at9
+[15:47:24.006] |T| [open_file]: sceIoOpen: Opening file app0:/stream/stageSecret.at9 (ux0:/app/PCSE00257/stream/stageSecret.at9), fd: 0x10
+[15:47:24.073] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[15:47:24.075] |I| [export_sceIoOpen]: Opening file: app0:/stream/stage04Part2.at9
+[15:47:24.077] |T| [open_file]: sceIoOpen: Opening file app0:/stream/stage04Part2.at9 (ux0:/app/PCSE00257/stream/stage04Part2.at9), fd: 0x11
+[15:47:24.128] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[15:47:24.131] |I| [export_sceIoOpen]: Opening file: app0:/stream/bossFinal.at9
+[15:47:24.135] |T| [open_file]: sceIoOpen: Opening file app0:/stream/bossFinal.at9 (ux0:/app/PCSE00257/stream/bossFinal.at9), fd: 0x12
+[15:47:24.171] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[15:47:24.216] |I| [export_sceIoOpen]: Opening file: app0:/stream/nameEntry.at9
+[15:47:24.220] |T| [open_file]: sceIoOpen: Opening file app0:/stream/nameEntry.at9 (ux0:/app/PCSE00257/stream/nameEntry.at9), fd: 0x13
+[15:47:24.318] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[15:47:24.320] |I| [export_sceIoOpen]: Opening file: app0:/stream/theEnd.at9
+[15:47:24.323] |T| [open_file]: sceIoOpen: Opening file app0:/stream/theEnd.at9 (ux0:/app/PCSE00257/stream/theEnd.at9), fd: 0x14
+[15:47:24.345] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[15:47:24.348] |I| [export_sceIoOpen]: Opening file: app0:/stream/cutscene.at9
+[15:47:24.354] |T| [open_file]: sceIoOpen: Opening file app0:/stream/cutscene.at9 (ux0:/app/PCSE00257/stream/cutscene.at9), fd: 0x15
+[15:47:24.379] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[15:47:24.525] |I| [export_sceIoOpen]: Opening file: app0:/stream/ending.at9
+[15:47:24.528] |T| [open_file]: sceIoOpen: Opening file app0:/stream/ending.at9 (ux0:/app/PCSE00257/stream/ending.at9), fd: 0x16
+[15:47:24.566] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[15:47:24.699] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[15:47:24.708] |I| [export_sceIoOpen]: Opening file: app0:DATA/KEYMAP
+[15:47:24.711] |T| [open_file]: sceIoOpen: Opening file app0:DATA/KEYMAP (ux0:/app/PCSE00257/DATA/KEYMAP), fd: 0x17
+[15:47:24.804] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[15:47:24.893] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[15:47:24.988] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[15:47:24.992] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[15:47:24.994] |I| [load_module]: Loading module ID: 0x4
+[15:47:25.123] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6FFFFF01...
+[15:47:25.124] |I| [load_self]: Loaded module segment 0 @ [0x09529000 - 0x09546150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[15:47:25.128] |I| [load_self]: Loaded module segment 1 @ [0x08877000 - 0x08877640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[15:47:25.131] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[15:47:25.135] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0x9544E68
+[15:47:25.137] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x9541CA0
+[15:47:25.139] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[15:47:25.141] |D| [load_module]: Running module_start of module: SceLibHttp
+[15:47:25.144] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[15:47:25.326] |I| [load_self]: Loaded module segment 0 @ [0x09547000 - 0x095ADEA4 / 0x81000000] (size: 0x00066EA4) of module sys/external/libssl.suprx
+[15:47:25.329] |I| [load_self]: Loaded module segment 1 @ [0x095AE000 - 0x095B3188 / 0x81067000] (size: 0x00005188) of module sys/external/libssl.suprx
+[15:47:25.337] |I| [load_self]: Linking SELF sys/external/libssl.suprx...
+[15:47:25.340] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0x95999B0
+[15:47:25.344] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x9593C70
+[15:47:25.347] |I| [load_module]: Module SceLibSsl (at "sys/external/libssl.suprx") loaded
+[15:47:25.382] |T| [log_import_call]: [LLE] TID: 77  FUNC: 0x214926D9 sceHttpInit at 0x810E6930
+[15:47:25.604] |T| [log_import_call]: [LLE] TID: 77  FUNC: 0x3C733316 sceSslInit at 0x810E6910
+[15:47:25.625] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[15:47:25.631] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
+[15:47:25.680] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[15:47:26.067] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[15:47:26.078] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[15:47:26.089] |C| [handle_access_violation]: Unhandled write protected region was valid. Address=0x1C
+[15:47:26.159] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[15:47:26.693] |W| [renderer::vulkan::VKContext::start_recording]: Render Target is using more scenes per frame than what was planned!
+[15:47:29.593] |T| [write_file]: *** TTY: api.cpp(4455) : Invalid parameter.
+[15:47:30.124] |I| [export_sceIoOpen]: Opening file: app0:DATA/LOGO_HD
+[15:47:30.125] |T| [open_file]: sceIoOpen: Opening file app0:DATA/LOGO_HD (ux0:/app/PCSE00257/DATA/LOGO_HD), fd: 0x18
+[15:47:30.255] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[15:47:30.274] |I| [export_sceIoOpen]: Opening file: app0:/DATA/SFX
+[15:47:30.277] |T| [open_file]: sceIoOpen: Opening file app0:/DATA/SFX (ux0:/app/PCSE00257/DATA/SFX), fd: 0x19
+[15:47:30.688] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[15:47:33.143] |I| [export_sceIoOpen]: Opening file: app0:DATA/LOADING_HD
+[15:47:33.146] |T| [open_file]: sceIoOpen: Opening file app0:DATA/LOADING_HD (ux0:/app/PCSE00257/DATA/LOADING_HD), fd: 0x1A
+[15:47:33.191] |T| [close_file]: sceIoClose: Closing file fd: 0x1A
+[15:47:33.278] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR04056_00/TROPHY.TRP (ux0:/app/PCSE00257/sce_sys/trophy/NPWR04056_00/TROPHY.TRP), fd: 0x1B
+[15:47:33.292] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR04056_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR04056_00/TROPUSR.DAT), fd: 0x1C
+[15:47:33.320] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR04056_00/TROPCONF.SFM), fd: 0x1D
+[15:47:33.326] |T| [write_file]: install_trophy_context: Writing to fd: 0x1D, size: 1330
+[15:47:33.329] |T| [close_file]: install_trophy_context: Closing file fd: 0x1D
+[15:47:33.359] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR04056_00/TROP.SFM), fd: 0x1E
+[15:47:33.363] |T| [write_file]: install_trophy_context: Writing to fd: 0x1E, size: 3237
+[15:47:33.367] |T| [close_file]: install_trophy_context: Closing file fd: 0x1E
+[15:47:33.370] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/ICON0.PNG), fd: 0x1F
+[15:47:33.374] |T| [write_file]: install_trophy_context: Writing to fd: 0x1F, size: 55412
+[15:47:33.376] |T| [close_file]: install_trophy_context: Closing file fd: 0x1F
+[15:47:33.410] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP000.PNG), fd: 0x20
+[15:47:33.415] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 60951
+[15:47:33.418] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[15:47:33.445] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP001.PNG), fd: 0x21
+[15:47:33.450] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 52949
+[15:47:33.453] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[15:47:33.469] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP002.PNG), fd: 0x22
+[15:47:33.472] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 53841
+[15:47:33.474] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[15:47:33.520] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP003.PNG), fd: 0x23
+[15:47:33.526] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 59012
+[15:47:33.529] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[15:47:33.567] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP004.PNG), fd: 0x24
+[15:47:33.594] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 57870
+[15:47:33.595] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[15:47:33.616] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP005.PNG), fd: 0x25
+[15:47:33.617] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 54257
+[15:47:33.624] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[15:47:33.649] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP006.PNG), fd: 0x26
+[15:47:33.653] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 57560
+[15:47:33.658] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[15:47:33.661] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP007.PNG), fd: 0x27
+[15:47:33.664] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 57560
+[15:47:33.669] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[15:47:33.707] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP008.PNG), fd: 0x28
+[15:47:33.711] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 68534
+[15:47:33.716] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[15:47:33.749] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP009.PNG), fd: 0x29
+[15:47:33.753] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 58225
+[15:47:33.756] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[15:47:33.768] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP010.PNG), fd: 0x2A
+[15:47:33.769] |T| [write_file]: install_trophy_context: Writing to fd: 0x2A, size: 63235
+[15:47:33.770] |T| [close_file]: install_trophy_context: Closing file fd: 0x2A
+[15:47:33.785] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP011.PNG), fd: 0x2B
+[15:47:33.791] |T| [write_file]: install_trophy_context: Writing to fd: 0x2B, size: 46646
+[15:47:33.794] |T| [close_file]: install_trophy_context: Closing file fd: 0x2B
+[15:47:33.820] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP012.PNG), fd: 0x2C
+[15:47:33.827] |T| [write_file]: install_trophy_context: Writing to fd: 0x2C, size: 60509
+[15:47:33.830] |T| [close_file]: install_trophy_context: Closing file fd: 0x2C
+[15:47:33.863] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP013.PNG), fd: 0x2D
+[15:47:33.867] |T| [write_file]: install_trophy_context: Writing to fd: 0x2D, size: 63349
+[15:47:33.870] |T| [close_file]: install_trophy_context: Closing file fd: 0x2D
+[15:47:33.889] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04056_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR04056_00/TROP014.PNG), fd: 0x2E
+[15:47:33.892] |T| [write_file]: install_trophy_context: Writing to fd: 0x2E, size: 51809
+[15:47:33.894] |T| [close_file]: install_trophy_context: Closing file fd: 0x2E
+[15:47:33.922] |T| [close_file]: create_trophy_context: Closing file fd: 0x1C
+[15:47:33.924] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR04056_00 create successfuly!
+[15:47:33.927] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[15:47:33.933] |I| [export_sceIoOpen]: Opening file: app0:DATA/FONTS_HD
+[15:47:33.936] |T| [open_file]: sceIoOpen: Opening file app0:DATA/FONTS_HD (ux0:/app/PCSE00257/DATA/FONTS_HD), fd: 0x2F
+[15:47:34.112] |T| [close_file]: sceIoClose: Closing file fd: 0x2F
+[15:47:34.115] |I| [export_sceIoOpen]: Opening file: app0:DATA/EN
+[15:47:34.116] |T| [open_file]: sceIoOpen: Opening file app0:DATA/EN (ux0:/app/PCSE00257/DATA/EN), fd: 0x30
+[15:47:34.157] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[15:47:34.163] |I| [export_sceIoOpen]: Opening file: app0:DATA/DIALOG_HD
+[15:47:34.165] |T| [open_file]: sceIoOpen: Opening file app0:DATA/DIALOG_HD (ux0:/app/PCSE00257/DATA/DIALOG_HD), fd: 0x31
+[15:47:34.344] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[15:47:38.906] |I| [export_sceIoOpen]: Opening file: savedata0:/data.bin
+[15:47:38.909] |T| [open_file]: sceIoOpen: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSE00257/data.bin), fd: 0x32
+[15:47:38.931] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[15:47:39.404] |I| [export_sceIoOpen]: Opening file: app0:DATA/DISCLAIMER_HD
+[15:47:39.406] |T| [open_file]: sceIoOpen: Opening file app0:DATA/DISCLAIMER_HD (ux0:/app/PCSE00257/DATA/DISCLAIMER_HD), fd: 0x33
+[15:47:39.646] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[15:47:39.710] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15D230:0:0 to 0x15A0B0:0
+[15:47:39.762] |T| [export_sceNgsPatchCreateRouting]: Patching 0x15CEB0:0:0 to 0x15A0B0:0
+[15:47:40.141] |I| [ngs::player::Module::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[15:47:42.704] |I| [export_sceIoOpen]: Opening file: savedata0:/quick.bin
+[15:47:42.706] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/stronge/ux0/user/00/savedata/PCSE00257/quick.bin (target path: savedata0:/quick.bin)
+[15:47:42.711] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[15:47:45.683] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATICS
+[15:47:45.719] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATICS (ux0:/app/PCSE00257/DATA/CINEMATICS), fd: 0x34
+[15:47:45.781] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[15:47:45.785] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:45.811] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x35
+[15:47:46.037] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[15:47:46.048] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:46.050] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x36
+[15:47:46.102] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[15:47:46.103] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:46.115] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x37
+[15:47:46.314] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[15:47:46.316] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:46.318] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x38
+[15:47:46.416] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[15:47:46.418] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:46.420] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x39
+[15:47:46.737] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[15:47:46.739] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:46.741] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x3A
+[15:47:46.852] |T| [close_file]: sceIoClose: Closing file fd: 0x3A
+[15:47:46.854] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:46.856] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x3B
+[15:47:46.994] |T| [close_file]: sceIoClose: Closing file fd: 0x3B
+[15:47:46.995] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:46.997] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x3C
+[15:47:47.061] |T| [close_file]: sceIoClose: Closing file fd: 0x3C
+[15:47:47.063] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:47.066] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x3D
+[15:47:47.148] |T| [close_file]: sceIoClose: Closing file fd: 0x3D
+[15:47:47.150] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:47.152] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x3E
+[15:47:47.312] |T| [close_file]: sceIoClose: Closing file fd: 0x3E
+[15:47:47.314] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:47.316] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x3F
+[15:47:47.516] |T| [close_file]: sceIoClose: Closing file fd: 0x3F
+[15:47:47.518] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:47.519] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x40
+[15:47:47.668] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[15:47:47.669] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:47.673] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x41
+[15:47:48.040] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[15:47:48.041] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:48.045] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x42
+[15:47:48.121] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[15:47:48.123] |I| [export_sceIoOpen]: Opening file: app0:DATA/CINEMATIC_SPRITES_HD
+[15:47:48.124] |T| [open_file]: sceIoOpen: Opening file app0:DATA/CINEMATIC_SPRITES_HD (ux0:/app/PCSE00257/DATA/CINEMATIC_SPRITES_HD), fd: 0x43
+[15:47:48.231] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[15:47:48.499] |I| [export_sceIoOpen]: Opening file: app0:/stream/intro.at9
+[15:47:48.501] |T| [open_file]: sceIoOpen: Opening file app0:/stream/intro.at9 (ux0:/app/PCSE00257/stream/intro.at9), fd: 0x44
+[15:47:48.748] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1888D4:0:0 to 0x15A0B0:0
+[15:47:48.877] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -512 < 0, voiceLocation = 0x00000000, previous = 0x00000200
+[15:47:48.899] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -1024 < 0, voiceLocation = 0x00000000, previous = 0x00000400
+[15:47:48.923] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -1536 < 0, voiceLocation = 0x00000000, previous = 0x00000600
+[15:47:48.953] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -2560 < 0, voiceLocation = 0x00000000, previous = 0x00000A00
+[15:47:48.973] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -3072 < 0, voiceLocation = 0x00000000, previous = 0x00000C00
+[15:47:48.993] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -3584 < 0, voiceLocation = 0x00000000, previous = 0x00000E00
+[15:47:49.015] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -4096 < 0, voiceLocation = 0x00000000, previous = 0x00001000
+[15:47:49.123] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -5120 < 0, voiceLocation = 0x00000000, previous = 0x00001400
+[15:47:49.183] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -6144 < 0, voiceLocation = 0x00000000, previous = 0x00001800
+[15:47:49.204] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -6656 < 0, voiceLocation = 0x00000000, previous = 0x00001A00
+[15:47:49.222] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -7168 < 0, voiceLocation = 0x00000000, previous = 0x00001C00
+[15:47:49.242] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -7680 < 0, voiceLocation = 0x00000000, previous = 0x00001E00
+[15:47:49.265] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -8192 < 0, voiceLocation = 0x00000000, previous = 0x00002000
+[15:47:49.284] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -8704 < 0, voiceLocation = 0x00000000, previous = 0x00002200
+[15:47:49.313] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -9216 < 0, voiceLocation = 0x00000000, previous = 0x00002400
+[15:47:49.332] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -9728 < 0, voiceLocation = 0x00000000, previous = 0x00002600
+[15:47:49.352] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -10240 < 0, voiceLocation = 0x00000000, previous = 0x00002800
+[15:47:49.372] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -10752 < 0, voiceLocation = 0x00000000, previous = 0x00002A00
+[15:47:49.392] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -11264 < 0, voiceLocation = 0x00000000, previous = 0x00002C00
+[15:47:49.414] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -11776 < 0, voiceLocation = 0x00000000, previous = 0x00002E00
+[15:47:49.432] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -12288 < 0, voiceLocation = 0x00000000, previous = 0x00003000
+[15:47:49.472] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -12800 < 0, voiceLocation = 0x00000000, previous = 0x00003200
+[15:47:49.513] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -13824 < 0, voiceLocation = 0x00000000, previous = 0x00003600
+[15:47:49.552] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -14848 < 0, voiceLocation = 0x00000000, previous = 0x00003A00
+[15:47:49.573] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -15360 < 0, voiceLocation = 0x00000000, previous = 0x00003C00
+[15:47:49.622] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -16384 < 0, voiceLocation = 0x00000000, previous = 0x00004000
+[15:47:49.632] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -16896 < 0, voiceLocation = 0x00000000, previous = 0x00004200
+[15:47:49.652] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -17408 < 0, voiceLocation = 0x00000000, previous = 0x00004400
+[15:47:49.683] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -17920 < 0, voiceLocation = 0x00000000, previous = 0x00004600
+[15:47:49.732] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -18944 < 0, voiceLocation = 0x00000000, previous = 0x00004A00
+[15:47:49.752] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -19456 < 0, voiceLocation = 0x00000000, previous = 0x00004C00
+[15:47:49.772] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -19968 < 0, voiceLocation = 0x00000000, previous = 0x00004E00
+[15:47:49.786] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -20480 < 0, voiceLocation = 0x00000000, previous = 0x00005000
+[15:47:49.802] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -20992 < 0, voiceLocation = 0x00000000, previous = 0x00005200
+[15:47:49.842] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -21504 < 0, voiceLocation = 0x00000000, previous = 0x00005400
+[15:47:49.889] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -22016 < 0, voiceLocation = 0x00000000, previous = 0x00005600
+[15:47:49.913] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -22528 < 0, voiceLocation = 0x00000000, previous = 0x00005800
+[15:47:49.932] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -23040 < 0, voiceLocation = 0x00000000, previous = 0x00005A00
+[15:47:49.950] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -23552 < 0, voiceLocation = 0x00000000, previous = 0x00005C00
+[15:47:49.972] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -24064 < 0, voiceLocation = 0x00000000, previous = 0x00005E00
+[15:47:49.992] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -24576 < 0, voiceLocation = 0x00000000, previous = 0x00006000
+[15:47:50.005] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -25088 < 0, voiceLocation = 0x00000000, previous = 0x00006200
+[15:47:50.032] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -25600 < 0, voiceLocation = 0x00000000, previous = 0x00006400
+[15:47:50.052] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -26112 < 0, voiceLocation = 0x00000000, previous = 0x00006600
+[15:47:50.072] |T| [write_file]: *** TTY: WARNING in sndsi_UpdateVoicePositionOfStream: locationDelta = -26624 < 0, voiceLocation = 0x00000000, previous = 0x00006800

@@ -1,0 +1,831 @@
+[19:03:25.658] |I| [config::init_config]: backend-renderer: Vulkan
+[19:03:25.659] |I| [config::init_config]: log-level: 0
+[19:03:25.791] |I| [SDL_main]: Vita3K v0.1.6 2840-4a2c6582
+[19:03:25.792] |I| [SDL_main]: Number of logical CPU cores: 8
+[19:03:25.792] |I| [SDL_main]: Available ram memory: 16215 MiB
+[19:03:26.032] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[19:03:26.158] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060 Laptop GPU
+[19:03:26.159] |I| [renderer::vulkan::VKState::create]: Driver version: 516.94.0.0
+[19:03:26.670] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[19:03:35.542] |I| [load_app_impl]: cpu-backend: Dynarmic
+[19:03:35.543] |I| [load_app_impl]: CPU Optimisation state: true
+[19:03:35.543] |I| [load_app_impl]: ngs state: true
+[19:03:35.543] |I| [load_app_impl]: Resolution multiplier: 1
+[19:03:35.543] |I| [load_app_impl]: modules mode: Auto & Manual
+[19:03:35.544] |I| [load_app_impl]: lle-modules: libhttp
+[19:03:35.544] |I| [load_app_impl]: Title: LEGO® Batman™ 2: DC Super Heroes
+[19:03:35.544] |I| [load_app_impl]: Serial: PCSE00061
+[19:03:35.544] |I| [load_app_impl]: Version: 1.00
+[19:03:35.545] |I| [load_app_impl]: Category: gd
+[19:03:35.570] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6FFFFF01...
+[19:03:35.570] |I| [load_self]: Loaded module segment 0 @ [0x00004000 - 0x000407DC / 0x81000000] (size: 0x0003C7DC) of module app0:sce_module/libc.suprx
+[19:03:35.571] |I| [load_self]: Loaded module segment 1 @ [0x00041000 - 0x00043374 / 0x8103D000] (size: 0x00002374) of module app0:sce_module/libc.suprx
+[19:03:35.571] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[19:03:35.572] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x32220
+[19:03:35.572] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x359F0, setting to stub value 0xDEADBEEF
+[19:03:35.574] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[19:03:35.592] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6FFFFF01...
+[19:03:35.593] |I| [load_self]: Loaded module segment 0 @ [0x00045000 - 0x000671B0 / 0x81000000] (size: 0x000221B0) of module app0:sce_module/libfios2.suprx
+[19:03:35.596] |I| [load_self]: Loaded module segment 1 @ [0x00068000 - 0x0006D1B8 / 0x81023000] (size: 0x000051B8) of module app0:sce_module/libfios2.suprx
+[19:03:35.599] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[19:03:35.601] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x60CB0
+[19:03:35.606] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[19:03:35.626] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6FFFFF01...
+[19:03:35.626] |I| [load_self]: Loaded module segment 0 @ [0x0006E000 - 0x0008206C / 0x81000000] (size: 0x0001406C) of module app0:sce_module/libult.suprx
+[19:03:35.630] |I| [load_self]: Loaded module segment 1 @ [0x00083000 - 0x00083814 / 0x81015000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[19:03:35.636] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[19:03:35.638] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7EB68
+[19:03:35.640] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[19:03:35.657] |I| [load_self]: Loaded module segment 0 @ [0x00084000 - 0x000D4F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[19:03:35.659] |I| [load_self]: Loaded module segment 1 @ [0x000D5000 - 0x000D52F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[19:03:35.664] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[19:03:35.667] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC07DC
+[19:03:35.670] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xBFF10
+[19:03:35.672] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0xD4EE0, setting to stub value 0xDEADBEEF
+[19:03:35.677] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[19:03:35.683] |I| [load_self]: Loaded module segment 0 @ [0x000D7000 - 0x000E6F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[19:03:35.687] |I| [load_self]: Loaded module segment 1 @ [0x000E7000 - 0x000E7008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[19:03:35.691] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[19:03:35.692] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE5710
+[19:03:35.694] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE5300
+[19:03:35.697] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[19:03:35.763] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6FFFFF01...
+[19:03:35.764] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x8117E2D0 / 0x81000000] (size: 0x0017E2D0) of module app0:eboot.bin
+[19:03:35.767] |I| [load_self]: Loaded module segment 1 @ [0x8117F000 - 0x81208FD0 / 0x8117F000] (size: 0x00089FD0) of module app0:eboot.bin
+[19:03:35.770] |I| [load_self]: Linking SELF app0:eboot.bin...
+[19:03:35.772] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x811575FC
+[19:03:35.774] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8117FB90
+[19:03:35.777] |I| [load_app_impl]: Main executable LEGO_SH1_PSP2_US (eboot.bin) loaded
+[19:03:35.786] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[19:03:35.787] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[19:03:35.805] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/8
+[19:03:35.820] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/8
+[19:03:35.831] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/8
+[19:03:35.843] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/8
+[19:03:35.860] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/8
+[19:03:35.872] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/8
+[19:03:35.888] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 7/8
+[19:03:35.908] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 8/8
+[19:03:35.939] |D| [run_app]: Running module_start of library: SceLibc at address 0x45E5
+[19:03:35.970] |I| [export_sceIoOpen]: Opening file: tty0:
+[19:03:35.970] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[19:03:35.977] |I| [export_sceIoOpen]: Opening file: tty0:
+[19:03:35.979] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[19:03:35.983] |I| [export_sceIoOpen]: Opening file: tty1:
+[19:03:35.987] |T| [open_file]: sceIoOpen: Opening terminal tty1:
+[19:03:35.999] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[19:03:36.006] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x45001
+[19:03:36.030] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[19:03:36.031] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetList import called.
+[19:03:36.034] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[19:03:36.042] |D| [run_app]: Running module_start of library: SceUlt at address 0x71B71
+[19:03:36.067] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[19:03:36.098] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[19:03:36.148] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[19:03:36.191] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[19:03:36.375] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[19:03:36.381] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MiB emuenv mem)
+[19:03:36.498] |I| [export_sceIoOpen]: Opening file: app0:prebuiltshaders_psp2.fib
+[19:03:36.509] |T| [open_file]: sceIoOpen: Opening file app0:prebuiltshaders_psp2.fib (ux0:/app/PCSE00061/prebuiltshaders_psp2.fib), fd: 0x3
+[19:03:36.532] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[19:03:36.597] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR02996_00/TROPHY.TRP (ux0:/app/PCSE00061/sce_sys/trophy/NPWR02996_00/TROPHY.TRP), fd: 0x4
+[19:03:36.610] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR02996_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR02996_00/TROPUSR.DAT), fd: 0x5
+[19:03:36.625] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROPCONF.SFM), fd: 0x6
+[19:03:36.626] |T| [write_file]: install_trophy_context: Writing to fd: 0x6, size: 2228
+[19:03:36.626] |T| [close_file]: install_trophy_context: Closing file fd: 0x6
+[19:03:36.638] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP.SFM), fd: 0x7
+[19:03:36.639] |T| [write_file]: install_trophy_context: Writing to fd: 0x7, size: 5483
+[19:03:36.640] |T| [close_file]: install_trophy_context: Closing file fd: 0x7
+[19:03:36.641] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_01.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_01.SFM), fd: 0x8
+[19:03:36.643] |T| [write_file]: install_trophy_context: Writing to fd: 0x8, size: 5483
+[19:03:36.644] |T| [close_file]: install_trophy_context: Closing file fd: 0x8
+[19:03:36.654] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_02.SFM), fd: 0x9
+[19:03:36.655] |T| [write_file]: install_trophy_context: Writing to fd: 0x9, size: 5675
+[19:03:36.657] |T| [close_file]: install_trophy_context: Closing file fd: 0x9
+[19:03:36.667] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_03.SFM), fd: 0xA
+[19:03:36.682] |T| [write_file]: install_trophy_context: Writing to fd: 0xA, size: 5720
+[19:03:36.686] |T| [close_file]: install_trophy_context: Closing file fd: 0xA
+[19:03:36.702] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_04.SFM), fd: 0xB
+[19:03:36.706] |T| [write_file]: install_trophy_context: Writing to fd: 0xB, size: 5507
+[19:03:36.710] |T| [close_file]: install_trophy_context: Closing file fd: 0xB
+[19:03:36.723] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_05.SFM), fd: 0xC
+[19:03:36.733] |T| [write_file]: install_trophy_context: Writing to fd: 0xC, size: 5675
+[19:03:36.737] |T| [close_file]: install_trophy_context: Closing file fd: 0xC
+[19:03:36.757] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_06.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_06.SFM), fd: 0xD
+[19:03:36.761] |T| [write_file]: install_trophy_context: Writing to fd: 0xD, size: 5566
+[19:03:36.767] |T| [close_file]: install_trophy_context: Closing file fd: 0xD
+[19:03:36.786] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_08.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_08.SFM), fd: 0xE
+[19:03:36.794] |T| [write_file]: install_trophy_context: Writing to fd: 0xE, size: 7503
+[19:03:36.798] |T| [close_file]: install_trophy_context: Closing file fd: 0xE
+[19:03:36.822] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_14.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_14.SFM), fd: 0xF
+[19:03:36.829] |T| [write_file]: install_trophy_context: Writing to fd: 0xF, size: 5504
+[19:03:36.841] |T| [close_file]: install_trophy_context: Closing file fd: 0xF
+[19:03:36.856] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_16.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_16.SFM), fd: 0x10
+[19:03:36.868] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 5683
+[19:03:36.874] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[19:03:36.887] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_17.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_17.SFM), fd: 0x11
+[19:03:36.897] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 5780
+[19:03:36.910] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[19:03:36.915] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP_18.SFM (ux0:/user/00/trophy/conf/NPWR02996_00/TROP_18.SFM), fd: 0x12
+[19:03:36.918] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 5483
+[19:03:36.923] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[19:03:36.932] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/ICON0.PNG), fd: 0x13
+[19:03:36.935] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 66804
+[19:03:36.941] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[19:03:36.955] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP000.PNG), fd: 0x14
+[19:03:36.962] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 48748
+[19:03:36.963] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[19:03:36.990] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP001.PNG), fd: 0x15
+[19:03:36.995] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 47998
+[19:03:36.996] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[19:03:37.014] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP002.PNG), fd: 0x16
+[19:03:37.024] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 52156
+[19:03:37.033] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[19:03:37.048] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP003.PNG), fd: 0x17
+[19:03:37.057] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 51269
+[19:03:37.063] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[19:03:37.077] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP004.PNG), fd: 0x18
+[19:03:37.086] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 47073
+[19:03:37.096] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[19:03:37.107] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP005.PNG), fd: 0x19
+[19:03:37.117] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 44114
+[19:03:37.124] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[19:03:37.136] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP006.PNG), fd: 0x1A
+[19:03:37.138] |T| [write_file]: install_trophy_context: Writing to fd: 0x1A, size: 49073
+[19:03:37.140] |T| [close_file]: install_trophy_context: Closing file fd: 0x1A
+[19:03:37.151] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP007.PNG), fd: 0x1B
+[19:03:37.155] |T| [write_file]: install_trophy_context: Writing to fd: 0x1B, size: 50418
+[19:03:37.159] |T| [close_file]: install_trophy_context: Closing file fd: 0x1B
+[19:03:37.172] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP008.PNG), fd: 0x1C
+[19:03:37.177] |T| [write_file]: install_trophy_context: Writing to fd: 0x1C, size: 48971
+[19:03:37.179] |T| [close_file]: install_trophy_context: Closing file fd: 0x1C
+[19:03:37.198] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP009.PNG), fd: 0x1D
+[19:03:37.200] |T| [write_file]: install_trophy_context: Writing to fd: 0x1D, size: 48373
+[19:03:37.208] |T| [close_file]: install_trophy_context: Closing file fd: 0x1D
+[19:03:37.219] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP010.PNG), fd: 0x1E
+[19:03:37.222] |T| [write_file]: install_trophy_context: Writing to fd: 0x1E, size: 52358
+[19:03:37.235] |T| [close_file]: install_trophy_context: Closing file fd: 0x1E
+[19:03:37.244] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP011.PNG), fd: 0x1F
+[19:03:37.246] |T| [write_file]: install_trophy_context: Writing to fd: 0x1F, size: 48825
+[19:03:37.247] |T| [close_file]: install_trophy_context: Closing file fd: 0x1F
+[19:03:37.269] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP012.PNG), fd: 0x20
+[19:03:37.272] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 48941
+[19:03:37.274] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[19:03:37.294] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP013.PNG), fd: 0x21
+[19:03:37.300] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 47954
+[19:03:37.307] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[19:03:37.325] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP014.PNG), fd: 0x22
+[19:03:37.326] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 49364
+[19:03:37.339] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[19:03:37.357] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP015.PNG), fd: 0x23
+[19:03:37.361] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 48929
+[19:03:37.363] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[19:03:37.380] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP016.PNG), fd: 0x24
+[19:03:37.390] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 49546
+[19:03:37.391] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[19:03:37.410] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP017.PNG), fd: 0x25
+[19:03:37.421] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 47859
+[19:03:37.435] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[19:03:37.459] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP018.PNG), fd: 0x26
+[19:03:37.461] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 40753
+[19:03:37.468] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[19:03:37.485] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP019.PNG), fd: 0x27
+[19:03:37.498] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 50747
+[19:03:37.503] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[19:03:37.520] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP020.PNG), fd: 0x28
+[19:03:37.525] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 52084
+[19:03:37.532] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[19:03:37.552] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP021.PNG), fd: 0x29
+[19:03:37.561] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 49746
+[19:03:37.562] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[19:03:37.580] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP022.PNG), fd: 0x2A
+[19:03:37.585] |T| [write_file]: install_trophy_context: Writing to fd: 0x2A, size: 49826
+[19:03:37.588] |T| [close_file]: install_trophy_context: Closing file fd: 0x2A
+[19:03:37.598] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP023.PNG), fd: 0x2B
+[19:03:37.604] |T| [write_file]: install_trophy_context: Writing to fd: 0x2B, size: 48658
+[19:03:37.610] |T| [close_file]: install_trophy_context: Closing file fd: 0x2B
+[19:03:37.628] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP024.PNG), fd: 0x2C
+[19:03:37.636] |T| [write_file]: install_trophy_context: Writing to fd: 0x2C, size: 48064
+[19:03:37.640] |T| [close_file]: install_trophy_context: Closing file fd: 0x2C
+[19:03:37.663] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP025.PNG), fd: 0x2D
+[19:03:37.668] |T| [write_file]: install_trophy_context: Writing to fd: 0x2D, size: 53070
+[19:03:37.672] |T| [close_file]: install_trophy_context: Closing file fd: 0x2D
+[19:03:37.688] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP026.PNG), fd: 0x2E
+[19:03:37.695] |T| [write_file]: install_trophy_context: Writing to fd: 0x2E, size: 52762
+[19:03:37.699] |T| [close_file]: install_trophy_context: Closing file fd: 0x2E
+[19:03:37.718] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP027.PNG), fd: 0x2F
+[19:03:37.723] |T| [write_file]: install_trophy_context: Writing to fd: 0x2F, size: 53019
+[19:03:37.723] |T| [close_file]: install_trophy_context: Closing file fd: 0x2F
+[19:03:37.732] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP028.PNG), fd: 0x30
+[19:03:37.736] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 51384
+[19:03:37.738] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[19:03:37.748] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP029.PNG), fd: 0x31
+[19:03:37.749] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 48315
+[19:03:37.749] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[19:03:37.761] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP030.PNG), fd: 0x32
+[19:03:37.762] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 49233
+[19:03:37.763] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[19:03:37.773] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02996_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR02996_00/TROP031.PNG), fd: 0x33
+[19:03:37.776] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 49615
+[19:03:37.777] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[19:03:37.778] |T| [close_file]: create_trophy_context: Closing file fd: 0x5
+[19:03:37.778] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR02996_00 create successfuly!
+[19:03:37.912] |W| [unimplemented_impl]: Unimplemented sceTouchEnableTouchForce import called.
+[19:03:37.913] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[19:03:37.917] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
+[19:03:37.919] |I| [load_module]: Loading module ID: 0xD
+[19:03:37.927] |I| [load_self]: Loaded module segment 0 @ [0x04D68000 - 0x04D7F244 / 0x81000000] (size: 0x00017244) of module sys/external/libsas.suprx
+[19:03:37.928] |I| [load_self]: Loaded module segment 1 @ [0x044AF000 - 0x044AF038 / 0x81018000] (size: 0x00000038) of module sys/external/libsas.suprx
+[19:03:37.928] |I| [load_self]: Linking SELF sys/external/libsas.suprx...
+[19:03:37.929] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4D7C004
+[19:03:37.930] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x4D7BBF0
+[19:03:37.930] |I| [load_module]: Module SceSasUser (at "sys/external/libsas.suprx") loaded
+[19:03:37.932] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x180C6824 sceSasGetNeededMemorySize at 0x81156AD0
+[19:03:37.964] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x449B5974 sceSasInit at 0x81156B00
+[19:03:38.042] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xCDF2DDD5 sceSasSetEffectType at 0x81156B70
+[19:03:38.043] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0x7A4672B2 sceSasCore at 0x81156B30
+[19:03:38.094] |E| [call_import]: Import function for NID 0xE340C4D7 not found (thread name: fnaSound_SASCoreUpdate, thread ID: 88)
+[19:03:38.145] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[19:03:38.159] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontLineFillLastPixelEnable import called.
+[19:03:38.160] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestEnable import called.
+[19:03:38.161] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestIndex import called.
+[19:03:38.162] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestOp import called.
+[19:03:38.164] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackLineFillLastPixelEnable import called.
+[19:03:38.169] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackVisibilityTestEnable import called.
+[19:03:38.173] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackVisibilityTestIndex import called.
+[19:03:38.174] |W| [unimplemented_impl]: Unimplemented sceGxmSetBackVisibilityTestOp import called.
+[19:03:38.233] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[19:03:38.238] |I| [load_module]: Loading module ID: 0x2
+[19:03:38.246] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6FFFFF01...
+[19:03:38.247] |I| [load_self]: Loaded module segment 0 @ [0x06360000 - 0x0637D150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[19:03:38.249] |I| [load_self]: Loaded module segment 1 @ [0x046BD000 - 0x046BD640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[19:03:38.253] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[19:03:38.254] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x637BE68
+[19:03:38.257] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6378CA0
+[19:03:38.259] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[19:03:38.260] |D| [load_module]: Running module_start of module: SceLibHttp
+[19:03:38.262] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[19:03:38.264] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[19:03:38.265] |W| [stubbed_impl]: Stubbed sceSslInit import called. (ignore poolSize)
+[19:03:38.288] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x214926D9 sceHttpInit at 0x81156F30
+[19:03:38.385] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x7E63E6 sceSasGetEndState at 0x81156AB0
+[19:03:38.385] |E| [logging::ret_error_impl]: _sceKernelWaitEventFlagCB returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[19:03:38.419] |I| [export_sceIoOpen]: Opening file: app0:lego_sh1_psp2.fib
+[19:03:38.433] |T| [open_file]: sceIoOpen: Opening file app0:lego_sh1_psp2.fib (ux0:/app/PCSE00061/lego_sh1_psp2.fib), fd: 0x34
+[19:03:38.991] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:03:39.006] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x35
+[19:03:39.013] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[19:03:39.131] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:03:39.131] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x36
+[19:03:39.135] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[19:03:39.303] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:03:39.304] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x37
+[19:03:39.313] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[19:03:39.487] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:03:39.490] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x38
+[19:03:39.496] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[19:03:39.630] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:03:39.631] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x39
+[19:03:39.640] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[19:03:40.357] |I| [export_sceIoOpen]: Opening file: app0:sprites/splashscreens/splash6top_us.btga
+[19:03:40.358] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE00061/sprites/splashscreens/splash6top_us.btga (target path: app0:sprites/splashscreens/splash6top_us.btga)
+[19:03:40.364] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[19:03:49.372] |I| [export_sceIoOpen]: Opening file: app0:cutscenes/splash5.fmv
+[19:03:49.455] |T| [open_file]: sceIoOpen: Opening file app0:cutscenes/splash5.fmv (ux0:/app/PCSE00061/cutscenes/splash5.fmv), fd: 0x3A
+[19:03:50.160] |T| [close_file]: sceIoClose: Closing file fd: 0x3A
+[19:03:50.386] |I| [export_sceIoOpen]: Opening file: app0:sprites/ui_frontend/topscreen/ui_3dstopscreenlogo_us.btga
+[19:03:50.388] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE00061/sprites/ui_frontend/topscreen/ui_3dstopscreenlogo_us.btga (target path: app0:sprites/ui_frontend/topscreen/ui_3dstopscreenlogo_us.btga)
+[19:03:50.396] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[19:03:50.437] |I| [export_sceIoOpen]: Opening file: app0:sprites/ui_frontend/topscreen/ui_3dstopscreenvg_us.btga
+[19:03:50.438] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE00061/sprites/ui_frontend/topscreen/ui_3dstopscreenvg_us.btga (target path: app0:sprites/ui_frontend/topscreen/ui_3dstopscreenvg_us.btga)
+[19:03:50.445] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[19:03:50.487] |I| [export_sceIoOpen]: Opening file: app0:music/tit_01.at9
+[19:03:50.500] |T| [open_file]: sceIoOpen: Opening file app0:music/tit_01.at9 (ux0:/app/PCSE00061/music/tit_01.at9), fd: 0x3B
+[19:03:50.503] |T| [close_file]: sceIoClose: Closing file fd: 0x3B
+[19:03:50.505] |I| [export_sceIoOpen]: Opening file: app0:music/tit_01.at9
+[19:03:50.506] |T| [open_file]: sceIoOpen: Opening file app0:music/tit_01.at9 (ux0:/app/PCSE00061/music/tit_01.at9), fd: 0x3C
+[19:03:51.000] |I| [export_sceIoOpen]: Opening file: app0:cutscenes/fe_attract.fmv
+[19:03:51.001] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE00061/cutscenes/fe_attract.fmv (target path: app0:cutscenes/fe_attract.fmv)
+[19:03:51.007] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[19:04:00.931] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0x59C7A9DF sceSasSetPause at 0x81156B10
+[19:04:00.933] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0x2B75F9BC sceSasSetVoice at 0x81156AE0
+[19:04:00.938] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0x2C48A08C sceSasSetPitch at 0x81156AF0
+[19:04:00.940] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0xBE8204D sceSasSetVolume at 0x81156AC0
+[19:04:00.947] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0xECCE0DB8 sceSasSetSimpleADSR at 0x81156B80
+[19:04:00.953] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0xC838DB6F sceSasSetKeyOn at 0x81156B60
+[19:04:00.988] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0x5E42ADAB sceSasSetKeyOff at 0x81156B20
+[19:04:03.694] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:03.695] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x3D
+[19:04:03.702] |T| [close_file]: sceIoClose: Closing file fd: 0x3D
+[19:04:03.795] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:03.796] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x3E
+[19:04:03.802] |T| [close_file]: sceIoClose: Closing file fd: 0x3E
+[19:04:03.887] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:03.888] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x3F
+[19:04:03.892] |T| [close_file]: sceIoClose: Closing file fd: 0x3F
+[19:04:04.391] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:04.394] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x40
+[19:04:04.398] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[19:04:05.194] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:05.199] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x41
+[19:04:05.202] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[19:04:05.843] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:05.844] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x42
+[19:04:05.852] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[19:04:06.485] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:06.485] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x43
+[19:04:06.491] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[19:04:07.126] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:07.127] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x44
+[19:04:07.129] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[19:04:07.725] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:07.726] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x45
+[19:04:07.728] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[19:04:08.371] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:08.372] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x46
+[19:04:08.384] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[19:04:09.007] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:09.008] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x47
+[19:04:09.012] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[19:04:09.628] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:09.630] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x48
+[19:04:09.638] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[19:04:10.226] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:10.226] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x49
+[19:04:10.234] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[19:04:10.827] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:10.828] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x4A
+[19:04:10.834] |T| [close_file]: sceIoClose: Closing file fd: 0x4A
+[19:04:11.462] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:11.463] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x4B
+[19:04:11.465] |T| [close_file]: sceIoClose: Closing file fd: 0x4B
+[19:04:12.062] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:12.066] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x4C
+[19:04:12.077] |T| [close_file]: sceIoClose: Closing file fd: 0x4C
+[19:04:12.717] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:12.762] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x4D
+[19:04:12.767] |T| [close_file]: sceIoClose: Closing file fd: 0x4D
+[19:04:13.403] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:13.404] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x4E
+[19:04:13.406] |T| [close_file]: sceIoClose: Closing file fd: 0x4E
+[19:04:13.980] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:13.981] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x4F
+[19:04:13.989] |T| [close_file]: sceIoClose: Closing file fd: 0x4F
+[19:04:14.576] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:14.577] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x50
+[19:04:14.583] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[19:04:15.192] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:15.192] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x51
+[19:04:15.196] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[19:04:15.808] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:15.809] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x52
+[19:04:15.811] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[19:04:16.443] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:16.444] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x53
+[19:04:16.446] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[19:04:17.049] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:17.050] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x54
+[19:04:17.062] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[19:04:17.693] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:17.694] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x55
+[19:04:17.704] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[19:04:18.318] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:18.319] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x56
+[19:04:18.326] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[19:04:18.930] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:18.931] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x57
+[19:04:18.933] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[19:04:19.560] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:19.561] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x58
+[19:04:19.563] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[19:04:20.172] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:20.172] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x59
+[19:04:20.175] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[19:04:20.791] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:20.791] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x5A
+[19:04:20.793] |T| [close_file]: sceIoClose: Closing file fd: 0x5A
+[19:04:21.430] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:21.431] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x5B
+[19:04:21.432] |T| [close_file]: sceIoClose: Closing file fd: 0x5B
+[19:04:22.028] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:22.029] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x5C
+[19:04:22.037] |T| [close_file]: sceIoClose: Closing file fd: 0x5C
+[19:04:22.663] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:22.663] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x5D
+[19:04:22.669] |T| [close_file]: sceIoClose: Closing file fd: 0x5D
+[19:04:23.258] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:23.258] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x5E
+[19:04:23.262] |T| [close_file]: sceIoClose: Closing file fd: 0x5E
+[19:04:23.879] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:23.879] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x5F
+[19:04:23.886] |T| [close_file]: sceIoClose: Closing file fd: 0x5F
+[19:04:24.500] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:24.501] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x60
+[19:04:24.505] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[19:04:25.127] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:25.128] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x61
+[19:04:25.130] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[19:04:25.741] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:25.742] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x62
+[19:04:25.747] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[19:04:26.363] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:26.364] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x63
+[19:04:26.370] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[19:04:26.982] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:26.983] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x64
+[19:04:26.991] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[19:04:27.613] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:27.614] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x65
+[19:04:27.619] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[19:04:28.240] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:28.240] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x66
+[19:04:28.243] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[19:04:28.882] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:28.884] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x67
+[19:04:28.888] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[19:04:29.494] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:29.495] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x68
+[19:04:29.500] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[19:04:30.116] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:30.117] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x69
+[19:04:30.123] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[19:04:30.768] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:30.770] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x6A
+[19:04:30.777] |T| [close_file]: sceIoClose: Closing file fd: 0x6A
+[19:04:31.464] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:31.465] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x6B
+[19:04:31.469] |T| [close_file]: sceIoClose: Closing file fd: 0x6B
+[19:04:32.063] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:32.064] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x6C
+[19:04:32.071] |T| [close_file]: sceIoClose: Closing file fd: 0x6C
+[19:04:32.665] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:32.666] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x6D
+[19:04:32.674] |T| [close_file]: sceIoClose: Closing file fd: 0x6D
+[19:04:33.276] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:33.277] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x6E
+[19:04:33.288] |T| [close_file]: sceIoClose: Closing file fd: 0x6E
+[19:04:33.899] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:33.899] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x6F
+[19:04:33.903] |T| [close_file]: sceIoClose: Closing file fd: 0x6F
+[19:04:34.017] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x70
+[19:04:34.020] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x70, size: 1552
+[19:04:34.023] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x70
+[19:04:35.049] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:35.050] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x71
+[19:04:35.057] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[19:04:35.692] |I| [export_sceIoOpen]: Opening file: savedata0:savegame.dat
+[19:04:35.692] |T| [open_file]: sceIoOpen: Opening file savedata0:savegame.dat (ux0:/user/00/savedata/PCSE00061/savegame.dat), fd: 0x72
+[19:04:35.695] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[19:04:36.204] |T| [close_file]: sceIoClose: Closing file fd: 0x3C
+[19:04:36.442] |I| [export_sceIoOpen]: Opening file: app0:lvl_01_theatre.fib
+[19:04:36.445] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE00061/lvl_01_theatre.fib (target path: app0:lvl_01_theatre.fib)
+[19:04:36.461] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[19:04:36.640] |I| [export_sceIoOpen]: Opening file: app0:lego_sh1_01_to_05.fib
+[19:04:36.641] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE00061/lego_sh1_01_to_05.fib (target path: app0:lego_sh1_01_to_05.fib)
+[19:04:36.652] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[19:04:37.360] |I| [export_sceIoOpen]: Opening file: app0:cutscenes/lvl_01_theatre_a_intro.fmv
+[19:04:37.362] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE00061/cutscenes/lvl_01_theatre_a_intro.fmv (target path: app0:cutscenes/lvl_01_theatre_a_intro.fmv)
+[19:04:37.370] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[19:04:37.382] |I| [export_sceIoOpen]: Opening file: app0:cutscenes/01_theatre_intro.fmv
+[19:04:37.394] |T| [open_file]: sceIoOpen: Opening file app0:cutscenes/01_theatre_intro.fmv (ux0:/app/PCSE00061/cutscenes/01_theatre_intro.fmv), fd: 0x73
+[19:04:37.397] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[19:04:38.350] |I| [export_sceIoOpen]: Opening file: app0:music/act_batman_to_the_rescue.at9
+[19:04:38.470] |T| [open_file]: sceIoOpen: Opening file app0:music/act_batman_to_the_rescue.at9 (ux0:/app/PCSE00061/music/act_batman_to_the_rescue.at9), fd: 0x74
+[19:04:38.473] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[19:04:38.478] |I| [export_sceIoOpen]: Opening file: app0:music/act_batman_to_the_rescue.at9
+[19:04:38.481] |T| [open_file]: sceIoOpen: Opening file app0:music/act_batman_to_the_rescue.at9 (ux0:/app/PCSE00061/music/act_batman_to_the_rescue.at9), fd: 0x75
+[19:04:38.905] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[19:04:38.992] |I| [export_sceIoOpen]: Opening file: app0:cutscenes/01_theatre_intro.fmv
+[19:04:39.001] |T| [open_file]: sceIoOpen: Opening file app0:cutscenes/01_theatre_intro.fmv (ux0:/app/PCSE00061/cutscenes/01_theatre_intro.fmv), fd: 0x76
+[19:04:48.524] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[19:04:49.080] |I| [export_sceIoOpen]: Opening file: app0:music/act_batman_to_the_rescue.at9
+[19:04:49.081] |T| [open_file]: sceIoOpen: Opening file app0:music/act_batman_to_the_rescue.at9 (ux0:/app/PCSE00061/music/act_batman_to_the_rescue.at9), fd: 0x77
+[19:04:49.090] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[19:04:49.093] |I| [export_sceIoOpen]: Opening file: app0:music/act_batman_to_the_rescue.at9
+[19:04:49.096] |T| [open_file]: sceIoOpen: Opening file app0:music/act_batman_to_the_rescue.at9 (ux0:/app/PCSE00061/music/act_batman_to_the_rescue.at9), fd: 0x78
+[19:04:49.718] |E| [logging::ret_error_impl]: sceGxmTextureSetUAddrModeSafe returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
+[19:04:49.722] |E| [logging::ret_error_impl]: sceGxmTextureSetVAddrModeSafe returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
+[19:04:49.732] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 79c4dc04f7805d44422b81132ebd1a3f2deced4464a0b1de87cc962253cc0af9
+[19:04:49.737] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 79c4dc04f7805d44422b81132ebd1a3f2deced4464a0b1de87cc962253cc0af9
+[19:04:49.742] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_Position
+[19:04:49.743] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewComposite[4]
+[19:04:49.745] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[19:04:49.763] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6ac038af13fef1767fcca292540b4ca2a3326c9fade189763c6ddd40dc9c12b2
+[19:04:49.765] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 6ac038af13fef1767fcca292540b4ca2a3326c9fade189763c6ddd40dc9c12b2
+[19:04:49.769] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:04:49.795] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a6bcd989c3c94fc26c94810d95c0d91c1244788fa003d21b04af94c0b2898418
+[19:04:49.797] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader a6bcd989c3c94fc26c94810d95c0d91c1244788fa003d21b04af94c0b2898418
+[19:04:49.800] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_Position
+[19:04:49.800] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_Weights
+[19:04:49.801] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vsin_Index
+[19:04:49.803] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewComposite[4]
+[19:04:49.804] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) Bones[384]
+[19:04:49.805] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 23
+[19:04:49.926] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 66a4c889942b36bebf0bd1ac687dba55a83c4121cf3f5e5716fc22e577eff164
+[19:04:49.928] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 66a4c889942b36bebf0bd1ac687dba55a83c4121cf3f5e5716fc22e577eff164
+[19:04:49.931] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_Position
+[19:04:49.933] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_Normal
+[19:04:49.934] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vsin_Tangent
+[19:04:49.936] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vsin_TexCoord[0]
+[19:04:49.936] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewComposite[4]
+[19:04:49.938] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelView[4]
+[19:04:49.940] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float2) UVOffset
+[19:04:49.942] |D| [shader::create_parameters]: [DEFAULT  + 50] sa50 = (float4) ShadowTrans[4]
+[19:04:49.943] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (float4) ObjspaceCamPos
+[19:04:49.944] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (float4) FogRange
+[19:04:49.945] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float4) Ambient
+[19:04:49.947] |D| [shader::create_parameters]: [DEFAULT  + 78] sa78 = (float4) PointLightAttn
+[19:04:49.948] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) PointLightPos[2]
+[19:04:49.950] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) DirLightDir[2]
+[19:04:49.951] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[19:04:49.955] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 71
+[19:04:50.061] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader dc2588c7f14dd2bb71c6e7d74f03d695355731b8aa391625af59dbc13050489c
+[19:04:50.063] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader dc2588c7f14dd2bb71c6e7d74f03d695355731b8aa391625af59dbc13050489c
+[19:04:50.065] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ShadowOpacity
+[19:04:50.065] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) AlphaFade
+[19:04:50.066] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float4) FogColour
+[19:04:50.067] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float4) DirLightDiffuse0
+[19:04:50.068] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (float4) DirLightDiffuse1
+[19:04:50.068] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) DirLightSpecular0
+[19:04:50.069] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float4) DirLightSpecular1
+[19:04:50.070] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (float4) PlaxScaleSpecPower
+[19:04:50.071] |D| [shader::create_parameters]: [DEFAULT  + 30] sa30 = (float1) OverBright
+[19:04:50.072] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[19:04:50.072] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(samp0, TEXCOORD0.xy)
+[19:04:50.073] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord3
+[19:04:50.074] |T| [shader::create_fragment_inputs]: pa12 = tex2D<float4>(shadowedgesamp, TEXCOORD5.xy)
+[19:04:50.075] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_TexCoord4
+[19:04:50.075] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (float4) v_TexCoord7
+[19:04:50.077] |D| [shader::create_fragment_inputs]: Iterator: pa24 = (float4) v_TexCoord5
+[19:04:50.078] |D| [shader::create_fragment_inputs]: Iterator: pa28 = (float1) v_Fog
+[19:04:50.079] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[19:04:50.083] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[19:04:50.091] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_7, size = 1
+[19:04:50.092] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_10, size = 11
+[19:04:50.105] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_21, size = 67
+[19:04:50.253] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e16fced3835187a2121f12b5ca62cd43d731525b5baa0c1e6144f102a0c45c55
+[19:04:50.255] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader e16fced3835187a2121f12b5ca62cd43d731525b5baa0c1e6144f102a0c45c55
+[19:04:50.258] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_Position
+[19:04:50.259] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_Normal
+[19:04:50.259] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vsin_Tangent
+[19:04:50.260] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vsin_TexCoord[0]
+[19:04:50.263] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) vsin_Weights
+[19:04:50.264] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) vsin_Index
+[19:04:50.265] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewComposite[4]
+[19:04:50.267] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelView[4]
+[19:04:50.268] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float2) UVOffset
+[19:04:50.269] |D| [shader::create_parameters]: [DEFAULT  + 50] sa50 = (float4) ShadowTrans[4]
+[19:04:50.270] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (float4) ObjspaceCamPos
+[19:04:50.272] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (float4) FogRange
+[19:04:50.273] |D| [shader::create_parameters]: [DEFAULT  + 74] sa74 = (float4) Ambient
+[19:04:50.274] |D| [shader::create_parameters]: [DEFAULT  + 82] sa82 = (float4) Bones[384]
+[19:04:50.275] |D| [shader::create_parameters]: [DEFAULT  + 78] sa78 = (float4) PointLightAttn
+[19:04:50.277] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) PointLightPos[2]
+[19:04:50.279] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) DirLightDir[2]
+[19:04:50.280] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[19:04:50.285] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 147
+[19:04:50.707] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader be0e2ea9dc28d11f8f5ace8cce457247d5db10545fa1d38a167c9be6dc9ba749
+[19:04:50.708] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader be0e2ea9dc28d11f8f5ace8cce457247d5db10545fa1d38a167c9be6dc9ba749
+[19:04:50.711] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_Position
+[19:04:50.713] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_Normal
+[19:04:50.716] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vsin_Tangent
+[19:04:50.717] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vsin_TexCoord[0]
+[19:04:50.720] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) vsin_Colour
+[19:04:50.722] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewComposite[4]
+[19:04:50.722] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelView[4]
+[19:04:50.723] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float2) UVOffset
+[19:04:50.726] |D| [shader::create_parameters]: [DEFAULT  + 42] sa42 = (float4) ShadowTrans[4]
+[19:04:50.729] |D| [shader::create_parameters]: [DEFAULT  + 58] sa58 = (float4) FogRange
+[19:04:50.730] |D| [shader::create_parameters]: [DEFAULT  + 62] sa62 = (float4) PointLightAttn
+[19:04:50.732] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) PointLightPos[2]
+[19:04:50.734] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 45
+[19:04:50.914] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5f16adbb6d11cee1f0dc33a6ef9ff336372ee37f5aea15b5ddece044b880e6be
+[19:04:50.916] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5f16adbb6d11cee1f0dc33a6ef9ff336372ee37f5aea15b5ddece044b880e6be
+[19:04:50.921] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ShadowOpacity
+[19:04:50.921] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) AlphaFade
+[19:04:50.925] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float4) FogColour
+[19:04:50.928] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float4) PointLightDiffuse0
+[19:04:50.929] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (float4) PointLightDiffuse1
+[19:04:50.932] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float1) OverBright
+[19:04:50.934] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:04:50.936] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp0, TEXCOORD0.xy)
+[19:04:50.939] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord1
+[19:04:50.940] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(shadowedgesamp, TEXCOORD5.xy)
+[19:04:50.945] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (float4) v_TexCoord2
+[19:04:50.947] |D| [shader::create_fragment_inputs]: Iterator: pa14 = (float4) v_TexCoord5
+[19:04:50.948] |D| [shader::create_fragment_inputs]: Iterator: pa18 = (float1) v_Fog
+[19:04:50.950] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 12
+[19:04:50.984] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:04:50.992] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[19:04:50.997] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 11
+[19:04:51.032] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_16, size = 43
+[19:04:51.308] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 976f8f6bd9790696705f89f7a116df9dbd76dd89288fef491529a5e251a017d8
+[19:04:51.311] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 976f8f6bd9790696705f89f7a116df9dbd76dd89288fef491529a5e251a017d8
+[19:04:51.315] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ShadowOpacity
+[19:04:51.316] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) AlphaFade
+[19:04:51.318] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float4) FogColour
+[19:04:51.320] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float4) PointLightDiffuse0
+[19:04:51.321] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (float4) PointLightDiffuse1
+[19:04:51.322] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float1) OverBright
+[19:04:51.324] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:04:51.326] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp0, TEXCOORD0.xy)
+[19:04:51.328] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord1
+[19:04:51.330] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(samp0, TEXCOORD0.xy)
+[19:04:51.332] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (float4) v_TexCoord2
+[19:04:51.334] |T| [shader::create_fragment_inputs]: pa14 = tex2D<half4>(shadowedgesamp, TEXCOORD5.xy)
+[19:04:51.335] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_TexCoord5
+[19:04:51.336] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (float1) v_Fog
+[19:04:51.338] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 12
+[19:04:51.357] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:04:51.363] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[19:04:51.364] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 11
+[19:04:51.376] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_16, size = 43
+[19:04:51.481] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e5d9d5ee7613e2dfcfbce910bb10e602f1cccaf7a907d06c490d59c5c2e193e5
+[19:04:51.485] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader e5d9d5ee7613e2dfcfbce910bb10e602f1cccaf7a907d06c490d59c5c2e193e5
+[19:04:51.487] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_Position
+[19:04:51.488] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_Normal
+[19:04:51.488] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vsin_Tangent
+[19:04:51.489] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vsin_TexCoord[0]
+[19:04:51.491] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) vsin_TexCoord[1]
+[19:04:51.491] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) vsin_Colour
+[19:04:51.492] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewComposite[4]
+[19:04:51.493] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelView[4]
+[19:04:51.494] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float2) UVOffset[2]
+[19:04:51.494] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) ShadowTrans[4]
+[19:04:51.495] |D| [shader::create_parameters]: [DEFAULT  + 60] sa60 = (float4) FogRange
+[19:04:51.496] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float4) PointLightAttn
+[19:04:51.497] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) PointLightPos[2]
+[19:04:51.498] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 45
+[19:04:51.596] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 37fdd6f6b0a5b0b1e39548a174b7dcf3971bd8dc677dcf076ee0ce9757a80016
+[19:04:51.599] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 37fdd6f6b0a5b0b1e39548a174b7dcf3971bd8dc677dcf076ee0ce9757a80016
+[19:04:51.603] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ShadowOpacity
+[19:04:51.606] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) AlphaFade
+[19:04:51.609] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float4) FogColour
+[19:04:51.611] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float1) OverBright
+[19:04:51.614] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) PointLightDiffuse0
+[19:04:51.615] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) PointLightDiffuse1
+[19:04:51.617] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:04:51.619] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp0, TEXCOORD0.xy)
+[19:04:51.621] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord0
+[19:04:51.622] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(shadowedgesamp, TEXCOORD4.xy)
+[19:04:51.624] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (float4) v_TexCoord1
+[19:04:51.628] |D| [shader::create_fragment_inputs]: Iterator: pa14 = (float4) v_TexCoord2
+[19:04:51.632] |D| [shader::create_fragment_inputs]: Iterator: pa18 = (float4) v_TexCoord4
+[19:04:51.635] |D| [shader::create_fragment_inputs]: Iterator: pa22 = (float1) v_Fog
+[19:04:51.641] |I| [shader::make_frag_finalize_function]: Non zero pa offset: 2 at 37fdd6f6b0a5b0b1e39548a174b7dcf3971bd8dc677dcf076ee0ce9757a80016
+[19:04:51.645] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[19:04:51.673] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[19:04:51.690] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_6, size = 1
+[19:04:51.693] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_9, size = 11
+[19:04:51.716] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_20, size = 38
+[19:04:51.930] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 16ae3f8b8f4defe7536f0027f911721d9daf359c67a86a6793a1a330c1aba489
+[19:04:51.932] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 16ae3f8b8f4defe7536f0027f911721d9daf359c67a86a6793a1a330c1aba489
+[19:04:51.935] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_Position
+[19:04:51.936] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_Normal
+[19:04:51.937] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vsin_TexCoord[0]
+[19:04:51.939] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vsin_Colour
+[19:04:51.940] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewComposite[4]
+[19:04:51.944] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelView[4]
+[19:04:51.946] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float2) UVOffset
+[19:04:51.947] |D| [shader::create_parameters]: [DEFAULT  + 46] sa46 = (float4) ShadowTrans[4]
+[19:04:51.949] |D| [shader::create_parameters]: [DEFAULT  + 62] sa62 = (float4) ObjspaceCamPos
+[19:04:51.951] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (float4) FogRange
+[19:04:51.952] |D| [shader::create_parameters]: [DEFAULT  + 70] sa70 = (float4) MaterialColour
+[19:04:51.954] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) ModelMat[3]
+[19:04:51.955] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 25
+[19:04:52.009] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8f00922b796b113027a3f95f30860b3a6c46e0ed4e2d871a9452f217730d36ae
+[19:04:52.011] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8f00922b796b113027a3f95f30860b3a6c46e0ed4e2d871a9452f217730d36ae
+[19:04:52.015] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ShadowOpacity
+[19:04:52.015] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) AlphaFade
+[19:04:52.016] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float4) FogColour
+[19:04:52.018] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float1) OverBright
+[19:04:52.020] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:04:52.021] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp0, TEXCOORD0.xy)
+[19:04:52.022] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord2
+[19:04:52.023] |T| [shader::create_fragment_inputs]: pa8 = texCUBEproj<half4>(cubesamp0, TEXCOORD1.xyz)
+[19:04:52.024] |T| [shader::create_fragment_inputs]: pa10 = tex2D<half4>(shadowedgesamp, TEXCOORD2.xy)
+[19:04:52.025] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float1) v_Fog
+[19:04:52.026] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[19:04:52.035] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[19:04:52.043] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 1
+[19:04:52.045] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_8, size = 11
+[19:04:52.057] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_19, size = 13
+[19:04:52.151] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d16e7292d1fa50d988274d348358e956665ef06db8a2231fabc690f6615b769f
+[19:04:52.152] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d16e7292d1fa50d988274d348358e956665ef06db8a2231fabc690f6615b769f
+[19:04:52.158] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ShadowOpacity
+[19:04:52.159] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) AlphaFade
+[19:04:52.160] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float1) AlphaRef
+[19:04:52.162] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) FogColour
+[19:04:52.164] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) PointLightDiffuse0
+[19:04:52.165] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) PointLightDiffuse1
+[19:04:52.166] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) DirLightDiffuse0
+[19:04:52.168] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) DirLightDiffuse1
+[19:04:52.169] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float1) OverBright
+[19:04:52.172] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:04:52.173] |T| [shader::create_fragment_inputs]: pa2 = tex2D<float4>(samp0, TEXCOORD0.xy)
+[19:04:52.175] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float2) v_TexCoord0
+[19:04:52.176] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord1
+[19:04:52.177] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (float4) v_TexCoord2
+[19:04:52.179] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_TexCoord3
+[19:04:52.180] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (float4) v_TexCoord4
+[19:04:52.181] |D| [shader::create_fragment_inputs]: Iterator: pa24 = (float4) v_TexCoord5
+[19:04:52.185] |D| [shader::create_fragment_inputs]: Iterator: pa28 = (float1) v_Fog
+[19:04:52.190] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[19:04:52.216] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:04:52.243] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[19:04:52.252] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 31
+[19:04:52.332] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_34, size = 1
+[19:04:52.333] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_37, size = 11
+[19:04:52.382] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_48, size = 37
+[19:04:52.734] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c00977d7dfa351c8a2196569b24278c918c9233969f5245617c039f8fd421337
+[19:04:52.737] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader c00977d7dfa351c8a2196569b24278c918c9233969f5245617c039f8fd421337
+[19:04:52.743] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) AlphaFade
+[19:04:52.743] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) AlphaRef
+[19:04:52.745] |D| [shader::create_parameters]: [DEFAULT  + 5] sa5 = (float1) OverBright
+[19:04:52.747] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float4) FogColour
+[19:04:52.749] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[19:04:52.751] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(samp0, TEXCOORD0.xy)
+[19:04:52.753] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float1) v_Fog
+[19:04:52.755] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[19:04:52.785] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[19:04:52.800] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 1
+[19:04:52.808] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 23
+[19:04:52.935] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ff6dfb27c7551ab91a11b34923d2632169784b2da4896f7adac284c48d1e0e7c
+[19:04:52.938] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ff6dfb27c7551ab91a11b34923d2632169784b2da4896f7adac284c48d1e0e7c
+[19:04:52.946] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_Position
+[19:04:52.947] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_Normal
+[19:04:52.951] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vsin_Tangent
+[19:04:52.955] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) vsin_TexCoord[0]
+[19:04:52.963] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) vsin_Colour
+[19:04:52.965] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewComposite[4]
+[19:04:52.968] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ModelView[4]
+[19:04:52.968] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float2) UVOffset
+[19:04:52.971] |D| [shader::create_parameters]: [DEFAULT  + 42] sa42 = (float4) FogRange
+[19:04:52.978] |D| [shader::create_parameters]: [DEFAULT  + 46] sa46 = (float4) PointLightAttn
+[19:04:52.980] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) PointLightPos[2]
+[19:04:52.983] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 44
+[19:04:53.132] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 074b48cc0a80b686e0d59af6a381ad35c554aa5af279e0355b0dfdc827b2650f
+[19:04:53.135] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 074b48cc0a80b686e0d59af6a381ad35c554aa5af279e0355b0dfdc827b2650f
+[19:04:53.141] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) AlphaFade
+[19:04:53.141] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) FogColour
+[19:04:53.144] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) PointLightDiffuse0
+[19:04:53.146] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) PointLightDiffuse1
+[19:04:53.148] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) OverBright
+[19:04:53.149] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:04:53.152] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp0, TEXCOORD0.xy)
+[19:04:53.154] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord1
+[19:04:53.155] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(samp0, TEXCOORD0.xy)
+[19:04:53.160] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (float4) v_TexCoord2
+[19:04:53.163] |D| [shader::create_fragment_inputs]: Iterator: pa14 = (float1) v_Fog
+[19:04:53.166] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 11
+[19:04:53.197] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 36
+[19:04:53.355] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 73aff695ba4f069f7136d79ab1f1f7e3bf00b4ce76ab5f1ae3ef8a689f97a2d4
+[19:04:53.359] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 73aff695ba4f069f7136d79ab1f1f7e3bf00b4ce76ab5f1ae3ef8a689f97a2d4
+[19:04:53.364] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ShadowOpacity
+[19:04:53.365] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) AlphaFade
+[19:04:53.366] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float4) FogColour
+[19:04:53.368] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float4) PointLightDiffuse0
+[19:04:53.370] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (float4) PointLightDiffuse1
+[19:04:53.371] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) DirLightDiffuse0
+[19:04:53.373] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float4) DirLightDiffuse1
+[19:04:53.377] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (float1) OverBright
+[19:04:53.380] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:04:53.381] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp0, TEXCOORD0.xy)
+[19:04:53.383] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord1
+[19:04:53.385] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(samp0, TEXCOORD0.xy)
+[19:04:53.388] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (float4) v_TexCoord2
+[19:04:53.394] |T| [shader::create_fragment_inputs]: pa14 = tex2D<half4>(shadowedgesamp, TEXCOORD5.xy)
+[19:04:53.398] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_TexCoord3
+[19:04:53.400] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (float4) v_TexCoord4
+[19:04:53.402] |D| [shader::create_fragment_inputs]: Iterator: pa24 = (float4) v_TexCoord5
+[19:04:53.405] |D| [shader::create_fragment_inputs]: Iterator: pa28 = (float1) v_Fog
+[19:04:53.410] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[19:04:53.436] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:04:53.445] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[19:04:53.449] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 11
+[19:04:53.482] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_16, size = 61
+[19:04:55.503] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1a9cf4b27bb949ca546f77158462b2728141c408350e49d753831cbaa734e76a
+[19:04:55.507] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1a9cf4b27bb949ca546f77158462b2728141c408350e49d753831cbaa734e76a
+[19:04:55.514] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) ShadowOpacity
+[19:04:55.515] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (float1) ConstAlpha
+[19:04:55.516] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) AlphaFade
+[19:04:55.517] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float4) FogColour
+[19:04:55.519] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float4) DirLightDiffuse0
+[19:04:55.520] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (float4) DirLightDiffuse1
+[19:04:55.521] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) DirLightSpecular0
+[19:04:55.526] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float4) DirLightSpecular1
+[19:04:55.527] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (float4) PlaxScaleSpecPower
+[19:04:55.529] |D| [shader::create_parameters]: [DEFAULT  + 30] sa30 = (float1) OverBright
+[19:04:55.530] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[19:04:55.532] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(samp0, TEXCOORD0.xy)
+[19:04:55.534] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord3
+[19:04:55.536] |T| [shader::create_fragment_inputs]: pa12 = tex2D<float4>(shadowedgesamp, TEXCOORD5.xy)
+[19:04:55.542] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_TexCoord4
+[19:04:55.544] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (float4) v_TexCoord7
+[19:04:55.546] |D| [shader::create_fragment_inputs]: Iterator: pa24 = (float4) v_TexCoord5
+[19:04:55.547] |D| [shader::create_fragment_inputs]: Iterator: pa28 = (float1) v_Fog
+[19:04:55.548] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[19:04:55.569] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[19:04:55.579] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_7, size = 1
+[19:04:55.582] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_10, size = 11
+[19:04:55.604] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_21, size = 67

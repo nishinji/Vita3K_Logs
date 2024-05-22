@@ -1,0 +1,96 @@
+[03:59:52.689] |I| [config::init]: lle-modules: libpgf,libhttp,libsceavplayer,avcdec_for_player,libscemp4,libatrac
+[03:59:52.691] |I| [config::init]: log-level: 2
+[03:59:52.692] |I| [config::init]: log-imports: false
+[03:59:52.692] |I| [config::init]: log-exports: false
+[03:59:52.692] |I| [config::init]: log-active-shaders: false
+[03:59:52.693] |I| [config::init]: log-uniforms: false
+[03:59:52.693] |I| [config::init]: sync-rendering: false
+[03:59:52.696] |I| [SDL_main]: Vita3K v0.1 1063-deff8367
+[03:59:53.578] |I| [init]: Swap interval = -1
+[03:59:53.805] |I| [gui::init_icons]: Default icon found for title SKGCBSMGR, Custom Boot Splash Manager.
+[03:59:53.806] |I| [gui::init_icons]: Default icon found for title SKGTLSE12, iTLS-Enso.
+[03:59:53.807] |I| [gui::init_icons]: Default icon found for title SKOG00001, Snes9xVITA.
+[03:59:53.812] |I| [gui::init_icons]: Default icon found for title VCID00001, VitaCID.
+[03:59:53.814] |I| [gui::init_icons]: Default icon found for title VITATESTR, VitaTester.
+[04:00:00.140] |I| [load_app_impl]: Title: 蒼の彼方のフォーリズム
+[04:00:00.141] |I| [load_app_impl]: Serial: PCSG00700
+[04:00:00.141] |I| [load_app_impl]: Version: 01.00
+[04:00:00.141] |I| [load_app_impl]: Category: gd
+[04:00:00.151] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[04:00:00.152] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x4163C, setting to stub value 0xDEADBEEF
+[04:00:00.152] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x431D0, setting to stub value 0xDEADBEEF
+[04:00:00.152] |I| [load_app_impl]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[04:00:00.158] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[04:00:00.158] |I| [load_app_impl]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[04:00:00.163] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[04:00:00.163] |W| [load_var_imports]: 	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x9B0BC, setting to stub value 0xDEADBEEF
+[04:00:00.163] |I| [load_app_impl]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[04:00:00.218] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[04:00:00.218] |I| [load_app_impl]: Main executable vita_app (eboot.bin) loaded
+[04:00:00.317] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[04:00:00.322] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[04:00:00.323] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[04:00:00.324] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[04:00:00.329] |E| [call_import]: Import function for NID 0x50F2F2AA not found (thread name: SceUlt, thread ID: 38)
+[04:00:00.329] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[04:00:00.332] |I| [load_self]: Loading symbols for SELF: app0:mai_moe/mai.suprx
+[04:00:00.340] |W| [stubbed_impl]: Stubbed sceKernelDelayThread import called. (bad accuracy)
+[04:00:00.340] |I| [export_sceIoOpen]: Opening file: app0:mai_moe/load_type.mai
+[04:00:00.346] |I| [export_sceKernelLoadStartModule]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[04:00:00.350] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[04:00:00.354] |I| [export_sceKernelLoadStartModule]: Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[04:00:00.356] |W| [io_error_impl]: open_dir (sceIoDopen) returned 0x80010002
+[04:00:00.357] |W| [io_error_impl]: read_dir (sceIoDread) returned 0x80010051
+[04:00:00.361] |W| [io_error_impl]: close_dir (sceIoDclose) returned 0x80010051
+[04:00:00.441] |I| [export_sceKernelLoadStartModule]: Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[04:00:00.497] |I| [load_module]: Loading module ID: 0x4C
+[04:00:00.500] |I| [load_self]: Loading symbols for SELF: sys/external/libsceavplayer.suprx
+[04:00:00.500] |I| [load_module]: Module SceAvPlayer (at "sys/external/libsceavplayer.suprx") loaded
+[04:00:00.506] |I| [load_module]: Module SceAvPlayer (at "sys/external/libsceavplayer.suprx") module_start returned 0x0
+[04:00:00.512] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
+[04:00:00.523] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[04:00:00.524] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[04:00:00.536] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[04:00:00.537] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[04:00:00.539] |W| [unimplemented_impl]: Unimplemented sceNpInit import called.
+[04:00:00.540] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[04:00:00.546] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[04:00:00.547] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[04:00:00.548] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[04:00:00.548] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[04:00:00.595] |W| [stubbed_impl]: Stubbed sceNgsSystemGetRequiredMemorySize import called. (size = 1)
+[04:00:00.596] |W| [unimplemented_impl]: Unimplemented sceNgsSystemInit import called.
+[04:00:00.597] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[04:00:00.598] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceDefGetMasterBuss import called.
+[04:00:00.598] |W| [stubbed_impl]: Stubbed sceNgsRackGetRequiredMemorySize import called. (size = 1)
+[04:00:00.599] |W| [unimplemented_impl]: Unimplemented sceNgsRackInit import called.
+[04:00:00.600] |W| [unimplemented_impl]: Unimplemented sceNgsRackGetVoiceHandle import called.
+[04:00:00.601] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceInit import called.
+[04:00:00.602] |W| [unimplemented_impl]: Unimplemented sceAudioOutSetVolume import called.
+[04:00:00.602] |W| [unimplemented_impl]: Unimplemented sceNgsVoicePlay import called.
+[04:00:00.603] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceGetInfo import called.
+[04:00:00.604] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceDefGetTemplate1 import called.
+[04:00:00.607] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceDefGetAtrac9Voice import called.
+[04:00:00.612] |W| [unimplemented_impl]: Unimplemented sceNgsSystemUpdate import called.
+[04:00:00.613] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceGetStateData import called.
+[04:00:01.151] |I| [renderer::create]: GL_VERSION = 4.1.0 NVIDIA 430.86
+[04:00:01.152] |I| [renderer::create]: GL_SHADING_LANGUAGE_VERSION = 4.10 NVIDIA via Cg compiler
+[04:00:01.155] |W| [unimplemented_impl]: Unimplemented sceGxmTextureInitLinearStrided import called.
+[04:00:01.170] |I| [renderer::load_shader]: Generating vert shader fc58148d0babeaedd377c489d5467e15eea60119aee3660e136b92176b6b6e15
+[04:00:01.172] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[04:00:01.209] |I| [renderer::load_shader]: Generating frag shader eb2fb930b3ed0e1d6741039bd49e966df116cc76e0d2146925800689cb64fbde
+[04:00:01.214] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[04:00:01.270] |W| [stubbed_impl]: Stubbed sceGxmShaderPatcherCreateMaskUpdateFragmentProgram import called. (Using a null shader)
+[04:00:01.274] |I| [renderer::load_shader]: Generating vert shader d6b18f255c597f313aa75eb4566bc7f560d09d0e7ddf265f115f45bf8071dddb
+[04:00:01.277] |C| [shader::create_parameters]: uniform_buffer used in shader
+[04:00:01.278] |C| [shader::create_parameters]: uniform_buffer used in shader
+[04:00:01.351] |I| [renderer::load_shader]: Generating vert shader 5a49a8cf0d46a3dc9910f1e9799fab12a70f9db9e612220895f9359f5590c26b
+[04:00:01.353] |C| [shader::create_parameters]: uniform_buffer used in shader
+[04:00:01.384] |I| [renderer::load_shader]: Generating vert shader ea5b954bedf29c35c7f60413c422795a62ebde58dc8503918ad6c70d703194d4
+[04:00:01.386] |C| [shader::create_parameters]: uniform_buffer used in shader
+[04:00:01.386] |C| [shader::create_parameters]: uniform_buffer used in shader
+[04:00:01.441] |I| [renderer::load_shader]: Generating frag shader 08836a3522e25d68b453dfbdf60b792ba7a76689e81fe1db12747c5b6bc96a1b
+[04:00:01.443] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[04:00:01.467] |I| [renderer::load_shader]: Generating vert shader 6d5cdb7c305d5bcc44e673708ec759ae410ea20dda2eb12e7218928a34375832
+[04:00:01.469] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[04:00:01.489] |I| [renderer::load_shader]: Generating frag shader af3c24aac461a857b25805356491ebb6ca00d0a61c169a30011d5244c141525e

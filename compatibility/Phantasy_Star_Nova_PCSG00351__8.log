@@ -1,0 +1,869 @@
+[23:41:08.485] |I| [init_config]: backend-renderer: Vulkan
+[23:41:08.485] |I| [init_config]: log-level: 2
+[23:41:10.077] |I| [main]: Vita3K v0.2.0 3594-d49480f8
+[23:41:10.077] |I| [main]: OS: Arch Linux
+[23:41:10.077] |I| [main]: CPU: AMD Ryzen 5 5600X 6-Core Processor | 12 Threads | 3.598 GHz
+[23:41:10.077] |I| [main]: Available ram memory: 32006 MiB
+[23:41:10.077] |I| [init]: Base path: /home/vic/bin/vita3k/
+[23:41:10.077] |I| [init]: Static assets path: /home/vic/bin/vita3k/
+[23:41:10.077] |I| [init]: Shared path: /home/vic/.local/share/Vita3K
+[23:41:10.077] |I| [init]: Log path: /home/vic/.cache/Vita3K
+[23:41:10.077] |I| [init]: User config path: /home/vic/.config/Vita3K
+[23:41:10.077] |I| [init]: User cache path: /home/vic/.cache/Vita3K
+[23:41:10.077] |I| [init]: User pref path: /home/vic/.local/share/Vita3K/Vita3K
+[23:41:10.093] |I| [create]: Vulkan device: AMD Radeon RX 7800 XT (RADV NAVI32)
+[23:41:10.093] |I| [create]: Driver version: 24.0.5
+[23:41:10.093] |I| [create]: Memory mapping is enabled
+[23:41:10.100] |I| [setup]: Present mode: Mailbox
+[23:41:10.313] |I| [update_app_compat_db]: Applications compatibility database is up to date.
+[23:41:13.320] |I| [late_init]: The Vulkan renderer is using texture viewport for better performance
+[23:41:13.320] |I| [set_async_compilation]: Enabling asynchronous pipeline compilation with 4 threads
+[23:41:13.321] |I| [load_app_impl]: cpu-backend: Dynarmic
+[23:41:13.321] |I| [load_app_impl]: CPU Optimisation state: true
+[23:41:13.321] |I| [load_app_impl]: ngs state: true
+[23:41:13.321] |I| [load_app_impl]: Resolution multiplier: 1
+[23:41:13.321] |I| [load_app_impl]: 1 Controllers Connected
+[23:41:13.321] |I| [load_app_impl]: Controller 0: DualSense Wireless Controller
+[23:41:13.321] |I| [load_app_impl]: Controller has motion support
+[23:41:13.321] |I| [load_app_impl]: modules mode: Automatic
+[23:41:13.321] |I| [load_app_impl]: Title: ファンタシースター ノヴァ
+[23:41:13.321] |I| [load_app_impl]: Serial: PCSG00351
+[23:41:13.321] |I| [load_app_impl]: Version: 1.00
+[23:41:13.321] |I| [load_app_impl]: Category: gd
+[23:41:13.322] |I| [load_module]: Loading module "app0:eboot.bin"
+[23:41:13.502] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[23:41:13.502] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x813D5E70 / 0x81000000] (size: 0x013D1E70) of module app0:eboot.bin
+[23:41:13.502] |I| [load_self]: Loaded module segment 1 @ [0x813D6000 - 0x81491F80 / 0x823D2000] (size: 0x000BBF80) of module app0:eboot.bin
+[23:41:13.502] |I| [load_self]: Linking SELF app0:eboot.bin...
+[23:41:13.504] |I| [load_module]: Module NovaMRom (at "app0:eboot.bin") loaded
+[23:41:13.505] |I| [load_app_impl]: Main executable NovaMRom (eboot.bin) loaded
+[23:41:13.505] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[23:41:13.508] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[23:41:13.508] |I| [load_self]: Loaded module segment 0 @ [0x8149D000 - 0x814ECBD4 / 0x81000000] (size: 0x0004FBD4) of module app0:sce_module/libc.suprx
+[23:41:13.508] |I| [load_self]: Loaded module segment 1 @ [0x814ED000 - 0x814EF688 / 0x81050000] (size: 0x00002688) of module app0:sce_module/libc.suprx
+[23:41:13.508] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[23:41:13.508] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[23:41:13.508] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[23:41:13.510] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[23:41:13.510] |I| [load_self]: Loaded module segment 0 @ [0x814F0000 - 0x8151AAA8 / 0x81000000] (size: 0x0002AAA8) of module app0:sce_module/libfios2.suprx
+[23:41:13.510] |I| [load_self]: Loaded module segment 1 @ [0x8151B000 - 0x8152023D / 0x8102B000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[23:41:13.510] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[23:41:13.510] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[23:41:13.510] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[23:41:13.512] |I| [load_self]: Loaded module segment 0 @ [0x81521000 - 0x81571F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[23:41:13.512] |I| [load_self]: Loaded module segment 1 @ [0x81572000 - 0x815722F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[23:41:13.512] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[23:41:13.512] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[23:41:13.512] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[23:41:13.513] |I| [load_self]: Loaded module segment 0 @ [0x81573000 - 0x81582F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[23:41:13.513] |I| [load_self]: Loaded module segment 1 @ [0x81583000 - 0x81583008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[23:41:13.513] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[23:41:13.513] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[23:41:13.513] |I| [read_pipeline_cache]: Found pipeline cache, reading...
+[23:41:13.513] |I| [read_pipeline_cache]: Pipeline cache read and loaded
+[23:41:13.514] |I| [precompile_shader]: Program Compiled 1/54
+[23:41:13.514] |I| [precompile_shader]: Program Compiled 2/54
+[23:41:13.514] |I| [precompile_shader]: Program Compiled 3/54
+[23:41:13.514] |I| [precompile_shader]: Program Compiled 4/54
+[23:41:13.514] |I| [precompile_shader]: Program Compiled 5/54
+[23:41:13.515] |I| [precompile_shader]: Program Compiled 6/54
+[23:41:13.515] |I| [precompile_shader]: Program Compiled 7/54
+[23:41:13.515] |I| [precompile_shader]: Program Compiled 8/54
+[23:41:13.515] |I| [precompile_shader]: Program Compiled 9/54
+[23:41:13.515] |I| [precompile_shader]: Program Compiled 10/54
+[23:41:13.515] |I| [precompile_shader]: Program Compiled 11/54
+[23:41:13.515] |I| [precompile_shader]: Program Compiled 12/54
+[23:41:13.516] |I| [precompile_shader]: Program Compiled 13/54
+[23:41:13.516] |I| [precompile_shader]: Program Compiled 14/54
+[23:41:13.516] |I| [precompile_shader]: Program Compiled 15/54
+[23:41:13.516] |I| [precompile_shader]: Program Compiled 16/54
+[23:41:13.517] |I| [precompile_shader]: Program Compiled 17/54
+[23:41:13.517] |I| [precompile_shader]: Program Compiled 18/54
+[23:41:13.517] |I| [precompile_shader]: Program Compiled 19/54
+[23:41:13.517] |I| [precompile_shader]: Program Compiled 20/54
+[23:41:13.518] |I| [precompile_shader]: Program Compiled 21/54
+[23:41:13.518] |I| [precompile_shader]: Program Compiled 22/54
+[23:41:13.518] |I| [precompile_shader]: Program Compiled 23/54
+[23:41:13.518] |I| [precompile_shader]: Program Compiled 24/54
+[23:41:13.519] |I| [precompile_shader]: Program Compiled 25/54
+[23:41:13.519] |I| [precompile_shader]: Program Compiled 26/54
+[23:41:13.519] |I| [precompile_shader]: Program Compiled 27/54
+[23:41:13.519] |I| [precompile_shader]: Program Compiled 28/54
+[23:41:13.519] |I| [precompile_shader]: Program Compiled 29/54
+[23:41:13.520] |I| [precompile_shader]: Program Compiled 30/54
+[23:41:13.520] |I| [precompile_shader]: Program Compiled 31/54
+[23:41:13.520] |I| [precompile_shader]: Program Compiled 32/54
+[23:41:13.520] |I| [precompile_shader]: Program Compiled 33/54
+[23:41:13.521] |I| [precompile_shader]: Program Compiled 34/54
+[23:41:13.521] |I| [precompile_shader]: Program Compiled 35/54
+[23:41:13.521] |I| [precompile_shader]: Program Compiled 36/54
+[23:41:13.521] |I| [precompile_shader]: Program Compiled 37/54
+[23:41:13.522] |I| [precompile_shader]: Program Compiled 38/54
+[23:41:13.522] |I| [precompile_shader]: Program Compiled 39/54
+[23:41:13.522] |I| [precompile_shader]: Program Compiled 40/54
+[23:41:13.522] |I| [precompile_shader]: Program Compiled 41/54
+[23:41:13.522] |I| [precompile_shader]: Program Compiled 42/54
+[23:41:13.522] |I| [precompile_shader]: Program Compiled 43/54
+[23:41:13.522] |I| [precompile_shader]: Program Compiled 44/54
+[23:41:13.522] |I| [precompile_shader]: Program Compiled 45/54
+[23:41:13.523] |I| [precompile_shader]: Program Compiled 46/54
+[23:41:13.523] |I| [precompile_shader]: Program Compiled 47/54
+[23:41:13.523] |I| [precompile_shader]: Program Compiled 48/54
+[23:41:13.523] |I| [precompile_shader]: Program Compiled 49/54
+[23:41:13.523] |I| [precompile_shader]: Program Compiled 50/54
+[23:41:13.523] |I| [precompile_shader]: Program Compiled 51/54
+[23:41:13.523] |I| [precompile_shader]: Program Compiled 52/54
+[23:41:13.524] |I| [precompile_shader]: Program Compiled 53/54
+[23:41:13.524] |I| [precompile_shader]: Program Compiled 54/54
+[23:41:13.569] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[23:41:13.579] |W| [operator()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[23:41:13.579] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[23:41:13.726] |W| [operator()]: Unimplemented sceAppUtilInit import called.
+[23:41:13.727] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_FIBER
+[23:41:13.738] |W| [operator()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[23:41:13.738] |W| [operator()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[23:41:13.802] |I| [export_sceIoOpen]: Opening file: app0:/disc1/f00001.bin
+[23:41:13.802] |W| [operator()]: Unimplemented sceIoSync import called.
+[23:41:13.802] |I| [export_sceIoOpen]: Opening file: app0:/disc1/f00002.bin
+[23:41:14.014] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SYSTEM_GESTURE
+[23:41:14.014] |I| [load_module]: Loading module "vs0:sys/external/libsystemgesture.suprx"
+[23:41:14.014] |I| [load_self]: vs0:sys/external/libsystemgesture.suprx: Skipping special segment 0x6fffff01...
+[23:41:14.014] |I| [load_self]: Loaded module segment 0 @ [0x81AC8000 - 0x81ACB08C / 0x81000000] (size: 0x0000308C) of module vs0:sys/external/libsystemgesture.suprx
+[23:41:14.014] |I| [load_self]: Loaded module segment 1 @ [0x81ACC000 - 0x81ACCBF0 / 0x81004000] (size: 0x00000BF0) of module vs0:sys/external/libsystemgesture.suprx
+[23:41:14.014] |I| [load_self]: Linking SELF vs0:sys/external/libsystemgesture.suprx...
+[23:41:14.014] |I| [load_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") loaded
+[23:41:14.023] |I| [start_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") module_start returned 0x0
+[23:41:14.024] |W| [operator()]: Stubbed sceTouchGetPixelDensity2 import called. (Return constant values (22.0))
+[23:41:14.056] |W| [operator()]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[23:41:14.208] |I| [export_sceIoOpen]: Opening file: app0:NOVA_FileList_Vita_movie.cpk
+[23:41:14.226] |I| [export_sceIoOpen]: Opening file: app0:NOVA_FileList_Vita_movie.cpk
+[23:41:14.228] |I| [export_sceIoOpen]: Opening file: app0:NOVA_FileList_Vita.cpk
+[23:41:14.240] |I| [export_sceIoOpen]: Opening file: app0:NOVA_FileList_Vita.cpk
+[23:41:14.346] |E| [operator()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[23:41:14.346] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[23:41:14.494] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SCREEN_SHOT
+[23:41:14.494] |W| [operator()]: Unimplemented sceScreenShotDisable import called.
+[23:41:14.494] |W| [operator()]: Unimplemented sceScreenShotSetOverlayImage import called.
+[23:41:14.494] |W| [operator()]: Unimplemented sceScreenShotEnable import called.
+[23:41:14.550] |W| [operator()]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[23:41:14.733] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[23:41:14.733] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[23:41:14.825] |W| [operator()]: Unimplemented sceCommonDialogUpdate import called.
+[23:41:19.608] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[23:41:19.608] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[23:41:19.609] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[23:41:19.609] |I| [load_self]: Loaded module segment 0 @ [0x83849000 - 0x8385D9FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[23:41:19.609] |I| [load_self]: Loaded module segment 1 @ [0x81AD0000 - 0x81AD006C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[23:41:19.609] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[23:41:19.609] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[23:41:19.618] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[23:41:19.619] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[23:41:19.619] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[23:41:19.619] |I| [load_self]: Loaded module segment 0 @ [0x8385E000 - 0x8386DD20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[23:41:19.619] |I| [load_self]: Loaded module segment 1 @ [0x8386E000 - 0x8386E028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[23:41:19.619] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[23:41:19.619] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[23:41:19.681] |E| [operator()]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[23:41:19.991] |W| [operator()]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[23:41:19.992] |W| [operator()]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[23:41:19.995] |W| [operator()]: Stubbed sceAudiodecGetContextSize import called. (fake size)
+[23:41:20.061] |W| [receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[23:41:20.065] |E| [operator()]: _sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[23:41:25.857] |W| [operator()]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[23:41:25.865] |I| [unload_module]: Unloading module 2816 (SceMp4)
+[23:41:25.865] |I| [unload_self]: Unlinking self...
+[23:41:25.865] |I| [unload_module]: Unloading module 2814 (SceAvPlayer)
+[23:41:25.865] |I| [unload_self]: Unlinking self...
+[23:41:25.889] |I| [export_sceIoOpen]: Opening file: savedata0:system.bin
+[23:41:25.889] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/system.bin (target path: savedata0:system.bin)
+[23:41:25.889] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[23:41:26.638] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[23:41:26.638] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[23:41:26.639] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[23:41:26.639] |I| [load_self]: Loaded module segment 0 @ [0x83848000 - 0x8385C9FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[23:41:26.639] |I| [load_self]: Loaded module segment 1 @ [0x8385D000 - 0x8385D06C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[23:41:26.639] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[23:41:26.639] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[23:41:26.648] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[23:41:26.649] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[23:41:26.649] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[23:41:26.649] |I| [load_self]: Loaded module segment 0 @ [0x8385E000 - 0x8386DD20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[23:41:26.649] |I| [load_self]: Loaded module segment 1 @ [0x8386E000 - 0x8386E028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[23:41:26.649] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[23:41:26.649] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[23:41:27.094] |W| [receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[23:41:33.105] |E| [operator()]: _sceKernelWaitThreadEnd returned SCE_KERNEL_ERROR_UNKNOWN_THREAD_ID (0x80028021)
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000001 (target path: addcont0:DITM000000000001)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000002 (target path: addcont0:DITM000000000002)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000003 (target path: addcont0:DITM000000000003)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000004 (target path: addcont0:DITM000000000004)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000005 (target path: addcont0:DITM000000000005)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000006 (target path: addcont0:DITM000000000006)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000007 (target path: addcont0:DITM000000000007)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000008 (target path: addcont0:DITM000000000008)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000009 (target path: addcont0:DITM000000000009)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000010 (target path: addcont0:DITM000000000010)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000011 (target path: addcont0:DITM000000000011)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000012 (target path: addcont0:DITM000000000012)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000013 (target path: addcont0:DITM000000000013)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000014 (target path: addcont0:DITM000000000014)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000015 (target path: addcont0:DITM000000000015)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000016 (target path: addcont0:DITM000000000016)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000017 (target path: addcont0:DITM000000000017)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000018 (target path: addcont0:DITM000000000018)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000019 (target path: addcont0:DITM000000000019)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000020 (target path: addcont0:DITM000000000020)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000021 (target path: addcont0:DITM000000000021)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000022 (target path: addcont0:DITM000000000022)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000023 (target path: addcont0:DITM000000000023)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000024 (target path: addcont0:DITM000000000024)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000025 (target path: addcont0:DITM000000000025)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000026 (target path: addcont0:DITM000000000026)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000027 (target path: addcont0:DITM000000000027)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000028 (target path: addcont0:DITM000000000028)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000029 (target path: addcont0:DITM000000000029)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000030 (target path: addcont0:DITM000000000030)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000031 (target path: addcont0:DITM000000000031)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000032 (target path: addcont0:DITM000000000032)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000033 (target path: addcont0:DITM000000000033)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000034 (target path: addcont0:DITM000000000034)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000035 (target path: addcont0:DITM000000000035)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000036 (target path: addcont0:DITM000000000036)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000037 (target path: addcont0:DITM000000000037)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000038 (target path: addcont0:DITM000000000038)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000039 (target path: addcont0:DITM000000000039)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000040 (target path: addcont0:DITM000000000040)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000041 (target path: addcont0:DITM000000000041)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000042 (target path: addcont0:DITM000000000042)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000043 (target path: addcont0:DITM000000000043)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000044 (target path: addcont0:DITM000000000044)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000045 (target path: addcont0:DITM000000000045)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000046 (target path: addcont0:DITM000000000046)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000047 (target path: addcont0:DITM000000000047)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000048 (target path: addcont0:DITM000000000048)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000049 (target path: addcont0:DITM000000000049)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000050 (target path: addcont0:DITM000000000050)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000051 (target path: addcont0:DITM000000000051)
+[23:41:34.356] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.356] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000052 (target path: addcont0:DITM000000000052)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000053 (target path: addcont0:DITM000000000053)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000054 (target path: addcont0:DITM000000000054)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000055 (target path: addcont0:DITM000000000055)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000056 (target path: addcont0:DITM000000000056)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000057 (target path: addcont0:DITM000000000057)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000058 (target path: addcont0:DITM000000000058)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000059 (target path: addcont0:DITM000000000059)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000060 (target path: addcont0:DITM000000000060)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000061 (target path: addcont0:DITM000000000061)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000062 (target path: addcont0:DITM000000000062)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000063 (target path: addcont0:DITM000000000063)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000064 (target path: addcont0:DITM000000000064)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000065 (target path: addcont0:DITM000000000065)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000066 (target path: addcont0:DITM000000000066)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000067 (target path: addcont0:DITM000000000067)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000068 (target path: addcont0:DITM000000000068)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000069 (target path: addcont0:DITM000000000069)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000070 (target path: addcont0:DITM000000000070)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000071 (target path: addcont0:DITM000000000071)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000072 (target path: addcont0:DITM000000000072)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000073 (target path: addcont0:DITM000000000073)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000074 (target path: addcont0:DITM000000000074)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000075 (target path: addcont0:DITM000000000075)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000076 (target path: addcont0:DITM000000000076)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000077 (target path: addcont0:DITM000000000077)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000078 (target path: addcont0:DITM000000000078)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000079 (target path: addcont0:DITM000000000079)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000080 (target path: addcont0:DITM000000000080)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000081 (target path: addcont0:DITM000000000081)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000082 (target path: addcont0:DITM000000000082)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000083 (target path: addcont0:DITM000000000083)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000084 (target path: addcont0:DITM000000000084)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000085 (target path: addcont0:DITM000000000085)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000086 (target path: addcont0:DITM000000000086)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000087 (target path: addcont0:DITM000000000087)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000088 (target path: addcont0:DITM000000000088)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000089 (target path: addcont0:DITM000000000089)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000090 (target path: addcont0:DITM000000000090)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000091 (target path: addcont0:DITM000000000091)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000092 (target path: addcont0:DITM000000000092)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000093 (target path: addcont0:DITM000000000093)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000094 (target path: addcont0:DITM000000000094)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000095 (target path: addcont0:DITM000000000095)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000096 (target path: addcont0:DITM000000000096)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000097 (target path: addcont0:DITM000000000097)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000098 (target path: addcont0:DITM000000000098)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000099 (target path: addcont0:DITM000000000099)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000100 (target path: addcont0:DITM000000000100)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000101 (target path: addcont0:DITM000000000101)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000102 (target path: addcont0:DITM000000000102)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000103 (target path: addcont0:DITM000000000103)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000104 (target path: addcont0:DITM000000000104)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000105 (target path: addcont0:DITM000000000105)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000106 (target path: addcont0:DITM000000000106)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000107 (target path: addcont0:DITM000000000107)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000108 (target path: addcont0:DITM000000000108)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000109 (target path: addcont0:DITM000000000109)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000110 (target path: addcont0:DITM000000000110)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000111 (target path: addcont0:DITM000000000111)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000112 (target path: addcont0:DITM000000000112)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000113 (target path: addcont0:DITM000000000113)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000114 (target path: addcont0:DITM000000000114)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000115 (target path: addcont0:DITM000000000115)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000116 (target path: addcont0:DITM000000000116)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000117 (target path: addcont0:DITM000000000117)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000118 (target path: addcont0:DITM000000000118)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000119 (target path: addcont0:DITM000000000119)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000120 (target path: addcont0:DITM000000000120)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000121 (target path: addcont0:DITM000000000121)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000122 (target path: addcont0:DITM000000000122)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000123 (target path: addcont0:DITM000000000123)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000124 (target path: addcont0:DITM000000000124)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000125 (target path: addcont0:DITM000000000125)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000126 (target path: addcont0:DITM000000000126)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000127 (target path: addcont0:DITM000000000127)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000128 (target path: addcont0:DITM000000000128)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000129 (target path: addcont0:DITM000000000129)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000130 (target path: addcont0:DITM000000000130)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000131 (target path: addcont0:DITM000000000131)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000132 (target path: addcont0:DITM000000000132)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000133 (target path: addcont0:DITM000000000133)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.357] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000134 (target path: addcont0:DITM000000000134)
+[23:41:34.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000135 (target path: addcont0:DITM000000000135)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000136 (target path: addcont0:DITM000000000136)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000137 (target path: addcont0:DITM000000000137)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000138 (target path: addcont0:DITM000000000138)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000139 (target path: addcont0:DITM000000000139)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000140 (target path: addcont0:DITM000000000140)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000141 (target path: addcont0:DITM000000000141)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000142 (target path: addcont0:DITM000000000142)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000143 (target path: addcont0:DITM000000000143)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000144 (target path: addcont0:DITM000000000144)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000145 (target path: addcont0:DITM000000000145)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000146 (target path: addcont0:DITM000000000146)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000147 (target path: addcont0:DITM000000000147)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000148 (target path: addcont0:DITM000000000148)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000149 (target path: addcont0:DITM000000000149)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000150 (target path: addcont0:DITM000000000150)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000151 (target path: addcont0:DITM000000000151)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000152 (target path: addcont0:DITM000000000152)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000153 (target path: addcont0:DITM000000000153)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000154 (target path: addcont0:DITM000000000154)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000155 (target path: addcont0:DITM000000000155)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000156 (target path: addcont0:DITM000000000156)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000157 (target path: addcont0:DITM000000000157)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000158 (target path: addcont0:DITM000000000158)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000159 (target path: addcont0:DITM000000000159)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000160 (target path: addcont0:DITM000000000160)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000161 (target path: addcont0:DITM000000000161)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000162 (target path: addcont0:DITM000000000162)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000163 (target path: addcont0:DITM000000000163)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000164 (target path: addcont0:DITM000000000164)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000165 (target path: addcont0:DITM000000000165)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000166 (target path: addcont0:DITM000000000166)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000167 (target path: addcont0:DITM000000000167)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000168 (target path: addcont0:DITM000000000168)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000169 (target path: addcont0:DITM000000000169)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000170 (target path: addcont0:DITM000000000170)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000171 (target path: addcont0:DITM000000000171)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000172 (target path: addcont0:DITM000000000172)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000173 (target path: addcont0:DITM000000000173)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000174 (target path: addcont0:DITM000000000174)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000175 (target path: addcont0:DITM000000000175)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000176 (target path: addcont0:DITM000000000176)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000177 (target path: addcont0:DITM000000000177)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000178 (target path: addcont0:DITM000000000178)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000179 (target path: addcont0:DITM000000000179)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000180 (target path: addcont0:DITM000000000180)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.358] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DITM000000000181 (target path: addcont0:DITM000000000181)
+[23:41:34.358] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000001 (target path: addcont0:DBCO000000000001)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000002 (target path: addcont0:DBCO000000000002)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000003 (target path: addcont0:DBCO000000000003)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000004 (target path: addcont0:DBCO000000000004)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000005 (target path: addcont0:DBCO000000000005)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000006 (target path: addcont0:DBCO000000000006)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000007 (target path: addcont0:DBCO000000000007)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000008 (target path: addcont0:DBCO000000000008)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000009 (target path: addcont0:DBCO000000000009)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000010 (target path: addcont0:DBCO000000000010)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000011 (target path: addcont0:DBCO000000000011)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000012 (target path: addcont0:DBCO000000000012)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000013 (target path: addcont0:DBCO000000000013)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000014 (target path: addcont0:DBCO000000000014)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000015 (target path: addcont0:DBCO000000000015)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000016 (target path: addcont0:DBCO000000000016)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000017 (target path: addcont0:DBCO000000000017)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000018 (target path: addcont0:DBCO000000000018)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000019 (target path: addcont0:DBCO000000000019)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000020 (target path: addcont0:DBCO000000000020)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000021 (target path: addcont0:DBCO000000000021)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000022 (target path: addcont0:DBCO000000000022)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000023 (target path: addcont0:DBCO000000000023)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000024 (target path: addcont0:DBCO000000000024)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000025 (target path: addcont0:DBCO000000000025)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000026 (target path: addcont0:DBCO000000000026)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000027 (target path: addcont0:DBCO000000000027)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000028 (target path: addcont0:DBCO000000000028)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000029 (target path: addcont0:DBCO000000000029)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000030 (target path: addcont0:DBCO000000000030)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000031 (target path: addcont0:DBCO000000000031)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000032 (target path: addcont0:DBCO000000000032)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.359] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DBCO000000000033 (target path: addcont0:DBCO000000000033)
+[23:41:34.359] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000016 (target path: addcont0:DCSS000000000016)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000017 (target path: addcont0:DCSS000000000017)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000018 (target path: addcont0:DCSS000000000018)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000019 (target path: addcont0:DCSS000000000019)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000020 (target path: addcont0:DCSS000000000020)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000021 (target path: addcont0:DCSS000000000021)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000022 (target path: addcont0:DCSS000000000022)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000023 (target path: addcont0:DCSS000000000023)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000024 (target path: addcont0:DCSS000000000024)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000025 (target path: addcont0:DCSS000000000025)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000026 (target path: addcont0:DCSS000000000026)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000027 (target path: addcont0:DCSS000000000027)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000028 (target path: addcont0:DCSS000000000028)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000029 (target path: addcont0:DCSS000000000029)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000030 (target path: addcont0:DCSS000000000030)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000031 (target path: addcont0:DCSS000000000031)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000032 (target path: addcont0:DCSS000000000032)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000033 (target path: addcont0:DCSS000000000033)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000034 (target path: addcont0:DCSS000000000034)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000035 (target path: addcont0:DCSS000000000035)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000036 (target path: addcont0:DCSS000000000036)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000037 (target path: addcont0:DCSS000000000037)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000038 (target path: addcont0:DCSS000000000038)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000039 (target path: addcont0:DCSS000000000039)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000040 (target path: addcont0:DCSS000000000040)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000041 (target path: addcont0:DCSS000000000041)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000042 (target path: addcont0:DCSS000000000042)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000043 (target path: addcont0:DCSS000000000043)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000044 (target path: addcont0:DCSS000000000044)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000045 (target path: addcont0:DCSS000000000045)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000046 (target path: addcont0:DCSS000000000046)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000047 (target path: addcont0:DCSS000000000047)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:34.360] |E| [stat_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/addcont/PCSG00351/DCSS000000000048 (target path: addcont0:DCSS000000000048)
+[23:41:34.360] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[23:41:35.005] |I| [save_pipeline_cache]: Saving pipeline cache...
+[23:41:35.005] |I| [save_pipeline_cache]: Pipeline cache saved
+[23:41:35.931] |I| [unload_module]: Unloading module 3672 (SceMp4)
+[23:41:35.931] |I| [unload_self]: Unlinking self...
+[23:41:35.931] |I| [unload_module]: Unloading module 3670 (SceAvPlayer)
+[23:41:35.931] |I| [unload_self]: Unlinking self...
+[23:41:36.122] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[23:41:36.122] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[23:41:36.123] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[23:41:36.123] |I| [load_self]: Loaded module segment 0 @ [0x83849000 - 0x8385D9FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[23:41:36.123] |I| [load_self]: Loaded module segment 1 @ [0x81AD0000 - 0x81AD006C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[23:41:36.123] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[23:41:36.123] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[23:41:36.133] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[23:41:36.133] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[23:41:36.134] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[23:41:36.134] |I| [load_self]: Loaded module segment 0 @ [0x8385E000 - 0x8386DD20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[23:41:36.134] |I| [load_self]: Loaded module segment 1 @ [0x8386E000 - 0x8386E028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[23:41:36.134] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[23:41:36.134] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[23:41:36.344] |W| [receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[23:41:40.447] |I| [unload_module]: Unloading module 4550 (SceMp4)
+[23:41:40.447] |I| [unload_self]: Unlinking self...
+[23:41:40.447] |I| [unload_module]: Unloading module 4548 (SceAvPlayer)
+[23:41:40.447] |I| [unload_self]: Unlinking self...
+[23:41:55.738] |W| [operator()]: Stubbed sceAppUtilSaveDataSlotSearch import called. (No sort slot list)
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_10.bin (target path: savedata0:/SlotParam_10.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_11.bin (target path: savedata0:/SlotParam_11.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_12.bin (target path: savedata0:/SlotParam_12.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_13.bin (target path: savedata0:/SlotParam_13.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_14.bin (target path: savedata0:/SlotParam_14.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_15.bin (target path: savedata0:/SlotParam_15.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_16.bin (target path: savedata0:/SlotParam_16.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_17.bin (target path: savedata0:/SlotParam_17.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_18.bin (target path: savedata0:/SlotParam_18.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_19.bin (target path: savedata0:/SlotParam_19.bin)
+[23:41:55.738] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:41:55.738] |W| [operator()]: Unimplemented sceAppUtilSaveDataMount import called.
+[23:41:55.738] |W| [operator()]: Unimplemented sceAppUtilSaveDataUmount import called.
+[23:41:55.999] |W| [process]: Game is using unimplemented equalizer audio module
+[23:41:55.999] |W| [process]: Game is using unimplemented envelope audio module
+[23:41:57.002] |I| [process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[23:42:00.439] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[23:42:00.439] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.439] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[23:42:00.439] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.439] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[23:42:00.439] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.439] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[23:42:00.439] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.439] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[23:42:00.439] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_10.bin (target path: savedata0:/SlotParam_10.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_11.bin (target path: savedata0:/SlotParam_11.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_12.bin (target path: savedata0:/SlotParam_12.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_13.bin (target path: savedata0:/SlotParam_13.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_14.bin (target path: savedata0:/SlotParam_14.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_15.bin (target path: savedata0:/SlotParam_15.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_16.bin (target path: savedata0:/SlotParam_16.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_17.bin (target path: savedata0:/SlotParam_17.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_18.bin (target path: savedata0:/SlotParam_18.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:00.440] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_19.bin (target path: savedata0:/SlotParam_19.bin)
+[23:42:00.440] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_10.bin (target path: savedata0:/SlotParam_10.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_11.bin (target path: savedata0:/SlotParam_11.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_12.bin (target path: savedata0:/SlotParam_12.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_13.bin (target path: savedata0:/SlotParam_13.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_14.bin (target path: savedata0:/SlotParam_14.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_15.bin (target path: savedata0:/SlotParam_15.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_16.bin (target path: savedata0:/SlotParam_16.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_17.bin (target path: savedata0:/SlotParam_17.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_18.bin (target path: savedata0:/SlotParam_18.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:01.809] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_19.bin (target path: savedata0:/SlotParam_19.bin)
+[23:42:01.809] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[23:42:06.937] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[23:42:06.937] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[23:42:06.938] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[23:42:06.938] |I| [load_self]: Loaded module segment 0 @ [0x83848000 - 0x8385C9FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[23:42:06.938] |I| [load_self]: Loaded module segment 1 @ [0x8385D000 - 0x8385D06C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[23:42:06.938] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[23:42:06.938] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[23:42:06.946] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[23:42:06.947] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[23:42:06.947] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[23:42:06.947] |I| [load_self]: Loaded module segment 0 @ [0x8385E000 - 0x8386DD20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[23:42:06.947] |I| [load_self]: Loaded module segment 1 @ [0x8386E000 - 0x8386E028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[23:42:06.947] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[23:42:06.947] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[23:42:07.377] |W| [receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[23:42:11.020] |I| [save_pipeline_cache]: Saving pipeline cache...
+[23:42:11.020] |I| [save_pipeline_cache]: Pipeline cache saved
+[23:42:12.145] |I| [unload_module]: Unloading module 6508 (SceMp4)
+[23:42:12.146] |I| [unload_self]: Unlinking self...
+[23:42:12.146] |I| [unload_module]: Unloading module 6506 (SceAvPlayer)
+[23:42:12.146] |I| [unload_self]: Unlinking self...
+[23:42:17.941] |I| [retrieve_shader]: Generating vulkan spv shader 777138849f03a3f20ff20d0eb100380d2b693bea59b8caa7ed091cca5dee07d2
+[23:42:17.941] |I| [load_shader_generic]: Generating frag.spv.txt shader 777138849f03a3f20ff20d0eb100380d2b693bea59b8caa7ed091cca5dee07d2
+[23:42:53.336] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_IME
+[23:42:55.018] |I| [save_pipeline_cache]: Saving pipeline cache...
+[23:42:55.019] |I| [save_pipeline_cache]: Pipeline cache saved
+[23:43:23.736] |E| [open_file]: Missing file at /home/vic/.local/share/Vita3K/Vita3K/ux0/user/00/savedata/PCSG00351/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[23:43:23.736] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[23:43:23.736] |C| [operator()]: Unhandled C++ exception. boost::filesystem::file_size: Function not implemented [system:38]: "/home/vic/.local/share/Vita3K/Vita3K/ux0"

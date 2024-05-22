@@ -1,0 +1,994 @@
+[09:05:33.090] |I| [load_app_impl]: cpu-backend: Dynarmic
+[09:05:33.121] |I| [load_app_impl]: CPU Optimisation state: true
+[09:05:33.122] |I| [load_app_impl]: ngs state: false
+[09:05:33.122] |I| [load_app_impl]: Resolution multiplier: 1
+[09:05:33.122] |I| [load_app_impl]: modules mode: Automatic
+[09:05:33.123] |I| [load_app_impl]: Title: 金色のコルダ４
+[09:05:33.148] |I| [load_app_impl]: Serial: PCSG00774
+[09:05:33.148] |I| [load_app_impl]: Version: 1.00
+[09:05:33.148] |I| [load_app_impl]: Category: gd
+[09:05:33.185] |I| [load_module]: Loading module "app0:eboot.bin"
+[09:05:33.550] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[09:05:33.586] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x802B69C4 / 0x81000000] (size: 0x002B29C4) of module app0:eboot.bin
+[09:05:33.593] |I| [load_self]: Loaded module segment 1 @ [0x802B7000 - 0x82DC4FC0 / 0x812B3000] (size: 0x02B0DFC0) of module app0:eboot.bin
+[09:05:33.597] |I| [load_self]: Linking SELF app0:eboot.bin...
+[09:05:33.599] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80252e5c
+[09:05:33.602] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x802c8284
+[09:05:33.602] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80290fcc
+[09:05:33.627] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x8026042c, setting to stub value 0xdeadbeef
+[09:05:33.631] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x80260378, setting to stub value 0xdeadbeef
+[09:05:33.637] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x80260440, setting to stub value 0xdeadbeef
+[09:05:33.645] |W| [load_var_imports]: 	NID NOT FOUND 0x2451af0a (UNRECOGNISED) at 0x80260300, setting to stub value 0xdeadbeef
+[09:05:33.651] |W| [load_var_imports]: 	NID NOT FOUND 0x35e135a0 (UNRECOGNISED) at 0x80260328, setting to stub value 0xdeadbeef
+[09:05:33.656] |W| [load_var_imports]: 	NID NOT FOUND 0x53f02a18 (UNRECOGNISED) at 0x80260314, setting to stub value 0xdeadbeef
+[09:05:33.661] |W| [load_var_imports]: 	NID NOT FOUND 0x6bc74629 (UNRECOGNISED) at 0x8025f298, setting to stub value 0xdeadbeef
+[09:05:33.665] |W| [load_var_imports]: 	NID NOT FOUND 0x7321e731 (UNRECOGNISED) at 0x8026033c, setting to stub value 0xdeadbeef
+[09:05:33.670] |W| [load_var_imports]: 	NID NOT FOUND 0xf79ae8e1 (UNRECOGNISED) at 0x802600dc, setting to stub value 0xdeadbeef
+[09:05:33.678] |I| [load_module]: Module Corda4_Vita_Release (at "app0:eboot.bin") loaded
+[09:05:33.680] |I| [load_app_impl]: Main executable Corda4_Vita_Release (eboot.bin) loaded
+[09:05:33.685] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[09:05:33.729] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[09:05:33.731] |I| [load_self]: Loaded module segment 0 @ [0x82DCE000 - 0x82E1F8A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[09:05:33.733] |I| [load_self]: Loaded module segment 1 @ [0x82E20000 - 0x82E228A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[09:05:33.744] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[09:05:33.745] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x82e173f0
+[09:05:33.748] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x82e16158
+[09:05:33.749] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x82e205b0
+[09:05:33.755] |D| [load_var_exports]: Found previously not found variable. nid:0x2451af0a, new_entry_point:0x82e1e830
+[09:05:33.756] |D| [load_var_exports]: Found previously not found variable. nid:0x35e135a0, new_entry_point:0x82e1d770
+[09:05:33.759] |D| [load_var_exports]: Found previously not found variable. nid:0x53f02a18, new_entry_point:0x82e1e818
+[09:05:33.760] |D| [load_var_exports]: Found previously not found variable. nid:0x6bc74629, new_entry_point:0x82e1f130
+[09:05:33.762] |D| [load_var_exports]: Found previously not found variable. nid:0x7321e731, new_entry_point:0x82e1f140
+[09:05:33.764] |D| [load_var_exports]: Found previously not found variable. nid:0xf79ae8e1, new_entry_point:0x82e1f120
+[09:05:33.765] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82e15314
+[09:05:33.766] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82e0a4dc
+[09:05:33.777] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[09:05:33.778] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[09:05:33.878] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[09:05:33.926] |I| [load_self]: Loaded module segment 0 @ [0x82E23000 - 0x82E4FCBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[09:05:33.933] |I| [load_self]: Loaded module segment 1 @ [0x82DC5000 - 0x82DCA255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[09:05:33.995] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[09:05:34.014] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82e4fbc8
+[09:05:34.016] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82e46f08
+[09:05:34.023] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[09:05:34.025] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[09:05:34.137] |I| [load_self]: Loaded module segment 0 @ [0x82E50000 - 0x82EA0F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[09:05:34.141] |I| [load_self]: Loaded module segment 1 @ [0x82DCB000 - 0x82DCB2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[09:05:34.145] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[09:05:34.146] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82e8c7dc
+[09:05:34.149] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82e8bf10
+[09:05:34.154] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[09:05:34.156] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[09:05:34.246] |I| [load_self]: Loaded module segment 0 @ [0x82EA1000 - 0x82EB0F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[09:05:34.254] |I| [load_self]: Loaded module segment 1 @ [0x82DCC000 - 0x82DCC008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[09:05:34.259] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[09:05:34.262] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82eaf710
+[09:05:34.264] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82eaf300
+[09:05:34.328] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[09:05:34.540] |D| [start_module]: Running module_start of library: SceLibc at address 0x82dce871
+[09:05:34.745] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[09:05:34.746] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[09:05:34.749] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[09:05:34.789] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[09:05:34.798] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x82e23001
+[09:05:34.847] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[09:05:34.894] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[09:05:34.935] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8025277c
+[09:05:34.941] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x802527dc
+[09:05:34.945] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x8025265c
+[09:05:35.228] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[09:05:35.229] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_ULT
+[09:05:35.230] |I| [load_module]: Loading module "app0:sce_module/libult.suprx"
+[09:05:35.246] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[09:05:35.248] |I| [load_self]: Loaded module segment 0 @ [0x82F52000 - 0x82F659BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
+[09:05:35.252] |I| [load_self]: Loaded module segment 1 @ [0x82F66000 - 0x82F66814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[09:05:35.256] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[09:05:35.260] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82f642e8
+[09:05:35.261] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82f61870
+[09:05:35.263] |I| [load_module]: Module SceUlt (at "app0:sce_module/libult.suprx") loaded
+[09:05:35.264] |D| [start_module]: Running module_start of library: SceUlt at address 0x82f55771
+[09:05:35.324] |W| [export__sceUlobjMgrRegisterLibultProtocolRevision::<lambda_1>::operator ()]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[09:05:35.331] |I| [start_module]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[09:05:35.341] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SCREEN_SHOT
+[09:05:35.343] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_ATRAC
+[09:05:35.345] |I| [load_module]: Loading module "vs0:sys/external/libatrac.suprx"
+[09:05:35.441] |I| [load_self]: vs0:sys/external/libatrac.suprx: Skipping special segment 0x6fffff01...
+[09:05:35.442] |I| [load_self]: Loaded module segment 0 @ [0x82F67000 - 0x82F6A55C / 0x81000000] (size: 0x0000355C) of module vs0:sys/external/libatrac.suprx
+[09:05:35.446] |I| [load_self]: Loaded module segment 1 @ [0x82F6B000 - 0x82F6C038 / 0x81004000] (size: 0x00001038) of module vs0:sys/external/libatrac.suprx
+[09:05:35.450] |I| [load_self]: Linking SELF vs0:sys/external/libatrac.suprx...
+[09:05:35.454] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82f6a558
+[09:05:35.455] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82f69db4
+[09:05:35.458] |I| [load_module]: Module SceAtrac (at "vs0:sys/external/libatrac.suprx") loaded
+[09:05:35.462] |D| [start_module]: Running module_start of library: SceAtrac at address 0x82f68531
+[09:05:35.516] |I| [start_module]: Module SceAtrac (at "vs0:sys/external/libatrac.suprx") module_start returned 0x0
+[09:05:35.527] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[09:05:35.529] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[09:05:35.623] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[09:05:35.624] |I| [load_self]: Loaded module segment 0 @ [0x82F6D000 - 0x82F819FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[09:05:35.626] |I| [load_self]: Loaded module segment 1 @ [0x82F82000 - 0x82F8206C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[09:05:35.629] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[09:05:35.631] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82f7ed40
+[09:05:35.640] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82f7d548
+[09:05:35.641] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[09:05:35.642] |D| [start_module]: Running module_start of library: SceAvPlayer at address 0x82f6d001
+[09:05:35.695] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[09:05:35.714] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[09:05:35.923] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[09:05:35.924] |I| [load_self]: Loaded module segment 0 @ [0x82F83000 - 0x82F92D20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[09:05:35.950] |I| [load_self]: Loaded module segment 1 @ [0x82F93000 - 0x82F93028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[09:05:35.956] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[09:05:35.958] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82f929d0
+[09:05:36.005] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82f918c4
+[09:05:36.009] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[09:05:36.010] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SYSTEM_GESTURE
+[09:05:36.012] |I| [load_module]: Loading module "vs0:sys/external/libsystemgesture.suprx"
+[09:05:36.091] |I| [load_self]: vs0:sys/external/libsystemgesture.suprx: Skipping special segment 0x6fffff01...
+[09:05:36.094] |I| [load_self]: Loaded module segment 0 @ [0x82F94000 - 0x82F9708C / 0x81000000] (size: 0x0000308C) of module vs0:sys/external/libsystemgesture.suprx
+[09:05:36.114] |I| [load_self]: Loaded module segment 1 @ [0x82F98000 - 0x82F98BF0 / 0x81004000] (size: 0x00000BF0) of module vs0:sys/external/libsystemgesture.suprx
+[09:05:36.121] |I| [load_self]: Linking SELF vs0:sys/external/libsystemgesture.suprx...
+[09:05:36.122] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82f97074
+[09:05:36.140] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82f96bd4
+[09:05:36.143] |I| [load_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") loaded
+[09:05:36.145] |D| [start_module]: Running module_start of library: SceSystemGesture at address 0x82f94001
+[09:05:36.195] |I| [start_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") module_start returned 0x0
+[09:05:36.213] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[09:05:36.214] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET
+[09:05:36.215] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_HTTPS
+[09:05:36.216] |I| [load_module]: Loading module "vs0:sys/external/libhttp.suprx"
+[09:05:36.356] |I| [load_self]: vs0:sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[09:05:36.358] |I| [load_self]: Loaded module segment 0 @ [0x82F99000 - 0x82FB6150 / 0x81000000] (size: 0x0001D150) of module vs0:sys/external/libhttp.suprx
+[09:05:36.360] |I| [load_self]: Loaded module segment 1 @ [0x82FB7000 - 0x82FB7640 / 0x8101E000] (size: 0x00000640) of module vs0:sys/external/libhttp.suprx
+[09:05:36.363] |I| [load_self]: Linking SELF vs0:sys/external/libhttp.suprx...
+[09:05:36.370] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82fb4e68
+[09:05:36.375] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82fb1ca0
+[09:05:36.376] |I| [load_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") loaded
+[09:05:36.378] |D| [start_module]: Running module_start of library: SceLibHttp at address 0x82fa22e5
+[09:05:36.425] |I| [start_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") module_start returned 0x0
+[09:05:36.433] |I| [load_module]: Loading module "vs0:sys/external/libssl.suprx"
+[09:05:36.533] |I| [load_self]: Loaded module segment 0 @ [0x83014000 - 0x8307AEA4 / 0x81000000] (size: 0x00066EA4) of module vs0:sys/external/libssl.suprx
+[09:05:36.541] |I| [load_self]: Loaded module segment 1 @ [0x82FB8000 - 0x82FBD188 / 0x81067000] (size: 0x00005188) of module vs0:sys/external/libssl.suprx
+[09:05:36.545] |I| [load_self]: Linking SELF vs0:sys/external/libssl.suprx...
+[09:05:36.546] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x830669b0
+[09:05:36.549] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x83060c70
+[09:05:36.550] |I| [load_module]: Module SceLibSsl (at "vs0:sys/external/libssl.suprx") loaded
+[09:05:36.555] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[09:05:36.576] |W| [export_sceScreenShotDisable::<lambda_1>::operator ()]: Unimplemented sceScreenShotDisable import called.
+[09:05:36.579] |W| [export_sceScreenShotSetOverlayImage::<lambda_1>::operator ()]: Unimplemented sceScreenShotSetOverlayImage import called.
+[09:05:36.582] |W| [export_sceScreenShotEnable::<lambda_1>::operator ()]: Unimplemented sceScreenShotEnable import called.
+[09:05:36.608] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[09:05:37.215] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_APPUTIL
+[09:05:37.221] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x802526cc
+[09:05:37.351] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x802527bc
+[09:05:37.383] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x184c4b07 strcasecmp at 0x802525dc
+[09:05:37.398] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x8025266c
+[09:05:37.506] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[09:05:37.513] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[09:05:37.624] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[09:05:38.022] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6078a08b sceSystemGestureInitializePrimitiveTouchRecognizer at 0x8025154c
+[09:05:38.028] |W| [export_sceTouchGetPixelDensity2::<lambda_1>::operator ()]: Stubbed sceTouchGetPixelDensity2 import called. (Return constant values (22.0))
+[09:05:38.031] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3367370 sceSystemGestureCreateTouchRecognizer at 0x8025158c
+[09:05:38.176] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x802526dc
+[09:05:38.191] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x8025270c
+[09:05:38.283] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1434fa46 strcat at 0x802525bc
+[09:05:38.348] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:38.356] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x3
+[09:05:38.396] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[09:05:38.424] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:38.445] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x4
+[09:05:38.471] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[09:05:38.583] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:38.602] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x5
+[09:05:38.836] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[09:05:38.849] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:38.851] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x6
+[09:05:38.906] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[09:05:38.919] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:38.923] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x7
+[09:05:39.953] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[09:05:39.992] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:39.995] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x8
+[09:05:40.222] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[09:05:40.471] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x8025279c
+[09:05:40.813] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x8025262c
+[09:05:41.127] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdf4c665a sceSystemGestureUpdatePrimitiveTouchRecognizer at 0x8025159c
+[09:05:41.179] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x851fb144 sceSystemGestureUpdateTouchRecognizer at 0x8025156c
+[09:05:41.185] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x13ad2218 sceSystemGestureGetTouchEventsCount at 0x8025152c
+[09:05:41.456] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa98e941b tanf at 0x802528dc
+[09:05:41.577] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa6879ac frexpf at 0x802527fc
+[09:05:41.594] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5bd8d5c _FLog at 0x8025290c
+[09:05:41.618] |W| [export_sceGxmGetRenderTargetMemSize::<lambda_2>::operator ()]: Stubbed sceGxmGetRenderTargetMemSize import called. (64KiB emuenv mem)
+[09:05:41.817] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[09:05:42.216] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x206cd93e0c0, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[09:05:42.470] |W| [export_sceAppMgrAcquireBgmPort::<lambda_1>::operator ()]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[09:05:42.555] |I| [export_sceIoOpen]: Opening file: app0:bgm/Bgm.dat
+[09:05:42.560] |T| [open_file]: sceIoOpen: Opening file app0:bgm/Bgm.dat (ux0:/app/PCSG00774/bgm/Bgm.dat), fd: 0x9
+[09:05:42.583] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x206cd93e0c0, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[09:05:42.609] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 4cff002c187765aabd10d8e591e6d442aba1b35a69d679313f5303a88715ccbf
+[09:05:42.613] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 4cff002c187765aabd10d8e591e6d442aba1b35a69d679313f5303a88715ccbf
+[09:05:42.618] |T| [log_import_call]: [LLE] TID: 94  FUNC: 0x7449b359 sprintf at 0x8025267c
+[09:05:42.631] |I| [export_sceIoOpen]: Opening file: app0:./bgm/VoiceInfo.dat
+[09:05:42.640] |T| [open_file]: sceIoOpen: Opening file app0:./bgm/VoiceInfo.dat (ux0:/app/PCSG00774/./bgm/VoiceInfo.dat), fd: 0xa
+[09:05:42.641] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float2) pos
+[09:05:42.654] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color_depth[2]
+[09:05:42.664] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[09:05:42.668] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	0881118290d40081: VMUL sa6.xy sa4.x1 c1.yy
+[09:05:42.719] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[09:05:42.719] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[09:05:42.725] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:05:42.726] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183000000: VMOV.f32 o0.xy pa0.xy 
+[09:05:42.729] |T| [shader::usse::USSETranslatorVisitor::smlsi]: 	fa10000a09013401: SMLSI swizz.(1200)  inc.1 swizz.(0130)  inc.1 
+[09:05:42.731] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38802521c3040000: VMOV.f32 o4.xy sa0.xy 
+[09:05:42.732] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38802521c3040000: VMOV.f32 o6.xy sa2.xy 
+[09:05:42.734] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38802521c3040000: VMOV.f32 o2.xy sa6.xy 
+[09:05:42.735] |T| [shader::usse::USSETranslatorVisitor::smlsi]: 	fa10000001010101: SMLSI  inc.1  inc.1  inc.1  inc.1 
+[09:05:42.740] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[09:05:42.797] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[09:05:42.806] |I| [export_sceIoOpen]: Opening file: app0:bgm/Voice.dat
+[09:05:42.812] |T| [open_file]: sceIoOpen: Opening file app0:bgm/Voice.dat (ux0:/app/PCSG00774/bgm/Voice.dat), fd: 0xb
+[09:05:42.916] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fbf06a92374740f477766a2c7e69f47ff5bde86514f503cc20afc9bc5c68f525
+[09:05:42.920] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader fbf06a92374740f477766a2c7e69f47ff5bde86514f503cc20afc9bc5c68f525
+[09:05:42.928] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[09:05:42.930] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[09:05:42.931] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:05:43.103] |W| [export_sceNgsSystemLock::<lambda_1>::operator ()]: Unimplemented sceNgsSystemLock import called.
+[09:05:43.276] |W| [export_sceNgsSystemUnlock::<lambda_1>::operator ()]: Unimplemented sceNgsSystemUnlock import called.
+[09:05:43.311] |C| [handle_access_violation]: Unhandled write protected region was valid. Address=0x4A8
+[09:05:43.376] |E| [unknown_mutex_id::<lambda_1>::operator ()]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[09:05:44.570] |I| [export_sceIoOpen]: Opening file: app0:bgm/Senbd.dat
+[09:05:44.576] |T| [open_file]: sceIoOpen: Opening file app0:bgm/Senbd.dat (ux0:/app/PCSG00774/bgm/Senbd.dat), fd: 0xc
+[09:05:44.585] |I| [export_sceIoOpen]: Opening file: app0:bgm/Senhd.dat
+[09:05:44.590] |T| [open_file]: sceIoOpen: Opening file app0:bgm/Senhd.dat (ux0:/app/PCSG00774/bgm/Senhd.dat), fd: 0xd
+[09:05:44.594] |I| [export_sceIoOpen]: Opening file: app0:bgm/Senbd.dat
+[09:05:44.596] |T| [open_file]: sceIoOpen: Opening file app0:bgm/Senbd.dat (ux0:/app/PCSG00774/bgm/Senbd.dat), fd: 0xe
+[09:05:44.599] |I| [export_sceIoOpen]: Opening file: app0:bgm/Senbd.dat
+[09:05:44.601] |T| [open_file]: sceIoOpen: Opening file app0:bgm/Senbd.dat (ux0:/app/PCSG00774/bgm/Senbd.dat), fd: 0xf
+[09:05:44.604] |I| [export_sceIoOpen]: Opening file: app0:bgm/Senhd.dat
+[09:05:44.614] |T| [open_file]: sceIoOpen: Opening file app0:bgm/Senhd.dat (ux0:/app/PCSG00774/bgm/Senhd.dat), fd: 0x10
+[09:05:44.615] |I| [export_sceIoOpen]: Opening file: app0:bgm/Senhd.dat
+[09:05:44.617] |T| [open_file]: sceIoOpen: Opening file app0:bgm/Senhd.dat (ux0:/app/PCSG00774/bgm/Senhd.dat), fd: 0x11
+[09:05:44.682] |W| [export_sceNetCtlInit::<lambda_2>::operator ()]: Stubbed sceNetCtlInit import called. (Stub)
+[09:05:44.685] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3c733316 sceSslInit at 0x8025179c
+[09:05:44.701] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x214926d9 sceHttpInit at 0x8025176c
+[09:05:44.744] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR10255_00/TROPHY.TRP (ux0:/app/PCSG00774/sce_sys/trophy/NPWR10255_00/TROPHY.TRP), fd: 0x12
+[09:05:44.779] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/trophy/data/NPWR10255_00/TROPUSR.DAT (target path: ux0:/user/00/trophy/data/NPWR10255_00/TROPUSR.DAT)
+[09:05:44.784] |W| [io_error_impl]: open_file (create_trophy_context) returned 0x80010002
+[09:05:44.982] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR10255_00/TROPCONF.SFM), fd: 0x13
+[09:05:44.985] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 2614
+[09:05:44.991] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[09:05:44.995] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR10255_00/TROP.SFM), fd: 0x14
+[09:05:44.998] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 7181
+[09:05:44.999] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[09:05:45.003] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/ICON0.PNG), fd: 0x15
+[09:05:45.014] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 86864
+[09:05:45.016] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[09:05:45.021] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP000.PNG), fd: 0x16
+[09:05:45.029] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 87808
+[09:05:45.030] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[09:05:45.034] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP001.PNG), fd: 0x17
+[09:05:45.044] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 96015
+[09:05:45.045] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[09:05:45.051] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP002.PNG), fd: 0x18
+[09:05:45.053] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 94651
+[09:05:45.059] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[09:05:45.063] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP003.PNG), fd: 0x19
+[09:05:45.071] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 98324
+[09:05:45.071] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[09:05:45.081] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP004.PNG), fd: 0x1a
+[09:05:45.124] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 97798
+[09:05:45.126] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[09:05:45.131] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP005.PNG), fd: 0x1b
+[09:05:45.134] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 104803
+[09:05:45.135] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[09:05:45.144] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP006.PNG), fd: 0x1c
+[09:05:45.185] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 61484
+[09:05:45.186] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[09:05:45.195] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP007.PNG), fd: 0x1d
+[09:05:45.199] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 62451
+[09:05:45.199] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[09:05:45.203] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP008.PNG), fd: 0x1e
+[09:05:45.214] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 58684
+[09:05:45.215] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[09:05:45.219] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP009.PNG), fd: 0x1f
+[09:05:45.226] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 62820
+[09:05:45.229] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[09:05:45.232] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP010.PNG), fd: 0x20
+[09:05:45.235] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 54140
+[09:05:45.245] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[09:05:45.342] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP011.PNG), fd: 0x21
+[09:05:45.352] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 56137
+[09:05:45.354] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[09:05:45.362] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP012.PNG), fd: 0x22
+[09:05:45.370] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 60004
+[09:05:45.371] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[09:05:45.381] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP013.PNG), fd: 0x23
+[09:05:45.384] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 61423
+[09:05:45.385] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[09:05:45.392] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP014.PNG), fd: 0x24
+[09:05:45.400] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 63872
+[09:05:45.401] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[09:05:45.404] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP015.PNG), fd: 0x25
+[09:05:45.414] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 63600
+[09:05:45.415] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[09:05:45.419] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP016.PNG), fd: 0x26
+[09:05:45.422] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 57384
+[09:05:45.428] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[09:05:45.431] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP017.PNG), fd: 0x27
+[09:05:45.434] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 60946
+[09:05:45.435] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[09:05:45.440] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP018.PNG), fd: 0x28
+[09:05:45.453] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 55889
+[09:05:45.453] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[09:05:45.460] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP019.PNG), fd: 0x29
+[09:05:45.465] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 65462
+[09:05:45.466] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[09:05:45.471] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP020.PNG), fd: 0x2a
+[09:05:45.476] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 47969
+[09:05:45.482] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[09:05:45.486] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP021.PNG), fd: 0x2b
+[09:05:45.496] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 93895
+[09:05:45.500] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[09:05:45.503] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP022.PNG), fd: 0x2c
+[09:05:45.509] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 79573
+[09:05:45.512] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[09:05:45.515] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP023.PNG), fd: 0x2d
+[09:05:45.518] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 84487
+[09:05:45.519] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[09:05:45.525] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP024.PNG), fd: 0x2e
+[09:05:45.531] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 79924
+[09:05:45.531] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[09:05:45.535] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP025.PNG), fd: 0x2f
+[09:05:45.541] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 82167
+[09:05:45.549] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[09:05:45.569] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP026.PNG), fd: 0x30
+[09:05:45.580] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 62651
+[09:05:45.580] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[09:05:45.584] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP027.PNG), fd: 0x31
+[09:05:45.591] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 61465
+[09:05:45.593] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[09:05:45.596] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP028.PNG), fd: 0x32
+[09:05:45.600] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 60288
+[09:05:45.604] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[09:05:45.613] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP029.PNG), fd: 0x33
+[09:05:45.615] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 60466
+[09:05:45.619] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[09:05:45.623] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP030.PNG), fd: 0x34
+[09:05:45.629] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 68052
+[09:05:45.630] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[09:05:45.637] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP031.PNG), fd: 0x35
+[09:05:45.645] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 54310
+[09:05:45.645] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[09:05:45.654] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP032.PNG), fd: 0x36
+[09:05:45.660] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 69866
+[09:05:45.661] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[09:05:45.694] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP033.PNG), fd: 0x37
+[09:05:45.699] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 54225
+[09:05:45.701] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[09:05:45.705] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP034.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP034.PNG), fd: 0x38
+[09:05:45.717] |T| [write_file]: install_trophy_context: Writing to fd: 0x38, size: 58644
+[09:05:45.718] |T| [close_file]: install_trophy_context: Closing file fd: 0x38
+[09:05:45.722] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP035.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP035.PNG), fd: 0x39
+[09:05:45.730] |T| [write_file]: install_trophy_context: Writing to fd: 0x39, size: 40693
+[09:05:45.731] |T| [close_file]: install_trophy_context: Closing file fd: 0x39
+[09:05:45.735] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP036.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP036.PNG), fd: 0x3a
+[09:05:45.739] |T| [write_file]: install_trophy_context: Writing to fd: 0x3a, size: 60278
+[09:05:45.750] |T| [close_file]: install_trophy_context: Closing file fd: 0x3a
+[09:05:45.753] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP037.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP037.PNG), fd: 0x3b
+[09:05:45.756] |T| [write_file]: install_trophy_context: Writing to fd: 0x3b, size: 38941
+[09:05:45.761] |T| [close_file]: install_trophy_context: Closing file fd: 0x3b
+[09:05:45.770] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10255_00/TROP038.PNG (ux0:/user/00/trophy/conf/NPWR10255_00/TROP038.PNG), fd: 0x3c
+[09:05:45.773] |T| [write_file]: install_trophy_context: Writing to fd: 0x3c, size: 62964
+[09:05:45.781] |T| [close_file]: install_trophy_context: Closing file fd: 0x3c
+[09:05:45.809] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR10255_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR10255_00/TROPUSR.DAT), fd: 0x3d
+[09:05:45.818] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3d, size: 4
+[09:05:45.820] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3d, size: 16
+[09:05:45.821] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3d, size: 16
+[09:05:45.826] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3d, size: 4
+[09:05:45.829] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3d, size: 4
+[09:05:45.830] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3d, size: 4
+[09:05:45.832] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3d, size: 64
+[09:05:45.833] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3d, size: 1024
+[09:05:45.835] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3d, size: 512
+[09:05:45.835] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x3d
+[09:05:45.841] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR10255_00 create successfuly!
+[09:05:45.850] |W| [export_sceNpTrophyCreateHandle::<lambda_1>::operator ()]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[09:05:45.943] |W| [export_sceNpCheckCallback::<lambda_1>::operator ()]: Stubbed sceNpCheckCallback import called. (Stub)
+[09:05:47.299] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x80252a4c
+[09:05:47.322] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7fb2bf4 _Znaj at 0x80252a1c
+[09:05:47.378] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x802525ec
+[09:05:47.382] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x91b0dc47 _ZdaPv at 0x802529ec
+[09:05:47.386] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72293931 _ZdlPv at 0x802529bc
+[09:05:47.958] |I| [float_to_half_init]: AVX+F16C instruction set is not supported. Using basic f32 to f16 conversion
+[09:05:47.984] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6b84102aa1b5c512a14ec107d5af3992d8cf698f8cdcf270e10bc83639630c78
+[09:05:47.987] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 6b84102aa1b5c512a14ec107d5af3992d8cf698f8cdcf270e10bc83639630c78
+[09:05:47.995] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (half4) vi_pos
+[09:05:48.000] |D| [shader::create_parameters]: [BUFFER0  + 2] pa2 = (uchar4) vi_clr
+[09:05:48.002] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (half2) vi_tex
+[09:05:48.003] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) ktglViewport
+[09:05:48.005] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) ktglPointSize
+[09:05:48.009] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[09:05:48.013] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41086a0446042: VMAX sa2.x sa2.x sa4.y
+[09:05:48.015] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40086a0445042: VMIN sa2.x sa2.x sa4.x
+[09:05:48.018] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[09:05:48.020] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[09:05:48.021] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:05:48.025] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04806206f0280000: VF16MAD2 pa0.--zw pa0.--zz sa0.--zz sa0.--ww
+[09:05:48.029] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f586e0041000: VF16ADD pa0.xy-w sa0.xy-0 pa0.xy-1
+[09:05:48.034] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8da0010000: VPCKF32F16 o0.xy pa0.xy [noscale]
+[09:05:48.038] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8da0430002: VPCKF32F16 o2.xy pa0.zw [noscale]
+[09:05:48.044] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	4081018da0850100: VPCKF32U8 o4.xy pa2.xy [scale]
+[09:05:48.050] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	4081018da0c70102: VPCKF32U8 o6.xy pa2.zw [scale]
+[09:05:48.053] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8da1010200: VPCKF32F16 o8.xy pa4.xy [noscale]
+[09:05:48.060] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009e1400100: OR o10.x sa2.x 0x0
+[09:05:48.062] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[09:05:48.100] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 11d21c99d2d6d5131c2292872809e48c4906ad234c74f1d95501c2001d1d45af
+[09:05:48.104] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 11d21c99d2d6d5131c2292872809e48c4906ad234c74f1d95501c2001d1d45af
+[09:05:48.111] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[09:05:48.113] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(s0, TEXCOORD0.xy)
+[09:05:48.115] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[09:05:48.116] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:05:48.121] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f800094000000000: NOP
+[09:05:48.124] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[09:05:48.129] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800dbcafb98206: VPCKF32F32 i1.xyzw (pa4.xyzw pa6.xyzw) [noscale]
+[09:05:48.131] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a4478600040f7c: VF16MUL pa0.xyzw i1.xyzw i0.xyzw
+[09:05:48.359] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 547ca6650f558def9da781557da47f875730eeaf2a78f5b6edc6d44aa7667a5e
+[09:05:48.362] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 547ca6650f558def9da781557da47f875730eeaf2a78f5b6edc6d44aa7667a5e
+[09:05:48.367] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[09:05:48.368] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[09:05:48.370] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:05:49.050] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3aad41b0 srand at 0x8025261c
+[09:05:49.052] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc0883865 rand at 0x8025278c
+[09:05:49.200] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x8025273c
+[09:05:57.524] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.525] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x3e
+[09:05:57.571] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[09:05:57.573] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.575] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x3f
+[09:05:57.604] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[09:05:57.607] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.608] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x40
+[09:05:57.639] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[09:05:57.642] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.643] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x41
+[09:05:57.672] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[09:05:57.675] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.676] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x42
+[09:05:57.705] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[09:05:57.707] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.710] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x43
+[09:05:57.738] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[09:05:57.741] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.742] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x44
+[09:05:57.771] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[09:05:57.773] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.774] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x45
+[09:05:57.821] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[09:05:57.824] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.825] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x46
+[09:05:57.854] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[09:05:57.857] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.858] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x47
+[09:05:57.888] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[09:05:57.891] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.892] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x48
+[09:05:57.971] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[09:05:57.974] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:57.975] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x49
+[09:05:58.070] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[09:05:58.073] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.074] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x4a
+[09:05:58.121] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[09:05:58.124] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.125] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x4b
+[09:05:58.154] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[09:05:58.157] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.159] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x4c
+[09:05:58.188] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[09:05:58.191] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.192] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x4d
+[09:05:58.221] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[09:05:58.224] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.225] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x4e
+[09:05:58.254] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[09:05:58.257] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.258] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x4f
+[09:05:58.288] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[09:05:58.291] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.293] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x50
+[09:05:58.321] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[09:05:58.324] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.325] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x51
+[09:05:58.354] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[09:05:58.358] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.361] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x52
+[09:05:58.387] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[09:05:58.390] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.391] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x53
+[09:05:58.421] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[09:05:58.424] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.425] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x54
+[09:05:58.454] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[09:05:58.457] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.459] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x55
+[09:05:58.505] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[09:05:58.508] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.509] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x56
+[09:05:58.571] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[09:05:58.586] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.655] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x57
+[09:05:58.722] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[09:05:58.725] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.727] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x58
+[09:05:58.754] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[09:05:58.757] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.759] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x59
+[09:05:58.788] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[09:05:58.802] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:05:58.804] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x5a
+[09:05:59.002] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[09:06:00.469] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSG00774/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[09:06:00.524] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[09:06:00.525] |E| [export_sceAppUtilSaveDataSlotGetParam::<lambda_1>::operator ()]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[09:06:00.531] |I| [export_sceIoOpen]: Opening file: savedata0:./DATA.BIN
+[09:06:00.532] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSG00774/./DATA.BIN (target path: savedata0:./DATA.BIN)
+[09:06:00.535] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[09:06:01.657] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x206cd93e0c0, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[09:06:01.753] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x206cd93e0c0, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[09:06:01.776] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:06:01.779] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x5b
+[09:06:01.873] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[09:06:01.880] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:06:01.891] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x5c
+[09:06:01.968] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[09:06:02.258] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:06:02.260] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x5d
+[09:06:02.343] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[09:06:02.353] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:06:02.358] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x5e
+[09:06:02.454] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[09:06:02.502] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:06:02.518] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x5f
+[09:06:02.578] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[09:06:02.586] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:06:02.591] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x60
+[09:06:02.684] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[09:06:16.062] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[09:06:16.066] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[09:06:18.305] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4c847adf sceAvPlayerInit at 0x802524fc
+[09:06:18.372] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbc83c8fd sceAvPlayerAddSource at 0x8025256c
+[09:06:18.427] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5474af0 sceMp4OpenFile at 0x82f7d1a8
+[09:06:18.459] |I| [export_sceIoOpen]: Opening file: app0:./movie/title.mp4
+[09:06:18.462] |T| [open_file]: sceIoOpen: Opening file app0:./movie/title.mp4 (ux0:/app/PCSG00774/./movie/title.mp4), fd: 0x61
+[09:06:18.526] |T| [log_import_call]: [LLE] TID: 176 FUNC: 0x30e49e4d sceMp4StartFileStreaming at 0x82f7d1c8
+[09:06:19.016] |T| [log_import_call]: [LLE] TID: 176 FUNC: 0x2cd86fd6 sceAvPlayerStreamCount at 0x802524bc
+[09:06:19.030] |T| [log_import_call]: [LLE] TID: 176 FUNC: 0xd5b26179 UNRECOGNISED at 0x82f7d2c8
+[09:06:19.115] |T| [log_import_call]: [LLE] TID: 176 FUNC: 0x34e2d370 sceAvPlayerGetStreamInfo at 0x802524dc
+[09:06:19.121] |T| [log_import_call]: [LLE] TID: 176 FUNC: 0x70127ab8 sceAvPlayerEnableStream at 0x8025251c
+[09:06:19.156] |W| [export_sceAudiodecGetContextSize::<lambda_1>::operator ()]: Stubbed sceAudiodecGetContextSize import called. (fake size)
+[09:06:19.176] |W| [export_sceCodecEngineAllocMemoryFromUnmapMemBlock::<lambda_1>::operator ()]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[09:06:19.351] |T| [log_import_call]: [LLE] TID: 176 FUNC: 0x609e57ad sceMp4EnableStream at 0x82f7d208
+[09:06:19.415] |W| [export_sceVideodecQueryMemSize::<lambda_1>::operator ()]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[09:06:19.493] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2e4ff35f sceAvPlayerIsActive at 0x802524cc
+[09:06:19.500] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec103adf sceAvPlayerSetLooping at 0x8025258c
+[09:06:19.503] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2acb4217 sceAvPlayerStart at 0x802524ac
+[09:06:19.649] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x804dcecd sceAvPlayerCurrentTime at 0x8025253c
+[09:06:19.650] |T| [log_import_call]: [LLE] TID: 272 FUNC: 0x20a01112 sceMp4GetNextUnit at 0x82f7d1b8
+[09:06:19.653] |T| [log_import_call]: [LLE] TID: 164 FUNC: 0xa10fc252 sceAvPlayerGetAudioData at 0x8025255c
+[09:06:19.690] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8bc3221b sceAvPlayerGetVideoData at 0x8025254c
+[09:06:19.779] |T| [log_import_call]: [LLE] TID: 272 FUNC: 0xd092a066 sceMp4GetNextUnitData at 0x82f7d2a8
+[09:06:19.906] |E| [handle_timeout::<lambda_2>::operator ()]: _sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[09:06:20.573] |E| [mutex_lock_impl::<lambda_3>::operator ()]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[09:06:26.286] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbd35e360 sceAvPlayerStop at 0x8025257c
+[09:06:26.408] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc05dff01 UNRECOGNISED at 0x82f7d288
+[09:06:26.422] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x40351e1a sceMp4Reset at 0x82f7d1e8
+[09:06:26.442] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7aa29b2d sceAvPlayerClose at 0x8025252c
+[09:06:26.456] |W| [export_sceCodecEngineFreeMemoryFromUnmapMemBlock::<lambda_1>::operator ()]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[09:06:26.508] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x920623c8 sceMp4CloseFile at 0x82f7d238
+[09:06:26.526] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[09:06:26.554] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7b4832fe sceMp4ReleaseBuffer at 0x82f7d228
+[09:06:26.664] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcd7c05bd floorf at 0x802528fc
+[09:06:26.728] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x75348906 fabsf at 0x802528bc
+[09:06:26.790] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x93fc85ed _FSinx at 0x802528cc
+[09:06:26.855] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 91bb3c9735e404b80893b22fd91d1af42e8ec5a6a49a5f39e151a998e25bf937
+[09:06:26.870] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 91bb3c9735e404b80893b22fd91d1af42e8ec5a6a49a5f39e151a998e25bf937
+[09:06:26.873] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) ktglInput_vtxColor1
+[09:06:26.876] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) ktglInput_vtxTex0
+[09:06:26.878] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) ktglInput_vtxColor0
+[09:06:26.879] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) ktglInput_vtxPos
+[09:06:26.880] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mW2P[4]
+[09:06:26.885] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) fog
+[09:06:26.889] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[09:06:26.890] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40870b8a62410f00: VPCKF32F16 sa18.-y c15.-y [noscale]
+[09:06:26.898] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 12
+[09:06:26.901] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:06:26.903] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183100080: VMOV.f32 o8.xy pa4.xy 
+[09:06:26.905] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10d46a0000101: VPCKF16F32 pa0.x pa2.y [noscale]
+[09:06:26.909] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcafb9860e: VPCKF32F32 i1.xyzw (pa12.xyzw pa14.xyzw) [noscale]
+[09:06:26.915] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40f84cf84003d: VMUL i2.xyzw sa0.xyzw i1.xxxx
+[09:06:26.939] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80df852102: VMAD i2.xyzw i1.yyyy sa4.xyzw i2.xyzw
+[09:06:26.941] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80df892104: VMAD i2.xyzw i1.zzzz sa8.xyzw i2.xyzw
+[09:06:26.950] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181d00d2106: VMAD o0.xy i1.ww sa12.xy i2.xy
+[09:06:26.955] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181d04ee107: VMAD o2.xy i1.ww sa14.xy i2.zw
+[09:06:26.960] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a408a6e0441300: VF16ADD pa2.x -sa24.x pa0.x
+[09:06:26.961] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38c04c04f1f012ca: VMOVC.f16 i0.x (pa2.x < vec(0)) ? sa22.x : sa20.x
+[09:06:26.966] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48c80901b003800c: CMP.ge.f16 p0 pa0.x sa24.x
+[09:06:26.969] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_12, size = 1
+[09:06:26.970] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	11802882b000100c: p0 VF16ADD pa0.x pa0.x sa24.z
+[09:06:26.972] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_13, size = 17
+[09:06:26.973] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41b84bf845109: VMIN i2.xyz pa8.xyz sa18.yyy
+[09:06:26.976] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a50b8610446f80: VF16MAX pa2.xyz i2.xyz c0.xxx
+[09:06:26.981] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00c8280200081: VLOG pa2.x pa2.x
+[09:06:26.988] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00c8a80200082: VLOG pa2.-y pa2.-y
+[09:06:26.989] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00c9280200084: VLOG pa2.--z pa2.--z
+[09:06:26.993] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04804884ff6002ca: VF16MAD2 i1.x pa0.x sa22.z sa20.z
+[09:06:27.000] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20a43802a0100781: VMUL i2.xyz pa2.xyz i0.xxx + FEXP pa0.xy i1.x
+[09:06:27.002] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50c10008ef800800: OR i0.x sa16.x 0x0
+[09:06:27.004] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	008028817153c048: VMAD2 o10.x i0.x o2.y sa16.y
+[09:06:27.005] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10b89a1400000: VPCKF32F16 o10.-y pa0.-x [noscale]
+[09:06:27.009] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00e0200003f01: VEXP pa0.x i2.x
+[09:06:27.016] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0060a00003f02: VEXP pa0.-y i2.-y
+[09:06:27.019] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0061200003f04: VEXP pa0.--z i2.--z
+[09:06:27.021] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8da0810000: VPCKF32F16 o4.xy pa0.xy [noscale]
+[09:06:27.024] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b86a1400002: VPCKF32F16 pa10.x pa0.z [noscale]
+[09:06:27.030] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d8da0c3050a: VPCKF32F32 o6.xy (pa10.xw pa10.xyzw) [noscale]
+[09:06:27.034] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[09:06:27.133] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f733b3b88104f128ec801fa55357f49d37188d3f71316ee0b7fdb3bb48ef5724
+[09:06:27.136] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader f733b3b88104f128ec801fa55357f49d37188d3f71316ee0b7fdb3bb48ef5724
+[09:06:27.142] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) vATest
+[09:06:27.143] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[09:06:27.144] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(sStage0, TEXCOORD1.xy)
+[09:06:27.149] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[09:06:27.151] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[09:06:27.156] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40850d46a0000000: VPCKF16F32 sa0.x sa0.x [noscale]
+[09:06:27.160] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[09:06:27.162] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44010000000000: PHAS
+[09:06:27.164] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48884935b0038080: CMP.ge.f16 p1 pa2.---w sa0.---x
+[09:06:27.167] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[09:06:27.169] |T| [shader::usse::USSETranslatorVisitor::kill]: 	f9300406f0000102: KILL p1 
+[09:06:27.172] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 8
+[09:06:27.174] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[09:06:27.176] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:06:27.179] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a006b280400101: VEXP pa4.x -pa4.--z
+[09:06:27.180] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a42086b0845081: VF16MIN pa4.x pa4.x sa2.z
+[09:06:27.182] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a5008690846080: VF16MAX pa4.x pa4.x c0.x
+[09:06:27.189] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10803082a0800082: VF16MUL pa4.x pa4.x pa4.w
+[09:06:27.189] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44786a0040001: VF16MUL pa0.xyzw pa0.xyzw pa2.xyzw
+[09:06:27.194] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c44782a0000080: VF16MUL pa0.xyzw pa4.xxx1 pa0.xyzw
+[09:06:28.522] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b039ff80b1428b98da78710507eaf780cd8f0b27f1f4906d5e7c7dbb68250f39
+[09:06:28.574] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b039ff80b1428b98da78710507eaf780cd8f0b27f1f4906d5e7c7dbb68250f39
+[09:06:28.582] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) ktglInput_rcTex
+[09:06:28.589] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) ktglInput_color
+[09:06:28.596] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) ktglInput_z
+[09:06:28.606] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) ktglInput_y
+[09:06:28.614] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) ktglInput_x
+[09:06:28.616] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) ktglInput_vtxTex0
+[09:06:28.623] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) ktglInput_vtxColor0
+[09:06:28.628] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) ktglInput_vtxNormal
+[09:06:28.630] |D| [shader::create_parameters]: [BUFFER0  + 32] pa32 = (float4) ktglInput_vtxPos
+[09:06:28.641] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) vEye
+[09:06:28.644] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mW2P[4]
+[09:06:28.649] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) fog
+[09:06:28.651] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[09:06:28.659] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3886050a412c0040: VMOV.f32 sa22.x c1.y 
+[09:06:28.663] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 25
+[09:06:28.664] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:06:28.674] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f800094000000000: NOP
+[09:06:28.678] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998206: VPCKF32F32 i0.xyzw (pa4.xyzw pa6.xyzw) [noscale]
+[09:06:28.683] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38c14d00dff7c3c0: VMOVC.f32 i1.xyzw (i0.xyzw < vec(0)) ? sa30.xxxx : c0.xxxx
+[09:06:28.688] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf111050: VMAD i0.xyzw i0.xyzw sa32.yyyy i1.xyzw
+[09:06:28.695] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcafb99022: VPCKF32F32 i1.xyzw (pa32.xyzw pa34.xyzw) [noscale]
+[09:06:28.705] |T| [shader::usse::USSETranslatorVisitor::smlsi]: 	fa1400000101fefe: SMLSI  inc.1  inc.1  inc.-2  inc.-2 
+[09:06:28.717] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	1891a8809f91a208: VDP i2.x pa16.xyzw i1.xyzw
+[09:06:28.720] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	1891a8809f91a208: VDP i2.-y pa12.xyzw i1.xyzw
+[09:06:28.722] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	1891a8809f91a208: VDP i2.--z pa8.xyzw i1.xyzw
+[09:06:28.733] |T| [shader::usse::USSETranslatorVisitor::smlsi]: 	fa14000001010101: SMLSI  inc.1  inc.1  inc.1  inc.1 
+[09:06:28.763] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44f840f442f3c: VFRC i1.xyzw i0.xyzw i0.xyzw
+[09:06:28.766] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	28c4c112021408fd: VADD i0.x--w -i1.x--w i0.x--w + VMOV pa32.xy i2.xy
+[09:06:28.781] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10d4e20c33c00: VPCKF16F32 pa6.xy i0.xw [noscale]
+[09:06:28.795] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40f84cf04003e: VMUL i0.xyzw sa0.xyzw i2.xxxx
+[09:06:28.798] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80ef050102: VMAD i0.xyzw i2.yyyy sa4.xyzw i0.xyzw
+[09:06:28.811] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80ef090104: VMAD i0.xyzw i2.zzzz sa8.xyzw i0.xyzw
+[09:06:28.816] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d1201440f80: VMOV.f32 pa34.x i2.z 
+[09:06:28.824] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d0888f80440: VMOV.f32 i2.---w pa34.---y 
+[09:06:28.829] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981e00d0106: VMAD o0.xy i2.ww sa12.xy i0.xy
+[09:06:28.833] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981e04ec107: VMAD o2.xy i2.ww sa14.xy i0.zw
+[09:06:28.847] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44f848f04033d: VMUL i0.xyzw pa24.xyzw i1.xyzw
+[09:06:28.863] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18182c2d1804f: VMAD pa22.xy i0.xy sa30.yy i0.00
+[09:06:28.873] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08801182330d0f0f: VMUL pa24.xy i0.zw sa30.yy
+[09:06:28.875] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a400a6e0841403: VF16ADD pa4.x -sa32.x pa6.x
+[09:06:28.879] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38c04406f134238d: VMOVC.f16 pa26.xy (pa4.xy < vec(0)) ? sa28.xx : sa26.xx
+[09:06:28.886] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48880901b0038190: CMP.ge.f16 p0 pa6.x sa32.x
+[09:06:28.888] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_25, size = 1
+[09:06:28.889] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	11802082b0c010ce: p0 VF16ADD pa6.x pa6.x sa28.z
+[09:06:28.891] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_26, size = 2
+[09:06:28.894] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a1000300: OR o8.x pa6.x 0x0
+[09:06:28.896] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48884a91b003818c: CMP.gt.f16 p0 pa6.-y sa24.-x
+[09:06:28.897] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_29, size = 1
+[09:06:28.912] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	5081000ae1000b00: OR pa8.x sa22.x 0x0
+[09:06:28.913] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_31, size = 19
+[09:06:28.917] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f800094000000000: NOP
+[09:06:28.927] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818812: VPCKF32F32 i0.xyz (pa16.xyz pa18.xyzw) [noscale]
+[09:06:28.933] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b808f698304: VMAD i1.xyz i0.zxy pa8.yzx i0.000
+[09:06:28.937] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18bc08f711284: VMAD i1.xyz i0.yzx -pa8.zxy i1.xyz
+[09:06:28.945] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9cafc1860e: VPCKF32F32 i2.xyz (pa12.xyz pa14.xyzw) [noscale]
+[09:06:28.963] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80af318284: VMAD i0.xyz i2.yzx pa8.zxy i0.000
+[09:06:28.973] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18bc0af290304: VMAD i0.xyz i2.zxy -pa8.yzx i0.xyz
+[09:06:28.982] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	188098808f11a20e: VDP i0.x pa28.xyz i0.xyz
+[09:06:28.982] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	188098808f11a20e: VDP i0.-y pa28.xyz i1.xyz
+[09:06:28.993] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80af698308: VMAD i1.xyz i2.zxy pa16.yzx i0.000
+[09:06:28.998] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18bc0af711288: VMAD i1.xyz i2.yzx -pa16.zxy i1.xyz
+[09:06:29.012] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	18818a009f11a20e: VDP i0.--z pa28.xyz i1.xyz
+[09:06:29.013] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20845102d0880388: VMOV i1.xyz sa16.xyz + VSSQ pa4.x i0.xyz
+[09:06:29.022] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30800a008fc00101: VRSQ i2.x pa4.x
+[09:06:29.024] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	2084c0109f8c1b90: VADD i1.xyz -pa32.xyz i1.xyz + VMUL i0.xyz i2.xxx i0.xyz
+[09:06:29.031] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	188188801f91a23d: VDP i2.x i1.xyz i1.xyz
+[09:06:29.033] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30800a000fc03f01: VRSQ i2.x i2.x
+[09:06:29.047] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b802f41813d: VMAD i1.xyz i2.xxx i1.xyz i0.000
+[09:06:29.057] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	188180801f11a23c: VDP i0.x i0.xyz i1.xyz
+[09:06:29.064] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e3c08241018041: VMAD pa8.x abs(i0).x c1.y i0.0
+[09:06:29.099] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_50, size = 22
+[09:06:29.101] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d7ea0818b18: VPCKF16F32 pa4.xyzw (pa22.xyzx pa24.xyzw) [noscale]
+[09:06:29.103] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a513869084508f: VF16MIN pa4.xyz pa4.xyz c15.yyy
+[09:06:29.136] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a5038690c46080: VF16MAX pa6.xyz pa4.xyz c0.xxx
+[09:06:29.153] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0048280400181: VLOG pa4.x pa6.x
+[09:06:29.162] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0048a80400182: VLOG pa4.-y pa6.-y
+[09:06:29.185] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0049280400184: VLOG pa4.--z pa6.--z
+[09:06:29.196] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40386a084008d: VF16MUL pa4.xyz pa4.xyz pa26.xxx
+[09:06:29.214] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0068280600101: VEXP pa6.x pa4.x
+[09:06:29.216] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0068a80600102: VEXP pa6.-y pa4.-y
+[09:06:29.222] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0069280600104: VEXP pa6.--z pa4.--z
+[09:06:29.224] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8da0810300: VPCKF32F16 o4.xy pa6.xy [noscale]
+[09:06:29.230] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b85a0c00302: VPCKF32F16 o6.x pa6.z [noscale]
+[09:06:29.246] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08801101a0c1010c: VMUL o6.-y pa8.-x pa24.-y
+[09:06:29.247] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a00086d0891344: VF16ADD pa4.x sa26.z o8.x
+[09:06:29.250] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00e8280400101: VEXP pa4.x pa4.x
+[09:06:29.263] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10b84afa00200: VPCKF32F16 i1.x pa4.x [noscale]
+[09:06:29.265] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a09986a0001280: VMAD2 pa0.xy pa2.xy pa20.xy pa0.xy
+[09:06:29.281] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41985b104000c: VMUL o8.xy pa0.xy sa24.yy
+[09:06:29.282] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50c10008ef800a00: OR i0.x sa20.x 0x0
+[09:06:29.285] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	008020817153c04a: VMAD2 o10.x i0.x o2.y sa20.y
+[09:06:29.286] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880050102140f40: VMOV.f32 o10.-y i1.-x 
+[09:06:29.288] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[09:06:29.323] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2eb73efe7948bacd06b60837da985f858b3d9cf18f5236aea3ad6e90e7d40112
+[09:06:29.371] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 2eb73efe7948bacd06b60837da985f858b3d9cf18f5236aea3ad6e90e7d40112
+[09:06:29.375] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) vATest
+[09:06:29.377] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[09:06:29.388] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(sStage0, TEXCOORD1.xy)
+[09:06:29.389] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[09:06:29.391] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[09:06:29.396] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40850d46a0000000: VPCKF16F32 sa0.x sa0.x [noscale]
+[09:06:29.399] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[09:06:29.406] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44010000000000: PHAS
+[09:06:29.411] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48884935b0038080: CMP.ge.f16 p1 pa2.---w sa0.---x
+[09:06:29.413] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[09:06:29.414] |T| [shader::usse::USSETranslatorVisitor::kill]: 	f9300406f0000102: KILL p1 
+[09:06:29.416] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 8
+[09:06:29.423] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[09:06:29.428] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:06:29.429] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a006b280400101: VEXP pa4.x -pa4.--z
+[09:06:29.432] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a42086b0845081: VF16MIN pa4.x pa4.x sa2.z
+[09:06:29.436] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a5008690846080: VF16MAX pa4.x pa4.x c0.x
+[09:06:29.438] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10803082a0800082: VF16MUL pa4.x pa4.x pa4.w
+[09:06:29.440] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44786a0040001: VF16MUL pa0.xyzw pa0.xyzw pa2.xyzw
+[09:06:29.445] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c44782a0000080: VF16MUL pa0.xyzw pa4.xxx1 pa0.xyzw
+[09:06:44.019] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[09:06:44.029] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[09:07:14.270] |I| [export_sceIoOpen]: Opening file: app0:./movie/title.mp4
+[09:07:14.272] |T| [open_file]: sceIoOpen: Opening file app0:./movie/title.mp4 (ux0:/app/PCSG00774/./movie/title.mp4), fd: 0x62
+[09:07:21.345] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[09:08:32.235] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x74724147 sceSystemGestureGetTouchEventByIndex at 0x8025155c
+[09:08:32.272] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5570b83e sceSystemGestureGetTouchEventByEventID at 0x8025153c
+[09:08:33.582] |I| [export_sceIoOpen]: Opening file: app0:./movie/title.mp4
+[09:08:33.592] |T| [open_file]: sceIoOpen: Opening file app0:./movie/title.mp4 (ux0:/app/PCSG00774/./movie/title.mp4), fd: 0x63
+[09:08:35.339] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[09:08:40.815] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSG00774/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[09:08:40.822] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[09:08:40.824] |I| [export_sceIoOpen]: Opening file: savedata0:./DATA.BIN
+[09:08:40.826] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSG00774/./DATA.BIN (target path: savedata0:./DATA.BIN)
+[09:08:40.832] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[09:08:41.882] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe61e016 ldexpf at 0x8025280c
+[09:08:43.735] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa1bff606 snprintf at 0x8025271c
+[09:08:44.982] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb9336e16 strchr at 0x8025274c
+[09:08:46.285] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:08:46.292] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x64
+[09:08:46.392] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[09:08:51.150] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:08:51.152] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x65
+[09:08:51.263] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[09:08:51.292] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:08:51.303] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x66
+[09:08:51.435] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[09:09:01.017] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[09:09:01.019] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[09:13:24.673] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:13:24.677] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x67
+[09:13:24.807] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[09:13:38.833] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:13:38.848] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x68
+[09:13:39.074] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[09:13:39.113] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:13:39.126] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x69
+[09:13:39.191] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[09:13:39.313] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:13:39.314] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x6a
+[09:13:39.523] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[09:13:39.678] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f0aa34e020e981e64851ccdb833367b5f6a0ab910aff4cf4e12f916e2ad241f2
+[09:13:39.701] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader f0aa34e020e981e64851ccdb833367b5f6a0ab910aff4cf4e12f916e2ad241f2
+[09:13:39.807] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) ktglInput_vtxColor1
+[09:13:39.815] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) ktglInput_vtxTex0
+[09:13:39.816] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) ktglInput_vtxColor0
+[09:13:39.819] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) ktglInput_vtxPos
+[09:13:39.819] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mW2P[4]
+[09:13:39.831] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) fog
+[09:13:39.833] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[09:13:39.835] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40870b8a62410f00: VPCKF32F16 sa18.-y c15.-y [noscale]
+[09:13:39.841] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 12
+[09:13:39.843] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:13:39.845] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183100080: VMOV.f32 o8.xy pa4.xy 
+[09:13:39.846] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10d46a0000101: VPCKF16F32 pa0.x pa2.y [noscale]
+[09:13:39.850] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcafb9860e: VPCKF32F32 i1.xyzw (pa12.xyzw pa14.xyzw) [noscale]
+[09:13:39.856] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40f84cf84003d: VMUL i2.xyzw sa0.xyzw i1.xxxx
+[09:13:39.861] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80df852102: VMAD i2.xyzw i1.yyyy sa4.xyzw i2.xyzw
+[09:13:39.864] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80df892104: VMAD i2.xyzw i1.zzzz sa8.xyzw i2.xyzw
+[09:13:39.871] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181d00d2106: VMAD o0.xy i1.ww sa12.xy i2.xy
+[09:13:39.877] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181d04ee107: VMAD o2.xy i1.ww sa14.xy i2.zw
+[09:13:39.881] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a408a6e0441300: VF16ADD pa2.x -sa24.x pa0.x
+[09:13:39.885] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38c04c04f1f012ca: VMOVC.f16 i0.x (pa2.x < vec(0)) ? sa22.x : sa20.x
+[09:13:39.890] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48c80901b003800c: CMP.ge.f16 p0 pa0.x sa24.x
+[09:13:39.892] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_12, size = 1
+[09:13:39.894] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	11802882b000100c: p0 VF16ADD pa0.x pa0.x sa24.z
+[09:13:39.896] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_13, size = 17
+[09:13:39.900] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41b84bf845109: VMIN i2.xyz pa8.xyz sa18.yyy
+[09:13:39.902] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a50b8610446f80: VF16MAX pa2.xyz i2.xyz c0.xxx
+[09:13:39.904] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00c8280200081: VLOG pa2.x pa2.x
+[09:13:39.908] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00c8a80200082: VLOG pa2.-y pa2.-y
+[09:13:39.910] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00c9280200084: VLOG pa2.--z pa2.--z
+[09:13:39.916] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04804884ff6002ca: VF16MAD2 i1.x pa0.x sa22.z sa20.z
+[09:13:39.923] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20a43802a0100781: VMUL i2.xyz pa2.xyz i0.xxx + FEXP pa0.xy i1.x
+[09:13:39.926] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50c10008ef800800: OR i0.x sa16.x 0x0
+[09:13:39.934] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	008028817153c048: VMAD2 o10.x i0.x o2.y sa16.y
+[09:13:39.937] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10b89a1400000: VPCKF32F16 o10.-y pa0.-x [noscale]
+[09:13:39.941] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00e0200003f01: VEXP pa0.x i2.x
+[09:13:39.944] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0060a00003f02: VEXP pa0.-y i2.-y
+[09:13:39.945] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0061200003f04: VEXP pa0.--z i2.--z
+[09:13:39.947] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8da0810000: VPCKF32F16 o4.xy pa0.xy [noscale]
+[09:13:39.951] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b86a1400002: VPCKF32F16 pa10.x pa0.z [noscale]
+[09:13:39.954] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d8da0c3050a: VPCKF32F32 o6.xy (pa10.xw pa10.xyzw) [noscale]
+[09:13:39.963] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[09:13:39.997] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 150304244eaf10b37b0d1e9b1f526304813b6d46b1077f93b83b522496e824f7
+[09:13:40.023] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 150304244eaf10b37b0d1e9b1f526304813b6d46b1077f93b83b522496e824f7
+[09:13:40.029] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) vATest
+[09:13:40.030] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) cFog
+[09:13:40.031] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[09:13:40.035] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(sStage0, TEXCOORD1.xy)
+[09:13:40.037] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[09:13:40.041] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[09:13:40.042] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40850d46a0000000: VPCKF16F32 sa0.x sa0.x [noscale]
+[09:13:40.044] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[09:13:40.049] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44010000000000: PHAS
+[09:13:40.053] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48884935b0038080: CMP.ge.f16 p1 pa2.---w sa0.---x
+[09:13:40.066] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[09:13:40.070] |T| [shader::usse::USSETranslatorVisitor::kill]: 	f9300406f0000204: KILL p1 
+[09:13:40.073] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 10
+[09:13:40.074] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[09:13:40.076] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:13:40.081] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44784a0040001: VF16MUL r0.xyzw pa0.xyzw pa2.xyzw
+[09:13:40.090] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a006b280000101: VEXP pa0.x -pa4.--z
+[09:13:40.096] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a42086b0045002: VF16MIN pa0.x pa0.x sa4.z
+[09:13:40.100] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a5008690046000: VF16MAX pa0.x pa0.x c0.x
+[09:13:40.102] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10803082a0400002: VF16MUL pa2.x pa0.x pa4.w
+[09:13:40.105] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	048092a6f0000041: VF16MAD2 pa0.xyzw pa0.xxxx -sa2.xyzw sa2.xyzw
+[09:13:40.108] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0480928620001000: VF16MAD2 pa0.xyzw pa2.xxxx r0.xyzw pa0.xyzw
+[09:13:40.112] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a4f78a20368000: VF16MUL pa0.xyzw r0.111w pa0.xyz1
+[09:13:41.252] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:13:41.652] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x6b
+[09:13:41.911] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[09:13:43.884] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:13:43.923] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x6c
+[09:13:44.156] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[09:13:45.823] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:13:45.826] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x6d
+[09:13:45.905] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[09:13:53.527] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:13:53.541] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x6e
+[09:13:53.641] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[09:13:54.635] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:13:54.644] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x6f
+[09:13:54.710] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[09:13:55.017] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[09:13:55.033] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[09:14:00.294] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:00.375] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x70
+[09:14:00.490] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[09:14:01.027] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:01.055] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x71
+[09:14:01.162] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[09:14:01.773] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:01.781] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x72
+[09:14:01.934] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[09:14:05.390] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:05.398] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x73
+[09:14:05.556] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[09:14:06.155] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:06.160] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x74
+[09:14:06.453] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[09:14:08.307] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:08.313] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x75
+[09:14:08.489] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[09:14:08.498] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:08.498] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x76
+[09:14:08.561] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[09:14:09.133] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:09.167] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x77
+[09:14:09.242] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[09:14:11.746] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:11.763] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x78
+[09:14:11.887] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[09:14:17.318] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c06d9ab2f3b035449ab9745db99125e6ea9994e5b1ee28edd565df9c04c39ef7
+[09:14:17.324] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader c06d9ab2f3b035449ab9745db99125e6ea9994e5b1ee28edd565df9c04c39ef7
+[09:14:17.334] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) In_vPos
+[09:14:17.335] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) In_vTex
+[09:14:17.337] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_vecPosOffset
+[09:14:17.343] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) g_vecTexParam
+[09:14:17.344] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[09:14:17.349] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:14:17.351] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44186b0041000: VADD pa0.xy pa0.xy sa0.xy
+[09:14:17.352] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a2218670000104: VMAD2 pa0.xy pa0.xy c4.xx sa8.yy
+[09:14:17.361] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c44189e0228100: VMUL o0.xy sa8.1x pa0.xy
+[09:14:17.363] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183040040: VMOV.f32 o2.xy pa2.xy 
+[09:14:17.365] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a09185f0802083: VMAD2 o4.xy pa4.xy sa4.xy sa6.xy
+[09:14:17.371] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[09:14:17.411] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9cee2fc018d6c88644c9b9450d4a57f62b433eb81daab4328e8bd43fc9e32566
+[09:14:17.418] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9cee2fc018d6c88644c9b9450d4a57f62b433eb81daab4328e8bd43fc9e32566
+[09:14:17.423] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) fLerpWeight
+[09:14:17.424] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(s0, TEXCOORD0.xy)
+[09:14:17.425] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[09:14:17.427] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810d46a1000000: VPCKF16F32 sa8.x sa0.x [noscale]
+[09:14:17.430] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	5081000aa0000300: OR sa0.x sa6.x 0x0
+[09:14:17.432] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3884050a82000080: VMOV.f32 sa0.-y sa4.-y 
+[09:14:17.436] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[09:14:17.438] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[09:14:17.444] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f800094000000000: NOP
+[09:14:17.446] |T| [shader::usse::USSETranslatorVisitor::v32nmad]:      10c0f884ef047040: VF16DP i0.x sa2.xyz0 pa0.xyz1
+[09:14:17.448] |T| [shader::usse::USSETranslatorVisitor::vmad]:         18a18984cf5c0100: VMAD i1.xy i0.11 sa0.xy i0.xx
+[09:14:17.452] |T| [shader::usse::USSETranslatorVisitor::vmad]:         18a18204cf5c0002: VMAD i1.--z i0.--1 sa4.--x i0.--x
+[09:14:17.458] |T| [shader::usse::USSETranslatorVisitor::v32nmad]:      10a443a48004103d: VF16ADD r0.xyz -pa0.xyz i1.xyz
+[09:14:17.462] |T| [shader::usse::USSETranslatorVisitor::vmad2]:        04a08280e0000100: VF16MAD2 r0.xyzw r0.xyzw sa8.xxxx pa0.xyzw
+[09:14:17.464] |T| [shader::usse::USSETranslatorVisitor::v32nmad]:      10a4f78a80368000: VF16MUL pa0.xyzw pa0.111w r0.xyz1
+[09:14:19.025] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:19.031] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x79
+[09:14:19.272] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[09:14:22.069] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:22.077] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x7a
+[09:14:22.237] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[09:14:26.835] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:26.871] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x7b
+[09:14:27.072] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[09:14:27.919] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:27.955] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x7c
+[09:14:28.141] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[09:14:29.070] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:29.104] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x7d
+[09:14:29.238] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[09:14:29.792] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:29.796] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x7e
+[09:14:29.953] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[09:14:31.654] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:31.661] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x7f
+[09:14:31.858] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[09:14:32.020] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[09:14:32.103] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[09:14:32.978] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:33.294] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x80
+[09:14:33.895] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[09:14:36.038] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:36.053] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x81
+[09:14:36.243] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[09:14:40.302] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:40.325] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x82
+[09:14:40.432] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[09:14:46.459] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:46.473] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x83
+[09:14:46.657] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[09:14:46.667] |I| [export_sceIoOpen]: Opening file: app0:DATA.BIN
+[09:14:46.710] |T| [open_file]: sceIoOpen: Opening file app0:DATA.BIN (ux0:/app/PCSG00774/DATA.BIN), fd: 0x84
+[09:14:46.807] |T| [close_file]: sceIoClose: Closing file fd: 0x84

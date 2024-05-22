@@ -1,0 +1,701 @@
+[21:36:43.402] |I| [config::init]:  input-vpk-path: games\PCSG00001_RidgeRacer.zip
+[21:36:43.403] |I| [config::init]:  log-level: 0
+[21:36:43.403] |I| [config::init]:  log-imports: false
+[21:36:43.403] |I| [config::init]:  log-exports: false
+[21:36:43.404] |I| [config::init]:  log-active-shaders: false
+[21:36:43.404] |I| [config::init]:  log-uniforms: false
+[21:36:43.404] |I| [SDL_main]:  Vita3K v0.1 696-b915fa1
+[21:36:43.693] |I| [init]:  Swap interval = -1
+[21:37:24.379] |I| [install_vpk]:  PCSG00001 already installed, launching application...
+[21:37:24.379] |I| [load_app_impl]:  Title: RIDGE RACER
+[21:37:24.380] |I| [load_app_impl]:  Serial: PCSG00001
+[21:37:24.380] |I| [load_app_impl]:  Category: gd
+[21:37:24.625] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libc.suprx
+[21:37:24.627] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2EA70
+[21:37:24.627] |W| [load_var_imports]:  	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x32220, setting to stub value 0xDEADBEEF
+[21:37:24.627] |I| [load_app_impl]:  Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[21:37:24.711] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[21:37:24.712] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x5C78C
+[21:37:24.712] |I| [load_app_impl]:  Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[21:37:24.772] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libult.suprx
+[21:37:24.773] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7A390
+[21:37:24.774] |I| [load_app_impl]:  Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[21:37:24.880] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[21:37:24.881] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x811CB2C0
+[21:37:24.881] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x812060F8
+[21:37:24.882] |I| [load_app_impl]:  Main executable rrn_PSP2_Release_NoStrip (eboot.bin) loaded
+[21:37:24.886] |D| [run_app]:  Running module_start of library: SceLibc
+[21:37:24.892] |I| [export_sceIoOpen]:  Opening file: tty0:
+[21:37:24.892] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[21:37:24.893] |I| [export_sceIoOpen]:  Opening file: tty0:
+[21:37:24.893] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[21:37:24.894] |I| [export_sceIoOpen]:  Opening file: tty1:
+[21:37:24.894] |T| [open_file]:  sceIoOpen: Opening file tty1: (tty1:)
+[21:37:24.899] |I| [run_app]:  Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[21:37:24.900] |D| [run_app]:  Running module_start of library: SceLibFios2
+[21:37:24.905] |I| [run_app]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[21:37:24.906] |D| [run_app]:  Running module_start of library: SceUlt
+[21:37:24.910] |I| [run_app]:  Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[21:37:24.912] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSG00001/mai_moe/mai.suprx)
+[21:37:24.928] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[21:37:24.929] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[21:37:24.929] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87866
+[21:37:24.943] |I| [load_self]:  Loading symbols for SELF: app0:mai_moe/mai.suprx
+[21:37:24.944] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC37E4
+[21:37:24.944] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0xC3840
+[21:37:24.945] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x3
+[21:37:24.969] |W| [stubbed_impl]:  Stubbed sceKernelDelayThread import called. (bad accuracy)
+[21:37:24.969] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSG00001/mai_moe/load_type.mai)
+[21:37:24.971] |I| [export_sceIoOpen]:  Opening file: app0:mai_moe/load_type.mai
+[21:37:24.971] |T| [open_file]:  sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSG00001/mai_moe/load_type.mai)
+[21:37:24.983] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSG00001/mai_moe/load_type.mai)
+[21:37:24.985] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[21:37:24.985] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1
+[21:37:24.985] |T| [close_file]:  sceIoClose: Closing file: fd: 0x4
+[21:37:24.990] |I| [export_sceKernelLoadStartModule]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[21:37:24.991] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSG00001/sce_module/libfios2_m.suprx)
+[21:37:24.992] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[21:37:24.992] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[21:37:24.992] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x5, size: 220176
+[21:37:25.008] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[21:37:25.009] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x16178C
+[21:37:25.010] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x5
+[21:37:25.015] |I| [export_sceKernelLoadStartModule]:  Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[21:37:25.016] |T| [open_dir]:  sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[21:37:25.017] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.017] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x80010002
+[21:37:25.017] |W| [io_error_impl]:  read_dir (sceIoDread) returned 0x80010051
+[21:37:25.018] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x80010002
+[21:37:25.018] |W| [io_error_impl]:  close_dir (sceIoDclose) returned 0x80010051
+[21:37:25.070] |I| [export_sceKernelLoadStartModule]:  Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[21:37:25.313] |W| [unimplemented_impl]:  Unimplemented sceAppUtilInit import called.
+[21:37:25.314] |W| [unimplemented_impl]:  Unimplemented sceTouchGetPanelInfo import called.
+[21:37:25.314] |W| [unimplemented_impl]:  Unimplemented sceTouchSetSamplingState import called.
+[21:37:25.315] |W| [unimplemented_impl]:  Unimplemented sceLocationInit import called.
+[21:37:25.334] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/app/PCSG00001//Disc/Course/ (ux0:/app/PCSG00001//Disc/Course/)
+[21:37:25.337] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[21:37:25.337] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[21:37:25.337] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[21:37:25.338] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[21:37:25.338] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[21:37:25.339] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[21:37:25.339] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x6
+[21:37:25.340] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_A/Course_A_N.bin
+[21:37:25.340] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_A/Course_A_N.bin (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_N.bin)
+[21:37:25.347] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_A/Course_A_N.bin (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_N.bin)
+[21:37:25.348] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4906
+[21:37:25.366] |T| [close_file]:  sceIoClose: Closing file: fd: 0x7
+[21:37:25.367] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_A/Course_A_R.bin
+[21:37:25.368] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_A/Course_A_R.bin (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_R.bin)
+[21:37:25.368] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_A/Course_A_R.bin (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_R.bin)
+[21:37:25.369] |T| [read_file]:  sceIoRead: Reading file: fd: 0x8, size: 4909
+[21:37:25.369] |T| [close_file]:  sceIoClose: Closing file: fd: 0x8
+[21:37:25.370] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_A/Course_A_SelectPack.nut
+[21:37:25.370] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_A/Course_A_SelectPack.nut (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_SelectPack.nut)
+[21:37:25.371] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_A/Course_A_SelectPack.nut (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_SelectPack.nut)
+[21:37:25.371] |T| [read_file]:  sceIoRead: Reading file: fd: 0x9, size: 197040
+[21:37:25.389] |T| [close_file]:  sceIoClose: Closing file: fd: 0x9
+[21:37:25.390] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_A/Course_A_MojiList.dat
+[21:37:25.390] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_A/Course_A_MojiList.dat (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_MojiList.dat)
+[21:37:25.391] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_A/Course_A_MojiList.dat (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_MojiList.dat)
+[21:37:25.391] |T| [read_file]:  sceIoRead: Reading file: fd: 0xA, size: 16
+[21:37:25.392] |T| [close_file]:  sceIoClose: Closing file: fd: 0xA
+[21:37:25.392] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_B/Course_B_N.bin
+[21:37:25.392] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_B/Course_B_N.bin (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_N.bin)
+[21:37:25.400] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_B/Course_B_N.bin (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_N.bin)
+[21:37:25.401] |T| [read_file]:  sceIoRead: Reading file: fd: 0xB, size: 4904
+[21:37:25.414] |T| [close_file]:  sceIoClose: Closing file: fd: 0xB
+[21:37:25.415] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_B/Course_B_R.bin
+[21:37:25.415] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_B/Course_B_R.bin (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_R.bin)
+[21:37:25.416] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_B/Course_B_R.bin (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_R.bin)
+[21:37:25.417] |T| [read_file]:  sceIoRead: Reading file: fd: 0xC, size: 4907
+[21:37:25.430] |T| [close_file]:  sceIoClose: Closing file: fd: 0xC
+[21:37:25.430] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_B/Course_B_SelectPack.nut
+[21:37:25.431] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_B/Course_B_SelectPack.nut (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_SelectPack.nut)
+[21:37:25.432] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_B/Course_B_SelectPack.nut (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_SelectPack.nut)
+[21:37:25.432] |T| [read_file]:  sceIoRead: Reading file: fd: 0xD, size: 197040
+[21:37:25.453] |T| [close_file]:  sceIoClose: Closing file: fd: 0xD
+[21:37:25.454] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_B/Course_B_MojiList.dat
+[21:37:25.455] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_B/Course_B_MojiList.dat (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_MojiList.dat)
+[21:37:25.455] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_B/Course_B_MojiList.dat (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_MojiList.dat)
+[21:37:25.456] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 16
+[21:37:25.456] |T| [close_file]:  sceIoClose: Closing file: fd: 0xE
+[21:37:25.457] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_C/Course_C_N.bin
+[21:37:25.457] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_C/Course_C_N.bin (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_N.bin)
+[21:37:25.477] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_C/Course_C_N.bin (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_N.bin)
+[21:37:25.478] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 4904
+[21:37:25.487] |T| [close_file]:  sceIoClose: Closing file: fd: 0xF
+[21:37:25.488] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_C/Course_C_R.bin
+[21:37:25.488] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_C/Course_C_R.bin (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_R.bin)
+[21:37:25.489] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_C/Course_C_R.bin (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_R.bin)
+[21:37:25.489] |T| [read_file]:  sceIoRead: Reading file: fd: 0x10, size: 4907
+[21:37:25.502] |T| [close_file]:  sceIoClose: Closing file: fd: 0x10
+[21:37:25.502] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_C/Course_C_SelectPack.nut
+[21:37:25.503] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_C/Course_C_SelectPack.nut (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_SelectPack.nut)
+[21:37:25.503] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_C/Course_C_SelectPack.nut (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_SelectPack.nut)
+[21:37:25.504] |T| [read_file]:  sceIoRead: Reading file: fd: 0x11, size: 197040
+[21:37:25.511] |T| [close_file]:  sceIoClose: Closing file: fd: 0x11
+[21:37:25.511] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_C/Course_C_MojiList.dat
+[21:37:25.512] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_C/Course_C_MojiList.dat (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_MojiList.dat)
+[21:37:25.537] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_C/Course_C_MojiList.dat (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_MojiList.dat)
+[21:37:25.538] |T| [read_file]:  sceIoRead: Reading file: fd: 0x12, size: 16
+[21:37:25.539] |T| [close_file]:  sceIoClose: Closing file: fd: 0x12
+[21:37:25.539] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/app/PCSG00001//Disc/Car/ (ux0:/app/PCSG00001//Disc/Car/)
+[21:37:25.540] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.540] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.540] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.541] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.541] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.541] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.541] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.541] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.542] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.542] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x13
+[21:37:25.542] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x13
+[21:37:25.543] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_01/Car_01.bin
+[21:37:25.543] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_01/Car_01.bin (ux0:/app/PCSG00001//Disc/Car/Car_01/Car_01.bin)
+[21:37:25.565] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_01/Car_01.bin (ux0:/app/PCSG00001//Disc/Car/Car_01/Car_01.bin)
+[21:37:25.566] |T| [read_file]:  sceIoRead: Reading file: fd: 0x14, size: 1613
+[21:37:25.570] |T| [close_file]:  sceIoClose: Closing file: fd: 0x14
+[21:37:25.571] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_01/Car_01_SelectPack.nut
+[21:37:25.572] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_01/Car_01_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_01/Car_01_SelectPack.nut)
+[21:37:25.572] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_01/Car_01_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_01/Car_01_SelectPack.nut)
+[21:37:25.573] |T| [read_file]:  sceIoRead: Reading file: fd: 0x15, size: 20576
+[21:37:25.588] |T| [close_file]:  sceIoClose: Closing file: fd: 0x15
+[21:37:25.588] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_02/Car_02.bin
+[21:37:25.589] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_02/Car_02.bin (ux0:/app/PCSG00001//Disc/Car/Car_02/Car_02.bin)
+[21:37:25.606] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_02/Car_02.bin (ux0:/app/PCSG00001//Disc/Car/Car_02/Car_02.bin)
+[21:37:25.607] |T| [read_file]:  sceIoRead: Reading file: fd: 0x16, size: 1597
+[21:37:25.610] |T| [close_file]:  sceIoClose: Closing file: fd: 0x16
+[21:37:25.610] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_02/Car_02_SelectPack.nut
+[21:37:25.611] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_02/Car_02_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_02/Car_02_SelectPack.nut)
+[21:37:25.611] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_02/Car_02_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_02/Car_02_SelectPack.nut)
+[21:37:25.612] |T| [read_file]:  sceIoRead: Reading file: fd: 0x17, size: 20576
+[21:37:25.612] |T| [close_file]:  sceIoClose: Closing file: fd: 0x17
+[21:37:25.613] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_03/Car_03.bin
+[21:37:25.613] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_03/Car_03.bin (ux0:/app/PCSG00001//Disc/Car/Car_03/Car_03.bin)
+[21:37:25.621] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_03/Car_03.bin (ux0:/app/PCSG00001//Disc/Car/Car_03/Car_03.bin)
+[21:37:25.622] |T| [read_file]:  sceIoRead: Reading file: fd: 0x18, size: 1596
+[21:37:25.630] |T| [close_file]:  sceIoClose: Closing file: fd: 0x18
+[21:37:25.630] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_03/Car_03_SelectPack.nut
+[21:37:25.631] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_03/Car_03_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_03/Car_03_SelectPack.nut)
+[21:37:25.651] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_03/Car_03_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_03/Car_03_SelectPack.nut)
+[21:37:25.652] |T| [read_file]:  sceIoRead: Reading file: fd: 0x19, size: 20576
+[21:37:25.677] |T| [close_file]:  sceIoClose: Closing file: fd: 0x19
+[21:37:25.677] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_04/Car_04.bin
+[21:37:25.679] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_04/Car_04.bin (ux0:/app/PCSG00001//Disc/Car/Car_04/Car_04.bin)
+[21:37:25.686] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_04/Car_04.bin (ux0:/app/PCSG00001//Disc/Car/Car_04/Car_04.bin)
+[21:37:25.686] |T| [read_file]:  sceIoRead: Reading file: fd: 0x1A, size: 1587
+[21:37:25.692] |T| [close_file]:  sceIoClose: Closing file: fd: 0x1A
+[21:37:25.692] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_04/Car_04_SelectPack.nut
+[21:37:25.693] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_04/Car_04_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_04/Car_04_SelectPack.nut)
+[21:37:25.694] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_04/Car_04_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_04/Car_04_SelectPack.nut)
+[21:37:25.695] |T| [read_file]:  sceIoRead: Reading file: fd: 0x1B, size: 20576
+[21:37:25.715] |T| [close_file]:  sceIoClose: Closing file: fd: 0x1B
+[21:37:25.715] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_05/Car_05.bin
+[21:37:25.716] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_05/Car_05.bin (ux0:/app/PCSG00001//Disc/Car/Car_05/Car_05.bin)
+[21:37:25.717] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_05/Car_05.bin (ux0:/app/PCSG00001//Disc/Car/Car_05/Car_05.bin)
+[21:37:25.717] |T| [read_file]:  sceIoRead: Reading file: fd: 0x1C, size: 1596
+[21:37:25.736] |T| [close_file]:  sceIoClose: Closing file: fd: 0x1C
+[21:37:25.736] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_05/Car_05_SelectPack.nut
+[21:37:25.737] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_05/Car_05_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_05/Car_05_SelectPack.nut)
+[21:37:25.738] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_05/Car_05_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_05/Car_05_SelectPack.nut)
+[21:37:25.738] |T| [read_file]:  sceIoRead: Reading file: fd: 0x1D, size: 20576
+[21:37:25.739] |T| [close_file]:  sceIoClose: Closing file: fd: 0x1D
+[21:37:25.739] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_06/Car_06.bin
+[21:37:25.739] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_06/Car_06.bin (ux0:/app/PCSG00001//Disc/Car/Car_06/Car_06.bin)
+[21:37:25.754] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_06/Car_06.bin (ux0:/app/PCSG00001//Disc/Car/Car_06/Car_06.bin)
+[21:37:25.755] |T| [read_file]:  sceIoRead: Reading file: fd: 0x1E, size: 1602
+[21:37:25.763] |T| [close_file]:  sceIoClose: Closing file: fd: 0x1E
+[21:37:25.764] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_06/Car_06_SelectPack.nut
+[21:37:25.764] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_06/Car_06_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_06/Car_06_SelectPack.nut)
+[21:37:25.765] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_06/Car_06_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_06/Car_06_SelectPack.nut)
+[21:37:25.766] |T| [read_file]:  sceIoRead: Reading file: fd: 0x1F, size: 20576
+[21:37:25.767] |T| [close_file]:  sceIoClose: Closing file: fd: 0x1F
+[21:37:25.767] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_07/Car_07.bin
+[21:37:25.767] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_07/Car_07.bin (ux0:/app/PCSG00001//Disc/Car/Car_07/Car_07.bin)
+[21:37:25.771] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_07/Car_07.bin (ux0:/app/PCSG00001//Disc/Car/Car_07/Car_07.bin)
+[21:37:25.771] |T| [read_file]:  sceIoRead: Reading file: fd: 0x20, size: 1607
+[21:37:25.772] |T| [close_file]:  sceIoClose: Closing file: fd: 0x20
+[21:37:25.772] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_07/Car_07_SelectPack.nut
+[21:37:25.772] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_07/Car_07_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_07/Car_07_SelectPack.nut)
+[21:37:25.773] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_07/Car_07_SelectPack.nut (ux0:/app/PCSG00001//Disc/Car/Car_07/Car_07_SelectPack.nut)
+[21:37:25.774] |T| [read_file]:  sceIoRead: Reading file: fd: 0x21, size: 20576
+[21:37:25.784] |T| [close_file]:  sceIoClose: Closing file: fd: 0x21
+[21:37:25.785] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/app/PCSG00001//Disc/BGM/ (ux0:/app/PCSG00001//Disc/BGM/)
+[21:37:25.786] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.786] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.786] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.787] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.787] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.787] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.787] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.788] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.788] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.788] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x22
+[21:37:25.788] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x22
+[21:37:25.789] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/BGM/BGM01/BGM01DB.bin
+[21:37:25.789] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/BGM/BGM01/BGM01DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM01/BGM01DB.bin)
+[21:37:25.790] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/BGM/BGM01/BGM01DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM01/BGM01DB.bin)
+[21:37:25.791] |T| [read_file]:  sceIoRead: Reading file: fd: 0x23, size: 238
+[21:37:25.791] |T| [close_file]:  sceIoClose: Closing file: fd: 0x23
+[21:37:25.791] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/BGM/BGM02/BGM02DB.bin
+[21:37:25.791] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/BGM/BGM02/BGM02DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM02/BGM02DB.bin)
+[21:37:25.792] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/BGM/BGM02/BGM02DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM02/BGM02DB.bin)
+[21:37:25.793] |T| [read_file]:  sceIoRead: Reading file: fd: 0x24, size: 239
+[21:37:25.793] |T| [close_file]:  sceIoClose: Closing file: fd: 0x24
+[21:37:25.793] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/BGM/BGM03/BGM03DB.bin
+[21:37:25.793] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/BGM/BGM03/BGM03DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM03/BGM03DB.bin)
+[21:37:25.794] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/BGM/BGM03/BGM03DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM03/BGM03DB.bin)
+[21:37:25.795] |T| [read_file]:  sceIoRead: Reading file: fd: 0x25, size: 235
+[21:37:25.795] |T| [close_file]:  sceIoClose: Closing file: fd: 0x25
+[21:37:25.796] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/BGM/BGM04/BGM04DB.bin
+[21:37:25.796] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/BGM/BGM04/BGM04DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM04/BGM04DB.bin)
+[21:37:25.797] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/BGM/BGM04/BGM04DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM04/BGM04DB.bin)
+[21:37:25.797] |T| [read_file]:  sceIoRead: Reading file: fd: 0x26, size: 236
+[21:37:25.798] |T| [close_file]:  sceIoClose: Closing file: fd: 0x26
+[21:37:25.798] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/BGM/BGM05/BGM05DB.bin
+[21:37:25.798] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/BGM/BGM05/BGM05DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM05/BGM05DB.bin)
+[21:37:25.799] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/BGM/BGM05/BGM05DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM05/BGM05DB.bin)
+[21:37:25.799] |T| [read_file]:  sceIoRead: Reading file: fd: 0x27, size: 226
+[21:37:25.800] |T| [close_file]:  sceIoClose: Closing file: fd: 0x27
+[21:37:25.800] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/BGM/BGM06/BGM06DB.bin
+[21:37:25.800] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/BGM/BGM06/BGM06DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM06/BGM06DB.bin)
+[21:37:25.801] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/BGM/BGM06/BGM06DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM06/BGM06DB.bin)
+[21:37:25.801] |T| [read_file]:  sceIoRead: Reading file: fd: 0x28, size: 229
+[21:37:25.801] |T| [close_file]:  sceIoClose: Closing file: fd: 0x28
+[21:37:25.802] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/BGM/BGM07/BGM07DB.bin
+[21:37:25.802] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/BGM/BGM07/BGM07DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM07/BGM07DB.bin)
+[21:37:25.802] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/BGM/BGM07/BGM07DB.bin (ux0:/app/PCSG00001//Disc/BGM/BGM07/BGM07DB.bin)
+[21:37:25.803] |T| [read_file]:  sceIoRead: Reading file: fd: 0x29, size: 242
+[21:37:25.803] |T| [close_file]:  sceIoClose: Closing file: fd: 0x29
+[21:37:25.806] |W| [unimplemented_impl]:  Unimplemented sceAppUtilDrmOpen import called.
+[21:37:25.806] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010000/ (ux0:/addcont/PCSG00001//0000000000010000/)
+[21:37:25.807] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.807] |W| [unimplemented_impl]:  Unimplemented sceAppUtilDrmClose import called.
+[21:37:25.807] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010001/ (ux0:/addcont/PCSG00001//0000000000010001/)
+[21:37:25.808] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.808] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010002/ (ux0:/addcont/PCSG00001//0000000000010002/)
+[21:37:25.808] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.808] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010003/ (ux0:/addcont/PCSG00001//0000000000010003/)
+[21:37:25.809] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.809] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010004/ (ux0:/addcont/PCSG00001//0000000000010004/)
+[21:37:25.809] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.809] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010005/ (ux0:/addcont/PCSG00001//0000000000010005/)
+[21:37:25.810] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.810] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010006/ (ux0:/addcont/PCSG00001//0000000000010006/)
+[21:37:25.810] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.810] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010007/ (ux0:/addcont/PCSG00001//0000000000010007/)
+[21:37:25.811] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.811] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010008/ (ux0:/addcont/PCSG00001//0000000000010008/)
+[21:37:25.811] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.812] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010009/ (ux0:/addcont/PCSG00001//0000000000010009/)
+[21:37:25.812] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.812] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010010/ (ux0:/addcont/PCSG00001//0000000000010010/)
+[21:37:25.813] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.813] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010011/ (ux0:/addcont/PCSG00001//0000000000010011/)
+[21:37:25.814] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.814] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010012/ (ux0:/addcont/PCSG00001//0000000000010012/)
+[21:37:25.814] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.814] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010013/ (ux0:/addcont/PCSG00001//0000000000010013/)
+[21:37:25.815] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.815] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010014/ (ux0:/addcont/PCSG00001//0000000000010014/)
+[21:37:25.815] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.817] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010015/ (ux0:/addcont/PCSG00001//0000000000010015/)
+[21:37:25.818] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.818] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010016/ (ux0:/addcont/PCSG00001//0000000000010016/)
+[21:37:25.819] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.819] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010017/ (ux0:/addcont/PCSG00001//0000000000010017/)
+[21:37:25.819] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.820] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010018/ (ux0:/addcont/PCSG00001//0000000000010018/)
+[21:37:25.820] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.821] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010019/ (ux0:/addcont/PCSG00001//0000000000010019/)
+[21:37:25.821] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.822] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010020/ (ux0:/addcont/PCSG00001//0000000000010020/)
+[21:37:25.822] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.822] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010021/ (ux0:/addcont/PCSG00001//0000000000010021/)
+[21:37:25.823] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.823] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010022/ (ux0:/addcont/PCSG00001//0000000000010022/)
+[21:37:25.824] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.824] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010023/ (ux0:/addcont/PCSG00001//0000000000010023/)
+[21:37:25.825] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.825] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010024/ (ux0:/addcont/PCSG00001//0000000000010024/)
+[21:37:25.825] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.826] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010025/ (ux0:/addcont/PCSG00001//0000000000010025/)
+[21:37:25.826] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.826] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010026/ (ux0:/addcont/PCSG00001//0000000000010026/)
+[21:37:25.827] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.827] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010027/ (ux0:/addcont/PCSG00001//0000000000010027/)
+[21:37:25.828] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.828] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010028/ (ux0:/addcont/PCSG00001//0000000000010028/)
+[21:37:25.829] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.829] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000010029/ (ux0:/addcont/PCSG00001//0000000000010029/)
+[21:37:25.830] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.830] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020000/ (ux0:/addcont/PCSG00001//0000000000020000/)
+[21:37:25.830] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.831] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020001/ (ux0:/addcont/PCSG00001//0000000000020001/)
+[21:37:25.833] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.833] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020002/ (ux0:/addcont/PCSG00001//0000000000020002/)
+[21:37:25.834] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.834] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020003/ (ux0:/addcont/PCSG00001//0000000000020003/)
+[21:37:25.835] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.835] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020004/ (ux0:/addcont/PCSG00001//0000000000020004/)
+[21:37:25.835] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.836] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020005/ (ux0:/addcont/PCSG00001//0000000000020005/)
+[21:37:25.837] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.837] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020006/ (ux0:/addcont/PCSG00001//0000000000020006/)
+[21:37:25.838] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.838] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020007/ (ux0:/addcont/PCSG00001//0000000000020007/)
+[21:37:25.838] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.838] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020008/ (ux0:/addcont/PCSG00001//0000000000020008/)
+[21:37:25.839] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.839] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020009/ (ux0:/addcont/PCSG00001//0000000000020009/)
+[21:37:25.840] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.840] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020010/ (ux0:/addcont/PCSG00001//0000000000020010/)
+[21:37:25.841] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.841] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020011/ (ux0:/addcont/PCSG00001//0000000000020011/)
+[21:37:25.842] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.842] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020012/ (ux0:/addcont/PCSG00001//0000000000020012/)
+[21:37:25.842] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.843] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020013/ (ux0:/addcont/PCSG00001//0000000000020013/)
+[21:37:25.845] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.845] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020014/ (ux0:/addcont/PCSG00001//0000000000020014/)
+[21:37:25.846] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.846] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020015/ (ux0:/addcont/PCSG00001//0000000000020015/)
+[21:37:25.846] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.847] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020016/ (ux0:/addcont/PCSG00001//0000000000020016/)
+[21:37:25.848] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.848] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020017/ (ux0:/addcont/PCSG00001//0000000000020017/)
+[21:37:25.849] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.849] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020018/ (ux0:/addcont/PCSG00001//0000000000020018/)
+[21:37:25.849] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.849] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020019/ (ux0:/addcont/PCSG00001//0000000000020019/)
+[21:37:25.850] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.851] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020020/ (ux0:/addcont/PCSG00001//0000000000020020/)
+[21:37:25.852] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.852] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020021/ (ux0:/addcont/PCSG00001//0000000000020021/)
+[21:37:25.853] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.853] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020022/ (ux0:/addcont/PCSG00001//0000000000020022/)
+[21:37:25.853] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.854] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020023/ (ux0:/addcont/PCSG00001//0000000000020023/)
+[21:37:25.854] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.855] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020024/ (ux0:/addcont/PCSG00001//0000000000020024/)
+[21:37:25.855] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.856] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020025/ (ux0:/addcont/PCSG00001//0000000000020025/)
+[21:37:25.856] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.856] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020026/ (ux0:/addcont/PCSG00001//0000000000020026/)
+[21:37:25.857] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.857] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020027/ (ux0:/addcont/PCSG00001//0000000000020027/)
+[21:37:25.858] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.858] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020028/ (ux0:/addcont/PCSG00001//0000000000020028/)
+[21:37:25.859] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.859] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020029/ (ux0:/addcont/PCSG00001//0000000000020029/)
+[21:37:25.859] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.860] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020030/ (ux0:/addcont/PCSG00001//0000000000020030/)
+[21:37:25.860] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.860] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020031/ (ux0:/addcont/PCSG00001//0000000000020031/)
+[21:37:25.861] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.861] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020032/ (ux0:/addcont/PCSG00001//0000000000020032/)
+[21:37:25.862] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.862] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020033/ (ux0:/addcont/PCSG00001//0000000000020033/)
+[21:37:25.863] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.863] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020034/ (ux0:/addcont/PCSG00001//0000000000020034/)
+[21:37:25.863] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.864] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020035/ (ux0:/addcont/PCSG00001//0000000000020035/)
+[21:37:25.864] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.865] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020036/ (ux0:/addcont/PCSG00001//0000000000020036/)
+[21:37:25.867] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.867] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020037/ (ux0:/addcont/PCSG00001//0000000000020037/)
+[21:37:25.868] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.868] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020038/ (ux0:/addcont/PCSG00001//0000000000020038/)
+[21:37:25.869] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.869] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020039/ (ux0:/addcont/PCSG00001//0000000000020039/)
+[21:37:25.869] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.870] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020040/ (ux0:/addcont/PCSG00001//0000000000020040/)
+[21:37:25.871] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.871] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020041/ (ux0:/addcont/PCSG00001//0000000000020041/)
+[21:37:25.872] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.872] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020042/ (ux0:/addcont/PCSG00001//0000000000020042/)
+[21:37:25.872] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.872] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020043/ (ux0:/addcont/PCSG00001//0000000000020043/)
+[21:37:25.873] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.873] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020044/ (ux0:/addcont/PCSG00001//0000000000020044/)
+[21:37:25.874] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.874] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020045/ (ux0:/addcont/PCSG00001//0000000000020045/)
+[21:37:25.875] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.875] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020046/ (ux0:/addcont/PCSG00001//0000000000020046/)
+[21:37:25.876] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.876] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020047/ (ux0:/addcont/PCSG00001//0000000000020047/)
+[21:37:25.876] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.877] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020048/ (ux0:/addcont/PCSG00001//0000000000020048/)
+[21:37:25.877] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.878] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000020049/ (ux0:/addcont/PCSG00001//0000000000020049/)
+[21:37:25.878] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.879] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030000/ (ux0:/addcont/PCSG00001//0000000000030000/)
+[21:37:25.879] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.879] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030001/ (ux0:/addcont/PCSG00001//0000000000030001/)
+[21:37:25.880] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.880] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030002/ (ux0:/addcont/PCSG00001//0000000000030002/)
+[21:37:25.881] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.881] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030003/ (ux0:/addcont/PCSG00001//0000000000030003/)
+[21:37:25.884] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.884] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030004/ (ux0:/addcont/PCSG00001//0000000000030004/)
+[21:37:25.885] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.885] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030005/ (ux0:/addcont/PCSG00001//0000000000030005/)
+[21:37:25.885] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.885] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030006/ (ux0:/addcont/PCSG00001//0000000000030006/)
+[21:37:25.886] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.887] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030007/ (ux0:/addcont/PCSG00001//0000000000030007/)
+[21:37:25.887] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.887] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030008/ (ux0:/addcont/PCSG00001//0000000000030008/)
+[21:37:25.888] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.888] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030009/ (ux0:/addcont/PCSG00001//0000000000030009/)
+[21:37:25.888] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.889] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030010/ (ux0:/addcont/PCSG00001//0000000000030010/)
+[21:37:25.889] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.890] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030011/ (ux0:/addcont/PCSG00001//0000000000030011/)
+[21:37:25.891] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.891] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030012/ (ux0:/addcont/PCSG00001//0000000000030012/)
+[21:37:25.891] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.891] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030013/ (ux0:/addcont/PCSG00001//0000000000030013/)
+[21:37:25.892] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.892] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030014/ (ux0:/addcont/PCSG00001//0000000000030014/)
+[21:37:25.893] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.893] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030015/ (ux0:/addcont/PCSG00001//0000000000030015/)
+[21:37:25.894] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.894] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030016/ (ux0:/addcont/PCSG00001//0000000000030016/)
+[21:37:25.895] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.895] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030017/ (ux0:/addcont/PCSG00001//0000000000030017/)
+[21:37:25.895] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.896] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030018/ (ux0:/addcont/PCSG00001//0000000000030018/)
+[21:37:25.896] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.897] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030019/ (ux0:/addcont/PCSG00001//0000000000030019/)
+[21:37:25.897] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.900] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030020/ (ux0:/addcont/PCSG00001//0000000000030020/)
+[21:37:25.900] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.901] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030021/ (ux0:/addcont/PCSG00001//0000000000030021/)
+[21:37:25.901] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.902] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030022/ (ux0:/addcont/PCSG00001//0000000000030022/)
+[21:37:25.902] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.902] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030023/ (ux0:/addcont/PCSG00001//0000000000030023/)
+[21:37:25.903] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.903] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030024/ (ux0:/addcont/PCSG00001//0000000000030024/)
+[21:37:25.903] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.904] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030025/ (ux0:/addcont/PCSG00001//0000000000030025/)
+[21:37:25.905] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.905] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030026/ (ux0:/addcont/PCSG00001//0000000000030026/)
+[21:37:25.906] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.906] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030027/ (ux0:/addcont/PCSG00001//0000000000030027/)
+[21:37:25.906] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.906] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030028/ (ux0:/addcont/PCSG00001//0000000000030028/)
+[21:37:25.907] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.907] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030029/ (ux0:/addcont/PCSG00001//0000000000030029/)
+[21:37:25.908] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.908] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030030/ (ux0:/addcont/PCSG00001//0000000000030030/)
+[21:37:25.909] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.909] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030031/ (ux0:/addcont/PCSG00001//0000000000030031/)
+[21:37:25.910] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.910] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030032/ (ux0:/addcont/PCSG00001//0000000000030032/)
+[21:37:25.910] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.911] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030033/ (ux0:/addcont/PCSG00001//0000000000030033/)
+[21:37:25.911] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.912] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030034/ (ux0:/addcont/PCSG00001//0000000000030034/)
+[21:37:25.912] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.913] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030035/ (ux0:/addcont/PCSG00001//0000000000030035/)
+[21:37:25.913] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.913] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030036/ (ux0:/addcont/PCSG00001//0000000000030036/)
+[21:37:25.914] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.914] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030037/ (ux0:/addcont/PCSG00001//0000000000030037/)
+[21:37:25.915] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.915] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030038/ (ux0:/addcont/PCSG00001//0000000000030038/)
+[21:37:25.917] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.917] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030039/ (ux0:/addcont/PCSG00001//0000000000030039/)
+[21:37:25.918] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.918] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030040/ (ux0:/addcont/PCSG00001//0000000000030040/)
+[21:37:25.919] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.919] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030041/ (ux0:/addcont/PCSG00001//0000000000030041/)
+[21:37:25.920] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.920] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030042/ (ux0:/addcont/PCSG00001//0000000000030042/)
+[21:37:25.921] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.921] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030043/ (ux0:/addcont/PCSG00001//0000000000030043/)
+[21:37:25.923] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.923] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030044/ (ux0:/addcont/PCSG00001//0000000000030044/)
+[21:37:25.924] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.924] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030045/ (ux0:/addcont/PCSG00001//0000000000030045/)
+[21:37:25.924] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.925] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030046/ (ux0:/addcont/PCSG00001//0000000000030046/)
+[21:37:25.925] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.925] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030047/ (ux0:/addcont/PCSG00001//0000000000030047/)
+[21:37:25.926] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.926] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030048/ (ux0:/addcont/PCSG00001//0000000000030048/)
+[21:37:25.926] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.927] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030049/ (ux0:/addcont/PCSG00001//0000000000030049/)
+[21:37:25.928] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.928] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030050/ (ux0:/addcont/PCSG00001//0000000000030050/)
+[21:37:25.929] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.929] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030051/ (ux0:/addcont/PCSG00001//0000000000030051/)
+[21:37:25.929] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.930] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030052/ (ux0:/addcont/PCSG00001//0000000000030052/)
+[21:37:25.930] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.930] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030053/ (ux0:/addcont/PCSG00001//0000000000030053/)
+[21:37:25.930] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.931] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030054/ (ux0:/addcont/PCSG00001//0000000000030054/)
+[21:37:25.931] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.931] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030055/ (ux0:/addcont/PCSG00001//0000000000030055/)
+[21:37:25.935] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.935] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030056/ (ux0:/addcont/PCSG00001//0000000000030056/)
+[21:37:25.935] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.936] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030057/ (ux0:/addcont/PCSG00001//0000000000030057/)
+[21:37:25.936] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.936] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030058/ (ux0:/addcont/PCSG00001//0000000000030058/)
+[21:37:25.937] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.937] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030059/ (ux0:/addcont/PCSG00001//0000000000030059/)
+[21:37:25.938] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.938] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030060/ (ux0:/addcont/PCSG00001//0000000000030060/)
+[21:37:25.939] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.939] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030061/ (ux0:/addcont/PCSG00001//0000000000030061/)
+[21:37:25.939] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.940] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030062/ (ux0:/addcont/PCSG00001//0000000000030062/)
+[21:37:25.940] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.941] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030063/ (ux0:/addcont/PCSG00001//0000000000030063/)
+[21:37:25.941] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.942] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030064/ (ux0:/addcont/PCSG00001//0000000000030064/)
+[21:37:25.942] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.942] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030065/ (ux0:/addcont/PCSG00001//0000000000030065/)
+[21:37:25.943] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.943] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030066/ (ux0:/addcont/PCSG00001//0000000000030066/)
+[21:37:25.944] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.944] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030067/ (ux0:/addcont/PCSG00001//0000000000030067/)
+[21:37:25.945] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.945] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030068/ (ux0:/addcont/PCSG00001//0000000000030068/)
+[21:37:25.945] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.946] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030069/ (ux0:/addcont/PCSG00001//0000000000030069/)
+[21:37:25.946] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.946] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030070/ (ux0:/addcont/PCSG00001//0000000000030070/)
+[21:37:25.947] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.947] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030071/ (ux0:/addcont/PCSG00001//0000000000030071/)
+[21:37:25.948] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.948] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030072/ (ux0:/addcont/PCSG00001//0000000000030072/)
+[21:37:25.950] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.950] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030073/ (ux0:/addcont/PCSG00001//0000000000030073/)
+[21:37:25.951] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.952] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030074/ (ux0:/addcont/PCSG00001//0000000000030074/)
+[21:37:25.952] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.952] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030075/ (ux0:/addcont/PCSG00001//0000000000030075/)
+[21:37:25.953] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.954] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030076/ (ux0:/addcont/PCSG00001//0000000000030076/)
+[21:37:25.954] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.954] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030077/ (ux0:/addcont/PCSG00001//0000000000030077/)
+[21:37:25.955] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.955] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030078/ (ux0:/addcont/PCSG00001//0000000000030078/)
+[21:37:25.955] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.956] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030079/ (ux0:/addcont/PCSG00001//0000000000030079/)
+[21:37:25.956] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.957] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030080/ (ux0:/addcont/PCSG00001//0000000000030080/)
+[21:37:25.958] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.958] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030081/ (ux0:/addcont/PCSG00001//0000000000030081/)
+[21:37:25.958] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.958] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030082/ (ux0:/addcont/PCSG00001//0000000000030082/)
+[21:37:25.959] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.959] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030083/ (ux0:/addcont/PCSG00001//0000000000030083/)
+[21:37:25.960] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.960] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030084/ (ux0:/addcont/PCSG00001//0000000000030084/)
+[21:37:25.961] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.961] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030085/ (ux0:/addcont/PCSG00001//0000000000030085/)
+[21:37:25.962] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.962] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030086/ (ux0:/addcont/PCSG00001//0000000000030086/)
+[21:37:25.962] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.963] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030087/ (ux0:/addcont/PCSG00001//0000000000030087/)
+[21:37:25.963] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.964] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030088/ (ux0:/addcont/PCSG00001//0000000000030088/)
+[21:37:25.964] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.967] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030089/ (ux0:/addcont/PCSG00001//0000000000030089/)
+[21:37:25.968] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.968] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030090/ (ux0:/addcont/PCSG00001//0000000000030090/)
+[21:37:25.969] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.969] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030091/ (ux0:/addcont/PCSG00001//0000000000030091/)
+[21:37:25.969] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.969] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030092/ (ux0:/addcont/PCSG00001//0000000000030092/)
+[21:37:25.970] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.970] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030093/ (ux0:/addcont/PCSG00001//0000000000030093/)
+[21:37:25.971] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.971] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030094/ (ux0:/addcont/PCSG00001//0000000000030094/)
+[21:37:25.972] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.972] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030095/ (ux0:/addcont/PCSG00001//0000000000030095/)
+[21:37:25.973] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.973] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030096/ (ux0:/addcont/PCSG00001//0000000000030096/)
+[21:37:25.973] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.974] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030097/ (ux0:/addcont/PCSG00001//0000000000030097/)
+[21:37:25.974] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.975] |T| [open_dir]:  sceIoDopen: Opening dir ux0:/addcont/PCSG00001//0000000000030098/ (ux0:/addcont/PCSG00001//0000000000030098/)
+[21:37:25.975] |W| [io_error_impl]:  open_dir (sceIoDopen) returned 0x80010002
+[21:37:25.980] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/cmFileListDisc.info
+[21:37:25.981] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/cmFileListDisc.info (ux0:/app/PCSG00001//Disc/cmFileListDisc.info)
+[21:37:25.982] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/cmFileListDisc.info (ux0:/app/PCSG00001//Disc/cmFileListDisc.info)
+[21:37:25.983] |T| [read_file]:  sceIoRead: Reading file: fd: 0x2A, size: 12196
+[21:37:25.999] |T| [close_file]:  sceIoClose: Closing file: fd: 0x2A
+[21:37:26.021] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_A/Course_A_FileListDisc.info
+[21:37:26.022] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_A/Course_A_FileListDisc.info (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_FileListDisc.info)
+[21:37:26.023] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_A/Course_A_FileListDisc.info (ux0:/app/PCSG00001//Disc/Course/Course_A/Course_A_FileListDisc.info)
+[21:37:26.023] |T| [read_file]:  sceIoRead: Reading file: fd: 0x2B, size: 3350
+[21:37:26.043] |T| [close_file]:  sceIoClose: Closing file: fd: 0x2B
+[21:37:26.048] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_B/Course_B_FileListDisc.info
+[21:37:26.049] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_B/Course_B_FileListDisc.info (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_FileListDisc.info)
+[21:37:26.050] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_B/Course_B_FileListDisc.info (ux0:/app/PCSG00001//Disc/Course/Course_B/Course_B_FileListDisc.info)
+[21:37:26.051] |T| [read_file]:  sceIoRead: Reading file: fd: 0x2C, size: 3280
+[21:37:26.071] |T| [close_file]:  sceIoClose: Closing file: fd: 0x2C
+[21:37:26.076] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Course/Course_C/Course_C_FileListDisc.info
+[21:37:26.076] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Course/Course_C/Course_C_FileListDisc.info (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_FileListDisc.info)
+[21:37:26.095] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Course/Course_C/Course_C_FileListDisc.info (ux0:/app/PCSG00001//Disc/Course/Course_C/Course_C_FileListDisc.info)
+[21:37:26.096] |T| [read_file]:  sceIoRead: Reading file: fd: 0x2D, size: 3297
+[21:37:26.113] |T| [close_file]:  sceIoClose: Closing file: fd: 0x2D
+[21:37:26.119] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_01/Car_01_FileListDisc.info
+[21:37:26.119] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_01/Car_01_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_01/Car_01_FileListDisc.info)
+[21:37:26.120] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_01/Car_01_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_01/Car_01_FileListDisc.info)
+[21:37:26.121] |T| [read_file]:  sceIoRead: Reading file: fd: 0x2E, size: 487
+[21:37:26.121] |T| [close_file]:  sceIoClose: Closing file: fd: 0x2E
+[21:37:26.122] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_02/Car_02_FileListDisc.info
+[21:37:26.122] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_02/Car_02_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_02/Car_02_FileListDisc.info)
+[21:37:26.123] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_02/Car_02_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_02/Car_02_FileListDisc.info)
+[21:37:26.123] |T| [read_file]:  sceIoRead: Reading file: fd: 0x2F, size: 488
+[21:37:26.124] |T| [close_file]:  sceIoClose: Closing file: fd: 0x2F
+[21:37:26.124] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_03/Car_03_FileListDisc.info
+[21:37:26.125] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_03/Car_03_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_03/Car_03_FileListDisc.info)
+[21:37:26.145] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_03/Car_03_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_03/Car_03_FileListDisc.info)
+[21:37:26.146] |T| [read_file]:  sceIoRead: Reading file: fd: 0x30, size: 488
+[21:37:26.146] |T| [close_file]:  sceIoClose: Closing file: fd: 0x30
+[21:37:26.148] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_04/Car_04_FileListDisc.info
+[21:37:26.148] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_04/Car_04_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_04/Car_04_FileListDisc.info)
+[21:37:26.149] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_04/Car_04_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_04/Car_04_FileListDisc.info)
+[21:37:26.149] |T| [read_file]:  sceIoRead: Reading file: fd: 0x31, size: 488
+[21:37:26.150] |T| [close_file]:  sceIoClose: Closing file: fd: 0x31
+[21:37:26.151] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_05/Car_05_FileListDisc.info
+[21:37:26.151] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_05/Car_05_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_05/Car_05_FileListDisc.info)
+[21:37:26.152] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_05/Car_05_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_05/Car_05_FileListDisc.info)
+[21:37:26.152] |T| [read_file]:  sceIoRead: Reading file: fd: 0x32, size: 488
+[21:37:26.152] |T| [close_file]:  sceIoClose: Closing file: fd: 0x32
+[21:37:26.153] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_06/Car_06_FileListDisc.info
+[21:37:26.153] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_06/Car_06_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_06/Car_06_FileListDisc.info)
+[21:37:26.154] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_06/Car_06_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_06/Car_06_FileListDisc.info)
+[21:37:26.154] |T| [read_file]:  sceIoRead: Reading file: fd: 0x33, size: 452
+[21:37:26.154] |T| [close_file]:  sceIoClose: Closing file: fd: 0x33
+[21:37:26.155] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/Car/Car_07/Car_07_FileListDisc.info
+[21:37:26.156] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/Car/Car_07/Car_07_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_07/Car_07_FileListDisc.info)
+[21:37:26.156] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/Car/Car_07/Car_07_FileListDisc.info (ux0:/app/PCSG00001//Disc/Car/Car_07/Car_07_FileListDisc.info)
+[21:37:26.157] |T| [read_file]:  sceIoRead: Reading file: fd: 0x34, size: 452
+[21:37:26.157] |T| [close_file]:  sceIoClose: Closing file: fd: 0x34
+[21:37:26.158] |I| [export_sceIoOpen]:  Opening file: app0:/Disc/RRN.DAT
+[21:37:26.158] |T| [open_file]:  sceIoOpen: Opening file app0:/Disc/RRN.DAT (ux0:/app/PCSG00001//Disc/RRN.DAT)
+[21:37:26.161] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/Disc/RRN.DAT (ux0:/app/PCSG00001//Disc/RRN.DAT)
+[21:37:26.165] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0x35 at offset: 0x4A29000, whence: SCE_SEEK_SET
+[21:37:26.166] |T| [read_file]:  sceIoPread: Reading file: fd: 0x35, size: 313344
+[21:37:26.203] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0x35 at offset: 0xFDB000, whence: SCE_SEEK_SET
+[21:37:26.204] |T| [read_file]:  sceIoPread: Reading file: fd: 0x35, size: 2048
+[21:37:26.210] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0x35 at offset: 0xCC1000, whence: SCE_SEEK_SET
+[21:37:26.211] |T| [read_file]:  sceIoPread: Reading file: fd: 0x35, size: 2097152
+[21:37:26.239] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0x35 at offset: 0xEC1000, whence: SCE_SEEK_SET
+[21:37:26.240] |T| [read_file]:  sceIoPread: Reading file: fd: 0x35, size: 1155072
+[21:37:26.570] |I| [renderer::create]:  GL_VERSION = 4.1.13399 Core Profile Context 15.200.1062.1004
+[21:37:26.570] |I| [renderer::create]:  GL_SHADING_LANGUAGE_VERSION = 4.40
+[21:37:26.573] |W| [stubbed_impl]:  Stubbed sceKernelGetThreadCurrentPriority_ import called. (STUB)
+255

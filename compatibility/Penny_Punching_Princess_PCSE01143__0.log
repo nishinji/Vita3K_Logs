@@ -1,0 +1,48 @@
+[18:50:16.878] |I| [config::init]:  input-installed-id: PCSE01143
+[18:50:16.879] |I| [config::init]:  log-level: 0
+[18:50:16.879] |I| [config::init]:  log-imports: false
+[18:50:16.880] |I| [config::init]:  log-exports: false
+[18:50:16.880] |I| [config::init]:  log-active-shaders: false
+[18:50:16.880] |I| [config::init]:  log-uniforms: false
+[18:50:16.880] |I| [SDL_main]:  Vita3K v0.1 687-ebee18e
+[18:50:17.177] |I| [init]:  Swap interval = -1
+[18:50:17.190] |I| [load_app_impl]:  Title: Penny-Punching Princess
+[18:50:17.190] |I| [load_app_impl]:  Serial: PCSE01143
+[18:50:17.191] |I| [load_app_impl]:  Category: gd
+[18:50:17.200] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libc.suprx
+[18:50:17.201] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x48314
+[18:50:17.201] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3D4DC
+[18:50:17.202] |W| [load_var_imports]:  	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x4163C, setting to stub value 0xDEADBEEF
+[18:50:17.202] |W| [load_var_imports]:  	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x431D0, setting to stub value 0xDEADBEEF
+[18:50:17.202] |I| [load_app_impl]:  Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[18:50:17.208] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[18:50:17.208] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x84BC8
+[18:50:17.208] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7BF08
+[18:50:17.209] |W| [load_var_imports]:  	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x7C9D4, setting to stub value 0xDEADBEEF
+[18:50:17.209] |I| [load_app_impl]:  Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[18:50:17.211] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libult.suprx
+[18:50:17.212] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x9E2E8
+[18:50:17.213] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9B870
+[18:50:17.214] |W| [load_var_imports]:  	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x9BDF8, setting to stub value 0xDEADBEEF
+[18:50:17.220] |W| [load_var_imports]:  	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x9C0BC, setting to stub value 0xDEADBEEF
+[18:50:17.221] |I| [load_app_impl]:  Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[18:50:17.280] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[18:50:17.281] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x287DD4
+[18:50:17.283] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x2D7FD8
+[18:50:17.284] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x2B9E2C
+[18:50:17.285] |W| [load_var_imports]:  	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x288F04, setting to stub value 0xDEADBEEF
+[18:50:17.291] |I| [load_app_impl]:  Main executable game (eboot.bin) loaded
+[18:50:17.296] |D| [run_app]:  Running module_start of library: SceLibc
+[18:50:17.455] |T| [open_file]:  sceKernelGetStdin: Opening file tty0: (tty0:)
+[18:50:17.456] |T| [open_file]:  sceKernelGetStdout: Opening file tty0: (tty0:)
+[18:50:17.457] |T| [open_file]:  sceKernelGetStderr: Opening file tty0: (tty0:)
+[18:50:17.465] |I| [run_app]:  Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[18:50:17.467] |D| [run_app]:  Running module_start of library: SceLibFios2
+[18:50:17.472] |W| [stubbed_impl]:  Stubbed sceKernelGetProcessId import called. (pid: 0)
+[18:50:17.473] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayGetList02 import called.
+[18:50:17.475] |I| [run_app]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[18:50:17.483] |D| [run_app]:  Running module_start of library: SceUlt
+[18:50:17.487] |E| [call_import]:  Import function for NID 0x50F2F2AA not found (thread name: SceUlt, thread ID: 38)
+[18:50:17.489] |I| [run_app]:  Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[18:50:17.513] |W| [unimplemented_impl]:  Unimplemented sceKernelGetModuleInfoByAddr import called.
+[18:50:17.516] |W| [unimplemented_impl]:  Unimplemented sceKernelRegisterThreadEventHandler import called.

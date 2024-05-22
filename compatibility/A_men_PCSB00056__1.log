@@ -1,0 +1,541 @@
+[14:11:57.255] |I| [config::init_config]: backend-renderer: Vulkan
+[14:11:57.257] |I| [config::init_config]: log-level: 0
+[14:11:57.457] |I| [SDL_main]: Vita3K v0.1.8 3145-70201583
+[14:11:57.458] |I| [SDL_main]: Number of logical CPU cores: 8
+[14:11:57.458] |I| [SDL_main]: Available ram memory: 16215 MiB
+[14:11:57.664] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[14:11:57.829] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060 Laptop GPU
+[14:11:57.829] |I| [renderer::vulkan::VKState::create]: Driver version: 531.29.0.0
+[14:11:57.830] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[14:11:58.417] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[14:11:59.750] |I| [compat::update_compat_app_db]: Applications compatibility database is outdated, attempting to download latest updated at: 05-09-2023 13:10:26
+[14:12:00.213] |E| [https::get_web_response]: 404 Not Found
+[14:12:00.214] |E| [https::download_file]: Failed to get header on redirected url: https://objects.githubusercontent.com/github-production-release-asset-2e65be/130765034/9e515551-db68-4c5c-90d6-63c28c60bb61?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230509%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230509T131035Z&X-Amz-Expires=300&X-Amz-Signature=fdb19f4fdfad810afa37e5e8fdecf53d5bb7f8a30d0d8714b8d0e28af018adc7&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=130765034&response-content-disposition=attachment%3B%20filename%3Dapp_compat_db.xml&response-content-type=application%2Foctet-stream
+[14:12:09.810] |I| [load_app_impl]: cpu-backend: Dynarmic
+[14:12:09.810] |I| [load_app_impl]: CPU Optimisation state: true
+[14:12:09.811] |I| [load_app_impl]: ngs state: true
+[14:12:09.811] |I| [load_app_impl]: Resolution multiplier: 2
+[14:12:09.811] |I| [load_app_impl]: modules mode: Automatic
+[14:12:09.812] |I| [load_app_impl]: Title: A-men
+[14:12:09.812] |I| [load_app_impl]: Serial: PCSB00056
+[14:12:09.812] |I| [load_app_impl]: Version: 1.00
+[14:12:09.813] |I| [load_app_impl]: Category: gd
+[14:12:09.855] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[14:12:09.856] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x00040F34 / 0x81000000] (size: 0x0003BF34) of module app0:sce_module/libc.suprx
+[14:12:09.861] |I| [load_self]: Loaded module segment 1 @ [0x00041000 - 0x0004333C / 0x8103C000] (size: 0x0000233C) of module app0:sce_module/libc.suprx
+[14:12:09.864] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[14:12:09.865] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x32a70
+[14:12:09.866] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[14:12:09.897] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[14:12:09.898] |I| [load_self]: Loaded module segment 0 @ [0x00044000 - 0x00065E94 / 0x81000000] (size: 0x00021E94) of module app0:sce_module/libfios2.suprx
+[14:12:09.902] |I| [load_self]: Loaded module segment 1 @ [0x00066000 - 0x0006B22C / 0x81022000] (size: 0x0000522C) of module app0:sce_module/libfios2.suprx
+[14:12:09.907] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[14:12:09.908] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x5f888
+[14:12:09.908] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[14:12:09.920] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[14:12:09.920] |I| [load_self]: Loaded module segment 0 @ [0x0006C000 - 0x000806AC / 0x81000000] (size: 0x000146AC) of module app0:sce_module/libult.suprx
+[14:12:09.921] |I| [load_self]: Loaded module segment 1 @ [0x00081000 - 0x00081810 / 0x81015000] (size: 0x00000810) of module app0:sce_module/libult.suprx
+[14:12:09.924] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[14:12:09.925] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x7d390
+[14:12:09.926] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[14:12:09.948] |I| [load_self]: Loaded module segment 0 @ [0x00082000 - 0x000D2F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[14:12:09.949] |I| [load_self]: Loaded module segment 1 @ [0x000D3000 - 0x000D32F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[14:12:09.950] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[14:12:09.951] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xbe7dc
+[14:12:09.952] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xbdf10
+[14:12:09.954] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[14:12:09.984] |I| [load_self]: Loaded module segment 0 @ [0x000D4000 - 0x000E3F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[14:12:09.985] |I| [load_self]: Loaded module segment 1 @ [0x000E4000 - 0x000E4008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[14:12:09.987] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[14:12:09.987] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xe2710
+[14:12:09.988] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xe2300
+[14:12:09.990] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[14:12:10.109] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[14:12:10.110] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81286930 / 0x81000000] (size: 0x00286930) of module app0:eboot.bin
+[14:12:10.113] |I| [load_self]: Loaded module segment 1 @ [0x81287000 - 0x812F3704 / 0x81287000] (size: 0x0006C704) of module app0:eboot.bin
+[14:12:10.114] |I| [load_self]: Linking SELF app0:eboot.bin...
+[14:12:10.116] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8122f72c
+[14:12:10.118] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x81287150
+[14:12:10.118] |I| [load_app_impl]: Main executable core (eboot.bin) loaded
+[14:12:10.149] |D| [run_app]: Running module_start of library: SceLibc at address 0x55e5
+[14:12:10.230] |I| [export_sceIoOpen]: Opening file: tty0:
+[14:12:10.231] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[14:12:10.232] |I| [export_sceIoOpen]: Opening file: tty0:
+[14:12:10.233] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[14:12:10.234] |I| [export_sceIoOpen]: Opening file: tty1:
+[14:12:10.234] |T| [open_file]: sceIoOpen: Opening terminal tty1:
+[14:12:10.245] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[14:12:10.250] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x44001
+[14:12:10.277] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[14:12:10.282] |D| [run_app]: Running module_start of library: SceUlt at address 0x6fd69
+[14:12:10.308] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[14:12:10.415] |T| [write_file]: *** TTY: [42m********** Game "Undisclosed Project" ver 1.0 by iFun4All ********** 104857600[0m
+[14:12:10.454] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[14:12:10.455] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
+[14:12:10.589] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[14:12:10.591] |W| [stubbed_impl]: Stubbed _sceFiosKernelOverlayResolveWithRangeSync import called. (Using strncpy)
+[14:12:10.605] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
+[14:12:10.614] |I| [export_sceIoOpen]: Opening file: app0:/game_data.psarc
+[14:12:10.615] |T| [open_file]: sceIoOpen: Opening file app0:/game_data.psarc (ux0:/app/PCSB00056/game_data.psarc), fd: 0x3
+[14:12:10.642] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[14:12:10.651] |I| [export_sceIoOpen]: Opening file: app0:/game_data.psarc
+[14:12:10.652] |T| [open_file]: sceIoOpen: Opening file app0:/game_data.psarc (ux0:/app/PCSB00056/game_data.psarc), fd: 0x4
+[14:12:10.778] |I| [load_module]: Loading module ID: 0x13
+[14:12:10.780] |I| [load_self]: sys/external/libsystemgesture.suprx: Skipping special segment 0x6fffff01...
+[14:12:10.781] |I| [load_self]: Loaded module segment 0 @ [0x06541000 - 0x0654408C / 0x81000000] (size: 0x0000308C) of module sys/external/libsystemgesture.suprx
+[14:12:10.782] |I| [load_self]: Loaded module segment 1 @ [0x06545000 - 0x06545BF0 / 0x81004000] (size: 0x00000BF0) of module sys/external/libsystemgesture.suprx
+[14:12:10.783] |I| [load_self]: Linking SELF sys/external/libsystemgesture.suprx...
+[14:12:10.784] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x6544074
+[14:12:10.785] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x6543bd4
+[14:12:10.786] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") loaded
+[14:12:10.788] |D| [load_module]: Running module_start of module: SceSystemGesture
+[14:12:10.790] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") module_start returned 0x0
+[14:12:10.794] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x6078a08b sceSystemGestureInitializePrimitiveTouchRecognizer at 0x8122dfbc
+[14:12:10.796] |W| [stubbed_impl]: Stubbed sceTouchGetPixelDensity2 import called. (Return constant values (22.0))
+[14:12:10.797] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[14:12:10.832] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[14:12:10.906] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[14:12:10.932] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetParamErrorCallback import called.
+[14:12:10.937] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1B5120:0:0 to 0x1B5770:0
+[14:12:10.938] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A1CA0:0:0 to 0x1B5770:0
+[14:12:10.939] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A21B0:0:0 to 0x1B5770:0
+[14:12:10.941] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A26C0:0:0 to 0x1B5770:0
+[14:12:10.942] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A2BD0:0:0 to 0x1B5770:0
+[14:12:10.944] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A30E0:0:0 to 0x1B5770:0
+[14:12:10.947] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A35F0:0:0 to 0x1B5770:0
+[14:12:10.948] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A3B00:0:0 to 0x1B5770:0
+[14:12:10.949] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A4010:0:0 to 0x1B5770:0
+[14:12:10.949] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A4520:0:0 to 0x1B5770:0
+[14:12:10.950] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A4A30:0:0 to 0x1B5770:0
+[14:12:10.951] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A4F40:0:0 to 0x1B5770:0
+[14:12:10.952] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A5450:0:0 to 0x1B5770:0
+[14:12:10.953] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A5960:0:0 to 0x1B5770:0
+[14:12:10.955] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A5E70:0:0 to 0x1B5770:0
+[14:12:10.956] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A6380:0:0 to 0x1B5770:0
+[14:12:10.957] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A6890:0:0 to 0x1B5770:0
+[14:12:10.957] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A6DA0:0:0 to 0x1B5770:0
+[14:12:10.960] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A72B0:0:0 to 0x1B5770:0
+[14:12:10.961] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A77C0:0:0 to 0x1B5770:0
+[14:12:10.963] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A7CD0:0:0 to 0x1B5770:0
+[14:12:10.964] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A81E0:0:0 to 0x1B5770:0
+[14:12:10.964] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A86F0:0:0 to 0x1B5770:0
+[14:12:10.965] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A8C00:0:0 to 0x1B5770:0
+[14:12:10.966] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A9110:0:0 to 0x1B5770:0
+[14:12:10.967] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A9620:0:0 to 0x1B5770:0
+[14:12:10.968] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1A9B30:0:0 to 0x1B5770:0
+[14:12:10.969] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AA040:0:0 to 0x1B5770:0
+[14:12:10.970] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AA550:0:0 to 0x1B5770:0
+[14:12:10.971] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AAA60:0:0 to 0x1B5770:0
+[14:12:10.971] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AAF70:0:0 to 0x1B5770:0
+[14:12:10.973] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AB480:0:0 to 0x1B5770:0
+[14:12:10.978] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AB990:0:0 to 0x1B5770:0
+[14:12:10.980] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1ABEA0:0:0 to 0x1B5770:0
+[14:12:10.982] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AC3B0:0:0 to 0x1B5770:0
+[14:12:10.983] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AC8C0:0:0 to 0x1B5770:0
+[14:12:10.984] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1ACDD0:0:0 to 0x1B5770:0
+[14:12:10.985] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AD2E0:0:0 to 0x1B5770:0
+[14:12:10.986] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AD7F0:0:0 to 0x1B5770:0
+[14:12:10.987] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1ADD00:0:0 to 0x1B5770:0
+[14:12:10.987] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AE210:0:0 to 0x1B5770:0
+[14:12:10.988] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AE720:0:0 to 0x1B5770:0
+[14:12:10.994] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AEC30:0:0 to 0x1B5770:0
+[14:12:10.996] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AF140:0:0 to 0x1B5770:0
+[14:12:10.998] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AF650:0:0 to 0x1B5770:0
+[14:12:10.999] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1AFB60:0:0 to 0x1B5770:0
+[14:12:11.000] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1B0070:0:0 to 0x1B5770:0
+[14:12:11.001] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1B0580:0:0 to 0x1B5770:0
+[14:12:11.001] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1B0A90:0:0 to 0x1B5770:0
+[14:12:11.003] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1B0FA0:0:0 to 0x1B5770:0
+[14:12:11.004] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1B14B0:0:0 to 0x1B5770:0
+[14:12:11.007] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1B19C0:0:0 to 0x1B5770:0
+[14:12:11.008] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1B1ED0:0:0 to 0x1B5770:0
+[14:12:11.011] |T| [export_sceNgsPatchCreateRouting]: Patching 0x1B23E0:0:0 to 0x1B5770:0
+[14:12:11.071] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[14:12:11.072] |W| [unimplemented_impl]: Unimplemented sceMotionSetTiltCorrection import called.
+[14:12:11.114] |E| [logging::ret_error_impl]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[14:12:11.118] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[14:12:11.118] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[14:12:11.120] |I| [load_module]: Loading module ID: 0x4
+[14:12:11.130] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[14:12:11.131] |I| [load_self]: Loaded module segment 0 @ [0x0748E000 - 0x074AB150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[14:12:11.135] |I| [load_self]: Loaded module segment 1 @ [0x06691000 - 0x06691640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[14:12:11.138] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[14:12:11.139] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x74a9e68
+[14:12:11.139] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x74a6ca0
+[14:12:11.140] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[14:12:11.141] |D| [load_module]: Running module_start of module: SceLibHttp
+[14:12:11.143] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[14:12:11.165] |I| [load_self]: Loaded module segment 0 @ [0x0870E000 - 0x08774EA4 / 0x81000000] (size: 0x00066EA4) of module sys/external/libssl.suprx
+[14:12:11.166] |I| [load_self]: Loaded module segment 1 @ [0x06692000 - 0x06697188 / 0x81067000] (size: 0x00005188) of module sys/external/libssl.suprx
+[14:12:11.168] |I| [load_self]: Linking SELF sys/external/libssl.suprx...
+[14:12:11.169] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x87609b0
+[14:12:11.170] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x875ac70
+[14:12:11.171] |I| [load_module]: Module SceLibSsl (at "sys/external/libssl.suprx") loaded
+[14:12:11.172] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x214926d9 sceHttpInit at 0x8122f0dc
+[14:12:11.177] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x3c733316 sceSslInit at 0x8122f0cc
+[14:12:11.185] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[14:12:11.223] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[14:12:11.226] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[14:12:11.230] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[14:12:11.269] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[14:12:11.289] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
+[14:12:11.309] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 39a64bdce67f6f9c8446c62f4631c62fe30e8767940a4dae9af2138c739ccd21
+[14:12:11.310] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 39a64bdce67f6f9c8446c62f4631c62fe30e8767940a4dae9af2138c739ccd21
+[14:12:11.317] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float2) aPosition
+[14:12:11.319] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[14:12:11.333] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5b2a285a9e204e552a8eff75069de67d8ba133732581442e6c353403cef48c07
+[14:12:11.337] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5b2a285a9e204e552a8eff75069de67d8ba133732581442e6c353403cef48c07
+[14:12:11.340] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_clearColor
+[14:12:11.340] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[14:12:11.342] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[14:12:12.039] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 53626e3f565c3c639e9b03983aab245d428ac6bd5e7dc58881ee774bdcc4b265
+[14:12:12.042] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 53626e3f565c3c639e9b03983aab245d428ac6bd5e7dc58881ee774bdcc4b265
+[14:12:12.045] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float3) IN_position
+[14:12:12.046] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float2) IN_texCoord
+[14:12:12.047] |D| [shader::create_parameters]: [BUFFER0  + 6] pa6 = (float4) IN_color
+[14:12:12.048] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_ModelViewProjectionMatrix[4]
+[14:12:12.049] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) g_PointSize
+[14:12:12.050] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[14:12:12.056] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 12
+[14:12:12.083] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3058e6c324096bd5c018afd0f721feac187e8791257ad4e90b59a6519bf9498e
+[14:12:12.086] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 3058e6c324096bd5c018afd0f721feac187e8791257ad4e90b59a6519bf9498e
+[14:12:12.091] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[14:12:12.091] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(g_Texture0, TEXCOORD0.xy)
+[14:12:12.092] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[14:12:12.135] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2d88b4e2d4e562ebfc78f29a6bdeef9379adb17929255d5f2743688a1008e238
+[14:12:12.136] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 2d88b4e2d4e562ebfc78f29a6bdeef9379adb17929255d5f2743688a1008e238
+[14:12:12.139] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float3) position
+[14:12:12.139] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float2) texCoord
+[14:12:12.140] |D| [shader::create_parameters]: [BUFFER0  + 6] pa6 = (float4) color
+[14:12:12.141] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_ModelViewProjectionMatrix[4]
+[14:12:12.141] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) g_PointSize
+[14:12:12.142] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[14:12:12.148] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[14:12:12.165] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fc8b6eda1ad28d090ebb028dd37973f0b826e01b3fe9f58516c1943a818dd88a
+[14:12:12.167] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader fc8b6eda1ad28d090ebb028dd37973f0b826e01b3fe9f58516c1943a818dd88a
+[14:12:12.172] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[14:12:12.172] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[14:12:12.433] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x62241dab sceHttpCreateTemplate at 0x8122ec9c
+[14:12:12.434] |W| [unimplemented_impl]: Unimplemented sceKernelGetSystemSwVersion import called.
+[14:12:12.439] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xaeb3307e sceHttpCreateConnection at 0x8122ecbc
+[14:12:12.443] |W| [unimplemented_impl]: Unimplemented sceAppMgrIsNonGameProgram import called.
+[14:12:12.443] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[14:12:13.800] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[14:12:13.802] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.803] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[14:12:13.805] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[14:12:13.808] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.812] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[14:12:13.813] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.814] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[14:12:13.815] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.816] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[14:12:13.818] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.820] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[14:12:13.822] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.828] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[14:12:13.829] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.830] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[14:12:13.835] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.836] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[14:12:13.837] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.838] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[14:12:13.841] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.844] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[14:12:13.847] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.848] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[14:12:13.851] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.852] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[14:12:13.854] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.856] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[14:12:13.860] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.864] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[14:12:13.866] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.867] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[14:12:13.868] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.871] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[14:12:13.876] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.877] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[14:12:13.879] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.881] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[14:12:13.882] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.885] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[14:12:13.886] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:13.892] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR02000_00/TROPHY.TRP (ux0:/app/PCSB00056/sce_sys/trophy/NPWR02000_00/TROPHY.TRP), fd: 0x5
+[14:12:13.895] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/trophy/data/NPWR02000_00/TROPUSR.DAT (target path: ux0:/user/00/trophy/data/NPWR02000_00/TROPUSR.DAT)
+[14:12:13.897] |W| [io_error_impl]: open_file (create_trophy_context) returned 0x80010002
+[14:12:13.899] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR02000_00/TROPCONF.SFM), fd: 0x6
+[14:12:13.900] |T| [write_file]: install_trophy_context: Writing to fd: 0x6, size: 1162
+[14:12:13.902] |T| [close_file]: install_trophy_context: Closing file fd: 0x6
+[14:12:13.903] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR02000_00/TROP.SFM), fd: 0x7
+[14:12:13.908] |T| [write_file]: install_trophy_context: Writing to fd: 0x7, size: 2561
+[14:12:13.912] |T| [close_file]: install_trophy_context: Closing file fd: 0x7
+[14:12:13.913] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP_00.SFM (ux0:/user/00/trophy/conf/NPWR02000_00/TROP_00.SFM), fd: 0x8
+[14:12:13.914] |T| [write_file]: install_trophy_context: Writing to fd: 0x8, size: 2705
+[14:12:13.915] |T| [close_file]: install_trophy_context: Closing file fd: 0x8
+[14:12:13.917] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP_01.SFM (ux0:/user/00/trophy/conf/NPWR02000_00/TROP_01.SFM), fd: 0x9
+[14:12:13.922] |T| [write_file]: install_trophy_context: Writing to fd: 0x9, size: 2561
+[14:12:13.923] |T| [close_file]: install_trophy_context: Closing file fd: 0x9
+[14:12:13.929] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR02000_00/TROP_02.SFM), fd: 0xa
+[14:12:13.931] |T| [write_file]: install_trophy_context: Writing to fd: 0xa, size: 2675
+[14:12:13.947] |T| [close_file]: install_trophy_context: Closing file fd: 0xa
+[14:12:13.955] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR02000_00/TROP_03.SFM), fd: 0xb
+[14:12:13.961] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 2704
+[14:12:13.962] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[14:12:13.967] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR02000_00/TROP_04.SFM), fd: 0xc
+[14:12:13.978] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 2596
+[14:12:13.980] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[14:12:13.984] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR02000_00/TROP_05.SFM), fd: 0xd
+[14:12:13.990] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 2729
+[14:12:13.994] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[14:12:13.999] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP_16.SFM (ux0:/user/00/trophy/conf/NPWR02000_00/TROP_16.SFM), fd: 0xe
+[14:12:14.002] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 2588
+[14:12:14.003] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[14:12:14.005] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/ICON0.PNG), fd: 0xf
+[14:12:14.012] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 43767
+[14:12:14.017] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[14:12:14.022] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP000.PNG), fd: 0x10
+[14:12:14.026] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 62257
+[14:12:14.036] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[14:12:14.038] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP001.PNG), fd: 0x11
+[14:12:14.040] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 49053
+[14:12:14.041] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[14:12:14.043] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP002.PNG), fd: 0x12
+[14:12:14.045] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 46083
+[14:12:14.046] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[14:12:14.048] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP003.PNG), fd: 0x13
+[14:12:14.065] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 40245
+[14:12:14.065] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[14:12:14.067] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP004.PNG), fd: 0x14
+[14:12:14.069] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 35434
+[14:12:14.069] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[14:12:14.073] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP005.PNG), fd: 0x15
+[14:12:14.076] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 41116
+[14:12:14.078] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[14:12:14.081] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP006.PNG), fd: 0x16
+[14:12:14.083] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 56863
+[14:12:14.084] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[14:12:14.085] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP007.PNG), fd: 0x17
+[14:12:14.088] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 45835
+[14:12:14.094] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[14:12:14.099] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP008.PNG), fd: 0x18
+[14:12:14.101] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 70106
+[14:12:14.102] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[14:12:14.105] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP009.PNG), fd: 0x19
+[14:12:14.112] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 67556
+[14:12:14.112] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[14:12:14.120] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP010.PNG), fd: 0x1a
+[14:12:14.128] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 60649
+[14:12:14.131] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[14:12:14.151] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02000_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR02000_00/TROP011.PNG), fd: 0x1b
+[14:12:14.193] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 44437
+[14:12:14.195] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[14:12:14.198] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR02000_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR02000_00/TROPUSR.DAT), fd: 0x1c
+[14:12:14.200] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 4
+[14:12:14.202] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 16
+[14:12:14.202] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 16
+[14:12:14.203] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 4
+[14:12:14.204] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 4
+[14:12:14.209] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 4
+[14:12:14.211] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 64
+[14:12:14.212] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 1024
+[14:12:14.212] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 512
+[14:12:14.213] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x1c
+[14:12:14.214] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR02000_00 create successfuly!
+[14:12:14.222] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[14:12:26.241] |I| [load_module]: Loading module ID: 0x2d
+[14:12:26.246] |I| [load_self]: sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[14:12:26.246] |I| [load_self]: Loaded module segment 0 @ [0x084AC000 - 0x084BBD20 / 0x81000000] (size: 0x0000FD20) of module sys/external/libscemp4.suprx
+[14:12:26.251] |I| [load_self]: Loaded module segment 1 @ [0x06AA1000 - 0x06AA1028 / 0x81010000] (size: 0x00000028) of module sys/external/libscemp4.suprx
+[14:12:26.253] |I| [load_self]: Linking SELF sys/external/libscemp4.suprx...
+[14:12:26.258] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x84bb9d0
+[14:12:26.258] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x84ba8c4
+[14:12:26.261] |I| [load_module]: Module SceMp4 (at "sys/external/libscemp4.suprx") loaded
+[14:12:26.267] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x5474af0 sceMp4OpenFile at 0x8122e9fc
+[14:12:26.348] |T| [log_import_call]: [LLE] TID: 103 FUNC: 0x30e49e4d sceMp4StartFileStreaming at 0x8122ea1c
+[14:12:26.435] |T| [log_import_call]: [LLE] TID: 103 FUNC: 0x8be0e3d3 sceMp4GetStreamInfo at 0x8122ea8c
+[14:12:26.469] |W| [unimplemented_impl]: Unimplemented sceClibVprintf import called.
+[14:12:26.469] |I| [export_sceClibPrintf]: 
+
+[14:12:26.474] |I| [export_sceClibPrintf]: 
+
+[14:12:26.477] |I| [export_sceClibPrintf]: 
+
+[14:12:26.479] |I| [export_sceClibPrintf]: 
+
+[14:12:26.480] |I| [export_sceClibPrintf]: 
+
+[14:12:26.482] |I| [export_sceClibPrintf]: 
+
+[14:12:26.483] |I| [export_sceClibPrintf]: 
+
+[14:12:26.484] |I| [export_sceClibPrintf]: 
+
+[14:12:26.489] |W| [stubbed_impl]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[14:12:26.492] |I| [export_sceClibPrintf]: 
+
+[14:12:26.495] |W| [stubbed_impl]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[14:12:26.498] |T| [log_import_call]: [LLE] TID: 103 FUNC: 0x609e57ad sceMp4EnableStream at 0x8122ea5c
+[14:12:26.506] |I| [export_sceClibPrintf]: 
+
+[14:12:26.507] |I| [export_sceClibPrintf]: 
+
+[14:12:26.511] |I| [export_sceClibPrintf]: 
+
+[14:12:26.513] |I| [export_sceClibPrintf]: 
+
+[14:12:26.514] |I| [export_sceClibPrintf]: 
+
+[14:12:26.515] |W| [stubbed_impl]: Stubbed sceAudiodecGetContextSize import called. (fake size)
+[14:12:26.582] |T| [log_import_call]: [LLE] TID: 103 FUNC: 0x20a01112 sceMp4GetNextUnit at 0x8122ea0c
+[14:12:26.595] |T| [log_import_call]: [LLE] TID: 103 FUNC: 0xd092a066 sceMp4GetNextUnitData at 0x8122eafc
+[14:12:26.609] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[14:12:42.009] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[14:12:42.009] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[14:12:46.945] |W| [stubbed_impl]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[14:12:46.947] |W| [unimplemented_impl]: Unimplemented sceKernelCloseMutex import called.
+[14:12:46.953] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x920623c8 sceMp4CloseFile at 0x8122ea9c
+[14:12:46.964] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x7b4832fe sceMp4ReleaseBuffer at 0x8122ea7c
+[14:12:46.969] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
+[14:12:47.142] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[14:12:47.142] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.143] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[14:12:47.143] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.144] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[14:12:47.144] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.145] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[14:12:47.145] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.146] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[14:12:47.146] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.147] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[14:12:47.147] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.148] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[14:12:47.148] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.149] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[14:12:47.149] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.149] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[14:12:47.150] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.152] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[14:12:47.156] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.356] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[14:12:47.357] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.358] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[14:12:47.359] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.360] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[14:12:47.361] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.362] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[14:12:47.363] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.364] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[14:12:47.364] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.365] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[14:12:47.366] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.367] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[14:12:47.368] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.368] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[14:12:47.369] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.369] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[14:12:47.370] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.376] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[14:12:47.377] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.386] |T| [write_file]: *** TTY: 
+[14:12:47.393] |T| [write_file]: *** TTY: ------------------------------------------------------
+app startups: 1
+[14:12:47.395] |T| [write_file]: *** TTY: less than 1 days: 0
+[14:12:47.396] |T| [write_file]: *** TTY: less than 2 days: 0
+[14:12:47.397] |T| [write_file]: *** TTY: less than 3 days: 0
+[14:12:47.397] |T| [write_file]: *** TTY: less than 4 days: 0
+[14:12:47.398] |T| [write_file]: *** TTY: less than 5 days: 0
+[14:12:47.398] |T| [write_file]: *** TTY: less than 6 days: 0
+[14:12:47.399] |T| [write_file]: *** TTY: less than 7 days: 0
+[14:12:47.399] |T| [write_file]: *** TTY: less than 14 days: 0
+[14:12:47.400] |T| [write_file]: *** TTY: less than 21 days: 0
+[14:12:47.401] |T| [write_file]: *** TTY: less than 28 days: 0
+[14:12:47.406] |T| [write_file]: *** TTY: less than 35 days: 0
+[14:12:47.406] |T| [write_file]: *** TTY: less than 42 days: 0
+[14:12:47.408] |T| [write_file]: *** TTY: less than 4294967295 days: 0
+[14:12:47.409] |T| [write_file]: *** TTY: 
+[14:12:47.417] |T| [write_file]: *** TTY: min times: -1	-1	-1
+max times: -1	-1	-1
+total time: 0
+[14:12:47.420] |T| [write_file]: *** TTY: session time: 34.9887
+[14:12:47.421] |T| [write_file]: *** TTY: new_counter: 0
+[14:12:47.422] |T| [write_file]: *** TTY: medals: 0
+[14:12:47.422] |T| [write_file]: *** TTY: near find: 0
+[14:12:47.423] |T| [write_file]: *** TTY: near give: 0
+[14:12:47.424] |T| [write_file]: *** TTY: equip: 0
+[14:12:47.425] |T| [write_file]: *** TTY: app_startup_count: 1
+[14:12:47.426] |T| [write_file]: *** TTY: app_startup_time: 1683637930
+[14:12:47.430] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[14:12:47.431] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.432] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[14:12:47.432] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.437] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[14:12:47.440] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.440] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[14:12:47.441] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.442] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[14:12:47.444] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.444] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[14:12:47.445] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.446] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[14:12:47.446] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.447] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[14:12:47.448] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.451] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[14:12:47.452] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.453] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[14:12:47.453] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:47.461] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[14:12:47.461] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.462] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[14:12:47.463] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.464] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[14:12:47.467] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.470] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[14:12:47.470] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.471] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[14:12:47.472] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.473] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[14:12:47.474] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.475] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[14:12:47.475] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.477] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[14:12:47.478] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.481] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[14:12:47.482] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.483] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[14:12:47.484] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[14:12:47.490] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[14:12:49.408] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[14:12:49.409] |W| [io_error_impl]: open_file (sceSaveDataDialogContinue) returned 0x80010002
+[14:12:50.460] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[14:12:50.462] |W| [io_error_impl]: open_file (sceSaveDataDialogContinue) returned 0x80010002
+[14:12:50.525] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSB00056/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[14:12:50.528] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[14:12:50.550] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/my_data000.bin (ux0:/user/00/savedata/PCSB00056/my_data000.bin), fd: 0x1d
+[14:12:50.553] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x1d, size: 51200
+[14:12:50.561] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x1d
+[14:12:50.565] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00056/SlotParam_0.bin), fd: 0x1e
+[14:12:50.569] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x1e, size: 844
+[14:12:50.574] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x1e
+[14:12:50.597] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00056/SlotParam_0.bin), fd: 0x1f
+[14:12:50.599] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x1f
+[14:12:51.893] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3dd3fe3c583cfd32f29c2ff3f27a285514ca0804d7f25c40e04987a157f35e7e
+[14:12:51.895] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 3dd3fe3c583cfd32f29c2ff3f27a285514ca0804d7f25c40e04987a157f35e7e
+[14:12:51.897] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_ScissorRect
+[14:12:51.897] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_TexCoord0
+[14:12:51.898] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (float4) v_Color0
+[14:12:51.900] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float2) v_Position
+[14:12:51.900] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[14:12:51.902] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[14:12:51.904] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[14:12:51.905] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 1
+[14:12:51.906] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 1
+[14:12:51.911] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_6, size = 1
+[14:12:51.913] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_7, size = 1
+[14:12:51.914] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_8, size = 1
+[14:12:51.915] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_9, size = 7
+[14:12:53.103] |I| [ngs::player::Module::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[14:13:11.354] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[14:13:11.355] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[14:13:11.358] |E| [discordrpc::update_presence::<lambda_1>::operator ()]: Error updating Discord Rich Presence, err_code: 43

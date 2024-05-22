@@ -1,0 +1,888 @@
+[11:56:22.435] |I| [config::init_config]: backend-renderer: Vulkan
+[11:56:22.462] |I| [config::init_config]: log-level: 0
+[11:56:23.067] |I| [SDL_main]: Vita3K v0.1.9 3423-eb6c81b6
+[11:56:23.068] |I| [SDL_main]: Number of logical CPU cores: 2
+[11:56:23.106] |I| [SDL_main]: Available ram memory: 3959 MiB
+[11:56:24.902] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[11:56:27.070] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[11:56:27.070] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[11:56:27.072] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[11:56:27.189] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[11:56:31.448] |I| [compat::update_app_compat_db]: Applications compatibility database is up to date.
+[11:57:03.764] |I| [renderer::vulkan::VKState::late_init]: Using shader interlock for accurate framebuffer fetch emulation
+[11:57:03.898] |I| [load_app_impl]: cpu-backend: Dynarmic
+[11:57:03.914] |I| [load_app_impl]: CPU Optimisation state: true
+[11:57:03.916] |I| [load_app_impl]: ngs state: true
+[11:57:03.916] |I| [load_app_impl]: Resolution multiplier: 1
+[11:57:03.916] |I| [load_app_impl]: modules mode: Automatic
+[11:57:03.916] |I| [load_app_impl]: Title: Blind Men
+[11:57:03.916] |I| [load_app_impl]: Serial: PCSE01457
+[11:57:03.917] |I| [load_app_impl]: Version: 1.00
+[11:57:03.917] |I| [load_app_impl]: Category: gd
+[11:57:03.972] |I| [load_module]: Loading module "app0:eboot.bin"
+[11:57:05.033] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[11:57:05.041] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x006FF8C4 / 0x81000000] (size: 0x006FA8C4) of module app0:eboot.bin
+[11:57:05.041] |I| [load_self]: Loaded module segment 1 @ [0x00700000 - 0x007988B0 / 0x816FB000] (size: 0x000988B0) of module app0:eboot.bin
+[11:57:05.042] |I| [load_self]: Linking SELF app0:eboot.bin...
+[11:57:05.043] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x57a6d4
+[11:57:05.044] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x7745b8
+[11:57:05.045] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x6fe478
+[11:57:05.054] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x58b870, setting to stub value 0xdeadbeef
+[11:57:05.058] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x58b238, setting to stub value 0xdeadbeef
+[11:57:05.063] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x58b7ac, setting to stub value 0xdeadbeef
+[11:57:05.067] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x58b8e4, setting to stub value 0xdeadbeef
+[11:57:05.073] |W| [load_var_imports]: 	NID NOT FOUND 0x1e8c6100 (UNRECOGNISED) at 0x58ba64, setting to stub value 0xdeadbeef
+[11:57:05.077] |W| [load_var_imports]: 	NID NOT FOUND 0x35e135a0 (UNRECOGNISED) at 0x58baa4, setting to stub value 0xdeadbeef
+[11:57:05.081] |W| [load_var_imports]: 	NID NOT FOUND 0x59160432 (UNRECOGNISED) at 0x58badc, setting to stub value 0xdeadbeef
+[11:57:05.090] |W| [load_var_imports]: 	NID NOT FOUND 0x6bc74629 (UNRECOGNISED) at 0x58b134, setting to stub value 0xdeadbeef
+[11:57:05.095] |W| [load_var_imports]: 	NID NOT FOUND 0x7321e731 (UNRECOGNISED) at 0x58ba38, setting to stub value 0xdeadbeef
+[11:57:05.100] |W| [load_var_imports]: 	NID NOT FOUND 0x82a84e5e (UNRECOGNISED) at 0x58ba68, setting to stub value 0xdeadbeef
+[11:57:05.107] |W| [load_var_imports]: 	NID NOT FOUND 0xaff3bc67 (UNRECOGNISED) at 0x58bac8, setting to stub value 0xdeadbeef
+[11:57:05.112] |W| [load_var_imports]: 	NID NOT FOUND 0xbac29e4d (UNRECOGNISED) at 0x58ba90, setting to stub value 0xdeadbeef
+[11:57:05.116] |W| [load_var_imports]: 	NID NOT FOUND 0xddae7cbe (UNRECOGNISED) at 0x58ba7c, setting to stub value 0xdeadbeef
+[11:57:05.128] |W| [load_var_imports]: 	NID NOT FOUND 0xf79ae8e1 (UNRECOGNISED) at 0x58b0b0, setting to stub value 0xdeadbeef
+[11:57:05.135] |I| [load_module]: Module Bmen (at "app0:eboot.bin") loaded
+[11:57:05.138] |I| [load_app_impl]: Main executable Bmen (eboot.bin) loaded
+[11:57:05.164] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[11:57:05.255] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[11:57:05.256] |I| [load_self]: Loaded module segment 0 @ [0x007A7000 - 0x007F891C / 0x81000000] (size: 0x0005191C) of module app0:sce_module/libc.suprx
+[11:57:05.262] |I| [load_self]: Loaded module segment 1 @ [0x007F9000 - 0x007FB8A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[11:57:05.267] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[11:57:05.269] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x7f0468
+[11:57:05.270] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x7ef1d0
+[11:57:05.272] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x7f0260
+[11:57:05.276] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x7f95b0
+[11:57:05.287] |D| [load_var_exports]: Found previously not found variable. nid:0x1e8c6100, new_entry_point:0x7f68b0
+[11:57:05.289] |D| [load_var_exports]: Found previously not found variable. nid:0x35e135a0, new_entry_point:0x7f67e8
+[11:57:05.291] |D| [load_var_exports]: Found previously not found variable. nid:0x59160432, new_entry_point:0x7f67f4
+[11:57:05.292] |D| [load_var_exports]: Found previously not found variable. nid:0x6bc74629, new_entry_point:0x7f81a8
+[11:57:05.293] |D| [load_var_exports]: Found previously not found variable. nid:0x7321e731, new_entry_point:0x7f81b8
+[11:57:05.295] |D| [load_var_exports]: Found previously not found variable. nid:0x82a84e5e, new_entry_point:0x7f77dc
+[11:57:05.296] |D| [load_var_exports]: Found previously not found variable. nid:0xaff3bc67, new_entry_point:0x7f680c
+[11:57:05.297] |D| [load_var_exports]: Found previously not found variable. nid:0xbac29e4d, new_entry_point:0x7f7884
+[11:57:05.300] |D| [load_var_exports]: Found previously not found variable. nid:0xddae7cbe, new_entry_point:0x7f786c
+[11:57:05.302] |D| [load_var_exports]: Found previously not found variable. nid:0xf79ae8e1, new_entry_point:0x7f8198
+[11:57:05.303] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x7ee38c
+[11:57:05.307] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x7e3550
+[11:57:05.308] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[11:57:05.311] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[11:57:05.381] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[11:57:05.382] |I| [load_self]: Loaded module segment 0 @ [0x007FC000 - 0x00828CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[11:57:05.385] |I| [load_self]: Loaded module segment 1 @ [0x00799000 - 0x0079E255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[11:57:05.388] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[11:57:05.389] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x828bc8
+[11:57:05.391] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x81ff08
+[11:57:05.392] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[11:57:05.393] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[11:57:05.487] |I| [load_self]: Loaded module segment 0 @ [0x00829000 - 0x00879F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[11:57:05.491] |I| [load_self]: Loaded module segment 1 @ [0x0079F000 - 0x0079F2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[11:57:05.496] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[11:57:05.498] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8657dc
+[11:57:05.501] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x864f10
+[11:57:05.502] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[11:57:05.504] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[11:57:05.546] |I| [load_self]: Loaded module segment 0 @ [0x0087A000 - 0x00889F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[11:57:05.551] |I| [load_self]: Loaded module segment 1 @ [0x007A0000 - 0x007A0008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[11:57:05.553] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[11:57:05.555] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x888710
+[11:57:05.556] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x888300
+[11:57:05.577] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[11:57:05.678] |D| [start_module]: Running module_start of library: SceLibc at address 0x7a7871
+[11:57:05.903] |W| [export_sceKernelGetFreeMemorySize::<lambda_1>::operator ()]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[11:57:12.814] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x55fcbc9 mspace_create_with_flag at 0x579ad4
+[11:57:14.174] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[11:57:14.176] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[11:57:14.180] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[11:57:14.468] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[11:57:14.483] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x7fc001
+[11:57:18.503] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[11:57:18.784] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[11:57:19.011] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x579eb4
+[11:57:19.190] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x54f87eac _sceLdTlsRegisterModuleInfo at 0x579c44
+[11:57:19.197] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe080b96e mspace_malloc at 0x579f64
+[11:57:19.212] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x579f14
+[11:57:19.215] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x579fd4
+[11:57:19.218] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x579c14
+[11:57:19.444] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x579ce4
+[11:57:19.741] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x57a729db malloc_stats at 0x579c54
+[11:57:19.764] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8d2a14c4 mspace_malloc_stats at 0x579d64
+[11:57:20.563] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x579e04
+[11:57:20.565] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x52f780dd mspace_memalign at 0x579c34
+[11:57:20.573] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x579cc4
+[11:57:20.668] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0xbc529b7b __tls_get_addr at 0x579e74
+[11:57:20.681] |W| [export__sceKernelGetThreadInfo::<lambda_1>::operator ()]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[11:57:20.716] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[11:57:20.718] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x579dc4
+[11:57:20.721] |W| [export_sceAppUtilSaveDataSlotSearch::<lambda_1>::operator ()]: Stubbed sceAppUtilSaveDataSlotSearch import called. (No sort slot list)
+[11:57:21.004] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE01457/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[11:57:21.025] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotSearch) returned 0x80010002
+[11:57:21.094] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x579c74
+[11:57:21.207] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3cdfd2a3 mspace_free at 0x579bc4
+[11:57:21.216] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x579ca4
+[11:57:21.613] |T| [open_file]: sceAppUtilSaveDataSlotCreate: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01457/SlotParam_0.bin), fd: 0x3
+[11:57:21.622] |T| [write_file]: sceAppUtilSaveDataSlotCreate: Writing to fd: 0x3, size: 844
+[11:57:21.639] |T| [close_file]: sceAppUtilSaveDataSlotCreate: Closing file fd: 0x3
+[11:57:21.693] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01457/SlotParam_0.bin), fd: 0x4
+[11:57:21.700] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4
+[11:57:21.703] |T| [open_file]: sceAppUtilSaveDataSlotSetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01457/SlotParam_0.bin), fd: 0x5
+[11:57:21.705] |T| [write_file]: sceAppUtilSaveDataSlotSetParam: Writing to fd: 0x5, size: 844
+[11:57:21.719] |T| [close_file]: sceAppUtilSaveDataSlotSetParam: Closing file fd: 0x5
+[11:57:21.725] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa1bff606 snprintf at 0x579dd4
+[11:57:21.735] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/test.dat (ux0:/user/00/savedata/PCSE01457/test.dat), fd: 0x6
+[11:57:21.737] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x6, size: 1024
+[11:57:21.762] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x6
+[11:57:21.766] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/test.dat (ux0:/user/00/savedata/PCSE01457/test.dat), fd: 0x7
+[11:57:21.771] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0x7, to size: 1024
+[11:57:21.781] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x7
+[11:57:21.914] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01457/SlotParam_0.bin), fd: 0x8
+[11:57:21.917] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x8, size: 844
+[11:57:21.920] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x8
+[11:57:21.924] |T| [remove_dir]: sceAppUtilSaveDataDataRemove: Removing dir savedata0:/test.dat (ux0:/user/00/savedata/PCSE01457/test.dat)
+[11:57:21.982] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[11:57:21.983] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET
+[11:57:21.984] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_HTTPS
+[11:57:21.985] |I| [load_module]: Loading module "vs0:sys/external/libhttp.suprx"
+[11:57:22.454] |I| [load_self]: vs0:sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[11:57:22.455] |I| [load_self]: Loaded module segment 0 @ [0x4B765000 - 0x4B782150 / 0x81000000] (size: 0x0001D150) of module vs0:sys/external/libhttp.suprx
+[11:57:22.461] |I| [load_self]: Loaded module segment 1 @ [0x007A5000 - 0x007A5640 / 0x8101E000] (size: 0x00000640) of module vs0:sys/external/libhttp.suprx
+[11:57:22.466] |I| [load_self]: Linking SELF vs0:sys/external/libhttp.suprx...
+[11:57:22.468] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x4b780e68
+[11:57:22.470] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x4b77dca0
+[11:57:22.472] |I| [load_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") loaded
+[11:57:22.473] |D| [start_module]: Running module_start of library: SceLibHttp at address 0x4b76e2e5
+[11:57:22.540] |I| [start_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") module_start returned 0x0
+[11:57:22.555] |I| [load_module]: Loading module "vs0:sys/external/libssl.suprx"
+[11:57:24.526] |I| [load_self]: Loaded module segment 0 @ [0x4B783000 - 0x4B7E9EA4 / 0x81000000] (size: 0x00066EA4) of module vs0:sys/external/libssl.suprx
+[11:57:24.536] |I| [load_self]: Loaded module segment 1 @ [0x0090A000 - 0x0090F188 / 0x81067000] (size: 0x00005188) of module vs0:sys/external/libssl.suprx
+[11:57:24.551] |I| [load_self]: Linking SELF vs0:sys/external/libssl.suprx...
+[11:57:24.563] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x4b7d59b0
+[11:57:24.567] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x4b7cfc70
+[11:57:24.572] |I| [load_module]: Module SceLibSsl (at "vs0:sys/external/libssl.suprx") loaded
+[11:57:25.513] |W| [export_sceNetCtlInit::<lambda_2>::operator ()]: Stubbed sceNetCtlInit import called. (Stub)
+[11:57:25.546] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3c733316 sceSslInit at 0x579a94
+[11:57:25.635] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x214926d9 sceHttpInit at 0x579a84
+[11:57:25.651] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdae8d60f time at 0x579f54
+[11:57:25.789] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_RAZOR_CAPTURE
+[11:57:26.468] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[11:57:26.908] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[11:57:26.927] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[11:57:29.450] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2ff5d5bb mspace_malloc_stats_fast at 0x579b94
+[11:57:29.454] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe0c79764 fprintf at 0x579f74
+[11:57:30.817] |T| [write_file]: *** TTY: ------------------------------------------------------------------------------
+[11:57:30.831] |T| [write_file]: *** TTY: Memory report []
+[11:57:34.864] |T| [write_file]: *** TTY: App footprint LPDDR: 3173044 KiB of 373760 KiB possible
+[11:57:34.873] |T| [write_file]: *** TTY: Kernel free LPDDR: 904304 KiB / 1395020 KiB
+[11:57:34.875] |T| [write_file]: *** TTY: Kernel free PHYCONT: 904304 KiB / 26624 KiB
+[11:57:34.878] |T| [write_file]: *** TTY: Kernel PHYCONT wasted for RT: 0 KiB
+[11:57:34.883] |T| [write_file]: *** TTY: Libc heap free: 1227065 KiB / 1227084 KiB
+[11:57:34.885] |T| [write_file]: *** TTY: GPU CDRAM heap free: 98304 KiB / 98304 KiB
+[11:57:34.889] |T| [write_file]: *** TTY: GPU LPDDR heap free: 139264 KiB / 139264 KiB
+[11:57:34.891] |T| [write_file]: *** TTY: ------------------------------------------------------------------------------
+[11:57:51.347] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x579d34
+[11:57:51.405] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1434fa46 strcat at 0x579af4
+[11:57:51.565] |I| [export_sceIoOpen]: Opening file: app0:game_data/shaders/clear_screen.vert
+[11:57:51.651] |T| [open_file]: sceIoOpen: Opening file app0:game_data/shaders/clear_screen.vert (ux0:/app/PCSE01457/game_data/shaders/clear_screen.vert), fd: 0x9
+[11:57:51.722] |I| [export_sceIoOpen]: Opening file: app0:game_data/shaders/clear_screen.frag
+[11:57:51.744] |T| [open_file]: sceIoOpen: Opening file app0:game_data/shaders/clear_screen.frag (ux0:/app/PCSE01457/game_data/shaders/clear_screen.frag), fd: 0xa
+[11:57:51.862] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x579cb4
+[11:57:52.142] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[11:57:52.147] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[11:57:52.511] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x579d44
+[11:57:52.580] |I| [export_sceIoOpen]: Opening file: app0:game_data/~INDEX
+[11:57:54.035] |T| [open_file]: sceIoOpen: Opening file app0:game_data/~INDEX (ux0:/app/PCSE01457/game_data/~INDEX), fd: 0xb
+[11:57:54.105] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[11:57:54.203] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x579b24
+[11:57:54.207] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x579ae4
+[11:57:54.348] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x579e14
+[11:57:54.436] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x184c4b07 strcasecmp at 0x579b14
+[11:57:54.554] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/presenter.vert
+[11:57:55.274] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/presenter.vert (ux0:/app/PCSE01457/game_data/shaders/presenter.vert), fd: 0xc
+[11:57:55.281] |T| [close_file]: sceIoClose: Closing file fd: 0xc
+[11:57:55.284] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/presenter.frag
+[11:57:55.291] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/presenter.frag (ux0:/app/PCSE01457/game_data/shaders/presenter.frag), fd: 0xd
+[11:57:55.302] |T| [close_file]: sceIoClose: Closing file fd: 0xd
+[11:57:55.434] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/presenter_opaque_texture.frag
+[11:57:55.548] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/presenter_opaque_texture.frag (ux0:/app/PCSE01457/game_data/shaders/presenter_opaque_texture.frag), fd: 0xe
+[11:57:55.553] |T| [close_file]: sceIoClose: Closing file fd: 0xe
+[11:57:55.558] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/presenter_opaque_color.frag
+[11:57:56.454] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/presenter_opaque_color.frag (ux0:/app/PCSE01457/game_data/shaders/presenter_opaque_color.frag), fd: 0xf
+[11:57:56.464] |T| [close_file]: sceIoClose: Closing file fd: 0xf
+[11:57:56.539] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/gamecontrollerdb.txt
+[11:57:58.844] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/gamecontrollerdb.txt (ux0:/app/PCSE01457/game_data/renpycommon/gamecontrollerdb.txt), fd: 0x10
+[11:57:58.852] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[11:57:58.955] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_1tex.vert
+[11:57:58.962] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_1tex.vert (ux0:/app/PCSE01457/game_data/shaders/renpy_1tex.vert), fd: 0x11
+[11:57:58.972] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_blit.frag
+[11:57:59.139] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_blit.frag (ux0:/app/PCSE01457/game_data/shaders/renpy_blit.frag), fd: 0x12
+[11:57:59.166] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[11:57:59.185] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[11:57:59.193] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_1tex.vert
+[11:57:59.195] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_1tex.vert (ux0:/app/PCSE01457/game_data/shaders/renpy_1tex.vert), fd: 0x13
+[11:57:59.198] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_blitclip.frag
+[11:57:59.276] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_blitclip.frag (ux0:/app/PCSE01457/game_data/shaders/renpy_blitclip.frag), fd: 0x14
+[11:57:59.284] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[11:57:59.285] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[11:57:59.287] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_2tex.vert
+[11:57:59.296] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_2tex.vert (ux0:/app/PCSE01457/game_data/shaders/renpy_2tex.vert), fd: 0x15
+[11:57:59.308] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_blend.frag
+[11:57:59.351] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_blend.frag (ux0:/app/PCSE01457/game_data/shaders/renpy_blend.frag), fd: 0x16
+[11:57:59.360] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[11:57:59.367] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[11:57:59.369] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_2tex.vert
+[11:57:59.370] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_2tex.vert (ux0:/app/PCSE01457/game_data/shaders/renpy_2tex.vert), fd: 0x17
+[11:57:59.401] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_blendclip.frag
+[11:57:59.427] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_blendclip.frag (ux0:/app/PCSE01457/game_data/shaders/renpy_blendclip.frag), fd: 0x18
+[11:57:59.433] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[11:57:59.434] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[11:57:59.436] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_3tex.vert
+[11:57:59.486] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_3tex.vert (ux0:/app/PCSE01457/game_data/shaders/renpy_3tex.vert), fd: 0x19
+[11:57:59.492] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_imageblend.frag
+[11:57:59.512] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_imageblend.frag (ux0:/app/PCSE01457/game_data/shaders/renpy_imageblend.frag), fd: 0x1a
+[11:57:59.515] |T| [close_file]: sceIoClose: Closing file fd: 0x1a
+[11:57:59.516] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[11:57:59.520] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_3tex.vert
+[11:57:59.526] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_3tex.vert (ux0:/app/PCSE01457/game_data/shaders/renpy_3tex.vert), fd: 0x1b
+[11:57:59.530] |I| [export_sceIoOpen]: Opening file: app0:game_data//shaders/renpy_imageblendclip.frag
+[11:57:59.553] |T| [open_file]: sceIoOpen: Opening file app0:game_data//shaders/renpy_imageblendclip.frag (ux0:/app/PCSE01457/game_data/shaders/renpy_imageblendclip.frag), fd: 0x1c
+[11:57:59.561] |T| [close_file]: sceIoClose: Closing file fd: 0x1c
+[11:57:59.562] |T| [close_file]: sceIoClose: Closing file fd: 0x1b
+[11:57:59.572] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[11:58:00.717] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR20054_00/TROPHY.TRP (ux0:/app/PCSE01457/sce_sys/trophy/NPWR20054_00/TROPHY.TRP), fd: 0x1d
+[11:58:01.096] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/trophy/data/NPWR20054_00/TROPUSR.DAT (target path: ux0:/user/00/trophy/data/NPWR20054_00/TROPUSR.DAT)
+[11:58:01.104] |W| [io_error_impl]: open_file (create_trophy_context) returned 0x80010002
+[11:58:01.497] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR20054_00/TROPCONF.SFM), fd: 0x1e
+[11:58:01.518] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 1240
+[11:58:01.523] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[11:58:01.587] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR20054_00/TROP.SFM), fd: 0x1f
+[11:58:01.601] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 2725
+[11:58:01.603] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[11:58:02.239] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/ICON0.PNG), fd: 0x20
+[11:58:02.246] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 92365
+[11:58:02.247] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[11:58:02.263] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP000.PNG), fd: 0x21
+[11:58:02.286] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 91737
+[11:58:02.289] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[11:58:02.374] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP001.PNG), fd: 0x22
+[11:58:02.385] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 62386
+[11:58:02.387] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[11:58:02.391] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP002.PNG), fd: 0x23
+[11:58:02.397] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 72640
+[11:58:02.401] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[11:58:02.498] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP003.PNG), fd: 0x24
+[11:58:02.547] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 85584
+[11:58:02.551] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[11:58:03.070] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP004.PNG), fd: 0x25
+[11:58:03.075] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 90246
+[11:58:03.077] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[11:58:03.082] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP005.PNG), fd: 0x26
+[11:58:03.085] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 70785
+[11:58:03.086] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[11:58:03.090] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP006.PNG), fd: 0x27
+[11:58:03.102] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 84799
+[11:58:03.106] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[11:58:03.166] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP007.PNG), fd: 0x28
+[11:58:03.174] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 63218
+[11:58:03.180] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[11:58:03.674] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP008.PNG), fd: 0x29
+[11:58:03.682] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 56432
+[11:58:03.684] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[11:58:03.689] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP009.PNG), fd: 0x2a
+[11:58:03.702] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 67507
+[11:58:03.706] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[11:58:03.710] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP010.PNG), fd: 0x2b
+[11:58:03.714] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 75179
+[11:58:03.715] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[11:58:03.721] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP011.PNG), fd: 0x2c
+[11:58:03.724] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 64090
+[11:58:03.728] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[11:58:03.731] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR20054_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR20054_00/TROP012.PNG), fd: 0x2d
+[11:58:03.734] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 71754
+[11:58:03.740] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[11:58:05.202] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR20054_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR20054_00/TROPUSR.DAT), fd: 0x2e
+[11:58:05.208] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2e, size: 4
+[11:58:05.218] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2e, size: 16
+[11:58:05.225] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2e, size: 16
+[11:58:05.232] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2e, size: 4
+[11:58:05.233] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2e, size: 4
+[11:58:05.235] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2e, size: 4
+[11:58:05.237] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2e, size: 64
+[11:58:05.240] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2e, size: 1024
+[11:58:05.242] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2e, size: 512
+[11:58:05.245] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x2e
+[11:58:05.247] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR20054_00 create successfuly!
+[11:58:05.615] |I| [export_sceIoOpen]: Opening file: app0:game_data//ratalaika_logo_psvita.png
+[11:58:05.940] |T| [open_file]: sceIoOpen: Opening file app0:game_data//ratalaika_logo_psvita.png (ux0:/app/PCSE01457/game_data/ratalaika_logo_psvita.png), fd: 0x2f
+[11:58:05.950] |T| [close_file]: sceIoClose: Closing file fd: 0x2f
+[11:58:05.993] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6b54ba realloc at 0x579ab4
+[11:58:06.558] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4633134a mspace_realloc at 0x579bf4
+[11:58:06.744] |I| [export_sceIoOpen]: Opening file: app0:game_data/shaders/RATALAIKA_SPLASH.vert
+[11:58:06.800] |T| [open_file]: sceIoOpen: Opening file app0:game_data/shaders/RATALAIKA_SPLASH.vert (ux0:/app/PCSE01457/game_data/shaders/RATALAIKA_SPLASH.vert), fd: 0x30
+[11:58:06.816] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[11:58:06.911] |I| [export_sceIoOpen]: Opening file: app0:game_data/shaders/RATALAIKA_SPLASH.frag
+[11:58:06.944] |T| [open_file]: sceIoOpen: Opening file app0:game_data/shaders/RATALAIKA_SPLASH.frag (ux0:/app/PCSE01457/game_data/shaders/RATALAIKA_SPLASH.frag), fd: 0x31
+[11:58:06.965] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[11:58:07.046] |W| [export_sceGxmPushUserMarker::<lambda_1>::operator ()]: Unimplemented sceGxmPushUserMarker import called.
+[11:58:07.063] |W| [export_sceGxmPopUserMarker::<lambda_1>::operator ()]: Unimplemented sceGxmPopUserMarker import called.
+[11:58:07.635] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[11:58:07.655] |W| [export_sceNpTrophyCreateHandle::<lambda_1>::operator ()]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[11:58:07.658] |W| [export_sceNpTrophyDestroyHandle::<lambda_1>::operator ()]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[11:58:08.136] |W| [export_sceNpCheckCallback::<lambda_1>::operator ()]: Stubbed sceNpCheckCallback import called. (Stub)
+[11:58:08.274] |I| [export_sceIoOpen]: Opening file: savedata0:/slot0/-saveindex
+[11:58:08.313] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE01457/slot0/-saveindex (target path: savedata0:/slot0/-saveindex)
+[11:58:08.317] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[11:58:08.388] |I| [export_sceIoOpen]: Opening file: app0:game_data//pypacks/customlib.zip
+[11:58:09.477] |T| [open_file]: sceIoOpen: Opening file app0:game_data//pypacks/customlib.zip (ux0:/app/PCSE01457/game_data/pypacks/customlib.zip), fd: 0x32
+[11:58:09.493] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[11:58:09.516] |I| [export_sceIoOpen]: Opening file: app0:game_data//pypacks/renpy.zip
+[11:58:10.322] |T| [open_file]: sceIoOpen: Opening file app0:game_data//pypacks/renpy.zip (ux0:/app/PCSE01457/game_data/pypacks/renpy.zip), fd: 0x33
+[11:58:10.365] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[11:58:10.376] |I| [export_sceIoOpen]: Opening file: app0:game_data//pypacks/lib.zip
+[11:58:10.755] |T| [open_file]: sceIoOpen: Opening file app0:game_data//pypacks/lib.zip (ux0:/app/PCSE01457/game_data/pypacks/lib.zip), fd: 0x34
+[11:58:10.860] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[11:58:10.864] |I| [export_sceIoOpen]: Opening file: app0:game_data//pypacks/pygame_sdl2.zip
+[11:58:10.892] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x26d4421bb80, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[11:58:11.242] |T| [open_file]: sceIoOpen: Opening file app0:game_data//pypacks/pygame_sdl2.zip (ux0:/app/PCSE01457/game_data/pypacks/pygame_sdl2.zip), fd: 0x35
+[11:58:11.250] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[11:58:11.251] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/script.rpyc
+[11:58:11.867] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/script.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/script.rpyc), fd: 0x36
+[11:58:11.883] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[11:58:11.886] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/image_gallery.rpyc
+[11:58:12.463] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/image_gallery.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/image_gallery.rpyc), fd: 0x37
+[11:58:12.472] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[11:58:12.475] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/characters.rpyc
+[11:58:12.566] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/characters.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/characters.rpyc), fd: 0x38
+[11:58:12.572] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[11:58:12.577] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/sergei_diamondbranch.rpyc
+[11:58:13.203] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/sergei_diamondbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/sergei_diamondbranch.rpyc), fd: 0x39
+[11:58:13.244] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[11:58:13.293] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/credits.rpyc
+[11:58:13.518] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/credits.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/credits.rpyc), fd: 0x3a
+[11:58:13.525] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[11:58:13.527] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/hunter_diamondbranch.rpyc
+[11:58:13.916] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/hunter_diamondbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/hunter_diamondbranch.rpyc), fd: 0x3b
+[11:58:13.923] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[11:58:13.924] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/hunter_kidnapbranch.rpyc
+[11:58:14.275] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/hunter_kidnapbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/hunter_kidnapbranch.rpyc), fd: 0x3c
+[11:58:14.306] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[11:58:14.313] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/screens.rpyc
+[11:58:14.340] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x26d4421bb80, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[11:58:14.983] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d82da224095785e7f274ea30e7b7bb1dd890accddc5c4010914a47f905eb00dc
+[11:58:15.068] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d82da224095785e7f274ea30e7b7bb1dd890accddc5c4010914a47f905eb00dc
+[11:58:15.089] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/screens.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/screens.rpyc), fd: 0x3d
+[11:58:15.100] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[11:58:15.105] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/options.rpyc
+[11:58:15.754] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/options.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/options.rpyc), fd: 0x3e
+[11:58:15.761] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[11:58:15.763] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/sergei_kidnapbranch.rpyc
+[11:58:16.045] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[11:58:16.047] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) depth
+[11:58:16.101] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:58:16.230] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/sergei_kidnapbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/sergei_kidnapbranch.rpyc), fd: 0x3f
+[11:58:16.240] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[11:58:16.241] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/german/sergei_kidnapbranch.rpyc
+[11:58:16.613] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/german/sergei_kidnapbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/german/sergei_kidnapbranch.rpyc), fd: 0x40
+[11:58:16.624] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[11:58:16.628] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/german/script.rpyc
+[11:58:16.995] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/german/script.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/german/script.rpyc), fd: 0x41
+[11:58:17.004] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[11:58:17.005] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/german/characters.rpyc
+[11:58:17.103] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/german/characters.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/german/characters.rpyc), fd: 0x42
+[11:58:17.107] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[11:58:17.108] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[11:58:17.111] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/german/hunter_kidnapbranch.rpyc
+[11:58:17.227] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/german/hunter_kidnapbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/german/hunter_kidnapbranch.rpyc), fd: 0x43
+[11:58:17.237] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[11:58:17.240] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/german/common.rpyc
+[11:58:17.571] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/german/common.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/german/common.rpyc), fd: 0x44
+[11:58:17.587] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[11:58:17.590] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/german/hunter_diamondbranch.rpyc
+[11:58:18.489] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/german/hunter_diamondbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/german/hunter_diamondbranch.rpyc), fd: 0x45
+[11:58:18.495] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[11:58:18.503] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/german/screens.rpyc
+[11:58:19.075] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/german/screens.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/german/screens.rpyc), fd: 0x46
+[11:58:19.082] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[11:58:19.084] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/german/sergei_diamondbranch.rpyc
+[11:58:19.486] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/german/sergei_diamondbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/german/sergei_diamondbranch.rpyc), fd: 0x47
+[11:58:19.509] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[11:58:19.511] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/Spanish/sergei_kidnapbranch.rpyc
+[11:58:19.715] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/Spanish/sergei_kidnapbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/Spanish/sergei_kidnapbranch.rpyc), fd: 0x48
+[11:58:19.722] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[11:58:19.724] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/Spanish/script.rpyc
+[11:58:19.965] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/Spanish/script.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/Spanish/script.rpyc), fd: 0x49
+[11:58:19.971] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[11:58:19.972] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/Spanish/characters.rpyc
+[11:58:20.024] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1f445e5d531dda5f500604619008de44f083361e0e73629f817ae479e2020d0f
+[11:58:20.028] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1f445e5d531dda5f500604619008de44f083361e0e73629f817ae479e2020d0f
+[11:58:20.066] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (uchar4) vColor
+[11:58:20.070] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:58:20.086] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/Spanish/characters.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/Spanish/characters.rpyc), fd: 0x4a
+[11:58:20.088] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[11:58:20.089] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/Spanish/hunter_kidnapbranch.rpyc
+[11:58:20.794] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/Spanish/hunter_kidnapbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/Spanish/hunter_kidnapbranch.rpyc), fd: 0x4b
+[11:58:20.799] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[11:58:20.803] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/Spanish/common.rpyc
+[11:58:21.065] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/Spanish/common.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/Spanish/common.rpyc), fd: 0x4c
+[11:58:21.072] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[11:58:21.075] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/Spanish/hunter_diamondbranch.rpyc
+[11:58:21.302] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/Spanish/hunter_diamondbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/Spanish/hunter_diamondbranch.rpyc), fd: 0x4d
+[11:58:21.331] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[11:58:21.336] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/Spanish/screens.rpyc
+[11:58:21.944] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/Spanish/screens.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/Spanish/screens.rpyc), fd: 0x4e
+[11:58:21.954] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[11:58:21.957] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/tl/Spanish/sergei_diamondbranch.rpyc
+[11:58:22.111] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/tl/Spanish/sergei_diamondbranch.rpyc (ux0:/app/PCSE01457/game_data/renpygame/game/tl/Spanish/sergei_diamondbranch.rpyc), fd: 0x4f
+[11:58:22.115] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[11:58:22.117] |I| [export_sceIoOpen]: Opening file: app0:game_data//ratacommon/custom_stuff.rpyc
+[11:58:22.210] |T| [open_file]: sceIoOpen: Opening file app0:game_data//ratacommon/custom_stuff.rpyc (ux0:/app/PCSE01457/game_data/ratacommon/custom_stuff.rpyc), fd: 0x50
+[11:58:22.215] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[11:58:22.221] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00action_data.rpyc
+[11:58:22.298] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00action_data.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00action_data.rpyc), fd: 0x51
+[11:58:22.307] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[11:58:22.308] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00layeredimage.rpyc
+[11:58:22.518] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00layeredimage.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00layeredimage.rpyc), fd: 0x52
+[11:58:22.527] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[11:58:22.529] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00barvalues.rpyc
+[11:58:22.616] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00barvalues.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00barvalues.rpyc), fd: 0x53
+[11:58:22.626] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[11:58:22.629] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/000atl.rpyc
+[11:58:23.083] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/000atl.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/000atl.rpyc), fd: 0x54
+[11:58:23.092] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[11:58:23.096] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00accessibility.rpyc
+[11:58:23.346] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00accessibility.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00accessibility.rpyc), fd: 0x55
+[11:58:23.354] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[11:58:23.356] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/000statements.rpyc
+[11:58:23.512] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/000statements.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/000statements.rpyc), fd: 0x56
+[11:58:23.517] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[11:58:23.523] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/000namespaces.rpyc
+[11:58:23.663] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/000namespaces.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/000namespaces.rpyc), fd: 0x57
+[11:58:23.671] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[11:58:23.673] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/000window.rpyc
+[11:58:23.860] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/000window.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/000window.rpyc), fd: 0x58
+[11:58:23.866] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[11:58:23.871] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00achievement.rpyc
+[11:58:23.921] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00achievement.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00achievement.rpyc), fd: 0x59
+[11:58:23.926] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[11:58:23.931] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00action_audio.rpyc
+[11:58:23.959] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00action_audio.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00action_audio.rpyc), fd: 0x5a
+[11:58:23.964] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[11:58:23.966] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00iconbutton.rpyc
+[11:58:24.043] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00iconbutton.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00iconbutton.rpyc), fd: 0x5b
+[11:58:24.047] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[11:58:24.049] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00inputvalues.rpyc
+[11:58:24.245] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00inputvalues.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00inputvalues.rpyc), fd: 0x5c
+[11:58:24.250] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[11:58:24.253] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00action_control.rpyc
+[11:58:24.664] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00action_control.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00action_control.rpyc), fd: 0x5d
+[11:58:24.672] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[11:58:24.675] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00definitions.rpyc
+[11:58:24.870] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00definitions.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00definitions.rpyc), fd: 0x5e
+[11:58:24.875] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[11:58:24.877] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00action_file.rpyc
+[11:58:24.924] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00action_file.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00action_file.rpyc), fd: 0x5f
+[11:58:24.928] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[11:58:24.931] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00action_menu.rpyc
+[11:58:25.050] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00action_menu.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00action_menu.rpyc), fd: 0x60
+[11:58:25.064] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[11:58:25.065] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00action_other.rpyc
+[11:58:25.622] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00action_other.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00action_other.rpyc), fd: 0x61
+[11:58:25.633] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[11:58:25.640] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00audio.rpyc
+[11:58:25.753] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00audio.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00audio.rpyc), fd: 0x62
+[11:58:25.758] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[11:58:25.761] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00build.rpyc
+[11:58:25.841] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00build.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00build.rpyc), fd: 0x63
+[11:58:25.848] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[11:58:25.850] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00compat.rpyc
+[11:58:25.950] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00compat.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00compat.rpyc), fd: 0x64
+[11:58:25.959] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[11:58:25.961] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00console.rpyc
+[11:58:26.072] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00console.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00console.rpyc), fd: 0x65
+[11:58:26.077] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[11:58:26.081] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00defaults.rpyc
+[11:58:26.161] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00defaults.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00defaults.rpyc), fd: 0x66
+[11:58:26.165] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[11:58:26.171] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00mixers.rpyc
+[11:58:26.292] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00mixers.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00mixers.rpyc), fd: 0x67
+[11:58:26.297] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[11:58:26.301] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00director.rpyc
+[11:58:26.611] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ed16fc7a0ba0b9b9884e81e4ee3fca29864554236d1f7c0386b818f237b23d3e
+[11:58:26.615] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ed16fc7a0ba0b9b9884e81e4ee3fca29864554236d1f7c0386b818f237b23d3e
+[11:58:26.642] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) pos
+[11:58:26.643] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) tex
+[11:58:26.644] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[11:58:26.699] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 24e849d57a0d3dc25257f93a9a6780b0c6149be37dc045519f82d4fe7e6fca3d
+[11:58:26.704] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 24e849d57a0d3dc25257f93a9a6780b0c6149be37dc045519f82d4fe7e6fca3d
+[11:58:26.711] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_texture, TEXCOORD0.xy)
+[11:58:26.771] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[11:58:26.781] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00director.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00director.rpyc), fd: 0x68
+[11:58:26.789] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[11:58:26.792] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00nvl_mode.rpyc
+[11:58:27.222] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00nvl_mode.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00nvl_mode.rpyc), fd: 0x69
+[11:58:27.228] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[11:58:27.230] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00gallery.rpyc
+[11:58:27.338] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00gallery.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00gallery.rpyc), fd: 0x6a
+[11:58:27.350] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[11:58:27.351] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00gui.rpyc
+[11:58:27.711] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00gui.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00gui.rpyc), fd: 0x6b
+[11:58:27.716] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[11:58:27.717] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00gamemenu.rpyc
+[11:58:27.967] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00gamemenu.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00gamemenu.rpyc), fd: 0x6c
+[11:58:27.975] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[11:58:27.982] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00gamepad.rpyc
+[11:58:28.067] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00gamepad.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00gamepad.rpyc), fd: 0x6d
+[11:58:28.078] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[11:58:28.080] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00gltest.rpyc
+[11:58:28.523] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00gltest.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00gltest.rpyc), fd: 0x6e
+[11:58:28.528] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[11:58:28.532] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00iap.rpyc
+[11:58:28.759] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00iap.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00iap.rpyc), fd: 0x6f
+[11:58:28.764] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[11:58:28.766] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00keymap.rpyc
+[11:58:28.865] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00keymap.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00keymap.rpyc), fd: 0x70
+[11:58:28.874] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[11:58:28.875] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00icon.rpyc
+[11:58:29.131] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00icon.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00icon.rpyc), fd: 0x71
+[11:58:29.137] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[11:58:29.141] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00images.rpyc
+[11:58:29.210] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00images.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00images.rpyc), fd: 0x72
+[11:58:29.215] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[11:58:29.217] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00start.rpyc
+[11:58:29.434] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00start.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00start.rpyc), fd: 0x73
+[11:58:29.443] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[11:58:29.445] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00layout.rpyc
+[11:58:29.497] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00layout.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00layout.rpyc), fd: 0x74
+[11:58:29.504] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[11:58:29.507] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00library.rpyc
+[11:58:29.609] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00library.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00library.rpyc), fd: 0x75
+[11:58:29.614] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[11:58:29.616] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00musicroom.rpyc
+[11:58:29.741] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00musicroom.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00musicroom.rpyc), fd: 0x76
+[11:58:29.745] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[11:58:29.746] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00obsolete.rpyc
+[11:58:29.985] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00obsolete.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00obsolete.rpyc), fd: 0x77
+[11:58:29.992] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[11:58:29.993] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00preferences.rpyc
+[11:58:30.212] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00preferences.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00preferences.rpyc), fd: 0x78
+[11:58:30.244] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[11:58:30.269] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00performance.rpyc
+[11:58:30.319] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00performance.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00performance.rpyc), fd: 0x79
+[11:58:30.327] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[11:58:30.329] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00placeholder.rpyc
+[11:58:30.396] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00placeholder.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00placeholder.rpyc), fd: 0x7a
+[11:58:30.401] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[11:58:30.403] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00sideimage.rpyc
+[11:58:30.528] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00sideimage.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00sideimage.rpyc), fd: 0x7b
+[11:58:30.534] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[11:58:30.536] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00splines.rpyc
+[11:58:30.994] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00splines.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00splines.rpyc), fd: 0x7c
+[11:58:31.000] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[11:58:31.001] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00style.rpyc
+[11:58:31.091] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00style.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00style.rpyc), fd: 0x7d
+[11:58:31.098] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[11:58:31.099] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00stylepreferences.rpyc
+[11:58:31.104] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00stylepreferences.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00stylepreferences.rpyc), fd: 0x7e
+[11:58:31.121] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[11:58:31.124] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00themes.rpyc
+[11:58:31.268] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00themes.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00themes.rpyc), fd: 0x7f
+[11:58:31.275] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[11:58:31.276] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00updater.rpyc
+[11:58:31.661] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00updater.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00updater.rpyc), fd: 0x80
+[11:58:31.666] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[11:58:31.668] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/00voice.rpyc
+[11:58:31.745] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/00voice.rpyc (ux0:/app/PCSE01457/game_data/renpycommon/00voice.rpyc), fd: 0x81
+[11:58:31.767] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[11:58:31.772] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/_errorhandling.rpymc
+[11:58:31.939] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/_errorhandling.rpymc (ux0:/app/PCSE01457/game_data/renpycommon/_errorhandling.rpymc), fd: 0x82
+[11:58:31.981] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[11:58:31.997] |I| [export_sceIoOpen]: Opening file: app0:game_data//ratacommon/custom_stuff.rpyc
+[11:58:32.000] |T| [open_file]: sceIoOpen: Opening file app0:game_data//ratacommon/custom_stuff.rpyc (ux0:/app/PCSE01457/game_data/ratacommon/custom_stuff.rpyc), fd: 0x83
+[11:58:32.012] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[11:58:32.016] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/_layout/screen_yesno_prompt.rpymc
+[11:58:32.238] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/_layout/screen_yesno_prompt.rpymc (ux0:/app/PCSE01457/game_data/renpycommon/_layout/screen_yesno_prompt.rpymc), fd: 0x84
+[11:58:32.244] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[11:58:32.246] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/_layout/screen_preferences.rpymc
+[11:58:32.493] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/_layout/screen_preferences.rpymc (ux0:/app/PCSE01457/game_data/renpycommon/_layout/screen_preferences.rpymc), fd: 0x85
+[11:58:32.498] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[11:58:32.501] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/_layout/classic_joystick_preferences.rpymc
+[11:58:32.582] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/_layout/classic_joystick_preferences.rpymc (ux0:/app/PCSE01457/game_data/renpycommon/_layout/classic_joystick_preferences.rpymc), fd: 0x86
+[11:58:32.587] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[11:58:32.597] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/_layout/classic_navigation.rpymc
+[11:58:32.661] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/_layout/classic_navigation.rpymc (ux0:/app/PCSE01457/game_data/renpycommon/_layout/classic_navigation.rpymc), fd: 0x87
+[11:58:32.666] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[11:58:32.668] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/_layout/screen_main_menu.rpymc
+[11:58:32.740] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/_layout/screen_main_menu.rpymc (ux0:/app/PCSE01457/game_data/renpycommon/_layout/screen_main_menu.rpymc), fd: 0x88
+[11:58:32.746] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[11:58:32.751] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/_layout/screen_load_save.rpymc
+[11:58:32.808] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/_layout/screen_load_save.rpymc (ux0:/app/PCSE01457/game_data/renpycommon/_layout/screen_load_save.rpymc), fd: 0x89
+[11:58:32.814] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[11:58:33.047] |T| [write_file]: *** TTY: Preload ($00000001): 24430 ms (    6.01 MiB)
+[11:58:33.589] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x579cd4
+[11:58:33.803] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb9336e16 strchr at 0x579e54
+[11:58:33.900] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x802fddf9 vsprintf at 0x579d14
+[11:58:33.922] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa2f50e9e _Fltrounds at 0x579de4
+[11:58:34.187] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcefdd143 strrchr at 0x579f04
+[11:58:35.284] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9e248b76 _sceLibcErrnoLoc at 0x579db4
+[11:58:35.926] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2f3e5b16 memchr at 0x579b84
+[11:58:36.784] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xeb027358 exp at 0x57a324
+[11:58:36.821] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x98bbdae0 _Dclass at 0x57a264
+[11:58:36.827] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xda227fcc sqrt at 0x57a314
+[11:58:36.840] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x67e99979 _Log at 0x57a204
+[11:58:36.852] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x640db443 pow at 0x57a1e4
+[11:58:38.382] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5c593c1e sceFiosDateGetCurrent at 0x579244
+[11:58:38.447] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x59197427 frexp at 0x57a1a4
+[11:58:38.452] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x56061b ldexp at 0x57a054
+[11:58:39.303] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1167b5d2 modf at 0x57a0a4
+[11:58:41.737] |T| [log_import_call]: [LLE] TID: 114 FUNC: 0x50b326ce setjmp at 0x579c24
+[11:58:45.925] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7ec3d0b calloc at 0x579fa4
+[11:58:45.927] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x30470bba mspace_calloc at 0x579ba4
+[11:58:46.048] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1ea1ca8d ctime at 0x579b44
+[11:58:46.372] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/cache/bytecode.rpyb
+[11:58:47.047] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/cache/bytecode.rpyb (ux0:/app/PCSE01457/game_data/renpygame/game/cache/bytecode.rpyb), fd: 0x8a
+[11:58:47.086] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[11:59:02.796] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/cache/pyanalysis.rpyb
+[11:59:02.855] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/cache/pyanalysis.rpyb (ux0:/app/PCSE01457/game_data/renpygame/game/cache/pyanalysis.rpyb), fd: 0x8b
+[11:59:03.526] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[11:59:03.764] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb918d13 copysign at 0x57a074
+[11:59:04.223] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x93fc85ed _FSinx at 0x57a254
+[11:59:04.543] |W| [export_sceAppMgrAcquireBgmPort::<lambda_1>::operator ()]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[11:59:06.024] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/cache/screens.rpyb
+[11:59:06.080] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/cache/screens.rpyb (ux0:/app/PCSE01457/game_data/renpygame/game/cache/screens.rpyb), fd: 0x8c
+[11:59:06.525] |T| [close_file]: sceIoClose: Closing file fd: 0x8c
+[11:59:10.321] |T| [write_file]: *** TTY: ------------------------------------------------------------------------------
+[11:59:10.328] |T| [write_file]: *** TTY: Memory report [r3api_init]
+[11:59:10.331] |T| [write_file]: *** TTY: App footprint LPDDR: 3173044 KiB of 373760 KiB possible
+[11:59:10.332] |T| [write_file]: *** TTY: Kernel free LPDDR: 903024 KiB / 1395020 KiB
+[11:59:10.333] |T| [write_file]: *** TTY: Kernel free PHYCONT: 903024 KiB / 26624 KiB
+[11:59:10.335] |T| [write_file]: *** TTY: Kernel PHYCONT wasted for RT: 0 KiB
+[11:59:10.336] |T| [write_file]: *** TTY: Libc heap free: 1178676 KiB / 1227084 KiB
+[11:59:10.338] |T| [write_file]: *** TTY: GPU CDRAM heap free: 88119 KiB / 98304 KiB
+[11:59:10.347] |T| [write_file]: *** TTY: GPU LPDDR heap free: 139259 KiB / 139264 KiB
+[11:59:10.353] |T| [write_file]: *** TTY: ------------------------------------------------------------------------------
+[11:59:10.619] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[11:59:10.621] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[11:59:12.443] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/gamecontrollerdb.txt
+[11:59:12.445] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/gamecontrollerdb.txt (ux0:/app/PCSE01457/game_data/renpycommon/gamecontrollerdb.txt), fd: 0x8d
+[11:59:12.473] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpycommon/gamecontrollerdb.txt
+[11:59:12.477] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpycommon/gamecontrollerdb.txt (ux0:/app/PCSE01457/game_data/renpycommon/gamecontrollerdb.txt), fd: 0x8e
+[11:59:12.485] |T| [close_file]: sceIoClose: Closing file fd: 0x8e
+[11:59:12.495] |T| [close_file]: sceIoClose: Closing file fd: 0x8d
+[11:59:13.062] |W| [export_sceGxmGetRenderTargetMemSize::<lambda_2>::operator ()]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MiB emuenv mem)
+[11:59:13.210] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x75348906 fabsf at 0x57a234
+[11:59:13.380] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b92beefa376ccc52768a43b5208fdda6458a384ac6bff70be22b0782e308edaf
+[11:59:13.384] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b92beefa376ccc52768a43b5208fdda6458a384ac6bff70be22b0782e308edaf
+[11:59:13.391] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Vertex
+[11:59:13.403] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) VertexTexCoord0
+[11:59:13.405] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) Projection[4]
+[11:59:13.410] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 13
+[11:59:13.497] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xff6f77c7 strdup at 0x57a034
+[11:59:13.684] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 582d91f8ed9095e12c5d03d0e82593c9f9c8610a5396a7eeef984dd942ab920c
+[11:59:13.687] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 582d91f8ed9095e12c5d03d0e82593c9f9c8610a5396a7eeef984dd942ab920c
+[11:59:13.695] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) Color
+[11:59:13.697] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(tex0, TEXCOORD1.xy)
+[11:59:13.700] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[11:59:14.297] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 41ffaa0002c32eb52eb08f987882bdf1eec705618d6832ee27d54b071867a6f5
+[11:59:14.314] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 41ffaa0002c32eb52eb08f987882bdf1eec705618d6832ee27d54b071867a6f5
+[11:59:14.321] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPos
+[11:59:14.321] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTex
+[11:59:14.324] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[11:59:15.255] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 708ad524790546d96154f38e65a4c3df402ccb1a1db7731eda231e465aef44ca
+[11:59:15.261] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 708ad524790546d96154f38e65a4c3df402ccb1a1db7731eda231e465aef44ca
+[11:59:15.269] |T| [shader::create_fragment_inputs]: pa0 = tex2D<intX4>(tex, TEXCOORD0.xy)
+[11:59:15.274] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:59:16.155] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/splashscreen.jpg
+[11:59:16.256] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/splashscreen.jpg (ux0:/app/PCSE01457/game_data/renpygame/game/splashscreen.jpg), fd: 0x8f
+[11:59:16.273] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/splashscreen.jpg
+[11:59:16.276] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/splashscreen.jpg (ux0:/app/PCSE01457/game_data/renpygame/game/splashscreen.jpg), fd: 0x90
+[11:59:16.686] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[11:59:17.018] |T| [close_file]: sceIoClose: Closing file fd: 0x8f
+[11:59:17.161] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x63f05bd6 ceil at 0x57a1d4
+[11:59:17.472] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b4d179424256b47be328f43ab2abd158f6a0ad504251bb4b1ab40e9616285b7f
+[11:59:17.483] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b4d179424256b47be328f43ab2abd158f6a0ad504251bb4b1ab40e9616285b7f
+[11:59:17.500] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Vertex
+[11:59:17.506] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) VertexTexCoord0
+[11:59:17.508] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) VertexTexCoord1
+[11:59:17.523] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) Projection[4]
+[11:59:17.528] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[11:59:17.625] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader afcfb95f837a510125bbaa5bd3ffa749213b46cf8a149bdfff878cc806b3de62
+[11:59:17.634] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader afcfb95f837a510125bbaa5bd3ffa749213b46cf8a149bdfff878cc806b3de62
+[11:59:17.653] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) Color
+[11:59:17.654] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) done
+[11:59:17.655] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(tex0, TEXCOORD1.xy)
+[11:59:17.666] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex1, TEXCOORD2.xy)
+[11:59:17.671] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[11:59:23.990] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbe30cc1e fmax at 0x57a2b4
+[11:59:24.024] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2abbdff7 fmin at 0x57a0f4
+[11:59:24.026] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x22bb8237 floor at 0x57a0c4
+[11:59:24.401] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/SA.ogg
+[11:59:24.979] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/SA.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/SA.ogg), fd: 0x91
+[11:59:25.015] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/SA.ogg
+[11:59:25.016] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/SA.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/SA.ogg), fd: 0x92
+[11:59:25.027] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[11:59:25.039] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/SA.ogg
+[11:59:25.041] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/SA.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/SA.ogg), fd: 0x93
+[11:59:25.065] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[11:59:25.098] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/groundidle.png
+[11:59:25.373] |T| [log_import_call]: [LLE] TID: 213 FUNC: 0xa7cbe4a6 qsort at 0x579df4
+[11:59:25.408] |T| [log_import_call]: [LLE] TID: 213 FUNC: 0xe61e016 ldexpf at 0x57a084
+[11:59:25.414] |T| [log_import_call]: [LLE] TID: 213 FUNC: 0xd5bd8d5c _FLog at 0x57a2e4
+[11:59:25.418] |T| [log_import_call]: [LLE] TID: 213 FUNC: 0x56473bc7 expf at 0x57a184
+[11:59:25.422] |T| [log_import_call]: [LLE] TID: 213 FUNC: 0xcd7c05bd floorf at 0x57a2d4
+[11:59:25.425] |T| [log_import_call]: [LLE] TID: 213 FUNC: 0x6dea815a powf at 0x57a224
+[11:59:25.529] |T| [log_import_call]: [LLE] TID: 213 FUNC: 0x8e5a06c5 abs at 0x579d74
+[11:59:25.583] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/groundidle.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/groundidle.png), fd: 0x94
+[11:59:25.601] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/groundidle.png
+[11:59:25.602] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/groundidle.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/groundidle.png), fd: 0x95
+[11:59:26.053] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[11:59:26.089] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[11:59:26.142] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/groundhover.png
+[11:59:26.200] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/groundhover.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/groundhover.png), fd: 0x96
+[11:59:26.216] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/groundhover.png
+[11:59:26.219] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/groundhover.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/groundhover.png), fd: 0x97
+[11:59:26.466] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[11:59:26.509] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[11:59:26.802] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/SA.ogg
+[11:59:26.803] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/SA.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/SA.ogg), fd: 0x98
+[11:59:26.809] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/SA.ogg
+[11:59:26.810] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/SA.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/SA.ogg), fd: 0x99
+[11:59:26.819] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[11:59:26.820] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/SA.ogg
+[11:59:26.822] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/SA.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/SA.ogg), fd: 0x9a
+[11:59:26.828] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[11:59:47.023] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[11:59:47.028] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[12:00:20.152] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/SA.ogg
+[12:00:20.173] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/SA.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/SA.ogg), fd: 0x9b
+[12:00:20.177] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/SA.ogg
+[12:00:20.179] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/SA.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/SA.ogg), fd: 0x9c
+[12:00:20.193] |T| [close_file]: sceIoClose: Closing file fd: 0x9c
+[12:00:20.194] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/SA.ogg
+[12:00:20.196] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/SA.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/SA.ogg), fd: 0x9d
+[12:00:20.201] |T| [close_file]: sceIoClose: Closing file fd: 0x9b
+[12:00:20.218] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[12:00:20.278] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/bgs/01c.png
+[12:00:20.550] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/bgs/01c.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/bgs/01c.png), fd: 0x9e
+[12:00:20.559] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/bgs/01c.png
+[12:00:20.562] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/bgs/01c.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/bgs/01c.png), fd: 0x9f
+[12:00:21.293] |T| [close_file]: sceIoClose: Closing file fd: 0x9f
+[12:00:21.495] |T| [close_file]: sceIoClose: Closing file fd: 0x9e
+[12:00:21.603] |T| [close_file]: sceIoClose: Closing file fd: 0x9d
+[12:00:21.609] |T| [close_file]: sceIoClose: Closing file fd: 0x9a
+[12:00:22.727] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_base01.png
+[12:00:23.070] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_base01.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_base01.png), fd: 0xa0
+[12:00:23.076] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_base01.png
+[12:00:23.080] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_base01.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_base01.png), fd: 0xa1
+[12:00:23.200] |T| [close_file]: sceIoClose: Closing file fd: 0xa1
+[12:00:23.225] |T| [close_file]: sceIoClose: Closing file fd: 0xa0
+[12:00:23.269] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_confused01.png
+[12:00:23.336] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_confused01.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_confused01.png), fd: 0xa2
+[12:00:23.341] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_confused01.png
+[12:00:23.346] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_confused01.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_confused01.png), fd: 0xa3
+[12:00:23.414] |T| [close_file]: sceIoClose: Closing file fd: 0xa3
+[12:00:23.469] |T| [close_file]: sceIoClose: Closing file fd: 0xa2
+[12:00:23.634] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x64d37996 round at 0x57a1f4
+[12:00:23.661] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/Mechanical.otf
+[12:00:23.854] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/Mechanical.otf (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/Mechanical.otf), fd: 0xa4
+[12:00:24.293] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/bm_textbox.png
+[12:00:24.404] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/bm_textbox.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/bm_textbox.png), fd: 0xa5
+[12:00:24.411] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/bm_textbox.png
+[12:00:24.412] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/bm_textbox.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/bm_textbox.png), fd: 0xa6
+[12:00:24.500] |T| [close_file]: sceIoClose: Closing file fd: 0xa6
+[12:00:24.521] |T| [close_file]: sceIoClose: Closing file fd: 0xa5
+[12:00:24.568] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/consolegui/vita_l.png
+[12:00:24.633] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/consolegui/vita_l.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/consolegui/vita_l.png), fd: 0xa7
+[12:00:24.637] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/consolegui/vita_l.png
+[12:00:24.641] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/consolegui/vita_l.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/consolegui/vita_l.png), fd: 0xa8
+[12:00:24.645] |T| [close_file]: sceIoClose: Closing file fd: 0xa8
+[12:00:24.646] |T| [close_file]: sceIoClose: Closing file fd: 0xa7
+[12:00:24.853] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/consolegui/vita_sq.png
+[12:00:25.052] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/consolegui/vita_sq.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/consolegui/vita_sq.png), fd: 0xa9
+[12:00:25.058] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/consolegui/vita_sq.png
+[12:00:25.059] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/consolegui/vita_sq.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/consolegui/vita_sq.png), fd: 0xaa
+[12:00:25.064] |T| [close_file]: sceIoClose: Closing file fd: 0xaa
+[12:00:25.067] |T| [close_file]: sceIoClose: Closing file fd: 0xa9
+[12:00:25.167] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/consolegui/vita_tri.png
+[12:00:25.194] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/consolegui/vita_tri.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/consolegui/vita_tri.png), fd: 0xab
+[12:00:25.202] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/consolegui/vita_tri.png
+[12:00:25.211] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/consolegui/vita_tri.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/consolegui/vita_tri.png), fd: 0xac
+[12:00:25.218] |T| [close_file]: sceIoClose: Closing file fd: 0xac
+[12:00:25.223] |T| [close_file]: sceIoClose: Closing file fd: 0xab
+[12:00:25.286] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/consolegui/vita_r.png
+[12:00:25.404] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/consolegui/vita_r.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/consolegui/vita_r.png), fd: 0xad
+[12:00:25.412] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/consolegui/vita_r.png
+[12:00:25.413] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/consolegui/vita_r.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/consolegui/vita_r.png), fd: 0xae
+[12:00:25.419] |T| [close_file]: sceIoClose: Closing file fd: 0xae
+[12:00:25.421] |T| [close_file]: sceIoClose: Closing file fd: 0xad
+[12:00:26.380] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/Ade.ttf
+[12:00:27.096] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/Ade.ttf (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/Ade.ttf), fd: 0xaf
+[12:00:27.245] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/fram.png
+[12:00:27.883] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/fram.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/fram.png), fd: 0xb0
+[12:00:27.889] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/gui/fram.png
+[12:00:27.893] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/gui/fram.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/gui/fram.png), fd: 0xb1
+[12:00:27.985] |T| [close_file]: sceIoClose: Closing file fd: 0xb1
+[12:00:27.998] |T| [close_file]: sceIoClose: Closing file fd: 0xb0
+[12:00:54.003] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/04v.ogg
+[12:00:54.395] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/04v.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/04v.ogg), fd: 0xb2
+[12:00:54.402] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/04v.ogg
+[12:00:54.408] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/04v.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/04v.ogg), fd: 0xb3
+[12:00:54.412] |T| [close_file]: sceIoClose: Closing file fd: 0xb3
+[12:00:54.413] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/04v.ogg
+[12:00:54.415] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/04v.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/04v.ogg), fd: 0xb4
+[12:00:54.423] |T| [close_file]: sceIoClose: Closing file fd: 0xb2
+[12:00:54.430] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/04v.ogg
+[12:00:54.433] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/04v.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/04v.ogg), fd: 0xb5
+[12:00:54.471] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/04v.ogg
+[12:00:54.492] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/04v.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/04v.ogg), fd: 0xb6
+[12:00:54.497] |T| [close_file]: sceIoClose: Closing file fd: 0xb6
+[12:00:54.502] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/music/04v.ogg
+[12:00:54.506] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/music/04v.ogg (ux0:/app/PCSE01457/game_data/renpygame/game/music/04v.ogg), fd: 0xb7
+[12:00:54.512] |T| [close_file]: sceIoClose: Closing file fd: 0xb5
+[12:01:00.149] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/henchman/base.png
+[12:01:00.375] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/henchman/base.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/henchman/base.png), fd: 0xb8
+[12:01:00.379] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/henchman/base.png
+[12:01:00.381] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/henchman/base.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/henchman/base.png), fd: 0xb9
+[12:01:00.473] |T| [close_file]: sceIoClose: Closing file fd: 0xb9
+[12:01:00.492] |T| [close_file]: sceIoClose: Closing file fd: 0xb8
+[12:01:00.552] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/henchman/happy.png
+[12:01:00.653] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/henchman/happy.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/henchman/happy.png), fd: 0xba
+[12:01:00.661] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/henchman/happy.png
+[12:01:00.663] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/henchman/happy.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/henchman/happy.png), fd: 0xbb
+[12:01:00.743] |T| [close_file]: sceIoClose: Closing file fd: 0xbb
+[12:01:00.757] |T| [close_file]: sceIoClose: Closing file fd: 0xba
+[12:01:15.255] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_base02.png
+[12:01:15.308] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_base02.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_base02.png), fd: 0xbc
+[12:01:15.315] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_base02.png
+[12:01:15.317] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_base02.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_base02.png), fd: 0xbd
+[12:01:15.464] |T| [close_file]: sceIoClose: Closing file fd: 0xbd
+[12:01:15.477] |T| [close_file]: sceIoClose: Closing file fd: 0xbc
+[12:01:20.477] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_confused02.png
+[12:01:20.615] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_confused02.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_confused02.png), fd: 0xbe
+[12:01:20.619] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_confused02.png
+[12:01:20.623] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_confused02.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_confused02.png), fd: 0xbf
+[12:01:20.693] |T| [close_file]: sceIoClose: Closing file fd: 0xbf
+[12:01:20.707] |T| [close_file]: sceIoClose: Closing file fd: 0xbe
+[12:01:32.524] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_sad02.png
+[12:01:32.640] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_sad02.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_sad02.png), fd: 0xc0
+[12:01:32.644] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/keegan/K_sad02.png
+[12:01:32.647] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/keegan/K_sad02.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/keegan/K_sad02.png), fd: 0xc1
+[12:01:32.716] |T| [close_file]: sceIoClose: Closing file fd: 0xc1
+[12:01:32.729] |T| [close_file]: sceIoClose: Closing file fd: 0xc0
+[12:01:33.354] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/henchman/worried.png
+[12:01:33.495] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/henchman/worried.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/henchman/worried.png), fd: 0xc2
+[12:01:33.507] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/henchman/worried.png
+[12:01:33.513] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/henchman/worried.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/henchman/worried.png), fd: 0xc3
+[12:01:33.615] |T| [close_file]: sceIoClose: Closing file fd: 0xc3
+[12:01:33.643] |T| [close_file]: sceIoClose: Closing file fd: 0xc2
+[12:01:39.480] |T| [close_file]: sceIoClose: Closing file fd: 0xb7
+[12:01:39.480] |T| [close_file]: sceIoClose: Closing file fd: 0xb4
+[12:01:40.430] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/sphinx/base.png
+[12:01:40.600] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/sphinx/base.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/sphinx/base.png), fd: 0xc4
+[12:01:40.611] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/sphinx/base.png
+[12:01:40.612] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/sphinx/base.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/sphinx/base.png), fd: 0xc5
+[12:01:40.719] |T| [close_file]: sceIoClose: Closing file fd: 0xc5
+[12:01:40.747] |T| [close_file]: sceIoClose: Closing file fd: 0xc4
+[12:01:40.824] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/sphinx/worried.png
+[12:01:41.220] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/sphinx/worried.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/sphinx/worried.png), fd: 0xc6
+[12:01:41.286] |I| [export_sceIoOpen]: Opening file: app0:game_data//renpygame/game/images/characters/sphinx/worried.png
+[12:01:41.297] |T| [open_file]: sceIoOpen: Opening file app0:game_data//renpygame/game/images/characters/sphinx/worried.png (ux0:/app/PCSE01457/game_data/renpygame/game/images/characters/sphinx/worried.png), fd: 0xc7
+[12:01:41.373] |T| [close_file]: sceIoClose: Closing file fd: 0xc7
+[12:01:41.389] |T| [close_file]: sceIoClose: Closing file fd: 0xc6

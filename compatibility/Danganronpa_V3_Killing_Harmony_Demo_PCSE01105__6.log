@@ -1,0 +1,695 @@
+[08:47:01.154] |I| [config::init_config]: backend-renderer: Vulkan
+[08:47:01.186] |I| [config::init_config]: log-level: 0
+[08:47:02.678] |I| [SDL_main]: Vita3K v0.1.8 3306-c541d8eb
+[08:47:02.678] |I| [SDL_main]: Number of logical CPU cores: 2
+[08:47:02.679] |I| [SDL_main]: Available ram memory: 3959 MiB
+[08:47:05.113] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[08:47:09.675] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[08:47:09.736] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[08:47:09.830] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[08:47:09.948] |I| [renderer::vulkan::VKState::create]: Using shader interlock for accurate framebuffer fetch emulation
+[08:47:11.933] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[08:47:20.435] |W| [compat::load_compat_app_db]: App with Title ID PCSB00515 has an issue but no status label. Please check GitHub issue 2238 and request a status label be added.
+[08:47:20.441] |W| [compat::load_compat_app_db]: App with Title ID PCSG00289 has an issue but no status label. Please check GitHub issue 2218 and request a status label be added.
+[08:47:20.441] |W| [compat::load_compat_app_db]: App with Title ID PCSB00468 has an issue but no status label. Please check GitHub issue 2178 and request a status label be added.
+[08:47:20.441] |W| [compat::load_compat_app_db]: App with Title ID PCSE00307 has an issue but no status label. Please check GitHub issue 2129 and request a status label be added.
+[08:47:20.443] |W| [compat::load_compat_app_db]: App with Title ID PCSA00133 has an issue but no status label. Please check GitHub issue 1649 and request a status label be added.
+[08:47:30.283] |I| [compat::update_compat_app_db]: Applications compatibility database is up to date.
+[08:51:21.685] |I| [load_app_impl]: cpu-backend: Dynarmic
+[08:51:21.686] |I| [load_app_impl]: CPU Optimisation state: true
+[08:51:21.686] |I| [load_app_impl]: ngs state: true
+[08:51:21.686] |I| [load_app_impl]: Resolution multiplier: 1
+[08:51:21.686] |I| [load_app_impl]: modules mode: Automatic
+[08:51:21.686] |I| [load_app_impl]: Title: Danganronpa V3: Killing Harmony Demo version
+[08:51:21.687] |I| [load_app_impl]: Serial: PCSE01105
+[08:51:21.688] |I| [load_app_impl]: Version: 1.00
+[08:51:21.691] |I| [load_app_impl]: Category: gd
+[08:51:21.840] |I| [load_module]: Loading module "app0:eboot.bin"
+[08:51:23.643] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[08:51:23.799] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x00700B70 / 0x81000000] (size: 0x006FBB70) of module app0:eboot.bin
+[08:51:23.813] |I| [load_self]: Loaded module segment 1 @ [0x00701000 - 0x00AC9AB0 / 0x816FC000] (size: 0x003C8AB0) of module app0:eboot.bin
+[08:51:23.827] |I| [load_self]: Linking SELF app0:eboot.bin...
+[08:51:23.828] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x5d5378
+[08:51:23.830] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x723000
+[08:51:23.837] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x6c8d6c
+[08:51:24.440] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x5ef2c0, setting to stub value 0xdeadbeef
+[08:51:24.446] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x5ef0c8, setting to stub value 0xdeadbeef
+[08:51:24.451] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x5ef12c, setting to stub value 0xdeadbeef
+[08:51:24.458] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x5ef2e4, setting to stub value 0xdeadbeef
+[08:51:24.466] |W| [load_var_imports]: 	NID NOT FOUND 0x1c7bab93 (UNRECOGNISED) at 0x5ee73c, setting to stub value 0xdeadbeef
+[08:51:24.471] |W| [load_var_imports]: 	NID NOT FOUND 0x3eb20633 (UNRECOGNISED) at 0x5eebd0, setting to stub value 0xdeadbeef
+[08:51:24.476] |W| [load_var_imports]: 	NID NOT FOUND 0xa3df9f3e (UNRECOGNISED) at 0x5ef064, setting to stub value 0xdeadbeef
+[08:51:24.558] |W| [load_var_imports]: 	NID NOT FOUND 0xbfef56b5 (UNRECOGNISED) at 0x5ee0b4, setting to stub value 0xdeadbeef
+[08:51:24.564] |W| [load_var_imports]: 	NID NOT FOUND 0xcd4933d7 (UNRECOGNISED) at 0x5ee158, setting to stub value 0xdeadbeef
+[08:51:24.573] |I| [load_module]: Module TaikenV3Vita (at "app0:eboot.bin") loaded
+[08:51:24.576] |I| [load_app_impl]: Main executable TaikenV3Vita (eboot.bin) loaded
+[08:51:24.633] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[08:51:25.202] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[08:51:25.205] |I| [load_self]: Loaded module segment 0 @ [0x00AD3000 - 0x00B248A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[08:51:25.209] |I| [load_self]: Loaded module segment 1 @ [0x00B25000 - 0x00B278A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[08:51:25.212] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[08:51:25.214] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0xb1c3f0
+[08:51:25.271] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0xb1b158
+[08:51:25.272] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0xb1c1e8
+[08:51:25.274] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0xb255b0
+[08:51:25.276] |D| [load_var_exports]: Found previously not found variable. nid:0x1c7bab93, new_entry_point:0xb2731e
+[08:51:25.277] |D| [load_var_exports]: Found previously not found variable. nid:0x3eb20633, new_entry_point:0xb2731f
+[08:51:25.278] |D| [load_var_exports]: Found previously not found variable. nid:0xa3df9f3e, new_entry_point:0xb26568
+[08:51:25.279] |D| [load_var_exports]: Found previously not found variable. nid:0xbfef56b5, new_entry_point:0xb27314
+[08:51:25.286] |D| [load_var_exports]: Found previously not found variable. nid:0xcd4933d7, new_entry_point:0xb2731d
+[08:51:25.288] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xb1a314
+[08:51:25.290] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xb0f4dc
+[08:51:25.292] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[08:51:25.292] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[08:51:25.575] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[08:51:25.577] |I| [load_self]: Loaded module segment 0 @ [0x00B28000 - 0x00B54CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[08:51:25.581] |I| [load_self]: Loaded module segment 1 @ [0x00ACA000 - 0x00ACF255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[08:51:25.588] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[08:51:25.590] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xb54bc8
+[08:51:25.594] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xb4bf08
+[08:51:25.596] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[08:51:25.601] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[08:51:25.861] |I| [load_self]: Loaded module segment 0 @ [0x00B55000 - 0x00BA5F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[08:51:25.864] |I| [load_self]: Loaded module segment 1 @ [0x00AD0000 - 0x00AD02F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[08:51:25.869] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[08:51:25.871] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xb917dc
+[08:51:25.874] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xb90f10
+[08:51:25.875] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[08:51:25.876] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[08:51:26.436] |I| [load_self]: Loaded module segment 0 @ [0x00BA6000 - 0x00BB5F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[08:51:26.474] |I| [load_self]: Loaded module segment 1 @ [0x00AD1000 - 0x00AD1008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[08:51:26.476] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[08:51:26.477] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xbb4710
+[08:51:26.480] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xbb4300
+[08:51:26.482] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[08:51:27.685] |D| [start_module]: Running module_start of library: SceLibc at address 0xad3871
+[08:51:28.196] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[08:51:28.201] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[08:51:28.208] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[08:51:28.247] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[08:51:28.266] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0xb28001
+[08:51:28.333] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[08:51:28.368] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[08:51:28.423] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x5d4e58
+[08:51:28.475] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x54f87eac _sceLdTlsRegisterModuleInfo at 0x5d4c98
+[08:51:28.486] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x5d4d68
+[08:51:28.612] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x5d4e78
+[08:51:28.629] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x5d4ec8
+[08:51:28.632] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x5d4c78
+[08:51:29.144] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x5d5088
+[08:51:29.169] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x5d50c8
+[08:51:29.398] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x5d4cd8
+[08:51:29.455] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[08:51:31.827] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa1bff606 snprintf at 0x5d4dc8
+[08:51:32.074] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x5d4db8
+[08:51:32.276] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x5d4ce8
+[08:51:33.076] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[08:51:34.291] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[08:51:34.294] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[08:51:35.077] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[08:51:35.078] |I| [load_self]: Loaded module segment 0 @ [0x00CB7000 - 0x00CCB9FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[08:51:35.081] |I| [load_self]: Loaded module segment 1 @ [0x00CCC000 - 0x00CCC06C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[08:51:35.083] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[08:51:35.085] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xcc8d40
+[08:51:35.089] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xcc7548
+[08:51:35.105] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[08:51:35.110] |D| [start_module]: Running module_start of library: SceAvPlayer at address 0xcb7001
+[08:51:35.197] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[08:51:35.235] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[08:51:35.556] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[08:51:35.559] |I| [load_self]: Loaded module segment 0 @ [0x00CCD000 - 0x00CDCD20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[08:51:35.561] |I| [load_self]: Loaded module segment 1 @ [0x00CDD000 - 0x00CDD028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[08:51:35.564] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[08:51:35.566] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xcdc9d0
+[08:51:35.568] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xcdb8c4
+[08:51:35.570] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[08:51:36.500] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[08:51:36.784] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[08:51:37.163] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[08:51:37.653] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x5d4d48
+[08:51:45.601] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x5d4ee8
+[08:51:46.359] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x5d4e98
+[08:51:46.691] |I| [export_sceIoOpen]: Opening file: app0:/data/VITA_DEMO/partition_resident_vita_demo.cpk
+[08:51:46.969] |T| [open_file]: sceIoOpen: Opening file app0:/data/VITA_DEMO/partition_resident_vita_demo.cpk (ux0:/app/PCSE01105/data/VITA_DEMO/partition_resident_vita_demo.cpk), fd: 0x3
+[08:51:47.021] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[08:51:47.050] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x5d4bd8
+[08:51:47.069] |I| [export_sceIoOpen]: Opening file: app0:/data/VITA_DEMO/partition_resident_vita_demo.cpk
+[08:51:47.085] |T| [open_file]: sceIoOpen: Opening file app0:/data/VITA_DEMO/partition_resident_vita_demo.cpk (ux0:/app/PCSE01105/data/VITA_DEMO/partition_resident_vita_demo.cpk), fd: 0x4
+[08:51:47.102] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x5d4c28
+[08:51:47.165] |I| [export_sceIoOpen]: Opening file: app0:/data/VITA_DEMO/partition_data_vita_demo.cpk
+[08:51:47.357] |T| [open_file]: sceIoOpen: Opening file app0:/data/VITA_DEMO/partition_data_vita_demo.cpk (ux0:/app/PCSE01105/data/VITA_DEMO/partition_data_vita_demo.cpk), fd: 0x5
+[08:51:47.364] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[08:51:47.367] |I| [export_sceIoOpen]: Opening file: app0:/data/VITA_DEMO/partition_data_vita_demo.cpk
+[08:51:47.369] |T| [open_file]: sceIoOpen: Opening file app0:/data/VITA_DEMO/partition_data_vita_demo.cpk (ux0:/app/PCSE01105/data/VITA_DEMO/partition_data_vita_demo.cpk), fd: 0x6
+[08:51:47.403] |E| [logging::ret_error_impl]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[08:51:47.405] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[08:51:47.463] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
+[08:51:47.660] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x5d4f68
+[08:51:48.445] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbc529b7b __tls_get_addr at 0x5d4e38
+[08:51:49.607] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SCREEN_SHOT
+[08:51:49.682] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[08:51:49.684] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[08:51:49.686] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[08:51:49.687] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[08:51:50.152] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8e5a06c5 abs at 0x5d4d78
+[08:51:50.164] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x93fc85ed _FSinx at 0x5d4f88
+[08:51:50.594] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0x7449b359 sprintf at 0x5d4cf8
+[08:51:50.729] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa98e941b tanf at 0x5d4f98
+[08:51:51.075] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[08:51:51.135] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[08:51:51.169] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5bd8d5c _FLog at 0x5d4fc8
+[08:51:51.175] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x56473bc7 expf at 0x5d4f38
+[08:51:51.281] |W| [unimplemented_impl]: Unimplemented sceGxmColorSurfaceSetClip import called.
+[08:51:51.350] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4c847adf sceAvPlayerInit at 0x5d4098
+[08:51:51.560] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbc83c8fd sceAvPlayerAddSource at 0x5d40a8
+[08:51:51.599] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontLineFillLastPixelEnable import called.
+[08:51:51.616] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5474af0 sceMp4OpenFile at 0xcc71a8
+[08:51:51.674] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec103adf sceAvPlayerSetLooping at 0x5d40b8
+[08:51:51.677] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x30e49e4d sceMp4StartFileStreaming at 0xcc71c8
+[08:51:51.756] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x22986cd1 sceAvPlayerGetVideoDataEx at 0x5d4868
+[08:51:52.015] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[08:51:52.130] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcefdd143 strrchr at 0x5d4e68
+[08:51:52.533] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x2cd86fd6 sceAvPlayerStreamCount at 0x5d4888
+[08:51:52.678] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0xd5b26179 UNRECOGNISED at 0xcc72c8
+[08:51:52.701] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x34e2d370 sceAvPlayerGetStreamInfo at 0x5d48a8
+[08:51:52.735] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x70127ab8 sceAvPlayerEnableStream at 0x5d48d8
+[08:51:54.218] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8b6bebad06daabbe5e7ad243f56e548249e09bfccb1405499cf2fcf4806e6f2d
+[08:51:54.251] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 8b6bebad06daabbe5e7ad243f56e548249e09bfccb1405499cf2fcf4806e6f2d
+[08:51:54.493] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:51:54.493] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[08:51:54.986] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[08:51:56.372] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 93887b2b715fd2204dedd738122c8633b1bfdaf7f9dcae20598acedd5b4d4437
+[08:51:56.383] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 93887b2b715fd2204dedd738122c8633b1bfdaf7f9dcae20598acedd5b4d4437
+[08:51:56.435] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:51:56.438] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[08:51:59.281] |W| [stubbed_impl]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[08:51:59.362] |W| [stubbed_impl]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[08:51:59.725] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x5d4d18
+[08:51:59.941] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x609e57ad sceMp4EnableStream at 0xcc7208
+[08:51:59.970] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x2acb4217 sceAvPlayerStart at 0x5d4878
+[08:52:00.020] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcd7c05bd floorf at 0x5d4fb8
+[08:52:00.079] |T| [log_import_call]: [LLE] TID: 171 FUNC: 0x6bbfec89 ceilf at 0x5d4f58
+[08:52:00.148] |T| [log_import_call]: [LLE] TID: 259 FUNC: 0x20a01112 sceMp4GetNextUnit at 0xcc71b8
+[08:52:00.240] |T| [log_import_call]: [LLE] TID: 259 FUNC: 0xd092a066 sceMp4GetNextUnitData at 0xcc72a8
+[08:52:00.980] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[08:52:01.106] |E| [logging::ret_error_impl]: _sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[08:52:01.115] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2e4ff35f sceAvPlayerIsActive at 0x5d4898
+[08:52:01.160] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x804dcecd sceAvPlayerCurrentTime at 0x5d48f8
+[08:52:01.329] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d23774b61621dc994903a7d08e90a69d85a44b078bc53fe6c70564164d72aa3a
+[08:52:01.334] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d23774b61621dc994903a7d08e90a69d85a44b078bc53fe6c70564164d72aa3a
+[08:52:01.340] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:52:01.342] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[08:52:01.343] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[08:52:01.385] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5aa7e0c3f85f4fe2bcd9e425fa19c891f28fc7920ff49083338bbed83fff1958
+[08:52:01.391] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5aa7e0c3f85f4fe2bcd9e425fa19c891f28fc7920ff49083338bbed83fff1958
+[08:52:01.440] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp0, TEXCOORD0.xy)
+[08:52:01.442] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[08:52:13.386] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7aa29b2d sceAvPlayerClose at 0x5d48e8
+[08:52:13.420] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc05dff01 UNRECOGNISED at 0xcc7288
+[08:52:13.430] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x40351e1a sceMp4Reset at 0xcc71e8
+[08:52:13.437] |W| [stubbed_impl]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[08:52:13.507] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x920623c8 sceMp4CloseFile at 0xcc7238
+[08:52:13.558] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7b4832fe sceMp4ReleaseBuffer at 0xcc7228
+[08:52:13.764] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2705ee10b8db6d2c3eb2c2e62bd43ecacdfca294cde70390d40d126a8ec7d8fb
+[08:52:13.835] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 2705ee10b8db6d2c3eb2c2e62bd43ecacdfca294cde70390d40d126a8ec7d8fb
+[08:52:13.893] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:52:13.894] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[08:52:13.896] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[08:52:13.897] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[08:52:14.047] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a2063d857ea113ba303b2761f544445f1e5c4993ede35556e6883897d755e683
+[08:52:14.064] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader a2063d857ea113ba303b2761f544445f1e5c4993ede35556e6883897d755e683
+[08:52:14.099] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:52:14.100] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_samp0, TEXCOORD0.xy)
+[08:52:14.102] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:52:21.645] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d555e9ef3de38eab8983db423c25ef5a6c87d1869c174512f5082611b2581b1c
+[08:52:21.655] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d555e9ef3de38eab8983db423c25ef5a6c87d1869c174512f5082611b2581b1c
+[08:52:21.665] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:52:21.667] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[08:52:21.669] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_texcoord0
+[08:52:21.670] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_system_virtual_screen_param
+[08:52:21.673] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[08:52:21.684] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[08:52:21.793] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 36e6e73f87e35fe461eba6a70b3154b87ebc5cbb63b54e9e6aa6de3fd5e54993
+[08:52:21.816] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 36e6e73f87e35fe461eba6a70b3154b87ebc5cbb63b54e9e6aa6de3fd5e54993
+[08:52:21.888] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[08:52:21.889] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:52:21.891] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp, TEXCOORD0.xy)
+[08:52:21.895] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[08:52:21.898] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:52:29.117] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x5d4e08
+[08:52:30.369] |T| [log_import_call]: [LLE] TID: 75  FUNC: 0x1167b5d2 modf at 0x5d4ef8
+[08:52:30.865] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a264fa6d004240856ae2b0c07dae8274d9f7be1409088d4b2cc809f38e818cf9
+[08:52:30.950] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader a264fa6d004240856ae2b0c07dae8274d9f7be1409088d4b2cc809f38e818cf9
+[08:52:30.970] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:52:30.970] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[08:52:30.973] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[08:52:31.036] |E| [logging::ret_error_impl]: sceNgsVoiceResume returned SCE_NGS_ERROR_INVALID_STATE (0x804a0010)
+[08:52:31.262] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b08fa01d19b31af9351c5954f27d8fc19117cd134e6ab41aa412619626bf3fd3
+[08:52:31.352] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b08fa01d19b31af9351c5954f27d8fc19117cd134e6ab41aa412619626bf3fd3
+[08:52:31.357] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:52:31.360] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[08:52:31.361] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_texcoord0
+[08:52:31.370] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_system_virtual_screen_param
+[08:52:31.371] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float2) mask_position_ex0
+[08:52:31.373] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) mask_position_ex3
+[08:52:31.375] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[08:52:31.390] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[08:52:31.515] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 60a85add7c29331b3b55df19c0567f202151aef930b9fda33bd0d6410da1521d
+[08:52:31.535] |W| [ngs::EqualizerModule::process]: Game is using unimplemented equalizer audio module
+[08:52:31.696] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 60a85add7c29331b3b55df19c0567f202151aef930b9fda33bd0d6410da1521d
+[08:52:31.698] |W| [ngs::EnvelopeModule::process]: Game is using unimplemented envelope audio module
+[08:52:31.712] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[08:52:31.714] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) _sp_alpha
+[08:52:31.715] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) mask_position0
+[08:52:31.717] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float2) mask_position3
+[08:52:31.719] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_Position
+[08:52:31.724] |T| [shader::create_fragment_inputs]: pa2 = tex2D<float4>(samp, TEXCOORD0.xy)
+[08:52:31.727] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_Color0
+[08:52:31.729] |T| [shader::create_fragment_inputs]: pa10 = tex2D<float4>(sampMask, TEXCOORD1.xy)
+[08:52:31.732] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:52:31.738] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[08:52:31.769] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 1
+[08:52:31.774] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_6, size = 1
+[08:52:31.777] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_7, size = 1
+[08:52:31.781] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_8, size = 1
+[08:52:31.786] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_9, size = 1
+[08:52:31.790] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_10, size = 3
+[08:53:01.133] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[08:53:01.135] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[08:53:12.052] |T| [log_import_call]: [LLE] TID: 174 FUNC: 0xaaa6aaa2 wcsncmp at 0x5d4df8
+[08:53:12.226] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader bc0f1cd9c5b90b8807dfa8103ff2cfec5fca4950b92f00965fc4c8f85c68d88a
+[08:53:12.313] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader bc0f1cd9c5b90b8807dfa8103ff2cfec5fca4950b92f00965fc4c8f85c68d88a
+[08:53:12.353] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:53:12.354] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[08:53:12.362] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_texcoord0
+[08:53:12.369] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_system_virtual_screen_param
+[08:53:12.373] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) _sp_position_z
+[08:53:12.374] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) _sp_size
+[08:53:12.376] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[08:53:12.395] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[08:53:12.498] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 7bcb397d863f858b136b9e4cb3d0d114428ce7bb85d3a2521acfb6fbd0311c7c
+[08:53:12.530] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 7bcb397d863f858b136b9e4cb3d0d114428ce7bb85d3a2521acfb6fbd0311c7c
+[08:53:12.535] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:53:12.536] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[08:53:12.538] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[08:53:12.547] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[08:53:12.551] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 2
+[08:53:28.949] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9ef7c0c441aca41028999b8b2934ee6033387bf9f2fc29bafb01768b948dc94b
+[08:53:28.975] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9ef7c0c441aca41028999b8b2934ee6033387bf9f2fc29bafb01768b948dc94b
+[08:53:28.986] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:53:28.993] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[08:53:28.998] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) _sp_position_z
+[08:53:29.001] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[08:53:29.013] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[08:53:29.205] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6ed95c38e6a6d21efc8c66417632f97346276cd35e83837bddea2dc59d66ae04
+[08:53:29.209] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 6ed95c38e6a6d21efc8c66417632f97346276cd35e83837bddea2dc59d66ae04
+[08:53:29.228] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[08:53:29.228] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:53:29.230] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[08:53:29.234] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:53:30.296] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6bf3efe8914261290b7753b6dde4e10ea3cc4eb9ab47df534cef593482aa7c76
+[08:53:30.342] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 6bf3efe8914261290b7753b6dde4e10ea3cc4eb9ab47df534cef593482aa7c76
+[08:53:30.481] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:53:30.483] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[08:53:30.484] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_texcoord0
+[08:53:30.487] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[08:53:30.564] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9a81660ca9b6014c88c57be4865f0fcfed6baada227d865c39c02e64fc4ed621
+[08:53:30.571] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9a81660ca9b6014c88c57be4865f0fcfed6baada227d865c39c02e64fc4ed621
+[08:53:30.578] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:53:30.588] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[08:53:30.592] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:53:30.775] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9d7c64f0cc442588b6ba081c4586a0c36a6b96e21dc1b305e7422edf67eba363
+[08:53:30.783] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9d7c64f0cc442588b6ba081c4586a0c36a6b96e21dc1b305e7422edf67eba363
+[08:53:30.794] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:53:30.795] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[08:53:30.797] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[08:53:30.864] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5fac5e8c438c05919aa88b277da08a0e67c47c8b99def37eda3b3dec6a5f5d16
+[08:53:30.897] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5fac5e8c438c05919aa88b277da08a0e67c47c8b99def37eda3b3dec6a5f5d16
+[08:53:30.903] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[08:53:30.909] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[08:53:33.039] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0xe71c5cde _Stoul at 0x5d4ea8
+[08:53:34.786] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd78fc94e atanf at 0x5d4fd8
+[08:53:37.104] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 61e7de180cd6a9f8eb24e41a38ca3a833e1fe39d272729ecdc2141108672d7f7
+[08:53:37.126] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 61e7de180cd6a9f8eb24e41a38ca3a833e1fe39d272729ecdc2141108672d7f7
+[08:53:37.145] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[08:53:37.146] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:37.148] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[08:53:37.277] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ed18f86c725a41cce4a91efdd647b8aebf48a071df0eea823f30a03122e700a5
+[08:53:37.281] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader ed18f86c725a41cce4a91efdd647b8aebf48a071df0eea823f30a03122e700a5
+[08:53:37.285] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:53:37.494] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 31f2d5f8b4f07e50afd78bd74d1dceb559e9cfaee28b2d6821db0886891e361b
+[08:53:37.506] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 31f2d5f8b4f07e50afd78bd74d1dceb559e9cfaee28b2d6821db0886891e361b
+[08:53:37.546] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:53:37.551] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:53:37.561] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[08:53:37.564] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[08:53:37.565] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:37.567] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:53:37.569] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[08:53:37.674] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1633b4bae0ea51fe77c37e0a402d32d7a5efa1cbbfc63f1960992584f8312e40
+[08:53:37.680] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1633b4bae0ea51fe77c37e0a402d32d7a5efa1cbbfc63f1960992584f8312e40
+[08:53:37.686] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[08:53:37.687] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp00, TEXCOORD1.xy)
+[08:53:37.688] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[08:53:38.244] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e4c2b2b6e21736627639561a11003dce3d1ade0ace548832c7572cf84dcbc394
+[08:53:38.247] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader e4c2b2b6e21736627639561a11003dce3d1ade0ace548832c7572cf84dcbc394
+[08:53:38.285] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:53:38.286] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:53:38.287] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv00
+[08:53:38.323] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:38.333] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:53:38.335] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) shadow_matrix0[4]
+[08:53:38.337] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 29
+[08:53:38.446] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c3343b209d21266f107ddd2a7befa49a0f82a2afbcef9057744bd06c00fb6f6a
+[08:53:38.464] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader c3343b209d21266f107ddd2a7befa49a0f82a2afbcef9057744bd06c00fb6f6a
+[08:53:38.469] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) shadowColor
+[08:53:38.471] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) shadowParam0
+[08:53:38.474] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord5
+[08:53:38.478] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[08:53:38.482] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord8
+[08:53:38.484] |T| [shader::create_fragment_inputs]: pa8 = tex2Dproj<float4>(shadowDepthTex0, TEXCOORD8.xyw)
+[08:53:38.486] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:53:38.499] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[08:53:39.035] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d22d39c00a3a85c660ba1ebe4c5976b995337c82c41b1b08624f13d3fbcd5775
+[08:53:39.039] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d22d39c00a3a85c660ba1ebe4c5976b995337c82c41b1b08624f13d3fbcd5775
+[08:53:39.051] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:53:39.052] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:53:39.055] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[08:53:39.061] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[08:53:39.062] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:39.064] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:53:39.065] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) shadow_matrix0[4]
+[08:53:39.067] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 30
+[08:53:39.193] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e4eb3138c34349aa5a61480e92f616155c634c25e6cb0ea702c9766ae77cfbb6
+[08:53:39.199] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader e4eb3138c34349aa5a61480e92f616155c634c25e6cb0ea702c9766ae77cfbb6
+[08:53:39.207] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) shadowColor
+[08:53:39.208] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) shadowParam0
+[08:53:39.214] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord5
+[08:53:39.215] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[08:53:39.219] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord8
+[08:53:39.220] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(samp00, TEXCOORD1.xy)
+[08:53:39.222] |T| [shader::create_fragment_inputs]: pa10 = tex2Dproj<float4>(shadowDepthTex0, TEXCOORD8.xyw)
+[08:53:39.229] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:53:39.233] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 19
+[08:53:39.564] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d205e248b63b3d8854ec2dd1ff01caa77cf87e634928e9c03a248f589979f813
+[08:53:39.568] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d205e248b63b3d8854ec2dd1ff01caa77cf87e634928e9c03a248f589979f813
+[08:53:39.580] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:53:39.581] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:53:39.585] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv00
+[08:53:39.588] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:39.591] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:53:39.592] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[08:53:39.660] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader eb70b7178790c76a21a2758e11ede1c4ba1a96d89ea0e722089759ccd6a4cad3
+[08:53:39.667] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader eb70b7178790c76a21a2758e11ede1c4ba1a96d89ea0e722089759ccd6a4cad3
+[08:53:39.672] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[08:53:39.674] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:53:39.797] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 793d9524edbeeeaffba1df32f96bcf755fc0bdc840a065d291e3870cfd566e27
+[08:53:39.819] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 793d9524edbeeeaffba1df32f96bcf755fc0bdc840a065d291e3870cfd566e27
+[08:53:39.829] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:53:39.831] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:53:39.835] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[08:53:39.838] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv02
+[08:53:39.841] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) input__uv00
+[08:53:39.846] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:39.847] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:53:39.850] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 16
+[08:53:39.923] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9f0796da3d740e7c2392c3a21cf66cf8f3b3bac47932559646d18d9b3d9b0af6
+[08:53:39.941] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9f0796da3d740e7c2392c3a21cf66cf8f3b3bac47932559646d18d9b3d9b0af6
+[08:53:39.946] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp02, TEXCOORD0.xy)
+[08:53:39.947] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp01, TEXCOORD2.xy)
+[08:53:39.948] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD1.xy)
+[08:53:39.951] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[08:53:40.238] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader dc2fd222f102a0bccc07e007ad6527cfaa5ad8c7c46a9a49cb000e0a575465fb
+[08:53:40.241] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader dc2fd222f102a0bccc07e007ad6527cfaa5ad8c7c46a9a49cb000e0a575465fb
+[08:53:40.260] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:53:40.262] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:53:40.264] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[08:53:40.272] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[08:53:40.274] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:40.280] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:53:40.282] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[08:53:40.376] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 7a1003f7ce1767f0f135440d85eaeaf175c5744e8153c2e8ca4eb3a6b6d7b7ea
+[08:53:40.380] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 7a1003f7ce1767f0f135440d85eaeaf175c5744e8153c2e8ca4eb3a6b6d7b7ea
+[08:53:40.409] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half2) uvOffset
+[08:53:40.415] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[08:53:40.416] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half2) v_TexCoord1
+[08:53:40.418] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[08:53:40.606] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 74ba5ac4e68b6e374e1f24a19c90b48f2f71955c4661fab9b208e900990112c3
+[08:53:40.616] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 74ba5ac4e68b6e374e1f24a19c90b48f2f71955c4661fab9b208e900990112c3
+[08:53:40.626] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:53:40.628] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:53:40.630] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[08:53:40.632] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[08:53:40.633] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:40.635] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:53:40.637] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[08:53:40.703] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fa5f0c6dd596f9fa2676f017c6b24bfe95ef59c5e3d729c73845c8d7b063a0d3
+[08:53:40.707] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader fa5f0c6dd596f9fa2676f017c6b24bfe95ef59c5e3d729c73845c8d7b063a0d3
+[08:53:40.741] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half2) uvOffset
+[08:53:40.743] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[08:53:40.746] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half2) v_TexCoord1
+[08:53:40.747] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[08:53:40.932] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5cca63bc86c57daa09e13ba09a1fc67c4d7aa630ba59a3220754b0c762d93440
+[08:53:40.935] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 5cca63bc86c57daa09e13ba09a1fc67c4d7aa630ba59a3220754b0c762d93440
+[08:53:40.940] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:53:40.941] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:53:40.943] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[08:53:40.945] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[08:53:40.948] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:40.956] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:53:40.958] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[08:53:41.030] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 99c9a2013a4d4f33c770f5976a33381972e30d13f8b4b35e63d433ab5556c29a
+[08:53:41.037] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 99c9a2013a4d4f33c770f5976a33381972e30d13f8b4b35e63d433ab5556c29a
+[08:53:41.042] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[08:53:41.046] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp00, TEXCOORD1.xy)
+[08:53:41.048] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[08:53:41.230] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 406933351f24f65139a11780f8d4fa12c59f863b7c0a1c320a8b1e7d493b106c
+[08:53:41.233] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 406933351f24f65139a11780f8d4fa12c59f863b7c0a1c320a8b1e7d493b106c
+[08:53:41.239] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:53:41.240] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:53:41.244] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv00
+[08:53:41.249] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:53:41.256] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:53:41.258] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[08:53:41.308] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5b2761c411d0b33dcc0e3abc466930834af10c326c788fc0595adf43319a3228
+[08:53:41.313] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5b2761c411d0b33dcc0e3abc466930834af10c326c788fc0595adf43319a3228
+[08:53:41.338] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[08:53:41.340] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[08:53:50.525] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[08:53:55.704] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbd35e360 sceAvPlayerStop at 0x5d4908
+[08:54:07.182] |I| [ngs::PlayerModule::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[08:54:11.105] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[08:54:11.382] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[08:54:17.577] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ee294e9f0a0427e140a3af645129abd217f3ea9d82cd8a6d48c654436b2ee997
+[08:54:17.592] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ee294e9f0a0427e140a3af645129abd217f3ea9d82cd8a6d48c654436b2ee997
+[08:54:17.597] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:54:17.597] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[08:54:17.599] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[08:54:17.630] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 305aa1ccbc1946d5f44289333e343c3729fa9d786b6a9422376f6df00574de5a
+[08:54:17.697] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 305aa1ccbc1946d5f44289333e343c3729fa9d786b6a9422376f6df00574de5a
+[08:54:17.709] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _sp_factor[2]
+[08:54:17.711] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[08:54:17.714] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[08:54:20.482] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0x8aaadd56 wcscpy at 0x5d4d58
+[08:54:20.756] |T| [log_import_call]: [LLE] TID: 165 FUNC: 0xb9336e16 strchr at 0x5d4e18
+[08:54:20.973] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d95fb6e14b0c16117d349cb743de3a58a9f582ed5b675a9364a7f8438c6254dd
+[08:54:20.976] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d95fb6e14b0c16117d349cb743de3a58a9f582ed5b675a9364a7f8438c6254dd
+[08:54:20.983] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:54:20.984] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[08:54:21.309] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a9bd9f79b0d7f6bf02341d89a0fcd0868b27887f6bf65c461496bff8a1249573
+[08:54:21.315] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader a9bd9f79b0d7f6bf02341d89a0fcd0868b27887f6bf65c461496bff8a1249573
+[08:54:21.320] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:54:21.321] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__uv00
+[08:54:21.323] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:54:21.325] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[08:54:21.360] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8b24ceed552401135737794ee7f93175c5a84a0238997f1c511af2a2564570ac
+[08:54:21.364] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8b24ceed552401135737794ee7f93175c5a84a0238997f1c511af2a2564570ac
+[08:54:21.411] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) _zfog_depth_info
+[08:54:21.412] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float4) _zfog_color
+[08:54:21.415] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _zfog_control_point[3]
+[08:54:21.417] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (half4) ambientLightColor
+[08:54:21.418] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (half4) directionalLightDirection
+[08:54:21.420] |D| [shader::create_parameters]: [DEFAULT  + 30] sa30 = (half4) directionalLightColor
+[08:54:21.423] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (half4) adjustmentColor
+[08:54:21.424] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) billboardOptimizeMatrix[3]
+[08:54:21.426] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Position
+[08:54:21.432] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[08:54:21.434] |T| [shader::create_fragment_inputs]: pa6 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[08:54:21.437] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:54:21.441] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 34
+[08:54:21.534] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_34, size = 1
+[08:54:21.566] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_35, size = 1
+[08:54:21.570] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_36, size = 2
+[08:54:21.576] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_38, size = 1
+[08:54:21.580] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_39, size = 10
+[08:54:22.094] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9f254ed348564cf84c92621f2ff5b55fcad4005b87780a003f21b82e95607c68
+[08:54:22.099] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9f254ed348564cf84c92621f2ff5b55fcad4005b87780a003f21b82e95607c68
+[08:54:22.104] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:54:22.106] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__uv00
+[08:54:22.109] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:54:22.111] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[08:54:22.160] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 99737a5f2143d294a7aa156d374222cba824d525f0a72914e5c5333974d25e71
+[08:54:22.199] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 99737a5f2143d294a7aa156d374222cba824d525f0a72914e5c5333974d25e71
+[08:54:22.205] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) _zfog_depth_info
+[08:54:22.206] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _zfog_color
+[08:54:22.208] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _zfog_control_point[3]
+[08:54:22.211] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half4) ambientLightColor
+[08:54:22.219] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (half4) directionalLightDirection
+[08:54:22.225] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (half4) directionalLightColor
+[08:54:22.227] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (half4) adjustmentColor
+[08:54:22.231] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Position
+[08:54:22.234] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[08:54:22.236] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[08:54:22.248] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 11
+[08:54:22.286] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_11, size = 1
+[08:54:22.302] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_12, size = 1
+[08:54:22.305] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_13, size = 2
+[08:54:22.315] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_15, size = 1
+[08:54:22.318] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_16, size = 10
+[08:54:22.884] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 58b621d1ed1364d986b555872f4f983ca72976b2e1a296a2c56dae15a6c79528
+[08:54:22.902] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 58b621d1ed1364d986b555872f4f983ca72976b2e1a296a2c56dae15a6c79528
+[08:54:22.907] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:54:22.907] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[08:54:22.909] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) _sp_offset
+[08:54:22.911] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[08:54:22.925] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[08:54:23.024] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 71fa1c676208fe6cfbe2429569c4f42af1c42f0cb5a07c3a66b955b38d611cc4
+[08:54:23.033] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 71fa1c676208fe6cfbe2429569c4f42af1c42f0cb5a07c3a66b955b38d611cc4
+[08:54:23.083] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) _sp_weight[9]
+[08:54:23.086] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp, TEXCOORD8.xy)
+[08:54:23.087] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_samp, TEXCOORD7.xy)
+[08:54:23.089] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(_samp, TEXCOORD6.xy)
+[08:54:23.090] |T| [shader::create_fragment_inputs]: pa6 = tex2D<half4>(_samp, TEXCOORD5.xy)
+[08:54:23.093] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(_samp, TEXCOORD4.xy)
+[08:54:23.094] |T| [shader::create_fragment_inputs]: pa10 = tex2D<half4>(_samp, TEXCOORD3.xy)
+[08:54:23.095] |T| [shader::create_fragment_inputs]: pa12 = tex2D<half4>(_samp, TEXCOORD2.xy)
+[08:54:23.098] |T| [shader::create_fragment_inputs]: pa14 = tex2D<half4>(_samp, TEXCOORD1.xy)
+[08:54:23.100] |T| [shader::create_fragment_inputs]: pa16 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[08:54:23.104] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[08:54:23.518] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 31816b58b3fcb977a09c800f4d7554cecf49309cc61429b7b6e8b3b2202531e4
+[08:54:23.533] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 31816b58b3fcb977a09c800f4d7554cecf49309cc61429b7b6e8b3b2202531e4
+[08:54:23.536] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:54:23.538] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[08:54:23.588] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8553874cdfa58da562cbbe89374023ba97230a58a6fdcd0b285cdaf455c382c4
+[08:54:23.608] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8553874cdfa58da562cbbe89374023ba97230a58a6fdcd0b285cdaf455c382c4
+[08:54:23.614] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _sp_factor
+[08:54:23.616] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:54:24.026] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 83f40a9d1f6c4cdb3c5def36e99e821f929eea34be69ed727586e14b026a6124
+[08:54:24.034] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 83f40a9d1f6c4cdb3c5def36e99e821f929eea34be69ed727586e14b026a6124
+[08:54:24.038] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[08:54:24.039] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[08:54:24.042] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[08:54:24.111] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 0ee8051664080f302fe77836a5cca90bf88a031abe54b42f99e516435da375ae
+[08:54:24.118] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 0ee8051664080f302fe77836a5cca90bf88a031abe54b42f99e516435da375ae
+[08:54:24.140] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp0, TEXCOORD0.xy)
+[08:54:24.142] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[08:54:24.299] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 87454ea3b98d5b06341b7605962569dc6589232bd3577a1f090793610cd7e2ac
+[08:54:24.349] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 87454ea3b98d5b06341b7605962569dc6589232bd3577a1f090793610cd7e2ac
+[08:54:24.374] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _sp_color
+[08:54:24.378] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:54:24.662] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6c423cc8818b887d56247d3e883c2678fb04223751a3afac206e9b020ae81e24
+[08:54:24.775] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 6c423cc8818b887d56247d3e883c2678fb04223751a3afac206e9b020ae81e24
+[08:54:24.782] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[08:54:24.786] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[08:54:24.789] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp, TEXCOORD0.xy)
+[08:54:24.791] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[08:54:24.802] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[08:54:27.167] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 479dd720d6c4b9938c040f1a7d60736c77425f48d0d79c4411027d0ec6d7aa49
+[08:54:27.172] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 479dd720d6c4b9938c040f1a7d60736c77425f48d0d79c4411027d0ec6d7aa49
+[08:54:27.178] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:54:27.181] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:54:27.181] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv00
+[08:54:27.185] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:54:27.187] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:54:27.189] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[08:54:27.254] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2ab3c2052c57d45f2008d7f046ff3b29735db42409a498d7c943f867fd6870e1
+[08:54:27.258] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 2ab3c2052c57d45f2008d7f046ff3b29735db42409a498d7c943f867fd6870e1
+[08:54:27.281] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) _zfog_depth_info
+[08:54:27.283] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _zfog_color
+[08:54:27.285] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _zfog_control_point[3]
+[08:54:27.287] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half4) adjustmentColor
+[08:54:27.289] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Position
+[08:54:27.291] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[08:54:27.293] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:54:27.300] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[08:54:27.329] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_10, size = 1
+[08:54:27.341] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_11, size = 1
+[08:54:27.347] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_12, size = 2
+[08:54:27.359] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_14, size = 1
+[08:54:27.363] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_15, size = 10
+[08:54:27.546] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ef9841406dc4f5b6246be29601e0fd98dd4e2371ce680df507ac5885c3df2637
+[08:54:27.552] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ef9841406dc4f5b6246be29601e0fd98dd4e2371ce680df507ac5885c3df2637
+[08:54:27.568] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:54:27.569] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[08:54:27.570] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__tangent
+[08:54:27.573] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[08:54:27.577] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:54:27.594] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[08:54:27.600] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 21
+[08:54:27.670] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader eb613537053728e37a6d2f436d3877748443cef86319cfe7c0f8719c23ecf732
+[08:54:27.680] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader eb613537053728e37a6d2f436d3877748443cef86319cfe7c0f8719c23ecf732
+[08:54:27.691] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) _zfog_depth_info
+[08:54:27.694] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _zfog_color
+[08:54:27.740] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _zfog_control_point[3]
+[08:54:27.743] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half4) ambientLightColor
+[08:54:27.744] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (half4) directionalLightDirection
+[08:54:27.752] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (half4) directionalLightColor
+[08:54:27.755] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (half4) adjustmentColor
+[08:54:27.756] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Position
+[08:54:27.757] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[08:54:27.759] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord6
+[08:54:27.760] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[08:54:27.764] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord7
+[08:54:27.768] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[08:54:27.785] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 25
+[08:54:27.850] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_25, size = 1
+[08:54:27.855] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_26, size = 24
+[08:54:27.911] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_50, size = 1
+[08:54:27.917] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_51, size = 1
+[08:54:27.920] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_52, size = 2
+[08:54:27.927] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_54, size = 1
+[08:54:27.930] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_55, size = 10
+[08:54:32.608] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c50e39f7dc56d626f1f08271f6a461464abb82128e50992904d5a3c52eae6544
+[08:54:32.639] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader c50e39f7dc56d626f1f08271f6a461464abb82128e50992904d5a3c52eae6544
+[08:54:32.643] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:54:32.646] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__uv0
+[08:54:32.648] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _sp_world_view_projection_matrix[4]
+[08:54:32.649] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[08:54:32.680] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[08:54:32.731] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 100ca5e509ec1d74faba4627cab6208f6dd174f7c210d12cb69235073d917a4d
+[08:54:32.739] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 100ca5e509ec1d74faba4627cab6208f6dd174f7c210d12cb69235073d917a4d
+[08:54:32.743] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) adjustmentColor
+[08:54:32.744] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(samp0, TEXCOORD0.xy)
+[08:54:32.746] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:54:32.763] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[08:54:32.769] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 4
+[08:54:57.120] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0xbf94193b _Stod at 0x5d4e48
+[08:55:02.009] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[08:55:02.011] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[08:55:19.901] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3c59645d39863a474a444e98a557fa810a6a0cf388d0acccf1b9e45525a08c0a
+[08:55:19.934] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 3c59645d39863a474a444e98a557fa810a6a0cf388d0acccf1b9e45525a08c0a
+[08:55:19.941] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:55:19.943] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__uv0
+[08:55:19.944] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:55:19.946] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) offecreenOffset
+[08:55:19.948] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[08:55:20.026] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e01d45b6a8a4fe3290c48b17a1113c048e2f10713ea1f96e57e1de24efcdd403
+[08:55:20.031] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader e01d45b6a8a4fe3290c48b17a1113c048e2f10713ea1f96e57e1de24efcdd403
+[08:55:20.037] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) offecreenColor
+[08:55:20.038] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(_samp0, TEXCOORD0.xy)
+[08:55:20.043] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[08:55:20.050] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[08:55:20.054] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 2
+[08:55:20.260] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9ae80abef7204af9847f12813d2ccc6cb2727813e4d71e8b40dc5a521464740e
+[08:55:20.265] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9ae80abef7204af9847f12813d2ccc6cb2727813e4d71e8b40dc5a521464740e
+[08:55:20.324] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[08:55:20.327] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[08:55:20.329] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) offecreenOffset
+[08:55:20.331] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[08:55:20.375] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d4ef898e74d33b77155b16a343ce6b15056179de81d7455cfcf5b8dc12e8c4f8
+[08:55:20.378] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d4ef898e74d33b77155b16a343ce6b15056179de81d7455cfcf5b8dc12e8c4f8
+[08:55:20.392] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) offecreenColor
+[08:55:20.394] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[08:55:23.189] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0x4e09dd53 atan2f at 0x5d4f28
+[08:55:50.011] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[08:55:50.071] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved

@@ -1,0 +1,579 @@
+[09:39:57.109] |I| [config::init_config]: backend-renderer: OpenGL
+[09:39:57.110] |I| [config::init_config]: log-level: 0
+[09:39:57.657] |I| [SDL_main]: Vita3K v0.2.0 3571-6ce9b659
+[09:39:57.658] |I| [SDL_main]: Number of logical CPU cores: 16
+[09:39:57.658] |I| [SDL_main]: Available ram memory: 32674 MiB
+[09:39:57.659] |I| [app::init]: Base path: E:\Retro\PSVita\Vita3k\
+[09:39:57.659] |I| [app::init]: User pref path: E:\Retro\PSVita\Vita3k\
+[09:39:57.806] |I| [renderer::gl::create]: GPU = AMD Radeon RX 6800 XT
+[09:39:57.807] |I| [renderer::gl::create]: GL_VERSION = 4.6.0 Core Profile Context 23.12.1.231124
+[09:39:57.807] |I| [renderer::gl::create]: GL_SHADING_LANGUAGE_VERSION = 4.60
+[09:39:57.807] |I| [renderer::gl::create]: Your GPU only supports texture barrier, performance may not be good on programmable blending games.
+[09:39:57.807] |W| [renderer::gl::create]: Consider upgrading to a GPU that has shader interlock.
+[09:39:58.129] |I| [gui::load_app_icon]: Default icon found for App PCSE00845, [Shiren The Wanderer: The Tower of Fortune and the Dice of Fate] in path PCSE00845.
+[09:39:58.332] |I| [compat::update_app_compat_db]: Applications compatibility database is up to date.
+[09:40:05.868] |I| [gui::set_vsync_state]: V-Sync state: true
+[09:40:06.138] |I| [load_app_impl]: cpu-backend: Dynarmic
+[09:40:06.138] |I| [load_app_impl]: CPU Optimisation state: true
+[09:40:06.138] |I| [load_app_impl]: ngs state: true
+[09:40:06.138] |I| [load_app_impl]: Resolution multiplier: 1
+[09:40:06.138] |I| [load_app_impl]: 1 Controllers Connected
+[09:40:06.138] |I| [load_app_impl]: Controller 0: Xbox One S Controller
+[09:40:06.138] |I| [load_app_impl]: modules mode: Automatic
+[09:40:06.138] |I| [load_app_impl]: Title: Mary Skelter: Nightmares
+[09:40:06.138] |I| [load_app_impl]: Serial: PCSE01014
+[09:40:06.138] |I| [load_app_impl]: Version: 1.00
+[09:40:06.138] |I| [load_app_impl]: Category: gd
+[09:40:06.139] |I| [load_module]: Loading module "app0:eboot.bin"
+[09:40:06.219] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[09:40:06.219] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x80366BA8 / 0x81000000] (size: 0x00362BA8) of module app0:eboot.bin
+[09:40:06.220] |I| [load_self]: Loaded module segment 1 @ [0x80367000 - 0x82414BF8 / 0x81363000] (size: 0x020ADBF8) of module app0:eboot.bin
+[09:40:06.221] |I| [load_self]: Linking SELF app0:eboot.bin...
+[09:40:06.221] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x802dd7c0
+[09:40:06.221] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x80372b10
+[09:40:06.221] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80321720
+[09:40:06.222] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x802eaeb8, setting to stub value 0xdeadbeef
+[09:40:06.223] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x802eaefc, setting to stub value 0xdeadbeef
+[09:40:06.223] |I| [load_module]: Module EBOOT100_US_MASTER (at "app0:eboot.bin") loaded
+[09:40:06.224] |I| [load_app_impl]: Main executable EBOOT100_US_MASTER (eboot.bin) loaded
+[09:40:06.224] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[09:40:06.232] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[09:40:06.232] |I| [load_self]: Loaded module segment 0 @ [0x82417000 - 0x824688A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[09:40:06.232] |I| [load_self]: Loaded module segment 1 @ [0x82469000 - 0x8246B8A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[09:40:06.233] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[09:40:06.233] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x824603f0
+[09:40:06.234] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x824695b0
+[09:40:06.234] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8245e314
+[09:40:06.234] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x824534dc
+[09:40:06.235] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[09:40:06.235] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[09:40:06.240] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[09:40:06.240] |I| [load_self]: Loaded module segment 0 @ [0x8246C000 - 0x82498CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[09:40:06.241] |I| [load_self]: Loaded module segment 1 @ [0x82499000 - 0x8249E255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[09:40:06.241] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[09:40:06.242] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82498bc8
+[09:40:06.242] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8248ff08
+[09:40:06.242] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[09:40:06.243] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[09:40:06.250] |I| [load_self]: Loaded module segment 0 @ [0x8249F000 - 0x824EFF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[09:40:06.250] |I| [load_self]: Loaded module segment 1 @ [0x82415000 - 0x824152F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[09:40:06.251] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[09:40:06.251] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x824db7dc
+[09:40:06.251] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x824daf10
+[09:40:06.251] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[09:40:06.252] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[09:40:06.254] |I| [load_self]: Loaded module segment 0 @ [0x824F0000 - 0x824FFF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[09:40:06.254] |I| [load_self]: Loaded module segment 1 @ [0x82416000 - 0x82416008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[09:40:06.254] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[09:40:06.255] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x824fe710
+[09:40:06.255] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x824fe300
+[09:40:06.255] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[09:40:06.285] |I| [renderer::gl::compile_shader]: frag shader compiled: 1c23d0425ee05acb4ea3e5a197f8c88b4f1efd0b4744fa01b3fafc786f95ef4f
+[09:40:06.288] |I| [renderer::gl::compile_shader]: vert shader compiled: 091a91929ec07f97baf5b6aa8b1b2bd897a877b3d3931fc88e6aaa4676901e5c
+[09:40:06.288] |I| [renderer::gl::pre_compile_program]: Program Compiled 1/4
+[09:40:06.291] |I| [renderer::gl::compile_shader]: frag shader compiled: 82806592a70da9545a61ce8f5aa2398b451b25a1453540afbd7289abcc5a09f1
+[09:40:06.293] |I| [renderer::gl::compile_shader]: vert shader compiled: 1e9f0b43e1dda45abe94a825a78f22b08fbfcb1c204c3d60c0cb83dccd1225e3
+[09:40:06.294] |I| [renderer::gl::pre_compile_program]: Program Compiled 2/4
+[09:40:06.296] |I| [renderer::gl::compile_shader]: frag shader compiled: 731c6ba05cb75cc1fefc07ed5b4be03d43fa14c5e1c3131cf12a4f553764face
+[09:40:06.298] |I| [renderer::gl::compile_shader]: vert shader compiled: 693092a80136eac43c9ed1b6ba25a9f8b432dc40b01512145ffa3d782bbb19f3
+[09:40:06.298] |I| [renderer::gl::pre_compile_program]: Program Compiled 3/4
+[09:40:06.301] |I| [renderer::gl::compile_shader]: frag shader compiled: 8b2b90e29a370c549cd271180608df6a568781a94759c577253cdebb1d06773c
+[09:40:06.303] |I| [renderer::gl::compile_shader]: vert shader compiled: 7c0f41b6eed8a6a0ce6c4f557e0c66e7f6edcf09d98f79af54cc555413518862
+[09:40:06.303] |I| [renderer::gl::pre_compile_program]: Program Compiled 4/4
+[09:40:06.315] |D| [start_module]: Running module_start of library: SceLibc at address 0x82417871
+[09:40:06.347] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x8aecc873 strlen at 0x802dd140
+[09:40:06.348] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x7205bfdb memcpy at 0x802dd0d0
+[09:40:06.350] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[09:40:06.350] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[09:40:06.350] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[09:40:06.356] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[09:40:06.358] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x8246c001
+[09:40:06.369] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[09:40:06.370] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[09:40:06.372] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x802dd1e0
+[09:40:06.373] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x802dd0c0
+[09:40:06.376] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x802dd270
+[09:40:06.378] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x802dd100
+[09:40:06.385] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x802dd130
+[09:40:06.402] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x802dd450
+[09:40:06.403] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3aad41b0 srand at 0x802dd070
+[09:40:06.404] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[09:40:06.404] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[09:40:06.461] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_ULT
+[09:40:06.461] |I| [load_module]: Loading module "app0:sce_module/libult.suprx"
+[09:40:06.464] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[09:40:06.464] |I| [load_self]: Loaded module segment 0 @ [0x82542000 - 0x825559BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
+[09:40:06.465] |I| [load_self]: Loaded module segment 1 @ [0x82556000 - 0x82556814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[09:40:06.465] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[09:40:06.466] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x825542e8
+[09:40:06.466] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82551870
+[09:40:06.467] |I| [load_module]: Module SceUlt (at "app0:sce_module/libult.suprx") loaded
+[09:40:06.467] |D| [start_module]: Running module_start of library: SceUlt at address 0x82545771
+[09:40:06.476] |W| [export__sceUlobjMgrRegisterLibultProtocolRevision::<lambda_1>::operator ()]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[09:40:06.476] |I| [start_module]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[09:40:06.478] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5435c586 sceUltUlthreadRuntimeGetWorkAreaSize at 0x802dc020
+[09:40:06.479] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8486dde6 _sceUltUlthreadRuntimeOptParamInitialize at 0x802dc080
+[09:40:06.479] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x86dda3ae _sceUltUlthreadRuntimeCreate at 0x802dc090
+[09:40:06.494] |W| [export__sceKernelGetThreadInfo::<lambda_1>::operator ()]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[09:40:06.520] |E| [call_import]: Import function for NID 0xd7f0f610 not found (thread name: PCSE01014, thread ID: 6)
+[09:40:06.520] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x644da029 sceUltWaitingQueueResourcePoolGetWorkAreaSize at 0x802dc060
+[09:40:06.521] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x62f9493e _sceUltWaitingQueueResourcePoolCreate at 0x802dc040
+[09:40:06.522] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[09:40:06.522] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[09:40:06.522] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[09:40:06.522] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[09:40:06.523] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xecda7fee sceUltQueueDataResourcePoolGetWorkAreaSize at 0x802dc0f0
+[09:40:06.525] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x40856827 _sceUltQueueDataResourcePoolCreate at 0x802dc000
+[09:40:06.526] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x14da1bb4 _sceUltQueueCreate at 0x802dbfc0
+[09:40:06.527] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa7e78ff9 sceUltQueuePush at 0x802dc0b0
+[09:40:06.533] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SYSTEM_GESTURE
+[09:40:06.533] |I| [load_module]: Loading module "vs0:sys/external/libsystemgesture.suprx"
+[09:40:06.534] |I| [load_self]: vs0:sys/external/libsystemgesture.suprx: Skipping special segment 0x6fffff01...
+[09:40:06.534] |I| [load_self]: Loaded module segment 0 @ [0x82567000 - 0x8256A08C / 0x81000000] (size: 0x0000308C) of module vs0:sys/external/libsystemgesture.suprx
+[09:40:06.535] |I| [load_self]: Loaded module segment 1 @ [0x8256B000 - 0x8256BBF0 / 0x81004000] (size: 0x00000BF0) of module vs0:sys/external/libsystemgesture.suprx
+[09:40:06.535] |I| [load_self]: Linking SELF vs0:sys/external/libsystemgesture.suprx...
+[09:40:06.535] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8256a074
+[09:40:06.536] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82569bd4
+[09:40:06.536] |I| [load_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") loaded
+[09:40:06.537] |D| [start_module]: Running module_start of library: SceSystemGesture at address 0x82567001
+[09:40:06.546] |I| [start_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") module_start returned 0x0
+[09:40:06.548] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6078a08b sceSystemGestureInitializePrimitiveTouchRecognizer at 0x802dc180
+[09:40:06.548] |W| [export_sceTouchGetPixelDensity2::<lambda_1>::operator ()]: Stubbed sceTouchGetPixelDensity2 import called. (Return constant values (22.0))
+[09:40:06.549] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3367370 sceSystemGestureCreateTouchRecognizer at 0x802dc1b0
+[09:40:06.551] |W| [export_sceMotionReset::<lambda_1>::operator ()]: Unimplemented sceMotionReset import called.
+[09:40:06.551] |W| [export_sceMotionMagnetometerOn::<lambda_1>::operator ()]: Unimplemented sceMotionMagnetometerOn import called.
+[09:40:06.643] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[09:40:06.647] |W| [export_sceGxmGetRenderTargetMemSize::<lambda_2>::operator ()]: Stubbed sceGxmGetRenderTargetMemSize import called. (64KiB emuenv mem)
+[09:40:06.656] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[09:40:06.659] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x802dd040
+[09:40:06.659] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x802dd020
+[09:40:06.668] |W| [export_sceGxmSetWClampEnable::<lambda_1>::operator ()]: Unimplemented sceGxmSetWClampEnable import called.
+[09:40:06.668] |W| [export_sceGxmSetWClampValue::<lambda_1>::operator ()]: Unimplemented sceGxmSetWClampValue import called.
+[09:40:06.669] |W| [export_sceGxmSetWBufferEnable::<lambda_1>::operator ()]: Unimplemented sceGxmSetWBufferEnable import called.
+[09:40:06.670] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SCREEN_SHOT
+[09:40:06.671] |W| [export_sceScreenShotSetParam::<lambda_1>::operator ()]: Unimplemented sceScreenShotSetParam import called.
+[09:40:06.671] |W| [export_sceScreenShotSetOverlayImage::<lambda_1>::operator ()]: Unimplemented sceScreenShotSetOverlayImage import called.
+[09:40:06.672] |W| [export_sceScreenShotEnable::<lambda_1>::operator ()]: Unimplemented sceScreenShotEnable import called.
+[09:40:06.676] |E| [export_sceSysmoduleIsLoaded::<lambda_2>::operator ()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[09:40:06.676] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[09:40:06.677] |W| [export_sceSysmoduleUnloadModule::<lambda_1>::operator ()]: Unimplemented sceSysmoduleUnloadModule import called.
+[09:40:06.680] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x802dd170
+[09:40:06.683] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x802dd290
+[09:40:06.740] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x802dd360
+[09:40:06.784] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x802dbf00
+[09:40:06.800] |W| [export_sceKernelChangeThreadVfpException::<lambda_1>::operator ()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[09:40:06.800] |W| [export_sceFiosOverlayThreadSetDisabled02::<lambda_1>::operator ()]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[09:40:06.828] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x802dd0e0
+[09:40:06.829] |E| [export_sceAppUtilDrmClose::<lambda_2>::operator ()]: sceAppUtilDrmClose returned SCE_APPUTIL_ERROR_NOT_MOUNTED (0x80100604)
+[09:40:06.849] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x75348906 fabsf at 0x802dd370
+[09:40:06.858] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5bd8d5c _FLog at 0x802dd3e0
+[09:40:06.859] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6bbfec89 ceilf at 0x802dd350
+[09:40:06.908] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x802dd220
+[09:40:06.908] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x802dd080
+[09:40:06.909] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x93fc85ed _FSinx at 0x802dd380
+[09:40:06.926] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x802dd1b0
+[09:40:06.949] |T| [log_import_call]: [LLE] TID: 190 FUNC: 0xe4299dcb strncmp at 0x802dd230
+[09:40:06.951] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[09:40:06.953] |I| [export_sceIoOpen]: Opening file: app0:/data/SYSTEM.cpk
+[09:40:06.953] |T| [open_file]: sceIoOpen: Opening file app0:/data/SYSTEM.cpk (ux0:/app/PCSE01014/data/SYSTEM.cpk), fd: 0x3
+[09:40:06.957] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[09:40:06.959] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdf4c665a sceSystemGestureUpdatePrimitiveTouchRecognizer at 0x802dc1c0
+[09:40:06.960] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x851fb144 sceSystemGestureUpdateTouchRecognizer at 0x802dc1a0
+[09:40:06.963] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x13ad2218 sceSystemGestureGetTouchEventsCount at 0x802dc160
+[09:40:06.964] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[09:40:06.975] |T| [log_import_call]: [LLE] TID: 190 FUNC: 0x5b9bb802 free at 0x802dd0b0
+[09:40:06.978] |I| [export_sceIoOpen]: Opening file: app0:/data/SYSTEM.cpk
+[09:40:06.978] |T| [open_file]: sceIoOpen: Opening file app0:/data/SYSTEM.cpk (ux0:/app/PCSE01014/data/SYSTEM.cpk), fd: 0x4
+[09:40:07.013] |T| [log_import_call]: [LLE] TID: 190 FUNC: 0xa1bff606 snprintf at 0x802dd180
+[09:40:07.016] |I| [export_sceIoOpen]: Opening file: app0:/data/GAME.cpk
+[09:40:07.016] |T| [open_file]: sceIoOpen: Opening file app0:/data/GAME.cpk (ux0:/app/PCSE01014/data/GAME.cpk), fd: 0x5
+[09:40:07.017] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[09:40:07.028] |I| [export_sceIoOpen]: Opening file: app0:/data/GAME.cpk
+[09:40:07.028] |T| [open_file]: sceIoOpen: Opening file app0:/data/GAME.cpk (ux0:/app/PCSE01014/data/GAME.cpk), fd: 0x6
+[09:40:07.072] |I| [export_sceIoOpen]: Opening file: app0:/data/MOVIE.cpk
+[09:40:07.073] |T| [open_file]: sceIoOpen: Opening file app0:/data/MOVIE.cpk (ux0:/app/PCSE01014/data/MOVIE.cpk), fd: 0x7
+[09:40:07.074] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[09:40:07.085] |I| [export_sceIoOpen]: Opening file: app0:/data/MOVIE.cpk
+[09:40:07.085] |T| [open_file]: sceIoOpen: Opening file app0:/data/MOVIE.cpk (ux0:/app/PCSE01014/data/MOVIE.cpk), fd: 0x8
+[09:40:07.129] |I| [export_sceIoOpen]: Opening file: app0:/data/SOUND.cpk
+[09:40:07.129] |T| [open_file]: sceIoOpen: Opening file app0:/data/SOUND.cpk (ux0:/app/PCSE01014/data/SOUND.cpk), fd: 0x9
+[09:40:07.131] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[09:40:07.143] |I| [export_sceIoOpen]: Opening file: app0:/data/SOUND.cpk
+[09:40:07.143] |T| [open_file]: sceIoOpen: Opening file app0:/data/SOUND.cpk (ux0:/app/PCSE01014/data/SOUND.cpk), fd: 0xa
+[09:40:07.186] |I| [export_sceIoOpen]: Opening file: app0:/data/PATCH.cpk
+[09:40:07.187] |E| [open_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/app/PCSE01014/data/PATCH.cpk (target path: app0:/data/PATCH.cpk)
+[09:40:07.187] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[09:40:07.189] |I| [export_sceIoOpen]: Opening file: app0:/data/PATCH.cpk
+[09:40:07.189] |E| [open_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/app/PCSE01014/data/PATCH.cpk (target path: app0:/data/PATCH.cpk)
+[09:40:07.189] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[09:40:07.201] |I| [export_sceIoOpen]: Opening file: app0:/data/TTM.cpk
+[09:40:07.201] |T| [open_file]: sceIoOpen: Opening file app0:/data/TTM.cpk (ux0:/app/PCSE01014/data/TTM.cpk), fd: 0xb
+[09:40:07.203] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[09:40:07.214] |I| [export_sceIoOpen]: Opening file: app0:/data/TTM.cpk
+[09:40:07.214] |T| [open_file]: sceIoOpen: Opening file app0:/data/TTM.cpk (ux0:/app/PCSE01014/data/TTM.cpk), fd: 0xc
+[09:40:07.258] |I| [export_sceIoOpen]: Opening file: app0:/data/MA.cpk
+[09:40:07.258] |T| [open_file]: sceIoOpen: Opening file app0:/data/MA.cpk (ux0:/app/PCSE01014/data/MA.cpk), fd: 0xd
+[09:40:07.260] |T| [close_file]: sceIoClose: Closing file fd: 0xd
+[09:40:07.271] |I| [export_sceIoOpen]: Opening file: app0:/data/MA.cpk
+[09:40:07.272] |T| [open_file]: sceIoOpen: Opening file app0:/data/MA.cpk (ux0:/app/PCSE01014/data/MA.cpk), fd: 0xe
+[09:40:07.315] |I| [export_sceIoOpen]: Opening file: app0:/data/SCRIPT.cpk
+[09:40:07.315] |T| [open_file]: sceIoOpen: Opening file app0:/data/SCRIPT.cpk (ux0:/app/PCSE01014/data/SCRIPT.cpk), fd: 0xf
+[09:40:07.317] |T| [close_file]: sceIoClose: Closing file fd: 0xf
+[09:40:07.328] |I| [export_sceIoOpen]: Opening file: app0:/data/SCRIPT.cpk
+[09:40:07.328] |T| [open_file]: sceIoOpen: Opening file app0:/data/SCRIPT.cpk (ux0:/app/PCSE01014/data/SCRIPT.cpk), fd: 0x10
+[09:40:07.372] |I| [export_sceIoOpen]: Opening file: app0:/data/SCRATCH.cpk
+[09:40:07.372] |T| [open_file]: sceIoOpen: Opening file app0:/data/SCRATCH.cpk (ux0:/app/PCSE01014/data/SCRATCH.cpk), fd: 0x11
+[09:40:07.374] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[09:40:07.385] |I| [export_sceIoOpen]: Opening file: app0:/data/SCRATCH.cpk
+[09:40:07.385] |T| [open_file]: sceIoOpen: Opening file app0:/data/SCRATCH.cpk (ux0:/app/PCSE01014/data/SCRATCH.cpk), fd: 0x12
+[09:40:07.549] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5afec7a1 _sceUltMutexCreate at 0x802dc030
+[09:40:07.556] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7fb2bf4 _Znaj at 0x802dd440
+[09:40:07.582] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2a1a8ea6 sceUltQueueTryPop at 0x802dbfe0
+[09:40:07.583] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb1290375 _sceUltUlthreadCreate at 0x802dc0c0
+[09:40:07.585] |W| [export_sceKernelSendSignal::<lambda_1>::operator ()]: Stubbed sceKernelSendSignal import called. (sceKernelSendSignal)
+[09:40:07.587] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0x1eac8a sceUltMutexLock at 0x802dbfb0
+[09:40:07.590] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0x897c9097 sceUltMutexUnlock at 0x802dc0a0
+[09:40:07.597] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x63483381 sceUltUlthreadJoin at 0x802dc050
+[09:40:07.598] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6d356b29 sceUltQueueTryPush at 0x802dc070
+[09:40:07.784] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x802dd0f0
+[09:40:07.799] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe71c5cde _Stoul at 0x802dd240
+[09:40:07.884] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[09:40:07.885] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR12792_00/TROPHY.TRP (ux0:/app/PCSE01014/sce_sys/trophy/NPWR12792_00/TROPHY.TRP), fd: 0x13
+[09:40:07.885] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR12792_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR12792_00/TROPUSR.DAT), fd: 0x14
+[09:40:07.886] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR12792_00/TROPCONF.SFM), fd: 0x15
+[09:40:07.887] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 2360
+[09:40:07.887] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[09:40:07.891] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR12792_00/TROP.SFM), fd: 0x16
+[09:40:07.891] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 5648
+[09:40:07.892] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[09:40:07.893] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/ICON0.PNG), fd: 0x17
+[09:40:07.893] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 135246
+[09:40:07.894] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[09:40:07.894] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP000.PNG), fd: 0x18
+[09:40:07.895] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 99358
+[09:40:07.895] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[09:40:07.896] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP001.PNG), fd: 0x19
+[09:40:07.897] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 109047
+[09:40:07.897] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[09:40:07.898] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP002.PNG), fd: 0x1a
+[09:40:07.899] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 113376
+[09:40:07.899] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[09:40:07.899] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP003.PNG), fd: 0x1b
+[09:40:07.900] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 104903
+[09:40:07.900] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[09:40:07.901] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP004.PNG), fd: 0x1c
+[09:40:07.902] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 102300
+[09:40:07.902] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[09:40:07.903] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP005.PNG), fd: 0x1d
+[09:40:07.904] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 97658
+[09:40:07.904] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[09:40:07.904] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP006.PNG), fd: 0x1e
+[09:40:07.906] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 101607
+[09:40:07.907] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[09:40:07.907] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP007.PNG), fd: 0x1f
+[09:40:07.908] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 100986
+[09:40:07.908] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[09:40:07.909] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP008.PNG), fd: 0x20
+[09:40:07.910] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 103461
+[09:40:07.910] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[09:40:07.911] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP009.PNG), fd: 0x21
+[09:40:07.912] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 104440
+[09:40:07.912] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[09:40:07.913] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP010.PNG), fd: 0x22
+[09:40:07.913] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 93818
+[09:40:07.913] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[09:40:07.914] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP011.PNG), fd: 0x23
+[09:40:07.915] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 90871
+[09:40:07.915] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[09:40:07.916] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP012.PNG), fd: 0x24
+[09:40:07.917] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 88940
+[09:40:07.917] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[09:40:07.917] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP013.PNG), fd: 0x25
+[09:40:07.918] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 90871
+[09:40:07.918] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[09:40:07.919] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP014.PNG), fd: 0x26
+[09:40:07.920] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 100306
+[09:40:07.920] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[09:40:07.922] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP015.PNG), fd: 0x27
+[09:40:07.923] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 88940
+[09:40:07.923] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[09:40:07.924] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP016.PNG), fd: 0x28
+[09:40:07.924] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 88940
+[09:40:07.924] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[09:40:07.925] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP017.PNG), fd: 0x29
+[09:40:07.926] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 88940
+[09:40:07.926] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[09:40:07.927] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP018.PNG), fd: 0x2a
+[09:40:07.928] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 77880
+[09:40:07.928] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[09:40:07.929] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP019.PNG), fd: 0x2b
+[09:40:07.929] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 97543
+[09:40:07.929] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[09:40:07.930] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP020.PNG), fd: 0x2c
+[09:40:07.931] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 83936
+[09:40:07.931] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[09:40:07.932] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP021.PNG), fd: 0x2d
+[09:40:07.933] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 77880
+[09:40:07.933] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[09:40:07.934] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP022.PNG), fd: 0x2e
+[09:40:07.935] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 83936
+[09:40:07.935] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[09:40:07.936] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP023.PNG), fd: 0x2f
+[09:40:07.938] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 77880
+[09:40:07.938] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[09:40:07.939] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP024.PNG), fd: 0x30
+[09:40:07.940] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 97543
+[09:40:07.940] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[09:40:07.941] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP025.PNG), fd: 0x31
+[09:40:07.941] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 97543
+[09:40:07.941] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[09:40:07.942] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP026.PNG), fd: 0x32
+[09:40:07.943] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 95523
+[09:40:07.943] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[09:40:07.944] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP027.PNG), fd: 0x33
+[09:40:07.945] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 83936
+[09:40:07.945] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[09:40:07.946] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP028.PNG), fd: 0x34
+[09:40:07.946] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 88940
+[09:40:07.946] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[09:40:07.947] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP029.PNG), fd: 0x35
+[09:40:07.948] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 97543
+[09:40:07.948] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[09:40:07.949] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP030.PNG), fd: 0x36
+[09:40:07.950] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 77880
+[09:40:07.950] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[09:40:07.951] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP031.PNG), fd: 0x37
+[09:40:07.951] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 83936
+[09:40:07.951] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[09:40:07.952] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP032.PNG), fd: 0x38
+[09:40:07.954] |T| [write_file]: install_trophy_context: Writing to fd: 0x38, size: 96831
+[09:40:07.955] |T| [close_file]: install_trophy_context: Closing file fd: 0x38
+[09:40:07.955] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR12792_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR12792_00/TROP033.PNG), fd: 0x39
+[09:40:07.956] |T| [write_file]: install_trophy_context: Writing to fd: 0x39, size: 96167
+[09:40:07.956] |T| [close_file]: install_trophy_context: Closing file fd: 0x39
+[09:40:07.957] |T| [close_file]: create_trophy_context: Closing file fd: 0x14
+[09:40:07.957] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR12792_00 create successfuly!
+[09:40:07.992] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1434fa46 strcat at 0x802dd030
+[09:40:07.993] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbf94193b _Stod at 0x802dd1d0
+[09:40:11.493] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x74724147 sceSystemGestureGetTouchEventByIndex at 0x802dc190
+[09:40:11.495] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x480564c9 sceSystemGestureGetPrimitiveTouchEventByPrimitiveID at 0x802dc170
+[09:40:11.782] |W| [export_sceAppMgrAcquireBgmPort::<lambda_1>::operator ()]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[09:40:11.851] |E| [export_sceNgsVoiceResume::<lambda_2>::operator ()]: sceNgsVoiceResume returned SCE_NGS_ERROR_INVALID_STATE (0x804a0010)
+[09:40:11.890] |I| [ngs::PlayerModule::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[09:40:11.891] |W| [ngs::EqualizerModule::process]: Game is using unimplemented equalizer audio module
+[09:40:11.891] |W| [ngs::EnvelopeModule::process]: Game is using unimplemented envelope audio module
+[09:40:12.710] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72293931 _ZdlPv at 0x802dd420
+[09:40:12.789] |W| [export_sceAppMgrReleaseBgmPort::<lambda_1>::operator ()]: Unimplemented sceAppMgrReleaseBgmPort import called.
+[09:40:14.142] |E| [mutex_lock_impl::<lambda_1>::operator ()]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_RECURSIVE (0x80028182)
+[09:40:16.837] |W| [export_sceKernelGetGPI::<lambda_1>::operator ()]: Unimplemented sceKernelGetGPI import called.
+[09:40:16.935] |T| [log_import_call]: [LLE] TID: 226 FUNC: 0xc0883865 rand at 0x802dd1f0
+[09:40:16.952] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:40:16.973] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:40:21.107] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0001.sav (target path: savedata0:SaveData_0001.sav)
+[09:40:21.108] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.123] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0002.sav (target path: savedata0:SaveData_0002.sav)
+[09:40:21.124] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.139] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0003.sav (target path: savedata0:SaveData_0003.sav)
+[09:40:21.140] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.156] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0004.sav (target path: savedata0:SaveData_0004.sav)
+[09:40:21.156] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.172] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0005.sav (target path: savedata0:SaveData_0005.sav)
+[09:40:21.173] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.189] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0006.sav (target path: savedata0:SaveData_0006.sav)
+[09:40:21.189] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.205] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0007.sav (target path: savedata0:SaveData_0007.sav)
+[09:40:21.205] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.222] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0008.sav (target path: savedata0:SaveData_0008.sav)
+[09:40:21.223] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.239] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0009.sav (target path: savedata0:SaveData_0009.sav)
+[09:40:21.239] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.257] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0010.sav (target path: savedata0:SaveData_0010.sav)
+[09:40:21.258] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.272] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0011.sav (target path: savedata0:SaveData_0011.sav)
+[09:40:21.272] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.289] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0012.sav (target path: savedata0:SaveData_0012.sav)
+[09:40:21.289] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.307] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0013.sav (target path: savedata0:SaveData_0013.sav)
+[09:40:21.307] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.322] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0014.sav (target path: savedata0:SaveData_0014.sav)
+[09:40:21.323] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.338] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0015.sav (target path: savedata0:SaveData_0015.sav)
+[09:40:21.339] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.357] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0016.sav (target path: savedata0:SaveData_0016.sav)
+[09:40:21.357] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.374] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0017.sav (target path: savedata0:SaveData_0017.sav)
+[09:40:21.374] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.390] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0018.sav (target path: savedata0:SaveData_0018.sav)
+[09:40:21.390] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.406] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0019.sav (target path: savedata0:SaveData_0019.sav)
+[09:40:21.407] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.423] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0020.sav (target path: savedata0:SaveData_0020.sav)
+[09:40:21.423] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.439] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0021.sav (target path: savedata0:SaveData_0021.sav)
+[09:40:21.440] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.456] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0022.sav (target path: savedata0:SaveData_0022.sav)
+[09:40:21.456] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.472] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0023.sav (target path: savedata0:SaveData_0023.sav)
+[09:40:21.472] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.489] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0024.sav (target path: savedata0:SaveData_0024.sav)
+[09:40:21.489] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.507] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0025.sav (target path: savedata0:SaveData_0025.sav)
+[09:40:21.507] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.522] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0026.sav (target path: savedata0:SaveData_0026.sav)
+[09:40:21.522] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.539] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0027.sav (target path: savedata0:SaveData_0027.sav)
+[09:40:21.539] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.554] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0028.sav (target path: savedata0:SaveData_0028.sav)
+[09:40:21.555] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.572] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0029.sav (target path: savedata0:SaveData_0029.sav)
+[09:40:21.572] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.589] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0030.sav (target path: savedata0:SaveData_0030.sav)
+[09:40:21.590] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.605] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0031.sav (target path: savedata0:SaveData_0031.sav)
+[09:40:21.605] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.622] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0032.sav (target path: savedata0:SaveData_0032.sav)
+[09:40:21.622] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.641] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0033.sav (target path: savedata0:SaveData_0033.sav)
+[09:40:21.641] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.655] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0034.sav (target path: savedata0:SaveData_0034.sav)
+[09:40:21.656] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.672] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0035.sav (target path: savedata0:SaveData_0035.sav)
+[09:40:21.673] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.689] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0036.sav (target path: savedata0:SaveData_0036.sav)
+[09:40:21.689] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.706] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0037.sav (target path: savedata0:SaveData_0037.sav)
+[09:40:21.707] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.724] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0038.sav (target path: savedata0:SaveData_0038.sav)
+[09:40:21.724] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.740] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0039.sav (target path: savedata0:SaveData_0039.sav)
+[09:40:21.741] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.756] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0040.sav (target path: savedata0:SaveData_0040.sav)
+[09:40:21.756] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.771] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0041.sav (target path: savedata0:SaveData_0041.sav)
+[09:40:21.772] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.790] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0042.sav (target path: savedata0:SaveData_0042.sav)
+[09:40:21.790] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.805] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0043.sav (target path: savedata0:SaveData_0043.sav)
+[09:40:21.806] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.822] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0044.sav (target path: savedata0:SaveData_0044.sav)
+[09:40:21.822] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.839] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0045.sav (target path: savedata0:SaveData_0045.sav)
+[09:40:21.840] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.856] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0046.sav (target path: savedata0:SaveData_0046.sav)
+[09:40:21.856] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.872] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0047.sav (target path: savedata0:SaveData_0047.sav)
+[09:40:21.873] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.890] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0048.sav (target path: savedata0:SaveData_0048.sav)
+[09:40:21.891] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.907] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0049.sav (target path: savedata0:SaveData_0049.sav)
+[09:40:21.907] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:21.923] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0050.sav (target path: savedata0:SaveData_0050.sav)
+[09:40:21.923] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:40:22.277] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x54a54eb1 malloc_usable_size at 0x802dd090
+[09:40:22.294] |T| [log_import_call]: [LLE] TID: 83  FUNC: 0x1167b5d2 modf at 0x802dd2a0
+[09:40:23.308] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01014/SlotParam_0.bin), fd: 0x3a
+[09:40:23.308] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x3a
+[09:40:23.309] |I| [export_sceIoOpen]: Opening file: savedata0:SystemData_0000.sav
+[09:40:23.309] |T| [open_file]: sceIoOpen: Opening file savedata0:SystemData_0000.sav (ux0:/user/00/savedata/PCSE01014/SystemData_0000.sav), fd: 0x3b
+[09:40:23.310] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[09:40:37.723] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:40:37.724] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x85000000
+[09:40:38.515] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:40:40.230] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:40:40.917] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:40:40.932] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:40:40.946] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:40:40.946] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:40:42.176] |W| [renderer::gl::texture::translate_type]: Unhandled base format 0x87000000
+[09:41:06.354] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0001.sav (target path: savedata0:SaveData_0001.sav)
+[09:41:06.355] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.372] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0002.sav (target path: savedata0:SaveData_0002.sav)
+[09:41:06.372] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.388] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0003.sav (target path: savedata0:SaveData_0003.sav)
+[09:41:06.388] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.404] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0004.sav (target path: savedata0:SaveData_0004.sav)
+[09:41:06.404] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.421] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0005.sav (target path: savedata0:SaveData_0005.sav)
+[09:41:06.421] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.437] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0006.sav (target path: savedata0:SaveData_0006.sav)
+[09:41:06.437] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.454] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0007.sav (target path: savedata0:SaveData_0007.sav)
+[09:41:06.455] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.470] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0008.sav (target path: savedata0:SaveData_0008.sav)
+[09:41:06.470] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.486] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0009.sav (target path: savedata0:SaveData_0009.sav)
+[09:41:06.487] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.504] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0010.sav (target path: savedata0:SaveData_0010.sav)
+[09:41:06.505] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.520] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0011.sav (target path: savedata0:SaveData_0011.sav)
+[09:41:06.521] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.536] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0012.sav (target path: savedata0:SaveData_0012.sav)
+[09:41:06.537] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.554] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0013.sav (target path: savedata0:SaveData_0013.sav)
+[09:41:06.554] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.571] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0014.sav (target path: savedata0:SaveData_0014.sav)
+[09:41:06.571] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.588] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0015.sav (target path: savedata0:SaveData_0015.sav)
+[09:41:06.588] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.605] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0016.sav (target path: savedata0:SaveData_0016.sav)
+[09:41:06.605] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.622] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0017.sav (target path: savedata0:SaveData_0017.sav)
+[09:41:06.622] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.638] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0018.sav (target path: savedata0:SaveData_0018.sav)
+[09:41:06.639] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.654] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0019.sav (target path: savedata0:SaveData_0019.sav)
+[09:41:06.655] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.671] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0020.sav (target path: savedata0:SaveData_0020.sav)
+[09:41:06.671] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.689] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0021.sav (target path: savedata0:SaveData_0021.sav)
+[09:41:06.689] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.705] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0022.sav (target path: savedata0:SaveData_0022.sav)
+[09:41:06.705] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.721] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0023.sav (target path: savedata0:SaveData_0023.sav)
+[09:41:06.721] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.738] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0024.sav (target path: savedata0:SaveData_0024.sav)
+[09:41:06.738] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.754] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0025.sav (target path: savedata0:SaveData_0025.sav)
+[09:41:06.755] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.770] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0026.sav (target path: savedata0:SaveData_0026.sav)
+[09:41:06.771] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.788] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0027.sav (target path: savedata0:SaveData_0027.sav)
+[09:41:06.788] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.804] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0028.sav (target path: savedata0:SaveData_0028.sav)
+[09:41:06.804] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.821] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0029.sav (target path: savedata0:SaveData_0029.sav)
+[09:41:06.821] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.837] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0030.sav (target path: savedata0:SaveData_0030.sav)
+[09:41:06.837] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.854] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0031.sav (target path: savedata0:SaveData_0031.sav)
+[09:41:06.855] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.871] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0032.sav (target path: savedata0:SaveData_0032.sav)
+[09:41:06.871] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.887] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0033.sav (target path: savedata0:SaveData_0033.sav)
+[09:41:06.887] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.904] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0034.sav (target path: savedata0:SaveData_0034.sav)
+[09:41:06.905] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.921] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0035.sav (target path: savedata0:SaveData_0035.sav)
+[09:41:06.921] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.937] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0036.sav (target path: savedata0:SaveData_0036.sav)
+[09:41:06.938] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.956] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0037.sav (target path: savedata0:SaveData_0037.sav)
+[09:41:06.956] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.971] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0038.sav (target path: savedata0:SaveData_0038.sav)
+[09:41:06.971] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:06.987] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0039.sav (target path: savedata0:SaveData_0039.sav)
+[09:41:06.987] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:07.004] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0040.sav (target path: savedata0:SaveData_0040.sav)
+[09:41:07.004] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:07.020] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0041.sav (target path: savedata0:SaveData_0041.sav)
+[09:41:07.021] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:07.037] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0042.sav (target path: savedata0:SaveData_0042.sav)
+[09:41:07.037] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:07.053] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0043.sav (target path: savedata0:SaveData_0043.sav)
+[09:41:07.054] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:07.071] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0044.sav (target path: savedata0:SaveData_0044.sav)
+[09:41:07.071] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:07.089] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0045.sav (target path: savedata0:SaveData_0045.sav)
+[09:41:07.089] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[09:41:07.106] |E| [stat_file]: Missing file at E:/Retro/PSVita/Vita3k/ux0/user/00/savedata/PCSE01014/SaveData_0046.sav (target path: savedata0:SaveData_0046.sav)
+[09:41:07.106] |W| [io_error_impl]: stat_file (_sce

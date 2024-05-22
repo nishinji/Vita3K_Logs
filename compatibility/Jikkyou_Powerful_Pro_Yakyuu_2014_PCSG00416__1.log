@@ -1,0 +1,627 @@
+[13:50:22.444] |I| [config::init_config]: backend-renderer: Vulkan
+[13:50:22.445] |I| [config::init_config]: log-level: 0
+[13:50:22.637] |I| [SDL_main]: Vita3K v0.2.0 3580-26a79d2d
+[13:50:22.637] |I| [SDL_main]: OS: Microsoft Windows 10 Professional (build 19045)
+[13:50:22.637] |I| [SDL_main]: CPU: AMD Ryzen 5 5600X 6-Core Processor | 12 Threads | 3.693 GHz
+[13:50:22.637] |I| [SDL_main]: Available ram memory: 16288 MiB
+[13:50:22.639] |I| [app::init]: Base path: C:\Program Files\Vita3K\
+[13:50:22.639] |I| [app::init]: User pref path: C:\Users\minec\AppData\Roaming\Vita3K\Vita3K\
+[13:50:22.725] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce GTX 1650
+[13:50:22.725] |I| [renderer::vulkan::VKState::create]: Driver version: 536.23.0.0
+[13:50:22.726] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[13:50:23.097] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[13:50:24.181] |I| [compat::update_app_compat_db]: Applications compatibility database is up to date.
+[13:50:27.519] |I| [renderer::vulkan::VKState::late_init]: Using shader interlock for accurate framebuffer fetch emulation
+[13:50:27.538] |I| [renderer::vulkan::PipelineCache::set_async_compilation]: Enabling asynchronous pipeline compilation with 4 threads
+[13:50:27.539] |I| [load_app_impl]: cpu-backend: Dynarmic
+[13:50:27.539] |I| [load_app_impl]: CPU Optimisation state: true
+[13:50:27.539] |I| [load_app_impl]: ngs state: true
+[13:50:27.539] |I| [load_app_impl]: Resolution multiplier: 2
+[13:50:27.539] |I| [load_app_impl]: 1 Controllers Connected
+[13:50:27.539] |I| [load_app_impl]: Controller 0: PS4 Controller
+[13:50:27.539] |I| [load_app_impl]: Controller has motion support
+[13:50:27.539] |I| [load_app_impl]: modules mode: Automatic
+[13:50:27.540] |I| [load_app_impl]: Title: 実況パワフルプロ野球２０１４
+[13:50:27.540] |I| [load_app_impl]: Serial: PCSG00416
+[13:50:27.540] |I| [load_app_impl]: Version: 1.00
+[13:50:27.540] |I| [load_app_impl]: Category: gd
+[13:50:27.540] |I| [load_module]: Loading module "app0:eboot.bin"
+[13:50:27.922] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[13:50:27.923] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x80C22C74 / 0x81000000] (size: 0x00C1EC74) of module app0:eboot.bin
+[13:50:27.923] |I| [load_self]: Loaded module segment 1 @ [0x80C23000 - 0x82F79E05 / 0x81C1F000] (size: 0x02356E05) of module app0:eboot.bin
+[13:50:27.924] |I| [load_self]: Linking SELF app0:eboot.bin...
+[13:50:27.925] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8097b7cc
+[13:50:27.925] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x80ee2860
+[13:50:27.925] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80ba64f0
+[13:50:27.926] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x80998c48, setting to stub value 0xdeadbeef
+[13:50:27.926] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x80998bb0, setting to stub value 0xdeadbeef
+[13:50:27.927] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x80998bb4, setting to stub value 0xdeadbeef
+[13:50:27.928] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x80998c4c, setting to stub value 0xdeadbeef
+[13:50:27.928] |I| [load_module]: Module ppMulti2014_vita (at "app0:eboot.bin") loaded
+[13:50:27.929] |I| [load_app_impl]: Main executable ppMulti2014_vita (eboot.bin) loaded
+[13:50:27.929] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[13:50:27.938] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[13:50:27.939] |I| [load_self]: Loaded module segment 0 @ [0x82F7E000 - 0x82FCDBD4 / 0x81000000] (size: 0x0004FBD4) of module app0:sce_module/libc.suprx
+[13:50:27.939] |I| [load_self]: Loaded module segment 1 @ [0x82FCE000 - 0x82FD0688 / 0x81050000] (size: 0x00002688) of module app0:sce_module/libc.suprx
+[13:50:27.940] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[13:50:27.940] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x82fc57a0
+[13:50:27.941] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x82fc4508
+[13:50:27.941] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x82fc5598
+[13:50:27.941] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x82fce5b0
+[13:50:27.942] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82fc36c4
+[13:50:27.942] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82fb9488
+[13:50:27.943] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[13:50:27.943] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[13:50:27.949] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[13:50:27.949] |I| [load_self]: Loaded module segment 0 @ [0x82FD1000 - 0x82FFBAA8 / 0x81000000] (size: 0x0002AAA8) of module app0:sce_module/libfios2.suprx
+[13:50:27.950] |I| [load_self]: Loaded module segment 1 @ [0x82FFC000 - 0x8300123D / 0x8102B000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[13:50:27.951] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[13:50:27.951] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x82ffb9b0
+[13:50:27.951] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x82ff3138
+[13:50:27.953] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[13:50:27.953] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[13:50:27.961] |I| [load_self]: Loaded module segment 0 @ [0x83002000 - 0x83052F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[13:50:27.961] |I| [load_self]: Loaded module segment 1 @ [0x82F7A000 - 0x82F7A2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[13:50:27.962] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[13:50:27.962] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8303e7dc
+[13:50:27.963] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8303df10
+[13:50:27.963] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[13:50:27.963] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[13:50:27.965] |I| [load_self]: Loaded module segment 0 @ [0x83053000 - 0x83062F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[13:50:27.966] |I| [load_self]: Loaded module segment 1 @ [0x82F7B000 - 0x82F7B008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[13:50:27.967] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[13:50:27.967] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x83061710
+[13:50:27.967] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x83061300
+[13:50:27.969] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[13:50:27.973] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[13:50:27.977] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[13:50:27.979] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/96
+[13:50:27.981] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/96
+[13:50:27.982] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/96
+[13:50:27.982] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/96
+[13:50:27.983] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/96
+[13:50:27.984] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/96
+[13:50:27.985] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 7/96
+[13:50:27.987] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 8/96
+[13:50:27.994] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 9/96
+[13:50:27.995] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 10/96
+[13:50:27.996] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 11/96
+[13:50:27.997] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 12/96
+[13:50:27.998] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 13/96
+[13:50:28.000] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 14/96
+[13:50:28.001] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 15/96
+[13:50:28.006] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 16/96
+[13:50:28.008] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 17/96
+[13:50:28.010] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 18/96
+[13:50:28.011] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 19/96
+[13:50:28.013] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 20/96
+[13:50:28.014] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 21/96
+[13:50:28.016] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 22/96
+[13:50:28.018] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 23/96
+[13:50:28.021] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 24/96
+[13:50:28.024] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 25/96
+[13:50:28.027] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 26/96
+[13:50:28.029] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 27/96
+[13:50:28.030] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 28/96
+[13:50:28.032] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 29/96
+[13:50:28.033] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 30/96
+[13:50:28.035] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 31/96
+[13:50:28.039] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 32/96
+[13:50:28.042] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 33/96
+[13:50:28.043] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 34/96
+[13:50:28.045] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 35/96
+[13:50:28.047] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 36/96
+[13:50:28.048] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 37/96
+[13:50:28.051] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 38/96
+[13:50:28.053] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 39/96
+[13:50:28.056] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 40/96
+[13:50:28.059] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 41/96
+[13:50:28.060] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 42/96
+[13:50:28.062] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 43/96
+[13:50:28.063] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 44/96
+[13:50:28.065] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 45/96
+[13:50:28.066] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 46/96
+[13:50:28.068] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 47/96
+[13:50:28.072] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 48/96
+[13:50:28.075] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 49/96
+[13:50:28.076] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 50/96
+[13:50:28.078] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 51/96
+[13:50:28.080] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 52/96
+[13:50:28.082] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 53/96
+[13:50:28.084] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 54/96
+[13:50:28.086] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 55/96
+[13:50:28.090] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 56/96
+[13:50:28.091] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 57/96
+[13:50:28.093] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 58/96
+[13:50:28.095] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 59/96
+[13:50:28.096] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 60/96
+[13:50:28.098] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 61/96
+[13:50:28.099] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 62/96
+[13:50:28.101] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 63/96
+[13:50:28.104] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 64/96
+[13:50:28.108] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 65/96
+[13:50:28.110] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 66/96
+[13:50:28.111] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 67/96
+[13:50:28.114] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 68/96
+[13:50:28.115] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 69/96
+[13:50:28.117] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 70/96
+[13:50:28.119] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 71/96
+[13:50:28.122] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 72/96
+[13:50:28.126] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 73/96
+[13:50:28.128] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 74/96
+[13:50:28.129] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 75/96
+[13:50:28.131] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 76/96
+[13:50:28.133] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 77/96
+[13:50:28.134] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 78/96
+[13:50:28.137] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 79/96
+[13:50:28.141] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 80/96
+[13:50:28.144] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 81/96
+[13:50:28.146] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 82/96
+[13:50:28.147] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 83/96
+[13:50:28.149] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 84/96
+[13:50:28.150] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 85/96
+[13:50:28.153] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 86/96
+[13:50:28.157] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 87/96
+[13:50:28.159] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 88/96
+[13:50:28.160] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 89/96
+[13:50:28.162] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 90/96
+[13:50:28.163] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 91/96
+[13:50:28.165] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 92/96
+[13:50:28.167] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 93/96
+[13:50:28.169] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 94/96
+[13:50:28.173] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 95/96
+[13:50:28.175] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 96/96
+[13:50:28.189] |D| [start_module]: Running module_start of library: SceLibc at address 0x82f7e805
+[13:50:28.246] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[13:50:28.246] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[13:50:28.246] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[13:50:28.253] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[13:50:28.254] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x82fd1001
+[13:50:28.266] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[13:50:28.266] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[13:50:28.267] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8097b0ec
+[13:50:28.268] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x8097b1ac
+[13:50:28.440] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x8097b05c
+[13:50:28.452] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x8097b12c
+[13:50:28.452] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x8097af7c
+[13:50:28.467] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x67e99979 _Log at 0x8097b27c
+[13:50:28.468] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_ULT
+[13:50:28.468] |I| [load_module]: Loading module "app0:sce_module/libult.suprx"
+[13:50:28.471] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[13:50:28.471] |I| [load_self]: Loaded module segment 0 @ [0x830A3000 - 0x830B69C4 / 0x81000000] (size: 0x000139C4) of module app0:sce_module/libult.suprx
+[13:50:28.471] |I| [load_self]: Loaded module segment 1 @ [0x830B7000 - 0x830B7814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[13:50:28.472] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[13:50:28.472] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x830b52f0
+[13:50:28.473] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x830b2874
+[13:50:28.473] |I| [load_module]: Module SceUlt (at "app0:sce_module/libult.suprx") loaded
+[13:50:28.474] |D| [start_module]: Running module_start of library: SceUlt at address 0x830a6771
+[13:50:28.486] |W| [export__sceUlobjMgrRegisterLibultProtocolRevision::<lambda_1>::operator ()]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[13:50:28.486] |I| [start_module]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[13:50:28.487] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[13:50:28.487] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5435c586 sceUltUlthreadRuntimeGetWorkAreaSize at 0x80979dac
+[13:50:28.488] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x8097affc
+[13:50:28.488] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8486dde6 _sceUltUlthreadRuntimeOptParamInitialize at 0x80979dfc
+[13:50:28.489] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x86dda3ae _sceUltUlthreadRuntimeCreate at 0x80979e0c
+[13:50:28.515] |W| [export__sceKernelGetThreadInfo::<lambda_1>::operator ()]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[13:50:28.539] |E| [call_import]: Import function for NID 0xd7f0f610 not found (thread name: PCSG00416, thread ID: 6)
+[13:50:28.541] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[13:50:28.541] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[13:50:28.541] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[13:50:28.555] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[13:50:28.557] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[13:50:28.558] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa1bff606 snprintf at 0x8097b06c
+[13:50:28.581] |W| [export_sceGxmGetRenderTargetMemSize::<lambda_2>::operator ()]: Stubbed sceGxmGetRenderTargetMemSize import called. (64KiB emuenv mem)
+[13:50:28.658] |E| [mutex_lock_impl::<lambda_3>::operator ()]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[13:50:28.661] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/baseball.fbd
+[13:50:28.661] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/baseball.fbd (ux0:/app/PCSG00416/cdvdroot/baseball.fbd), fd: 0x3
+[13:50:28.663] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x644da029 sceUltWaitingQueueResourcePoolGetWorkAreaSize at 0x80979dec
+[13:50:28.663] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x62f9493e _sceUltWaitingQueueResourcePoolCreate at 0x80979dcc
+[13:50:28.665] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5afec7a1 _sceUltMutexCreate at 0x80979dbc
+[13:50:28.706] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1eac8a sceUltMutexLock at 0x80979d5c
+[13:50:28.708] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x897c9097 sceUltMutexUnlock at 0x80979e1c
+[13:50:28.715] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd76a156c _sceUltConditionVariableCreate at 0x80979e5c
+[13:50:28.715] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb1290375 _sceUltUlthreadCreate at 0x80979e3c
+[13:50:28.718] |W| [export_sceKernelSendSignal::<lambda_1>::operator ()]: Stubbed sceKernelSendSignal import called. (sceKernelSendSignal)
+[13:50:28.719] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2cd0f57c sceUltConditionVariableWait at 0x80979d7c
+[13:50:28.720] |E| [open_dir]: Directory does not exist at: C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/exdata\ (target path: app0:exdata)
+[13:50:28.721] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
+[13:50:28.722] |T| [log_import_call]: [LLE] TID: 45  FUNC: 0x9fe7cb9f sceUltConditionVariableSignal at 0x80979e2c
+[13:50:28.724] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x63483381 sceUltUlthreadJoin at 0x80979ddc
+[13:50:28.725] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x53420ed2 sceUltConditionVariableDestroy at 0x80979d9c
+[13:50:28.725] |E| [call_import]: Import function for NID 0xf9c0f5da not found (thread name: PCSG00416, thread ID: 6)
+[13:50:28.726] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xeebd9052 sceUltMutexDestroy at 0x80979e7c
+[13:50:28.726] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc9e96714 sceUltWaitingQueueResourcePoolDestroy at 0x80979e4c
+[13:50:28.751] |W| [export_sceAppMgrReleaseBgmPort::<lambda_1>::operator ()]: Unimplemented sceAppMgrReleaseBgmPort import called.
+[13:50:28.753] |W| [timer_waitorpoll]: Ignoring timeout
+[13:50:28.795] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x603caa93 _Sinx at 0x8097b25c
+[13:50:28.797] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[13:50:28.813] |T| [log_import_call]: [LLE] TID: 267 FUNC: 0xdae8d60f time at 0x8097b15c
+[13:50:28.831] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x8097b03c
+[13:50:28.832] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd8889fc8 wcsrtombs at 0x8097b14c
+[13:50:28.838] |T| [log_import_call]: [LLE] TID: 259 FUNC: 0xfba69bc2 strncat at 0x8097b1cc
+[13:50:28.839] |T| [log_import_call]: [LLE] TID: 259 FUNC: 0xc3e7c3db sceFiosFHOpenSync at 0x8097ad5c
+[13:50:28.840] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Init.bnk
+[13:50:28.840] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Init.bnk (target path: app0:/cdvdroot/sound/Japanese/Init.bnk)
+[13:50:28.840] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:28.842] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Init.bnk
+[13:50:28.842] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Init.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Init.bnk), fd: 0x4
+[13:50:28.843] |T| [log_import_call]: [LLE] TID: 259 FUNC: 0xf8beac88 sceFiosFHStatSync at 0x8097ad6c
+[13:50:28.850] |T| [log_import_call]: [LLE] TID: 242 FUNC: 0xa75f3c4a sceFiosFHSeek at 0x8097ad4c
+[13:50:28.850] |T| [log_import_call]: [LLE] TID: 242 FUNC: 0x76945919 sceFiosFHReadSync at 0x8097ad2c
+[13:50:28.854] |T| [log_import_call]: [LLE] TID: 259 FUNC: 0x6dea815a powf at 0x8097b29c
+[13:50:28.870] |T| [log_import_call]: [LLE] TID: 259 FUNC: 0xd5bd8d5c _FLog at 0x8097b2ec
+[13:50:28.873] |T| [log_import_call]: [LLE] TID: 242 FUNC: 0x45182328 sceFiosFHCloseSync at 0x8097ad1c
+[13:50:28.874] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[13:50:28.876] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Se_System.bnk
+[13:50:28.876] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Se_System.bnk (target path: app0:/cdvdroot/sound/Japanese/Se_System.bnk)
+[13:50:28.877] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:28.877] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Se_System.bnk
+[13:50:28.878] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Se_System.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Se_System.bnk), fd: 0x5
+[13:50:28.892] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[13:50:28.892] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/AllControl.bnk
+[13:50:28.893] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/AllControl.bnk (target path: app0:/cdvdroot/sound/Japanese/AllControl.bnk)
+[13:50:28.893] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:28.894] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/AllControl.bnk
+[13:50:28.895] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/AllControl.bnk (ux0:/app/PCSG00416/cdvdroot/sound/AllControl.bnk), fd: 0x6
+[13:50:28.898] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[13:50:28.899] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/JOuen.bnk
+[13:50:28.899] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/JOuen.bnk (target path: app0:/cdvdroot/sound/Japanese/JOuen.bnk)
+[13:50:28.900] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:28.900] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/JOuen.bnk
+[13:50:28.901] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/JOuen.bnk (ux0:/app/PCSG00416/cdvdroot/sound/JOuen.bnk), fd: 0x7
+[13:50:28.907] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[13:50:28.909] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Menu.pck
+[13:50:28.909] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Menu.pck (ux0:/app/PCSG00416/cdvdroot/sound/Music_Menu.pck), fd: 0x8
+[13:50:28.916] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x8097af3c
+[13:50:28.917] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Music_Menu.bnk
+[13:50:28.917] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Music_Menu.bnk (target path: app0:/cdvdroot/sound/Japanese/Music_Menu.bnk)
+[13:50:28.918] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:28.919] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Menu.bnk
+[13:50:28.919] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Menu.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Music_Menu.bnk), fd: 0x9
+[13:50:28.921] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[13:50:28.921] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice15.pck
+[13:50:28.921] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice15.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice15.pck), fd: 0xa
+[13:50:28.922] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Umpire.bnk
+[13:50:28.922] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Japanese/Voice_Umpire.bnk (target path: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Umpire.bnk)
+[13:50:28.923] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:28.923] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice_Umpire.bnk
+[13:50:28.924] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice_Umpire.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice_Umpire.bnk), fd: 0xb
+[13:50:28.925] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[13:50:28.926] |W| [export___sceAppMgrGetAppState::<lambda_1>::operator ()]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[13:50:28.947] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET
+[13:50:28.947] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_HTTPS
+[13:50:28.947] |I| [load_module]: Loading module "vs0:sys/external/libhttp.suprx"
+[13:50:28.951] |I| [load_self]: vs0:sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[13:50:28.951] |I| [load_self]: Loaded module segment 0 @ [0x833D5000 - 0x833F2150 / 0x81000000] (size: 0x0001D150) of module vs0:sys/external/libhttp.suprx
+[13:50:28.951] |I| [load_self]: Loaded module segment 1 @ [0x832E5000 - 0x832E5640 / 0x8101E000] (size: 0x00000640) of module vs0:sys/external/libhttp.suprx
+[13:50:28.952] |I| [load_self]: Linking SELF vs0:sys/external/libhttp.suprx...
+[13:50:28.952] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x833f0e68
+[13:50:28.953] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x833edca0
+[13:50:28.953] |I| [load_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") loaded
+[13:50:28.953] |D| [start_module]: Running module_start of library: SceLibHttp at address 0x833de2e5
+[13:50:28.965] |I| [start_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") module_start returned 0x0
+[13:50:28.966] |I| [load_module]: Loading module "vs0:sys/external/libssl.suprx"
+[13:50:28.975] |I| [load_self]: Loaded module segment 0 @ [0x83AA5000 - 0x83B0BEA4 / 0x81000000] (size: 0x00066EA4) of module vs0:sys/external/libssl.suprx
+[13:50:28.976] |I| [load_self]: Loaded module segment 1 @ [0x832F9000 - 0x832FE188 / 0x81067000] (size: 0x00005188) of module vs0:sys/external/libssl.suprx
+[13:50:28.977] |I| [load_self]: Linking SELF vs0:sys/external/libssl.suprx...
+[13:50:28.977] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x83af79b0
+[13:50:28.977] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x83af1c70
+[13:50:28.978] |I| [load_module]: Module SceLibSsl (at "vs0:sys/external/libssl.suprx") loaded
+[13:50:28.978] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TUS
+[13:50:28.978] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_BASIC
+[13:50:28.979] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_UTILITY
+[13:50:28.979] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_MATCHING2
+[13:50:28.979] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_SCORE_RANKING
+[13:50:28.980] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[13:50:28.980] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET_ADHOC_MATCHING
+[13:50:29.017] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR06538_00/TROPHY.TRP (ux0:/app/PCSG00416/sce_sys/trophy/NPWR06538_00/TROPHY.TRP), fd: 0xc
+[13:50:29.018] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR06538_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR06538_00/TROPUSR.DAT), fd: 0xd
+[13:50:29.019] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR06538_00/TROPCONF.SFM), fd: 0xe
+[13:50:29.019] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 2752
+[13:50:29.020] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[13:50:29.020] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR06538_00/TROP.SFM), fd: 0xf
+[13:50:29.021] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 8300
+[13:50:29.021] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[13:50:29.022] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/ICON0.PNG), fd: 0x10
+[13:50:29.022] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 85300
+[13:50:29.022] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[13:50:29.023] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP000.PNG), fd: 0x11
+[13:50:29.023] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 53332
+[13:50:29.024] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[13:50:29.024] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP001.PNG), fd: 0x12
+[13:50:29.025] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 53578
+[13:50:29.025] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[13:50:29.025] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP002.PNG), fd: 0x13
+[13:50:29.026] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 53578
+[13:50:29.026] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[13:50:29.027] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP003.PNG), fd: 0x14
+[13:50:29.028] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 52209
+[13:50:29.028] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[13:50:29.029] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP004.PNG), fd: 0x15
+[13:50:29.029] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 53578
+[13:50:29.029] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[13:50:29.030] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP005.PNG), fd: 0x16
+[13:50:29.030] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 53423
+[13:50:29.031] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[13:50:29.031] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP006.PNG), fd: 0x17
+[13:50:29.032] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 52209
+[13:50:29.032] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[13:50:29.033] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP007.PNG), fd: 0x18
+[13:50:29.033] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 53578
+[13:50:29.033] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[13:50:29.034] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP008.PNG), fd: 0x19
+[13:50:29.035] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 53578
+[13:50:29.035] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[13:50:29.035] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP009.PNG), fd: 0x1a
+[13:50:29.036] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 53578
+[13:50:29.036] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[13:50:29.037] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP010.PNG), fd: 0x1b
+[13:50:29.037] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 53578
+[13:50:29.038] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[13:50:29.038] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP011.PNG), fd: 0x1c
+[13:50:29.040] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 53578
+[13:50:29.040] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[13:50:29.041] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP012.PNG), fd: 0x1d
+[13:50:29.041] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 53578
+[13:50:29.041] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[13:50:29.042] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP013.PNG), fd: 0x1e
+[13:50:29.043] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 52209
+[13:50:29.043] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[13:50:29.043] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP014.PNG), fd: 0x1f
+[13:50:29.044] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 53423
+[13:50:29.044] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[13:50:29.045] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP015.PNG), fd: 0x20
+[13:50:29.045] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 52209
+[13:50:29.046] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[13:50:29.046] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP016.PNG), fd: 0x21
+[13:50:29.047] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 52209
+[13:50:29.047] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[13:50:29.047] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP017.PNG), fd: 0x22
+[13:50:29.048] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 53578
+[13:50:29.048] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[13:50:29.049] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP018.PNG), fd: 0x23
+[13:50:29.049] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 53578
+[13:50:29.050] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[13:50:29.050] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP019.PNG), fd: 0x24
+[13:50:29.051] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 53578
+[13:50:29.051] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[13:50:29.052] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP020.PNG), fd: 0x25
+[13:50:29.052] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 53578
+[13:50:29.053] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[13:50:29.053] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP021.PNG), fd: 0x26
+[13:50:29.054] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 53578
+[13:50:29.054] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[13:50:29.055] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP022.PNG), fd: 0x27
+[13:50:29.056] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 53578
+[13:50:29.056] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[13:50:29.057] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP023.PNG), fd: 0x28
+[13:50:29.057] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 53578
+[13:50:29.058] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[13:50:29.058] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP024.PNG), fd: 0x29
+[13:50:29.059] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 53578
+[13:50:29.059] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[13:50:29.059] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP025.PNG), fd: 0x2a
+[13:50:29.060] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 53578
+[13:50:29.060] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[13:50:29.061] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP026.PNG), fd: 0x2b
+[13:50:29.062] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 53578
+[13:50:29.062] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[13:50:29.062] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP027.PNG), fd: 0x2c
+[13:50:29.063] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 53578
+[13:50:29.063] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[13:50:29.064] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP028.PNG), fd: 0x2d
+[13:50:29.064] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 53423
+[13:50:29.064] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[13:50:29.065] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP029.PNG), fd: 0x2e
+[13:50:29.066] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 52209
+[13:50:29.066] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[13:50:29.066] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP030.PNG), fd: 0x2f
+[13:50:29.067] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 52209
+[13:50:29.067] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[13:50:29.068] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP031.PNG), fd: 0x30
+[13:50:29.068] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 53578
+[13:50:29.069] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[13:50:29.069] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP032.PNG), fd: 0x31
+[13:50:29.070] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 53578
+[13:50:29.071] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[13:50:29.072] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP033.PNG), fd: 0x32
+[13:50:29.072] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 53578
+[13:50:29.073] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[13:50:29.073] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP034.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP034.PNG), fd: 0x33
+[13:50:29.074] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 53578
+[13:50:29.074] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[13:50:29.074] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP035.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP035.PNG), fd: 0x34
+[13:50:29.075] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 52209
+[13:50:29.075] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[13:50:29.076] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP036.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP036.PNG), fd: 0x35
+[13:50:29.076] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 53578
+[13:50:29.076] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[13:50:29.077] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP037.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP037.PNG), fd: 0x36
+[13:50:29.078] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 53578
+[13:50:29.078] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[13:50:29.078] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP038.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP038.PNG), fd: 0x37
+[13:50:29.079] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 53423
+[13:50:29.079] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[13:50:29.080] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP039.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP039.PNG), fd: 0x38
+[13:50:29.080] |T| [write_file]: install_trophy_context: Writing to fd: 0x38, size: 53578
+[13:50:29.081] |T| [close_file]: install_trophy_context: Closing file fd: 0x38
+[13:50:29.081] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP040.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP040.PNG), fd: 0x39
+[13:50:29.082] |T| [write_file]: install_trophy_context: Writing to fd: 0x39, size: 52209
+[13:50:29.082] |T| [close_file]: install_trophy_context: Closing file fd: 0x39
+[13:50:29.082] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06538_00/TROP041.PNG (ux0:/user/00/trophy/conf/NPWR06538_00/TROP041.PNG), fd: 0x3a
+[13:50:29.083] |T| [write_file]: install_trophy_context: Writing to fd: 0x3a, size: 53578
+[13:50:29.083] |T| [close_file]: install_trophy_context: Closing file fd: 0x3a
+[13:50:29.084] |T| [close_file]: create_trophy_context: Closing file fd: 0xd
+[13:50:29.084] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR06538_00 create successfuly!
+[13:50:29.085] |W| [export_sceNpTrophyCreateHandle::<lambda_1>::operator ()]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[13:50:29.087] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[13:50:29.131] |E| [export_sceMsgDialogAbort::<lambda_1>::operator ()]: sceMsgDialogAbort returned SCE_COMMON_DIALOG_ERROR_NOT_IN_USE (0x80020411)
+[13:50:29.151] |T| [open_file]: sceSaveDataDialogInit: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00416/SlotParam_0.bin), fd: 0x3b
+[13:50:29.151] |T| [close_file]: sceSaveDataDialogInit: Closing file fd: 0x3b
+[13:50:29.165] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00416/SlotParam_0.bin), fd: 0x3c
+[13:50:29.165] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x3c
+[13:50:29.170] |I| [export_sceIoOpen]: Opening file: savedata0:00
+[13:50:29.170] |T| [open_file]: sceIoOpen: Opening file savedata0:00 (ux0:/user/00/savedata/PCSG00416/00), fd: 0x3d
+[13:50:29.170] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[13:50:29.846] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice0.pck
+[13:50:29.846] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice0.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice0.pck), fd: 0x3e
+[13:50:29.857] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice8.pck
+[13:50:29.858] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice8.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice8.pck), fd: 0x3f
+[13:50:29.859] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Japanese/Voice_PlayByPlay.bnk
+[13:50:29.859] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Japanese/Voice_PlayByPlay.bnk (target path: app0:/cdvdroot/sound/Japanese/Japanese/Voice_PlayByPlay.bnk)
+[13:50:29.860] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:29.861] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice_PlayByPlay.bnk
+[13:50:29.861] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Voice_PlayByPlay.bnk (target path: app0:/cdvdroot/sound/Japanese/Voice_PlayByPlay.bnk)
+[13:50:29.862] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:29.863] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice9.pck
+[13:50:29.863] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice9.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice9.pck), fd: 0x40
+[13:50:29.864] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Uguisu.bnk
+[13:50:29.864] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Uguisu.bnk (target path: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Uguisu.bnk)
+[13:50:29.865] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:29.865] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice_Stadium_Uguisu.bnk
+[13:50:29.866] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice_Stadium_Uguisu.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice_Stadium_Uguisu.bnk), fd: 0x41
+[13:50:29.867] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[13:50:29.867] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice10.pck
+[13:50:29.867] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice10.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice10.pck), fd: 0x42
+[13:50:29.869] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice10_Loud_Jp.pck
+[13:50:29.869] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice10_Loud_Jp.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice10_Loud_Jp.pck), fd: 0x43
+[13:50:29.870] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice10_Loud_Eng.pck
+[13:50:29.870] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice10_Loud_Eng.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice10_Loud_Eng.pck), fd: 0x44
+[13:50:29.871] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Dj.bnk
+[13:50:29.871] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Dj.bnk (target path: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Dj.bnk)
+[13:50:29.871] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:29.872] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice_Stadium_Dj.bnk
+[13:50:29.872] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice_Stadium_Dj.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice_Stadium_Dj.bnk), fd: 0x45
+[13:50:29.873] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[13:50:29.873] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Pennant_MyLife.pck
+[13:50:29.874] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Pennant_MyLife.pck (ux0:/app/PCSG00416/cdvdroot/sound/Music_Pennant_MyLife.pck), fd: 0x46
+[13:50:29.874] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Music_Pennant_MyLife.bnk
+[13:50:29.875] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Music_Pennant_MyLife.bnk (target path: app0:/cdvdroot/sound/Japanese/Music_Pennant_MyLife.bnk)
+[13:50:29.875] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:29.876] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Pennant_MyLife.bnk
+[13:50:29.877] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Pennant_MyLife.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Music_Pennant_MyLife.bnk), fd: 0x47
+[13:50:29.879] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[13:50:29.879] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Se_UI.bnk
+[13:50:29.879] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Se_UI.bnk (target path: app0:/cdvdroot/sound/Japanese/Se_UI.bnk)
+[13:50:29.880] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:50:29.880] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Se_UI.bnk
+[13:50:29.881] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Se_UI.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Se_UI.bnk), fd: 0x48
+[13:50:29.883] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[13:50:41.961] |T| [log_import_call]: [LLE] TID: 267 FUNC: 0x93fc85ed _FSinx at 0x8097b2ac
+[13:50:44.015] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[13:50:44.016] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[13:50:46.184] |W| [export_sceNgsVoiceInit::<lambda_3>::operator ()]: Stubbed sceNgsVoiceInit import called. (Default preset not implemented)
+[13:51:07.956] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[13:51:16.075] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x24d87e05 _sceUltMutexOptParamInitialize at 0x80979d6c
+[13:51:16.114] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcd7c05bd floorf at 0x8097b2dc
+[13:51:16.765] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x8097afec
+[13:51:17.392] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x8097b32c
+[13:51:17.599] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa7cbe4a6 qsort at 0x8097b08c
+[13:51:17.600] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd1bc28e7 bsearch at 0x8097b13c
+[13:51:17.601] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x8097aefc
+[13:51:17.685] |I| [shader::get_program_input]: Shader is using a literal buffer
+[13:51:17.698] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x8097b02c
+[13:51:18.426] |W| [renderer::vulkan::linear_to_srgb]: Trying to use gamma correction with non-compatible format R5G6B5UnormPack16
+[13:51:20.285] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[13:51:20.362] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[13:51:20.362] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[13:51:20.363] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[13:51:20.363] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Se_Crowd_Npb.bnk
+[13:51:20.363] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[13:51:20.364] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Se_Crowd_Npb.bnk (target path: app0:/cdvdroot/sound/Japanese/Se_Crowd_Npb.bnk)
+[13:51:20.364] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[13:51:20.365] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.365] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[13:51:20.365] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Se_Crowd_Npb.bnk
+[13:51:20.366] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Se_Crowd_Npb.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Se_Crowd_Npb.bnk), fd: 0x49
+[13:51:20.402] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[13:51:20.402] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Game_General.pck
+[13:51:20.403] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Game_General.pck (ux0:/app/PCSG00416/cdvdroot/sound/Music_Game_General.pck), fd: 0x4a
+[13:51:20.404] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Music_Game_General.bnk
+[13:51:20.404] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Music_Game_General.bnk (target path: app0:/cdvdroot/sound/Japanese/Music_Game_General.bnk)
+[13:51:20.404] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.405] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Game_General.bnk
+[13:51:20.405] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Game_General.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Music_Game_General.bnk), fd: 0x4b
+[13:51:20.407] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[13:51:20.407] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Stadium.pck
+[13:51:20.408] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Stadium.pck (ux0:/app/PCSG00416/cdvdroot/sound/Music_Stadium.pck), fd: 0x4c
+[13:51:20.408] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Music_Stadium.bnk
+[13:51:20.409] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Music_Stadium.bnk (target path: app0:/cdvdroot/sound/Japanese/Music_Stadium.bnk)
+[13:51:20.409] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.409] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Stadium.bnk
+[13:51:20.410] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Stadium.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Music_Stadium.bnk), fd: 0x4d
+[13:51:20.411] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[13:51:20.412] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Ouen.pck
+[13:51:20.412] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Ouen.pck (ux0:/app/PCSG00416/cdvdroot/sound/Music_Ouen.pck), fd: 0x4e
+[13:51:20.413] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Music_Ouen.bnk
+[13:51:20.413] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Music_Ouen.bnk (target path: app0:/cdvdroot/sound/Japanese/Music_Ouen.bnk)
+[13:51:20.413] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.414] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Music_Ouen.bnk
+[13:51:20.414] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Music_Ouen.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Music_Ouen.bnk), fd: 0x4f
+[13:51:20.463] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[13:51:20.463] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Se_Baseball.bnk
+[13:51:20.464] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Se_Baseball.bnk (target path: app0:/cdvdroot/sound/Japanese/Se_Baseball.bnk)
+[13:51:20.464] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.464] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Se_Baseball.bnk
+[13:51:20.465] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Se_Baseball.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Se_Baseball.bnk), fd: 0x50
+[13:51:20.469] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[13:51:20.469] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Se_Baseball_Stream.pck
+[13:51:20.470] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Se_Baseball_Stream.pck (ux0:/app/PCSG00416/cdvdroot/sound/Se_Baseball_Stream.pck), fd: 0x51
+[13:51:20.471] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Se_Baseball_Stream.bnk
+[13:51:20.471] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Se_Baseball_Stream.bnk (target path: app0:/cdvdroot/sound/Japanese/Se_Baseball_Stream.bnk)
+[13:51:20.472] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.472] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Se_Baseball_Stream.bnk
+[13:51:20.472] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Se_Baseball_Stream.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Se_Baseball_Stream.bnk), fd: 0x52
+[13:51:20.476] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[13:51:20.476] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice0.pck
+[13:51:20.476] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice0.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice0.pck), fd: 0x53
+[13:51:20.477] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice1.pck
+[13:51:20.477] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice1.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice1.pck), fd: 0x54
+[13:51:20.478] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice2.pck
+[13:51:20.478] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice2.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice2.pck), fd: 0x55
+[13:51:20.479] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice3.pck
+[13:51:20.479] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice3.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice3.pck), fd: 0x56
+[13:51:20.480] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice4.pck
+[13:51:20.480] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice4.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice4.pck), fd: 0x57
+[13:51:20.481] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice5.pck
+[13:51:20.481] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice5.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice5.pck), fd: 0x58
+[13:51:20.482] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice6.pck
+[13:51:20.482] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice6.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice6.pck), fd: 0x59
+[13:51:20.483] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice7.pck
+[13:51:20.483] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice7.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice7.pck), fd: 0x5a
+[13:51:20.484] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice8.pck
+[13:51:20.484] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice8.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice8.pck), fd: 0x5b
+[13:51:20.485] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Japanese/Voice_PlayByPlay.bnk
+[13:51:20.485] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Japanese/Voice_PlayByPlay.bnk (target path: app0:/cdvdroot/sound/Japanese/Japanese/Voice_PlayByPlay.bnk)
+[13:51:20.486] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.488] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice_PlayByPlay.bnk
+[13:51:20.488] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Voice_PlayByPlay.bnk (target path: app0:/cdvdroot/sound/Japanese/Voice_PlayByPlay.bnk)
+[13:51:20.489] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.489] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice9.pck
+[13:51:20.490] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice9.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice9.pck), fd: 0x5c
+[13:51:20.490] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice11.pck
+[13:51:20.491] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice11.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice11.pck), fd: 0x5d
+[13:51:20.491] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Uguisu.bnk
+[13:51:20.492] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Uguisu.bnk (target path: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Uguisu.bnk)
+[13:51:20.492] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.493] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice_Stadium_Uguisu.bnk
+[13:51:20.493] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice_Stadium_Uguisu.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice_Stadium_Uguisu.bnk), fd: 0x5e
+[13:51:20.494] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[13:51:20.494] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice10.pck
+[13:51:20.494] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice10.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice10.pck), fd: 0x5f
+[13:51:20.495] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice10_Loud_Jp.pck
+[13:51:20.495] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice10_Loud_Jp.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice10_Loud_Jp.pck), fd: 0x60
+[13:51:20.496] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice10_Loud_Eng.pck
+[13:51:20.496] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice10_Loud_Eng.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice10_Loud_Eng.pck), fd: 0x61
+[13:51:20.497] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice12.pck
+[13:51:20.497] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice12.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice12.pck), fd: 0x62
+[13:51:20.498] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Dj.bnk
+[13:51:20.498] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Dj.bnk (target path: app0:/cdvdroot/sound/Japanese/Japanese/Voice_Stadium_Dj.bnk)
+[13:51:20.499] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:51:20.499] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice_Stadium_Dj.bnk
+[13:51:20.500] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice_Stadium_Dj.bnk (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice_Stadium_Dj.bnk), fd: 0x63
+[13:51:20.500] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[13:51:20.500] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Voice14.pck
+[13:51:20.501] |T| [open_file]: sceIoOpen: Opening file app0:/cdvdroot/sound/Japanese/Voice14.pck (ux0:/app/PCSG00416/cdvdroot/sound/Japanese/Voice14.pck), fd: 0x64
+[13:51:20.502] |I| [export_sceIoOpen]: Opening file: app0:/cdvdroot/sound/Japanese/Japanese/Voice14.bnk
+[13:51:20.502] |E| [open_file]: Missing file at C:/Users/minec/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSG00416/cdvdroot/sound/Japanese/Japanese/Voice14.bnk (target path: app0:/cdvdroot/sound/Japanese/Japanese/Voice14

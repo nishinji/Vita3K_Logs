@@ -1,0 +1,660 @@
+[07:35:51.310] |I| [load_app_impl]: cpu-backend: Dynarmic
+[07:35:51.310] |I| [load_app_impl]: CPU Optimisation state: true
+[07:35:51.310] |I| [load_app_impl]: ngs state: true
+[07:35:51.310] |I| [load_app_impl]: Resolution multiplier: 2
+[07:35:51.311] |I| [load_app_impl]: 1 Controllers Connected
+[07:35:51.311] |I| [load_app_impl]: Controller 0: Xbox 360 Controller
+[07:35:51.311] |I| [load_app_impl]: modules mode: Automatic
+[07:35:51.311] |I| [load_app_impl]: Title: Run Sackboy! Run!
+[07:35:51.312] |I| [load_app_impl]: Serial: PCSA00490
+[07:35:51.312] |I| [load_app_impl]: Version: 1.00
+[07:35:51.312] |I| [load_app_impl]: Category: gd
+[07:35:51.314] |I| [load_module]: Loading module "app0:eboot.bin"
+[07:35:51.371] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[07:35:51.372] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x8020C778 / 0x81000000] (size: 0x00208778) of module app0:eboot.bin
+[07:35:51.372] |I| [load_self]: Loaded module segment 1 @ [0x8020D000 - 0x804E00E8 / 0x81209000] (size: 0x002D30E8) of module app0:eboot.bin
+[07:35:51.373] |I| [load_self]: Linking SELF app0:eboot.bin...
+[07:35:51.373] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x801cb6fc
+[07:35:51.374] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x8021082c
+[07:35:51.374] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x801f9ee8
+[07:35:51.375] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x801d2274, setting to stub value 0xdeadbeef
+[07:35:51.376] |W| [load_var_imports]: 	NID NOT FOUND 0x5d8c1282 (UNRECOGNISED) at 0x801d227c, setting to stub value 0xdeadbeef
+[07:35:51.376] |W| [load_var_imports]: 	NID NOT FOUND 0x66b7406c (UNRECOGNISED) at 0x801d2278, setting to stub value 0xdeadbeef
+[07:35:51.377] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x801d1fe0, setting to stub value 0xdeadbeef
+[07:35:51.378] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x801d22c0, setting to stub value 0xdeadbeef
+[07:35:51.378] |W| [load_var_imports]: 	NID NOT FOUND 0x14b35a37 (UNRECOGNISED) at 0x801d22f8, setting to stub value 0xdeadbeef
+[07:35:51.379] |W| [load_var_imports]: 	NID NOT FOUND 0xb3867bb4 (UNRECOGNISED) at 0x801d22e4, setting to stub value 0xdeadbeef
+[07:35:51.380] |I| [load_module]: Module RSBR (at "app0:eboot.bin") loaded
+[07:35:51.380] |I| [load_app_impl]: Main executable RSBR (eboot.bin) loaded
+[07:35:51.381] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[07:35:51.391] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[07:35:51.391] |I| [load_self]: Loaded module segment 0 @ [0x804E8000 - 0x80537C54 / 0x81000000] (size: 0x0004FC54) of module app0:sce_module/libc.suprx
+[07:35:51.392] |I| [load_self]: Loaded module segment 1 @ [0x80538000 - 0x8053A688 / 0x81050000] (size: 0x00002688) of module app0:sce_module/libc.suprx
+[07:35:51.393] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[07:35:51.393] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x8052e588
+[07:35:51.394] |D| [load_var_exports]: Found previously not found variable. nid:0x5d8c1282, new_entry_point:0x805384b0
+[07:35:51.394] |D| [load_var_exports]: Found previously not found variable. nid:0x66b7406c, new_entry_point:0x805383b0
+[07:35:51.395] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x8052f618
+[07:35:51.395] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x805385b0
+[07:35:51.396] |D| [load_var_exports]: Found previously not found variable. nid:0x14b35a37, new_entry_point:0x80539e74
+[07:35:51.397] |D| [load_var_exports]: Found previously not found variable. nid:0xb3867bb4, new_entry_point:0x80539e40
+[07:35:51.397] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8052d744
+[07:35:51.398] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x805234f8
+[07:35:51.398] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[07:35:51.399] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[07:35:51.406] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[07:35:51.406] |I| [load_self]: Loaded module segment 0 @ [0x8053B000 - 0x8056633C / 0x81000000] (size: 0x0002B33C) of module app0:sce_module/libfios2.suprx
+[07:35:51.407] |I| [load_self]: Loaded module segment 1 @ [0x804E1000 - 0x804E623D / 0x8102C000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[07:35:51.408] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[07:35:51.409] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80566244
+[07:35:51.409] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8055d878
+[07:35:51.410] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[07:35:51.410] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[07:35:51.419] |I| [load_self]: Loaded module segment 0 @ [0x80567000 - 0x805B7F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[07:35:51.421] |I| [load_self]: Loaded module segment 1 @ [0x804E7000 - 0x804E72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[07:35:51.421] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[07:35:51.422] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x805a37dc
+[07:35:51.423] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x805a2f10
+[07:35:51.423] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[07:35:51.424] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[07:35:51.428] |I| [load_self]: Loaded module segment 0 @ [0x805B8000 - 0x805C7F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[07:35:51.428] |I| [load_self]: Loaded module segment 1 @ [0x805C8000 - 0x805C8008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[07:35:51.429] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[07:35:51.429] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x805c6710
+[07:35:51.430] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x805c6300
+[07:35:51.431] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[07:35:51.433] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/6
+[07:35:51.435] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/6
+[07:35:51.452] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/6
+[07:35:51.468] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/6
+[07:35:51.485] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/6
+[07:35:51.501] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/6
+[07:35:51.531] |D| [start_module]: Running module_start of library: SceLibc at address 0x804e8871
+[07:35:51.578] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[07:35:51.578] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[07:35:51.578] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[07:35:51.585] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[07:35:51.588] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x8053b001
+[07:35:51.601] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[07:35:51.601] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[07:35:51.604] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x801cb12c
+[07:35:51.607] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x801cb16c
+[07:35:51.609] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x801cb1ec
+[07:35:51.611] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x801caf4c
+[07:35:51.615] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x801cb34c
+[07:35:51.617] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x801cb38c
+[07:35:51.622] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x801cafcc
+[07:35:51.631] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x801cafec
+[07:35:51.643] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x801cb3bc
+[07:35:51.647] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x801cb04c
+[07:35:51.648] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x801cafdc
+[07:35:51.663] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[07:35:51.664] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfffbe239 fopen at 0x801cb23c
+[07:35:51.665] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xee681e1d sceFiosFHOpenWithModeSync at 0x805234e8
+[07:35:51.666] |I| [export_sceIoOpen]: Opening file: app0:/regionus
+[07:35:51.667] |T| [open_file]: sceIoOpen: Opening file app0:/regionus (ux0:/app/PCSA00490/regionus), fd: 0x3
+[07:35:51.668] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec97321c fclose at 0x801cb1dc
+[07:35:51.668] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x45182328 sceFiosFHCloseSync at 0x80523458
+[07:35:51.669] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[07:35:51.753] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[07:35:51.754] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x801cb00c
+[07:35:51.765] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[07:35:51.959] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[07:35:51.961] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_COMMERCE2
+[07:35:51.962] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET
+[07:35:51.963] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_HTTPS
+[07:35:51.963] |I| [load_module]: Loading module "vs0:sys/external/libhttp.suprx"
+[07:35:51.967] |I| [load_self]: vs0:sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[07:35:51.968] |I| [load_self]: Loaded module segment 0 @ [0x809CE000 - 0x809EB150 / 0x81000000] (size: 0x0001D150) of module vs0:sys/external/libhttp.suprx
+[07:35:51.968] |I| [load_self]: Loaded module segment 1 @ [0x808D8000 - 0x808D8640 / 0x8101E000] (size: 0x00000640) of module vs0:sys/external/libhttp.suprx
+[07:35:51.969] |I| [load_self]: Linking SELF vs0:sys/external/libhttp.suprx...
+[07:35:51.969] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x809e9e68
+[07:35:51.970] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x809e6ca0
+[07:35:51.970] |I| [load_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") loaded
+[07:35:51.972] |D| [start_module]: Running module_start of library: SceLibHttp at address 0x809d72e5
+[07:35:51.985] |I| [start_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") module_start returned 0x0
+[07:35:51.988] |I| [load_module]: Loading module "vs0:sys/external/libssl.suprx"
+[07:35:51.999] |I| [load_self]: Loaded module segment 0 @ [0x80D0E000 - 0x80D74EA4 / 0x81000000] (size: 0x00066EA4) of module vs0:sys/external/libssl.suprx
+[07:35:52.000] |I| [load_self]: Loaded module segment 1 @ [0x808D9000 - 0x808DE188 / 0x81067000] (size: 0x00005188) of module vs0:sys/external/libssl.suprx
+[07:35:52.001] |I| [load_self]: Linking SELF vs0:sys/external/libssl.suprx...
+[07:35:52.001] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80d609b0
+[07:35:52.002] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80d5ac70
+[07:35:52.002] |I| [load_module]: Module SceLibSsl (at "vs0:sys/external/libssl.suprx") loaded
+[07:35:52.003] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[07:35:52.004] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_SNS_FACEBOOK
+[07:35:52.004] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_SCORE_RANKING
+[07:35:52.005] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_UTILITY
+[07:35:52.006] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SCREEN_SHOT
+[07:35:52.007] |W| [export_sceNpSnsFacebookInit::<lambda_1>::operator ()]: Unimplemented sceNpSnsFacebookInit import called.
+[07:35:52.007] |W| [export_sceNetCtlInit::<lambda_2>::operator ()]: Stubbed sceNetCtlInit import called. (Stub)
+[07:35:52.008] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3c733316 sceSslInit at 0x801c93ec
+[07:35:52.011] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x214926d9 sceHttpInit at 0x801c941c
+[07:35:52.035] |E| [export_sceNetInit::<lambda_1>::operator ()]: sceNetInit returned SCE_NET_ERROR_EBUSY (0x80410110)
+[07:35:52.036] |E| [export_sceNetCtlInit::<lambda_1>::operator ()]: sceNetCtlInit returned SCE_NET_CTL_ERROR_NOT_TERMINATED (0x80412102)
+[07:35:52.037] |W| [export_sceNetCtlInetGetState::<lambda_3>::operator ()]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[07:35:52.039] |E| [export_sceSysmoduleIsLoaded::<lambda_2>::operator ()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[07:35:52.040] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_BASIC
+[07:35:52.041] |W| [export_sceNpBasicInit::<lambda_1>::operator ()]: Unimplemented sceNpBasicInit import called.
+[07:35:52.042] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_JSON
+[07:35:52.042] |I| [load_module]: Loading module "vs0:sys/external/libSceJson.suprx"
+[07:35:52.044] |I| [load_self]: vs0:sys/external/libSceJson.suprx: Skipping special segment 0x6fffff01...
+[07:35:52.045] |I| [load_self]: Loaded module segment 0 @ [0x8090F000 - 0x80915230 / 0x81000000] (size: 0x00006230) of module vs0:sys/external/libSceJson.suprx
+[07:35:52.045] |I| [load_self]: Loaded module segment 1 @ [0x80916000 - 0x80916049 / 0x81007000] (size: 0x00000049) of module vs0:sys/external/libSceJson.suprx
+[07:35:52.046] |I| [load_self]: Linking SELF vs0:sys/external/libSceJson.suprx...
+[07:35:52.047] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x809150a8
+[07:35:52.047] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80914020
+[07:35:52.049] |I| [load_module]: Module SceLibJson (at "vs0:sys/external/libSceJson.suprx") loaded
+[07:35:52.050] |W| [export_sceNpBasicRegisterHandler::<lambda_1>::operator ()]: Unimplemented sceNpBasicRegisterHandler import called.
+[07:35:52.052] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x801cb0bc
+[07:35:52.054] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72293931 _ZdlPv at 0x801cb36c
+[07:35:52.055] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR06503_00/TROPHY.TRP (ux0:/app/PCSA00490/sce_sys/trophy/NPWR06503_00/TROPHY.TRP), fd: 0x4
+[07:35:52.056] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR06503_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR06503_00/TROPUSR.DAT), fd: 0x5
+[07:35:52.057] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROPCONF.SFM), fd: 0x6
+[07:35:52.058] |T| [write_file]: install_trophy_context: Writing to fd: 0x6, size: 1231
+[07:35:52.058] |T| [close_file]: install_trophy_context: Closing file fd: 0x6
+[07:35:52.060] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP.SFM), fd: 0x7
+[07:35:52.060] |T| [write_file]: install_trophy_context: Writing to fd: 0x7, size: 2528
+[07:35:52.061] |T| [close_file]: install_trophy_context: Closing file fd: 0x7
+[07:35:52.061] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_01.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_01.SFM), fd: 0x8
+[07:35:52.061] |T| [write_file]: install_trophy_context: Writing to fd: 0x8, size: 2528
+[07:35:52.061] |T| [close_file]: install_trophy_context: Closing file fd: 0x8
+[07:35:52.062] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_02.SFM), fd: 0x9
+[07:35:52.062] |T| [write_file]: install_trophy_context: Writing to fd: 0x9, size: 2656
+[07:35:52.062] |T| [close_file]: install_trophy_context: Closing file fd: 0x9
+[07:35:52.063] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_03.SFM), fd: 0xa
+[07:35:52.063] |T| [write_file]: install_trophy_context: Writing to fd: 0xa, size: 2627
+[07:35:52.063] |T| [close_file]: install_trophy_context: Closing file fd: 0xa
+[07:35:52.064] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_04.SFM), fd: 0xb
+[07:35:52.064] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 2611
+[07:35:52.065] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[07:35:52.065] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_05.SFM), fd: 0xc
+[07:35:52.065] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 2656
+[07:35:52.065] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[07:35:52.066] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_06.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_06.SFM), fd: 0xd
+[07:35:52.066] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 2610
+[07:35:52.066] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[07:35:52.067] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_07.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_07.SFM), fd: 0xe
+[07:35:52.067] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 2613
+[07:35:52.067] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[07:35:52.067] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_08.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_08.SFM), fd: 0xf
+[07:35:52.068] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 3095
+[07:35:52.068] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[07:35:52.068] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_09.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_09.SFM), fd: 0x10
+[07:35:52.068] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 2802
+[07:35:52.069] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[07:35:52.069] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_10.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_10.SFM), fd: 0x11
+[07:35:52.069] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 2549
+[07:35:52.069] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[07:35:52.070] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_11.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_11.SFM), fd: 0x12
+[07:35:52.070] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 2518
+[07:35:52.070] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[07:35:52.071] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_12.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_12.SFM), fd: 0x13
+[07:35:52.071] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 2596
+[07:35:52.071] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[07:35:52.072] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_13.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_13.SFM), fd: 0x14
+[07:35:52.072] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 2556
+[07:35:52.072] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[07:35:52.072] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_14.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_14.SFM), fd: 0x15
+[07:35:52.073] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 2553
+[07:35:52.073] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[07:35:52.073] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_15.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_15.SFM), fd: 0x16
+[07:35:52.073] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 2584
+[07:35:52.074] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[07:35:52.074] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_16.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_16.SFM), fd: 0x17
+[07:35:52.074] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 2636
+[07:35:52.074] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[07:35:52.075] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_17.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_17.SFM), fd: 0x18
+[07:35:52.075] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 2563
+[07:35:52.075] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[07:35:52.076] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_18.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_18.SFM), fd: 0x19
+[07:35:52.076] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 2528
+[07:35:52.076] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[07:35:52.077] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP_19.SFM (ux0:/user/00/trophy/conf/NPWR06503_00/TROP_19.SFM), fd: 0x1a
+[07:35:52.077] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 2594
+[07:35:52.077] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[07:35:52.078] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/ICON0.PNG), fd: 0x1b
+[07:35:52.078] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 150883
+[07:35:52.078] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[07:35:52.078] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP000.PNG), fd: 0x1c
+[07:35:52.079] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 103938
+[07:35:52.079] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[07:35:52.079] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP001.PNG), fd: 0x1d
+[07:35:52.080] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 136776
+[07:35:52.080] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[07:35:52.081] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP002.PNG), fd: 0x1e
+[07:35:52.081] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 107061
+[07:35:52.081] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[07:35:52.082] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP003.PNG), fd: 0x1f
+[07:35:52.082] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 119308
+[07:35:52.082] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[07:35:52.083] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP004.PNG), fd: 0x20
+[07:35:52.083] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 120729
+[07:35:52.083] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[07:35:52.084] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP005.PNG), fd: 0x21
+[07:35:52.084] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 111525
+[07:35:52.084] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[07:35:52.085] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP006.PNG), fd: 0x22
+[07:35:52.085] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 103087
+[07:35:52.085] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[07:35:52.086] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP007.PNG), fd: 0x23
+[07:35:52.086] |E| [handle_timeout::<lambda_2>::operator ()]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[07:35:52.086] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 137304
+[07:35:52.086] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[07:35:52.087] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP008.PNG), fd: 0x24
+[07:35:52.087] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 124473
+[07:35:52.087] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[07:35:52.087] |W| [export_sceNetCtlCheckCallback::<lambda_2>::operator ()]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[07:35:52.088] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP009.PNG), fd: 0x25
+[07:35:52.088] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 137599
+[07:35:52.088] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[07:35:52.089] |W| [export_sceNpCheckCallback::<lambda_1>::operator ()]: Stubbed sceNpCheckCallback import called. (Stub)
+[07:35:52.089] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP010.PNG), fd: 0x26
+[07:35:52.089] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 119512
+[07:35:52.089] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[07:35:52.090] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP011.PNG), fd: 0x27
+[07:35:52.090] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 127764
+[07:35:52.090] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[07:35:52.090] |C| [handle_access_violation]: Unhandled write protected region was valid. Address=0x4
+[07:35:52.090] |T| [log_import_call]: [LLE] TID: 60  FUNC: 0x9f87712d strncpy at 0x801cb08c
+[07:35:52.090] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR06503_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR06503_00/TROP012.PNG), fd: 0x28
+[07:35:52.091] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 121997
+[07:35:52.091] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[07:35:52.091] |T| [close_file]: create_trophy_context: Closing file fd: 0x5
+[07:35:52.091] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR06503_00 create successfuly!
+[07:35:52.092] |W| [export_sceNpScoreInit::<lambda_1>::operator ()]: Unimplemented sceNpScoreInit import called.
+[07:35:52.092] |W| [export_sceNpLookupInit::<lambda_1>::operator ()]: Unimplemented sceNpLookupInit import called.
+[07:35:52.093] |W| [export_sceScreenShotSetParam::<lambda_1>::operator ()]: Unimplemented sceScreenShotSetParam import called.
+[07:35:52.093] |W| [export_sceScreenShotSetOverlayImage::<lambda_1>::operator ()]: Unimplemented sceScreenShotSetOverlayImage import called.
+[07:35:52.093] |W| [export_sceScreenShotEnable::<lambda_1>::operator ()]: Unimplemented sceScreenShotEnable import called.
+[07:35:52.094] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.094] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x29
+[07:35:52.094] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3a7cde1 fseek at 0x801cb14c
+[07:35:52.095] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa75f3c4a sceFiosFHSeek at 0x80523498
+[07:35:52.096] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x41c2af95 ftell at 0x801caf2c
+[07:35:52.097] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7fb2bf4 _Znaj at 0x801cb3ac
+[07:35:52.098] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb31c73a9 fread at 0x801cb0cc
+[07:35:52.099] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb309e327 sceFiosIsValidHandle at 0x805234b8
+[07:35:52.100] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x76945919 sceFiosFHReadSync at 0x80523478
+[07:35:52.104] |I| [export_sceIoOpen]: Opening file: app0:/datavita1.pak
+[07:35:52.104] |E| [open_file]: Missing file at X:/RetroWorld/Vita/vita3k/ux0/app/PCSA00490/datavita1.pak (target path: app0:/datavita1.pak)
+[07:35:52.104] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:35:52.105] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[07:35:52.105] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x801ca68c
+[07:35:52.124] |W| [export_sceKernelChangeThreadVfpException::<lambda_1>::operator ()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[07:35:52.124] |W| [export_sceFiosOverlayThreadSetDisabled02::<lambda_1>::operator ()]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[07:35:52.152] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x22bb8237 floor at 0x801cb25c
+[07:35:52.168] |T| [log_import_call]: [LLE] TID: 80  FUNC: 0x9a004680 printf at 0x801cb07c
+[07:35:52.169] |W| [export_sceNgsSystemSetFlags::<lambda_1>::operator ()]: Unimplemented sceNgsSystemSetFlags import called.
+[07:35:52.169] |W| [export_sceNgsVoiceInit::<lambda_3>::operator ()]: Stubbed sceNgsVoiceInit import called. (Default preset not implemented)
+[07:35:52.171] |T| [write_file]: *** TTY: # Audio out thread started
+[07:35:52.184] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x801cb22c
+[07:35:52.186] |T| [write_file]: *** TTY: SCREAM Version 7.6.40 Build 0 of Branch SCE Built on Sep 18 2014 at 08:22:27
+[07:35:52.188] |T| [write_file]: *** TTY: SndStream Version 7.6.40 Build 0 of Branch SCE Built on Sep 18 2014 at 08:22:27
+[07:35:52.191] |W| [ngs::ReverbModule::process]: Game is using unimplemented reverb audio module
+[07:35:52.217] |I| [export_sceIoOpen]: Opening file: app0:/vitaaudio.bnk
+[07:35:52.217] |E| [mutex_lock_impl::<lambda_3>::operator ()]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[07:35:52.217] |T| [open_file]: sceIoOpen: Opening file app0:/vitaaudio.bnk (ux0:/app/PCSA00490/vitaaudio.bnk), fd: 0x2a
+[07:35:52.223] |T| [close_file]: sceIoClose: Closing file fd: 0x2a
+[07:35:52.224] |I| [export_sceIoOpen]: Opening file: app0:/vitamusic.bnk
+[07:35:52.224] |T| [open_file]: sceIoOpen: Opening file app0:/vitamusic.bnk (ux0:/app/PCSA00490/vitamusic.bnk), fd: 0x2b
+[07:35:52.225] |T| [close_file]: sceIoClose: Closing file fd: 0x2b
+[07:35:52.238] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.239] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x2c
+[07:35:52.274] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x801caf8c
+[07:35:52.275] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x91b0dc47 _ZdaPv at 0x801cb37c
+[07:35:52.278] |T| [close_file]: sceIoClose: Closing file fd: 0x2c
+[07:35:52.281] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSA00490/SlotParam_0.bin), fd: 0x2d
+[07:35:52.281] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x2d
+[07:35:52.282] |I| [export_sceIoOpen]: Opening file: savedata0:/rsbra.sav
+[07:35:52.283] |T| [open_file]: sceIoOpen: Opening file savedata0:/rsbra.sav (ux0:/user/00/savedata/PCSA00490/rsbra.sav), fd: 0x2e
+[07:35:52.284] |T| [close_file]: sceIoClose: Closing file fd: 0x2e
+[07:35:52.284] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3aad41b0 srand at 0x801caf1c
+[07:35:52.284] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc0883865 rand at 0x801cb13c
+[07:35:52.285] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x801caebc
+[07:35:52.286] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSA00490/SlotParam_0.bin), fd: 0x2f
+[07:35:52.286] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x2f
+[07:35:52.286] |I| [export_sceIoOpen]: Opening file: savedata0:/rsbr.rcx
+[07:35:52.286] |T| [open_file]: sceIoOpen: Opening file savedata0:/rsbr.rcx (ux0:/user/00/savedata/PCSA00490/rsbr.rcx), fd: 0x30
+[07:35:52.287] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[07:35:52.303] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x62241dab sceHttpCreateTemplate at 0x801c946c
+[07:35:52.303] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSA00490/SlotParam_0.bin), fd: 0x31
+[07:35:52.303] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x31
+[07:35:52.304] |I| [export_sceIoOpen]: Opening file: savedata0:/ad.cat
+[07:35:52.304] |W| [export_sceKernelGetSystemSwVersion::<lambda_1>::operator ()]: Unimplemented sceKernelGetSystemSwVersion import called.
+[07:35:52.304] |E| [open_file]: Missing file at X:/RetroWorld/Vita/vita3k/ux0/user/00/savedata/PCSA00490/ad.cat (target path: savedata0:/ad.cat)
+[07:35:52.304] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[07:35:52.306] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xc616c200 sceHttpCreateConnectionWithURL at 0x801c94dc
+[07:35:52.311] |W| [export_sceAppMgrIsNonGameProgram::<lambda_1>::operator ()]: Unimplemented sceAppMgrIsNonGameProgram import called.
+[07:35:52.311] |W| [export__sceKernelGetThreadInfo::<lambda_1>::operator ()]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[07:35:52.314] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xbd5da1d0 sceHttpCreateRequestWithURL at 0x801c94cc
+[07:35:52.317] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x9ca58b99 sceHttpSendRequest at 0x801c948c
+[07:35:52.318] |W| [export_sceNetInternalIcmConnect::<lambda_1>::operator ()]: Unimplemented sceNetInternalIcmConnect import called.
+[07:35:52.319] |W| [export_sceNetCtlInetGetInfo::<lambda_19>::operator ()]: Stubbed sceNetCtlInetGetInfo import called. (code SCE_NETCTL_INFO_GET_HTTP_PROXY_CONFIG not implemented)
+[07:35:52.321] |E| [export_sceSaveDataDialogAbort::<lambda_1>::operator ()]: sceSaveDataDialogAbort returned SCE_COMMON_DIALOG_ERROR_NOT_IN_USE (0x80020411)
+[07:35:52.325] |W| [export_sceNetResolverCreate::<lambda_1>::operator ()]: Stubbed sceNetResolverCreate import called. (Fake id)
+[07:35:52.337] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.338] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x32
+[07:35:52.339] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[07:35:52.339] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.340] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x33
+[07:35:52.341] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[07:35:52.343] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.344] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x34
+[07:35:52.344] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[07:35:52.345] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.345] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x35
+[07:35:52.346] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[07:35:52.347] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.347] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x36
+[07:35:52.348] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[07:35:52.348] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.349] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x37
+[07:35:52.349] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[07:35:52.350] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.350] |W| [export_sceNetResolverDestroy::<lambda_1>::operator ()]: Unimplemented sceNetResolverDestroy import called.
+[07:35:52.350] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x38
+[07:35:52.351] |E| [export_sceNetSetsockopt]: Unknown socket option 0x40000
+[07:35:52.351] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[07:35:52.351] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.352] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x39
+[07:35:52.352] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[07:35:52.353] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.353] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x3a
+[07:35:52.354] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[07:35:52.354] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.355] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x3b
+[07:35:52.356] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[07:35:52.356] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.356] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x3c
+[07:35:52.357] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[07:35:52.358] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.358] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x3d
+[07:35:52.360] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[07:35:52.360] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.361] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x3e
+[07:35:52.362] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[07:35:52.362] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.362] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x3f
+[07:35:52.363] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[07:35:52.363] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.364] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x40
+[07:35:52.365] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[07:35:52.365] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.365] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x41
+[07:35:52.366] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[07:35:52.367] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.367] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x42
+[07:35:52.368] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[07:35:52.368] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.369] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x43
+[07:35:52.370] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[07:35:52.370] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.370] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x44
+[07:35:52.371] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[07:35:52.371] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.372] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x45
+[07:35:52.373] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[07:35:52.374] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.374] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x46
+[07:35:52.375] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[07:35:52.376] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.376] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x47
+[07:35:52.377] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[07:35:52.377] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.378] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x48
+[07:35:52.378] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[07:35:52.379] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.379] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x49
+[07:35:52.380] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[07:35:52.380] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.381] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x4a
+[07:35:52.382] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[07:35:52.382] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.382] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x4b
+[07:35:52.383] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[07:35:52.383] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.384] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x4c
+[07:35:52.385] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[07:35:52.385] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.385] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x4d
+[07:35:52.386] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[07:35:52.386] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.387] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x4e
+[07:35:52.388] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[07:35:52.388] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.388] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x4f
+[07:35:52.389] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[07:35:52.390] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.390] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x50
+[07:35:52.391] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[07:35:52.392] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.392] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x51
+[07:35:52.393] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[07:35:52.394] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.394] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x52
+[07:35:52.395] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[07:35:52.395] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.395] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x53
+[07:35:52.396] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[07:35:52.397] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.397] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x54
+[07:35:52.398] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[07:35:52.398] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.399] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x55
+[07:35:52.399] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[07:35:52.400] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.400] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x56
+[07:35:52.401] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[07:35:52.401] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.402] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x57
+[07:35:52.403] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[07:35:52.403] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.404] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x58
+[07:35:52.405] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[07:35:52.406] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.406] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x59
+[07:35:52.407] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[07:35:52.407] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.408] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x5a
+[07:35:52.408] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[07:35:52.409] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.409] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x5b
+[07:35:52.410] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[07:35:52.411] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.411] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x5c
+[07:35:52.412] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[07:35:52.412] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.412] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x5d
+[07:35:52.413] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[07:35:52.413] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.414] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x5e
+[07:35:52.415] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[07:35:52.415] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.415] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x5f
+[07:35:52.416] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[07:35:52.417] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.417] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x60
+[07:35:52.418] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[07:35:52.418] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.418] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x61
+[07:35:52.419] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[07:35:52.419] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.420] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x62
+[07:35:52.421] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[07:35:52.422] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.422] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x63
+[07:35:52.423] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[07:35:52.423] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.423] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x64
+[07:35:52.424] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[07:35:52.424] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.425] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x65
+[07:35:52.426] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[07:35:52.426] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.427] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x66
+[07:35:52.428] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[07:35:52.428] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.428] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x67
+[07:35:52.429] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[07:35:52.429] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.430] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x68
+[07:35:52.430] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[07:35:52.431] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.431] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x69
+[07:35:52.432] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[07:35:52.432] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.432] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x6a
+[07:35:52.433] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[07:35:52.433] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.434] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x6b
+[07:35:52.435] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[07:35:52.435] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.435] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x6c
+[07:35:52.436] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[07:35:52.436] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.437] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x6d
+[07:35:52.438] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[07:35:52.438] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.439] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x6e
+[07:35:52.440] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[07:35:52.440] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.440] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x6f
+[07:35:52.441] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[07:35:52.441] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.442] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x70
+[07:35:52.443] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[07:35:52.443] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.443] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x71
+[07:35:52.444] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[07:35:52.444] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.445] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x72
+[07:35:52.446] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[07:35:52.446] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.446] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x73
+[07:35:52.447] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[07:35:52.447] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.448] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x74
+[07:35:52.449] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[07:35:52.449] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x4b4a2307 sceSslInternalIsInitalized at 0x809e69b0
+[07:35:52.449] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.449] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x2185bb05 UNRECOGNISED at 0x809e68b0
+[07:35:52.449] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xa374cd7b UNRECOGNISED at 0x809e6aa0
+[07:35:52.449] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x75
+[07:35:52.449] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xe746465e UNRECOGNISED at 0x809e6bc0
+[07:35:52.450] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[07:35:52.450] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.451] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x76
+[07:35:52.452] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[07:35:52.452] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.452] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x77
+[07:35:52.453] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[07:35:52.454] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.454] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x78
+[07:35:52.455] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[07:35:52.455] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.456] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x79
+[07:35:52.456] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[07:35:52.457] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.457] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x7a
+[07:35:52.458] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[07:35:52.458] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.459] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x7b
+[07:35:52.459] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[07:35:52.467] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa98e941b tanf at 0x801cb2cc
+[07:35:52.475] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.475] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x67fb1cd3 UNRECOGNISED at 0x809e6a10
+[07:35:52.476] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x7c
+[07:35:52.477] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xfbeb1fd7 UNRECOGNISED at 0x809e6c30
+[07:35:52.477] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x260f5a85 UNRECOGNISED at 0x809e68f0
+[07:35:52.478] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xaf50b945 UNRECOGNISED at 0x809e6ad0
+[07:35:52.478] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x9e38815d UNRECOGNISED at 0x809e6a90
+[07:35:52.478] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xcc7f4211 UNRECOGNISED at 0x809e6b30
+[07:35:52.478] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xd28834e6 UNRECOGNISED at 0x809e6b70
+[07:35:52.480] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xdb6c206 UNRECOGNISED at 0x809e6840
+[07:35:52.480] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xffe2ed51 UNRECOGNISED at 0x809e6c40
+[07:35:52.481] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x16d7c7ca UNRECOGNISED at 0x809e6860
+[07:35:52.482] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x4a1557a7 UNRECOGNISED at 0x809e6990
+[07:35:52.482] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xf2c9b744 UNRECOGNISED at 0x809e6c00
+[07:35:52.482] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xf71db06f UNRECOGNISED at 0x809e6c20
+[07:35:52.482] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xcee46b33 UNRECOGNISED at 0x809e6b50
+[07:35:52.483] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xe5edd91b UNRECOGNISED at 0x809e6bb0
+[07:35:52.483] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[07:35:52.492] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[07:35:52.500] |W| [export___sceAppMgrGetAppState::<lambda_1>::operator ()]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[07:35:52.517] |W| [export_sceNpSnsFacebookCreateRequest::<lambda_1>::operator ()]: Unimplemented sceNpSnsFacebookCreateRequest import called.
+[07:35:52.517] |W| [export_sceNpSnsFacebookGetLongAccessToken::<lambda_1>::operator ()]: Unimplemented sceNpSnsFacebookGetLongAccessToken import called.
+[07:35:52.518] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.518] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x7d
+[07:35:52.525] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[07:35:52.526] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.527] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x7e
+[07:35:52.528] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[07:35:52.529] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.530] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x7f
+[07:35:52.531] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[07:35:52.534] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.534] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x80
+[07:35:52.538] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[07:35:52.540] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.540] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x81
+[07:35:52.542] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[07:35:52.544] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.545] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x82
+[07:35:52.555] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[07:35:52.556] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.557] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x83
+[07:35:52.558] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[07:35:52.564] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.565] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x84
+[07:35:52.568] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[07:35:52.583] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x50b326ce setjmp at 0x801caf5c
+[07:35:52.585] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6b54ba realloc at 0x801cae8c
+[07:35:52.587] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x801cae9c
+[07:35:52.591] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.592] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x85
+[07:35:52.612] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x24c6257f UNRECOGNISED at 0x809e68e0
+[07:35:52.613] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xd3c049b9 UNRECOGNISED at 0x809e6b80
+[07:35:52.613] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xbf99d664 UNRECOGNISED at 0x809e6b10
+[07:35:52.614] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x64bdf1bb UNRECOGNISED at 0x809e6a00
+[07:35:52.615] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x8179ebd UNRECOGNISED at 0x809e6820
+[07:35:52.617] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xce37b69e UNRECOGNISED at 0x809e6b40
+[07:35:52.617] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x81fa5dbe UNRECOGNISED at 0x809e6a50
+[07:35:52.618] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x5e50cb55 UNRECOGNISED at 0x809e69f0
+[07:35:52.618] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x8ed1b25 UNRECOGNISED at 0x809e6830
+[07:35:52.624] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x6cdb4ee8 UNRECOGNISED at 0x809e6a20
+[07:35:52.626] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x93eae08a UNRECOGNISED at 0x809e6a80
+[07:35:52.628] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xf030a0de UNRECOGNISED at 0x809e6bf0
+[07:35:52.629] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x3746501f UNRECOGNISED at 0x809e6950
+[07:35:52.633] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x568f0e80 UNRECOGNISED at 0x809e69e0
+[07:35:52.635] |W| [export_sceAppMgrConvertVs0UserDrivePath::<lambda_1>::operator ()]: Stubbed sceAppMgrConvertVs0UserDrivePath import called. (Using strncpy)
+[07:35:52.635] |I| [export_sceIoOpen]: Opening file: vs0:/data/external/cert/CA_LIST.cer
+[07:35:52.635] |T| [open_file]: sceIoOpen: Opening file vs0:/data/external/cert/CA_LIST.cer (vs0:/data/external/cert/CA_LIST.cer), fd: 0x86
+[07:35:52.636] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[07:35:52.636] |I| [export_sceIoOpen]: Opening file: vs0:/data/external/cert/CA_LIST.cer
+[07:35:52.637] |T| [open_file]: sceIoOpen: Opening file vs0:/data/external/cert/CA_LIST.cer (vs0:/data/external/cert/CA_LIST.cer), fd: 0x87
+[07:35:52.637] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[07:35:52.638] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x29aac768 UNRECOGNISED at 0x809e6900
+[07:35:52.644] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x306e2a22 UNRECOGNISED at 0x809e6920
+[07:35:52.675] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[07:35:52.677] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.677] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x88
+[07:35:52.732] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x46358909 UNRECOGNISED at 0x809e6980
+[07:35:52.733] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x349b0e73 UNRECOGNISED at 0x809e6940
+[07:35:52.734] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x170d595d UNRECOGNISED at 0x809e6870
+[07:35:52.740] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xd4adf069 UNRECOGNISED at 0x809e6b90
+[07:35:52.740] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x144fa354 UNRECOGNISED at 0x809e6850
+[07:35:52.743] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[07:35:52.745] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.745] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x89
+[07:35:52.895] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x2f0fc3cd UNRECOGNISED at 0x809e6910
+[07:35:52.896] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0xf39a49c6 sceSslInternalWrite at 0x809e6c10
+[07:35:52.898] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x4f781bb6 UNRECOGNISED at 0x809e69d0
+[07:35:52.950] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[07:35:52.953] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x801caffc
+[07:35:52.968] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.969] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x8a
+[07:35:52.997] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[07:35:52.998] |I| [export_sceIoOpen]: Opening file: app0:/datavita.pak
+[07:35:52.999] |T| [open_file]: sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490/datavita.pak), fd: 0x8b
+[07:35:53.005] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[07:35:53.005] |I| [exp

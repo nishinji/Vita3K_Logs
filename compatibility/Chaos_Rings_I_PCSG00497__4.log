@@ -1,0 +1,112 @@
+[20:39:14.684] |I| [config::init_config]: backend-renderer: Vulkan
+[20:39:14.685] |I| [config::init_config]: log-level: 0
+[20:39:14.968] |I| [SDL_main]: Vita3K v0.1.9 3363-93a05243
+[20:39:14.968] |I| [SDL_main]: Number of logical CPU cores: 12
+[20:39:14.969] |I| [SDL_main]: Available ram memory: 16328 MiB
+[20:39:15.117] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce GTX 1080 Ti
+[20:39:15.118] |I| [renderer::vulkan::VKState::create]: Driver version: 512.59.0.0
+[20:39:15.119] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[20:39:15.119] |I| [renderer::vulkan::VKState::create]: Using shader interlock for accurate framebuffer fetch emulation
+[20:39:15.657] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[20:39:16.649] |I| [compat::update_compat_app_db]: Applications compatibility database is up to date.
+[20:39:43.638] |I| [load_app_impl]: cpu-backend: Dynarmic
+[20:39:43.639] |I| [load_app_impl]: CPU Optimisation state: true
+[20:39:43.639] |I| [load_app_impl]: ngs state: true
+[20:39:43.639] |I| [load_app_impl]: Resolution multiplier: 1
+[20:39:43.639] |I| [load_app_impl]: 1 Controllers Connected
+[20:39:43.639] |I| [load_app_impl]: Controller 0: PS4 Controller
+[20:39:43.639] |I| [load_app_impl]: Controller has motion support
+[20:39:43.639] |I| [load_app_impl]: modules mode: Automatic
+[20:39:43.639] |I| [load_app_impl]: Title: CHAOS RINGS Ⅰ
+[20:39:43.639] |I| [load_app_impl]: Serial: PCSG00497
+[20:39:43.639] |I| [load_app_impl]: Version: 1.00
+[20:39:43.639] |I| [load_app_impl]: Category: gd
+[20:39:43.642] |I| [load_module]: Loading module "app0:eboot.bin"
+[20:39:43.694] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[20:39:43.695] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x00115D08 / 0x81000000] (size: 0x00110D08) of module app0:eboot.bin
+[20:39:43.695] |I| [load_self]: Loaded module segment 1 @ [0x00116000 - 0x004F47C4 / 0x81111000] (size: 0x003DE7C4) of module app0:eboot.bin
+[20:39:43.695] |I| [load_self]: Linking SELF app0:eboot.bin...
+[20:39:43.695] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xee154
+[20:39:43.696] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x11a1a4
+[20:39:43.697] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x107a38
+[20:39:43.697] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0xf22fc, setting to stub value 0xdeadbeef
+[20:39:43.698] |W| [load_var_imports]: 	NID NOT FOUND 0x35e135a0 (UNRECOGNISED) at 0xf22f0, setting to stub value 0xdeadbeef
+[20:39:43.699] |W| [load_var_imports]: 	NID NOT FOUND 0x6bc74629 (UNRECOGNISED) at 0xf2204, setting to stub value 0xdeadbeef
+[20:39:43.700] |W| [load_var_imports]: 	NID NOT FOUND 0xf79ae8e1 (UNRECOGNISED) at 0xf21c0, setting to stub value 0xdeadbeef
+[20:39:43.702] |I| [load_module]: Module ChaosRings (at "app0:eboot.bin") loaded
+[20:39:43.702] |I| [load_app_impl]: Main executable ChaosRings (eboot.bin) loaded
+[20:39:43.702] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[20:39:43.718] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[20:39:43.718] |I| [load_self]: Loaded module segment 0 @ [0x004F9000 - 0x00548BD4 / 0x81000000] (size: 0x0004FBD4) of module app0:sce_module/libc.suprx
+[20:39:43.719] |I| [load_self]: Loaded module segment 1 @ [0x00549000 - 0x0054B688 / 0x81050000] (size: 0x00002688) of module app0:sce_module/libc.suprx
+[20:39:43.719] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[20:39:43.720] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x5495b0
+[20:39:43.720] |D| [load_var_exports]: Found previously not found variable. nid:0x35e135a0, new_entry_point:0x546ad8
+[20:39:43.721] |D| [load_var_exports]: Found previously not found variable. nid:0x6bc74629, new_entry_point:0x5483e4
+[20:39:43.721] |D| [load_var_exports]: Found previously not found variable. nid:0xf79ae8e1, new_entry_point:0x5483d4
+[20:39:43.722] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x53e6c4
+[20:39:43.722] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x534488
+[20:39:43.722] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[20:39:43.723] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[20:39:43.733] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[20:39:43.733] |I| [load_self]: Loaded module segment 0 @ [0x0054C000 - 0x00576AA8 / 0x81000000] (size: 0x0002AAA8) of module app0:sce_module/libfios2.suprx
+[20:39:43.734] |I| [load_self]: Loaded module segment 1 @ [0x00577000 - 0x0057C23D / 0x8102B000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[20:39:43.735] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[20:39:43.735] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x5769b0
+[20:39:43.736] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x56e138
+[20:39:43.736] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[20:39:43.737] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[20:39:43.749] |I| [load_self]: Loaded module segment 0 @ [0x0057D000 - 0x005CDF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[20:39:43.750] |I| [load_self]: Loaded module segment 1 @ [0x004F5000 - 0x004F52F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[20:39:43.751] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[20:39:43.751] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x5b97dc
+[20:39:43.752] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x5b8f10
+[20:39:43.752] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[20:39:43.753] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[20:39:43.756] |I| [load_self]: Loaded module segment 0 @ [0x005CE000 - 0x005DDF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[20:39:43.757] |I| [load_self]: Loaded module segment 1 @ [0x004F6000 - 0x004F6008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[20:39:43.758] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[20:39:43.758] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x5dc710
+[20:39:43.762] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x5dc300
+[20:39:43.762] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[20:39:43.782] |D| [start_module]: Running module_start of library: SceLibc at address 0x4f9805
+[20:39:43.867] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[20:39:43.872] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x54c001
+[20:39:43.893] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[20:39:43.893] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[20:39:43.952] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[20:39:43.985] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[20:39:43.986] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[20:39:44.156] |I| [export_sceIoOpen]: Opening file: app0:/CR1/resources/cr1.psarc
+[20:39:44.185] |I| [export_sceIoOpen]: Opening file: app0:/CR1/resources/cr1.psarc
+[20:39:44.229] |I| [export_sceClibPrintf]: sceFiosInitialize: WARNING: FIOS has already been initialized. Updating parameters with new values.
+
+[20:39:44.242] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/voicebtl.psarc
+[20:39:44.244] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/voicebtl.psarc
+[20:39:44.279] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/voiceevnt.psarc
+[20:39:44.282] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/voiceevnt.psarc
+[20:39:44.512] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/bgm.psarc
+[20:39:44.513] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/bgm.psarc
+[20:39:44.556] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[20:39:44.586] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[20:39:44.586] |W| [stubbed_impl]: Stubbed sceNgsVoiceInit import called. (Default preset not implemented)
+[20:39:44.611] |W| [ngs::ReverbModule::process]: Game is using unimplemented reverb audio module
+[20:39:44.696] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/sndeff.bnk
+[20:39:44.706] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/voicebtl.bnk
+[20:39:44.707] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/voiceevnt.bnk
+[20:39:44.708] |I| [export_sceIoOpen]: Opening file: app0:/CR1/sound/bgm.bnk
+[20:39:44.765] |I| [export_sceIoOpen]: Opening file: app0:/CR1/resources/font/TBGoPro-Bold.otf
+[20:39:44.766] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/CR1/resources/font/TBGoPro-Bold.otf
+
+[20:39:44.767] |W| [unimplemented_impl]: Unimplemented sceIoIoctl import called.
+[20:39:44.798] |I| [export_sceIoOpen]: Opening file: app0:/CR1/resources/font/DFGB_H9.TTC
+[20:39:44.798] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/CR1/resources/font/DFGB_H9.TTC
+
+[20:39:44.804] |I| [export_sceIoOpen]: Opening file: app0:/CR1/resources/font/DFT_C5.ttc
+[20:39:44.804] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/CR1/resources/font/DFT_C5.ttc
+
+[20:39:44.810] |I| [export_sceIoOpen]: Opening file: app0:/CR1/resources/font/DFMINBD.TTF
+[20:39:44.810] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:/CR1/resources/font/DFMINBD.TTF
+
+[20:39:44.837] |C| [logging::exception_handler]: Exception EXCEPTION_ACCESS_VIOLATION (0xc0000005). 
+[20:39:44.838] |C| [logging::exception_handler]: Read violation at address 0x3c8.

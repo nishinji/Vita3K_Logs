@@ -1,0 +1,1382 @@
+[10:01:54.154] |I| [config::init_config]: backend-renderer: Vulkan
+[10:01:54.156] |I| [config::init_config]: log-level: 0
+[10:01:54.156] |I| [config::init_config]: log-uniforms: enabled
+[10:01:54.296] |I| [SDL_main]: Vita3K v0.1.8 3300-5cb4c46c
+[10:01:54.296] |I| [SDL_main]: Number of logical CPU cores: 12
+[10:01:54.297] |I| [SDL_main]: Available ram memory: 6005 MiB
+[10:01:54.467] |I| [renderer::vulkan::VKState::create]: Vulkan device: AMD Radeon(TM) Graphics
+[10:01:54.467] |I| [renderer::vulkan::VKState::create]: Driver version: 2.0.262
+[10:01:54.468] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[10:01:54.490] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: FifoRelaxed
+[10:01:55.061] |W| [compat::load_compat_app_db]: App with Title ID PCSF00269 has an issue but no status label. Please check GitHub issue 2226 and request a status label be added.
+[10:01:55.062] |W| [compat::load_compat_app_db]: App with Title ID PCSG00289 has an issue but no status label. Please check GitHub issue 2218 and request a status label be added.
+[10:01:55.062] |W| [compat::load_compat_app_db]: App with Title ID PCSB00468 has an issue but no status label. Please check GitHub issue 2178 and request a status label be added.
+[10:01:55.063] |W| [compat::load_compat_app_db]: App with Title ID PCSE00307 has an issue but no status label. Please check GitHub issue 2129 and request a status label be added.
+[10:01:55.063] |W| [compat::load_compat_app_db]: App with Title ID PCSA00133 has an issue but no status label. Please check GitHub issue 1649 and request a status label be added.
+[10:01:55.259] |I| [compat::update_compat_app_db]: Applications compatibility database is up to date.
+[10:02:20.558] |I| [load_app_impl]: cpu-backend: Dynarmic
+[10:02:20.559] |I| [load_app_impl]: CPU Optimisation state: true
+[10:02:20.559] |I| [load_app_impl]: ngs state: true
+[10:02:20.559] |I| [load_app_impl]: Resolution multiplier: 2
+[10:02:20.560] |I| [load_app_impl]: 1 Controllers Connected
+[10:02:20.560] |I| [load_app_impl]: Controller 0: Controller (Wireless Gamepad F710)
+[10:02:20.560] |I| [load_app_impl]: modules mode: Automatic
+[10:02:20.561] |I| [load_app_impl]: Title: GAROU: MARK OF THE WOLVES
+[10:02:20.561] |I| [load_app_impl]: Serial: PCSE00958
+[10:02:20.561] |I| [load_app_impl]: Version: 1.00
+[10:02:20.562] |I| [load_app_impl]: Category: gd
+[10:02:20.565] |I| [load_module]: Loading module "app0:eboot.bin"
+[10:02:20.631] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x00198120 / 0x81000000] (size: 0x00193120) of module app0:eboot.bin
+[10:02:20.634] |I| [load_self]: Loaded module segment 1 @ [0x00199000 - 0x0045E4B0 / 0x81197000] (size: 0x002C54B0) of module app0:eboot.bin
+[10:02:20.636] |I| [load_self]: Linking SELF app0:eboot.bin...
+[10:02:20.637] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x11a074
+[10:02:20.638] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x19c05c
+[10:02:20.639] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x186ac4
+[10:02:20.639] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x120058, setting to stub value 0xdeadbeef
+[10:02:20.641] |W| [load_var_imports]: 	NID NOT FOUND 0x14b35a37 (UNRECOGNISED) at 0x120024, setting to stub value 0xdeadbeef
+[10:02:20.642] |W| [load_var_imports]: 	NID NOT FOUND 0xb3867bb4 (UNRECOGNISED) at 0x11fff0, setting to stub value 0xdeadbeef
+[10:02:20.644] |I| [load_module]: Module Garou_Vita (at "app0:eboot.bin") loaded
+[10:02:20.644] |I| [load_app_impl]: Main executable Garou_Vita (eboot.bin) loaded
+[10:02:20.646] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[10:02:20.665] |I| [load_self]: Loaded module segment 0 @ [0x00462000 - 0x004B38A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[10:02:20.667] |I| [load_self]: Loaded module segment 1 @ [0x004B4000 - 0x004B68A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[10:02:20.669] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[10:02:20.670] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x4b45b0
+[10:02:20.671] |D| [load_var_exports]: Found previously not found variable. nid:0x14b35a37, new_entry_point:0x4b608c
+[10:02:20.671] |D| [load_var_exports]: Found previously not found variable. nid:0xb3867bb4, new_entry_point:0x4b6058
+[10:02:20.672] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x4a9314
+[10:02:20.673] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x49e4dc
+[10:02:20.673] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[10:02:20.674] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[10:02:20.694] |I| [load_self]: Loaded module segment 0 @ [0x004B7000 - 0x004E3CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[10:02:20.695] |I| [load_self]: Loaded module segment 1 @ [0x004E4000 - 0x004E9255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[10:02:20.696] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[10:02:20.698] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x4e3bc8
+[10:02:20.699] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x4daf08
+[10:02:20.701] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[10:02:20.702] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[10:02:20.717] |I| [load_self]: Loaded module segment 0 @ [0x004EA000 - 0x0053AF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[10:02:20.719] |I| [load_self]: Loaded module segment 1 @ [0x0045F000 - 0x0045F2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[10:02:20.721] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[10:02:20.721] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x5267dc
+[10:02:20.722] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x525f10
+[10:02:20.722] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[10:02:20.723] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[10:02:20.734] |I| [load_self]: Loaded module segment 0 @ [0x0053B000 - 0x0054AF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[10:02:20.735] |I| [load_self]: Loaded module segment 1 @ [0x00460000 - 0x00460008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[10:02:20.737] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[10:02:20.738] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x549710
+[10:02:20.738] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x549300
+[10:02:20.739] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[10:02:20.757] |D| [start_module]: Running module_start of library: SceLibc at address 0x462871
+[10:02:20.818] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[10:02:20.819] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[10:02:20.819] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[10:02:20.828] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[10:02:20.832] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x4b7001
+[10:02:20.848] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[10:02:20.849] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[10:02:20.853] |I| [load_module]: Loading module "app0:mai_moe/mai.suprx"
+[10:02:20.865] |I| [load_self]: Loaded module segment 0 @ [0x0058C000 - 0x0058EC24 / 0x00008000] (size: 0x00002C24) of module app0:mai_moe/mai.suprx
+[10:02:20.866] |I| [load_self]: Loaded module segment 1 @ [0x0058F000 - 0x0059082C / 0x00020000] (size: 0x0000182C) of module app0:mai_moe/mai.suprx
+[10:02:20.868] |I| [load_self]: Linking SELF app0:mai_moe/mai.suprx...
+[10:02:20.868] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x58e7e4
+[10:02:20.869] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x58e840
+[10:02:20.871] |I| [load_module]: Module output/testprx.elf (at "app0:mai_moe/mai.suprx") loaded
+[10:02:20.872] |D| [start_module]: Running module_start of library: output/testprx.elf at address 0x58db95
+[10:02:20.907] |E| [logging::ret_error_impl]: _sceAppMgrAppParamGetString returned SCE_APPMGR_ERROR_INVALID (0x8080201a)
+[10:02:20.912] |I| [export_sceIoOpen]: Opening file: app0:mai_moe/load_type.mai
+[10:02:20.913] |T| [open_file]: sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSE00958/mai_moe/load_type.mai), fd: 0x3
+[10:02:20.914] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[10:02:20.915] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x4b7001
+[10:02:20.932] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[10:02:20.936] |I| [load_module]: Loading module "app0:sce_module/libfios2_m.suprx"
+[10:02:20.955] |I| [load_self]: Loaded module segment 0 @ [0x00595000 - 0x005C1CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2_m.suprx
+[10:02:20.957] |I| [load_self]: Loaded module segment 1 @ [0x005C2000 - 0x005C7255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2_m.suprx
+[10:02:20.959] |I| [load_self]: Linking SELF app0:sce_module/libfios2_m.suprx...
+[10:02:20.959] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x5c1bc8
+[10:02:20.960] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x5b8f08
+[10:02:20.962] |I| [load_module]: Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") loaded
+[10:02:20.962] |D| [start_module]: Running module_start of library: mceLibFios2 at address 0x595001
+[10:02:20.980] |I| [start_module]: Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[10:02:20.984] |E| [open_dir]: Directory does not exist at: C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/plugins/ (target path: ux0:plugins)
+[10:02:20.986] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
+[10:02:20.987] |W| [io_error_impl]: read_dir (_sceIoDread) returned 0x80010051
+[10:02:20.987] |W| [io_error_impl]: close_dir (sceIoDclose) returned 0x80010018
+[10:02:21.007] |I| [start_module]: Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[10:02:21.013] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x119a84
+[10:02:21.015] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x119934
+[10:02:21.017] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x119c94
+[10:02:21.018] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x119b34
+[10:02:21.019] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x119cd4
+[10:02:21.025] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x119d04
+[10:02:21.030] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x802fddf9 vsprintf at 0x119984
+[10:02:21.035] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9a004680 printf at 0x1199d4
+[10:02:21.037] |T| [write_file]: *** TTY: Front Panel Active X(0-1919) Y(0-1087) Disp X(0-1919) Y(0-1087) F(1-128)
+[10:02:21.038] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x119944
+[10:02:21.038] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x119974
+[10:02:21.039] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x119564
+[10:02:21.062] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[10:02:21.064] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[10:02:21.095] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[10:02:21.116] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[10:02:21.117] |W| [stubbed_impl]: Stubbed sceNgsVoiceInit import called. (Default preset not implemented)
+[10:02:21.119] |T| [write_file]: *** TTY: # Audio out thread started
+[10:02:21.122] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdae8d60f time at 0x119ad4
+[10:02:21.136] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x119b74
+[10:02:21.137] |T| [write_file]: *** TTY: SCREAM Version 7.11.16.0 Built on Nov 19 2015 at 08:14:22
+[10:02:21.138] |T| [write_file]: *** TTY: SndStream Version 7.11.16.0 Built on Nov 19 2015 at 08:14:22
+[10:02:21.176] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[10:02:21.216] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[10:02:21.217] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[10:02:21.279] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x119954
+[10:02:21.280] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x1199a4
+[10:02:21.280] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfffbe239 fopen at 0x119b84
+[10:02:21.282] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xee681e1d sceFiosFHOpenWithModeSync at 0x49e4bc
+[10:02:21.295] |I| [export_sceIoOpen]: Opening file: app0:/data/network/configv.csv
+[10:02:21.303] |T| [open_file]: sceIoOpen: Opening file app0:/data/network/configv.csv (ux0:/app/PCSE00958/data/network/configv.csv), fd: 0x4
+[10:02:21.310] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3a7cde1 fseek at 0x119aa4
+[10:02:21.312] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa75f3c4a sceFiosFHSeek at 0x49e45c
+[10:02:21.314] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x41c2af95 ftell at 0x1198e4
+[10:02:21.315] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb31c73a9 fread at 0x119a34
+[10:02:21.316] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb309e327 sceFiosIsValidHandle at 0x49e47c
+[10:02:21.316] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x76945919 sceFiosFHReadSync at 0x49e43c
+[10:02:21.321] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec97321c fclose at 0x119b24
+[10:02:21.322] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x45182328 sceFiosFHCloseSync at 0x49e41c
+[10:02:21.323] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[10:02:21.326] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x119864
+[10:02:21.327] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7fb2bf4 _Znaj at 0x119cf4
+[10:02:21.329] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x1199b4
+[10:02:21.330] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x119914
+[10:02:21.331] |E| [logging::ret_error_impl]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[10:02:21.331] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SSL
+[10:02:21.332] |I| [load_module]: Loading module "vs0:sys/external/libssl.suprx"
+[10:02:21.351] |I| [load_self]: Loaded module segment 0 @ [0x0F5DE000 - 0x0F644EA4 / 0x81000000] (size: 0x00066EA4) of module vs0:sys/external/libssl.suprx
+[10:02:21.353] |I| [load_self]: Loaded module segment 1 @ [0x0ED9E000 - 0x0EDA3188 / 0x81067000] (size: 0x00005188) of module vs0:sys/external/libssl.suprx
+[10:02:21.355] |I| [load_self]: Linking SELF vs0:sys/external/libssl.suprx...
+[10:02:21.355] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xf6309b0
+[10:02:21.356] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xf62ac70
+[10:02:21.357] |I| [load_module]: Module SceLibSsl (at "vs0:sys/external/libssl.suprx") loaded
+[10:02:21.357] |T| [write_file]: *** TTY: Loaded SSL module
+[10:02:21.360] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_HTTPS
+[10:02:21.360] |I| [load_module]: Loading module "vs0:sys/external/libhttp.suprx"
+[10:02:21.371] |I| [load_self]: vs0:sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[10:02:21.372] |I| [load_self]: Loaded module segment 0 @ [0x0F645000 - 0x0F662150 / 0x81000000] (size: 0x0001D150) of module vs0:sys/external/libhttp.suprx
+[10:02:21.373] |I| [load_self]: Loaded module segment 1 @ [0x0B611000 - 0x0B611640 / 0x8101E000] (size: 0x00000640) of module vs0:sys/external/libhttp.suprx
+[10:02:21.376] |I| [load_self]: Linking SELF vs0:sys/external/libhttp.suprx...
+[10:02:21.377] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xf660e68
+[10:02:21.377] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xf65dca0
+[10:02:21.378] |I| [load_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") loaded
+[10:02:21.379] |D| [start_module]: Running module_start of library: SceLibHttp at address 0xf64e2e5
+[10:02:21.390] |W| [ngs::ReverbModule::process]: Game is using unimplemented reverb audio module
+[10:02:21.396] |I| [start_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") module_start returned 0x0
+[10:02:21.399] |T| [write_file]: *** TTY: Loaded Https module
+[10:02:21.400] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3c733316 sceSslInit at 0x117f74
+[10:02:21.403] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x214926d9 sceHttpInit at 0x117f84
+[10:02:21.406] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[10:02:21.407] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
+[10:02:21.410] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x184c4b07 strcasecmp at 0x119884
+[10:02:21.431] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET
+[10:02:21.435] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[10:02:21.436] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[10:02:21.440] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_BASIC
+[10:02:21.440] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[10:02:21.441] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_JSON
+[10:02:21.442] |I| [load_module]: Loading module "vs0:sys/external/libSceJson.suprx"
+[10:02:21.450] |I| [load_self]: vs0:sys/external/libSceJson.suprx: Skipping special segment 0x6fffff01...
+[10:02:21.451] |I| [load_self]: Loaded module segment 0 @ [0x0EDA4000 - 0x0EDAA230 / 0x81000000] (size: 0x00006230) of module vs0:sys/external/libSceJson.suprx
+[10:02:21.453] |I| [load_self]: Loaded module segment 1 @ [0x0B614000 - 0x0B614049 / 0x81007000] (size: 0x00000049) of module vs0:sys/external/libSceJson.suprx
+[10:02:21.455] |I| [load_self]: Linking SELF vs0:sys/external/libSceJson.suprx...
+[10:02:21.456] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xedaa0a8
+[10:02:21.457] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xeda9020
+[10:02:21.458] |I| [load_module]: Module SceLibJson (at "vs0:sys/external/libSceJson.suprx") loaded
+[10:02:21.460] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterInGameDataMessageHandler import called.
+[10:02:21.462] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x119a24
+[10:02:21.464] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[10:02:21.464] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb9336e16 strchr at 0x119a54
+[10:02:21.465] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x119af4
+[10:02:21.466] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe71c5cde _Stoul at 0x119b04
+[10:02:21.467] |T| [write_file]: *** TTY: network: buttonSwap=0
+[10:02:21.467] |T| [write_file]: *** TTY: network: AGE_default=13
+[10:02:21.468] |T| [write_file]: *** TTY: Age restriction default=13 with 0 overrides for countries:
+[10:02:21.487] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x1199e4
+[10:02:21.488] |T| [write_file]: *** TTY: network: currentVersion=1
+[10:02:21.489] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x119894
+[10:02:21.490] |I| [export_sceIoOpen]: Opening file: app0:/data/network/roomattr.csv
+[10:02:21.496] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[10:02:21.496] |T| [open_file]: sceIoOpen: Opening file app0:/data/network/roomattr.csv (ux0:/app/PCSE00958/data/network/roomattr.csv), fd: 0x5
+[10:02:21.498] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[10:02:21.499] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[10:02:21.499] |T| [log_import_call]: [LLE] TID: 90  FUNC: 0x72293931 _ZdlPv at 0x119cb4
+[10:02:21.502] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[10:02:21.503] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x91b0dc47 _ZdaPv at 0x119cc4
+[10:02:21.505] |T| [write_file]: *** TTY: Matching MATCH_uninitialized -> MATCH_idle
+[10:02:21.507] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[10:02:21.511] |T| [write_file]: *** TTY: Received core callback 0
+[10:02:21.513] |T| [write_file]: *** TTY: Network down
+[10:02:21.516] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR11662_00/TROPHY.TRP (ux0:/app/PCSE00958/sce_sys/trophy/NPWR11662_00/TROPHY.TRP), fd: 0x6
+[10:02:21.520] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/trophy/data/NPWR11662_00/TROPUSR.DAT (target path: ux0:/user/00/trophy/data/NPWR11662_00/TROPUSR.DAT)
+[10:02:21.521] |W| [io_error_impl]: open_file (create_trophy_context) returned 0x80010002
+[10:02:21.522] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR11662_00/TROPCONF.SFM), fd: 0x7
+[10:02:21.523] |T| [write_file]: install_trophy_context: Writing to fd: 0x7, size: 1538
+[10:02:21.524] |T| [close_file]: install_trophy_context: Closing file fd: 0x7
+[10:02:21.525] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR11662_00/TROP.SFM), fd: 0x8
+[10:02:21.526] |T| [write_file]: install_trophy_context: Writing to fd: 0x8, size: 4127
+[10:02:21.527] |T| [close_file]: install_trophy_context: Closing file fd: 0x8
+[10:02:21.528] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP_00.SFM (ux0:/user/00/trophy/conf/NPWR11662_00/TROP_00.SFM), fd: 0x9
+[10:02:21.529] |T| [write_file]: install_trophy_context: Writing to fd: 0x9, size: 4329
+[10:02:21.530] |T| [close_file]: install_trophy_context: Closing file fd: 0x9
+[10:02:21.532] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/ICON0.PNG), fd: 0xa
+[10:02:21.533] |T| [write_file]: install_trophy_context: Writing to fd: 0xa, size: 79106
+[10:02:21.534] |T| [close_file]: install_trophy_context: Closing file fd: 0xa
+[10:02:21.538] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP000.PNG), fd: 0xb
+[10:02:21.540] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 27722
+[10:02:21.540] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[10:02:21.542] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP001.PNG), fd: 0xc
+[10:02:21.544] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 44530
+[10:02:21.545] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[10:02:21.546] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP002.PNG), fd: 0xd
+[10:02:21.548] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 33479
+[10:02:21.548] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[10:02:21.550] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP003.PNG), fd: 0xe
+[10:02:21.553] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 43782
+[10:02:21.554] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[10:02:21.555] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP004.PNG), fd: 0xf
+[10:02:21.557] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 37150
+[10:02:21.557] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[10:02:21.559] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP005.PNG), fd: 0x10
+[10:02:21.560] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 36328
+[10:02:21.561] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[10:02:21.562] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP006.PNG), fd: 0x11
+[10:02:21.564] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 36854
+[10:02:21.564] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[10:02:21.566] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP007.PNG), fd: 0x12
+[10:02:21.569] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 32016
+[10:02:21.570] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[10:02:21.572] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP008.PNG), fd: 0x13
+[10:02:21.573] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 38540
+[10:02:21.573] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[10:02:21.575] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP009.PNG), fd: 0x14
+[10:02:21.576] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 36049
+[10:02:21.577] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[10:02:21.578] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP010.PNG), fd: 0x15
+[10:02:21.580] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 29341
+[10:02:21.580] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[10:02:21.582] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP011.PNG), fd: 0x16
+[10:02:21.585] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 31495
+[10:02:21.586] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[10:02:21.588] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP012.PNG), fd: 0x17
+[10:02:21.589] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 28052
+[10:02:21.589] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[10:02:21.591] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP013.PNG), fd: 0x18
+[10:02:21.593] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 38641
+[10:02:21.593] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[10:02:21.595] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP014.PNG), fd: 0x19
+[10:02:21.596] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 78604
+[10:02:21.596] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[10:02:21.601] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP015.PNG), fd: 0x1a
+[10:02:21.602] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 57093
+[10:02:21.603] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[10:02:21.604] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP016.PNG), fd: 0x1b
+[10:02:21.606] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 33154
+[10:02:21.606] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[10:02:21.608] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP017.PNG), fd: 0x1c
+[10:02:21.609] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 35689
+[10:02:21.609] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[10:02:21.611] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR11662_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR11662_00/TROP018.PNG), fd: 0x1d
+[10:02:21.615] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 79401
+[10:02:21.615] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[10:02:21.617] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR11662_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR11662_00/TROPUSR.DAT), fd: 0x1e
+[10:02:21.618] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1e, size: 4
+[10:02:21.619] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1e, size: 16
+[10:02:21.620] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1e, size: 16
+[10:02:21.621] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1e, size: 4
+[10:02:21.621] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1e, size: 4
+[10:02:21.622] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1e, size: 4
+[10:02:21.623] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1e, size: 64
+[10:02:21.623] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1e, size: 1024
+[10:02:21.624] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1e, size: 512
+[10:02:21.624] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x1e
+[10:02:21.625] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR11662_00 create successfuly!
+[10:02:21.626] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[10:02:21.628] |T| [write_file]: *** TTY: RegisterTrophyPackage called
+[10:02:21.630] |T| [write_file]: *** TTY: network: rankLabel=0
+[10:02:21.631] |T| [write_file]: *** TTY: network: boardLineCount=10
+[10:02:21.632] |T| [write_file]: *** TTY: network: writeLineCount=5
+[10:02:21.633] |T| [write_file]: *** TTY: network: friendCache=true
+[10:02:21.634] |T| [write_file]: *** TTY: network: rangeLinecount=10
+[10:02:21.635] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_SCORE_RANKING
+[10:02:21.637] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
+[10:02:21.638] |W| [unimplemented_impl]: Unimplemented sceNpScoreCreateTitleCtx import called.
+[10:02:21.642] |T| [write_file]: *** TTY: Cache registered for all users.
+[10:02:21.643] |T| [write_file]: *** TTY: trophySetSetupSuccess event received
+[10:02:21.669] |T| [write_file]: *** TTY: trophyCacheReady
+[10:02:21.679] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET_ADHOC_MATCHING
+[10:02:21.680] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TUS
+[10:02:21.681] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
+[10:02:21.682] |T| [write_file]: *** TTY: network: saveGateForceLogin=true
+[10:02:21.683] |I| [export_sceIoOpen]: Opening file: app0:/data/network/vita-fonts.csv
+[10:02:21.690] |T| [open_file]: sceIoOpen: Opening file app0:/data/network/vita-fonts.csv (ux0:/app/PCSE00958/data/network/vita-fonts.csv), fd: 0x1f
+[10:02:21.694] |T| [close_file]: sceIoClose: Closing file fd: 0x1f
+[10:02:21.695] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72e58672 scePvfNewLib at 0x119434
+[10:02:21.701] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdfb677c5 scePvfSetEM at 0x1194b4
+[10:02:21.702] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc4444fb3 scePvfSetResolution at 0x119494
+[10:02:21.704] |I| [export_sceIoOpen]: Opening file: app0:/data/strings.txt
+[10:02:21.716] |T| [open_file]: sceIoOpen: Opening file app0:/data/strings.txt (ux0:/app/PCSE00958/data/strings.txt), fd: 0x20
+[10:02:21.719] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[10:02:21.721] |I| [export_sceIoOpen]: Opening file: app0:/data/credits.txt
+[10:02:21.733] |T| [open_file]: sceIoOpen: Opening file app0:/data/credits.txt (ux0:/app/PCSE00958/data/credits.txt), fd: 0x21
+[10:02:21.735] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[10:02:21.736] |I| [export_sceIoOpen]: Opening file: app0:/data/strings.txt
+[10:02:21.737] |T| [open_file]: sceIoOpen: Opening file app0:/data/strings.txt (ux0:/app/PCSE00958/data/strings.txt), fd: 0x22
+[10:02:21.738] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[10:02:21.749] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1434fa46 strcat at 0x119874
+[10:02:21.754] |I| [export_sceIoOpen]: Opening file: app0:/data/movelist/movelist_en.txt
+[10:02:21.765] |T| [open_file]: sceIoOpen: Opening file app0:/data/movelist/movelist_en.txt (ux0:/app/PCSE00958/data/movelist/movelist_en.txt), fd: 0x23
+[10:02:21.767] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[10:02:21.769] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/logos/snk.png
+[10:02:21.776] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/logos/snk.png (ux0:/app/PCSE00958/data/vita/logos/snk.png), fd: 0x24
+[10:02:21.778] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[10:02:21.809] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/logos/code_mystics.png
+[10:02:21.818] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/logos/code_mystics.png (ux0:/app/PCSE00958/data/vita/logos/code_mystics.png), fd: 0x25
+[10:02:21.821] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[10:02:21.867] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/logos/neogeo25.png
+[10:02:21.874] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/logos/neogeo25.png (ux0:/app/PCSE00958/data/vita/logos/neogeo25.png), fd: 0x26
+[10:02:21.877] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[10:02:21.926] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[10:02:21.937] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[10:02:21.939] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fd1643fae7c2731b9e33e8b1ac4b6b57936cb95aa77f6a0dfbc2e19ef0ce4efc
+[10:02:21.940] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader fd1643fae7c2731b9e33e8b1ac4b6b57936cb95aa77f6a0dfbc2e19ef0ce4efc
+[10:02:21.943] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[10:02:21.943] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) uvPosition
+[10:02:21.944] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aOffset
+[10:02:21.944] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aScale
+[10:02:21.945] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/vitafonts.csv
+[10:02:21.947] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) aRotate
+[10:02:21.948] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) aColor
+[10:02:21.949] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) view[4]
+[10:02:21.950] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) world[4]
+[10:02:21.950] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 13
+[10:02:21.955] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/vitafonts.csv (ux0:/app/PCSE00958/data/fonts/vitafonts.csv), fd: 0x27
+[10:02:21.960] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 54
+[10:02:21.975] |T| [close_file]: sceIoClose: Closing file fd: 0x27
+[10:02:21.984] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/list_font.csv
+[10:02:21.989] |T| [log_import_call]: [LLE] TID: 120 FUNC: 0xa1bff606 snprintf at 0x1199f4
+[10:02:21.994] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/list_font.csv (ux0:/app/PCSE00958/data/fonts/list_font.csv), fd: 0x28
+[10:02:21.995] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE00958/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[10:02:21.998] |T| [close_file]: sceIoClose: Closing file fd: 0x28
+[10:02:22.000] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[10:02:22.003] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xec585241 sscanf at 0x119b14
+[10:02:22.004] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[10:02:22.012] |I| [export_sceIoOpen]: Opening file: savedata0:focal/options.bin
+[10:02:22.013] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/list_font.png
+[10:02:22.015] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE00958/focal/options.bin (target path: savedata0:focal/options.bin)
+[10:02:22.020] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[10:02:22.023] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/list_font.png (ux0:/app/PCSE00958/data/fonts/list_font.png), fd: 0x29
+[10:02:22.025] |T| [write_file]: *** TTY: ERROR: sceIoOpen(savedata0:focal/options.bin) = 80010002
+[10:02:22.029] |T| [close_file]: sceIoClose: Closing file fd: 0x29
+[10:02:22.034] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 4776cb8ef43b83a46957fa28f34814b0eb81ce87a9944d3c80287a5874d922c4
+[10:02:22.036] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 4776cb8ef43b83a46957fa28f34814b0eb81ce87a9944d3c80287a5874d922c4
+[10:02:22.039] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[10:02:22.039] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(testTex, TEXCOORD0.xy)
+[10:02:22.042] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:02:22.052] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xf6c4a855 scePvfGetNumFontList at 0x119504
+[10:02:22.053] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xf3e1e8bd scePvfGetFontInfoByIndexNumber at 0x1194f4
+[10:02:22.057] |T| [write_file]: *** TTY: FONT 0 name='jpn0.pvf'
+[10:02:22.059] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xbf94193b _Stod at 0x119a74
+[10:02:22.067] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xe35434bb scePvfOpen at 0x1194d4
+[10:02:22.069] |I| [export_sceIoOpen]: Opening file: sa0:data/font/pvf/jpn0.pvf
+[10:02:22.069] |T| [open_file]: sceIoOpen: Opening file sa0:data/font/pvf/jpn0.pvf (sa0:/data/font/pvf/jpn0.pvf), fd: 0x2a
+[10:02:22.071] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: sa0:data/font/pvf/jpn0.pvf
+
+[10:02:22.073] |W| [unimplemented_impl]: Unimplemented sceIoIoctl import called.
+[10:02:22.076] |T| [close_file]: sceIoClose: Closing file fd: 0x2a
+[10:02:22.100] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0x6b54ba realloc at 0x119854
+[10:02:22.118] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xf17ade4d scePvfSetCharSize at 0x1194e4
+[10:02:22.119] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0x6e787722 scePvfSetEmboldenRate at 0x119424
+[10:02:22.120] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0x9f018f25 scePvfIsElement at 0x119444
+[10:02:22.121] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xab0c7cf2 scePvfGetFontInfo at 0x119474
+[10:02:22.125] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xbc90f661 scePvfGetKerningInfo at 0x119484
+[10:02:22.151] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xa88eedb0 scePvfGetCharInfo at 0x119464
+[10:02:22.166] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0x6c1b9caf scePvfGetCharImageRect at 0x119414
+[10:02:22.175] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xa55f973f scePvfGetCharGlyphImage_Clip at 0x119454
+[10:02:22.251] |T| [write_file]: *** TTY: Unicode character 0x02c7 unsupported by ArialMT
+[10:02:22.253] |T| [write_file]: *** TTY: Unicode character 0x02c9 unsupported by ArialMT
+[10:02:22.255] |T| [write_file]: *** TTY: Unicode character 0x201f unsupported by ArialMT
+[10:02:22.258] |T| [write_file]: *** TTY: Unicode character 0x2047 unsupported by ArialMT
+[10:02:22.259] |T| [write_file]: *** TTY: Unicode character 0x2048 unsupported by ArialMT
+[10:02:22.262] |T| [write_file]: *** TTY: Unicode character 0x21b3 unsupported by ArialMT
+[10:02:22.264] |T| [write_file]: *** TTY: Unicode character 0x2236 unsupported by ArialMT
+[10:02:22.271] |T| [write_file]: *** TTY: Unicode character 0x3018 unsupported by ArialMT
+[10:02:22.272] |T| [write_file]: *** TTY: Unicode character 0x3019 unsupported by ArialMT
+[10:02:22.273] |T| [write_file]: *** TTY: Unicode character 0x301e unsupported by ArialMT
+[10:02:22.275] |T| [write_file]: *** TTY: Unicode character 0x303b unsupported by ArialMT
+[10:02:22.309] |T| [write_file]: *** TTY: Unicode character 0x3095 unsupported by ArialMT
+[10:02:22.310] |T| [write_file]: *** TTY: Unicode character 0x3096 unsupported by ArialMT
+[10:02:22.311] |T| [write_file]: *** TTY: Unicode character 0x30a0 unsupported by ArialMT
+[10:02:22.338] |T| [write_file]: *** TTY: Unicode character 0x31f0 unsupported by ArialMT
+[10:02:22.339] |T| [write_file]: *** TTY: Unicode character 0x31f1 unsupported by ArialMT
+[10:02:22.340] |T| [write_file]: *** TTY: Unicode character 0x31f2 unsupported by ArialMT
+[10:02:22.342] |T| [write_file]: *** TTY: Unicode character 0x31f3 unsupported by ArialMT
+[10:02:22.343] |T| [write_file]: *** TTY: Unicode character 0x31f4 unsupported by ArialMT
+[10:02:22.345] |T| [write_file]: *** TTY: Unicode character 0x31f5 unsupported by ArialMT
+[10:02:22.346] |T| [write_file]: *** TTY: Unicode character 0x31f6 unsupported by ArialMT
+[10:02:22.346] |T| [write_file]: *** TTY: Unicode character 0x31f7 unsupported by ArialMT
+[10:02:22.347] |T| [write_file]: *** TTY: Unicode character 0x31f8 unsupported by ArialMT
+[10:02:22.348] |T| [write_file]: *** TTY: Unicode character 0x31f9 unsupported by ArialMT
+[10:02:22.350] |T| [write_file]: *** TTY: Unicode character 0x31fa unsupported by ArialMT
+[10:02:22.351] |T| [write_file]: *** TTY: Unicode character 0x31fb unsupported by ArialMT
+[10:02:22.352] |T| [write_file]: *** TTY: Unicode character 0x31fc unsupported by ArialMT
+[10:02:22.353] |T| [write_file]: *** TTY: Unicode character 0x31fd unsupported by ArialMT
+[10:02:22.353] |T| [write_file]: *** TTY: Unicode character 0x31fe unsupported by ArialMT
+[10:02:22.354] |T| [write_file]: *** TTY: Unicode character 0x31ff unsupported by ArialMT
+[10:02:22.488] |T| [write_file]: *** TTY: Unicode character 0xfe58 unsupported by ArialMT
+[10:02:22.489] |T| [write_file]: *** TTY: Unicode character 0xfe5a unsupported by ArialMT
+[10:02:22.491] |T| [write_file]: *** TTY: Unicode character 0xfe5c unsupported by ArialMT
+[10:02:22.497] |T| [write_file]: *** TTY: Unicode character 0xff5f unsupported by ArialMT
+[10:02:22.498] |T| [write_file]: *** TTY: Unicode character 0xff60 unsupported by ArialMT
+[10:02:22.502] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xd282c23c scePvfClose at 0x1194a4
+[10:02:22.509] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/list_font_vita.csv
+[10:02:22.518] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/list_font_vita.csv (ux0:/app/PCSE00958/data/fonts/list_font_vita.csv), fd: 0x2b
+[10:02:22.520] |T| [close_file]: sceIoClose: Closing file fd: 0x2b
+[10:02:22.521] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/list_font_vita.png
+[10:02:22.529] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/list_font_vita.png (ux0:/app/PCSE00958/data/fonts/list_font_vita.png), fd: 0x2c
+[10:02:22.533] |T| [close_file]: sceIoClose: Closing file fd: 0x2c
+[10:02:22.538] |T| [write_file]: *** TTY: FONT 0 name='jpn0.pvf'
+[10:02:22.539] |I| [export_sceIoOpen]: Opening file: sa0:data/font/pvf/jpn0.pvf
+[10:02:22.539] |T| [open_file]: sceIoOpen: Opening file sa0:data/font/pvf/jpn0.pvf (sa0:/data/font/pvf/jpn0.pvf), fd: 0x2d
+[10:02:22.540] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: sa0:data/font/pvf/jpn0.pvf
+
+[10:02:22.542] |T| [close_file]: sceIoClose: Closing file fd: 0x2d
+[10:02:22.591] |T| [write_file]: *** TTY: Unicode character 0x02c7 unsupported by Arial-Black
+[10:02:22.593] |T| [write_file]: *** TTY: Unicode character 0x02c9 unsupported by Arial-Black
+[10:02:22.596] |T| [write_file]: *** TTY: Unicode character 0x201f unsupported by Arial-Black
+[10:02:22.599] |T| [write_file]: *** TTY: Unicode character 0x2047 unsupported by Arial-Black
+[10:02:22.599] |T| [write_file]: *** TTY: Unicode character 0x2048 unsupported by Arial-Black
+[10:02:22.602] |T| [write_file]: *** TTY: Unicode character 0x21b3 unsupported by Arial-Black
+[10:02:22.603] |T| [write_file]: *** TTY: Unicode character 0x2236 unsupported by Arial-Black
+[10:02:22.610] |T| [write_file]: *** TTY: Unicode character 0x3018 unsupported by Arial-Black
+[10:02:22.611] |T| [write_file]: *** TTY: Unicode character 0x3019 unsupported by Arial-Black
+[10:02:22.612] |T| [write_file]: *** TTY: Unicode character 0x301e unsupported by Arial-Black
+[10:02:22.614] |T| [write_file]: *** TTY: Unicode character 0x303b unsupported by Arial-Black
+[10:02:22.649] |T| [write_file]: *** TTY: Unicode character 0x3095 unsupported by Arial-Black
+[10:02:22.650] |T| [write_file]: *** TTY: Unicode character 0x3096 unsupported by Arial-Black
+[10:02:22.651] |T| [write_file]: *** TTY: Unicode character 0x30a0 unsupported by Arial-Black
+[10:02:22.677] |T| [write_file]: *** TTY: Unicode character 0x31f0 unsupported by Arial-Black
+[10:02:22.678] |T| [write_file]: *** TTY: Unicode character 0x31f1 unsupported by Arial-Black
+[10:02:22.679] |T| [write_file]: *** TTY: Unicode character 0x31f2 unsupported by Arial-Black
+[10:02:22.680] |T| [write_file]: *** TTY: Unicode character 0x31f3 unsupported by Arial-Black
+[10:02:22.681] |T| [write_file]: *** TTY: Unicode character 0x31f4 unsupported by Arial-Black
+[10:02:22.683] |T| [write_file]: *** TTY: Unicode character 0x31f5 unsupported by Arial-Black
+[10:02:22.684] |T| [write_file]: *** TTY: Unicode character 0x31f6 unsupported by Arial-Black
+[10:02:22.684] |T| [write_file]: *** TTY: Unicode character 0x31f7 unsupported by Arial-Black
+[10:02:22.685] |T| [write_file]: *** TTY: Unicode character 0x31f8 unsupported by Arial-Black
+[10:02:22.685] |T| [write_file]: *** TTY: Unicode character 0x31f9 unsupported by Arial-Black
+[10:02:22.686] |T| [write_file]: *** TTY: Unicode character 0x31fa unsupported by Arial-Black
+[10:02:22.689] |T| [write_file]: *** TTY: Unicode character 0x31fb unsupported by Arial-Black
+[10:02:22.689] |T| [write_file]: *** TTY: Unicode character 0x31fc unsupported by Arial-Black
+[10:02:22.690] |T| [write_file]: *** TTY: Unicode character 0x31fd unsupported by Arial-Black
+[10:02:22.691] |T| [write_file]: *** TTY: Unicode character 0x31fe unsupported by Arial-Black
+[10:02:22.692] |T| [write_file]: *** TTY: Unicode character 0x31ff unsupported by Arial-Black
+[10:02:22.826] |T| [write_file]: *** TTY: Unicode character 0xfe58 unsupported by Arial-Black
+[10:02:22.827] |T| [write_file]: *** TTY: Unicode character 0xfe5a unsupported by Arial-Black
+[10:02:22.828] |T| [write_file]: *** TTY: Unicode character 0xfe5c unsupported by Arial-Black
+[10:02:22.834] |T| [write_file]: *** TTY: Unicode character 0xff5f unsupported by Arial-Black
+[10:02:22.835] |T| [write_file]: *** TTY: Unicode character 0xff60 unsupported by Arial-Black
+[10:02:22.837] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/list_font.csv
+[10:02:22.838] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/list_font.csv (ux0:/app/PCSE00958/data/fonts/list_font.csv), fd: 0x2e
+[10:02:22.840] |T| [close_file]: sceIoClose: Closing file fd: 0x2e
+[10:02:22.841] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/list_font.png
+[10:02:22.841] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/list_font.png (ux0:/app/PCSE00958/data/fonts/list_font.png), fd: 0x2f
+[10:02:22.844] |T| [close_file]: sceIoClose: Closing file fd: 0x2f
+[10:02:22.850] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/menu_bg.csv
+[10:02:22.857] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/menu_bg.csv (ux0:/app/PCSE00958/data/vita/ui/menu_bg.csv), fd: 0x30
+[10:02:22.860] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[10:02:22.865] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/menu_bg/border4.png
+[10:02:22.872] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/menu_bg/border4.png (ux0:/app/PCSE00958/data/vita/ui/menu_bg/border4.png), fd: 0x31
+[10:02:22.874] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[10:02:22.877] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/menu_bg/border3.png
+[10:02:22.885] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/menu_bg/border3.png (ux0:/app/PCSE00958/data/vita/ui/menu_bg/border3.png), fd: 0x32
+[10:02:22.887] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[10:02:22.888] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/menu_bg/border2.png
+[10:02:22.895] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/menu_bg/border2.png (ux0:/app/PCSE00958/data/vita/ui/menu_bg/border2.png), fd: 0x33
+[10:02:22.899] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[10:02:22.901] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/menu_bg/border1.png
+[10:02:22.907] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/menu_bg/border1.png (ux0:/app/PCSE00958/data/vita/ui/menu_bg/border1.png), fd: 0x34
+[10:02:22.910] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[10:02:22.913] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/menu_bg/background.png
+[10:02:22.920] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/menu_bg/background.png (ux0:/app/PCSE00958/data/vita/ui/menu_bg/background.png), fd: 0x35
+[10:02:22.924] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[10:02:23.044] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup.csv
+[10:02:23.053] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup.csv (ux0:/app/PCSE00958/data/vita/ui/popup.csv), fd: 0x36
+[10:02:23.055] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[10:02:23.056] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup/underline.png
+[10:02:23.063] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup/underline.png (ux0:/app/PCSE00958/data/vita/ui/popup/underline.png), fd: 0x37
+[10:02:23.066] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[10:02:23.076] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xaf1ca2f1 strncasecmp at 0x119a14
+[10:02:23.078] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup/choice0,bh.png
+[10:02:23.086] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup/choice0,bh.png (ux0:/app/PCSE00958/data/vita/ui/popup/choice0,bh.png), fd: 0x38
+[10:02:23.088] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[10:02:23.091] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup/choice0,bn.png
+[10:02:23.097] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup/choice0,bn.png (ux0:/app/PCSE00958/data/vita/ui/popup/choice0,bn.png), fd: 0x39
+[10:02:23.101] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[10:02:23.103] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup/bar.png
+[10:02:23.110] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup/bar.png (ux0:/app/PCSE00958/data/vita/ui/popup/bar.png), fd: 0x3a
+[10:02:23.112] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[10:02:23.117] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup/back.png
+[10:02:23.124] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup/back.png (ux0:/app/PCSE00958/data/vita/ui/popup/back.png), fd: 0x3b
+[10:02:23.127] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[10:02:23.164] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popupwait.csv
+[10:02:23.171] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popupwait.csv (ux0:/app/PCSE00958/data/vita/ui/popupwait.csv), fd: 0x3c
+[10:02:23.173] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[10:02:23.174] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popupwait/back.png
+[10:02:23.182] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popupwait/back.png (ux0:/app/PCSE00958/data/vita/ui/popupwait/back.png), fd: 0x3d
+[10:02:23.184] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[10:02:23.187] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/wait_anim.png
+[10:02:23.195] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/wait_anim.png (ux0:/app/PCSE00958/data/vita/ui/wait_anim.png), fd: 0x3e
+[10:02:23.198] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[10:02:23.228] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_sound/se_cursor.wav
+[10:02:23.236] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_sound/se_cursor.wav (ux0:/app/PCSE00958/data/ui_sound/se_cursor.wav), fd: 0x3f
+[10:02:23.239] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[10:02:23.258] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_sound/se_cursor.wav
+[10:02:23.259] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_sound/se_cursor.wav (ux0:/app/PCSE00958/data/ui_sound/se_cursor.wav), fd: 0x40
+[10:02:23.261] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[10:02:23.262] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_sound/se_cancel.wav
+[10:02:23.269] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_sound/se_cancel.wav (ux0:/app/PCSE00958/data/ui_sound/se_cancel.wav), fd: 0x41
+[10:02:23.271] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[10:02:23.272] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_sound/se_decide.wav
+[10:02:23.281] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_sound/se_decide.wav (ux0:/app/PCSE00958/data/ui_sound/se_decide.wav), fd: 0x42
+[10:02:23.284] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[10:02:23.287] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4j.bin
+[10:02:23.295] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4j.bin (ux0:/app/PCSE00958/data/rom/sp_4j.bin), fd: 0x43
+[10:02:23.298] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[10:02:23.299] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4s.bin
+[10:02:23.306] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4s.bin (ux0:/app/PCSE00958/data/rom/sp_4s.bin), fd: 0x44
+[10:02:23.310] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[10:02:23.311] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/c1.bin
+[10:02:23.321] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/c1.bin (ux0:/app/PCSE00958/data/rom/c1.bin), fd: 0x45
+[10:02:23.481] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[10:02:23.482] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/p1.bin
+[10:02:23.497] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/p1.bin (ux0:/app/PCSE00958/data/rom/p1.bin), fd: 0x46
+[10:02:23.516] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[10:02:23.517] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/s1.bin
+[10:02:23.523] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/s1.bin (ux0:/app/PCSE00958/data/rom/s1.bin), fd: 0x47
+[10:02:23.527] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[10:02:23.528] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/v1.bin
+[10:02:23.538] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/v1.bin (ux0:/app/PCSE00958/data/rom/v1.bin), fd: 0x48
+[10:02:23.575] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[10:02:23.576] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/m1.bin
+[10:02:23.585] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/m1.bin (ux0:/app/PCSE00958/data/rom/m1.bin), fd: 0x49
+[10:02:23.589] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[10:02:23.590] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/s2.bin
+[10:02:23.598] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/s2.bin (ux0:/app/PCSE00958/data/rom/s2.bin), fd: 0x4a
+[10:02:23.601] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[10:02:23.606] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0xa7cbe4a6 qsort at 0x119a04
+[10:02:23.615] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0x640db443 pow at 0x119be4
+[10:02:23.618] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0x22bb8237 floor at 0x119bb4
+[10:02:23.620] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0x67e99979 _Log at 0x119bf4
+[10:02:23.621] |T| [log_import_call]: [LLE] TID: 136 FUNC: 0x603caa93 _Sinx at 0x119bd4
+[10:02:24.645] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[10:02:31.247] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc0883865 rand at 0x119a94
+[10:02:31.250] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/menu_bg.csv
+[10:02:31.250] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/menu_bg.csv (ux0:/app/PCSE00958/data/vita/ui/menu_bg.csv), fd: 0x4b
+[10:02:31.253] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[10:02:31.257] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/menu_fg.csv
+[10:02:31.267] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/menu_fg.csv (ux0:/app/PCSE00958/data/vita/ui/menu_fg.csv), fd: 0x4c
+[10:02:31.269] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[10:02:31.272] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage.csv
+[10:02:31.280] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage.csv (ux0:/app/PCSE00958/data/vita/ui/damage.csv), fd: 0x4d
+[10:02:31.284] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[10:02:31.290] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/joined.csv
+[10:02:31.297] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/joined.csv (ux0:/app/PCSE00958/data/vita/ui/joined.csv), fd: 0x4e
+[10:02:31.300] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[10:02:31.354] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/joined/back.png
+[10:02:31.360] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/joined/back.png (ux0:/app/PCSE00958/data/vita/ui/joined/back.png), fd: 0x4f
+[10:02:31.378] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[10:02:31.435] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage_line_range.png
+[10:02:31.442] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage_line_range.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage_line_range.png), fd: 0x50
+[10:02:31.460] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[10:02:31.517] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage_line.png
+[10:02:31.524] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage_line.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage_line.png), fd: 0x51
+[10:02:31.543] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[10:02:31.557] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE00958/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[10:02:31.559] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[10:02:31.560] |I| [export_sceIoOpen]: Opening file: savedata0:focal/control1.bin
+[10:02:31.561] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE00958/focal/control1.bin (target path: savedata0:focal/control1.bin)
+[10:02:31.562] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[10:02:31.563] |T| [write_file]: *** TTY: ERROR: sceIoOpen(savedata0:focal/control1.bin) = 80010002
+[10:02:31.600] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage6.png
+[10:02:31.607] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage6.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage6.png), fd: 0x52
+[10:02:31.625] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[10:02:31.682] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage5.png
+[10:02:31.690] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage5.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage5.png), fd: 0x53
+[10:02:31.710] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[10:02:31.767] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage4.png
+[10:02:31.774] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage4.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage4.png), fd: 0x54
+[10:02:31.793] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[10:02:31.814] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE00958/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[10:02:31.816] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[10:02:31.817] |I| [export_sceIoOpen]: Opening file: savedata0:focal/control2.bin
+[10:02:31.818] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE00958/focal/control2.bin (target path: savedata0:focal/control2.bin)
+[10:02:31.823] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[10:02:31.824] |T| [write_file]: *** TTY: ERROR: sceIoOpen(savedata0:focal/control2.bin) = 80010002
+[10:02:31.852] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage15.png
+[10:02:31.859] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage15.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage15.png), fd: 0x55
+[10:02:31.878] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[10:02:31.934] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage3.png
+[10:02:31.941] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage3.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage3.png), fd: 0x56
+[10:02:31.959] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[10:02:32.017] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage14.png
+[10:02:32.023] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage14.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage14.png), fd: 0x57
+[10:02:32.042] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[10:02:32.076] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE00958/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[10:02:32.079] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[10:02:32.080] |I| [export_sceIoOpen]: Opening file: savedata0:focal/stats.bin
+[10:02:32.082] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE00958/focal/stats.bin (target path: savedata0:focal/stats.bin)
+[10:02:32.089] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[10:02:32.090] |T| [write_file]: *** TTY: ERROR: sceIoOpen(savedata0:focal/stats.bin) = 80010002
+[10:02:32.100] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage13.png
+[10:02:32.109] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage13.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage13.png), fd: 0x58
+[10:02:32.128] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[10:02:32.184] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage12.png
+[10:02:32.191] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage12.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage12.png), fd: 0x59
+[10:02:32.210] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[10:02:32.266] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage11.png
+[10:02:32.273] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage11.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage11.png), fd: 0x5a
+[10:02:32.292] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[10:02:32.351] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage10.png
+[10:02:32.357] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage10.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage10.png), fd: 0x5b
+[10:02:32.376] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[10:02:32.432] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage9.png
+[10:02:32.440] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage9.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage9.png), fd: 0x5c
+[10:02:32.459] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[10:02:32.518] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage2.png
+[10:02:32.524] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage2.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage2.png), fd: 0x5d
+[10:02:32.542] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[10:02:32.599] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage8.png
+[10:02:32.606] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage8.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage8.png), fd: 0x5e
+[10:02:32.613] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/borders/large_001.dat
+[10:02:32.621] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/borders/large_001.dat (ux0:/app/PCSE00958/data/vita/borders/large_001.dat), fd: 0x5f
+[10:02:32.634] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[10:02:32.638] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[10:02:32.694] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage7.png
+[10:02:32.703] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage7.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage7.png), fd: 0x60
+[10:02:32.722] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[10:02:32.783] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/damage/damage1.png
+[10:02:32.790] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/damage/damage1.png (ux0:/app/PCSE00958/data/vita/ui/damage/damage1.png), fd: 0x61
+[10:02:32.808] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[10:02:32.998] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4j.bin
+[10:02:32.999] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4j.bin (ux0:/app/PCSE00958/data/rom/sp_4j.bin), fd: 0x62
+[10:02:33.002] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[10:02:33.002] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4s.bin
+[10:02:33.003] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4s.bin (ux0:/app/PCSE00958/data/rom/sp_4s.bin), fd: 0x63
+[10:02:33.005] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[10:02:33.036] |I| [export_sceIoOpen]: Opening file: app0:/data/boot.bin
+[10:02:33.047] |T| [open_file]: sceIoOpen: Opening file app0:/data/boot.bin (ux0:/app/PCSE00958/data/boot.bin), fd: 0x64
+[10:02:33.052] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[10:02:33.058] |T| [write_file]: *** TTY: Save block 1 at offset 0x00000090
+[10:02:33.059] |T| [write_file]: *** TTY: Save block 2 at offset 0x00040944
+[10:02:33.060] |T| [write_file]: *** TTY: Save block 3 at offset 0x000409c8
+[10:02:33.062] |T| [write_file]: *** TTY: Save block 4 at offset 0x0004ca24
+[10:02:33.062] |T| [write_file]: *** TTY: Save block 5 at offset 0x0004ca64
+[10:02:33.063] |T| [write_file]: *** TTY: Save block 6 at offset 0x0006ce44
+[10:02:33.070] |T| [write_file]: *** TTY: Native block 1 at offset 0x00000090
+[10:02:33.071] |T| [write_file]: *** TTY: Native block 2 at offset 0x00040944
+[10:02:33.072] |T| [write_file]: *** TTY: Native block 3 at offset 0x000409c8
+[10:02:33.073] |T| [write_file]: *** TTY: Native block 4 at offset 0x0004ca24
+[10:02:33.073] |T| [write_file]: *** TTY: Native block 5 at offset 0x0004ca64
+[10:02:33.074] |T| [write_file]: *** TTY: Native block 6 at offset 0x0006ce44
+[10:02:33.074] |T| [write_file]: *** TTY: EGNG_GetStateSize is 0x0006ce40
+[10:02:33.118] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x50b326ce setjmp at 0x1198f4
+[10:02:33.135] |W| [unimplemented_impl]: Unimplemented sceCommonDialogIsRunning import called.
+[10:02:48.650] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/standardmenu.csv
+[10:02:48.660] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/standardmenu.csv (ux0:/app/PCSE00958/data/vita/ui/standardmenu.csv), fd: 0x65
+[10:02:48.662] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[10:02:48.665] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:02:48.673] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0x66
+[10:02:48.675] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[10:02:48.686] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4e09dd53 atan2f at 0x119bc4
+[10:02:48.709] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_sound/02_sunrise_on_the_train.ogg
+[10:02:48.716] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_sound/02_sunrise_on_the_train.ogg (ux0:/app/PCSE00958/data/ui_sound/02_sunrise_on_the_train.ogg), fd: 0x67
+[10:02:48.737] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/header_bg.png
+[10:02:48.744] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/header_bg.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/header_bg.png), fd: 0x68
+[10:02:48.752] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[10:02:48.754] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x119964
+[10:02:48.762] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[10:02:48.769] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x56061b ldexp at 0x119b94
+[10:02:48.770] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xeb027358 exp at 0x119c54
+[10:02:48.808] |T| [log_import_call]: [LLE] TID: 161 FUNC: 0x8e5a06c5 abs at 0x1199c4
+[10:02:48.857] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/header_underline.png
+[10:02:48.864] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/header_underline.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/header_underline.png), fd: 0x69
+[10:02:48.882] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[10:02:48.950] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line7,bn.png
+[10:02:48.958] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line7,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line7,bn.png), fd: 0x6a
+[10:02:48.978] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[10:02:49.034] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/button_bar.png
+[10:02:49.042] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/button_bar.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/button_bar.png), fd: 0x6b
+[10:02:49.059] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[10:02:49.135] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line7,bh.png
+[10:02:49.142] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line7,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line7,bh.png), fd: 0x6c
+[10:02:49.161] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[10:02:49.216] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line6,bn.png
+[10:02:49.225] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line6,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line6,bn.png), fd: 0x6d
+[10:02:49.243] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[10:02:49.300] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line6,bh.png
+[10:02:49.307] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line6,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line6,bh.png), fd: 0x6e
+[10:02:49.325] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[10:02:49.384] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line5,bn.png
+[10:02:49.392] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line5,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line5,bn.png), fd: 0x6f
+[10:02:49.409] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[10:02:49.465] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line5,bh.png
+[10:02:49.474] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line5,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line5,bh.png), fd: 0x70
+[10:02:49.492] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[10:02:49.551] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line4,bn.png
+[10:02:49.559] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line4,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line4,bn.png), fd: 0x71
+[10:02:49.577] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[10:02:49.633] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line4,bh.png
+[10:02:49.643] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line4,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line4,bh.png), fd: 0x72
+[10:02:49.661] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[10:02:49.718] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line3,bn.png
+[10:02:49.726] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line3,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line3,bn.png), fd: 0x73
+[10:02:49.744] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[10:02:49.799] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line3,bh.png
+[10:02:49.806] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line3,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line3,bh.png), fd: 0x74
+[10:02:49.825] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[10:02:49.884] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line2,bn.png
+[10:02:49.891] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line2,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line2,bn.png), fd: 0x75
+[10:02:49.910] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[10:02:49.966] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line2,bh.png
+[10:02:49.980] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line2,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line2,bh.png), fd: 0x76
+[10:02:49.999] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[10:02:50.066] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line1,bn.png
+[10:02:50.074] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line1,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line1,bn.png), fd: 0x77
+[10:02:50.092] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[10:02:50.149] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line1,bh.png
+[10:02:50.156] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line1,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line1,bh.png), fd: 0x78
+[10:02:50.175] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[10:02:50.232] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/underline.png
+[10:02:50.240] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/underline.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/underline.png), fd: 0x79
+[10:02:50.258] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[10:02:50.316] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/arrow.png
+[10:02:50.324] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/arrow.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/arrow.png), fd: 0x7a
+[10:02:50.343] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[10:02:50.399] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/standardmenu/character.png
+[10:02:50.407] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/standardmenu/character.png (ux0:/app/PCSE00958/data/vita/ui/standardmenu/character.png), fd: 0x7b
+[10:02:50.426] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[10:02:50.501] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/standardmenu/logo.png
+[10:02:50.509] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/standardmenu/logo.png (ux0:/app/PCSE00958/data/vita/ui/standardmenu/logo.png), fd: 0x7c
+[10:02:50.527] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[10:02:52.014] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[10:02:52.015] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[10:03:17.694] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/borders/large_001.dat
+[10:03:17.695] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/borders/large_001.dat (ux0:/app/PCSE00958/data/vita/borders/large_001.dat), fd: 0x7d
+[10:03:17.698] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[10:03:17.879] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4j.bin
+[10:03:17.880] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4j.bin (ux0:/app/PCSE00958/data/rom/sp_4j.bin), fd: 0x7e
+[10:03:17.883] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[10:03:17.884] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4s.bin
+[10:03:17.884] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4s.bin (ux0:/app/PCSE00958/data/rom/sp_4s.bin), fd: 0x7f
+[10:03:17.887] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[10:03:17.893] |I| [export_sceIoOpen]: Opening file: app0:/data/boot.bin
+[10:03:17.894] |T| [open_file]: sceIoOpen: Opening file app0:/data/boot.bin (ux0:/app/PCSE00958/data/boot.bin), fd: 0x80
+[10:03:17.896] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[10:03:17.901] |T| [write_file]: *** TTY: Save block 1 at offset 0x00000090
+[10:03:17.903] |T| [write_file]: *** TTY: Save block 2 at offset 0x00040944
+[10:03:17.903] |T| [write_file]: *** TTY: Save block 3 at offset 0x000409c8
+[10:03:17.904] |T| [write_file]: *** TTY: Save block 4 at offset 0x0004ca24
+[10:03:17.905] |T| [write_file]: *** TTY: Save block 5 at offset 0x0004ca64
+[10:03:17.906] |T| [write_file]: *** TTY: Save block 6 at offset 0x0006ce44
+[10:03:17.910] |T| [write_file]: *** TTY: Native block 1 at offset 0x00000090
+[10:03:17.910] |T| [write_file]: *** TTY: Native block 2 at offset 0x00040944
+[10:03:17.912] |T| [write_file]: *** TTY: Native block 3 at offset 0x000409c8
+[10:03:17.913] |T| [write_file]: *** TTY: Native block 4 at offset 0x0004ca24
+[10:03:17.914] |T| [write_file]: *** TTY: Native block 5 at offset 0x0004ca64
+[10:03:17.915] |T| [write_file]: *** TTY: Native block 6 at offset 0x0006ce44
+[10:03:17.917] |T| [write_file]: *** TTY: EGNG_GetStateSize is 0x0006ce40
+[10:03:19.812] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/standardmenu.csv
+[10:03:19.813] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/standardmenu.csv (ux0:/app/PCSE00958/data/vita/ui/standardmenu.csv), fd: 0x81
+[10:03:19.816] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[10:03:19.818] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:03:19.818] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0x82
+[10:03:19.820] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[10:03:19.868] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/header_bg.png
+[10:03:19.869] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/header_bg.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/header_bg.png), fd: 0x83
+[10:03:19.887] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[10:03:19.951] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/header_underline.png
+[10:03:19.953] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/header_underline.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/header_underline.png), fd: 0x84
+[10:03:19.971] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[10:03:20.033] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line7,bn.png
+[10:03:20.034] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line7,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line7,bn.png), fd: 0x85
+[10:03:20.053] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[10:03:20.116] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/button_bar.png
+[10:03:20.117] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/button_bar.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/button_bar.png), fd: 0x86
+[10:03:20.135] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[10:03:20.199] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line7,bh.png
+[10:03:20.200] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line7,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line7,bh.png), fd: 0x87
+[10:03:20.219] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[10:03:20.290] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line6,bn.png
+[10:03:20.291] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line6,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line6,bn.png), fd: 0x88
+[10:03:20.313] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[10:03:20.385] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line6,bh.png
+[10:03:20.386] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line6,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line6,bh.png), fd: 0x89
+[10:03:20.406] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[10:03:20.466] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line5,bn.png
+[10:03:20.468] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line5,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line5,bn.png), fd: 0x8a
+[10:03:20.485] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[10:03:20.548] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line5,bh.png
+[10:03:20.549] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line5,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line5,bh.png), fd: 0x8b
+[10:03:20.570] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[10:03:20.632] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line4,bn.png
+[10:03:20.633] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line4,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line4,bn.png), fd: 0x8c
+[10:03:20.653] |T| [close_file]: sceIoClose: Closing file fd: 0x8c
+[10:03:20.723] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line4,bh.png
+[10:03:20.724] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line4,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line4,bh.png), fd: 0x8d
+[10:03:20.747] |T| [close_file]: sceIoClose: Closing file fd: 0x8d
+[10:03:20.818] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line3,bn.png
+[10:03:20.819] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line3,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line3,bn.png), fd: 0x8e
+[10:03:20.840] |T| [close_file]: sceIoClose: Closing file fd: 0x8e
+[10:03:20.897] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line3,bh.png
+[10:03:20.898] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line3,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line3,bh.png), fd: 0x8f
+[10:03:20.917] |T| [close_file]: sceIoClose: Closing file fd: 0x8f
+[10:03:20.990] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line2,bn.png
+[10:03:20.991] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line2,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line2,bn.png), fd: 0x90
+[10:03:21.014] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[10:03:21.083] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line2,bh.png
+[10:03:21.084] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line2,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line2,bh.png), fd: 0x91
+[10:03:21.101] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[10:03:21.163] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line1,bn.png
+[10:03:21.164] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line1,bn.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line1,bn.png), fd: 0x92
+[10:03:21.183] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[10:03:21.246] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/line1,bh.png
+[10:03:21.248] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/line1,bh.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/line1,bh.png), fd: 0x93
+[10:03:21.266] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[10:03:21.331] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/underline.png
+[10:03:21.333] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/underline.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/underline.png), fd: 0x94
+[10:03:21.353] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[10:03:21.413] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu/arrow.png
+[10:03:21.415] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu/arrow.png (ux0:/app/PCSE00958/data/vita/ui/commonmenu/arrow.png), fd: 0x95
+[10:03:21.434] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[10:03:21.499] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/standardmenu/character.png
+[10:03:21.499] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/standardmenu/character.png (ux0:/app/PCSE00958/data/vita/ui/standardmenu/character.png), fd: 0x96
+[10:03:21.518] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[10:03:21.582] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/standardmenu/logo.png
+[10:03:21.583] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/standardmenu/logo.png (ux0:/app/PCSE00958/data/vita/ui/standardmenu/logo.png), fd: 0x97
+[10:03:21.602] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[10:03:24.911] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/borders/large_001.dat
+[10:03:24.912] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/borders/large_001.dat (ux0:/app/PCSE00958/data/vita/borders/large_001.dat), fd: 0x98
+[10:03:24.915] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[10:03:25.093] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4j.bin
+[10:03:25.094] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4j.bin (ux0:/app/PCSE00958/data/rom/sp_4j.bin), fd: 0x99
+[10:03:25.097] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[10:03:25.098] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4s.bin
+[10:03:25.099] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4s.bin (ux0:/app/PCSE00958/data/rom/sp_4s.bin), fd: 0x9a
+[10:03:25.101] |T| [close_file]: sceIoClose: Closing file fd: 0x9a
+[10:03:25.108] |I| [export_sceIoOpen]: Opening file: app0:/data/training1.bin
+[10:03:25.121] |T| [open_file]: sceIoOpen: Opening file app0:/data/training1.bin (ux0:/app/PCSE00958/data/training1.bin), fd: 0x9b
+[10:03:25.126] |T| [close_file]: sceIoClose: Closing file fd: 0x9b
+[10:03:25.130] |T| [write_file]: *** TTY: Save block 1 at offset 0x00000090
+[10:03:25.131] |T| [write_file]: *** TTY: Save block 2 at offset 0x00040944
+[10:03:25.133] |T| [write_file]: *** TTY: Save block 3 at offset 0x000409c8
+[10:03:25.134] |T| [write_file]: *** TTY: Save block 4 at offset 0x0004ca24
+[10:03:25.135] |T| [write_file]: *** TTY: Save block 5 at offset 0x0004ca64
+[10:03:25.136] |T| [write_file]: *** TTY: Save block 6 at offset 0x0006ce44
+[10:03:25.140] |T| [write_file]: *** TTY: Native block 1 at offset 0x00000090
+[10:03:25.141] |T| [write_file]: *** TTY: Native block 2 at offset 0x00040944
+[10:03:25.142] |T| [write_file]: *** TTY: Native block 3 at offset 0x000409c8
+[10:03:25.143] |T| [write_file]: *** TTY: Native block 4 at offset 0x0004ca24
+[10:03:25.144] |T| [write_file]: *** TTY: Native block 5 at offset 0x0004ca64
+[10:03:25.144] |T| [write_file]: *** TTY: Native block 6 at offset 0x0006ce44
+[10:03:25.145] |T| [write_file]: *** TTY: EGNG_GetStateSize is 0x0006ce40
+[10:03:43.096] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu.csv
+[10:03:43.103] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu.csv (ux0:/app/PCSE00958/data/vita/ui/overlaymenu.csv), fd: 0x9c
+[10:03:43.105] |T| [close_file]: sceIoClose: Closing file fd: 0x9c
+[10:03:43.147] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/back.png
+[10:03:43.156] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/back.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/back.png), fd: 0x9d
+[10:03:43.177] |T| [close_file]: sceIoClose: Closing file fd: 0x9d
+[10:03:43.263] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/line1,bn.png
+[10:03:43.271] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/line1,bn.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/line1,bn.png), fd: 0x9e
+[10:03:43.289] |T| [close_file]: sceIoClose: Closing file fd: 0x9e
+[10:03:43.347] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/line1,bh.png
+[10:03:43.355] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/line1,bh.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/line1,bh.png), fd: 0x9f
+[10:03:43.375] |T| [close_file]: sceIoClose: Closing file fd: 0x9f
+[10:03:43.446] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/arrow.png
+[10:03:43.454] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/arrow.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/arrow.png), fd: 0xa0
+[10:03:43.472] |T| [close_file]: sceIoClose: Closing file fd: 0xa0
+[10:05:00.792] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu.csv
+[10:05:00.793] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu.csv (ux0:/app/PCSE00958/data/vita/ui/overlaymenu.csv), fd: 0xa1
+[10:05:00.796] |T| [close_file]: sceIoClose: Closing file fd: 0xa1
+[10:05:00.836] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/back.png
+[10:05:00.837] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/back.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/back.png), fd: 0xa2
+[10:05:00.857] |T| [close_file]: sceIoClose: Closing file fd: 0xa2
+[10:05:00.947] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/line1,bn.png
+[10:05:00.949] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/line1,bn.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/line1,bn.png), fd: 0xa3
+[10:05:00.976] |T| [close_file]: sceIoClose: Closing file fd: 0xa3
+[10:05:01.045] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/line1,bh.png
+[10:05:01.046] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/line1,bh.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/line1,bh.png), fd: 0xa4
+[10:05:01.070] |T| [close_file]: sceIoClose: Closing file fd: 0xa4
+[10:05:01.130] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/arrow.png
+[10:05:01.131] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/arrow.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/arrow.png), fd: 0xa5
+[10:05:01.150] |T| [close_file]: sceIoClose: Closing file fd: 0xa5
+[10:05:04.007] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu.csv
+[10:05:04.008] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu.csv (ux0:/app/PCSE00958/data/vita/ui/overlaymenu.csv), fd: 0xa6
+[10:05:04.011] |T| [close_file]: sceIoClose: Closing file fd: 0xa6
+[10:05:04.049] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/back.png
+[10:05:04.050] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/back.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/back.png), fd: 0xa7
+[10:05:04.080] |T| [close_file]: sceIoClose: Closing file fd: 0xa7
+[10:05:04.162] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/line1,bn.png
+[10:05:04.163] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/line1,bn.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/line1,bn.png), fd: 0xa8
+[10:05:04.184] |T| [close_file]: sceIoClose: Closing file fd: 0xa8
+[10:05:04.249] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/line1,bh.png
+[10:05:04.251] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/line1,bh.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/line1,bh.png), fd: 0xa9
+[10:05:04.281] |T| [close_file]: sceIoClose: Closing file fd: 0xa9
+[10:05:04.343] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/arrow.png
+[10:05:04.344] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/arrow.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/arrow.png), fd: 0xaa
+[10:05:04.364] |T| [close_file]: sceIoClose: Closing file fd: 0xaa
+[10:05:05.274] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commandlist.csv
+[10:05:05.285] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commandlist.csv (ux0:/app/PCSE00958/data/vita/ui/commandlist.csv), fd: 0xab
+[10:05:05.286] |T| [close_file]: sceIoClose: Closing file fd: 0xab
+[10:05:05.290] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commandlogos.csv
+[10:05:05.298] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commandlogos.csv (ux0:/app/PCSE00958/data/vita/ui/commandlogos.csv), fd: 0xac
+[10:05:05.300] |T| [close_file]: sceIoClose: Closing file fd: 0xac
+[10:05:05.302] |I| [export_sceIoOpen]: Opening file: app0:/data/movelist/movelist_en.txt
+[10:05:05.302] |T| [open_file]: sceIoOpen: Opening file app0:/data/movelist/movelist_en.txt (ux0:/app/PCSE00958/data/movelist/movelist_en.txt), fd: 0xad
+[10:05:05.304] |T| [close_file]: sceIoClose: Closing file fd: 0xad
+[10:05:05.353] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commandlogos/character1.png
+[10:05:05.364] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commandlogos/character1.png (ux0:/app/PCSE00958/data/vita/ui/commandlogos/character1.png), fd: 0xae
+[10:05:05.407] |T| [close_file]: sceIoClose: Closing file fd: 0xae
+[10:05:05.485] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commandlist/back.png
+[10:05:05.496] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commandlist/back.png (ux0:/app/PCSE00958/data/vita/ui/commandlist/back.png), fd: 0xaf
+[10:05:05.519] |T| [close_file]: sceIoClose: Closing file fd: 0xaf
+[10:05:05.655] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/next_ps4.png
+[10:05:05.666] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/next_ps4.png (ux0:/app/PCSE00958/data/vita/ui/common/next_ps4.png), fd: 0xb0
+[10:05:05.686] |T| [close_file]: sceIoClose: Closing file fd: 0xb0
+[10:05:05.762] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/next_arrow.png
+[10:05:05.772] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/next_arrow.png (ux0:/app/PCSE00958/data/vita/ui/common/next_arrow.png), fd: 0xb1
+[10:05:05.792] |T| [close_file]: sceIoClose: Closing file fd: 0xb1
+[10:05:05.859] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/next_vita.png
+[10:05:05.867] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/next_vita.png (ux0:/app/PCSE00958/data/vita/ui/common/next_vita.png), fd: 0xb2
+[10:05:05.889] |T| [close_file]: sceIoClose: Closing file fd: 0xb2
+[10:05:05.954] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/prev_ps4.png
+[10:05:05.963] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/prev_ps4.png (ux0:/app/PCSE00958/data/vita/ui/common/prev_ps4.png), fd: 0xb3
+[10:05:05.985] |T| [close_file]: sceIoClose: Closing file fd: 0xb3
+[10:05:06.056] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/prev_arrow.png
+[10:05:06.066] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/prev_arrow.png (ux0:/app/PCSE00958/data/vita/ui/common/prev_arrow.png), fd: 0xb4
+[10:05:06.088] |T| [close_file]: sceIoClose: Closing file fd: 0xb4
+[10:05:06.153] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/prev_vita.png
+[10:05:06.163] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/prev_vita.png (ux0:/app/PCSE00958/data/vita/ui/common/prev_vita.png), fd: 0xb5
+[10:05:06.184] |T| [close_file]: sceIoClose: Closing file fd: 0xb5
+[10:05:06.252] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/x_button.png
+[10:05:06.261] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/x_button.png (ux0:/app/PCSE00958/data/vita/ui/common/x_button.png), fd: 0xb6
+[10:05:06.279] |T| [close_file]: sceIoClose: Closing file fd: 0xb6
+[10:05:06.348] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commandlist/character_name_bg.png
+[10:05:06.355] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commandlist/character_name_bg.png (ux0:/app/PCSE00958/data/vita/ui/commandlist/character_name_bg.png), fd: 0xb7
+[10:05:06.375] |T| [close_file]: sceIoClose: Closing file fd: 0xb7
+[10:05:06.433] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commandlist/overlay.png
+[10:05:06.441] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commandlist/overlay.png (ux0:/app/PCSE00958/data/vita/ui/commandlist/overlay.png), fd: 0xb8
+[10:05:06.461] |T| [close_file]: sceIoClose: Closing file fd: 0xb8
+[10:05:06.549] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commandlist/header_bg.png
+[10:05:06.557] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commandlist/header_bg.png (ux0:/app/PCSE00958/data/vita/ui/commandlist/header_bg.png), fd: 0xb9
+[10:05:06.576] |T| [close_file]: sceIoClose: Closing file fd: 0xb9
+[10:05:45.372] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commandlist.csv
+[10:05:45.373] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commandlist.csv (ux0:/app/PCSE00958/data/vita/ui/commandlist.csv), fd: 0xba
+[10:05:45.375] |T| [close_file]: sceIoClose: Closing file fd: 0xba
+[10:05:45.377] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commandlogos.csv
+[10:05:45.378] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commandlogos.csv (ux0:/app/PCSE00958/data/vita/ui/commandlogos.csv), fd: 0xbb
+[10:05:45.379] |T| [close_file]: sceIoClose: Closing file fd: 0xbb
+[10:06:11.872] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu.csv
+[10:06:11.873] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu.csv (ux0:/app/PCSE00958/data/vita/ui/overlaymenu.csv), fd: 0xbc
+[10:06:11.875] |T| [close_file]: sceIoClose: Closing file fd: 0xbc
+[10:06:11.914] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/back.png
+[10:06:11.916] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/back.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/back.png), fd: 0xbd
+[10:06:11.948] |T| [close_file]: sceIoClose: Closing file fd: 0xbd
+[10:06:12.025] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/line1,bn.png
+[10:06:12.026] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/line1,bn.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/line1,bn.png), fd: 0xbe
+[10:06:12.048] |T| [close_file]: sceIoClose: Closing file fd: 0xbe
+[10:06:12.107] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/line1,bh.png
+[10:06:12.108] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/line1,bh.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/line1,bh.png), fd: 0xbf
+[10:06:12.136] |T| [close_file]: sceIoClose: Closing file fd: 0xbf
+[10:06:12.206] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu/arrow.png
+[10:06:12.207] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu/arrow.png (ux0:/app/PCSE00958/data/vita/ui/overlaymenu/arrow.png), fd: 0xc0
+[10:06:12.233] |T| [close_file]: sceIoClose: Closing file fd: 0xc0
+[10:06:14.104] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/overlaymenu.csv
+[10:06:14.105] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/overlaymenu.csv (ux0:/app/PCSE00958/data/vita/ui/overlaymenu.csv), fd: 0xc1
+[10:06:14.107] |T| [close_file]: sceIoClose: Closing file fd: 0xc1
+[10:06:15.421] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu.csv
+[10:06:15.431] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu.csv (ux0:/app/PCSE00958/data/vita/ui/optionsmenu.csv), fd: 0xc2
+[10:06:15.434] |T| [close_file]: sceIoClose: Closing file fd: 0xc2
+[10:06:15.436] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:06:15.437] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0xc3
+[10:06:15.439] |T| [close_file]: sceIoClose: Closing file fd: 0xc3
+[10:06:15.489] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/back.png
+[10:06:15.498] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/back.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/back.png), fd: 0xc4
+[10:06:15.548] |T| [close_file]: sceIoClose: Closing file fd: 0xc4
+[10:06:15.667] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/line1,bn.png
+[10:06:15.678] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/line1,bn.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/line1,bn.png), fd: 0xc5
+[10:06:15.700] |T| [close_file]: sceIoClose: Closing file fd: 0xc5
+[10:06:15.781] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/line1,bh.png
+[10:06:15.791] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/line1,bh.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/line1,bh.png), fd: 0xc6
+[10:06:15.814] |T| [close_file]: sceIoClose: Closing file fd: 0xc6
+[10:06:15.887] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/prototype_volume_bar.png
+[10:06:15.895] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/prototype_volume_bar.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/prototype_volume_bar.png), fd: 0xc7
+[10:06:15.917] |T| [close_file]: sceIoClose: Closing file fd: 0xc7
+[10:06:15.983] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/prototype_volume_full.png
+[10:06:15.994] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/prototype_volume_full.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/prototype_volume_full.png), fd: 0xc8
+[10:06:16.016] |T| [close_file]: sceIoClose: Closing file fd: 0xc8
+[10:06:16.083] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/prototype_bar.png
+[10:06:16.090] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/prototype_bar.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/prototype_bar.png), fd: 0xc9
+[10:06:16.110] |T| [close_file]: sceIoClose: Closing file fd: 0xc9
+[10:06:16.172] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/right.png
+[10:06:16.180] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/right.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/right.png), fd: 0xca
+[10:06:16.199] |T| [close_file]: sceIoClose: Closing file fd: 0xca
+[10:06:16.256] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/left.png
+[10:06:16.264] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/left.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/left.png), fd: 0xcb
+[10:06:16.283] |T| [close_file]: sceIoClose: Closing file fd: 0xcb
+[10:06:22.238] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup.csv
+[10:06:22.239] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup.csv (ux0:/app/PCSE00958/data/vita/ui/popup.csv), fd: 0xcc
+[10:06:22.241] |T| [close_file]: sceIoClose: Closing file fd: 0xcc
+[10:06:27.471] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/submenu.csv
+[10:06:27.480] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/submenu.csv (ux0:/app/PCSE00958/data/vita/ui/submenu.csv), fd: 0xcd
+[10:06:27.482] |T| [close_file]: sceIoClose: Closing file fd: 0xcd
+[10:06:27.483] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:06:27.484] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0xce
+[10:06:27.487] |T| [close_file]: sceIoClose: Closing file fd: 0xce
+[10:06:27.537] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/submenu/local_game.png
+[10:06:27.548] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/submenu/local_game.png (ux0:/app/PCSE00958/data/vita/ui/submenu/local_game.png), fd: 0xcf
+[10:06:27.571] |T| [close_file]: sceIoClose: Closing file fd: 0xcf
+[10:06:31.803] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/borders/large_001.dat
+[10:06:31.805] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/borders/large_001.dat (ux0:/app/PCSE00958/data/vita/borders/large_001.dat), fd: 0xd0
+[10:06:31.807] |T| [close_file]: sceIoClose: Closing file fd: 0xd0
+[10:06:31.987] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4j.bin
+[10:06:31.988] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4j.bin (ux0:/app/PCSE00958/data/rom/sp_4j.bin), fd: 0xd1
+[10:06:31.991] |T| [close_file]: sceIoClose: Closing file fd: 0xd1
+[10:06:31.991] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4s.bin
+[10:06:31.992] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4s.bin (ux0:/app/PCSE00958/data/rom/sp_4s.bin), fd: 0xd2
+[10:06:31.994] |T| [close_file]: sceIoClose: Closing file fd: 0xd2
+[10:06:32.001] |I| [export_sceIoOpen]: Opening file: app0:/data/survival.bin
+[10:06:32.016] |T| [open_file]: sceIoOpen: Opening file app0:/data/survival.bin (ux0:/app/PCSE00958/data/survival.bin), fd: 0xd3
+[10:06:32.018] |T| [close_file]: sceIoClose: Closing file fd: 0xd3
+[10:06:32.024] |T| [write_file]: *** TTY: Save block 1 at offset 0x00000090
+[10:06:32.025] |T| [write_file]: *** TTY: Save block 2 at offset 0x00040944
+[10:06:32.025] |T| [write_file]: *** TTY: Save block 3 at offset 0x000409c8
+[10:06:32.027] |T| [write_file]: *** TTY: Save block 4 at offset 0x0004ca24
+[10:06:32.027] |T| [write_file]: *** TTY: Save block 5 at offset 0x0004ca64
+[10:06:32.029] |T| [write_file]: *** TTY: Save block 6 at offset 0x0006ce44
+[10:06:32.033] |T| [write_file]: *** TTY: Native block 1 at offset 0x00000090
+[10:06:32.033] |T| [write_file]: *** TTY: Native block 2 at offset 0x00040944
+[10:06:32.036] |T| [write_file]: *** TTY: Native block 3 at offset 0x000409c8
+[10:06:32.037] |T| [write_file]: *** TTY: Native block 4 at offset 0x0004ca24
+[10:06:32.038] |T| [write_file]: *** TTY: Native block 5 at offset 0x0004ca64
+[10:06:32.039] |T| [write_file]: *** TTY: Native block 6 at offset 0x0006ce44
+[10:06:32.040] |T| [write_file]: *** TTY: EGNG_GetStateSize is 0x0006ce40
+[10:06:40.288] |T| [write_file]: *** TTY: unlocked: PLAY_SURVIVAL_MODE
+[10:07:29.502] |T| [write_file]: *** TTY: wins: 0 1 min 1
+[10:07:29.503] |T| [write_file]: *** TTY: WINNER = 2
+[10:07:44.650] |W| [stubbed_impl]: Stubbed sceNetCtlAdhocGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[10:07:44.651] |W| [unimplemented_impl]: Unimplemented sceNetCtlAdhocDisconnect import called.
+[10:07:44.652] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogInit import called.
+[10:07:44.667] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetStatus import called. (SCE_COMMON_DIALOG_STATUS_FINISHED)
+[10:07:44.668] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetResult import called. (result->result = 0)
+[10:07:44.669] |T| [write_file]: *** TTY: NetCheckDialogResult = 0x0
+[10:07:44.670] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogTerm import called.
+[10:07:44.862] |T| [write_file]: *** TTY: FILE_Read TUS
+[10:07:44.868] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup.csv
+[10:07:44.869] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup.csv (ux0:/app/PCSE00958/data/vita/ui/popup.csv), fd: 0xd4
+[10:07:44.870] |T| [close_file]: sceIoClose: Closing file fd: 0xd4
+[10:07:51.130] |W| [unimplemented_impl]: Unimplemented sceNpTusCreateTitleCtx import called.
+[10:07:51.131] |W| [unimplemented_impl]: Unimplemented sceNpTusCreateRequest import called.
+[10:07:51.132] |W| [unimplemented_impl]: Unimplemented sceNpTusSetData import called.
+[10:07:51.133] |T| [write_file]: *** TTY: sceNpTusSetData() returns 0x00000000
+[10:07:51.134] |W| [unimplemented_impl]: Unimplemented sceNpTusDeleteRequest import called.
+[10:07:51.135] |T| [write_file]: *** TTY: Save to TUS returned 0x00000000
+[10:07:51.137] |T| [write_file]: *** TTY: TUS data stored, data marked stale
+[10:07:51.392] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE00958/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[10:07:51.395] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[10:07:51.399] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/focal/stats.bin (ux0:/user/00/savedata/PCSE00958/focal/stats.bin), fd: 0xd5
+[10:07:51.400] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xd5, size: 460
+[10:07:51.400] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xd5
+[10:07:51.402] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00958/SlotParam_0.bin), fd: 0xd6
+[10:07:51.407] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xd6, size: 844
+[10:07:51.408] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xd6
+[10:07:55.334] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/borders/large_001.dat
+[10:07:55.336] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/borders/large_001.dat (ux0:/app/PCSE00958/data/vita/borders/large_001.dat), fd: 0xd7
+[10:07:55.338] |T| [close_file]: sceIoClose: Closing file fd: 0xd7
+[10:07:55.515] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4j.bin
+[10:07:55.516] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4j.bin (ux0:/app/PCSE00958/data/rom/sp_4j.bin), fd: 0xd8
+[10:07:55.520] |T| [close_file]: sceIoClose: Closing file fd: 0xd8
+[10:07:55.521] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4s.bin
+[10:07:55.522] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4s.bin (ux0:/app/PCSE00958/data/rom/sp_4s.bin), fd: 0xd9
+[10:07:55.524] |T| [close_file]: sceIoClose: Closing file fd: 0xd9
+[10:07:55.529] |I| [export_sceIoOpen]: Opening file: app0:/data/survival.bin
+[10:07:55.530] |T| [open_file]: sceIoOpen: Opening file app0:/data/survival.bin (ux0:/app/PCSE00958/data/survival.bin), fd: 0xda
+[10:07:55.535] |T| [close_file]: sceIoClose: Closing file fd: 0xda
+[10:07:55.539] |T| [write_file]: *** TTY: Save block 1 at offset 0x00000090
+[10:07:55.540] |T| [write_file]: *** TTY: Save block 2 at offset 0x00040944
+[10:07:55.540] |T| [write_file]: *** TTY: Save block 3 at offset 0x000409c8
+[10:07:55.541] |T| [write_file]: *** TTY: Save block 4 at offset 0x0004ca24
+[10:07:55.542] |T| [write_file]: *** TTY: Save block 5 at offset 0x0004ca64
+[10:07:55.543] |T| [write_file]: *** TTY: Save block 6 at offset 0x0006ce44
+[10:07:55.547] |T| [write_file]: *** TTY: Native block 1 at offset 0x00000090
+[10:07:55.548] |T| [write_file]: *** TTY: Native block 2 at offset 0x00040944
+[10:07:55.549] |T| [write_file]: *** TTY: Native block 3 at offset 0x000409c8
+[10:07:55.550] |T| [write_file]: *** TTY: Native block 4 at offset 0x0004ca24
+[10:07:55.551] |T| [write_file]: *** TTY: Native block 5 at offset 0x0004ca64
+[10:07:55.552] |T| [write_file]: *** TTY: Native block 6 at offset 0x0006ce44
+[10:07:55.552] |T| [write_file]: *** TTY: EGNG_GetStateSize is 0x0006ce40
+[10:09:09.148] |T| [write_file]: *** TTY: wins: 1 0 min 1
+[10:09:09.149] |T| [write_file]: *** TTY: WINNER = 1
+[10:10:12.980] |T| [write_file]: *** TTY: wins: 0 1 min 1
+[10:10:12.980] |T| [write_file]: *** TTY: WINNER = 2
+[10:10:38.492] |T| [write_file]: *** TTY: NetCheckDialogResult = 0x0
+[10:10:38.564] |T| [write_file]: *** TTY: FILE_Read TUS
+[10:10:38.576] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup.csv
+[10:10:38.577] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup.csv (ux0:/app/PCSE00958/data/vita/ui/popup.csv), fd: 0xdb
+[10:10:38.580] |T| [close_file]: sceIoClose: Closing file fd: 0xdb
+[10:10:47.335] |T| [write_file]: *** TTY: sceNpTusSetData() returns 0x00000000
+[10:10:47.336] |T| [write_file]: *** TTY: Save to TUS returned 0x00000000
+[10:10:47.337] |T| [write_file]: *** TTY: TUS data stored, data marked stale
+[10:10:47.589] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00958/SlotParam_0.bin), fd: 0xdc
+[10:10:47.592] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0xdc
+[10:10:47.594] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/focal/stats.bin (ux0:/user/00/savedata/PCSE00958/focal/stats.bin), fd: 0xdd
+[10:10:47.599] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xdd, size: 460
+[10:10:47.600] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xdd
+[10:10:47.601] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00958/SlotParam_0.bin), fd: 0xde
+[10:10:47.604] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xde, size: 844
+[10:10:47.604] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xde
+[10:10:52.626] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/submenu.csv
+[10:10:52.627] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/submenu.csv (ux0:/app/PCSE00958/data/vita/ui/submenu.csv), fd: 0xdf
+[10:10:52.630] |T| [close_file]: sceIoClose: Closing file fd: 0xdf
+[10:10:52.632] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:10:52.633] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0xe0
+[10:10:52.635] |T| [close_file]: sceIoClose: Closing file fd: 0xe0
+[10:10:52.685] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/submenu/options.png
+[10:10:52.701] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/submenu/options.png (ux0:/app/PCSE00958/data/vita/ui/submenu/options.png), fd: 0xe1
+[10:10:52.725] |T| [close_file]: sceIoClose: Closing file fd: 0xe1
+[10:10:57.009] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu.csv
+[10:10:57.011] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu.csv (ux0:/app/PCSE00958/data/vita/ui/optionsmenu.csv), fd: 0xe2
+[10:10:57.013] |T| [close_file]: sceIoClose: Closing file fd: 0xe2
+[10:10:57.015] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:10:57.016] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0xe3
+[10:10:57.018] |T| [close_file]: sceIoClose: Closing file fd: 0xe3
+[10:10:57.064] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/back.png
+[10:10:57.065] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/back.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/back.png), fd: 0xe4
+[10:10:57.084] |T| [close_file]: sceIoClose: Closing file fd: 0xe4
+[10:10:57.184] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/line1,bn.png
+[10:10:57.185] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/line1,bn.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/line1,bn.png), fd: 0xe5
+[10:10:57.203] |T| [close_file]: sceIoClose: Closing file fd: 0xe5
+[10:10:57.263] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/line1,bh.png
+[10:10:57.264] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/line1,bh.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/line1,bh.png), fd: 0xe6
+[10:10:57.283] |T| [close_file]: sceIoClose: Closing file fd: 0xe6
+[10:10:57.345] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/prototype_volume_bar.png
+[10:10:57.346] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/prototype_volume_bar.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/prototype_volume_bar.png), fd: 0xe7
+[10:10:57.367] |T| [close_file]: sceIoClose: Closing file fd: 0xe7
+[10:10:57.430] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/prototype_volume_full.png
+[10:10:57.431] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/prototype_volume_full.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/prototype_volume_full.png), fd: 0xe8
+[10:10:57.450] |T| [close_file]: sceIoClose: Closing file fd: 0xe8
+[10:10:57.513] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/prototype_bar.png
+[10:10:57.515] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/prototype_bar.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/prototype_bar.png), fd: 0xe9
+[10:10:57.533] |T| [close_file]: sceIoClose: Closing file fd: 0xe9
+[10:10:57.600] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/right.png
+[10:10:57.601] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/right.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/right.png), fd: 0xea
+[10:10:57.621] |T| [close_file]: sceIoClose: Closing file fd: 0xea
+[10:10:57.679] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/optionsmenu/left.png
+[10:10:57.681] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/optionsmenu/left.png (ux0:/app/PCSE00958/data/vita/ui/optionsmenu/left.png), fd: 0xeb
+[10:10:57.700] |T| [close_file]: sceIoClose: Closing file fd: 0xeb
+[10:11:02.376] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/credits.csv
+[10:11:02.384] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/credits.csv (ux0:/app/PCSE00958/data/vita/ui/credits.csv), fd: 0xec
+[10:11:02.387] |T| [close_file]: sceIoClose: Closing file fd: 0xec
+[10:11:02.390] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:11:02.390] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0xed
+[10:11:02.392] |T| [close_file]: sceIoClose: Closing file fd: 0xed
+[10:11:02.394] |I| [export_sceIoOpen]: Opening file: app0:/data/credits.txt
+[10:11:02.395] |T| [open_file]: sceIoOpen: Opening file app0:/data/credits.txt (ux0:/app/PCSE00958/data/credits.txt), fd: 0xee
+[10:11:02.397] |T| [close_file]: sceIoClose: Closing file fd: 0xee
+[10:11:02.463] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/credits/back.png
+[10:11:02.473] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/credits/back.png (ux0:/app/PCSE00958/data/vita/ui/credits/back.png), fd: 0xef
+[10:11:02.493] |T| [close_file]: sceIoClose: Closing file fd: 0xef
+[10:11:02.616] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/next_ps4.png
+[10:11:02.618] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/next_ps4.png (ux0:/app/PCSE00958/data/vita/ui/common/next_ps4.png), fd: 0xf0
+[10:11:02.636] |T| [close_file]: sceIoClose: Closing file fd: 0xf0
+[10:11:02.716] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/next_arrow.png
+[10:11:02.717] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/next_arrow.png (ux0:/app/PCSE00958/data/vita/ui/common/next_arrow.png), fd: 0xf1
+[10:11:02.735] |T| [close_file]: sceIoClose: Closing file fd: 0xf1
+[10:11:02.813] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/next_vita.png
+[10:11:02.814] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/next_vita.png (ux0:/app/PCSE00958/data/vita/ui/common/next_vita.png), fd: 0xf2
+[10:11:02.833] |T| [close_file]: sceIoClose: Closing file fd: 0xf2
+[10:11:02.913] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/prev_ps4.png
+[10:11:02.914] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/prev_ps4.png (ux0:/app/PCSE00958/data/vita/ui/common/prev_ps4.png), fd: 0xf3
+[10:11:02.935] |T| [close_file]: sceIoClose: Closing file fd: 0xf3
+[10:11:03.014] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/prev_arrow.png
+[10:11:03.016] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/prev_arrow.png (ux0:/app/PCSE00958/data/vita/ui/common/prev_arrow.png), fd: 0xf4
+[10:11:03.034] |T| [close_file]: sceIoClose: Closing file fd: 0xf4
+[10:11:03.114] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/prev_vita.png
+[10:11:03.115] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/prev_vita.png (ux0:/app/PCSE00958/data/vita/ui/common/prev_vita.png), fd: 0xf5
+[10:11:03.135] |T| [close_file]: sceIoClose: Closing file fd: 0xf5
+[10:11:10.492] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/trophies.csv
+[10:11:10.501] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/trophies.csv (ux0:/app/PCSE00958/data/vita/ui/trophies.csv), fd: 0xf6
+[10:11:10.503] |T| [close_file]: sceIoClose: Closing file fd: 0xf6
+[10:11:10.506] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:11:10.507] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0xf7
+[10:11:10.509] |T| [close_file]: sceIoClose: Closing file fd: 0xf7
+[10:11:10.513] |I| [export_sceIoOpen]: Opening file: app0:/data/network/board.csv
+[10:11:10.520] |T| [open_file]: sceIoOpen: Opening file app0:/data/network/board.csv (ux0:/app/PCSE00958/data/network/board.csv), fd: 0xf8
+[10:11:10.523] |T| [close_file]: sceIoClose: Closing file fd: 0xf8
+[10:11:10.564] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_mark.png
+[10:11:10.572] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_mark.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_mark.png), fd: 0xf9
+[10:11:10.594] |T| [close_file]: sceIoClose: Closing file fd: 0xf9
+[10:11:10.661] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_mighty.png
+[10:11:10.669] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_mighty.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_mighty.png), fd: 0xfa
+[10:11:10.689] |T| [close_file]: sceIoClose: Closing file fd: 0xfa
+[10:11:10.745] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_wolf.png
+[10:11:10.752] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_wolf.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_wolf.png), fd: 0xfb
+[10:11:10.771] |T| [close_file]: sceIoClose: Closing file fd: 0xfb
+[10:11:10.827] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_bond.png
+[10:11:10.835] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_bond.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_bond.png), fd: 0xfc
+[10:11:10.854] |T| [close_file]: sceIoClose: Closing file fd: 0xfc
+[10:11:10.912] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_survival.png
+[10:11:10.919] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_survival.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_survival.png), fd: 0xfd
+[10:11:10.938] |T| [close_file]: sceIoClose: Closing file fd: 0xfd
+[10:11:10.995] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_grant.png
+[10:11:11.002] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_grant.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_grant.png), fd: 0xfe
+[10:11:11.021] |T| [close_file]: sceIoClose: Closing file fd: 0xfe
+[10:11:11.077] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_kain.png
+[10:11:11.086] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_kain.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_kain.png), fd: 0xff
+[10:11:11.105] |T| [close_file]: sceIoClose: Closing file fd: 0xff
+[10:11:11.160] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_terry.png
+[10:11:11.167] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_terry.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_terry.png), fd: 0x100
+[10:11:11.186] |T| [close_file]: sceIoClose: Closing file fd: 0x100
+[10:11:11.244] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_jaehoon.png
+[10:11:11.252] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_jaehoon.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_jaehoon.png), fd: 0x101
+[10:11:11.270] |T| [close_file]: sceIoClose: Closing file fd: 0x101
+[10:11:11.328] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_gato.png
+[10:11:11.335] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_gato.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_gato.png), fd: 0x102
+[10:11:11.354] |T| [close_file]: sceIoClose: Closing file fd: 0x102
+[10:11:11.411] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_bonne.png
+[10:11:11.419] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_bonne.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_bonne.png), fd: 0x103
+[10:11:11.438] |T| [close_file]: sceIoClose: Closing file fd: 0x103
+[10:11:11.495] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_tizoc.png
+[10:11:11.503] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_tizoc.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_tizoc.png), fd: 0x104
+[10:11:11.522] |T| [close_file]: sceIoClose: Closing file fd: 0x104
+[10:11:11.579] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_freeman.png
+[10:11:11.586] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_freeman.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_freeman.png), fd: 0x105
+[10:11:11.605] |T| [close_file]: sceIoClose: Closing file fd: 0x105
+[10:11:11.662] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_kevin.png
+[10:11:11.670] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_kevin.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_kevin.png), fd: 0x106
+[10:11:11.689] |T| [close_file]: sceIoClose: Closing file fd: 0x106
+[10:11:11.748] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_hokutomaru.png
+[10:11:11.756] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_hokutomaru.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_hokutomaru.png), fd: 0x107
+[10:11:11.774] |T| [close_file]: sceIoClose: Closing file fd: 0x107
+[10:11:11.829] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_khushnood.png
+[10:11:11.836] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_khushnood.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_khushnood.png), fd: 0x108
+[10:11:11.857] |T| [close_file]: sceIoClose: Closing file fd: 0x108
+[10:11:11.913] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_hotaru.png
+[10:11:11.920] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_hotaru.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_hotaru.png), fd: 0x109
+[10:11:11.938] |T| [close_file]: sceIoClose: Closing file fd: 0x109
+[10:11:11.996] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_donghwan.png
+[10:11:12.005] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_donghwan.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_donghwan.png), fd: 0x10a
+[10:11:12.025] |T| [close_file]: sceIoClose: Closing file fd: 0x10a
+[10:11:12.078] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/thumbs/trophies/clear_rock.png
+[10:11:12.086] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/thumbs/trophies/clear_rock.png (ux0:/app/PCSE00958/data/vita/thumbs/trophies/clear_rock.png), fd: 0x10b
+[10:11:12.105] |T| [close_file]: sceIoClose: Closing file fd: 0x10b
+[10:11:12.163] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/trophies/thumb_bar.png
+[10:11:12.171] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/trophies/thumb_bar.png (ux0:/app/PCSE00958/data/vita/ui/trophies/thumb_bar.png), fd: 0x10c
+[10:11:12.190] |T| [close_file]: sceIoClose: Closing file fd: 0x10c
+[10:11:12.263] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/trophies/locked.png
+[10:11:12.270] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/trophies/locked.png (ux0:/app/PCSE00958/data/vita/ui/trophies/locked.png), fd: 0x10d
+[10:11:12.289] |T| [close_file]: sceIoClose: Closing file fd: 0x10d
+[10:11:12.344] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/trophies/select.png
+[10:11:12.352] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/trophies/select.png (ux0:/app/PCSE00958/data/vita/ui/trophies/select.png), fd: 0x10e
+[10:11:12.371] |T| [close_file]: sceIoClose: Closing file fd: 0x10e
+[10:11:12.431] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/x_button.png
+[10:11:12.432] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/x_button.png (ux0:/app/PCSE00958/data/vita/ui/common/x_button.png), fd: 0x10f
+[10:11:12.450] |T| [close_file]: sceIoClose: Closing file fd: 0x10f
+[10:11:12.511] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/o_button.png
+[10:11:12.519] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/o_button.png (ux0:/app/PCSE00958/data/vita/ui/common/o_button.png), fd: 0x110
+[10:11:12.538] |T| [close_file]: sceIoClose: Closing file fd: 0x110
+[10:11:12.594] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/next_ps4.png
+[10:11:12.595] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/next_ps4.png (ux0:/app/PCSE00958/data/vita/ui/common/next_ps4.png), fd: 0x111
+[10:11:12.614] |T| [close_file]: sceIoClose: Closing file fd: 0x111
+[10:11:12.680] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/next_arrow.png
+[10:11:12.681] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/next_arrow.png (ux0:/app/PCSE00958/data/vita/ui/common/next_arrow.png), fd: 0x112
+[10:11:12.701] |T| [close_file]: sceIoClose: Closing file fd: 0x112
+[10:11:12.760] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/next_vita.png
+[10:11:12.762] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/next_vita.png (ux0:/app/PCSE00958/data/vita/ui/common/next_vita.png), fd: 0x113
+[10:11:12.780] |T| [close_file]: sceIoClose: Closing file fd: 0x113
+[10:11:12.845] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/prev_ps4.png
+[10:11:12.847] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/prev_ps4.png (ux0:/app/PCSE00958/data/vita/ui/common/prev_ps4.png), fd: 0x114
+[10:11:12.867] |T| [close_file]: sceIoClose: Closing file fd: 0x114
+[10:11:12.927] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/prev_arrow.png
+[10:11:12.928] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/prev_arrow.png (ux0:/app/PCSE00958/data/vita/ui/common/prev_arrow.png), fd: 0x115
+[10:11:12.950] |T| [close_file]: sceIoClose: Closing file fd: 0x115
+[10:11:13.013] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/common/prev_vita.png
+[10:11:13.014] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/common/prev_vita.png (ux0:/app/PCSE00958/data/vita/ui/common/prev_vita.png), fd: 0x116
+[10:11:13.033] |T| [close_file]: sceIoClose: Closing file fd: 0x116
+[10:11:13.096] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/trophies/body_bg.png
+[10:11:13.106] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/trophies/body_bg.png (ux0:/app/PCSE00958/data/vita/ui/trophies/body_bg.png), fd: 0x117
+[10:11:13.127] |T| [close_file]: sceIoClose: Closing file fd: 0x117
+[10:11:13.212] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/trophies/art_back.png
+[10:11:13.220] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/trophies/art_back.png (ux0:/app/PCSE00958/data/vita/ui/trophies/art_back.png), fd: 0x118
+[10:11:13.238] |T| [close_file]: sceIoClose: Closing file fd: 0x118
+[10:11:13.296] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/trophies/poster_lock.png
+[10:11:13.304] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/trophies/poster_lock.png (ux0:/app/PCSE00958/data/vita/ui/trophies/poster_lock.png), fd: 0x119
+[10:11:13.322] |T| [close_file]: sceIoClose: Closing file fd: 0x119
+[10:11:13.659] |T| [write_file]: *** TTY: GetGameDetails called from userId: 0x0 
+[10:11:13.660] |T| [write_file]: *** TTY: trophyGameInfoRetrievalSuccess event received
+[10:11:13.678] |T| [write_file]: *** TTY: GetUserTrophyDetails called from userId: 0x0 
+[10:11:13.678] |T| [write_file]: *** TTY: trophyListRetrievalSuccess event received
+[10:11:13.693] |I| [export_sceIoOpen]: Opening file: app0:/data/network/trophy.csv
+[10:11:13.701] |T| [open_file]: sceIoOpen: Opening file app0:/data/network/trophy.csv (ux0:/app/PCSE00958/data/network/trophy.csv), fd: 0x11a
+[10:11:13.703] |T| [close_file]: sceIoClose: Closing file fd: 0x11a
+[10:11:17.542] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/submenu.csv
+[10:11:17.543] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/submenu.csv (ux0:/app/PCSE00958/data/vita/ui/submenu.csv), fd: 0x11b
+[10:11:17.545] |T| [close_file]: sceIoClose: Closing file fd: 0x11b
+[10:11:17.547] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:11:17.548] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0x11c
+[10:11:17.551] |T| [close_file]: sceIoClose: Closing file fd: 0x11c
+[10:11:17.596] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/submenu/leaderboard.png
+[10:11:17.606] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/submenu/leaderboard.png (ux0:/app/PCSE00958/data/vita/ui/submenu/leaderboard.png), fd: 0x11d
+[10:11:17.625] |T| [close_file]: sceIoClose: Closing file fd: 0x11d
+[10:11:35.574] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/submenu.csv
+[10:11:35.576] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/submenu.csv (ux0:/app/PCSE00958/data/vita/ui/submenu.csv), fd: 0x11e
+[10:11:35.578] |T| [close_file]: sceIoClose: Closing file fd: 0x11e
+[10:11:35.580] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/commonmenu.csv
+[10:11:35.581] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/commonmenu.csv (ux0:/app/PCSE00958/data/vita/ui/commonmenu.csv), fd: 0x11f
+[10:11:35.582] |T| [close_file]: sceIoClose: Closing file fd: 0x11f
+[10:11:35.628] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/submenu/local_game.png
+[10:11:35.629] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/submenu/local_game.png (ux0:/app/PCSE00958/data/vita/ui/submenu/local_game.png), fd: 0x120
+[10:11:35.649] |T| [close_file]: sceIoClose: Closing file fd: 0x120
+[10:11:39.825] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/borders/large_001.dat
+[10:11:39.826] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/borders/large_001.dat (ux0:/app/PCSE00958/data/vita/borders/large_001.dat), fd: 0x121
+[10:11:39.828] |T| [close_file]: sceIoClose: Closing file fd: 0x121
+[10:11:40.007] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4j.bin
+[10:11:40.009] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4j.bin (ux0:/app/PCSE00958/data/rom/sp_4j.bin), fd: 0x122
+[10:11:40.011] |T| [close_file]: sceIoClose: Closing file fd: 0x122
+[10:11:40.012] |I| [export_sceIoOpen]: Opening file: app0:/data/rom/sp_4s.bin
+[10:11:40.013] |T| [open_file]: sceIoOpen: Opening file app0:/data/rom/sp_4s.bin (ux0:/app/PCSE00958/data/rom/sp_4s.bin), fd: 0x123
+[10:11:40.014] |T| [close_file]: sceIoClose: Closing file fd: 0x123
+[10:11:40.020] |I| [export_sceIoOpen]: Opening file: app0:/data/survival.bin
+[10:11:40.022] |T| [open_file]: sceIoOpen: Opening file app0:/data/survival.bin (ux0:/app/PCSE00958/data/survival.bin), fd: 0x124
+[10:11:40.024] |T| [close_file]: sceIoClose: Closing file fd: 0x124
+[10:11:40.029] |T| [write_file]: *** TTY: Save block 1 at offset 0x00000090
+[10:11:40.031] |T| [write_file]: *** TTY: Save block 2 at offset 0x00040944
+[10:11:40.031] |T| [write_file]: *** TTY: Save block 3 at offset 0x000409c8
+[10:11:40.032] |T| [write_file]: *** TTY: Save block 4 at offset 0x0004ca24
+[10:11:40.033] |T| [write_file]: *** TTY: Save block 5 at offset 0x0004ca64
+[10:11:40.034] |T| [write_file]: *** TTY: Save block 6 at offset 0x0006ce44
+[10:11:40.038] |T| [write_file]: *** TTY: Native block 1 at offset 0x00000090
+[10:11:40.038] |T| [write_file]: *** TTY: Native block 2 at offset 0x00040944
+[10:11:40.039] |T| [write_file]: *** TTY: Native block 3 at offset 0x000409c8
+[10:11:40.040] |T| [write_file]: *** TTY: Native block 4 at offset 0x0004ca24
+[10:11:40.041] |T| [write_file]: *** TTY: Native block 5 at offset 0x0004ca64
+[10:11:40.042] |T| [write_file]: *** TTY: Native block 6 at offset 0x0006ce44
+[10:11:40.042] |T| [write_file]: *** TTY: EGNG_GetStateSize is 0x0006ce40
+[10:13:09.506] |T| [write_file]: *** TTY: wins: 0 1 min 1
+[10:13:09.507] |T| [write_file]: *** TTY: WINNER = 2
+[10:13:24.520] |T| [write_file]: *** TTY: NetCheckDialogResult = 0x0
+[10:13:24.744] |T| [write_file]: *** TTY: FILE_Read TUS
+[10:13:24.753] |I| [export_sceIoOpen]: Opening file: app0:/data/vita/ui/popup.csv
+[10:13:24.754] |T| [open_file]: sceIoOpen: Opening file app0:/data/vita/ui/popup.csv (ux0:/app/PCSE00958/data/vita/ui/popup.csv), fd: 0x125
+[10:13:24.756] |T| [close_file]: sceIoClose: Closing file fd: 0x125
+[10:13:45.503] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[10:13:45.504] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[10:13:45.564] |C| [logging::exception_handler]: Exception EXCEPTION_ACCESS_VIOLATION (0xc0000005). 
+[10:13:45.565] |C| [logging::exception_handler]: DEP violation at address 0x2654cb8a380.

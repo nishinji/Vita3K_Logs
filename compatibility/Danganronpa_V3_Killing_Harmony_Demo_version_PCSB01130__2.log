@@ -1,0 +1,1584 @@
+[10:56:29.979] |I| [load_app_impl]: cpu-backend: Dynarmic
+[10:56:29.980] |I| [load_app_impl]: CPU Optimisation state: true
+[10:56:29.981] |I| [load_app_impl]: ngs state: true
+[10:56:29.997] |I| [load_app_impl]: Resolution multiplier: 1
+[10:56:29.998] |I| [load_app_impl]: modules mode: Automatic
+[10:56:29.999] |I| [load_app_impl]: Title: Danganronpa V3: Killing Harmony Demo version
+[10:56:30.003] |I| [load_app_impl]: Serial: PCSB01130
+[10:56:30.003] |I| [load_app_impl]: Version: 1.00
+[10:56:30.012] |I| [load_app_impl]: Category: gd
+[10:56:30.050] |I| [load_module]: Loading module "app0:eboot.bin"
+[10:56:30.829] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[10:56:30.830] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x806FFB80 / 0x81000000] (size: 0x006FBB80) of module app0:eboot.bin
+[10:56:30.834] |I| [load_self]: Loaded module segment 1 @ [0x80700000 - 0x80AC8AB0 / 0x816FC000] (size: 0x003C8AB0) of module app0:eboot.bin
+[10:56:30.838] |I| [load_self]: Linking SELF app0:eboot.bin...
+[10:56:30.840] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x805d438c
+[10:56:30.841] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x80722000
+[10:56:30.847] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x806c7d7c
+[10:56:30.888] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x805ee2d4, setting to stub value 0xdeadbeef
+[10:56:30.899] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x805ee0dc, setting to stub value 0xdeadbeef
+[10:56:30.909] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x805ee140, setting to stub value 0xdeadbeef
+[10:56:30.913] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x805ee2f8, setting to stub value 0xdeadbeef
+[10:56:30.917] |W| [load_var_imports]: 	NID NOT FOUND 0x1c7bab93 (UNRECOGNISED) at 0x805ed750, setting to stub value 0xdeadbeef
+[10:56:30.920] |W| [load_var_imports]: 	NID NOT FOUND 0x3eb20633 (UNRECOGNISED) at 0x805edbe4, setting to stub value 0xdeadbeef
+[10:56:30.924] |W| [load_var_imports]: 	NID NOT FOUND 0xa3df9f3e (UNRECOGNISED) at 0x805ee078, setting to stub value 0xdeadbeef
+[10:56:30.930] |W| [load_var_imports]: 	NID NOT FOUND 0xbfef56b5 (UNRECOGNISED) at 0x805ed0c8, setting to stub value 0xdeadbeef
+[10:56:30.936] |W| [load_var_imports]: 	NID NOT FOUND 0xcd4933d7 (UNRECOGNISED) at 0x805ed16c, setting to stub value 0xdeadbeef
+[10:56:30.941] |I| [load_module]: Module TaikenV3Vita (at "app0:eboot.bin") loaded
+[10:56:30.948] |I| [load_app_impl]: Main executable TaikenV3Vita (eboot.bin) loaded
+[10:56:30.950] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[10:56:30.992] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[10:56:30.997] |I| [load_self]: Loaded module segment 0 @ [0x80AD2000 - 0x80B238A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[10:56:31.000] |I| [load_self]: Loaded module segment 1 @ [0x80B24000 - 0x80B268A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[10:56:31.003] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[10:56:31.004] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x80b1b3f0
+[10:56:31.009] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x80b1a158
+[10:56:31.012] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x80b1b1e8
+[10:56:31.014] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x80b245b0
+[10:56:31.018] |D| [load_var_exports]: Found previously not found variable. nid:0x1c7bab93, new_entry_point:0x80b2631e
+[10:56:31.019] |D| [load_var_exports]: Found previously not found variable. nid:0x3eb20633, new_entry_point:0x80b2631f
+[10:56:31.024] |D| [load_var_exports]: Found previously not found variable. nid:0xa3df9f3e, new_entry_point:0x80b25568
+[10:56:31.027] |D| [load_var_exports]: Found previously not found variable. nid:0xbfef56b5, new_entry_point:0x80b26314
+[10:56:31.031] |D| [load_var_exports]: Found previously not found variable. nid:0xcd4933d7, new_entry_point:0x80b2631d
+[10:56:31.033] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80b19314
+[10:56:31.034] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80b0e4dc
+[10:56:31.036] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[10:56:31.040] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[10:56:31.072] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[10:56:31.074] |I| [load_self]: Loaded module segment 0 @ [0x80B27000 - 0x80B53CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[10:56:31.078] |I| [load_self]: Loaded module segment 1 @ [0x80AC9000 - 0x80ACE255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[10:56:31.082] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[10:56:31.084] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80b53bc8
+[10:56:31.088] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80b4af08
+[10:56:31.089] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[10:56:31.092] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[10:56:31.182] |I| [load_self]: Loaded module segment 0 @ [0x80B54000 - 0x80BA4F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[10:56:31.187] |I| [load_self]: Loaded module segment 1 @ [0x80ACF000 - 0x80ACF2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[10:56:31.190] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[10:56:31.192] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80b907dc
+[10:56:31.197] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80b8ff10
+[10:56:31.199] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[10:56:31.201] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[10:56:31.232] |I| [load_self]: Loaded module segment 0 @ [0x80BA5000 - 0x80BB4F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[10:56:31.237] |I| [load_self]: Loaded module segment 1 @ [0x80AD0000 - 0x80AD0008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[10:56:31.241] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[10:56:31.243] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80bb3710
+[10:56:31.246] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80bb3300
+[10:56:31.248] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[10:56:31.355] |D| [start_module]: Running module_start of library: SceLibc at address 0x80ad2871
+[10:56:31.503] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[10:56:31.505] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[10:56:31.507] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[10:56:31.571] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[10:56:31.581] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x80b27001
+[10:56:31.656] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[10:56:31.672] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[10:56:31.745] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x805d3e6c
+[10:56:31.829] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x54f87eac _sceLdTlsRegisterModuleInfo at 0x805d3cac
+[10:56:31.905] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x805d3d7c
+[10:56:32.032] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x805d3e8c
+[10:56:32.036] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x805d3edc
+[10:56:32.041] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x805d3c8c
+[10:56:32.393] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x805d409c
+[10:56:32.419] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x805d40dc
+[10:56:32.609] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x805d3cec
+[10:56:32.673] |W| [export_sceKernelGetFreeMemorySize::<lambda_1>::operator ()]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[10:56:33.182] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa1bff606 snprintf at 0x805d3ddc
+[10:56:33.243] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x805d3dcc
+[10:56:33.324] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x805d3cfc
+[10:56:33.379] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[10:56:33.410] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[10:56:33.415] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[10:56:33.468] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[10:56:33.472] |I| [load_self]: Loaded module segment 0 @ [0x80CB6000 - 0x80CCA9FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[10:56:33.476] |I| [load_self]: Loaded module segment 1 @ [0x80CCB000 - 0x80CCB06C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[10:56:33.482] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[10:56:33.491] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80cc7d40
+[10:56:33.503] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80cc6548
+[10:56:33.505] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[10:56:33.508] |D| [start_module]: Running module_start of library: SceAvPlayer at address 0x80cb6001
+[10:56:33.818] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[10:56:33.833] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[10:56:34.425] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[10:56:34.670] |I| [load_self]: Loaded module segment 0 @ [0x80CCC000 - 0x80CDBD20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[10:56:34.676] |I| [load_self]: Loaded module segment 1 @ [0x80CDC000 - 0x80CDC028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[10:56:34.681] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[10:56:34.682] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80cdb9d0
+[10:56:34.685] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80cda8c4
+[10:56:34.687] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[10:56:35.410] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[10:56:35.717] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[10:56:35.891] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[10:56:37.004] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x805d3d5c
+[10:56:38.864] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x805d3efc
+[10:56:39.440] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x805d3eac
+[10:56:39.555] |I| [export_sceIoOpen]: Opening file: app0:/data/VITA_DEMO/partition_resident_vita_demo.cpk
+[10:56:39.558] |T| [open_file]: sceIoOpen: Opening file app0:/data/VITA_DEMO/partition_resident_vita_demo.cpk (ux0:/app/PCSB01130/data/VITA_DEMO/partition_resident_vita_demo.cpk), fd: 0x3
+[10:56:39.654] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[10:56:39.688] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x805d3bec
+[10:56:39.705] |I| [export_sceIoOpen]: Opening file: app0:/data/VITA_DEMO/partition_resident_vita_demo.cpk
+[10:56:39.707] |T| [open_file]: sceIoOpen: Opening file app0:/data/VITA_DEMO/partition_resident_vita_demo.cpk (ux0:/app/PCSB01130/data/VITA_DEMO/partition_resident_vita_demo.cpk), fd: 0x4
+[10:56:39.760] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x805d3c3c
+[10:56:39.790] |I| [export_sceIoOpen]: Opening file: app0:/data/VITA_DEMO/partition_data_vita_demo.cpk
+[10:56:39.792] |T| [open_file]: sceIoOpen: Opening file app0:/data/VITA_DEMO/partition_data_vita_demo.cpk (ux0:/app/PCSB01130/data/VITA_DEMO/partition_data_vita_demo.cpk), fd: 0x5
+[10:56:39.795] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[10:56:39.799] |I| [export_sceIoOpen]: Opening file: app0:/data/VITA_DEMO/partition_data_vita_demo.cpk
+[10:56:39.803] |T| [open_file]: sceIoOpen: Opening file app0:/data/VITA_DEMO/partition_data_vita_demo.cpk (ux0:/app/PCSB01130/data/VITA_DEMO/partition_data_vita_demo.cpk), fd: 0x6
+[10:56:39.813] |E| [export_sceSysmoduleIsLoaded::<lambda_2>::operator ()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[10:56:39.819] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[10:56:39.907] |W| [export_sceSysmoduleUnloadModule::<lambda_1>::operator ()]: Unimplemented sceSysmoduleUnloadModule import called.
+[10:56:40.104] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x805d3f7c
+[10:56:42.715] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbc529b7b __tls_get_addr at 0x805d3e4c
+[10:56:44.729] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SCREEN_SHOT
+[10:56:44.853] |W| [export_sceScreenShotSetParam::<lambda_1>::operator ()]: Unimplemented sceScreenShotSetParam import called.
+[10:56:44.858] |W| [export_sceScreenShotDisable::<lambda_1>::operator ()]: Unimplemented sceScreenShotDisable import called.
+[10:56:44.863] |W| [export_sceScreenShotSetOverlayImage::<lambda_1>::operator ()]: Unimplemented sceScreenShotSetOverlayImage import called.
+[10:56:44.865] |W| [export_sceScreenShotEnable::<lambda_1>::operator ()]: Unimplemented sceScreenShotEnable import called.
+[10:56:46.009] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8e5a06c5 abs at 0x805d3d8c
+[10:56:46.012] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x93fc85ed _FSinx at 0x805d3f9c
+[10:56:46.289] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0x7449b359 sprintf at 0x805d3d0c
+[10:56:46.436] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa98e941b tanf at 0x805d3fac
+[10:56:48.247] |W| [export___sceAppMgrGetAppState::<lambda_1>::operator ()]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[10:56:48.752] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[10:56:49.104] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5bd8d5c _FLog at 0x805d3fdc
+[10:56:49.109] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x56473bc7 expf at 0x805d3f4c
+[10:56:49.223] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4c847adf sceAvPlayerInit at 0x805d30ac
+[10:56:49.234] |W| [export_sceGxmColorSurfaceSetClip::<lambda_1>::operator ()]: Unimplemented sceGxmColorSurfaceSetClip import called.
+[10:56:50.498] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbc83c8fd sceAvPlayerAddSource at 0x805d30bc
+[10:56:50.513] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5474af0 sceMp4OpenFile at 0x80cc61a8
+[10:56:50.572] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec103adf sceAvPlayerSetLooping at 0x805d30cc
+[10:56:50.580] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x30e49e4d sceMp4StartFileStreaming at 0x80cc61c8
+[10:56:50.617] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x22986cd1 sceAvPlayerGetVideoDataEx at 0x805d387c
+[10:56:51.343] |E| [mutex_lock_impl::<lambda_3>::operator ()]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[10:56:51.483] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcefdd143 strrchr at 0x805d3e7c
+[10:56:52.347] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x2cd86fd6 sceAvPlayerStreamCount at 0x805d389c
+[10:56:52.351] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0xd5b26179 UNRECOGNISED at 0x80cc62c8
+[10:56:52.485] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x34e2d370 sceAvPlayerGetStreamInfo at 0x805d38bc
+[10:56:52.495] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x70127ab8 sceAvPlayerEnableStream at 0x805d38ec
+[10:56:52.805] |W| [export_sceVideodecQueryMemSize::<lambda_1>::operator ()]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[10:56:54.262] |W| [export_sceCodecEngineAllocMemoryFromUnmapMemBlock::<lambda_1>::operator ()]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[10:56:55.358] |W| [export_sceGxmSetFrontLineFillLastPixelEnable::<lambda_1>::operator ()]: Unimplemented sceGxmSetFrontLineFillLastPixelEnable import called.
+[10:56:55.566] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x609e57ad sceMp4EnableStream at 0x80cc6208
+[10:56:55.665] |T| [log_import_call]: [LLE] TID: 197 FUNC: 0x2acb4217 sceAvPlayerStart at 0x805d388c
+[10:56:55.752] |T| [log_import_call]: [LLE] TID: 259 FUNC: 0x20a01112 sceMp4GetNextUnit at 0x80cc61b8
+[10:56:56.344] |T| [log_import_call]: [LLE] TID: 259 FUNC: 0xd092a066 sceMp4GetNextUnitData at 0x80cc62a8
+[10:56:57.921] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x19b1bd97ec0, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[10:56:58.127] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[10:56:58.448] |E| [handle_timeout::<lambda_2>::operator ()]: _sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[10:56:59.134] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x19b1bd97ec0, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[10:56:59.235] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8b6bebad06daabbe5e7ad243f56e548249e09bfccb1405499cf2fcf4806e6f2d
+[10:56:59.280] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 8b6bebad06daabbe5e7ad243f56e548249e09bfccb1405499cf2fcf4806e6f2d
+[10:57:00.932] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:57:00.934] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[10:57:01.038] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[10:57:01.043] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:01.089] |T| [shader::usse::USSETranslatorVisitor::smlsi]: 	fa10000a38013801: SMLSI swizz.(0230)  inc.1 swizz.(0230)  inc.1 
+[10:57:01.178] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o0.xy pa0.xy 
+[10:57:01.180] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o4.xy pa4.xy 
+[10:57:01.182] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o6.xy pa6.xy 
+[10:57:01.186] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[10:57:01.189] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501000: VMAD2 o2.x pa2.x sa0.y -sa0.x
+[10:57:01.193] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882050941100040: VMOV.f32 o8.x c1.y 
+[10:57:01.194] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:57:02.429] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 93887b2b715fd2204dedd738122c8633b1bfdaf7f9dcae20598acedd5b4d4437
+[10:57:02.434] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 93887b2b715fd2204dedd738122c8633b1bfdaf7f9dcae20598acedd5b4d4437
+[10:57:02.459] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[10:57:02.461] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[10:57:02.463] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:05.940] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2e4ff35f sceAvPlayerIsActive at 0x805d38ac
+[10:57:05.949] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x804dcecd sceAvPlayerCurrentTime at 0x805d390c
+[10:57:06.161] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x805d3d2c
+[10:57:06.253] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d23774b61621dc994903a7d08e90a69d85a44b078bc53fe6c70564164d72aa3a
+[10:57:06.257] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d23774b61621dc994903a7d08e90a69d85a44b078bc53fe6c70564164d72aa3a
+[10:57:06.270] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:57:06.272] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[10:57:06.274] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[10:57:06.280] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:06.283] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o0.xy pa0.xy 
+[10:57:06.285] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o2.xy pa2.xy 
+[10:57:06.287] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o4.xy pa4.xy 
+[10:57:06.289] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:57:06.301] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5aa7e0c3f85f4fe2bcd9e425fa19c891f28fc7920ff49083338bbed83fff1958
+[10:57:06.304] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5aa7e0c3f85f4fe2bcd9e425fa19c891f28fc7920ff49083338bbed83fff1958
+[10:57:06.312] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp0, TEXCOORD0.xy)
+[10:57:06.408] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[10:57:06.411] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:06.808] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcd7c05bd floorf at 0x805d3fcc
+[10:57:06.859] |T| [log_import_call]: [LLE] TID: 171 FUNC: 0x6bbfec89 ceilf at 0x805d3f6c
+[10:57:10.581] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbd35e360 sceAvPlayerStop at 0x805d391c
+[10:57:10.648] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc05dff01 UNRECOGNISED at 0x80cc6288
+[10:57:10.673] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x40351e1a sceMp4Reset at 0x80cc61e8
+[10:57:10.723] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7aa29b2d sceAvPlayerClose at 0x805d38fc
+[10:57:10.772] |W| [export_sceCodecEngineFreeMemoryFromUnmapMemBlock::<lambda_1>::operator ()]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[10:57:10.936] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x920623c8 sceMp4CloseFile at 0x80cc6238
+[10:57:10.968] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7b4832fe sceMp4ReleaseBuffer at 0x80cc6228
+[10:57:11.132] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2705ee10b8db6d2c3eb2c2e62bd43ecacdfca294cde70390d40d126a8ec7d8fb
+[10:57:11.137] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 2705ee10b8db6d2c3eb2c2e62bd43ecacdfca294cde70390d40d126a8ec7d8fb
+[10:57:11.160] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:57:11.161] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[10:57:11.166] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[10:57:11.168] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[10:57:11.169] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:11.171] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183000000: VMOV.f32 o0.xy pa0.xy 
+[10:57:11.173] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[10:57:11.175] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38801521c3080000: VMOV.f32 o4.xy sa0.xy 
+[10:57:11.181] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38801521c3080000: VMOV.f32 o6.xy sa2.xy 
+[10:57:11.183] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183100080: VMOV.f32 o8.xy pa4.xy 
+[10:57:11.185] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501082: VMAD2 o2.x pa2.x sa4.y -sa4.x
+[10:57:11.187] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882050941140040: VMOV.f32 o10.x c1.y 
+[10:57:11.188] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:57:11.212] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a2063d857ea113ba303b2761f544445f1e5c4993ede35556e6883897d755e683
+[10:57:11.215] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader a2063d857ea113ba303b2761f544445f1e5c4993ede35556e6883897d755e683
+[10:57:11.219] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[10:57:11.222] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_samp0, TEXCOORD0.xy)
+[10:57:11.224] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:57:11.226] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:11.229] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44786a0040001: VF16MUL pa0.xyzw pa0.xyzw pa2.xyzw
+[10:57:16.062] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d555e9ef3de38eab8983db423c25ef5a6c87d1869c174512f5082611b2581b1c
+[10:57:16.072] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d555e9ef3de38eab8983db423c25ef5a6c87d1869c174512f5082611b2581b1c
+[10:57:16.079] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:57:16.084] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[10:57:16.086] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_texcoord0
+[10:57:16.094] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_system_virtual_screen_param
+[10:57:16.097] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[10:57:16.102] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000280000001: VRCP sa0.x sa0.x
+[10:57:16.104] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000a80000002: VRCP sa0.-y sa0.-y
+[10:57:16.109] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a5018690040004: VMUL sa0.xy sa0.xy c4.xx
+[10:57:16.112] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[10:57:16.114] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[10:57:16.117] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:16.123] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183080080: VMOV.f32 o4.xy pa4.xy 
+[10:57:16.128] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183080080: VMOV.f32 o6.xy pa6.xy 
+[10:57:16.130] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183080080: VMOV.f32 o8.xy pa8.xy 
+[10:57:16.135] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a03186f0000002: VMAD2 pa0.xy pa0.xy sa0.xy sa4.yy
+[10:57:16.141] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c44189e02280c0: VMUL o0.xy sa6.1x pa0.xy
+[10:57:16.146] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00800086f0401083: VMAD2 pa2.x pa2.x sa4.x sa6.x
+[10:57:16.167] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d8da0430102: VPCKF32F32 o2.xy (pa2.xw pa2.xyzw) [noscale]
+[10:57:16.172] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882050941140040: VMOV.f32 o10.x c1.y 
+[10:57:16.174] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:57:16.197] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 36e6e73f87e35fe461eba6a70b3154b87ebc5cbb63b54e9e6aa6de3fd5e54993
+[10:57:16.202] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 36e6e73f87e35fe461eba6a70b3154b87ebc5cbb63b54e9e6aa6de3fd5e54993
+[10:57:16.206] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[10:57:16.207] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[10:57:16.208] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp, TEXCOORD0.xy)
+[10:57:16.210] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[10:57:16.214] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40840d7ea0198002: VPCKF16F32 sa0.xyzw (sa0.xyzw sa2.xyzw) [noscale]
+[10:57:16.218] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:57:16.220] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:16.221] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a09286b0000040: VF16MAD2 pa0.xyzw pa0.xyzw pa2.xyzw sa0.xyzw
+[10:57:21.980] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x805d3e1c
+[10:57:22.866] |T| [log_import_call]: [LLE] TID: 75  FUNC: 0x1167b5d2 modf at 0x805d3f0c
+[10:57:23.132] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a264fa6d004240856ae2b0c07dae8274d9f7be1409088d4b2cc809f38e818cf9
+[10:57:23.147] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader a264fa6d004240856ae2b0c07dae8274d9f7be1409088d4b2cc809f38e818cf9
+[10:57:23.157] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:57:23.159] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[10:57:23.161] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[10:57:23.163] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:23.165] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183000000: VMOV.f32 o0.xy pa0.xy 
+[10:57:23.171] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[10:57:23.173] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38801521c3080000: VMOV.f32 o4.xy sa0.xy 
+[10:57:23.176] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38801521c3080000: VMOV.f32 o6.xy sa2.xy 
+[10:57:23.179] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501082: VMAD2 o2.x pa2.x sa4.y -sa4.x
+[10:57:23.180] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882050941100040: VMOV.f32 o8.x c1.y 
+[10:57:23.182] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:57:23.288] |E| [export_sceNgsVoiceResume::<lambda_2>::operator ()]: sceNgsVoiceResume returned SCE_NGS_ERROR_INVALID_STATE (0x804a0010)
+[10:57:23.429] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b08fa01d19b31af9351c5954f27d8fc19117cd134e6ab41aa412619626bf3fd3
+[10:57:23.432] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b08fa01d19b31af9351c5954f27d8fc19117cd134e6ab41aa412619626bf3fd3
+[10:57:23.439] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:57:23.440] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[10:57:23.442] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_texcoord0
+[10:57:23.443] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_system_virtual_screen_param
+[10:57:23.445] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float2) mask_position_ex0
+[10:57:23.446] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) mask_position_ex3
+[10:57:23.448] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[10:57:23.449] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000280000001: VRCP sa0.x sa0.x
+[10:57:23.452] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000a80000002: VRCP sa0.-y sa0.-y
+[10:57:23.453] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a5018691840004: VMUL sa12.xy sa0.xy c4.xx
+[10:57:23.457] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a441a6a0041083: VADD sa0.xy -sa4.xy sa6.xy
+[10:57:23.459] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000280200001: VRCP sa2.x sa0.x
+[10:57:23.462] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000a80200002: VRCP sa2.-y sa0.-y
+[10:57:23.463] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a441a6a0040081: VMUL sa0.xy -sa4.xy sa2.xy
+[10:57:23.465] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[10:57:23.467] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[10:57:23.469] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:23.472] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183080080: VMOV.f32 o4.xy pa4.xy 
+[10:57:23.476] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183080080: VMOV.f32 o6.xy pa6.xy 
+[10:57:23.478] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183080080: VMOV.f32 o8.xy pa8.xy 
+[10:57:23.480] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a03186f0000184: VMAD2 pa0.xy pa0.xy sa12.xy sa8.yy
+[10:57:23.482] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c44189e0228140: VMUL o0.xy sa10.1x pa0.xy
+[10:57:23.486] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00800086f0401105: VMAD2 pa2.x pa2.x sa8.x sa10.x
+[10:57:23.489] |W| [ngs::EqualizerModule::process]: Game is using unimplemented equalizer audio module
+[10:57:23.490] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d8da0430102: VPCKF32F32 o2.xy (pa2.xw pa2.xyzw) [noscale]
+[10:57:23.493] |W| [ngs::EnvelopeModule::process]: Game is using unimplemented envelope audio module
+[10:57:23.496] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800522c3000040: VMOV.f32 pa0.xy sa2.xy 
+[10:57:23.503] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a0918571400000: VMAD2 o10.xy pa0.xy o0.xy sa0.xy
+[10:57:23.509] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882050941180040: VMOV.f32 o12.x c1.y 
+[10:57:23.511] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:57:23.549] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 60a85add7c29331b3b55df19c0567f202151aef930b9fda33bd0d6410da1521d
+[10:57:23.556] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 60a85add7c29331b3b55df19c0567f202151aef930b9fda33bd0d6410da1521d
+[10:57:23.561] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[10:57:23.562] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) _sp_alpha
+[10:57:23.568] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) mask_position0
+[10:57:23.569] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float2) mask_position3
+[10:57:23.571] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_Position
+[10:57:23.572] |T| [shader::create_fragment_inputs]: pa2 = tex2D<float4>(samp, TEXCOORD0.xy)
+[10:57:23.574] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (float4) v_Color0
+[10:57:23.577] |T| [shader::create_fragment_inputs]: pa10 = tex2D<float4>(sampMask, TEXCOORD1.xy)
+[10:57:23.578] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:57:23.582] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	5081000aa1800480: OR sa12.x sa9.x 0x0
+[10:57:23.586] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	5085000aa1c00380: OR sa14.x sa7.x 0x0
+[10:57:23.587] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[10:57:23.587] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44010000000000: PHAS
+[10:57:23.589] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4888c515b0038006: CMP.le.f32 p1 pa0.-y sa12.-x
+[10:57:23.590] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a09186b0403040: VMAD2 pa2.xy pa6.xy pa2.xy sa0.xy
+[10:57:23.593] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a09186b0802101: VMAD2 pa4.xy pa4.xy pa8.xy sa2.xy
+[10:57:23.600] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c0110aa0848086: VMUL pa4.-y pa4.-y pa12.-y
+[10:57:23.602] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 1
+[10:57:23.603] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4a888505b0038004: p1 CMP.le.f32 p1 pa0.x sa8.x
+[10:57:23.605] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_6, size = 1
+[10:57:23.607] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4a88c915b0038007: p1 CMP.ge.f32 p1 pa0.-y sa14.-x
+[10:57:23.613] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_7, size = 1
+[10:57:23.614] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4a888905b0038003: p1 CMP.ge.f32 p1 pa0.x sa6.x
+[10:57:23.619] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_8, size = 1
+[10:57:23.621] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4a88c915b0038102: p1 CMP.ge.f32 p1 pa4.-y sa4.-x
+[10:57:23.624] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_9, size = 1
+[10:57:23.625] |T| [shader::usse::USSETranslatorVisitor::kill]: 	f9300406f000050a: KILL p1 
+[10:57:23.629] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_10, size = 3
+[10:57:23.631] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[10:57:23.633] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:23.637] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d7ea0198104: VPCKF16F32 pa0.xyzw (pa2.xyzw pa4.xyzw) [noscale]
+[10:57:31.534] |T| [log_import_call]: [LLE] TID: 174 FUNC: 0xaaa6aaa2 wcsncmp at 0x805d3e0c
+[10:57:31.690] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader bc0f1cd9c5b90b8807dfa8103ff2cfec5fca4950b92f00965fc4c8f85c68d88a
+[10:57:31.709] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader bc0f1cd9c5b90b8807dfa8103ff2cfec5fca4950b92f00965fc4c8f85c68d88a
+[10:57:31.717] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:57:31.719] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[10:57:31.751] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_texcoord0
+[10:57:31.758] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_system_virtual_screen_param
+[10:57:31.759] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) _sp_position_z
+[10:57:31.760] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float2) _sp_size
+[10:57:31.764] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[10:57:31.765] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000280600181: VRCP sa6.x sa6.x
+[10:57:31.767] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000a80600182: VRCP sa6.-y sa6.-y
+[10:57:31.768] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000280000001: VRCP sa0.x sa0.x
+[10:57:31.770] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	3080000a80000002: VRCP sa0.-y sa0.-y
+[10:57:31.773] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a5018690440004: VMUL sa2.xy sa0.xy c4.xx
+[10:57:31.775] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00800086a0002105: VMAD2 sa0.x sa4.x sa8.x sa10.x
+[10:57:31.864] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[10:57:31.864] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[10:57:31.889] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:31.890] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880152183080080: VMOV.f32 o4.xy pa4.xy 
+[10:57:31.890] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880152183080080: VMOV.f32 o6.xy pa6.xy 
+[10:57:31.890] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44185e10400c4: VMUL o8.xy sa6.xy pa8.xy
+[10:57:31.890] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a03186f0000044: VMAD2 pa0.xy pa0.xy sa2.xy sa8.yy
+[10:57:31.891] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c44189e0228140: VMUL o0.xy sa10.1x pa0.xy
+[10:57:31.891] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800502c1040000: VMOV.f32 pa2.x sa0.x 
+[10:57:31.891] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d8da0430102: VPCKF32F32 o2.xy (pa2.xw pa2.xyzw) [noscale]
+[10:57:31.892] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:57:31.903] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 7bcb397d863f858b136b9e4cb3d0d114428ce7bb85d3a2521acfb6fbd0311c7c
+[10:57:31.904] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 7bcb397d863f858b136b9e4cb3d0d114428ce7bb85d3a2521acfb6fbd0311c7c
+[10:57:31.960] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[10:57:31.961] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[10:57:31.961] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[10:57:31.962] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44010000000000: PHAS
+[10:57:31.962] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40406a02d8001: VF16MUL pa0.---w pa0.---w pa2.---x
+[10:57:31.962] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48894ab590038000: CMP.gt.f16 p1 pa0.---w c0.---x
+[10:57:31.962] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[10:57:31.963] |T| [shader::usse::USSETranslatorVisitor::kill]: 	f9300406f0000000: KILL p1 
+[10:57:31.963] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 2
+[10:57:31.963] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[10:57:31.964] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:57:47.215] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[10:57:47.218] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[10:59:23.204] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9ef7c0c441aca41028999b8b2934ee6033387bf9f2fc29bafb01768b948dc94b
+[10:59:23.227] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9ef7c0c441aca41028999b8b2934ee6033387bf9f2fc29bafb01768b948dc94b
+[10:59:23.231] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:59:23.232] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[10:59:23.236] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) _sp_position_z
+[10:59:23.238] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[10:59:23.242] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08800082a0000001: VMUL sa0.x sa0.x sa2.x
+[10:59:23.243] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	088008a2a0401080: VADD sa2.x -sa4.x sa0.x
+[10:59:23.245] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a510849f046081: VMAX i0.x sa4.x c1.y
+[10:59:23.247] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c000868028d07c: VMIN sa0.x sa2.y i0.x
+[10:59:23.249] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[10:59:23.251] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[10:59:23.253] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:23.257] |T| [shader::usse::USSETranslatorVisitor::smlsi]: 	fa10000a0e010e01: SMLSI swizz.(2300)  inc.1 swizz.(2300)  inc.1 
+[10:59:23.262] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o4.xy pa4.xy 
+[10:59:23.357] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o6.xy pa6.xy 
+[10:59:23.359] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o0.xy pa0.xy 
+[10:59:23.361] |T| [shader::usse::USSETranslatorVisitor::smlsi]: 	fa10000001010101: SMLSI  inc.1  inc.1  inc.1  inc.1 
+[10:59:23.363] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	5081000ae0400100: OR pa2.x sa2.x 0x0
+[10:59:23.365] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d8da0430102: VPCKF32F32 o2.xy (pa2.xw pa2.xyzw) [noscale]
+[10:59:23.369] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009e1000000: OR o8.x sa0.x 0x0
+[10:59:23.370] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:23.386] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6ed95c38e6a6d21efc8c66417632f97346276cd35e83837bddea2dc59d66ae04
+[10:59:23.393] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 6ed95c38e6a6d21efc8c66417632f97346276cd35e83837bddea2dc59d66ae04
+[10:59:23.397] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[10:59:23.399] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[10:59:23.400] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[10:59:23.402] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40840d7ea0198002: VPCKF16F32 sa0.xyzw (sa0.xyzw sa2.xyzw) [noscale]
+[10:59:23.411] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:59:23.412] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:23.413] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44786b0041000: VF16ADD pa0.xyzw pa0.xyzw sa0.xyzw
+[10:59:24.470] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6bf3efe8914261290b7753b6dde4e10ea3cc4eb9ab47df534cef593482aa7c76
+[10:59:24.476] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 6bf3efe8914261290b7753b6dde4e10ea3cc4eb9ab47df534cef593482aa7c76
+[10:59:24.480] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:59:24.481] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[10:59:24.482] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_texcoord0
+[10:59:24.485] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[10:59:24.487] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:24.491] |T| [shader::usse::USSETranslatorVisitor::smlsi]: 	fa10000a38013801: SMLSI swizz.(0230)  inc.1 swizz.(0230)  inc.1 
+[10:59:24.492] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o0.xy pa0.xy 
+[10:59:24.494] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o4.xy pa4.xy 
+[10:59:24.496] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880252183000000: VMOV.f32 o6.xy pa6.xy 
+[10:59:24.502] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[10:59:24.503] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183100100: VMOV.f32 o8.xy pa8.xy 
+[10:59:24.508] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501000: VMAD2 o2.x pa2.x sa0.y -sa0.x
+[10:59:24.509] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882050941140040: VMOV.f32 o10.x c1.y 
+[10:59:24.511] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:24.560] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9a81660ca9b6014c88c57be4865f0fcfed6baada227d865c39c02e64fc4ed621
+[10:59:24.560] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9a81660ca9b6014c88c57be4865f0fcfed6baada227d865c39c02e64fc4ed621
+[10:59:24.567] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[10:59:24.568] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[10:59:24.569] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:59:24.571] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:24.574] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c4f786a0040040: VF16MUL pa0.xyzw pa2.xyz1 pa0.xyz1
+[10:59:24.678] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9d7c64f0cc442588b6ba081c4586a0c36a6b96e21dc1b305e7422edf67eba363
+[10:59:24.681] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9d7c64f0cc442588b6ba081c4586a0c36a6b96e21dc1b305e7422edf67eba363
+[10:59:24.785] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[10:59:24.786] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[10:59:24.790] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[10:59:24.791] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:24.793] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183000000: VMOV.f32 o0.xy pa0.xy 
+[10:59:24.794] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[10:59:24.797] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080080: VMOV.f32 o4.xy pa4.xy 
+[10:59:24.800] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501000: VMAD2 o2.x pa2.x sa0.y -sa0.x
+[10:59:24.801] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:24.812] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5fac5e8c438c05919aa88b277da08a0e67c47c8b99def37eda3b3dec6a5f5d16
+[10:59:24.816] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5fac5e8c438c05919aa88b277da08a0e67c47c8b99def37eda3b3dec6a5f5d16
+[10:59:24.823] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[10:59:24.824] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[10:59:24.826] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:28.153] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0xe71c5cde _Stoul at 0x805d3ebc
+[10:59:29.945] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd78fc94e atanf at 0x805d3fec
+[10:59:32.329] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 61e7de180cd6a9f8eb24e41a38ca3a833e1fe39d272729ecdc2141108672d7f7
+[10:59:32.338] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 61e7de180cd6a9f8eb24e41a38ca3a833e1fe39d272729ecdc2141108672d7f7
+[10:59:32.348] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[10:59:32.368] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:32.370] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[10:59:32.373] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:32.428] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f800094000000000: NOP
+[10:59:32.431] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:32.436] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:32.456] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:32.460] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:32.463] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:32.467] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:32.472] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:32.483] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ed18f86c725a41cce4a91efdd647b8aebf48a071df0eea823f30a03122e700a5
+[10:59:32.485] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader ed18f86c725a41cce4a91efdd647b8aebf48a071df0eea823f30a03122e700a5
+[10:59:32.490] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:59:32.491] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:32.499] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882040a450003c0: VMOV.f16 pa0.xyzw c15.yyyy 
+[10:59:32.501] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d205e248b63b3d8854ec2dd1ff01caa77cf87e634928e9c03a248f589979f813
+[10:59:32.505] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d205e248b63b3d8854ec2dd1ff01caa77cf87e634928e9c03a248f589979f813
+[10:59:32.512] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[10:59:32.513] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[10:59:32.514] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv00
+[10:59:32.516] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:32.518] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[10:59:32.520] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[10:59:32.521] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:32.529] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183080100: VMOV.f32 o4.xy pa8.xy 
+[10:59:32.530] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:32.533] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:32.535] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:32.538] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:32.546] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:32.549] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:32.552] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818206: VPCKF32F32 i0.xyz (pa4.xyz pa6.xyzw) [noscale]
+[10:59:32.555] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[10:59:32.561] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[10:59:32.564] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c0c9110c: VMAD o6.xy i0.zz sa24.xy i1.xy
+[10:59:32.567] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18081c108900d: VMAD o8.x i0.z sa26.x i1.z
+[10:59:32.568] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:32.634] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader eb70b7178790c76a21a2758e11ede1c4ba1a96d89ea0e722089759ccd6a4cad3
+[10:59:32.639] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader eb70b7178790c76a21a2758e11ede1c4ba1a96d89ea0e722089759ccd6a4cad3
+[10:59:32.713] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[10:59:32.714] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:59:32.716] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:32.717] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1086f782602483c0: VF16MUL pa0.xyzw c15.yyyy pa0.xyz1
+[10:59:32.967] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 31f2d5f8b4f07e50afd78bd74d1dceb559e9cfaee28b2d6821db0886891e361b
+[10:59:32.976] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 31f2d5f8b4f07e50afd78bd74d1dceb559e9cfaee28b2d6821db0886891e361b
+[10:59:32.981] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[10:59:32.983] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[10:59:32.989] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[10:59:32.991] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[10:59:32.994] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:32.995] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[10:59:32.999] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[10:59:33.000] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:33.003] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080180: VMOV.f32 o4.xy pa12.xy 
+[10:59:33.005] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d21830c0100: VMOV.f32 o6.xy pa8.xy 
+[10:59:33.007] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:33.011] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:33.022] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:33.029] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:33.033] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:33.041] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:33.045] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818206: VPCKF32F32 i0.xyz (pa4.xyz pa6.xyzw) [noscale]
+[10:59:33.049] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[10:59:33.053] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[10:59:33.057] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c109110c: VMAD o8.xy i0.zz sa24.xy i1.xy
+[10:59:33.062] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18081c148900d: VMAD o10.x i0.z sa26.x i1.z
+[10:59:33.064] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:33.097] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1633b4bae0ea51fe77c37e0a402d32d7a5efa1cbbfc63f1960992584f8312e40
+[10:59:33.100] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1633b4bae0ea51fe77c37e0a402d32d7a5efa1cbbfc63f1960992584f8312e40
+[10:59:33.106] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[10:59:33.107] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp00, TEXCOORD1.xy)
+[10:59:33.108] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[10:59:33.113] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:33.117] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10864382606493c1: VF16ADD pa2.xyz c15.yyy pa2.xyz
+[10:59:33.124] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643a2606493c1: VF16ADD pa2.xyz -c15.yyy pa2.xyz
+[10:59:33.131] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386a0040001: VF16MUL pa0.xyz pa0.xyz pa2.xyz
+[10:59:33.134] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader dc2fd222f102a0bccc07e007ad6527cfaa5ad8c7c46a9a49cb000e0a575465fb
+[10:59:33.134] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643826024d3c0: VF16MIN pa0.xyz c15.yyy pa0.xyz
+[10:59:33.137] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader dc2fd222f102a0bccc07e007ad6527cfaa5ad8c7c46a9a49cb000e0a575465fb
+[10:59:33.140] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082438260006000: VF16MAX pa0.xyz c0.xxx pa0.xyz
+[10:59:33.148] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[10:59:33.150] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c517869004000f: VF16MUL pa0.xyzw pa0.xyz1 c15.yyyy
+[10:59:33.152] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[10:59:33.156] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[10:59:33.161] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[10:59:33.162] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:33.215] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[10:59:33.217] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[10:59:33.219] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:33.220] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080180: VMOV.f32 o4.xy pa12.xy 
+[10:59:33.222] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d21830c0100: VMOV.f32 o6.xy pa8.xy 
+[10:59:33.223] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:33.228] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:33.229] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:33.232] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:33.234] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:33.241] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:33.247] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818206: VPCKF32F32 i0.xyz (pa4.xyz pa6.xyzw) [noscale]
+[10:59:33.249] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[10:59:33.252] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[10:59:33.257] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c109110c: VMAD o8.xy i0.zz sa24.xy i1.xy
+[10:59:33.262] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18081c148900d: VMAD o10.x i0.z sa26.x i1.z
+[10:59:33.264] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:33.414] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e4c2b2b6e21736627639561a11003dce3d1ade0ace548832c7572cf84dcbc394
+[10:59:33.422] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 7a1003f7ce1767f0f135440d85eaeaf175c5744e8153c2e8ca4eb3a6b6d7b7ea
+[10:59:33.422] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader e4c2b2b6e21736627639561a11003dce3d1ade0ace548832c7572cf84dcbc394
+[10:59:33.424] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 7a1003f7ce1767f0f135440d85eaeaf175c5744e8153c2e8ca4eb3a6b6d7b7ea
+[10:59:33.465] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[10:59:33.465] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half2) uvOffset
+[10:59:33.467] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[10:59:33.468] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[10:59:33.470] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv00
+[10:59:33.471] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half2) v_TexCoord1
+[10:59:33.473] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:33.474] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[10:59:33.478] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[10:59:33.479] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:33.480] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) shadow_matrix0[4]
+[10:59:33.482] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10244186e0441001: VF16ADD pa2.xy sa0.xy pa2.xy
+[10:59:33.483] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 29
+[10:59:33.485] |T| [shader::usse::USSETranslatorVisitor::smp]: 	e001840ce0004080: SMP2d.f16.f16 r0.x pa2.xy sa2 
+[10:59:33.487] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:33.495] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183080100: VMOV.f32 o4.xy pa8.xy 
+[10:59:33.497] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:33.500] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:33.502] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:33.504] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:33.511] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:33.515] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:33.518] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9cafa18206: VPCKF32F32 i1.xyz (pa4.xyz pa6.xyzw) [noscale]
+[10:59:33.523] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80df85810a: VMAD i2.xyz i1.yyy sa20.xyz i0.000
+[10:59:33.528] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80df812108: VMAD i2.xyz i1.xxx sa16.xyz i2.xyz
+[10:59:33.530] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981d149614c: VMAD o10.xy i1.zz sa24.yz i2.yz
+[10:59:33.532] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18901d108200c: VMAD o8.-y i1.-z sa24.-x i2.-x
+[10:59:33.535] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[10:59:33.544] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[10:59:33.547] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf49110c: VMAD i1.xyz i0.zzz sa24.xyz i1.xyz
+[10:59:33.549] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf4d110e: VMAD i1.xyz i0.www sa28.xyz i1.xyz
+[10:59:33.555] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e389c150d18041: VMAD o6.xy i1.xy -c1.yy i0.00
+[10:59:33.559] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	088118a111010f41: VMUL o8.x -i1.z c1.y
+[10:59:33.561] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4404bc: VMUL i1.xyzw sa36.xyzw i0.yyyy
+[10:59:33.564] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411110: VMAD i1.xyzw i0.xxxx sa32.xyzw i1.xyzw
+[10:59:33.567] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491114: VMAD i1.xyzw i0.zzzz sa40.xyzw i1.xyzw
+[10:59:33.572] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf0d1116: VMAD i0.xyzw i0.wwww sa44.xyzw i1.xyzw
+[10:59:33.578] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a43f840f041f3c: VADD i0.xyzw i0.xyzw i0.wwww
+[10:59:33.580] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10d9c2fa3bc00: VPCKF32F32 i1.xyz i0.xwz [noscale]
+[10:59:33.582] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c049a901861f3d: VADD o12.xy -i0.0y i1.xy
+[10:59:33.587] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	088020a101d21f3d: VADD o14.x -i0.0 i1.z
+[10:59:33.588] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08803101c1c1163c: VADD o14.-y sa48.-x i0.-w
+[10:59:33.591] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:33.620] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c3343b209d21266f107ddd2a7befa49a0f82a2afbcef9057744bd06c00fb6f6a
+[10:59:33.624] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader c3343b209d21266f107ddd2a7befa49a0f82a2afbcef9057744bd06c00fb6f6a
+[10:59:33.629] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) shadowColor
+[10:59:33.630] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) shadowParam0
+[10:59:33.634] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord5
+[10:59:33.636] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[10:59:33.638] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord8
+[10:59:33.640] |T| [shader::create_fragment_inputs]: pa8 = tex2Dproj<float4>(shadowDepthTex0, TEXCOORD8.xyw)
+[10:59:33.641] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:59:33.645] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a513a690c4100f: VF16ADD sa6.xyz -sa0.xyz c15.yyy
+[10:59:33.649] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[10:59:33.650] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[10:59:33.653] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:33.654] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c020bae0111040: VF16ADD pa0.x -sa2.z abs(pa0).z
+[10:59:33.658] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10803082b0000001: VF16MUL pa0.x pa0.x sa2.w
+[10:59:33.659] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40086e0045080: VF16MIN pa0.x sa4.x pa0.x
+[10:59:33.661] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082088060006000: VF16MAX r0.x c0.x pa0.x
+[10:59:33.663] |T| [shader::usse::USSETranslatorVisitor::spec]: 	f920000000000000: SPEC category: 2, special: false
+[10:59:33.666] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	308008088f800181: VRCP i0.x pa6.-y
+[10:59:33.669] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a12280d00000cf: VF16MAD2 r0.xyzw r0.xyzw sa6.xxxx c15.yyyy
+[10:59:33.671] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e188808f018003: VMAD i0.x i0.x pa6.x i0.0
+[10:59:33.674] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643a0402493c0: VF16ADD r0.xyz -c15.yyy r0.xyz
+[10:59:33.676] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c00884cf28d0bc: VMIN i0.x sa4.y i0.x
+[10:59:33.682] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a4438680040000: VF16MUL pa0.xyz pa0.xyz r0.xyz
+[10:59:33.683] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	088208804f00603c: VMAX i0.x c0.x i0.x
+[10:59:33.688] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643826024d3c0: VF16MIN pa0.xyz c15.yyy pa0.xyz
+[10:59:33.689] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18a180948f5d0004: VMAD i1.x i0.1 pa8.x -i0.x
+[10:59:33.692] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082438260006000: VF16MAX pa0.xyz c0.xxx pa0.xyz
+[10:59:33.696] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38c24402710bd002: VMOVC.f16 pa4.xy (i1.xy < vec(0)) ? c0.xx : sa4.xx
+[10:59:33.700] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c517869004000f: VF16MUL pa0.xyzw pa0.xyz1 c15.yyyy
+[10:59:33.704] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a400a6b0041082: VF16ADD pa0.x -pa4.x sa4.x
+[10:59:33.714] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04800082a0000002: VF16MAD2 pa0.xy r0.xx pa0.xx pa4.xx
+[10:59:33.719] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04809286f00000c0: VF16MAD2 pa0.xyzw pa0.xxxx sa6.xyzw sa0.xyzw
+[10:59:33.724] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c4f786a0040040: VF16MUL pa0.xyzw pa2.xyz1 pa0.xyz1
+[10:59:33.967] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 74ba5ac4e68b6e374e1f24a19c90b48f2f71955c4661fab9b208e900990112c3
+[10:59:33.971] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 74ba5ac4e68b6e374e1f24a19c90b48f2f71955c4661fab9b208e900990112c3
+[10:59:33.977] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[10:59:33.979] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[10:59:33.982] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[10:59:33.984] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[10:59:33.987] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:33.988] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[10:59:33.991] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[10:59:33.992] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:33.995] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080180: VMOV.f32 o4.xy pa12.xy 
+[10:59:33.996] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d21830c0100: VMOV.f32 o6.xy pa8.xy 
+[10:59:34.000] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:34.004] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:34.007] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:34.010] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:34.018] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:34.021] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:34.028] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818206: VPCKF32F32 i0.xyz (pa4.xyz pa6.xyzw) [noscale]
+[10:59:34.031] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[10:59:34.034] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[10:59:34.041] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c109110c: VMAD o8.xy i0.zz sa24.xy i1.xy
+[10:59:34.048] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18081c148900d: VMAD o10.x i0.z sa26.x i1.z
+[10:59:34.050] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:34.100] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fa5f0c6dd596f9fa2676f017c6b24bfe95ef59c5e3d729c73845c8d7b063a0d3
+[10:59:34.104] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader fa5f0c6dd596f9fa2676f017c6b24bfe95ef59c5e3d729c73845c8d7b063a0d3
+[10:59:34.125] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half2) uvOffset
+[10:59:34.126] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[10:59:34.130] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half2) v_TexCoord1
+[10:59:34.132] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[10:59:34.133] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:34.135] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10244186e0441001: VF16ADD pa2.xy sa0.xy pa2.xy
+[10:59:34.137] |T| [shader::usse::USSETranslatorVisitor::smp]: 	e001840ce0004080: SMP2d.f16.f16 r0.x pa2.xy sa2 
+[10:59:34.141] |T| [shader::usse::USSETranslatorVisitor::spec]: 	f920000000000000: SPEC category: 2, special: false
+[10:59:34.145] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a12280d00000cf: VF16MAD2 r0.xyzw r0.xyzw sa6.xxxx c15.yyyy
+[10:59:34.148] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643a0402493c0: VF16ADD r0.xyz -c15.yyy r0.xyz
+[10:59:34.151] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a4438680040000: VF16MUL pa0.xyz pa0.xyz r0.xyz
+[10:59:34.153] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643826024d3c0: VF16MIN pa0.xyz c15.yyy pa0.xyz
+[10:59:34.159] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082438260006000: VF16MAX pa0.xyz c0.xxx pa0.xyz
+[10:59:34.166] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c517869004000f: VF16MUL pa0.xyzw pa0.xyz1 c15.yyyy
+[10:59:34.335] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d22d39c00a3a85c660ba1ebe4c5976b995337c82c41b1b08624f13d3fbcd5775
+[10:59:34.339] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d22d39c00a3a85c660ba1ebe4c5976b995337c82c41b1b08624f13d3fbcd5775
+[10:59:34.350] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[10:59:34.352] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[10:59:34.354] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[10:59:34.357] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[10:59:34.359] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:34.362] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[10:59:34.363] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) shadow_matrix0[4]
+[10:59:34.367] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 30
+[10:59:34.369] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:34.371] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080180: VMOV.f32 o4.xy pa12.xy 
+[10:59:34.373] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d21830c0100: VMOV.f32 o6.xy pa8.xy 
+[10:59:34.374] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:34.380] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:34.382] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:34.387] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:34.389] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:34.392] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:34.400] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9cafa18206: VPCKF32F32 i1.xyz (pa4.xyz pa6.xyzw) [noscale]
+[10:59:34.404] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80df85810a: VMAD i2.xyz i1.yyy sa20.xyz i0.000
+[10:59:34.409] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5cca63bc86c57daa09e13ba09a1fc67c4d7aa630ba59a3220754b0c762d93440
+[10:59:34.412] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80df812108: VMAD i2.xyz i1.xxx sa16.xyz i2.xyz
+[10:59:34.415] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 5cca63bc86c57daa09e13ba09a1fc67c4d7aa630ba59a3220754b0c762d93440
+[10:59:34.418] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981d189614c: VMAD o12.xy i1.zz sa24.yz i2.yz
+[10:59:34.421] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[10:59:34.423] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18901d148200c: VMAD o10.-y i1.-z sa24.-x i2.-x
+[10:59:34.429] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[10:59:34.432] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[10:59:34.433] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[10:59:34.437] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[10:59:34.438] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[10:59:34.447] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf49110c: VMAD i1.xyz i0.zzz sa24.xyz i1.xyz
+[10:59:34.449] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:34.451] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf4d110e: VMAD i1.xyz i0.www sa28.xyz i1.xyz
+[10:59:34.455] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e389c151118041: VMAD o8.xy i1.xy -c1.yy i0.00
+[10:59:34.453] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[10:59:34.457] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	088118a111410f41: VMUL o10.x -i1.z c1.y
+[10:59:34.463] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 15
+[10:59:34.465] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4404bc: VMUL i1.xyzw sa36.xyzw i0.yyyy
+[10:59:34.467] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:34.482] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411110: VMAD i1.xyzw i0.xxxx sa32.xyzw i1.xyzw
+[10:59:34.486] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080180: VMOV.f32 o4.xy pa12.xy 
+[10:59:34.492] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491114: VMAD i1.xyzw i0.zzzz sa40.xyzw i1.xyzw
+[10:59:34.495] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d21830c0100: VMOV.f32 o6.xy pa8.xy 
+[10:59:34.497] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf0d1116: VMAD i0.xyzw i0.wwww sa44.xyzw i1.xyzw
+[10:59:34.498] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:34.501] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a43f840f041f3c: VADD i0.xyzw i0.xyzw i0.wwww
+[10:59:34.512] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:34.512] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10d9c2fa3bc00: VPCKF32F32 i1.xyz i0.xwz [noscale]
+[10:59:34.514] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:34.516] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c049a901c61f3d: VADD o14.xy -i0.0y i1.xy
+[10:59:34.519] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:34.528] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:34.523] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	088020a102121f3d: VADD o16.x -i0.0 i1.z
+[10:59:34.530] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:34.532] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08803101c201163c: VADD o16.-y sa48.-x i0.-w
+[10:59:34.535] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818206: VPCKF32F32 i0.xyz (pa4.xyz pa6.xyzw) [noscale]
+[10:59:34.538] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:34.545] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[10:59:34.551] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[10:59:34.553] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c109110c: VMAD o8.xy i0.zz sa24.xy i1.xy
+[10:59:34.556] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18081c148900d: VMAD o10.x i0.z sa26.x i1.z
+[10:59:34.561] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:34.607] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 99c9a2013a4d4f33c770f5976a33381972e30d13f8b4b35e63d433ab5556c29a
+[10:59:34.608] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e4eb3138c34349aa5a61480e92f616155c634c25e6cb0ea702c9766ae77cfbb6
+[10:59:34.613] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 99c9a2013a4d4f33c770f5976a33381972e30d13f8b4b35e63d433ab5556c29a
+[10:59:34.617] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader e4eb3138c34349aa5a61480e92f616155c634c25e6cb0ea702c9766ae77cfbb6
+[10:59:34.731] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[10:59:34.731] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) shadowColor
+[10:59:34.732] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp00, TEXCOORD1.xy)
+[10:59:34.733] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) shadowParam0
+[10:59:34.746] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[10:59:34.760] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:34.754] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord5
+[10:59:34.765] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a12286d040100f: VF16MAD2 pa2.xyzw pa2.xyzw sa0.xxxx c15.yyyy
+[10:59:34.767] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[10:59:34.770] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643a2606493c1: VF16ADD pa2.xyz -c15.yyy pa2.xyz
+[10:59:34.771] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord8
+[10:59:34.778] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386a0040001: VF16MUL pa0.xyz pa0.xyz pa2.xyz
+[10:59:34.782] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(samp00, TEXCOORD1.xy)
+[10:59:34.783] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643826024d3c0: VF16MIN pa0.xyz c15.yyy pa0.xyz
+[10:59:34.786] |T| [shader::create_fragment_inputs]: pa10 = tex2Dproj<float4>(shadowDepthTex0, TEXCOORD8.xyw)
+[10:59:34.790] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082438260006000: VF16MAX pa0.xyz c0.xxx pa0.xyz
+[10:59:34.792] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:59:34.797] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c517869004000f: VF16MUL pa0.xyzw pa0.xyz1 c15.yyyy
+[10:59:34.799] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a513a690c4100f: VF16ADD sa6.xyz -sa0.xyz c15.yyy
+[10:59:34.807] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[10:59:34.813] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 19
+[10:59:34.814] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:34.816] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1086438260a493c4: VF16ADD pa4.xyz c15.yyy pa8.xyz
+[10:59:34.819] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643a260a493c2: VF16ADD pa4.xyz -c15.yyy pa4.xyz
+[10:59:34.824] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386a0440042: VF16MUL pa2.xyz pa2.xyz pa4.xyz
+[10:59:34.826] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1086438260a4d3c1: VF16MIN pa4.xyz c15.yyy pa2.xyz
+[10:59:34.831] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c020bae0111040: VF16ADD pa0.x -sa2.z abs(pa0).z
+[10:59:34.835] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10803082b0000001: VF16MUL pa0.x pa0.x sa2.w
+[10:59:34.839] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10800c06e0845080: VF16MIN pa4.---w sa4.---x pa0.---x
+[10:59:34.843] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	308008088f800181: VRCP i0.x pa6.-y
+[10:59:34.845] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e188808f018003: VMAD i0.x i0.x pa6.x i0.0
+[10:59:34.847] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c00884cf28d0bc: VMIN i0.x sa4.y i0.x
+[10:59:34.850] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	088208804f00603c: VMAX i0.x c0.x i0.x
+[10:59:34.853] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18a180948f5d0005: VMAD i1.x i0.1 pa10.x -i0.x
+[10:59:34.859] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38c244027107d002: VMOVC.f16 pa2.xy (i1.xy < vec(0)) ? c0.xx : sa4.xx
+[10:59:34.863] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a400a6b0041042: VF16ADD pa0.x -pa2.x sa4.x
+[10:59:34.875] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082478260806002: VF16MAX pa4.xyzw c0.xxxx pa4.xyzw
+[10:59:34.883] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04800086a00c2001: VF16MAD2 pa0.xy pa4.ww pa0.xx pa2.xx
+[10:59:34.888] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04809286f00000c0: VF16MAD2 pa0.xyzw pa0.xxxx sa6.xyzw sa0.xyzw
+[10:59:34.893] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c4f786a0040080: VF16MUL pa0.xyzw pa4.xyz1 pa0.xyz1
+[10:59:35.135] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 406933351f24f65139a11780f8d4fa12c59f863b7c0a1c320a8b1e7d493b106c
+[10:59:35.139] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 406933351f24f65139a11780f8d4fa12c59f863b7c0a1c320a8b1e7d493b106c
+[10:59:35.143] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[10:59:35.145] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[10:59:35.147] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv00
+[10:59:35.149] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:35.150] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[10:59:35.152] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[10:59:35.154] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:35.158] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183080100: VMOV.f32 o4.xy pa8.xy 
+[10:59:35.159] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:35.165] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:35.167] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:35.170] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:35.172] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:35.174] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:35.178] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818206: VPCKF32F32 i0.xyz (pa4.xyz pa6.xyzw) [noscale]
+[10:59:35.178] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[10:59:35.179] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[10:59:35.182] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c0c9110c: VMAD o6.xy i0.zz sa24.xy i1.xy
+[10:59:35.184] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18081c108900d: VMAD o8.x i0.z sa26.x i1.z
+[10:59:35.190] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:35.203] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5b2761c411d0b33dcc0e3abc466930834af10c326c788fc0595adf43319a3228
+[10:59:35.207] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5b2761c411d0b33dcc0e3abc466930834af10c326c788fc0595adf43319a3228
+[10:59:35.215] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[10:59:35.216] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[10:59:35.219] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:35.221] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a118a4902d900f: VF16ADD r0.x -pa0.w c15.y
+[10:59:35.223] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a518a01f00100f: VF16ADD i0.x -r0.x c15.y
+[10:59:35.265] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 793d9524edbeeeaffba1df32f96bcf755fc0bdc840a065d291e3870cfd566e27
+[10:59:35.268] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 793d9524edbeeeaffba1df32f96bcf755fc0bdc840a065d291e3870cfd566e27
+[10:59:35.273] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[10:59:35.274] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[10:59:35.276] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv01
+[10:59:35.279] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv02
+[10:59:35.281] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) input__uv00
+[10:59:35.283] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[10:59:35.286] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[10:59:35.288] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 16
+[10:59:35.289] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:35.291] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080200: VMOV.f32 o4.xy pa16.xy 
+[10:59:35.292] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800521830c0100: VMOV.f32 o6.xy pa8.xy 
+[10:59:35.296] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183100180: VMOV.f32 o8.xy pa12.xy 
+[10:59:35.299] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[10:59:35.302] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[10:59:35.306] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[10:59:35.311] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[10:59:35.313] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[10:59:35.317] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[10:59:35.320] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818206: VPCKF32F32 i0.xyz (pa4.xyz pa6.xyzw) [noscale]
+[10:59:35.323] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[10:59:35.326] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[10:59:35.333] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c149110c: VMAD o10.xy i0.zz sa24.xy i1.xy
+[10:59:35.337] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18081c188900d: VMAD o12.x i0.z sa26.x i1.z
+[10:59:35.338] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[10:59:35.367] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9f0796da3d740e7c2392c3a21cf66cf8f3b3bac47932559646d18d9b3d9b0af6
+[10:59:35.370] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9f0796da3d740e7c2392c3a21cf66cf8f3b3bac47932559646d18d9b3d9b0af6
+[10:59:35.375] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(samp02, TEXCOORD0.xy)
+[10:59:35.376] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp01, TEXCOORD2.xy)
+[10:59:35.379] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD1.xy)
+[10:59:35.381] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[10:59:35.382] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[10:59:35.383] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10864382606493c1: VF16ADD pa2.xyz c15.yyy pa2.xyz
+[10:59:35.387] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643a2606493c1: VF16ADD pa2.xyz -c15.yyy pa2.xyz
+[10:59:35.390] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386a0440001: VF16MUL pa2.xyz pa0.xyz pa2.xyz
+[10:59:35.395] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10864382602493c2: VF16ADD pa0.xyz c15.yyy pa4.xyz
+[10:59:35.402] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643a2602493c0: VF16ADD pa0.xyz -c15.yyy pa0.xyz
+[10:59:35.405] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386a0040040: VF16MUL pa0.xyz pa2.xyz pa0.xyz
+[10:59:35.408] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	108643826024d3c0: VF16MIN pa0.xyz c15.yyy pa0.xyz
+[10:59:35.412] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082438260006000: VF16MAX pa0.xyz c0.xxx pa0.xyz
+[10:59:35.414] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c517869004000f: VF16MUL pa0.xyzw pa0.xyz1 c15.yyyy
+[10:59:35.500] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20e4100290160080: FADD i1.x i0.x i0.x + VMOV pa0.xyzw pa0.xyzx
+[10:59:35.505] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1080008000001f7c: VF16ADD r0.x i1.x i0.x
+[10:59:35.508] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1080040230000000: VF16MUL pa0.---w r0.---x sa0.---x
+[10:59:50.028] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[10:59:50.030] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[10:59:51.324] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[11:00:06.534] |I| [ngs::PlayerModule::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[11:00:20.775] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ee294e9f0a0427e140a3af645129abd217f3ea9d82cd8a6d48c654436b2ee997
+[11:00:20.812] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ee294e9f0a0427e140a3af645129abd217f3ea9d82cd8a6d48c654436b2ee997
+[11:00:20.831] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[11:00:20.834] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[11:00:20.837] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[11:00:20.838] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:20.840] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183000000: VMOV.f32 o0.xy pa0.xy 
+[11:00:20.844] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[11:00:20.845] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080080: VMOV.f32 o4.xy pa4.xy 
+[11:00:20.849] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501000: VMAD2 o2.x pa2.x sa0.y -sa0.x
+[11:00:20.850] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:20.889] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 305aa1ccbc1946d5f44289333e343c3729fa9d786b6a9422376f6df00574de5a
+[11:00:20.897] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 305aa1ccbc1946d5f44289333e343c3729fa9d786b6a9422376f6df00574de5a
+[11:00:20.902] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _sp_factor[2]
+[11:00:20.903] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[11:00:20.904] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[11:00:20.907] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:20.908] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386b0041000: VF16ADD pa0.xyz pa0.xyz sa0.xyz
+[11:00:20.911] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386b0040001: VF16MUL pa0.xyz pa0.xyz sa2.xyz
+[11:00:23.733] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0x8aaadd56 wcscpy at 0x805d3d6c
+[11:00:24.027] |T| [log_import_call]: [LLE] TID: 166 FUNC: 0xb9336e16 strchr at 0x805d3e2c
+[11:00:24.259] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d95fb6e14b0c16117d349cb743de3a58a9f582ed5b675a9364a7f8438c6254dd
+[11:00:24.275] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d95fb6e14b0c16117d349cb743de3a58a9f582ed5b675a9364a7f8438c6254dd
+[11:00:24.295] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[11:00:24.303] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[11:00:24.308] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:24.311] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183000000: VMOV.f32 o0.xy pa0.xy 
+[11:00:24.313] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[11:00:24.322] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501000: VMAD2 o2.x pa2.x sa0.y -sa0.x
+[11:00:24.325] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882050941080040: VMOV.f32 o4.x c1.y 
+[11:00:24.326] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:24.595] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a9bd9f79b0d7f6bf02341d89a0fcd0868b27887f6bf65c461496bff8a1249573
+[11:00:24.613] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader a9bd9f79b0d7f6bf02341d89a0fcd0868b27887f6bf65c461496bff8a1249573
+[11:00:24.620] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[11:00:24.621] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__uv00
+[11:00:24.622] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[11:00:24.626] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[11:00:24.630] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:24.632] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183080080: VMOV.f32 o4.xy pa4.xy 
+[11:00:24.635] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:00:24.638] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[11:00:24.642] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[11:00:24.646] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[11:00:24.650] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[11:00:24.653] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[11:00:24.745] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:24.809] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8b24ceed552401135737794ee7f93175c5a84a0238997f1c511af2a2564570ac
+[11:00:24.830] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8b24ceed552401135737794ee7f93175c5a84a0238997f1c511af2a2564570ac
+[11:00:24.875] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float4) _zfog_depth_info
+[11:00:24.877] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float4) _zfog_color
+[11:00:24.878] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _zfog_control_point[3]
+[11:00:24.881] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (half4) ambientLightColor
+[11:00:24.905] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (half4) directionalLightDirection
+[11:00:24.908] |D| [shader::create_parameters]: [DEFAULT  + 30] sa30 = (half4) directionalLightColor
+[11:00:24.910] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (half4) adjustmentColor
+[11:00:24.911] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) billboardOptimizeMatrix[3]
+[11:00:24.922] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Position
+[11:00:24.924] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[11:00:24.926] |T| [shader::create_fragment_inputs]: pa6 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[11:00:24.929] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:00:24.930] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a410a6a1440253: VMUL sa10.x -sa18.x sa38.y
+[11:00:24.936] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40840d7ea0598002: VPCKF16F32 sa2.xyzw (sa0.xyzw sa2.xyzw) [noscale]
+[11:00:24.941] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 35
+[11:00:24.944] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:24.976] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080288ef01014d2: VMAD2 pa0.x pa2.x sa38.y -sa36.y
+[11:00:24.980] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c008a8ef101280: VADD i0.x -sa20.x pa0.x
+[11:00:24.982] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	308008000f803e01: VRCP i0.x i0.x
+[11:00:24.989] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00800880ff13c285: VMAD2 i0.x i0.x sa20.y sa10.x
+[11:00:25.012] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40084cf04513c: VMIN i0.x sa8.x i0.x
+[11:00:25.013] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40084c004603c: VMAX r0.x sa0.x i0.x
+[11:00:25.023] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4888868130038002: CMP.lt.f32 p0 r0.x sa4.x
+[11:00:25.026] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386e0840402: VF16MUL pa4.xyz sa32.xyz pa4.xyz
+[11:00:25.030] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a1228ed040348f: VF16MAD2 pa2.xyzw pa6.xyzw sa36.xxxx -c15.yyyy
+[11:00:25.035] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f086a0047041: VF16DP pa0.x pa2.xyz0 pa2.xyz1
+[11:00:25.040] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0028280000001: VRSQ pa0.x pa0.x
+[11:00:25.045] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40386a0440040: VF16MUL pa2.xyz pa2.xyz pa0.xxx
+[11:00:25.049] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a004d280000081: VLOG pa0.x abs(pa2).--z
+[11:00:25.078] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0068280200004: VEXP pa2.--z pa0.x
+[11:00:25.104] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f086a0047041: VF16DP pa0.x pa2.xyz0 pa2.xyz1
+[11:00:25.112] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0028280000001: VRSQ pa0.x pa0.x
+[11:00:25.121] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a1c28e9000100f: VF16MAD2 pa0.xyzw pa2.xyzw pa0.xxxx -c15.xxyz
+[11:00:25.143] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a24382606013c0: VF16ADD pa2.xyz c15.xxy pa0.xyz
+[11:00:25.147] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f086a0047041: VF16DP pa0.x pa2.xyz0 pa2.xyz1
+[11:00:25.152] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0028280000001: VRSQ pa0.x pa0.x
+[11:00:25.155] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40386a0440040: VF16MUL pa2.xyz pa2.xyz pa0.xxx
+[11:00:25.159] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10844382b0248047: VF16MUL pa0.xyz pa2.yyy sa14.xyz
+[11:00:25.172] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04809286e0001180: VF16MAD2 pa0.xyzw pa2.xxxx sa12.xyzw pa0.xyzw
+[11:00:25.174] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04809286e0481200: VF16MAD2 pa2.xyzw pa2.zzzz sa16.xyzw pa0.xyzw
+[11:00:25.180] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f086a0047041: VF16DP pa0.x pa2.xyz0 pa2.xyz1
+[11:00:25.185] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0028280000001: VRSQ pa0.x pa0.x
+[11:00:25.188] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40386a0040040: VF16MUL pa0.xyz pa2.xyz pa0.xxx
+[11:00:25.195] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f0a6e0047380: VF16DP pa0.x -sa28.xyz0 pa0.xyz1
+[11:00:25.201] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40086e00454c0: VF16MIN pa0.x sa38.x pa0.x
+[11:00:25.223] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082008260006000: VF16MAX pa0.x c0.x pa0.x
+[11:00:25.232] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04809286f00003cd: VF16MAD2 pa0.xyzw pa0.xxxx sa30.xyzw sa26.xyzw
+[11:00:25.240] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44b86a0040080: VF16MUL pa0.xyz pa4.xyz pa0.xyz
+[11:00:25.244] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10b9caf818000: VPCKF32F16 i0.xyz pa0.xyz [noscale]
+[11:00:25.248] |T| [shader::usse::USSETranslatorVisitor::sop2m]: 	91c11002e0001180: SOP2M:FADD
+[11:00:25.252] |T| [shader::usse::USSETranslatorVisitor::sop2m]: 	91c11002e0001180: SOP2M:FADD
+[11:00:25.253] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_35, size = 1
+[11:00:25.278] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	55c1000ae0001100: !p0 OR pa0.x sa34.x 0x0
+[11:00:25.281] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_36, size = 2
+[11:00:25.284] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48c80281b00a0022: CMP.ne.u8 p0 pa0.x sa34.x
+[11:00:25.288] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800c22c5040040: VMOV.f16 pa2.xyzw sa2.xyzw 
+[11:00:25.290] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_38, size = 1
+[11:00:25.292] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	45c00d7ef0598206: !p0 VPCKF16F32 pa2.xyzw (sa4.xyzw sa6.xyzw) [noscale]
+[11:00:25.295] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_39, size = 10
+[11:00:25.297] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10d4620000000: VPCKF16F32 pa0.x r0.x [noscale]
+[11:00:25.305] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a408a6a0441040: VF16ADD pa2.x -pa2.x pa0.x
+[11:00:25.308] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0089280000081: VRCP pa0.x pa2.--z
+[11:00:25.326] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10800882a0000040: VF16MUL pa0.x pa2.x pa0.x
+[11:00:25.328] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04802884af4c1001: VF16MAD2 i1.x pa2.w pa0.x pa2.y
+[11:00:25.352] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a408a230001f53: VF16ADD pa0.x -i1.x sa38.x
+[11:00:25.355] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40b842f040f00: VF16MUL i0.xyz i0.xyz pa0.xxx
+[11:00:25.358] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80df01010b: VMAD i0.xyz i1.xxx sa22.xyz i0.xyz
+[11:00:25.365] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c517841f040f01: VMUL i0.xyzw i0.xyz1 c1.yyyy
+[11:00:25.369] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810d7e2019bc00: VPCKF16F32 pa0.xyzw i0.xyzw [noscale]
+[11:00:26.036] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9f254ed348564cf84c92621f2ff5b55fcad4005b87780a003f21b82e95607c68
+[11:00:26.048] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9f254ed348564cf84c92621f2ff5b55fcad4005b87780a003f21b82e95607c68
+[11:00:26.058] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[11:00:26.060] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 87454ea3b98d5b06341b7605962569dc6589232bd3577a1f090793610cd7e2ac
+[11:00:26.062] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__uv00
+[11:00:26.070] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[11:00:26.069] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 87454ea3b98d5b06341b7605962569dc6589232bd3577a1f090793610cd7e2ac
+[11:00:26.071] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[11:00:26.075] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _sp_color
+[11:00:26.079] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:26.080] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:00:26.085] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:26.083] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183080080: VMOV.f32 o4.xy pa4.xy 
+[11:00:26.087] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800422c5000000: VMOV.f16 pa0.xyzw sa0.xyzw 
+[11:00:26.089] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:00:26.099] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[11:00:26.102] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[11:00:26.110] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[11:00:26.114] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[11:00:26.117] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[11:00:26.122] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:26.231] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 99737a5f2143d294a7aa156d374222cba824d525f0a72914e5c5333974d25e71
+[11:00:26.237] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 99737a5f2143d294a7aa156d374222cba824d525f0a72914e5c5333974d25e71
+[11:00:26.242] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) _zfog_depth_info
+[11:00:26.243] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _zfog_color
+[11:00:26.244] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _zfog_control_point[3]
+[11:00:26.246] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half4) ambientLightColor
+[11:00:26.247] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (half4) directionalLightDirection
+[11:00:26.255] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (half4) directionalLightColor
+[11:00:26.257] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (half4) adjustmentColor
+[11:00:26.259] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Position
+[11:00:26.260] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[11:00:26.262] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[11:00:26.264] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a400a6a1840190: VMUL sa12.x -sa12.x sa32.x
+[11:00:26.273] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c020aaa15152cf: VF16MIN sa10.x -sa22.z sa30.z
+[11:00:26.275] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082038261406005: VF16MAX sa10.xyz c0.xxx sa10.xxx
+[11:00:26.280] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a09286a140530a: VF16MAD2 sa10.xyzw sa10.xyzw sa24.xyzw sa20.xyzw
+[11:00:26.291] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40840d7ea0598002: VPCKF16F32 sa2.xyzw (sa0.xyzw sa2.xyzw) [noscale]
+[11:00:26.295] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 12
+[11:00:26.308] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:26.309] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080088ef000140f: VMAD2 pa0.x pa2.x sa32.x -sa30.x
+[11:00:26.311] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c008a8ef1011c0: VADD i0.x -sa14.x pa0.x
+[11:00:26.315] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	308008000f803e01: VRCP i0.x i0.x
+[11:00:26.319] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00800880ff13c1c6: VMAD2 i0.x i0.x sa14.y sa12.x
+[11:00:26.321] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40084cf04513c: VMIN i0.x sa8.x i0.x
+[11:00:26.323] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40084c004603c: VMAX r0.x sa0.x i0.x
+[11:00:26.323] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4888868130038002: CMP.lt.f32 p0 r0.x sa4.x
+[11:00:26.326] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386e0040342: VF16MUL pa0.xyz sa26.xyz pa4.xyz
+[11:00:26.346] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44b86b0040005: VF16MUL pa0.xyz pa0.xyz sa10.xyz
+[11:00:26.349] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10b9cafa18000: VPCKF32F16 i1.xyz pa0.xyz [noscale]
+[11:00:26.355] |T| [shader::usse::USSETranslatorVisitor::sop2m]: 	91c11002e0000e80: SOP2M:FADD
+[11:00:26.357] |T| [shader::usse::USSETranslatorVisitor::sop2m]: 	91c11002e0000e80: SOP2M:FADD
+[11:00:26.378] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 58b621d1ed1364d986b555872f4f983ca72976b2e1a296a2c56dae15a6c79528
+[11:00:26.380] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_12, size = 1
+[11:00:26.390] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	55c1000ae0000e00: !p0 OR pa0.x sa28.x 0x0
+[11:00:26.386] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 58b621d1ed1364d986b555872f4f983ca72976b2e1a296a2c56dae15a6c79528
+[11:00:26.391] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_13, size = 2
+[11:00:26.405] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48c80281b00a001c: CMP.ne.u8 p0 pa0.x sa28.x
+[11:00:26.405] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[11:00:26.407] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800c22c5040040: VMOV.f16 pa2.xyzw sa2.xyzw 
+[11:00:26.408] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[11:00:26.410] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_15, size = 1
+[11:00:26.411] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float2) _sp_offset
+[11:00:26.413] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	45c00d7ef0598206: !p0 VPCKF16F32 pa2.xyzw (sa4.xyzw sa6.xyzw) [noscale]
+[11:00:26.415] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[11:00:26.419] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_16, size = 10
+[11:00:26.421] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41186a2040003: VMUL sa16.xy sa0.xy sa6.yy
+[11:00:26.424] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10d4620000000: VPCKF16F32 pa0.x r0.x [noscale]
+[11:00:26.428] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a5018691c40004: VMUL sa14.xy sa0.xy c4.xx
+[11:00:26.432] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a408a6a0441040: VF16ADD pa2.x -pa2.x pa0.x
+[11:00:26.435] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40186a1840003: VMUL sa12.xy sa0.xy sa6.xx
+[11:00:26.439] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0089280000081: VRCP pa0.x pa2.--z
+[11:00:26.443] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41186a1440002: VMUL sa10.xy sa0.xy sa4.yy
+[11:00:26.444] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10800882a0000040: VF16MUL pa0.x pa2.x pa0.x
+[11:00:26.446] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40186a0c40002: VMUL sa6.xy sa0.xy sa4.xx
+[11:00:26.448] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04802884af0c1001: VF16MAD2 i0.x pa2.w pa0.x pa2.y
+[11:00:26.449] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41186a0840001: VMUL sa4.xy sa0.xy sa2.yy
+[11:00:26.456] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a428a230001f0f: VF16ADD pa0.x -i0.x sa30.z
+[11:00:26.458] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40186a0440001: VMUL sa2.xy sa0.xy sa2.xx
+[11:00:26.460] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40b842f440f40: VF16MUL i1.xyz i1.xyz pa0.xxx
+[11:00:26.462] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[11:00:26.463] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf011108: VMAD i0.xyz i0.xxx sa16.xyz i1.xyz
+[11:00:26.465] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[11:00:26.469] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c517841f040f01: VMUL i0.xyzw i0.xyz1 c1.yyyy
+[11:00:26.472] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:26.475] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810d7e2019bc00: VPCKF16F32 pa0.xyzw i0.xyzw [noscale]
+[11:00:26.478] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183000000: VMOV.f32 o0.xy pa0.xy 
+[11:00:26.489] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[11:00:26.490] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501104: VMAD2 o2.x pa2.x sa8.y -sa8.x
+[11:00:26.493] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44185b0c41080: VADD o6.xy pa4.xy sa0.xy
+[11:00:26.495] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44185b1041088: VADD o8.xy pa4.xy sa16.xy
+[11:00:26.497] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44185b1441087: VADD o10.xy pa4.xy sa14.xy
+[11:00:26.498] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44185b1841086: VADD o12.xy pa4.xy sa12.xy
+[11:00:26.502] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44185b1c41085: VADD o14.xy pa4.xy sa10.xy
+[11:00:26.506] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44185b2041083: VADD o16.xy pa4.xy sa6.xy
+[11:00:26.508] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44185b2441082: VADD o18.xy pa4.xy sa4.xy
+[11:00:26.510] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a44185b2841081: VADD o20.xy pa4.xy sa2.xy
+[11:00:26.512] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080080: VMOV.f32 o4.xy pa4.xy 
+[11:00:26.514] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:26.556] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 71fa1c676208fe6cfbe2429569c4f42af1c42f0cb5a07c3a66b955b38d611cc4
+[11:00:26.571] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 71fa1c676208fe6cfbe2429569c4f42af1c42f0cb5a07c3a66b955b38d611cc4
+[11:00:26.575] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) _sp_weight[9]
+[11:00:26.576] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp, TEXCOORD8.xy)
+[11:00:26.578] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_samp, TEXCOORD7.xy)
+[11:00:26.579] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(_samp, TEXCOORD6.xy)
+[11:00:26.587] |T| [shader::create_fragment_inputs]: pa6 = tex2D<half4>(_samp, TEXCOORD5.xy)
+[11:00:26.590] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(_samp, TEXCOORD4.xy)
+[11:00:26.592] |T| [shader::create_fragment_inputs]: pa10 = tex2D<half4>(_samp, TEXCOORD3.xy)
+[11:00:26.594] |T| [shader::create_fragment_inputs]: pa12 = tex2D<half4>(_samp, TEXCOORD2.xy)
+[11:00:26.597] |T| [shader::create_fragment_inputs]: pa14 = tex2D<half4>(_samp, TEXCOORD1.xy)
+[11:00:26.599] |T| [shader::create_fragment_inputs]: pa16 = tex2D<half4>(_samp, TEXCOORD0.xy)
+[11:00:26.602] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[11:00:26.603] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:26.607] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10804782e2000008: VF16MUL pa16.xyzw sa0.xxxx pa16.xyzw
+[11:00:26.611] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a08286e1e07008: VF16MAD2 pa14.xyzw pa14.xyzw sa0.zzzz pa16.xyzw
+[11:00:26.614] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a08286e1806047: VF16MAD2 pa12.xyzw pa12.xyzw sa2.xxxx pa14.xyzw
+[11:00:26.620] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a08286e1605046: VF16MAD2 pa10.xyzw pa10.xyzw sa2.zzzz pa12.xyzw
+[11:00:26.626] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a08286e1004085: VF16MAD2 pa8.xyzw pa8.xyzw sa4.xxxx pa10.xyzw
+[11:00:26.630] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a08286e0e03084: VF16MAD2 pa6.xyzw pa6.xyzw sa4.zzzz pa8.xyzw
+[11:00:26.635] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a08286e08020c3: VF16MAD2 pa4.xyzw pa4.xyzw sa6.xxxx pa6.xyzw
+[11:00:26.639] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a08286e06010c2: VF16MAD2 pa2.xyzw pa2.xyzw sa6.zzzz pa4.xyzw
+[11:00:26.653] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a08286e0000101: VF16MAD2 pa0.xyzw pa0.xyzw sa8.xxxx pa2.xyzw
+[11:00:27.067] |E| [debug_callback]: Validation layer: Validation Error: [ UNASSIGNED-CoreValidation-DrawState-InvalidImageLayout ] Object 0: handle = 0x19b7b247ea8, type = VK_OBJECT_TYPE_COMMAND_BUFFER; | MessageID = 0x4dae5635 | vkQueueSubmit(): pSubmits[0].pCommandBuffers[1] command buffer VkCommandBuffer 0x19b7b247ea8[] expects VkImage 0x1cd33c00000007da[] (subresource: aspectMask 0x2 array layer 0, mip level 0) to be in layout VK_IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL--instead, current layout is VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL.
+[11:00:27.072] |E| [debug_callback]: Validation layer: Validation Error: [ UNASSIGNED-CoreValidation-DrawState-InvalidImageLayout ] Object 0: handle = 0x19b7b247ea8, type = VK_OBJECT_TYPE_COMMAND_BUFFER; | MessageID = 0x4dae5635 | vkQueueSubmit(): pSubmits[0].pCommandBuffers[1] command buffer VkCommandBuffer 0x19b7b247ea8[] expects VkImage 0x1cd33c00000007da[] (subresource: aspectMask 0x4 array layer 0, mip level 0) to be in layout VK_IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL--instead, current layout is VK_IMAGE_LAYOUT_DEPTH_STENCIL_ATTACHMENT_OPTIMAL.
+[11:00:27.082] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 31816b58b3fcb977a09c800f4d7554cecf49309cc61429b7b6e8b3b2202531e4
+[11:00:27.086] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 31816b58b3fcb977a09c800f4d7554cecf49309cc61429b7b6e8b3b2202531e4
+[11:00:27.109] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[11:00:27.110] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[11:00:27.111] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:27.114] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183000000: VMOV.f32 o0.xy pa0.xy 
+[11:00:27.115] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[11:00:27.119] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501000: VMAD2 o2.x pa2.x sa0.y -sa0.x
+[11:00:27.122] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:27.131] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8553874cdfa58da562cbbe89374023ba97230a58a6fdcd0b285cdaf455c382c4
+[11:00:27.137] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8553874cdfa58da562cbbe89374023ba97230a58a6fdcd0b285cdaf455c382c4
+[11:00:27.146] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _sp_factor
+[11:00:27.147] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:00:27.148] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:27.150] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800422c5000000: VMOV.f16 pa0.xyzw sa0.xyzw 
+[11:00:27.280] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 83f40a9d1f6c4cdb3c5def36e99e821f929eea34be69ed727586e14b026a6124
+[11:00:27.283] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 83f40a9d1f6c4cdb3c5def36e99e821f929eea34be69ed727586e14b026a6124
+[11:00:27.290] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[11:00:27.290] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_texcoord0
+[11:00:27.292] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[11:00:27.294] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:27.297] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183000000: VMOV.f32 o0.xy pa0.xy 
+[11:00:27.298] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50810009a0600180: OR o3.x pa3.x 0x0
+[11:00:27.299] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080080: VMOV.f32 o4.xy pa4.xy 
+[11:00:27.302] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080008df0501000: VMAD2 o2.x pa2.x sa0.y -sa0.x
+[11:00:27.305] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38820509410c0040: VMOV.f32 o6.x c1.y 
+[11:00:27.305] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:27.397] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 0ee8051664080f302fe77836a5cca90bf88a031abe54b42f99e516435da375ae
+[11:00:27.401] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 0ee8051664080f302fe77836a5cca90bf88a031abe54b42f99e516435da375ae
+[11:00:27.422] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_samp0, TEXCOORD0.xy)
+[11:00:27.423] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[11:00:27.424] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:28.574] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6c423cc8818b887d56247d3e883c2678fb04223751a3afac206e9b020ae81e24
+[11:00:28.580] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 6c423cc8818b887d56247d3e883c2678fb04223751a3afac206e9b020ae81e24
+[11:00:28.587] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[11:00:28.587] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[11:00:28.589] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp, TEXCOORD0.xy)
+[11:00:28.590] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[11:00:28.593] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40840d7ea0018002: VPCKF16F32 sa0.xyzw (sa0.xyzx sa2.xyzw) [noscale]
+[11:00:28.597] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[11:00:28.599] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:28.600] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a09286b0400040: VF16MAD2 pa2.xyzw pa0.xyzw pa2.xyzw sa0.xyzw
+[11:00:28.606] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a4f78aa0368001: VF16MUL pa0.xyzw pa0.111w pa2.xyz1
+[11:00:30.988] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 479dd720d6c4b9938c040f1a7d60736c77425f48d0d79c4411027d0ec6d7aa49
+[11:00:31.025] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 479dd720d6c4b9938c040f1a7d60736c77425f48d0d79c4411027d0ec6d7aa49
+[11:00:31.104] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[11:00:31.109] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[11:00:31.110] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv00
+[11:00:31.112] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[11:00:31.114] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[11:00:31.117] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[11:00:31.118] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:31.122] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183080100: VMOV.f32 o4.xy pa8.xy 
+[11:00:31.123] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:00:31.127] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[11:00:31.129] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[11:00:31.133] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[11:00:31.156] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[11:00:31.160] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[11:00:31.175] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818206: VPCKF32F32 i0.xyz (pa4.xyz pa6.xyzw) [noscale]
+[11:00:31.178] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[11:00:31.182] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[11:00:31.199] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c0c9110c: VMAD o6.xy i0.zz sa24.xy i1.xy
+[11:00:31.206] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18081c108900d: VMAD o8.x i0.z sa26.x i1.z
+[11:00:31.208] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:31.232] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2ab3c2052c57d45f2008d7f046ff3b29735db42409a498d7c943f867fd6870e1
+[11:00:31.250] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 2ab3c2052c57d45f2008d7f046ff3b29735db42409a498d7c943f867fd6870e1
+[11:00:31.259] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) _zfog_depth_info
+[11:00:31.261] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _zfog_color
+[11:00:31.263] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _zfog_control_point[3]
+[11:00:31.267] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half4) adjustmentColor
+[11:00:31.272] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Position
+[11:00:31.274] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[11:00:31.277] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:00:31.297] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a400a6a144018d: VMUL sa10.x -sa12.x sa26.x
+[11:00:31.299] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40840d7ea0598002: VPCKF16F32 sa2.xyzw (sa0.xyzw sa2.xyzw) [noscale]
+[11:00:31.304] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 11
+[11:00:31.305] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:31.306] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080288ef000134c: VMAD2 pa0.x pa2.x sa26.x -sa24.y
+[11:00:31.313] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c008a8ef1011c0: VADD i0.x -sa14.x pa0.x
+[11:00:31.314] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	308008000f803e01: VRCP i0.x i0.x
+[11:00:31.316] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00800880ff13c1c5: VMAD2 i0.x i0.x sa14.y sa10.x
+[11:00:31.324] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40084cf04513c: VMIN i0.x sa8.x i0.x
+[11:00:31.327] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40084c004603c: VMAX r0.x sa0.x i0.x
+[11:00:31.329] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4888868130038002: CMP.lt.f32 p0 r0.x sa4.x
+[11:00:31.332] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44b86e0040282: VF16MUL pa0.xyz sa20.xyz pa4.xyz
+[11:00:31.338] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10b9cafa18000: VPCKF32F16 i1.xyz pa0.xyz [noscale]
+[11:00:31.362] |T| [shader::usse::USSETranslatorVisitor::sop2m]: 	91c11002e0000b80: SOP2M:FADD
+[11:00:31.367] |T| [shader::usse::USSETranslatorVisitor::sop2m]: 	91c11002e0000b80: SOP2M:FADD
+[11:00:31.372] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_11, size = 1
+[11:00:31.374] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	55c1000ae0000b00: !p0 OR pa0.x sa22.x 0x0
+[11:00:31.377] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_12, size = 2
+[11:00:31.378] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48c80281b00a0016: CMP.ne.u8 p0 pa0.x sa22.x
+[11:00:31.449] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800c22c5040040: VMOV.f16 pa2.xyzw sa2.xyzw 
+[11:00:31.450] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_14, size = 1
+[11:00:31.452] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	45c00d7ef0598206: !p0 VPCKF16F32 pa2.xyzw (sa4.xyzw sa6.xyzw) [noscale]
+[11:00:31.457] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_15, size = 10
+[11:00:31.459] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10d4620000000: VPCKF16F32 pa0.x r0.x [noscale]
+[11:00:31.464] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a408a6a0441040: VF16ADD pa2.x -pa2.x pa0.x
+[11:00:31.467] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0089280000081: VRCP pa0.x pa2.--z
+[11:00:31.468] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10800882a0000040: VF16MUL pa0.x pa2.x pa0.x
+[11:00:31.478] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04802884af0c1001: VF16MAD2 i0.x pa2.w pa0.x pa2.y
+[11:00:31.482] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a408a230001f0c: VF16ADD pa0.x -i0.x sa24.x
+[11:00:31.483] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40b842f440f40: VF16MUL i1.xyz i1.xyz pa0.xxx
+[11:00:31.493] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf011108: VMAD i0.xyz i0.xxx sa16.xyz i1.xyz
+[11:00:31.515] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c517841f040f01: VMUL i0.xyzw i0.xyz1 c1.yyyy
+[11:00:31.517] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810d7e2019bc00: VPCKF16F32 pa0.xyzw i0.xyzw [noscale]
+[11:00:31.795] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ef9841406dc4f5b6246be29601e0fd98dd4e2371ce680df507ac5885c3df2637
+[11:00:31.842] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ef9841406dc4f5b6246be29601e0fd98dd4e2371ce680df507ac5885c3df2637
+[11:00:31.850] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[11:00:31.896] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[11:00:31.899] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__tangent
+[11:00:31.901] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) input__uv00
+[11:00:31.939] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[11:00:31.941] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[11:00:31.947] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 21
+[11:00:31.949] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:31.951] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3880052183080180: VMOV.f32 o4.xy pa12.xy 
+[11:00:31.988] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50c10009a1800580: OR o12.x pa11.x 0x0
+[11:00:31.989] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:00:31.994] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[11:00:31.996] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[11:00:32.002] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[11:00:32.009] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[11:00:32.014] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[11:00:32.098] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9caf818206: VPCKF32F32 i0.xyz (pa4.xyz pa6.xyzw) [noscale]
+[11:00:32.132] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[11:00:32.134] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[11:00:32.140] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c0c9110c: VMAD o6.xy i0.zz sa24.xy i1.xy
+[11:00:32.143] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18881c108900d: VMAD o8.x i0.z sa26.x i1.z
+[11:00:32.145] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2083f00100: VMOV.f32 i0.xy pa8.xy 
+[11:00:32.146] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[11:00:32.158] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf011108: VMAD i0.xyz i0.xxx sa16.xyz i1.xyz
+[11:00:32.162] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00802885c150533c: VMAD2 o10.x pa10.x sa24.y i0.y
+[11:00:32.166] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00800105c100533c: VMAD2 o8.-y pa10.-x sa24.-x i0.-x
+[11:00:32.175] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00804105c140537c: VMAD2 o10.-y pa10.-x sa26.-x i0.-z
+[11:00:32.222] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:32.324] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader eb613537053728e37a6d2f436d3877748443cef86319cfe7c0f8719c23ecf732
+[11:00:32.344] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader eb613537053728e37a6d2f436d3877748443cef86319cfe7c0f8719c23ecf732
+[11:00:32.376] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) _zfog_depth_info
+[11:00:32.378] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _zfog_color
+[11:00:32.384] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _zfog_control_point[3]
+[11:00:32.391] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half4) ambientLightColor
+[11:00:32.393] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (half4) directionalLightDirection
+[11:00:32.395] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (half4) directionalLightColor
+[11:00:32.400] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (half4) adjustmentColor
+[11:00:32.443] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Position
+[11:00:32.446] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(samp00, TEXCOORD0.xy)
+[11:00:32.447] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord6
+[11:00:32.468] |T| [shader::create_fragment_inputs]: pa8 = tex2D<half4>(samp01, TEXCOORD0.xy)
+[11:00:32.482] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord7
+[11:00:32.484] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[11:00:32.490] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a410a6a4440190: VMUL sa34.x -sa12.x sa32.y
+[11:00:32.499] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882050a41180040: VMOV.f32 sa12.x c1.y 
+[11:00:32.572] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d7ea1598002: VPCKF16F32 sa10.xyzw (sa0.xyzw sa2.xyzw) [noscale]
+[11:00:32.574] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	088110a290400181: VMUL sa2.x -sa12.x c1.y
+[11:00:32.579] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[11:00:32.580] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 25
+[11:00:32.583] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:32.584] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	0080288ef010140f: VMAD2 pa0.x pa2.x sa32.y -sa30.y
+[11:00:32.627] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c008a8ef1011c0: VADD i0.x -sa14.x pa0.x
+[11:00:32.630] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	308008000f803e01: VRCP i0.x i0.x
+[11:00:32.630] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00800880ff13c1d1: VMAD2 i0.x i0.x sa14.y sa34.x
+[11:00:32.643] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40084cf04513c: VMIN i0.x sa8.x i0.x
+[11:00:32.643] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a40084c044603c: VMAX r2.x sa0.x i0.x
+[11:00:32.643] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4888868530038082: CMP.lt.f32 p1 r2.x sa4.x
+[11:00:32.644] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44384e0040342: VF16MUL r0.xyz sa26.xyz pa4.xyz
+[11:00:32.644] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a1228ed04043cf: VF16MAD2 pa2.xyzw pa8.xyzw sa30.xxxx -c15.yyyy
+[11:00:32.645] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f086a0047041: VF16DP pa0.x pa2.xyz0 pa2.xyz1
+[11:00:32.645] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0028280000001: VRSQ pa0.x pa0.x
+[11:00:32.645] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40386a0440040: VF16MUL pa2.xyz pa2.xyz pa0.xxx
+[11:00:32.646] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a004d280000081: VLOG pa0.x abs(pa2).--z
+[11:00:32.646] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0068280200004: VEXP pa2.--z pa0.x
+[11:00:32.646] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f086a0047041: VF16DP pa0.x pa2.xyz0 pa2.xyz1
+[11:00:32.647] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0028280000001: VRSQ pa0.x pa0.x
+[11:00:32.647] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a1ca8e9000100f: VF16MAD2 pa0.xyzw pa2.xyzw pa0.xxxx -c15.xxyz
+[11:00:32.647] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a24b806f6013c0: VF16ADD i1.xyz c15.xxy pa0.xyz
+[11:00:32.647] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	188188801f11a23d: VDP i0.x i1.xyz i1.xyz
+[11:00:32.648] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20a4600280090083: FRSQ i0.x i0.x + VSSQ pa0.xy pa6.xyz
+[11:00:32.648] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20a03102801a0780: VMUL i0.xyz i1.xyz i0.xxx + FRSQ pa0.xy pa0.x
+[11:00:32.649] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40b84af8400c0: VF16MUL i2.xyz pa6.xyz pa0.xxx
+[11:00:32.649] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48cb0281600c2801: AND.nezero.u32 p0 INVALID16.x 1
+[11:00:32.649] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50c1000ae0000600: OR pa0.x sa12.x 0x0
+[11:00:32.650] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_25, size = 1
+[11:00:32.650] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	39800d02c1000040: p0 VMOV.f32 pa0.x sa2.x 
+[11:00:32.650] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_26, size = 25
+[11:00:32.650] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80af918000: VMAD i2.xyz i2.xyz pa0.xxx i0.000
+[11:00:32.651] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	188188802f51a23e: VDP i1.x i2.xyz i2.xyz
+[11:00:32.651] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20a4600290090485: FRSQ i1.x i1.x + VSSQ pa0.xy pa10.xyz
+[11:00:32.652] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20a03102901a1b80: VMUL i1.xyz i2.xyz i1.xxx + FRSQ pa0.xy pa0.x
+[11:00:32.652] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40b86a0840140: VF16MUL pa4.xyz pa10.xyz pa0.xxx
+[11:00:32.652] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a0ab828048817e: VF16MUL pa2.xyz pa10.yzx i2.zxy
+[11:00:32.652] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800c5285000140: VMOV.f16 pa0.xyzw pa10.zxyw 
+[11:00:32.655] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a09aa2a007e001: VF16MAD2 pa0.xyzw i2.yzxw -pa0.xyzw pa2.xyzw
+[11:00:32.657] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44b86a06d8140: VF16MUL pa2.xyz pa10.www pa0.xyz
+[11:00:32.657] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f886a0047041: VF16DP pa0.x pa2.xyz0 pa2.xyz1
+[11:00:32.658] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a00a8280000001: VRSQ pa0.x pa0.x
+[11:00:32.658] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40b86a0040040: VF16MUL pa0.xyz pa2.xyz pa0.xxx
+[11:00:32.659] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10844b8220248f00: VF16MUL pa0.xyz i0.yyy pa0.xyz
+[11:00:32.659] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04809282a003c080: VF16MAD2 pa0.xyzw i0.xxxx pa4.xyzw pa0.xyzw
+[11:00:32.664] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04809282204bcf40: VF16MAD2 pa2.xyzw i0.zzzz i1.xyzw pa0.xyzw
+[11:00:32.664] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f086a0047041: VF16DP pa0.x pa2.xyz0 pa2.xyz1
+[11:00:32.665] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0028280000001: VRSQ pa0.x pa0.x
+[11:00:32.665] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40386a0040040: VF16MUL pa0.xyz pa2.xyz pa0.xxx
+[11:00:32.672] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f0a6e00472c0: VF16DP pa0.x -sa22.xyz0 pa0.xyz1
+[11:00:32.673] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40086e0045400: VF16MIN pa0.x sa32.x pa0.x
+[11:00:32.673] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1082008260006000: VF16MAX pa0.x c0.x pa0.x
+[11:00:32.678] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04809286f000030a: VF16MAD2 pa0.xyzw pa0.xxxx sa24.xyzw sa20.xyzw
+[11:00:32.678] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44b8620040000: VF16MUL pa0.xyz r0.xyz pa0.xyz
+[11:00:32.698] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10b9caf818000: VPCKF32F16 i0.xyz pa0.xyz [noscale]
+[11:00:32.698] |T| [shader::usse::USSETranslatorVisitor::sop2m]: 	91c11002e0000e80: SOP2M:FADD
+[11:00:32.699] |T| [shader::usse::USSETranslatorVisitor::sop2m]: 	91c11002e0000e80: SOP2M:FADD
+[11:00:32.699] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_51, size = 1
+[11:00:32.699] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	56c1000ae0000e00: !p1 OR pa0.x sa28.x 0x0
+[11:00:32.699] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_52, size = 2
+[11:00:32.699] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48c80281b00a001c: CMP.ne.u8 p0 pa0.x sa28.x
+[11:00:32.700] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800c22c5040140: VMOV.f16 pa2.xyzw sa10.xyzw 
+[11:00:32.700] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_54, size = 1
+[11:00:32.700] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	45c00d7ef0598206: !p0 VPCKF16F32 pa2.xyzw (sa4.xyzw sa6.xyzw) [noscale]
+[11:00:32.701] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_55, size = 10
+[11:00:32.701] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c10d4620000100: VPCKF16F32 pa0.x r2.x [noscale]
+[11:00:32.702] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a408a6a0441040: VF16ADD pa2.x -pa2.x pa0.x
+[11:00:32.702] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0089280000081: VRCP pa0.x pa2.--z
+[11:00:32.703] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10800882a0000040: VF16MUL pa0.x pa2.x pa0.x
+[11:00:32.709] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04802884af4c1001: VF16MAD2 i1.x pa2.w pa0.x pa2.y
+[11:00:32.709] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a408a230001f50: VF16ADD pa0.x -i1.x sa32.x
+[11:00:32.725] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40b842f040f00: VF16MUL i0.xyz i0.xyz pa0.xxx
+[11:00:32.726] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80df010108: VMAD i0.xyz i1.xxx sa16.xyz i0.xyz
+[11:00:32.742] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c517841f040f01: VMUL i0.xyzw i0.xyz1 c1.yyyy
+[11:00:32.743] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810d7e2019bc00: VPCKF16F32 pa0.xyzw i0.xyzw [noscale]
+[11:00:36.150] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c50e39f7dc56d626f1f08271f6a461464abb82128e50992904d5a3c52eae6544
+[11:00:36.226] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader c50e39f7dc56d626f1f08271f6a461464abb82128e50992904d5a3c52eae6544
+[11:00:36.257] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[11:00:36.283] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__uv0
+[11:00:36.285] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _sp_world_view_projection_matrix[4]
+[11:00:36.290] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[11:00:36.291] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8ea1c10300: VPCKF32F16 sa14.xy sa6.xy [noscale]
+[11:00:36.295] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8ea1830302: VPCKF32F16 sa12.xy sa6.zw [noscale]
+[11:00:36.299] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8ea1010200: VPCKF32F16 sa8.xy sa4.xy [noscale]
+[11:00:36.302] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8ea1430202: VPCKF32F16 sa10.xy sa4.zw [noscale]
+[11:00:36.349] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8ea0810000: VPCKF32F16 sa4.xy sa0.xy [noscale]
+[11:00:36.378] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8ea0c30002: VPCKF32F16 sa6.xy sa0.zw [noscale]
+[11:00:36.378] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b8ea0010100: VPCKF32F16 sa0.xy sa2.xy [noscale]
+[11:00:36.378] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40850b8ea0430102: VPCKF32F16 sa2.xy sa2.zw [noscale]
+[11:00:36.379] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[11:00:36.379] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:36.379] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183080080: VMOV.f32 o4.xy pa4.xy 
+[11:00:36.379] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:00:36.380] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf44003c: VMUL i1.xyzw sa0.xyzw i0.yyyy
+[11:00:36.381] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411102: VMAD i1.xyzw i0.xxxx sa4.xyzw i1.xyzw
+[11:00:36.381] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[11:00:36.381] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1107: VMAD o0.xy i0.ww sa14.xy i1.xy
+[11:00:36.381] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c04ed106: VMAD o2.xy i0.ww sa12.xy i1.zw
+[11:00:36.381] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:00:36.403] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 100ca5e509ec1d74faba4627cab6208f6dd174f7c210d12cb69235073d917a4d
+[11:00:36.407] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 100ca5e509ec1d74faba4627cab6208f6dd174f7c210d12cb69235073d917a4d
+[11:00:36.413] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) adjustmentColor
+[11:00:36.414] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(samp0, TEXCOORD0.xy)
+[11:00:36.417] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:00:36.421] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44010000000000: PHAS
+[11:00:36.428] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4889c9159003808c: CMP.ge.f32 p1 pa2.-y c12.-x
+[11:00:36.433] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[11:00:36.434] |T| [shader::usse::USSETranslatorVisitor::kill]: 	f9300406f0000102: KILL p1 
+[11:00:36.437] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 4
+[11:00:36.441] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[11:00:36.445] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:00:36.448] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d7ea0198002: VPCKF16F32 pa0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:00:36.453] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44786b0040000: VF16MUL pa0.xyzw pa0.xyzw sa0.xyzw
+[11:00:56.045] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[11:00:56.050] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[11:01:05.455] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0xbf94193b _Stod at 0x805d3e5c
+[11:01:27.147] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3c59645d39863a474a444e98a557fa810a6a0cf388d0acccf1b9e45525a08c0a
+[11:01:27.148] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9ae80abef7204af9847f12813d2ccc6cb2727813e4d71e8b40dc5a521464740e
+[11:01:27.153] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 3c59645d39863a474a444e98a557fa810a6a0cf388d0acccf1b9e45525a08c0a
+[11:01:27.157] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9ae80abef7204af9847f12813d2ccc6cb2727813e4d71e8b40dc5a521464740e
+[11:01:27.162] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[11:01:27.166] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[11:01:27.167] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__uv0
+[11:01:27.170] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[11:01:27.171] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[11:01:27.172] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) offecreenOffset
+[11:01:27.174] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) offecreenOffset
+[11:01:27.176] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[11:01:27.179] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[11:01:27.180] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:01:27.187] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:01:27.188] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f800094000000000: NOP
+[11:01:27.191] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183080080: VMOV.f32 o4.xy pa4.xy 
+[11:01:27.193] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:01:27.200] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[11:01:27.196] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:01:27.203] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[11:01:27.207] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[11:01:27.214] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[11:01:27.209] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[11:01:27.216] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[11:01:27.226] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf0d1106: VMAD i0.xyzw i0.wwww sa12.xyzw i1.xyzw
+[11:01:27.230] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf0d1106: VMAD i0.xyzw i0.wwww sa12.xyzw i1.xyzw
+[11:01:27.234] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c241818012103c: VADD o0.xy 0 i0.xy
+[11:01:27.237] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08c241818012103c: VADD o0.xy 0 i0.xy
+[11:01:27.239] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	0880b181c050123c: VADD o2.xy sa16.x0 i0.zw
+[11:01:27.240] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	0880b181c050123c: VADD o2.xy sa16.x0 i0.zw
+[11:01:27.242] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:01:27.248] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:01:27.270] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d4ef898e74d33b77155b16a343ce6b15056179de81d7455cfcf5b8dc12e8c4f8
+[11:01:27.271] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e01d45b6a8a4fe3290c48b17a1113c048e2f10713ea1f96e57e1de24efcdd403
+[11:01:27.273] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d4ef898e74d33b77155b16a343ce6b15056179de81d7455cfcf5b8dc12e8c4f8
+[11:01:27.280] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader e01d45b6a8a4fe3290c48b17a1113c048e2f10713ea1f96e57e1de24efcdd403
+[11:01:27.285] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) offecreenColor
+[11:01:27.290] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:01:27.293] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:01:27.295] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) offecreenColor
+[11:01:27.297] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800422c5000000: VMOV.f16 pa0.xyzw sa0.xyzw 
+[11:01:27.299] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(_samp0, TEXCOORD0.xy)
+[11:01:27.305] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[11:01:27.308] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44010000000000: PHAS
+[11:01:27.310] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800422c5000000: VMOV.f16 pa0.xyzw sa0.xyzw 
+[11:01:27.314] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4889c9159003808c: CMP.ge.f32 p1 pa2.-y c12.-x
+[11:01:27.316] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[11:01:27.320] |T| [shader::usse::USSETranslatorVisitor::kill]: 	f9300406f0000102: KILL p1 
+[11:01:27.322] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 2
+[11:01:27.325] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[11:01:27.329] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:01:28.085] |T| [log_import_call]: [LLE] TID: 185 FUNC: 0x4e09dd53 atan2f at 0x805d3f3c
+[11:01:43.031] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[11:01:43.094] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[11:01:51.102] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 20d90ac150045daa8dc91380efc5f820b98cf6934ce6de251387ae46cf8cf481
+[11:01:51.130] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 20d90ac150045daa8dc91380efc5f820b98cf6934ce6de251387ae46cf8cf481
+[11:01:51.136] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__position
+[11:01:51.160] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__normal
+[11:01:51.162] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input__uv0
+[11:01:51.164] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[11:01:51.167] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _sp_world_view_matrix[4]
+[11:01:51.180] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 20
+[11:01:51.181] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:01:51.185] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38800d2183080100: VMOV.f32 o4.xy pa8.xy 
+[11:01:51.220] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:01:51.224] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[11:01:51.226] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[11:01:51.229] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[11:01:51.234] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[11:01:51.236] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[11:01:51.241] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00d9cafa18206: VPCKF32F32 i1.xyz (pa4.xyz pa6.xyzw) [noscale]
+[11:01:51.244] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80df85810a: VMAD i2.xyz i1.yyy sa20.xyz i0.000
+[11:01:51.251] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80df812108: VMAD i2.xyz i1.xxx sa16.xyz i2.xyz
+[11:01:51.254] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18981d149614c: VMAD o10.xy i1.zz sa24.yz i2.yz
+[11:01:51.260] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18901d108200c: VMAD o8.-y i1.-z sa24.-x i2.-x
+[11:01:51.270] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e18b80cf45810a: VMAD i1.xyz i0.yyy sa20.xyz i0.000
+[11:01:51.277] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf411108: VMAD i1.xyz i0.xxx sa16.xyz i1.xyz
+[11:01:51.281] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf49110c: VMAD i1.xyz i0.zzz sa24.xyz i1.xyz
+[11:01:51.285] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18b80cf0d110e: VMAD i0.xyz i0.www sa28.xyz i1.xyz
+[11:01:51.290] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18e381c140d18041: VMAD o6.xy i0.xy -c1.yy i0.00
+[11:01:51.292] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	088110a111010f01: VMUL o8.x -i0.z c1.y
+[11:01:51.296] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:01:51.425] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 74883328edb13e62830e5eb40c41b16ff07ef7ce8a25984732c17a00d7e2315c
+[11:01:51.429] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 74883328edb13e62830e5eb40c41b16ff07ef7ce8a25984732c17a00d7e2315c
+[11:01:51.502] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) concentrationColor
+[11:01:51.503] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) concentrationStartLineColor
+[11:01:51.504] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half1) concentrationStartCount
+[11:01:51.507] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) ambientLightColor
+[11:01:51.509] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) pointLight0Position
+[11:01:51.510] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half4) pointLight0Attenuation
+[11:01:51.512] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half4) pointLight0Color
+[11:01:51.513] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Position
+[11:01:51.516] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord6
+[11:01:51.521] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord5
+[11:01:51.525] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:01:51.527] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a00086a2490202: VF16MUL sa18.x sa16.z sa4.x
+[11:01:51.528] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[11:01:51.529] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[11:01:51.531] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:01:51.534] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	48a80681f0038107: CMP.lt.f16 p0 sa4.x sa14.x
+[11:01:51.536] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[11:01:51.538] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b7ee0198000: VPCKF16F16 pa0.xyzw sa0.xyzw [noscale]
+[11:01:51.543] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 14
+[11:01:51.543] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810d46a0000100: VPCKF16F32 pa0.x pa2.x [noscale]
+[11:01:51.546] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a400a6e0441080: VF16ADD pa2.x -sa4.x pa0.x
+[11:01:51.551] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38c24c0671041007: VMOVC.f16 pa2.xy (pa2.xy < vec(0)) ? c0.xx : sa14.xx
+[11:01:51.557] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	048008a4ff2011c7: VF16MAD2 i0.x pa2.x -sa14.z sa14.x
+[11:01:51.559] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	048008a4ffa00209: VF16MAD2 i2.x pa0.x -sa16.z sa18.x
+[11:01:51.562] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10800882b0400008: VF16MUL pa2.x pa0.x sa16.x
+[11:01:51.564] |T| [shader::usse::USSETranslatorVisitor::vbw]: 	50c1000ae0000800: OR pa0.x sa16.x 0x0
+[11:01:51.568] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04800924ef400081: VF16MAD2 i1.-y pa0.-x -sa4.-x pa2.-x
+[11:01:51.578] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	28a43440e0140500: VMUL r0.xyzw sa0.xyzw i0.xxxx + VMOV i2.-y i1.-y
+[11:01:51.582] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a401a630041f87: VF16ADD pa0.xy -i2.xy sa14.xx
+[11:01:51.586] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40186b0045007: VF16MIN pa0.xy pa0.xy sa14.xx
+[11:01:51.587] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1081018290446000: VF16MAX pa2.xy pa0.xy c0.xx
+[11:01:51.592] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40786e0040041: VF16MUL pa0.xyzw sa2.xyzw pa2.xxxx
+[11:01:51.597] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a0828680100040: VF16MAD2 pa0.xyzw pa0.xyzw pa2.yyyy r0.xyzw
+[11:01:51.600] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_19, size = 16
+[11:01:51.601] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f800094000000000: NOP
+[11:01:51.602] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44b84bf4410c4: VF16ADD i1.xyz pa6.xyz sa8.xyz
+[11:01:51.606] |T| [shader::usse::USSETranslatorVisitor::vdp]: 	188188801f11a23d: VDP i0.x i1.xyz i1.xyz
+[11:01:51.608] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20a4600280490082: FRSQ i0.x i0.x + VSSQ pa2.xy pa4.xyz
+[11:01:51.611] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20a06012906c1082: FRSQ i1.x pa2.x + VMUL pa6.xyzw i0.xxxx i1.xyzx
+[11:01:51.621] |T| [shader::usse::USSETranslatorVisitor::vdual]: 	20a47002a02e0482: FRCP i2.x i0.x + VMUL pa2.xyzw i1.xxxx pa4.xyzx
+[11:01:51.624] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f886a0447043: VF16DP pa2.x pa2.xyz0 pa6.xyz1
+[11:01:51.630] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40886b0445047: VF16MIN pa2.x pa2.x sa14.x
+[11:01:51.631] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a5088690846040: VF16MAX pa4.x pa2.x c0.x
+[11:01:51.634] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c1118a10428f8f: VF16MUL pa2.xy i2.1x c15.yy
+[11:01:51.637] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	1080020200400fbe: VF16MUL pa2.--z i2.--x i2.--x
+[11:01:51.638] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10c0f086e0447141: VF16DP pa2.x sa10.xyz0 pa2.xyz1
+[11:01:51.642] |T| [shader::usse::USSETranslatorVisitor::vcomp]: 	30a0008280200081: VRCP pa2.x pa2.x
+[11:01:51.645] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10800082a0400042: VF16MUL pa2.x pa2.x pa4.x
+[11:01:51.647] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04809286f0401183: VF16MAD2 pa2.xyzw pa2.xxxx sa12.xyzw sa6.xyzw
+[11:01:51.651] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a44386a0040001: VF16MUL pa0.xyz pa0.xyz pa2.xyz
+[11:01:52.006] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 0acf5d97c5524c3fd5648141d9d5423e5f3a6c007f0409820c8df9c3e3732860
+[11:01:52.010] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 4727e5db954bdafd6d398f91ae8b13b0b3bb22870c69d8ba3ca8923f596185b3
+[11:01:52.015] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 0acf5d97c5524c3fd5648141d9d5423e5f3a6c007f0409820c8df9c3e3732860
+[11:01:52.020] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 4727e5db954bdafd6d398f91ae8b13b0b3bb22870c69d8ba3ca8923f596185b3
+[11:01:52.025] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[11:01:52.029] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_position
+[11:01:52.030] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float1) _sp_alpha
+[11:01:52.032] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_color
+[11:01:52.035] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_texcoord0
+[11:01:52.040] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_world_view_projection_matrix[4]
+[11:01:52.033] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[11:01:52.048] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(samp, TEXCOORD0.xy)
+[11:01:52.046] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[11:01:52.051] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[11:01:52.052] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:01:52.055] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38802d2183080080: VMOV.f32 o4.xy pa4.xy 
+[11:01:52.054] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44010000000000: PHAS
+[11:01:52.058] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38802d2183080080: VMOV.f32 o6.xy pa6.xy 
+[11:01:52.060] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a09186b0000080: VMAD2 pa0.xy pa0.xy pa4.xy sa0.xy
+[11:01:52.062] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	38802d2183080080: VMOV.f32 o8.xy pa8.xy 
+[11:01:52.065] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	00a09186b0403041: VMAD2 pa2.xy pa6.xy pa2.xy sa2.xy
+[11:01:52.066] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40c00dbcaf998002: VPCKF32F32 i0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:01:52.075] |T| [shader::usse::USSETranslatorVisitor::vtst_impl]: 	4888c915b0038082: CMP.ge.f32 p1 pa2.-y sa4.-x
+[11:01:52.077] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	08a41f84cf4400bc: VMUL i1.xyzw sa4.xyzw i0.yyyy
+[11:01:52.078] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 1
+[11:01:52.080] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf411100: VMAD i1.xyzw i0.xxxx sa0.xyzw i1.xyzw
+[11:01:52.082] |T| [shader::usse::USSETranslatorVisitor::kill]: 	f9300406f0000306: KILL p1 
+[11:01:52.085] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18f80cf491104: VMAD i1.xyzw i0.zzzz sa8.xyzw i1.xyzw
+[11:01:52.088] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 3
+[11:01:52.091] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c00d1106: VMAD o0.xy i0.ww sa12.xy i1.xy
+[11:01:52.093] |T| [shader::usse::USSETranslatorVisitor::nop]: 	f804014000000000: NOP
+[11:01:52.096] |T| [shader::usse::USSETranslatorVisitor::vmad]: 	18b18181c04ed107: VMAD o2.xy i0.ww sa14.xy i1.zw
+[11:01:52.097] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:01:52.102] |T| [shader::usse::USSETranslatorVisitor::vmov]: 	3882050941140040: VMOV.f32 o10.x c1.y 
+[11:01:52.108] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40800d7ea0198002: VPCKF16F32 pa0.xyzw (pa0.xyzw pa2.xyzw) [noscale]
+[11:01:52.110] |T| [shader::usse::USSETranslatorVisitor::spec]: 	fb275000a0200000: SPEC category: 2, special: false
+[11:02:07.018] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[11:02:07.040] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[11:02:31.050] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[11:02:31.194] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[11:02:45.020] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6bdb49af1a470d37beb027849265f01c6eb853fdf0360c6fd82292d674515514
+[11:02:45.025] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 6bdb49af1a470d37beb027849265f01c6eb853fdf0360c6fd82292d674515514
+[11:02:45.070] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _sp_color
+[11:02:45.071] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[11:02:45.072] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(samp, TEXCOORD0.xy)
+[11:02:45.074] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[11:02:45.076] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40840d7ea0198002: VPCKF16F32 sa0.xyzw (sa0.xyzw sa2.xyzw) [noscale]
+[11:02:45.081] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[11:02:45.083] |T| [shader::usse::USSETranslatorVisitor::phas]: 	fa44070000000000: PHAS
+[11:02:45.085] |T| [shader::usse::USSETranslatorVisitor::vmad2]: 	04a09286b0400040: VF16MAD2 pa2.xyzw pa0.xyzw pa2.xyzw sa0.xyzw
+[11:02:45.088] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10842082a0249041: VF16ADD pa0.x pa2.y pa2.z
+[11:02:45.090] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10800082a0001001: VF16ADD pa0.x pa0.x pa2.x
+[11:02:45.091] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10802082b0000002: VF16MUL pa0.x pa0.x sa4.z
+[11:02:45.097] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a40086b0045002: VF16MIN pa0.x pa0.x sa4.x
+[11:02:45.099] |T| [shader::usse::USSETranslatorVisitor::v32nmad]: 	10a5008290406000: VF16MAX pa2.x pa0.x c0.x
+[11:02:45.101] |T| [shader::usse::USSETranslatorVisitor::vpck]: 	40810b7ea0180100: VPCKF16F16 pa0.xyzw pa2.xxxw [noscale]
+[11:03:00.075] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[11:03:00.110] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[11:04:00.074] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[11:04:00.099] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved

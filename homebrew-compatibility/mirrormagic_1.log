@@ -1,0 +1,799 @@
+[02:20:25.651] |I| [config::init]: log-level: 0
+[02:20:25.652] |I| [config::init]: log-imports: false
+[02:20:25.652] |I| [config::init]: log-exports: false
+[02:20:25.653] |I| [config::init]: log-active-shaders: false
+[02:20:25.653] |I| [config::init]: log-uniforms: false
+[02:20:25.655] |I| [SDL_main]: Vita3K v0.1 790-be6ba6b
+[02:20:26.277] |I| [init]: Swap interval = -1
+[02:20:41.637] |I| [load_app_impl]: Title: mirrormagic
+[02:20:41.638] |I| [load_app_impl]: Serial: MIRROR000
+[02:20:41.638] |I| [load_app_impl]: Category: gd
+[02:20:41.638] |D| [load_app_impl]: Pre-load module at "sce_module/libc.suprx" not present
+[02:20:41.638] |D| [load_app_impl]: Pre-load module at "sce_module/libfios2.suprx" not present
+[02:20:41.638] |D| [load_app_impl]: Pre-load module at "sce_module/libult.suprx" not present
+[02:20:41.827] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[02:20:41.828] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x305980
+[02:20:41.828] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x3059DC
+[02:20:41.828] |I| [load_app_impl]: Main executable /mirrormagic.elf (eboot.bin) loaded
+[02:20:41.890] |I| [export_sceIoOpen]: Opening file: tty0:
+[02:20:41.890] |T| [open_file]: sceIoOpen: Opening file tty0: (tty0:)
+[02:20:41.891] |I| [export_sceIoOpen]: Opening file: tty0:
+[02:20:41.891] |T| [open_file]: sceIoOpen: Opening file tty0: (tty0:)
+[02:20:41.891] |I| [export_sceIoOpen]: Opening file: tty0:
+[02:20:41.891] |T| [open_file]: sceIoOpen: Opening file tty0: (tty0:)
+[02:20:41.894] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/conf/setup.conf (ux0:/data/mirrormagic/conf/setup.conf)
+[02:20:41.909] |I| [export_sceIoOpen]: Opening file: ux0:/data/mirrormagic/conf/setup.conf
+[02:20:41.910] |T| [open_file]: sceIoOpen: Opening file ux0:/data/mirrormagic/conf/setup.conf (ux0:/data/mirrormagic/conf/setup.conf)
+[02:20:41.936] |T| [stat_file]: sceIoGetstatByFd: Statting file ux0:/data/mirrormagic/conf/setup.conf (ux0:/data/mirrormagic/conf/setup.conf)
+[02:20:41.937] |T| [read_file]: sceIoRead: Reading file: fd: 0x3, size: 1024
+[02:20:41.940] |T| [read_file]: sceIoRead: Reading file: fd: 0x3, size: 1024
+[02:20:41.940] |T| [close_file]: sceIoClose: Closing file: fd: 0x3
+[02:20:41.947] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/userdata (ux0:/data/mirrormagic/userdata)
+[02:20:41.948] |W| [io_error_impl]: stat_file (sceIoGetstat) returned 0x80010018
+[02:20:41.948] |T| [create_dir]: sceIoMkdir: Creating dir ux0:/data/mirrormagic/userdata (ux0:/data/mirrormagic/userdata)
+[02:20:41.950] |I| [export_sceIoOpen]: Opening file: ux0:/data/mirrormagic/userdata/stdout.txt
+[02:20:41.950] |T| [open_file]: sceIoOpen: Opening file ux0:/data/mirrormagic/userdata/stdout.txt (ux0:/data/mirrormagic/userdata/stdout.txt)
+[02:20:41.953] |I| [export_sceIoOpen]: Opening file: ux0:/data/mirrormagic/userdata/stderr.txt
+[02:20:41.953] |T| [open_file]: sceIoOpen: Opening file ux0:/data/mirrormagic/userdata/stderr.txt (ux0:/data/mirrormagic/userdata/stderr.txt)
+[02:20:41.961] |E| [ret_error_impl]: sceNetShowNetstat returned SCE_NET_ERROR_ENOTINIT (0x804101C8)
+[02:20:41.961] |W| [unimplemented_impl]: Unimplemented sceNetCtlInit import called.
+[02:20:42.182] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/conf/setup.conf (ux0:/data/mirrormagic/conf/setup.conf)
+[02:20:42.183] |I| [export_sceIoOpen]: Opening file: ux0:/data/mirrormagic/conf/setup.conf
+[02:20:42.184] |T| [open_file]: sceIoOpen: Opening file ux0:/data/mirrormagic/conf/setup.conf (ux0:/data/mirrormagic/conf/setup.conf)
+[02:20:42.184] |T| [stat_file]: sceIoGetstatByFd: Statting file ux0:/data/mirrormagic/conf/setup.conf (ux0:/data/mirrormagic/conf/setup.conf)
+[02:20:42.185] |T| [read_file]: sceIoRead: Reading file: fd: 0x6, size: 1024
+[02:20:42.186] |T| [read_file]: sceIoRead: Reading file: fd: 0x6, size: 1024
+[02:20:42.186] |T| [close_file]: sceIoClose: Closing file: fd: 0x6
+[02:20:42.188] |I| [export_sceIoOpen]: Opening file: ux0:/data/mirrormagic/userdata/setup.conf
+[02:20:42.189] |T| [open_file]: sceIoOpen: Opening file ux0:/data/mirrormagic/userdata/setup.conf (ux0:/data/mirrormagic/userdata/setup.conf)
+[02:20:42.189] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[02:20:42.190] |I| [export_sceIoOpen]: Opening file: ux0:/data/mirrormagic/userdata/autosetup.conf
+[02:20:42.190] |T| [open_file]: sceIoOpen: Opening file ux0:/data/mirrormagic/userdata/autosetup.conf (ux0:/data/mirrormagic/userdata/autosetup.conf)
+[02:20:42.191] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[02:20:42.191] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/scores (ux0:/data/mirrormagic/scores)
+[02:20:42.194] |W| [io_error_impl]: stat_file (sceIoGetstat) returned 0x80010018
+[02:20:42.195] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/userdata (ux0:/data/mirrormagic/userdata)
+[02:20:42.195] |T| [create_dir]: sceIoMkdir: Creating dir ux0:/data/mirrormagic/userdata (ux0:/data/mirrormagic/userdata)
+[02:20:42.196] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/userdata/cache (ux0:/data/mirrormagic/userdata/cache)
+[02:20:42.196] |W| [io_error_impl]: stat_file (sceIoGetstat) returned 0x80010018
+[02:20:42.197] |T| [create_dir]: sceIoMkdir: Creating dir ux0:/data/mirrormagic/userdata/cache (ux0:/data/mirrormagic/userdata/cache)
+[02:20:42.198] |I| [export_sceIoOpen]: Opening file: ux0:/data/mirrormagic/userdata/cache/artworkinfo.cache
+[02:20:42.198] |T| [open_file]: sceIoOpen: Opening file ux0:/data/mirrormagic/userdata/cache/artworkinfo.cache (ux0:/data/mirrormagic/userdata/cache/artworkinfo.cache)
+[02:20:42.199] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[02:20:42.199] |T| [open_dir]: sceIoDopen: Opening dir ux0:/data/mirrormagic/graphics (ux0:/data/mirrormagic/graphics)
+[02:20:42.200] |T| [read_dir]: sceIoDread: Reading dir fd: 0x7
+[02:20:42.200] |T| [read_dir]: sceIoDread: Reading dir fd: 0x7
+[02:20:42.200] |T| [read_dir]: sceIoDread: Reading dir fd: 0x7
+[02:20:42.201] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/graphics/gfx_classic (ux0:/data/mirrormagic/graphics/gfx_classic)
+[02:20:42.202] |T| [read_dir]: sceIoDread: Reading dir fd: 0x7
+[02:20:42.202] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/graphics/gfx_mirrormagic (ux0:/data/mirrormagic/graphics/gfx_mirrormagic)
+[02:20:42.206] |T| [read_dir]: sceIoDread: Reading dir fd: 0x7
+[02:20:42.206] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x7
+[02:20:42.206] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/graphics/graphicsinfo.conf (ux0:/data/mirrormagic/graphics/graphicsinfo.conf)
+[02:20:42.207] |W| [io_error_impl]: stat_file (sceIoGetstat) returned 0x80010018
+[02:20:42.207] |T| [open_dir]: sceIoDopen: Opening dir ux0:/data/mirrormagic/graphics (ux0:/data/mirrormagic/graphics)
+[02:20:42.208] |T| [read_dir]: sceIoDread: Reading dir fd: 0x8
+[02:20:42.208] |T| [read_dir]: sceIoDread: Reading dir fd: 0x8
+[02:20:42.208] |T| [read_dir]: sceIoDread: Reading dir fd: 0x8
+[02:20:42.209] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/graphics/gfx_classic (ux0:/data/mirrormagic/graphics/gfx_classic)
+[02:20:42.210] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/graphics/gfx_classic (ux0:/data/mirrormagic/graphics/gfx_classic)
+[02:20:42.210] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x8
+[02:20:42.211] |T| [open_dir]: sceIoDopen: Opening dir ux0:/data/mirrormagic/userdata/graphics (ux0:/data/mirrormagic/userdata/graphics)
+[02:20:42.212] |W| [io_error_impl]: open_dir (sceIoDopen) returned 0x80010002
+[02:20:42.212] |T| [open_dir]: sceIoDopen: Opening dir ux0:/data/mirrormagic/sounds (ux0:/data/mirrormagic/sounds)
+[02:20:42.213] |T| [read_dir]: sceIoDread: Reading dir fd: 0x9
+[02:20:42.213] |T| [read_dir]: sceIoDread: Reading dir fd: 0x9
+[02:20:42.213] |T| [read_dir]: sceIoDread: Reading dir fd: 0x9
+[02:20:42.216] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/sounds/snd_classic (ux0:/data/mirrormagic/sounds/snd_classic)
+[02:20:42.217] |T| [read_dir]: sceIoDread: Reading dir fd: 0x9
+[02:20:42.217] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/sounds/snd_mirrormagic (ux0:/data/mirrormagic/sounds/snd_mirrormagic)
+[02:20:42.218] |T| [read_dir]: sceIoDread: Reading dir fd: 0x9
+[02:20:42.218] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x9
+[02:20:42.218] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/sounds/soundsinfo.conf (ux0:/data/mirrormagic/sounds/soundsinfo.conf)
+[02:20:42.219] |W| [io_error_impl]: stat_file (sceIoGetstat) returned 0x80010018
+[02:20:42.219] |T| [open_dir]: sceIoDopen: Opening dir ux0:/data/mirrormagic/sounds (ux0:/data/mirrormagic/sounds)
+[02:20:42.220] |T| [read_dir]: sceIoDread: Reading dir fd: 0xA
+[02:20:42.220] |T| [read_dir]: sceIoDread: Reading dir fd: 0xA
+[02:20:42.220] |T| [read_dir]: sceIoDread: Reading dir fd: 0xA
+[02:20:42.221] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/sounds/snd_classic (ux0:/data/mirrormagic/sounds/snd_classic)
+[02:20:42.222] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/sounds/snd_classic (ux0:/data/mirrormagic/sounds/snd_classic)
+[02:20:42.223] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xA
+[02:20:42.223] |T| [open_dir]: sceIoDopen: Opening dir ux0:/data/mirrormagic/userdata/sounds (ux0:/data/mirrormagic/userdata/sounds)
+[02:20:42.223] |W| [io_error_impl]: open_dir (sceIoDopen) returned 0x80010002
+[02:20:42.224] |T| [open_dir]: sceIoDopen: Opening dir ux0:/data/mirrormagic/music (ux0:/data/mirrormagic/music)
+[02:20:42.224] |T| [read_dir]: sceIoDread: Reading dir fd: 0xB
+[02:20:42.227] |T| [read_dir]: sceIoDread: Reading dir fd: 0xB
+[02:20:42.231] |T| [read_dir]: sceIoDread: Reading dir fd: 0xB
+[02:20:42.232] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/music/mus_classic (ux0:/data/mirrormagic/music/mus_classic)
+[02:20:42.232] |T| [read_dir]: sceIoDread: Reading dir fd: 0xB
+[02:20:42.233] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/music/mus_mirrormagic (ux0:/data/mirrormagic/music/mus_mirrormagic)
+[02:20:42.233] |T| [read_dir]: sceIoDread: Reading dir fd: 0xB
+[02:20:42.233] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xB
+[02:20:42.234] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/music/musicinfo.conf (ux0:/data/mirrormagic/music/musicinfo.conf)
+[02:20:42.235] |W| [io_error_impl]: stat_file (sceIoGetstat) returned 0x80010018
+[02:20:42.235] |T| [open_dir]: sceIoDopen: Opening dir ux0:/data/mirrormagic/music (ux0:/data/mirrormagic/music)
+[02:20:42.235] |T| [read_dir]: sceIoDread: Reading dir fd: 0xC
+[02:20:42.237] |T| [read_dir]: sceIoDread: Reading dir fd: 0xC
+[02:20:42.238] |T| [read_dir]: sceIoDread: Reading dir fd: 0xC
+[02:20:42.238] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/music/mus_classic (ux0:/data/mirrormagic/music/mus_classic)
+[02:20:42.239] |T| [stat_file]: sceIoGetstat: Statting file ux0:/data/mirrormagic/music/mus_classic (ux0:/data/mirrormagic/music/mus_classic)
+[02:20:42.240] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xC
+[02:20:42.240] |T| [open_dir]: sceIoDopen: Opening dir ux0:/data/mirrormagic/userdata/music (ux0:/data/mirrormagic/userdata/music)
+[02:20:42.241] |W| [io_error_impl]: open_dir (sceIoDopen) returned 0x80010002
+[02:20:43.390] |W| [unimplemented_impl]: Unimplemented sceKernelGetThreadInfo import called.
+[02:20:43.394] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
+[02:20:43.395] |W| [unimplemented_impl]: Unimplemented sceAudioOutSetVolume import called.
+[02:20:43.409] |W| [unimplemented_impl]: Unimplemented sceTouchEnableTouchForce import called.
+[02:20:43.410] |W| [unimplemented_impl]: Unimplemented sceHidKeyboardEnumerate import called.
+[02:20:43.410] |W| [unimplemented_impl]: Unimplemented sceHidMouseEnumerate import called.
+[02:20:43.447] |I| [renderer::create]: GL_VERSION = 4.1.0 NVIDIA 419.35
+[02:20:43.447] |I| [renderer::create]: GL_SHADING_LANGUAGE_VERSION = 4.10 NVIDIA via Cg compiler
+[02:20:43.456] |I| [renderer::load_shader]: Generating vert shader 9dda8a3b77baa4dc9f573eb74faa2f014d9e746cec719faf7c905732dc117710
+[02:20:43.457] |D| [gxp::log_parameter]: Vertex attribute: name:aPosition semantic:NONE type:0 component_count:4 container_index:0x0
+[02:20:43.459] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 35
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 14  "main_vs" 5 7
+               1:             String  "9dda8a3b77baa4dc9f573eb74faa2f014d9e746cec719faf7c905732dc117710"
+                              SourceExtension  "gxp"
+                              Name 5  "aPosition"
+                              Name 7  "v_Position"
+                              Name 9  "i0"
+                              Name 10  "i1"
+                              Name 11  "i2"
+                              Name 14  "main_vs"
+                              Decorate 7(v_Position) BuiltIn Position
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer Input 3(fvec4)
+    5(aPosition):      4(ptr) Variable Input
+               6:             TypePointer Output 3(fvec4)
+   7(v_Position):      6(ptr) Variable Output
+               8:             TypePointer Private 3(fvec4)
+           9(i0):      8(ptr) Variable Private
+          10(i1):      8(ptr) Variable Private
+          11(i2):      8(ptr) Variable Private
+              12:             TypeVoid
+              13:             TypeFunction 12
+              16:    2(float) Constant 1056964608
+              17:    2(float) Constant 0
+              18:    2(float) Constant 1065353216
+              19:    2(float) Constant 1073741824
+              20:             TypeVector 2(float) 1
+              21:             TypeVector 2(float) 2
+              22:             TypeVector 2(float) 3
+              24:             TypeInt 32 1
+              25:     24(int) Constant 2
+              27:     24(int) Constant 3
+              29:    3(fvec4) ConstantComposite 18 18
+     14(main_vs):          12 Function None 13
+              15:             Label
+                              Line 1 4294967294 0
+              23:    3(fvec4) VectorShuffle 5(aPosition) 5(aPosition) 0 1 0 0
+              26:    3(fvec4) VectorInsertDynamic 23 18 25
+              28:    3(fvec4) VectorInsertDynamic 26 18 27
+              30:    3(fvec4) FMul 28 29
+                              Store 9(i0) 30
+              31:   21(fvec2) VectorShuffle 9(i0) 9(i0) 0 1
+              32:    3(fvec4) VectorShuffle 31 7(v_Position) 0 1 4 5
+                              Store 7(v_Position) 32
+              33:   21(fvec2) VectorShuffle 9(i0) 9(i0) 2 3
+              34:    3(fvec4) VectorShuffle 33 7(v_Position) 2 3 0 1
+                              Store 7(v_Position) 34
+                              Return
+                              FunctionEnd
+
+[02:20:43.461] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+in vec4 aPosition;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+
+void main()
+{
+    vec4 _26 = aPosition.xyxx;
+    _26.z = 1.0;
+    vec4 _28 = _26;
+    _28.w = 1.0;
+    i0 = _28 * vec4(1.0);
+    gl_Position = vec4(i0.xy.x, i0.xy.y, gl_Position.z, gl_Position.w);
+    gl_Position = vec4(gl_Position.x, gl_Position.y, i0.zw.x, i0.zw.y);
+}
+
+
+[02:20:43.468] |I| [renderer::load_shader]: Generating frag shader b9d5693c598b0f23b4114941a7055d642fbf46a68488a6edc7b4313b58983966
+[02:20:43.469] |D| [gxp::log_parameter]: Uniform: name:uClearColor semantic:NONE type:0 component_count:4 container_index:0xE
+[02:20:43.470] |W| [shader::usse::USSETranslatorVisitor::vmov]: Data type != F32 unsupported
+[02:20:43.471] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 29
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 16  "main_fs" 13 7 7
+                              ExecutionMode 16 OriginLowerLeft
+               1:             String  "b9d5693c598b0f23b4114941a7055d642fbf46a68488a6edc7b4313b58983966"
+                              SourceExtension  "gxp"
+                              Name 5  "uClearColor"
+                              Name 7  "out_color"
+                              Name 9  "i0"
+                              Name 10  "i1"
+                              Name 11  "i2"
+                              Name 13  "pa0_blend"
+                              Name 16  "main_fs"
+                              Name 26  "pa0_temp"
+                              Decorate 7(out_color) Location 0
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer UniformConstant 3(fvec4)
+  5(uClearColor):      4(ptr) Variable UniformConstant
+               6:             TypePointer Output 3(fvec4)
+    7(out_color):      6(ptr) Variable Output
+               8:             TypePointer Private 3(fvec4)
+           9(i0):      8(ptr) Variable Private
+          10(i1):      8(ptr) Variable Private
+          11(i2):      8(ptr) Variable Private
+              12:             TypePointer Input 3(fvec4)
+   13(pa0_blend):     12(ptr) Variable Input
+              14:             TypeVoid
+              15:             TypeFunction 14
+              18:    2(float) Constant 1056964608
+              19:    2(float) Constant 0
+              20:    2(float) Constant 1065353216
+              21:    2(float) Constant 1073741824
+              22:             TypeVector 2(float) 1
+              23:             TypeVector 2(float) 2
+              24:             TypeVector 2(float) 3
+    26(pa0_temp):      8(ptr) Variable Private
+     16(main_fs):          14 Function None 15
+              17:             Label
+                              Line 1 4294967292 0
+              25:    3(fvec4) Load 13(pa0_blend)
+              27:    3(fvec4) Load 13(pa0_blend)
+                              Store 26(pa0_temp) 27
+                              Store 26(pa0_temp) 25
+              28:    3(fvec4) Load 26(pa0_temp)
+                              Store 7(out_color) 28
+                              Return
+                              FunctionEnd
+
+[02:20:43.473] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 uClearColor;
+
+layout(location = 0) out vec4 out_color;
+in vec4 pa0_blend;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+vec4 pa0_temp;
+
+void main()
+{
+    pa0_temp = pa0_blend;
+    pa0_temp = pa0_blend;
+    out_color = pa0_temp;
+}
+
+
+[02:20:43.480] |I| [renderer::load_shader]: Generating vert shader 9566374be231bca9b76e9f59e6b8f5ab3cd8ed6401304a9182f25e835e256024
+[02:20:43.481] |D| [gxp::log_parameter]: Vertex attribute: name:aPosition semantic:NONE type:0 component_count:4 container_index:0x0
+[02:20:43.481] |D| [gxp::log_parameter]: Vertex attribute: name:aColor semantic:NONE type:0 component_count:4 container_index:0x0
+[02:20:43.482] |D| [gxp::log_parameter]: Uniform: name:wvp semantic:NONE type:0 component_count:4 container_index:0xE
+[02:20:43.485] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 59
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 21  "main_vs" 5 6 13 14
+               1:             String  "9566374be231bca9b76e9f59e6b8f5ab3cd8ed6401304a9182f25e835e256024"
+                              SourceExtension  "gxp"
+                              Name 5  "aPosition"
+                              Name 6  "aColor"
+                              Name 8  "wvp_0"
+                              Name 9  "wvp_1"
+                              Name 10  "wvp_2"
+                              Name 11  "wvp_3"
+                              Name 13  "v_Position"
+                              Name 14  "v_Color0"
+                              Name 16  "i0"
+                              Name 17  "i1"
+                              Name 18  "i2"
+                              Name 21  "main_vs"
+                              Decorate 13(v_Position) BuiltIn Position
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer Input 3(fvec4)
+    5(aPosition):      4(ptr) Variable Input
+       6(aColor):      4(ptr) Variable Input
+               7:             TypePointer UniformConstant 3(fvec4)
+        8(wvp_0):      7(ptr) Variable UniformConstant
+        9(wvp_1):      7(ptr) Variable UniformConstant
+       10(wvp_2):      7(ptr) Variable UniformConstant
+       11(wvp_3):      7(ptr) Variable UniformConstant
+              12:             TypePointer Output 3(fvec4)
+  13(v_Position):     12(ptr) Variable Output
+    14(v_Color0):     12(ptr) Variable Output
+              15:             TypePointer Private 3(fvec4)
+          16(i0):     15(ptr) Variable Private
+          17(i1):     15(ptr) Variable Private
+          18(i2):     15(ptr) Variable Private
+              19:             TypeVoid
+              20:             TypeFunction 19
+              23:    2(float) Constant 1056964608
+              24:    2(float) Constant 0
+              25:    2(float) Constant 1065353216
+              26:    2(float) Constant 1073741824
+              27:             TypeVector 2(float) 1
+              28:             TypeVector 2(float) 2
+              29:             TypeVector 2(float) 3
+     21(main_vs):          19 Function None 20
+              22:             Label
+                              Line 1 4294967291 0
+              30:   28(fvec2) VectorShuffle 6(aColor) 6(aColor) 0 1
+              31:    3(fvec4) VectorShuffle 30 14(v_Color0) 0 1 4 5
+                              Store 14(v_Color0) 31
+              32:   28(fvec2) VectorShuffle 6(aColor) 6(aColor) 2 3
+              33:    3(fvec4) VectorShuffle 32 14(v_Color0) 2 3 0 1
+                              Store 14(v_Color0) 33
+              34:   29(fvec3) VectorShuffle 5(aPosition) 5(aPosition) 0 1 2
+              35:    3(fvec4) VectorShuffle 34 16(i0) 0 1 2 6
+                              Store 16(i0) 35
+              36:    3(fvec4) Load 11(wvp_3)
+                              Store 17(i1) 36
+              37:    3(fvec4) Load 8(wvp_0)
+              38:    3(fvec4) VectorShuffle 16(i0) 16(i0) 0 0 0 0
+              39:    3(fvec4) VectorShuffle 17(i1) 17(i1) 0 1 2 3
+              40:    3(fvec4) FMul 37 38
+              41:    3(fvec4) FAdd 40 39
+                              Store 17(i1) 41
+              42:    3(fvec4) Load 9(wvp_1)
+              43:    3(fvec4) VectorShuffle 16(i0) 16(i0) 1 1 1 1
+              44:    3(fvec4) VectorShuffle 17(i1) 17(i1) 0 1 2 3
+              45:    3(fvec4) FMul 42 43
+              46:    3(fvec4) FAdd 45 44
+                              Store 17(i1) 46
+              47:   28(fvec2) VectorShuffle 10(wvp_2) 10(wvp_2) 0 1
+              48:   28(fvec2) VectorShuffle 16(i0) 16(i0) 2 2
+              49:   28(fvec2) VectorShuffle 17(i1) 17(i1) 0 1
+              50:   28(fvec2) FMul 47 48
+              51:   28(fvec2) FAdd 50 49
+              52:    3(fvec4) VectorShuffle 51 13(v_Position) 0 1 4 5
+                              Store 13(v_Position) 52
+              53:   28(fvec2) VectorShuffle 10(wvp_2) 11(wvp_3) 2 3
+              54:   28(fvec2) VectorShuffle 16(i0) 16(i0) 2 2
+              55:   28(fvec2) VectorShuffle 17(i1) 17(i1) 2 3
+              56:   28(fvec2) FMul 53 54
+              57:   28(fvec2) FAdd 56 55
+              58:    3(fvec4) VectorShuffle 57 13(v_Position) 2 3 0 1
+                              Store 13(v_Position) 58
+                              Return
+                              FunctionEnd
+
+[02:20:43.488] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 wvp_0;
+uniform vec4 wvp_1;
+uniform vec4 wvp_2;
+uniform vec4 wvp_3;
+
+in vec4 aPosition;
+in vec4 aColor;
+out vec4 v_Color0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+
+void main()
+{
+    v_Color0 = vec4(aColor.xy.x, aColor.xy.y, v_Color0.z, v_Color0.w);
+    v_Color0 = vec4(v_Color0.x, v_Color0.y, aColor.zw.x, aColor.zw.y);
+    i0 = vec4(aPosition.xyz.x, aPosition.xyz.y, aPosition.xyz.z, i0.w);
+    i1 = wvp_3;
+    i1 = (wvp_0 * i0.xxxx) + i1.xyzw;
+    i1 = (wvp_1 * i0.yyyy) + i1.xyzw;
+    vec2 _51 = (wvp_2.xy * i0.zz) + i1.xy;
+    gl_Position = vec4(_51.x, _51.y, gl_Position.z, gl_Position.w);
+    vec2 _57 = (wvp_2.zw * i0.zz) + i1.zw;
+    gl_Position = vec4(gl_Position.x, gl_Position.y, _57.x, _57.y);
+}
+
+
+[02:20:43.497] |I| [renderer::load_shader]: Generating frag shader 925d1eff277a4bf2eb0694d316973907c5f5f8cfc5bb3364e3706cb921203f88
+[02:20:43.498] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[02:20:43.499] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 27
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 14  "main_fs" 5 7 7
+                              ExecutionMode 14 OriginLowerLeft
+               1:             String  "925d1eff277a4bf2eb0694d316973907c5f5f8cfc5bb3364e3706cb921203f88"
+                              SourceExtension  "gxp"
+                              Name 5  "v_Color0"
+                              Name 7  "out_color"
+                              Name 9  "i0"
+                              Name 10  "i1"
+                              Name 11  "i2"
+                              Name 14  "main_fs"
+                              Name 24  "pa0_temp"
+                              Decorate 7(out_color) Location 0
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer Input 3(fvec4)
+     5(v_Color0):      4(ptr) Variable Input
+               6:             TypePointer Output 3(fvec4)
+    7(out_color):      6(ptr) Variable Output
+               8:             TypePointer Private 3(fvec4)
+           9(i0):      8(ptr) Variable Private
+          10(i1):      8(ptr) Variable Private
+          11(i2):      8(ptr) Variable Private
+              12:             TypeVoid
+              13:             TypeFunction 12
+              16:    2(float) Constant 1056964608
+              17:    2(float) Constant 0
+              18:    2(float) Constant 1065353216
+              19:    2(float) Constant 1073741824
+              20:             TypeVector 2(float) 1
+              21:             TypeVector 2(float) 2
+              22:             TypeVector 2(float) 3
+    24(pa0_temp):      8(ptr) Variable Private
+     14(main_fs):          12 Function None 13
+              15:             Label
+                              Line 1 4294967289 0
+              23:    3(fvec4) Load 5(v_Color0)
+              25:    3(fvec4) Load 5(v_Color0)
+                              Store 24(pa0_temp) 25
+                              Store 24(pa0_temp) 23
+              26:    3(fvec4) Load 24(pa0_temp)
+                              Store 7(out_color) 26
+                              Return
+                              FunctionEnd
+
+[02:20:43.501] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+in vec4 v_Color0;
+layout(location = 0) out vec4 out_color;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+vec4 pa0_temp;
+
+void main()
+{
+    pa0_temp = v_Color0;
+    pa0_temp = v_Color0;
+    out_color = pa0_temp;
+}
+
+
+[02:20:43.510] |I| [renderer::load_shader]: Generating vert shader ce748efe5db5316c3f3787c1b3b6c45b3898894a60fc7f1bddaade3b9e3b5194
+[02:20:43.511] |D| [gxp::log_parameter]: Vertex attribute: name:aPosition semantic:NONE type:0 component_count:4 container_index:0x0
+[02:20:43.512] |D| [gxp::log_parameter]: Vertex attribute: name:aTexcoord semantic:NONE type:0 component_count:4 container_index:0x0
+[02:20:43.512] |D| [gxp::log_parameter]: Uniform: name:wvp semantic:NONE type:0 component_count:4 container_index:0xE
+[02:20:43.519] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 57
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 23  "main_vs" 5 6 13 16
+               1:             String  "ce748efe5db5316c3f3787c1b3b6c45b3898894a60fc7f1bddaade3b9e3b5194"
+                              SourceExtension  "gxp"
+                              Name 5  "aPosition"
+                              Name 6  "aTexcoord"
+                              Name 8  "wvp_0"
+                              Name 9  "wvp_1"
+                              Name 10  "wvp_2"
+                              Name 11  "wvp_3"
+                              Name 13  "v_Position"
+                              Name 16  "v_TexCoord0"
+                              Name 18  "i0"
+                              Name 19  "i1"
+                              Name 20  "i2"
+                              Name 23  "main_vs"
+                              Decorate 13(v_Position) BuiltIn Position
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer Input 3(fvec4)
+    5(aPosition):      4(ptr) Variable Input
+    6(aTexcoord):      4(ptr) Variable Input
+               7:             TypePointer UniformConstant 3(fvec4)
+        8(wvp_0):      7(ptr) Variable UniformConstant
+        9(wvp_1):      7(ptr) Variable UniformConstant
+       10(wvp_2):      7(ptr) Variable UniformConstant
+       11(wvp_3):      7(ptr) Variable UniformConstant
+              12:             TypePointer Output 3(fvec4)
+  13(v_Position):     12(ptr) Variable Output
+              14:             TypeVector 2(float) 2
+              15:             TypePointer Output 14(fvec2)
+ 16(v_TexCoord0):     15(ptr) Variable Output
+              17:             TypePointer Private 3(fvec4)
+          18(i0):     17(ptr) Variable Private
+          19(i1):     17(ptr) Variable Private
+          20(i2):     17(ptr) Variable Private
+              21:             TypeVoid
+              22:             TypeFunction 21
+              25:    2(float) Constant 1056964608
+              26:    2(float) Constant 0
+              27:    2(float) Constant 1065353216
+              28:    2(float) Constant 1073741824
+              29:             TypeVector 2(float) 1
+              30:             TypeVector 2(float) 3
+     23(main_vs):          21 Function None 22
+              24:             Label
+                              Line 1 4294967288 0
+              31:   14(fvec2) VectorShuffle 6(aTexcoord) 6(aTexcoord) 0 1
+                              Store 16(v_TexCoord0) 31
+              32:   30(fvec3) VectorShuffle 5(aPosition) 5(aPosition) 0 1 2
+              33:    3(fvec4) VectorShuffle 32 18(i0) 0 1 2 6
+                              Store 18(i0) 33
+              34:    3(fvec4) Load 11(wvp_3)
+                              Store 19(i1) 34
+              35:    3(fvec4) Load 8(wvp_0)
+              36:    3(fvec4) VectorShuffle 18(i0) 18(i0) 0 0 0 0
+              37:    3(fvec4) VectorShuffle 19(i1) 19(i1) 0 1 2 3
+              38:    3(fvec4) FMul 35 36
+              39:    3(fvec4) FAdd 38 37
+                              Store 19(i1) 39
+              40:    3(fvec4) Load 9(wvp_1)
+              41:    3(fvec4) VectorShuffle 18(i0) 18(i0) 1 1 1 1
+              42:    3(fvec4) VectorShuffle 19(i1) 19(i1) 0 1 2 3
+              43:    3(fvec4) FMul 40 41
+              44:    3(fvec4) FAdd 43 42
+                              Store 19(i1) 44
+              45:   14(fvec2) VectorShuffle 10(wvp_2) 10(wvp_2) 0 1
+              46:   14(fvec2) VectorShuffle 18(i0) 18(i0) 2 2
+              47:   14(fvec2) VectorShuffle 19(i1) 19(i1) 0 1
+              48:   14(fvec2) FMul 45 46
+              49:   14(fvec2) FAdd 48 47
+              50:    3(fvec4) VectorShuffle 49 13(v_Position) 0 1 4 5
+                              Store 13(v_Position) 50
+              51:   14(fvec2) VectorShuffle 10(wvp_2) 11(wvp_3) 2 3
+              52:   14(fvec2) VectorShuffle 18(i0) 18(i0) 2 2
+              53:   14(fvec2) VectorShuffle 19(i1) 19(i1) 2 3
+              54:   14(fvec2) FMul 51 52
+              55:   14(fvec2) FAdd 54 53
+              56:    3(fvec4) VectorShuffle 55 13(v_Position) 2 3 0 1
+                              Store 13(v_Position) 56
+                              Return
+                              FunctionEnd
+
+[02:20:43.522] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 wvp_0;
+uniform vec4 wvp_1;
+uniform vec4 wvp_2;
+uniform vec4 wvp_3;
+
+in vec4 aPosition;
+in vec4 aTexcoord;
+out vec2 v_TexCoord0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+
+void main()
+{
+    v_TexCoord0 = aTexcoord.xy;
+    i0 = vec4(aPosition.xyz.x, aPosition.xyz.y, aPosition.xyz.z, i0.w);
+    i1 = wvp_3;
+    i1 = (wvp_0 * i0.xxxx) + i1.xyzw;
+    i1 = (wvp_1 * i0.yyyy) + i1.xyzw;
+    vec2 _49 = (wvp_2.xy * i0.zz) + i1.xy;
+    gl_Position = vec4(_49.x, _49.y, gl_Position.z, gl_Position.w);
+    vec2 _55 = (wvp_2.zw * i0.zz) + i1.zw;
+    gl_Position = vec4(gl_Position.x, gl_Position.y, _55.x, _55.y);
+}
+
+
+[02:20:43.529] |I| [renderer::load_shader]: Generating frag shader fdb49c863e7fcfba08a54467695d14285159bae9fd219f83cc37524b5932aaed
+[02:20:43.529] |D| [gxp::log_parameter]: Sampler: name:tex semantic:BCOL type:0 component_count:4 container_index:0x0
+[02:20:43.530] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(tex, TEXCOORD0.xy)
+[02:20:43.530] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 30
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 20  "main_fs" 9 14 14
+                              ExecutionMode 20 OriginLowerLeft
+               1:             String  "fdb49c863e7fcfba08a54467695d14285159bae9fd219f83cc37524b5932aaed"
+                              SourceExtension  "gxp"
+                              Name 6  "tex"
+                              Name 9  "tex_query0"
+                              Name 12  "v_TexCoord0"
+                              Name 14  "out_color"
+                              Name 15  "i0"
+                              Name 16  "i1"
+                              Name 17  "i2"
+                              Name 20  "main_fs"
+                              Decorate 14(out_color) Location 0
+               2:             TypeFloat 32
+               3:             TypeImage 2(float) 2D sampled format:Unknown
+               4:             TypeSampledImage 3
+               5:             TypePointer UniformConstant 4
+          6(tex):      5(ptr) Variable UniformConstant
+               7:             TypeVector 2(float) 4
+               8:             TypePointer Private 7(fvec4)
+   9(tex_query0):      8(ptr) Variable Private
+              10:             TypeVector 2(float) 2
+              11:             TypePointer Input 10(fvec2)
+ 12(v_TexCoord0):     11(ptr) Variable Input
+              13:             TypePointer Output 7(fvec4)
+   14(out_color):     13(ptr) Variable Output
+          15(i0):      8(ptr) Variable Private
+          16(i1):      8(ptr) Variable Private
+          17(i2):      8(ptr) Variable Private
+              18:             TypeVoid
+              19:             TypeFunction 18
+              23:    2(float) Constant 1056964608
+              24:    2(float) Constant 0
+              25:    2(float) Constant 1065353216
+              26:    2(float) Constant 1073741824
+              27:             TypeVector 2(float) 1
+              28:             TypeVector 2(float) 3
+     20(main_fs):          18 Function None 19
+              21:             Label
+              22:      8(ptr) ImageSampleImplicitLod 6(tex) 12(v_TexCoord0)
+                              Store 9(tex_query0) 22
+              29:    7(fvec4) Load 9(tex_query0)
+                              Store 14(out_color) 29
+                              Return
+                              FunctionEnd
+
+[02:20:43.532] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform sampler2D tex;
+
+in vec2 v_TexCoord0;
+layout(location = 0) out vec4 out_color;
+vec4 tex_query0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+
+void main()
+{
+    tex_query0 = texture(tex, v_TexCoord0);
+    out_color = tex_query0;
+}
+
+
+[02:20:43.538] |I| [renderer::load_shader]: Generating frag shader c967b3d1c2ebda34628eda8fd007bb107ec454c5a72a0a5061afc4f680c7d1f6
+[02:20:43.541] |D| [gxp::log_parameter]: Uniform: name:uTintColor semantic:NONE type:0 component_count:4 container_index:0xE
+[02:20:43.541] |D| [gxp::log_parameter]: Sampler: name:tex semantic:ATTR type:0 component_count:4 container_index:0x0
+[02:20:43.542] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(tex, TEXCOORD0.xy)
+[02:20:43.543] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 39
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 22  "main_fs" 11 16 16
+                              ExecutionMode 22 OriginLowerLeft
+               1:             String  "c967b3d1c2ebda34628eda8fd007bb107ec454c5a72a0a5061afc4f680c7d1f6"
+                              SourceExtension  "gxp"
+                              Name 5  "uTintColor"
+                              Name 9  "tex"
+                              Name 11  "tex_query0"
+                              Name 14  "v_TexCoord0"
+                              Name 16  "out_color"
+                              Name 17  "i0"
+                              Name 18  "i1"
+                              Name 19  "i2"
+                              Name 22  "main_fs"
+                              Name 36  "pa0_temp"
+                              Decorate 16(out_color) Location 0
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer UniformConstant 3(fvec4)
+   5(uTintColor):      4(ptr) Variable UniformConstant
+               6:             TypeImage 2(float) 2D sampled format:Unknown
+               7:             TypeSampledImage 6
+               8:             TypePointer UniformConstant 7
+          9(tex):      8(ptr) Variable UniformConstant
+              10:             TypePointer Private 3(fvec4)
+  11(tex_query0):     10(ptr) Variable Private
+              12:             TypeVector 2(float) 2
+              13:             TypePointer Input 12(fvec2)
+ 14(v_TexCoord0):     13(ptr) Variable Input
+              15:             TypePointer Output 3(fvec4)
+   16(out_color):     15(ptr) Variable Output
+          17(i0):     10(ptr) Variable Private
+          18(i1):     10(ptr) Variable Private
+          19(i2):     10(ptr) Variable Private
+              20:             TypeVoid
+              21:             TypeFunction 20
+              25:    2(float) Constant 1056964608
+              26:    2(float) Constant 0
+              27:    2(float) Constant 1065353216
+              28:    2(float) Constant 1073741824
+              29:             TypeVector 2(float) 1
+              30:             TypeVector 2(float) 3
+    36(pa0_temp):     10(ptr) Variable Private
+     22(main_fs):          20 Function None 21
+              23:             Label
+              24:     10(ptr) ImageSampleImplicitLod 9(tex) 14(v_TexCoord0)
+                              Store 11(tex_query0) 24
+                              Line 1 4294967284 0
+              31:    3(fvec4) Load 11(tex_query0)
+                              Store 17(i0) 31
+              32:    3(fvec4) Load 5(uTintColor)
+              33:    3(fvec4) VectorShuffle 17(i0) 17(i0) 0 1 2 3
+              34:    3(fvec4) FMul 32 33
+                              Store 17(i0) 34
+              35:    3(fvec4) VectorShuffle 17(i0) 17(i0) 0 1 2 3
+              37:    3(fvec4) Load 11(tex_query0)
+                              Store 36(pa0_temp) 37
+                              Store 36(pa0_temp) 35
+              38:    3(fvec4) Load 36(pa0_temp)
+                              Store 16(out_color) 38
+                              Return
+                              FunctionEnd
+
+[02:20:43.545] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 uTintColor;
+uniform sampler2D tex;
+
+in vec2 v_TexCoord0;
+layout(location = 0) out vec4 out_color;
+vec4 tex_query0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+vec4 pa0_temp;
+
+void main()
+{
+    tex_query0 = texture(tex, v_TexCoord0);
+    i0 = tex_query0;
+    i0 = uTintColor * i0.xyzw;
+    pa0_temp = tex_query0;
+    pa0_temp = i0.xyzw;
+    out_color = pa0_temp;
+}
+
+

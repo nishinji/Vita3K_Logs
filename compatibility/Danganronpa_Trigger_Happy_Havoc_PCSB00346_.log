@@ -1,0 +1,2554 @@
+[19:18:11.449] |I| [config::init_config]: log-level: 0
+[19:18:11.451] |I| [config::init_config]: log-imports: false
+[19:18:11.452] |I| [config::init_config]: log-exports: false
+[19:18:11.453] |I| [config::init_config]: log-active-shaders: false
+[19:18:11.453] |I| [config::init_config]: log-uniforms: false
+[19:18:11.455] |I| [SDL_main]: Vita3K v0.1 1236-28b6ac3
+[19:18:11.860] |I| [app::init]: Swap interval = -1
+[19:18:11.864] |I| [app::init]: GL_VERSION = 4.5.0 NVIDIA 430.86
+[19:18:11.864] |I| [app::init]: GL_SHADING_LANGUAGE_VERSION = 4.50 NVIDIA
+[19:18:11.866] |I| [app::init]: Your GPU supports shader interlock, some games that use programmable blending will have better performance.
+[19:18:11.890] |I| [gui::init_icons]: Default icon found for title VITATESTR, VitaTester.
+[19:18:16.215] |I| [gui::load_game_background]: Game background found in template for title FLDT00001.
+[19:18:16.845] |I| [gui::load_game_background]: Game background found in template for title MYLEGNOOB.
+[19:18:17.382] |I| [gui::load_game_background]: Game background found in template for title NEKO00001.
+[19:18:22.299] |I| [load_app_impl]: Title: Danganronpa: Trigger Happy Havoc
+[19:18:22.300] |I| [load_app_impl]: Serial: PCSB00346
+[19:18:22.301] |I| [load_app_impl]: Version: 01.00
+[19:18:22.301] |I| [load_app_impl]: Category: gd
+[19:18:22.315] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[19:18:22.316] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x44164
+[19:18:22.317] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3A0FC
+[19:18:22.318] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x3E0BC, setting to stub value 0xDEADBEEF
+[19:18:22.318] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x3FB70, setting to stub value 0xDEADBEEF
+[19:18:22.319] |I| [load_app_impl]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[19:18:22.327] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[19:18:22.328] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x7F034
+[19:18:22.329] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x76548
+[19:18:22.330] |I| [load_app_impl]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[19:18:22.335] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[19:18:22.337] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x983C8
+[19:18:22.339] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x95944
+[19:18:22.342] |W| [load_var_imports]: 	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x961A0, setting to stub value 0xDEADBEEF
+[19:18:22.344] |I| [load_app_impl]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[19:18:22.411] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[19:18:22.412] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1C1E24
+[19:18:22.413] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x237A50
+[19:18:22.415] |I| [load_app_impl]: Main executable DR1_us (eboot.bin) loaded
+[19:18:22.421] |D| [run_app]: Running module_start of library: SceLibc
+[19:18:22.429] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[19:18:22.431] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[19:18:22.434] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[19:18:22.441] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[19:18:22.443] |D| [run_app]: Running module_start of library: SceLibFios2
+[19:18:22.450] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[19:18:22.451] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[19:18:22.453] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[19:18:22.457] |D| [run_app]: Running module_start of library: SceUlt
+[19:18:22.463] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[19:18:22.464] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[19:18:22.467] |T| [open_file]: sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSB00346/mai_moe/mai.suprx), fd: 0x3
+[19:18:22.469] |T| [seek_file]: sceKernelLoadStartModule: Seeking fd: 0x3, offset: 0x0, whence: SCE_SEEK_END
+[19:18:22.472] |T| [seek_file]: sceKernelLoadStartModule: Seeking fd: 0x3, offset: 0x0, whence: SCE_SEEK_SET
+[19:18:22.473] |T| [read_file]: sceKernelLoadStartModule: Reading 87866 bytes of fd 0x3
+[19:18:22.475] |I| [load_self]: Loading symbols for SELF: app0:mai_moe/mai.suprx
+[19:18:22.477] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x36A7E4
+[19:18:22.478] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x36A840
+[19:18:22.480] |T| [close_file]: sceKernelLoadStartModule: Closing file fd: 0x3
+[19:18:22.492] |T| [stat_file]: sceIoGetstat: Statting file: app0:mai_moe/load_type.mai (ux0:/app/PCSB00346/mai_moe/load_type.mai)
+[19:18:22.494] |I| [export_sceIoOpen]: Opening file: app0:mai_moe/load_type.mai
+[19:18:22.498] |T| [open_file]: sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSB00346/mai_moe/load_type.mai), fd: 0x4
+[19:18:22.503] |T| [stat_file]: sceIoGetstat: Statting file: app0:mai_moe/load_type.mai (ux0:/app/PCSB00346/mai_moe/load_type.mai)
+[19:18:22.504] |T| [seek_file]: sceIoLseek: Seeking fd: 0x4, offset: 0x0, whence: SCE_SEEK_SET
+[19:18:22.505] |T| [read_file]: sceIoRead: Reading 1 bytes of fd 0x4
+[19:18:22.507] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[19:18:22.514] |I| [export_sceKernelLoadStartModule]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[19:18:22.519] |T| [open_file]: sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSB00346/sce_module/libfios2_m.suprx), fd: 0x5
+[19:18:22.522] |T| [seek_file]: sceKernelLoadStartModule: Seeking fd: 0x5, offset: 0x0, whence: SCE_SEEK_END
+[19:18:22.522] |T| [seek_file]: sceKernelLoadStartModule: Seeking fd: 0x5, offset: 0x0, whence: SCE_SEEK_SET
+[19:18:22.524] |T| [read_file]: sceKernelLoadStartModule: Reading 261648 bytes of fd 0x5
+[19:18:22.524] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[19:18:22.526] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x418034
+[19:18:22.528] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x40F548
+[19:18:22.528] |T| [close_file]: sceKernelLoadStartModule: Closing file fd: 0x5
+[19:18:22.537] |I| [export_sceKernelLoadStartModule]: Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[19:18:22.540] |W| [io_error_impl]: open_dir (sceIoDopen) returned 0x80010002
+[19:18:22.542] |W| [io_error_impl]: read_dir (sceIoDread) returned 0x80010051
+[19:18:22.543] |W| [io_error_impl]: close_dir (sceIoDclose) returned 0x80010018
+[19:18:22.593] |I| [export_sceKernelLoadStartModule]: Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[19:18:22.667] |W| [stubbed_impl]: Stubbed sceGxmShaderPatcherCreateMaskUpdateFragmentProgram import called. (Using a null shader)
+[19:18:22.670] |W| [unimplemented_impl]: Unimplemented sceGxmSetVertexUniformBuffer import called.
+[19:18:22.671] |W| [unimplemented_impl]: Unimplemented sceGxmSetFragmentUniformBuffer import called.
+[19:18:22.674] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSizes import called. (2MB host mem)
+[19:18:22.750] |E| [init_texture_base]: Initialized texture with unsupported texture format: 0x12000000
+[19:18:22.782] |E| [init_texture_base]: Initialized texture with unsupported texture format: 0x12000000
+[19:18:22.785] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[19:18:22.786] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR05620_00/TROPHY.TRP (ux0:/app/PCSB00346/sce_sys/trophy/NPWR05620_00/TROPHY.TRP), fd: 0x6
+[19:18:22.788] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR05620_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR05620_00/TROPUSR.DAT), fd: 0x7
+[19:18:22.789] |T| [read_file]: parse_trophy_file: Reading 4 bytes of fd 0x6
+[19:18:22.790] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x10, whence: SCE_SEEK_SET
+[19:18:22.791] |T| [read_file]: parse_trophy_file: Reading 4 bytes of fd 0x6
+[19:18:22.792] |T| [read_file]: parse_trophy_file: Reading 4 bytes of fd 0x6
+[19:18:22.793] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x40, whence: SCE_SEEK_SET
+[19:18:22.794] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.797] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.798] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.799] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.800] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.801] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.802] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.804] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.805] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.807] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.808] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.809] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.810] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.811] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x60, whence: SCE_SEEK_SET
+[19:18:22.812] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.813] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.818] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x80, whence: SCE_SEEK_SET
+[19:18:22.819] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.820] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.821] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.823] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.824] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.826] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.827] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.828] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.829] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.829] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0xA0, whence: SCE_SEEK_SET
+[19:18:22.830] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.833] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.834] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0xC0, whence: SCE_SEEK_SET
+[19:18:22.837] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.837] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.838] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.839] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.840] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.841] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.842] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.843] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.846] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.846] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.847] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0xE0, whence: SCE_SEEK_SET
+[19:18:22.848] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.849] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.850] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x100, whence: SCE_SEEK_SET
+[19:18:22.852] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.853] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.855] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.856] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.857] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.858] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.859] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.859] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.860] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.862] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.862] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.867] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.867] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x120, whence: SCE_SEEK_SET
+[19:18:22.868] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.869] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.870] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x140, whence: SCE_SEEK_SET
+[19:18:22.872] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.872] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.875] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.876] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.876] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.877] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.878] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.879] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.882] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.883] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.887] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.887] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.888] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x160, whence: SCE_SEEK_SET
+[19:18:22.889] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.891] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.891] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x180, whence: SCE_SEEK_SET
+[19:18:22.894] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.895] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.895] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.896] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.897] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.899] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.900] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.901] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.904] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.904] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.905] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.906] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.906] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x1A0, whence: SCE_SEEK_SET
+[19:18:22.907] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.908] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.908] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x1C0, whence: SCE_SEEK_SET
+[19:18:22.910] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.911] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.913] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.914] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.915] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.916] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.917] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.917] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.918] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.920] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.921] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.923] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.924] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x1E0, whence: SCE_SEEK_SET
+[19:18:22.924] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.925] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.926] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x200, whence: SCE_SEEK_SET
+[19:18:22.926] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.927] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.928] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.929] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.930] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.934] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.935] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.935] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.936] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.937] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.938] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.939] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.941] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x220, whence: SCE_SEEK_SET
+[19:18:22.942] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.943] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.943] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x240, whence: SCE_SEEK_SET
+[19:18:22.944] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.945] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.945] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.946] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.949] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.950] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.953] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.954] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.955] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.955] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.956] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.957] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.958] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x260, whence: SCE_SEEK_SET
+[19:18:22.959] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.961] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.962] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x280, whence: SCE_SEEK_SET
+[19:18:22.963] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.964] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.965] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.966] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.968] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.969] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.971] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.972] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.973] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.973] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.974] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.975] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.975] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x2A0, whence: SCE_SEEK_SET
+[19:18:22.976] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.978] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.978] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x2C0, whence: SCE_SEEK_SET
+[19:18:22.981] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.983] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.983] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.984] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.985] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.985] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.986] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.988] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.988] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.991] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.992] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.992] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.993] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x2E0, whence: SCE_SEEK_SET
+[19:18:22.994] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.994] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:22.995] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x300, whence: SCE_SEEK_SET
+[19:18:22.995] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.996] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.999] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:22.999] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.003] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.004] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.004] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.005] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.006] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.006] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.007] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.009] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.009] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x320, whence: SCE_SEEK_SET
+[19:18:23.012] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.012] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.013] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x340, whence: SCE_SEEK_SET
+[19:18:23.014] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.015] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.016] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.018] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.019] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.022] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.023] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.023] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.024] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.025] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.025] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.026] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.027] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x360, whence: SCE_SEEK_SET
+[19:18:23.028] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.029] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.031] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x380, whence: SCE_SEEK_SET
+[19:18:23.033] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.034] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.034] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.035] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.036] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.037] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.038] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.040] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.041] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.041] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.042] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.043] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.043] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x3A0, whence: SCE_SEEK_SET
+[19:18:23.044] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.045] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.045] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x3C0, whence: SCE_SEEK_SET
+[19:18:23.048] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.050] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.052] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.052] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.053] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.054] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.054] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.055] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.056] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.056] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.057] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.059] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.061] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x3E0, whence: SCE_SEEK_SET
+[19:18:23.062] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.062] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.063] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x400, whence: SCE_SEEK_SET
+[19:18:23.064] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.065] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.067] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.068] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.070] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.071] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.072] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.073] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.073] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.074] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.075] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.075] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.076] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x420, whence: SCE_SEEK_SET
+[19:18:23.077] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.078] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.080] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x440, whence: SCE_SEEK_SET
+[19:18:23.081] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.082] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.083] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.084] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.084] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.085] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.087] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.088] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.090] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.091] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.091] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.092] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.093] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x460, whence: SCE_SEEK_SET
+[19:18:23.093] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.094] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.094] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x480, whence: SCE_SEEK_SET
+[19:18:23.095] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.096] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.099] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.100] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.103] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.103] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.104] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.105] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.105] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.106] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.107] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.108] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.109] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x4A0, whence: SCE_SEEK_SET
+[19:18:23.111] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.112] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.112] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x4C0, whence: SCE_SEEK_SET
+[19:18:23.113] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.114] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.115] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.116] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.117] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.119] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.119] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.122] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.122] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.123] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.124] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.124] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.125] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x4E0, whence: SCE_SEEK_SET
+[19:18:23.126] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.126] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.127] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x500, whence: SCE_SEEK_SET
+[19:18:23.129] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.129] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.133] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.134] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.135] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.135] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.136] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.137] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.138] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.139] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.141] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.142] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.142] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x520, whence: SCE_SEEK_SET
+[19:18:23.143] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.144] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.144] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x540, whence: SCE_SEEK_SET
+[19:18:23.145] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.146] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.146] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.149] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.150] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.153] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.154] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.155] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.155] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.156] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.157] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.157] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.158] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x560, whence: SCE_SEEK_SET
+[19:18:23.159] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.162] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.162] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x580, whence: SCE_SEEK_SET
+[19:18:23.163] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.163] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.165] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.165] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.166] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.167] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.168] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.169] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.171] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.172] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.172] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.173] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.173] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x5A0, whence: SCE_SEEK_SET
+[19:18:23.174] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.174] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.175] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x5C0, whence: SCE_SEEK_SET
+[19:18:23.175] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.176] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.176] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.178] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.178] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.181] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.182] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.183] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.184] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.185] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.185] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.186] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.186] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x5E0, whence: SCE_SEEK_SET
+[19:18:23.188] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.188] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.191] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x600, whence: SCE_SEEK_SET
+[19:18:23.191] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.192] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.192] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.193] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.193] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.194] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.194] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.195] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.196] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.196] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.199] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.200] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.203] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x620, whence: SCE_SEEK_SET
+[19:18:23.204] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.204] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.205] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x640, whence: SCE_SEEK_SET
+[19:18:23.205] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.206] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.206] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.207] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.207] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.209] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.209] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.212] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.213] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.213] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.214] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.215] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.216] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x660, whence: SCE_SEEK_SET
+[19:18:23.216] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.217] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.217] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x680, whence: SCE_SEEK_SET
+[19:18:23.219] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.219] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.222] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.222] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.223] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.223] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.224] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.224] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.225] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.225] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.226] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.227] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.227] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x6A0, whence: SCE_SEEK_SET
+[19:18:23.229] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.229] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.233] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x6C0, whence: SCE_SEEK_SET
+[19:18:23.233] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.234] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.234] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.235] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.236] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.236] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.237] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.238] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.240] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.241] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.242] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.242] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.243] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x6E0, whence: SCE_SEEK_SET
+[19:18:23.244] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.244] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.245] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x700, whence: SCE_SEEK_SET
+[19:18:23.245] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.246] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.249] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.250] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.251] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.251] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.252] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.252] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.253] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.253] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.254] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.254] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.255] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x720, whence: SCE_SEEK_SET
+[19:18:23.256] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.257] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.258] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x740, whence: SCE_SEEK_SET
+[19:18:23.260] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.261] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.261] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.262] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.262] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.263] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.264] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.265] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.266] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.268] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.268] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.271] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.271] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x760, whence: SCE_SEEK_SET
+[19:18:23.272] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.272] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.273] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x780, whence: SCE_SEEK_SET
+[19:18:23.273] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.274] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.275] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.275] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.276] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.276] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.278] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.278] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.281] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.282] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.283] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.284] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.284] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x7A0, whence: SCE_SEEK_SET
+[19:18:23.285] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.285] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.286] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x7C0, whence: SCE_SEEK_SET
+[19:18:23.288] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.288] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.291] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.291] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.292] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.292] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.293] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.293] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.294] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.294] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.295] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.295] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.296] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x7E0, whence: SCE_SEEK_SET
+[19:18:23.299] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.300] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.303] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x800, whence: SCE_SEEK_SET
+[19:18:23.303] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.304] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.304] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.305] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.305] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.306] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.306] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.307] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.307] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.309] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.309] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.311] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.312] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x820, whence: SCE_SEEK_SET
+[19:18:23.312] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.313] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.314] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x840, whence: SCE_SEEK_SET
+[19:18:23.315] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.316] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.316] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.317] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.318] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.319] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.321] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.322] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.322] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.323] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.323] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.324] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.324] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x860, whence: SCE_SEEK_SET
+[19:18:23.325] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.325] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.326] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x880, whence: SCE_SEEK_SET
+[19:18:23.327] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.327] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.329] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.329] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.333] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.333] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.334] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.335] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.335] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.336] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.336] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.337] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.338] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x8A0, whence: SCE_SEEK_SET
+[19:18:23.339] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.341] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.342] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x8C0, whence: SCE_SEEK_SET
+[19:18:23.342] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.343] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.343] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.344] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.344] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.345] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.345] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.346] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.349] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.349] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.352] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.353] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.353] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x8E0, whence: SCE_SEEK_SET
+[19:18:23.354] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.354] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.355] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x900, whence: SCE_SEEK_SET
+[19:18:23.355] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.356] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.357] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.357] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.359] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.359] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.361] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.362] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.362] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.363] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.363] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.365] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.366] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x920, whence: SCE_SEEK_SET
+[19:18:23.366] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.367] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.369] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x940, whence: SCE_SEEK_SET
+[19:18:23.369] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.371] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.372] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.373] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.373] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.374] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.374] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.375] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.375] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.376] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.376] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.377] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.379] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x960, whence: SCE_SEEK_SET
+[19:18:23.379] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.383] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.383] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x980, whence: SCE_SEEK_SET
+[19:18:23.384] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.384] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.385] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.385] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.386] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.387] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.387] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.389] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.389] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.391] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.392] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.392] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.393] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x9A0, whence: SCE_SEEK_SET
+[19:18:23.393] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.394] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.395] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x9C0, whence: SCE_SEEK_SET
+[19:18:23.395] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.396] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.396] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.397] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.399] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.400] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.403] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.403] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.404] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.404] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.405] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.405] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.406] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0x9E0, whence: SCE_SEEK_SET
+[19:18:23.406] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.407] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.408] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0xA00, whence: SCE_SEEK_SET
+[19:18:23.409] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.411] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.412] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.412] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.413] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.413] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.415] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.415] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.416] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.417] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.419] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.419] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.421] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0xA20, whence: SCE_SEEK_SET
+[19:18:23.422] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.422] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.423] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0xA40, whence: SCE_SEEK_SET
+[19:18:23.424] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.424] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.425] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.425] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.426] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.426] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.427] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.429] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.429] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.433] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.433] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.434] |T| [read_file]: parse_trophy_file: Reading 1 bytes of fd 0x6
+[19:18:23.435] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0xA60, whence: SCE_SEEK_SET
+[19:18:23.435] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.436] |T| [read_file]: parse_trophy_file: Reading 8 bytes of fd 0x6
+[19:18:23.436] |T| [seek_file]: parse_trophy_file: Seeking fd: 0x6, offset: 0xA80, whence: SCE_SEEK_SET
+[19:18:23.437] |T| [read_file]: load_trophy_progress_file: Reading 4 bytes of fd 0x7
+[19:18:23.438] |T| [read_file]: load_trophy_progress_file: Reading 16 bytes of fd 0x7
+[19:18:23.439] |T| [read_file]: load_trophy_progress_file: Reading 16 bytes of fd 0x7
+[19:18:23.441] |T| [read_file]: load_trophy_progress_file: Reading 4 bytes of fd 0x7
+[19:18:23.442] |T| [read_file]: load_trophy_progress_file: Reading 4 bytes of fd 0x7
+[19:18:23.442] |T| [read_file]: load_trophy_progress_file: Reading 1024 bytes of fd 0x7
+[19:18:23.443] |T| [read_file]: load_trophy_progress_file: Reading 128 bytes of fd 0x7
+[19:18:23.443] |T| [close_file]: create_trophy_context: Closing file fd: 0x7
+[19:18:23.444] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR05620_00 create successfuly!
+[19:18:23.457] |W| [stubbed_impl]: Stubbed sceKernelGetThreadCpuAffinityMask2 import called. (STUB)
+[19:18:23.457] |W| [stubbed_impl]: Stubbed sceKernelWaitEventFlagCB import called. (no CB)
+[19:18:23.457] |W| [stubbed_impl]: Stubbed sceKernelChangeThreadPriority import called. (STUB)
+[19:18:23.476] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[19:18:23.485] |W| [stubbed_impl]: Stubbed sceKernelDelayThreadCB import called. (no CB)
+[19:18:23.493] |I| [export_sceIoOpen]: Opening file: app0:cpk/us/Dr_us.cpk
+[19:18:23.493] |T| [open_file]: sceIoOpen: Opening file app0:cpk/us/Dr_us.cpk (ux0:/app/PCSB00346/cpk/us/Dr_us.cpk), fd: 0x8
+[19:18:23.498] |T| [seek_file]: sceIoLseek: Seeking fd: 0x8, offset: 0x0, whence: SCE_SEEK_END
+[19:18:23.502] |T| [seek_file]: sceIoPread: Seeking fd: 0x8, offset: 0x0, whence: SCE_SEEK_SET
+[19:18:23.502] |T| [read_file]: sceIoPread: Reading 2048 bytes of fd 0x8
+[19:18:23.503] |T| [seek_file]: sceIoPread: Seeking fd: 0x8, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.510] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[19:18:23.515] |I| [export_sceIoOpen]: Opening file: app0:cpk/us/Dr_us.cpk
+[19:18:23.516] |T| [open_file]: sceIoOpen: Opening file app0:cpk/us/Dr_us.cpk (ux0:/app/PCSB00346/cpk/us/Dr_us.cpk), fd: 0x9
+[19:18:23.520] |T| [seek_file]: sceIoLseek: Seeking fd: 0x9, offset: 0x0, whence: SCE_SEEK_END
+[19:18:23.520] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x0, whence: SCE_SEEK_SET
+[19:18:23.521] |T| [read_file]: sceIoPread: Reading 2048 bytes of fd 0x9
+[19:18:23.521] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.523] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x800, whence: SCE_SEEK_SET
+[19:18:23.523] |T| [read_file]: sceIoPread: Reading 216736 bytes of fd 0x9
+[19:18:23.524] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.527] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x35800, whence: SCE_SEEK_SET
+[19:18:23.527] |T| [read_file]: sceIoPread: Reading 59328 bytes of fd 0x9
+[19:18:23.528] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.531] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[19:18:23.540] |W| [stubbed_impl]: Stubbed sceNgsSystemGetRequiredMemorySize import called. (size = 1)
+[19:18:23.541] |W| [unimplemented_impl]: Unimplemented sceNgsSystemInit import called.
+[19:18:23.541] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceDefGetTemplate1 import called.
+[19:18:23.544] |W| [stubbed_impl]: Stubbed sceNgsRackGetRequiredMemorySize import called. (size = 1)
+[19:18:23.545] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceDefGetAtrac9Voice import called.
+[19:18:23.548] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceDefGetReverbBuss import called.
+[19:18:23.549] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceDefGetDelayBuss import called.
+[19:18:23.550] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceDefGetDistortionBuss import called.
+[19:18:23.550] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceDefGetMasterBuss import called.
+[19:18:23.551] |W| [unimplemented_impl]: Unimplemented sceNgsSystemRelease import called.
+[19:18:23.557] |W| [unimplemented_impl]: Unimplemented sceNgsRackInit import called.
+[19:18:23.557] |W| [unimplemented_impl]: Unimplemented sceNgsRackGetVoiceHandle import called.
+[19:18:23.558] |W| [unimplemented_impl]: Unimplemented sceNgsVoicePlay import called.
+[19:18:23.561] |W| [stubbed_impl]: Stubbed sceNgsVoiceLockParams import called. (Ngs buffer stubbed)
+[19:18:23.561] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceUnlockParams import called.
+[19:18:23.563] |W| [unimplemented_impl]: Unimplemented sceNgsPatchCreateRouting import called.
+[19:18:23.564] |W| [stubbed_impl]: Stubbed sceNgsPatchGetInfo import called. (2 in/out channels)
+[19:18:23.567] |W| [unimplemented_impl]: Unimplemented sceNgsVoicePatchSetVolumesMatrix import called.
+[19:18:23.570] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceBypassModule import called.
+[19:18:23.575] |W| [unimplemented_impl]: Unimplemented sceNgsSystemUpdate import called.
+[19:18:23.576] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceGetStateData import called.
+[19:18:23.579] |W| [unimplemented_impl]: Unimplemented sceAudioOutSetVolume import called.
+[19:18:23.581] |W| [unimplemented_impl]: Unimplemented sceAudioOutGetAdopt import called.
+[19:18:23.592] |W| [unimplemented_impl]: Unimplemented sceNgsPatchRemoveRouting import called.
+[19:18:23.616] |W| [unimplemented_impl]: Unimplemented sceGxmNotificationWait import called.
+[19:18:23.625] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0xEF78800, whence: SCE_SEEK_SET
+[19:18:23.632] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[19:18:23.638] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.639] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[19:18:23.642] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.642] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.643] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.643] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.645] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.645] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.647] |I| [renderer::gl::load_shader]: Generating frag shader 6468f948890d63c7819250daea70884153a0ceaa2ebdc4cceffb9baaa8401a75
+[19:18:23.649] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.650] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) clr_col
+[19:18:23.650] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.651] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[19:18:23.651] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.652] |T| [shader::usse::USSERecompiler::get_or_recompile_block]: Recompiling block_0, size = 2, id = 104
+[19:18:23.652] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.658] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.658] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10400
+// Generated by (magic number): 1337000
+// Id's are bound by 136
+
+                              Capability Shader
+              51:             ExtInstImport  "GLSL.std.450"
+              79:             ExtInstImport  "GLSL.std.450"
+              93:             ExtInstImport  "GLSL.std.450"
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 4  "main_fs"
+                              ExecutionMode 4 OriginLowerLeft
+               1:             String  "6468f948890d63c7819250daea70884153a0ceaa2ebdc4cceffb9baaa8401a75"
+                              SourceExtension  "gxp"
+                              Name 4  "main_fs"
+                              Name 23  "pa"
+                              Name 24  "sa"
+                              Name 26  "internals"
+                              Name 28  "r"
+                              Name 30  "p"
+                              Name 32  "idx"
+                              Name 34  "outs"
+                              Name 36  "clr_col"
+                              Name 49  "pack2xF16"
+                              Name 64  "frag_output_finalize"
+                              Name 76  "unpack2xF16"
+                              Name 91  "out_color"
+                              Name 104  "block_prim_0"
+                              Decorate 91(out_color) Location 0
+               2:             TypeVoid
+               3:             TypeFunction 2
+               6:             TypeFloat 32
+               7:             TypeInt 32 1
+               8:             TypeBool
+               9:             TypeVector 6(float) 4
+              10:      7(int) Constant 32
+              11:             TypeArray 9(fvec4) 10
+              12:      7(int) Constant 3
+              13:             TypeArray 9(fvec4) 12
+              14:      7(int) Constant 20
+              15:             TypeArray 9(fvec4) 14
+              16:      7(int) Constant 2
+              17:             TypeArray 7(int) 16
+              18:      7(int) Constant 4
+              19:             TypeArray 8(bool) 18
+              20:      7(int) Constant 10
+              21:             TypeArray 9(fvec4) 20
+              22:             TypePointer Private 11
+          23(pa):     22(ptr) Variable Private
+          24(sa):     22(ptr) Variable Private
+              25:             TypePointer Private 13
+   26(internals):     25(ptr) Variable Private
+              27:             TypePointer Private 15
+           28(r):     27(ptr) Variable Private
+              29:             TypePointer Private 19
+           30(p):     29(ptr) Variable Private
+              31:             TypePointer Private 17
+         32(idx):     31(ptr) Variable Private
+              33:             TypePointer Private 21
+        34(outs):     33(ptr) Variable Private
+              35:             TypePointer UniformConstant 9(fvec4)
+     36(clr_col):     35(ptr) Variable UniformConstant
+              38:             TypePointer Private 6(float)
+              39:             TypePointer Private 9(fvec4)
+              40:      7(int) Constant 0
+              42:      7(int) Constant 1
+              44:             TypeVector 6(float) 2
+              46:             TypeInt 32 0
+              47:             TypeFunction 6(float) 44(fvec2)
+              74:             TypeFunction 44(fvec2) 6(float)
+              90:             TypePointer Output 9(fvec4)
+   91(out_color):     90(ptr) Variable Output
+              94:    6(float) Constant 1056964608
+              95:    6(float) Constant 0
+              96:    6(float) Constant 1065353216
+              97:    6(float) Constant 1073741824
+              98:             TypeVector 6(float) 1
+              99:    98(fvec) ConstantComposite 95
+             100:   44(fvec2) ConstantComposite 95 95
+             101:             TypeVector 6(float) 3
+             102:  101(fvec3) ConstantComposite 95 95 95
+             103:    9(fvec4) ConstantComposite 95 95 95 95
+      4(main_fs):           2 Function None 3
+               5:             Label
+              37:    9(fvec4) Load 36(clr_col)
+              41:    6(float) VectorExtractDynamic 37 40
+              43:    6(float) VectorExtractDynamic 37 42
+              45:   44(fvec2) CompositeConstruct 41 43
+              55:    6(float) FunctionCall 49(pack2xF16) 45
+              56:    6(float) VectorExtractDynamic 37 16
+              57:    6(float) VectorExtractDynamic 37 12
+              58:   44(fvec2) CompositeConstruct 56 57
+              59:    6(float) FunctionCall 49(pack2xF16) 58
+              60:   44(fvec2) CompositeConstruct 55 59
+              61:     39(ptr) AccessChain 24(sa) 40
+              62:    9(fvec4) Load 61
+              63:    9(fvec4) VectorShuffle 62 60 4 5 2 3
+                              Store 61 63
+             135:           2 FunctionCall 104(block_prim_0)
+                              Return
+                              FunctionEnd
+   49(pack2xF16):    6(float) Function None 47
+              48:   44(fvec2) FunctionParameter
+              50:             Label
+              52:     46(int) ExtInst 51(GLSL.std.450) 58(PackHalf2x16) 48
+              53:    6(float) Bitcast 52
+                              ReturnValue 53
+                              FunctionEnd
+64(frag_output_finalize):           2 Function None 3
+              65:             Label
+              66:     39(ptr) AccessChain 23(pa) 40
+              67:     39(ptr) AccessChain 23(pa) 40
+              68:    9(fvec4) Load 67
+              69:    9(fvec4) Load 66
+              70:    6(float) VectorExtractDynamic 69 40
+              71:    6(float) VectorExtractDynamic 69 42
+              72:   44(fvec2) CompositeConstruct 70 71
+              73:    6(float) VectorExtractDynamic 72 40
+              82:   44(fvec2) FunctionCall 76(unpack2xF16) 73
+              83:    6(float) VectorExtractDynamic 72 42
+              84:   44(fvec2) FunctionCall 76(unpack2xF16) 83
+              85:    6(float) VectorExtractDynamic 82 40
+              86:    6(float) VectorExtractDynamic 82 42
+              87:    6(float) VectorExtractDynamic 84 40
+              88:    6(float) VectorExtractDynamic 84 42
+              89:    9(fvec4) CompositeConstruct 85 86 87 88
+                              Store 91(out_color) 89
+                              Return
+                              FunctionEnd
+ 76(unpack2xF16):   44(fvec2) Function None 74
+              75:    6(float) FunctionParameter
+              77:             Label
+              78:     46(int) Bitcast 75
+              80:   44(fvec2) ExtInst 79(GLSL.std.450) 62(UnpackHalf2x16) 78
+                              ReturnValue 80
+                              FunctionEnd
+104(block_prim_0):           2 Function None 3
+             105:             Label
+                              Line 1 1 0
+             106:     39(ptr) AccessChain 24(sa) 40
+             107:     39(ptr) AccessChain 24(sa) 40
+             108:    9(fvec4) Load 107
+             109:    9(fvec4) Load 106
+             110:    6(float) VectorExtractDynamic 109 40
+             111:    6(float) VectorExtractDynamic 109 42
+             112:   44(fvec2) CompositeConstruct 110 111
+             113:    6(float) VectorExtractDynamic 112 40
+             114:   44(fvec2) FunctionCall 76(unpack2xF16) 113
+             115:    6(float) VectorExtractDynamic 112 42
+             116:   44(fvec2) FunctionCall 76(unpack2xF16) 115
+             117:    6(float) VectorExtractDynamic 114 40
+             118:    6(float) VectorExtractDynamic 114 42
+             119:    6(float) VectorExtractDynamic 116 40
+             120:    6(float) VectorExtractDynamic 116 42
+             121:    9(fvec4) CompositeConstruct 117 118 119 120
+             122:    6(float) VectorExtractDynamic 121 40
+             123:    6(float) VectorExtractDynamic 121 42
+             124:   44(fvec2) CompositeConstruct 122 123
+             125:    6(float) FunctionCall 49(pack2xF16) 124
+             126:    6(float) VectorExtractDynamic 121 16
+             127:    6(float) VectorExtractDynamic 121 12
+             128:   44(fvec2) CompositeConstruct 126 127
+             129:    6(float) FunctionCall 49(pack2xF16) 128
+             130:   44(fvec2) CompositeConstruct 125 129
+             131:     39(ptr) AccessChain 23(pa) 40
+             132:    9(fvec4) Load 131
+             133:    9(fvec4) VectorShuffle 132 130 4 5 2 3
+                              Store 131 133
+             134:           2 FunctionCall 64(frag_output_finalize)
+                              Return
+                              FunctionEnd
+
+[19:18:23.658] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.668] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.668] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 420
+
+uniform vec4 clr_col;
+
+layout(location = 0) out vec4 out_color;
+vec4 pa[32];
+vec4 sa[32];
+vec4 internals[3];
+vec4 r[20];
+bool p[4];
+int idx[2];
+vec4 outs[10];
+
+float pack2xF16(vec2 _48)
+{
+    return uintBitsToFloat(packHalf2x16(_48));
+}
+
+vec2 unpack2xF16(float _75)
+{
+    return unpackHalf2x16(floatBitsToUint(_75));
+}
+
+void frag_output_finalize()
+{
+    vec2 _72 = vec2(pa[0].x, pa[0].y);
+    vec2 _82 = unpack2xF16(_72.x);
+    vec2 _84 = unpack2xF16(_72.y);
+    out_color = vec4(_82.x, _82.y, _84.x, _84.y);
+}
+
+void block_prim_0()
+{
+    vec2 _112 = vec2(sa[0].x, sa[0].y);
+    vec2 _114 = unpack2xF16(_112.x);
+    vec2 _116 = unpack2xF16(_112.y);
+    vec4 _121 = vec4(_114.x, _114.y, _116.x, _116.y);
+    vec2 _130 = vec2(pack2xF16(vec2(_121.x, _121.y)), pack2xF16(vec2(_121.z, _121.w)));
+    pa[0] = vec4(_130.x, _130.y, pa[0].z, pa[0].w);
+    frag_output_finalize();
+}
+
+void main()
+{
+    vec2 _60 = vec2(pack2xF16(vec2(clr_col.x, clr_col.y)), pack2xF16(vec2(clr_col.z, clr_col.w)));
+    sa[0] = vec4(_60.x, _60.y, sa[0].z, sa[0].w);
+    block_prim_0();
+}
+
+
+[19:18:23.669] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.671] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.672] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.672] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.673] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.674] |I| [renderer::gl::load_shader]: Generating vert shader dfa70d5fce4abf74caaf1723bea5efb7cbbd728ead4917e7bae71e503c272b82
+[19:18:23.674] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.675] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aXY
+[19:18:23.675] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.678] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[19:18:23.678] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.679] |T| [shader::usse::USSERecompiler::get_or_recompile_block]: Recompiling block_0, size = 4, id = 64
+[19:18:23.680] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.683] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.685] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10400
+// Generated by (magic number): 1337000
+// Id's are bound by 86
+
+                              Capability Shader
+              51:             ExtInstImport  "GLSL.std.450"
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 4  "main_vs"
+               1:             String  "dfa70d5fce4abf74caaf1723bea5efb7cbbd728ead4917e7bae71e503c272b82"
+                              SourceExtension  "gxp"
+                              Name 4  "main_vs"
+                              Name 23  "pa"
+                              Name 24  "sa"
+                              Name 26  "internals"
+                              Name 28  "r"
+                              Name 30  "p"
+                              Name 32  "idx"
+                              Name 34  "outs"
+                              Name 36  "aXY"
+                              Name 42  "vert_output_finalize"
+                              Name 45  "v_Position"
+                              Name 64  "block_prim_0"
+                              Decorate 45(v_Position) BuiltIn Position
+               2:             TypeVoid
+               3:             TypeFunction 2
+               6:             TypeFloat 32
+               7:             TypeInt 32 1
+               8:             TypeBool
+               9:             TypeVector 6(float) 4
+              10:      7(int) Constant 32
+              11:             TypeArray 9(fvec4) 10
+              12:      7(int) Constant 3
+              13:             TypeArray 9(fvec4) 12
+              14:      7(int) Constant 20
+              15:             TypeArray 9(fvec4) 14
+              16:      7(int) Constant 2
+              17:             TypeArray 7(int) 16
+              18:      7(int) Constant 4
+              19:             TypeArray 8(bool) 18
+              20:      7(int) Constant 10
+              21:             TypeArray 9(fvec4) 20
+              22:             TypePointer Private 11
+          23(pa):     22(ptr) Variable Private
+          24(sa):     22(ptr) Variable Private
+              25:             TypePointer Private 13
+   26(internals):     25(ptr) Variable Private
+              27:             TypePointer Private 15
+           28(r):     27(ptr) Variable Private
+              29:             TypePointer Private 19
+           30(p):     29(ptr) Variable Private
+              31:             TypePointer Private 17
+         32(idx):     31(ptr) Variable Private
+              33:             TypePointer Private 21
+        34(outs):     33(ptr) Variable Private
+              35:             TypePointer Input 9(fvec4)
+         36(aXY):     35(ptr) Variable Input
+              38:             TypePointer Private 6(float)
+              39:             TypePointer Private 9(fvec4)
+              40:      7(int) Constant 0
+              44:             TypePointer Output 9(fvec4)
+  45(v_Position):     44(ptr) Variable Output
+              52:             TypeInt 32 0
+              53:    6(float) Constant 1056964608
+              54:    6(float) Constant 0
+              55:    6(float) Constant 1065353216
+              56:    6(float) Constant 1073741824
+              57:             TypeVector 6(float) 1
+              58:    57(fvec) ConstantComposite 54
+              59:             TypeVector 6(float) 2
+              60:   59(fvec2) ConstantComposite 54 54
+              61:             TypeVector 6(float) 3
+              62:   61(fvec3) ConstantComposite 54 54 54
+              63:    9(fvec4) ConstantComposite 54 54 54 54
+              71:      7(int) Constant 1
+              74:   59(fvec2) ConstantComposite 55 55
+      4(main_vs):           2 Function None 3
+               5:             Label
+              37:    9(fvec4) Load 36(aXY)
+              41:     39(ptr) AccessChain 23(pa) 40
+                              Store 41 37
+              85:           2 FunctionCall 64(block_prim_0)
+                              Return
+                              FunctionEnd
+42(vert_output_finalize):           2 Function None 3
+              43:             Label
+              46:     39(ptr) AccessChain 34(outs) 40
+              47:     39(ptr) AccessChain 34(outs) 40
+              48:    9(fvec4) Load 47
+              49:    9(fvec4) Load 46
+                              Store 45(v_Position) 49
+                              Return
+                              FunctionEnd
+64(block_prim_0):           2 Function None 3
+              65:             Label
+                              Line 1 1 0
+              66:     39(ptr) AccessChain 23(pa) 40
+              67:     39(ptr) AccessChain 23(pa) 40
+              68:    9(fvec4) Load 67
+              69:    9(fvec4) Load 66
+              70:    6(float) VectorExtractDynamic 69 40
+              72:    6(float) VectorExtractDynamic 69 71
+              73:   59(fvec2) CompositeConstruct 70 72
+              75:   59(fvec2) FMul 73 74
+              76:     39(ptr) AccessChain 34(outs) 40
+              77:    9(fvec4) Load 76
+              78:    9(fvec4) VectorShuffle 77 75 4 5 2 3
+                              Store 76 78
+                              Line 1 2 0
+              79:   59(fvec2) CompositeConstruct 55 55
+              80:   59(fvec2) FMul 79 74
+              81:     39(ptr) AccessChain 34(outs) 40
+              82:    9(fvec4) Load 81
+              83:    9(fvec4) VectorShuffle 82 80 0 1 4 5
+                              Store 81 83
+              84:           2 FunctionCall 42(vert_output_finalize)
+                              Return
+                              FunctionEnd
+
+[19:18:23.685] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.692] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 420
+
+in vec4 aXY;
+vec4 pa[32];
+vec4 sa[32];
+vec4 internals[3];
+vec4 r[20];
+bool p[4];
+int idx[2];
+vec4 outs[10];
+
+void vert_output_finalize()
+{
+    gl_Position = outs[0];
+}
+
+void block_prim_0()
+{
+    vec2 _75 = vec2(pa[0].x, pa[0].y) * vec2(1.0);
+    outs[0] = vec4(_75.x, _75.y, outs[0].z, outs[0].w);
+    vec2 _80 = vec2(1.0) * vec2(1.0);
+    outs[0] = vec4(outs[0].x, outs[0].y, _80.x, _80.y);
+    vert_output_finalize();
+}
+
+void main()
+{
+    pa[0] = aXY;
+    block_prim_0();
+}
+
+
+[19:18:23.692] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.694] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.695] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.696] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.697] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:18:23.696] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(10) : warning C7050: "outs[0].zw" might be used before being initialized
+
+Fragment info
+-------------
+0(7) : warning C7050: "sa[0].zw" might be used before being initialized
+0(6) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[19:18:23.706] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBufMulti import called. (move after setframebuf)
+[19:18:23.724] |T| [read_file]: sceIoPread: Reading 2944 bytes of fd 0x9
+[19:18:23.725] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.726] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0xEF79800, whence: SCE_SEEK_SET
+[19:18:23.729] |T| [read_file]: sceIoPread: Reading 420352 bytes of fd 0x9
+[19:18:23.729] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.730] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0xF047000, whence: SCE_SEEK_SET
+[19:18:23.741] |T| [read_file]: sceIoPread: Reading 774528 bytes of fd 0x9
+[19:18:23.741] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.742] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0xF443800, whence: SCE_SEEK_SET
+[19:18:23.760] |T| [read_file]: sceIoPread: Reading 1048576 bytes of fd 0x9
+[19:18:23.760] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.761] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0xF543800, whence: SCE_SEEK_SET
+[19:18:23.769] |T| [read_file]: sceIoPread: Reading 836736 bytes of fd 0x9
+[19:18:23.769] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.779] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x46800, whence: SCE_SEEK_SET
+[19:18:23.780] |T| [read_file]: sceIoPread: Reading 4108 bytes of fd 0x9
+[19:18:23.784] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.785] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1E0FA800, whence: SCE_SEEK_SET
+[19:18:23.806] |T| [read_file]: sceIoPread: Reading 66788 bytes of fd 0x9
+[19:18:23.807] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.870] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0C6800, whence: SCE_SEEK_SET
+[19:18:23.886] |T| [read_file]: sceIoPread: Reading 8364 bytes of fd 0x9
+[19:18:23.887] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.896] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:23.898] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0C9000, whence: SCE_SEEK_SET
+[19:18:23.900] |T| [read_file]: sceIoPread: Reading 52360 bytes of fd 0x9
+[19:18:23.902] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:23.913] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:23.947] |I| [renderer::gl::load_shader]: Generating frag shader d4007f20a9563cd097f3e9fc1a82d1abb8b687cc17284621bdf744498a406296
+[19:18:23.949] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[19:18:23.949] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
+[19:18:23.952] |T| [shader::usse::USSERecompiler::get_or_recompile_block]: Recompiling block_0, size = 2, id = 85
+[19:18:23.954] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10400
+// Generated by (magic number): 1337000
+// Id's are bound by 113
+
+                              Capability Shader
+              60:             ExtInstImport  "GLSL.std.450"
+              74:             ExtInstImport  "GLSL.std.450"
+              98:             ExtInstImport  "GLSL.std.450"
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 4  "main_fs"
+                              ExecutionMode 4 OriginLowerLeft
+               1:             String  "d4007f20a9563cd097f3e9fc1a82d1abb8b687cc17284621bdf744498a406296"
+                              SourceExtension  "gxp"
+                              Name 4  "main_fs"
+                              Name 23  "pa"
+                              Name 24  "sa"
+                              Name 26  "internals"
+                              Name 28  "r"
+                              Name 30  "p"
+                              Name 32  "idx"
+                              Name 34  "outs"
+                              Name 36  "v_TexCoord0"
+                              Name 42  "frag_output_finalize"
+                              Name 57  "unpack2xF16"
+                              Name 72  "out_color"
+                              Name 85  "block_prim_0"
+                              Name 96  "pack2xF16"
+                              Decorate 72(out_color) Location 0
+               2:             TypeVoid
+               3:             TypeFunction 2
+               6:             TypeFloat 32
+               7:             TypeInt 32 1
+               8:             TypeBool
+               9:             TypeVector 6(float) 4
+              10:      7(int) Constant 32
+              11:             TypeArray 9(fvec4) 10
+              12:      7(int) Constant 3
+              13:             TypeArray 9(fvec4) 12
+              14:      7(int) Constant 20
+              15:             TypeArray 9(fvec4) 14
+              16:      7(int) Constant 2
+              17:             TypeArray 7(int) 16
+              18:      7(int) Constant 4
+              19:             TypeArray 8(bool) 18
+              20:      7(int) Constant 10
+              21:             TypeArray 9(fvec4) 20
+              22:             TypePointer Private 11
+          23(pa):     22(ptr) Variable Private
+          24(sa):     22(ptr) Variable Private
+              25:             TypePointer Private 13
+   26(internals):     25(ptr) Variable Private
+              27:             TypePointer Private 15
+           28(r):     27(ptr) Variable Private
+              29:             TypePointer Private 19
+           30(p):     29(ptr) Variable Private
+              31:             TypePointer Private 17
+         32(idx):     31(ptr) Variable Private
+              33:             TypePointer Private 21
+        34(outs):     33(ptr) Variable Private
+              35:             TypePointer Input 9(fvec4)
+ 36(v_TexCoord0):     35(ptr) Variable Input
+              38:             TypePointer Private 6(float)
+              39:             TypePointer Private 9(fvec4)
+              40:      7(int) Constant 0
+              49:      7(int) Constant 1
+              51:             TypeVector 6(float) 2
+              54:             TypeInt 32 0
+              55:             TypeFunction 51(fvec2) 6(float)
+              71:             TypePointer Output 9(fvec4)
+   72(out_color):     71(ptr) Variable Output
+              75:    6(float) Constant 1056964608
+              76:    6(float) Constant 0
+              77:    6(float) Constant 1065353216
+              78:    6(float) Constant 1073741824
+              79:             TypeVector 6(float) 1
+              80:    79(fvec) ConstantComposite 76
+              81:   51(fvec2) ConstantComposite 76 76
+              82:             TypeVector 6(float) 3
+              83:   82(fvec3) ConstantComposite 76 76 76
+              84:    9(fvec4) ConstantComposite 76 76 76 76
+              94:             TypeFunction 6(float) 51(fvec2)
+      4(main_fs):           2 Function None 3
+               5:             Label
+              37:    9(fvec4) Load 36(v_TexCoord0)
+              41:     39(ptr) AccessChain 23(pa) 40
+                              Store 41 37
+             112:           2 FunctionCall 85(block_prim_0)
+                              Return
+                              FunctionEnd
+42(frag_output_finalize):           2 Function None 3
+              43:             Label
+              44:     39(ptr) AccessChain 23(pa) 40
+              45:     39(ptr) AccessChain 23(pa) 40
+              46:    9(fvec4) Load 45
+              47:    9(fvec4) Load 44
+              48:    6(float) VectorExtractDynamic 47 40
+              50:    6(float) VectorExtractDynamic 47 49
+              52:   51(fvec2) CompositeConstruct 48 50
+              53:    6(float) VectorExtractDynamic 52 40
+              63:   51(fvec2) FunctionCall 57(unpack2xF16) 53
+              64:    6(float) VectorExtractDynamic 52 49
+              65:   51(fvec2) FunctionCall 57(unpack2xF16) 64
+              66:    6(float) VectorExtractDynamic 63 40
+              67:    6(float) VectorExtractDynamic 63 49
+              68:    6(float) VectorExtractDynamic 65 40
+              69:    6(float) VectorExtractDynamic 65 49
+              70:    9(fvec4) CompositeConstruct 66 67 68 69
+                              Store 72(out_color) 70
+                              Return
+                              FunctionEnd
+ 57(unpack2xF16):   51(fvec2) Function None 55
+              56:    6(float) FunctionParameter
+              58:             Label
+              59:     54(int) Bitcast 56
+              61:   51(fvec2) ExtInst 60(GLSL.std.450) 62(UnpackHalf2x16) 59
+                              ReturnValue 61
+                              FunctionEnd
+85(block_prim_0):           2 Function None 3
+              86:             Label
+                              Line 1 1 0
+              87:     39(ptr) AccessChain 23(pa) 40
+              88:     39(ptr) AccessChain 23(pa) 40
+              89:    9(fvec4) Load 88
+              90:    9(fvec4) Load 87
+              91:    6(float) VectorExtractDynamic 90 40
+              92:    6(float) VectorExtractDynamic 90 49
+              93:   51(fvec2) CompositeConstruct 91 92
+             102:    6(float) FunctionCall 96(pack2xF16) 93
+             103:    6(float) VectorExtractDynamic 90 16
+             104:    6(float) VectorExtractDynamic 90 12
+             105:   51(fvec2) CompositeConstruct 103 104
+             106:    6(float) FunctionCall 96(pack2xF16) 105
+             107:   51(fvec2) CompositeConstruct 102 106
+             108:     39(ptr) AccessChain 23(pa) 40
+             109:    9(fvec4) Load 108
+             110:    9(fvec4) VectorShuffle 109 107 4 5 2 3
+                              Store 108 110
+             111:           2 FunctionCall 42(frag_output_finalize)
+                              Return
+                              FunctionEnd
+   96(pack2xF16):    6(float) Function None 94
+              95:   51(fvec2) FunctionParameter
+              97:             Label
+              99:     54(int) ExtInst 98(GLSL.std.450) 58(PackHalf2x16) 95
+             100:    6(float) Bitcast 99
+                              ReturnValue 100
+                              FunctionEnd
+
+[19:18:23.961] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 420
+
+in vec4 v_TexCoord0;
+layout(location = 0) out vec4 out_color;
+vec4 pa[32];
+vec4 sa[32];
+vec4 internals[3];
+vec4 r[20];
+bool p[4];
+int idx[2];
+vec4 outs[10];
+
+float pack2xF16(vec2 _95)
+{
+    return uintBitsToFloat(packHalf2x16(_95));
+}
+
+vec2 unpack2xF16(float _56)
+{
+    return unpackHalf2x16(floatBitsToUint(_56));
+}
+
+void frag_output_finalize()
+{
+    vec2 _52 = vec2(pa[0].x, pa[0].y);
+    vec2 _63 = unpack2xF16(_52.x);
+    vec2 _65 = unpack2xF16(_52.y);
+    out_color = vec4(_63.x, _63.y, _65.x, _65.y);
+}
+
+void block_prim_0()
+{
+    vec2 _107 = vec2(pack2xF16(vec2(pa[0].x, pa[0].y)), pack2xF16(vec2(pa[0].z, pa[0].w)));
+    pa[0] = vec4(_107.x, _107.y, pa[0].z, pa[0].w);
+    frag_output_finalize();
+}
+
+void main()
+{
+    pa[0] = v_TexCoord0;
+    block_prim_0();
+}
+
+
+[19:18:23.966] |I| [renderer::gl::load_shader]: Generating vert shader cf6d6db4e0b004581ec9d44da9049a4297c680cf79db8c671c37417f61e0c050
+[19:18:23.967] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aXY
+[19:18:23.968] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aCOL
+[19:18:23.968] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[19:18:23.969] |T| [shader::usse::USSERecompiler::get_or_recompile_block]: Recompiling block_0, size = 5, id = 73
+[19:18:23.975] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10400
+// Generated by (magic number): 1337000
+// Id's are bound by 114
+
+                              Capability Shader
+              60:             ExtInstImport  "GLSL.std.450"
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 4  "main_vs"
+               1:             String  "cf6d6db4e0b004581ec9d44da9049a4297c680cf79db8c671c37417f61e0c050"
+                              SourceExtension  "gxp"
+                              Name 4  "main_vs"
+                              Name 23  "pa"
+                              Name 24  "sa"
+                              Name 26  "internals"
+                              Name 28  "r"
+                              Name 30  "p"
+                              Name 32  "idx"
+                              Name 34  "outs"
+                              Name 36  "aXY"
+                              Name 42  "aCOL"
+                              Name 46  "vert_output_finalize"
+                              Name 49  "v_Position"
+                              Name 54  "v_TexCoord0"
+                              Name 73  "block_prim_0"
+                              Decorate 49(v_Position) BuiltIn Position
+               2:             TypeVoid
+               3:             TypeFunction 2
+               6:             TypeFloat 32
+               7:             TypeInt 32 1
+               8:             TypeBool
+               9:             TypeVector 6(float) 4
+              10:      7(int) Constant 32
+              11:             TypeArray 9(fvec4) 10
+              12:      7(int) Constant 3
+              13:             TypeArray 9(fvec4) 12
+              14:      7(int) Constant 20
+              15:             TypeArray 9(fvec4) 14
+              16:      7(int) Constant 2
+              17:             TypeArray 7(int) 16
+              18:      7(int) Constant 4
+              19:             TypeArray 8(bool) 18
+              20:      7(int) Constant 10
+              21:             TypeArray 9(fvec4) 20
+              22:             TypePointer Private 11
+          23(pa):     22(ptr) Variable Private
+          24(sa):     22(ptr) Variable Private
+              25:             TypePointer Private 13
+   26(internals):     25(ptr) Variable Private
+              27:             TypePointer Private 15
+           28(r):     27(ptr) Variable Private
+              29:             TypePointer Private 19
+           30(p):     29(ptr) Variable Private
+              31:             TypePointer Private 17
+         32(idx):     31(ptr) Variable Private
+              33:             TypePointer Private 21
+        34(outs):     33(ptr) Variable Private
+              35:             TypePointer Input 9(fvec4)
+         36(aXY):     35(ptr) Variable Input
+              38:             TypePointer Private 6(float)
+              39:             TypePointer Private 9(fvec4)
+              40:      7(int) Constant 0
+        42(aCOL):     35(ptr) Variable Input
+              44:      7(int) Constant 1
+              48:             TypePointer Output 9(fvec4)
+  49(v_Position):     48(ptr) Variable Output
+ 54(v_TexCoord0):     48(ptr) Variable Output
+              61:             TypeInt 32 0
+              62:    6(float) Constant 1056964608
+              63:    6(float) Constant 0
+              64:    6(float) Constant 1065353216
+              65:    6(float) Constant 1073741824
+              66:             TypeVector 6(float) 1
+              67:    66(fvec) ConstantComposite 63
+              68:             TypeVector 6(float) 2
+              69:   68(fvec2) ConstantComposite 63 63
+              70:             TypeVector 6(float) 3
+              71:   70(fvec3) ConstantComposite 63 63 63
+              72:    9(fvec4) ConstantComposite 63 63 63 63
+             102:   68(fvec2) ConstantComposite 64 64
+      4(main_vs):           2 Function None 3
+               5:             Label
+              37:    9(fvec4) Load 36(aXY)
+              41:     39(ptr) AccessChain 23(pa) 40
+                              Store 41 37
+              43:    9(fvec4) Load 42(aCOL)
+              45:     39(ptr) AccessChain 23(pa) 44
+                              Store 45 43
+             113:           2 FunctionCall 73(block_prim_0)
+                              Return
+                              FunctionEnd
+46(vert_output_finalize):           2 Function None 3
+              47:             Label
+              50:     39(ptr) AccessChain 34(outs) 40
+              51:     39(ptr) AccessChain 34(outs) 40
+              52:    9(fvec4) Load 51
+              53:    9(fvec4) Load 50
+                              Store 49(v_Position) 53
+              55:     39(ptr) AccessChain 34(outs) 44
+              56:     39(ptr) AccessChain 34(outs) 44
+              57:    9(fvec4) Load 56
+              58:    9(fvec4) Load 55
+                              Store 54(v_TexCoord0) 58
+                              Return
+                              FunctionEnd
+73(block_prim_0):           2 Function None 3
+              74:             Label
+                              Line 1 1 0
+              75:     39(ptr) AccessChain 23(pa) 44
+              76:     39(ptr) AccessChain 23(pa) 44
+              77:    9(fvec4) Load 76
+              78:    9(fvec4) Load 75
+              79:    6(float) VectorExtractDynamic 78 40
+              80:    6(float) VectorExtractDynamic 78 44
+              81:   68(fvec2) CompositeConstruct 79 80
+              82:     39(ptr) AccessChain 34(outs) 44
+              83:    9(fvec4) Load 82
+              84:    9(fvec4) VectorShuffle 83 81 4 5 2 3
+                              Store 82 84
+              85:     39(ptr) AccessChain 23(pa) 44
+              86:     39(ptr) AccessChain 23(pa) 16
+              87:    9(fvec4) Load 86
+              88:    9(fvec4) Load 85
+              89:    6(float) VectorExtractDynamic 88 16
+              90:    6(float) VectorExtractDynamic 88 12
+              91:   68(fvec2) CompositeConstruct 89 90
+              92:     39(ptr) AccessChain 34(outs) 44
+              93:    9(fvec4) Load 92
+              94:    9(fvec4) VectorShuffle 93 91 0 1 4 5
+                              Store 92 94
+                              Line 1 2 0
+              95:     39(ptr) AccessChain 23(pa) 40
+              96:     39(ptr) AccessChain 23(pa) 40
+              97:    9(fvec4) Load 96
+              98:    9(fvec4) Load 95
+              99:    6(float) VectorExtractDynamic 98 40
+             100:    6(float) VectorExtractDynamic 98 44
+             101:   68(fvec2) CompositeConstruct 99 100
+             103:   68(fvec2) FMul 101 102
+             104:     39(ptr) AccessChain 34(outs) 40
+             105:    9(fvec4) Load 104
+             106:    9(fvec4) VectorShuffle 105 103 4 5 2 3
+                              Store 104 106
+                              Line 1 3 0
+             107:   68(fvec2) CompositeConstruct 63 64
+             108:   68(fvec2) FMul 107 102
+             109:     39(ptr) AccessChain 34(outs) 40
+             110:    9(fvec4) Load 109
+             111:    9(fvec4) VectorShuffle 110 108 0 1 4 5
+                              Store 109 111
+             112:           2 FunctionCall 46(vert_output_finalize)
+                              Return
+                              FunctionEnd
+
+[19:18:23.983] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 420
+
+in vec4 aXY;
+in vec4 aCOL;
+out vec4 v_TexCoord0;
+vec4 pa[32];
+vec4 sa[32];
+vec4 internals[3];
+vec4 r[20];
+bool p[4];
+int idx[2];
+vec4 outs[10];
+
+void vert_output_finalize()
+{
+    gl_Position = outs[0];
+    v_TexCoord0 = outs[1];
+}
+
+void block_prim_0()
+{
+    vec2 _81 = vec2(pa[1].x, pa[1].y);
+    outs[1] = vec4(_81.x, _81.y, outs[1].z, outs[1].w);
+    vec2 _91 = vec2(pa[1].z, pa[1].w);
+    outs[1] = vec4(outs[1].x, outs[1].y, _91.x, _91.y);
+    vec2 _103 = vec2(pa[0].x, pa[0].y) * vec2(1.0);
+    outs[0] = vec4(_103.x, _103.y, outs[0].z, outs[0].w);
+    vec2 _108 = vec2(0.0, 1.0) * vec2(1.0);
+    outs[0] = vec4(outs[0].x, outs[0].y, _108.x, _108.y);
+    vert_output_finalize();
+}
+
+void main()
+{
+    pa[0] = aXY;
+    pa[1] = aCOL;
+    block_prim_0();
+}
+
+
+[19:18:23.986] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(12) : warning C7050: "outs[0].zw" might be used before being initialized
+0(12) : warning C7050: "outs[1].zw" might be used before being initialized
+
+
+[19:18:24.005] |I| [renderer::gl::load_shader]: Generating frag shader d6bd684a6fed3dde6a2f232afbe64f8f1d87df7ce5be3abf9f462de5d4c12a2b
+[19:18:24.007] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[19:18:24.009] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
+[19:18:24.010] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(tex, TEXCOORD0.xy)
+[19:18:24.010] |T| [shader::usse::USSERecompiler::get_or_recompile_block]: Recompiling block_0, size = 5, id = 92
+[19:18:24.014] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10400
+// Generated by (magic number): 1337000
+// Id's are bound by 135
+
+                              Capability Shader
+              65:             ExtInstImport  "GLSL.std.450"
+              79:             ExtInstImport  "GLSL.std.450"
+             120:             ExtInstImport  "GLSL.std.450"
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 4  "main_fs"
+                              ExecutionMode 4 OriginLowerLeft
+               1:             String  "d6bd684a6fed3dde6a2f232afbe64f8f1d87df7ce5be3abf9f462de5d4c12a2b"
+                              SourceExtension  "gxp"
+                              Name 4  "main_fs"
+                              Name 23  "pa"
+                              Name 24  "sa"
+                              Name 26  "internals"
+                              Name 28  "r"
+                              Name 30  "p"
+                              Name 32  "idx"
+                              Name 34  "outs"
+                              Name 38  "tex"
+                              Name 40  "v_TexCoord1"
+                              Name 46  "v_TexCoord0"
+                              Name 47  "frag_output_finalize"
+                              Name 62  "unpack2xF16"
+                              Name 77  "out_color"
+                              Name 92  "block_prim_0"
+                              Name 118  "pack2xF16"
+                              Decorate 77(out_color) Location 0
+               2:             TypeVoid
+               3:             TypeFunction 2
+               6:             TypeFloat 32
+               7:             TypeInt 32 1
+               8:             TypeBool
+               9:             TypeVector 6(float) 4
+              10:      7(int) Constant 32
+              11:             TypeArray 9(fvec4) 10
+              12:      7(int) Constant 3
+              13:             TypeArray 9(fvec4) 12
+              14:      7(int) Constant 20
+              15:             TypeArray 9(fvec4) 14
+              16:      7(int) Constant 2
+              17:             TypeArray 7(int) 16
+              18:      7(int) Constant 4
+              19:             TypeArray 8(bool) 18
+              20:      7(int) Constant 10
+              21:             TypeArray 9(fvec4) 20
+              22:             TypePointer Private 11
+          23(pa):     22(ptr) Variable Private
+          24(sa):     22(ptr) Variable Private
+              25:             TypePointer Private 13
+   26(internals):     25(ptr) Variable Private
+              27:             TypePointer Private 15
+           28(r):     27(ptr) Variable Private
+              29:             TypePointer Private 19
+           30(p):     29(ptr) Variable Private
+              31:             TypePointer Private 17
+         32(idx):     31(ptr) Variable Private
+              33:             TypePointer Private 21
+        34(outs):     33(ptr) Variable Private
+              35:             TypeImage 6(float) 2D sampled format:Unknown
+              36:             TypeSampledImage 35
+              37:             TypePointer UniformConstant 36
+         38(tex):     37(ptr) Variable UniformConstant
+              39:             TypePointer Input 9(fvec4)
+ 40(v_TexCoord1):     39(ptr) Variable Input
+              42:             TypePointer Private 6(float)
+              43:             TypePointer Private 9(fvec4)
+              44:      7(int) Constant 0
+ 46(v_TexCoord0):     39(ptr) Variable Input
+              54:      7(int) Constant 1
+              56:             TypeVector 6(float) 2
+              59:             TypeInt 32 0
+              60:             TypeFunction 56(fvec2) 6(float)
+              76:             TypePointer Output 9(fvec4)
+   77(out_color):     76(ptr) Variable Output
+              80:    6(float) Constant 1056964608
+              81:    6(float) Constant 0
+              82:    6(float) Constant 1065353216
+              83:    6(float) Constant 1073741824
+              84:             TypeVector 6(float) 1
+              85:    84(fvec) ConstantComposite 81
+              86:   56(fvec2) ConstantComposite 81 81
+              87:             TypeVector 6(float) 3
+              88:   87(fvec3) ConstantComposite 81 81 81
+              89:    9(fvec4) ConstantComposite 81 81 81 81
+             116:             TypeFunction 6(float) 56(fvec2)
+      4(main_fs):           2 Function None 3
+               5:             Label
+              41:    9(fvec4) Load 40(v_TexCoord1)
+              45:     43(ptr) AccessChain 23(pa) 44
+                              Store 45 41
+              90:    9(fvec4) ImageSampleImplicitLod 38(tex) 46(v_TexCoord0)
+              91:     43(ptr) AccessChain 23(pa) 54
+                              Store 91 90
+             134:           2 FunctionCall 92(block_prim_0)
+                              Return
+                              FunctionEnd
+47(frag_output_finalize):           2 Function None 3
+              48:             Label
+              49:     43(ptr) AccessChain 23(pa) 44
+              50:     43(ptr) AccessChain 23(pa) 44
+              51:    9(fvec4) Load 50
+              52:    9(fvec4) Load 49
+              53:    6(float) VectorExtractDynamic 52 44
+              55:    6(float) VectorExtractDynamic 52 54
+              57:   56(fvec2) CompositeConstruct 53 55
+              58:    6(float) VectorExtractDynamic 57 44
+              68:   56(fvec2) FunctionCall 62(unpack2xF16) 58
+              69:    6(float) VectorExtractDynamic 57 54
+              70:   56(fvec2) FunctionCall 62(unpack2xF16) 69
+              71:    6(float) VectorExtractDynamic 68 44
+              72:    6(float) VectorExtractDynamic 68 54
+              73:    6(float) VectorExtractDynamic 70 44
+              74:    6(float) VectorExtractDynamic 70 54
+              75:    9(fvec4) CompositeConstruct 71 72 73 74
+                              Store 77(out_color) 75
+                              Return
+                              FunctionEnd
+ 62(unpack2xF16):   56(fvec2) Function None 60
+              61:    6(float) FunctionParameter
+              63:             Label
+              64:     59(int) Bitcast 61
+              66:   56(fvec2) ExtInst 65(GLSL.std.450) 62(UnpackHalf2x16) 64
+                              ReturnValue 66
+                              FunctionEnd
+92(block_prim_0):           2 Function None 3
+              93:             Label
+                              Line 1 2 0
+              94:     43(ptr) AccessChain 23(pa) 44
+              95:     43(ptr) AccessChain 23(pa) 44
+              96:    9(fvec4) Load 95
+              97:    9(fvec4) Load 94
+              98:     43(ptr) AccessChain 26(internals) 44
+                              Store 98 97
+                              Line 1 3 0
+              99:     43(ptr) AccessChain 23(pa) 54
+             100:     43(ptr) AccessChain 23(pa) 54
+             101:    9(fvec4) Load 100
+             102:    9(fvec4) Load 99
+             103:     43(ptr) AccessChain 26(internals) 54
+                              Store 103 102
+                              Line 1 4 0
+             104:     43(ptr) AccessChain 26(internals) 54
+             105:     43(ptr) AccessChain 26(internals) 54
+             106:    9(fvec4) Load 105
+             107:    9(fvec4) Load 104
+             108:     43(ptr) AccessChain 26(internals) 44
+             109:     43(ptr) AccessChain 26(internals) 44
+             110:    9(fvec4) Load 109
+             111:    9(fvec4) Load 108
+             112:    9(fvec4) FMul 107 111
+             113:    6(float) VectorExtractDynamic 112 44
+             114:    6(float) VectorExtractDynamic 112 54
+             115:   56(fvec2) CompositeConstruct 113 114
+             124:    6(float) FunctionCall 118(pack2xF16) 115
+             125:    6(float) VectorExtractDynamic 112 16
+             126:    6(float) VectorExtractDynamic 112 12
+             127:   56(fvec2) CompositeConstruct 125 126
+             128:    6(float) FunctionCall 118(pack2xF16) 127
+             129:   56(fvec2) CompositeConstruct 124 128
+             130:     43(ptr) AccessChain 23(pa) 44
+             131:    9(fvec4) Load 130
+             132:    9(fvec4) VectorShuffle 131 129 4 5 2 3
+                              Store 130 132
+             133:           2 FunctionCall 47(frag_output_finalize)
+                              Return
+                              FunctionEnd
+  118(pack2xF16):    6(float) Function None 116
+             117:   56(fvec2) FunctionParameter
+             119:             Label
+             121:     59(int) ExtInst 120(GLSL.std.450) 58(PackHalf2x16) 117
+             122:    6(float) Bitcast 121
+                              ReturnValue 122
+                              FunctionEnd
+
+[19:18:24.022] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 420
+
+uniform sampler2D tex;
+
+in vec4 v_TexCoord1;
+in vec4 v_TexCoord0;
+layout(location = 0) out vec4 out_color;
+vec4 pa[32];
+vec4 sa[32];
+vec4 internals[3];
+vec4 r[20];
+bool p[4];
+int idx[2];
+vec4 outs[10];
+
+float pack2xF16(vec2 _117)
+{
+    return uintBitsToFloat(packHalf2x16(_117));
+}
+
+vec2 unpack2xF16(float _61)
+{
+    return unpackHalf2x16(floatBitsToUint(_61));
+}
+
+void frag_output_finalize()
+{
+    vec2 _57 = vec2(pa[0].x, pa[0].y);
+    vec2 _68 = unpack2xF16(_57.x);
+    vec2 _70 = unpack2xF16(_57.y);
+    out_color = vec4(_68.x, _68.y, _70.x, _70.y);
+}
+
+void block_prim_0()
+{
+    internals[0] = pa[0];
+    internals[1] = pa[1];
+    vec4 _112 = internals[1] * internals[0];
+    vec2 _129 = vec2(pack2xF16(vec2(_112.x, _112.y)), pack2xF16(vec2(_112.z, _112.w)));
+    pa[0] = vec4(_129.x, _129.y, pa[0].z, pa[0].w);
+    frag_output_finalize();
+}
+
+void main()
+{
+    pa[0] = v_TexCoord1;
+    pa[1] = texture(tex, v_TexCoord0.xy);
+    block_prim_0();
+}
+
+
+[19:18:24.030] |I| [renderer::gl::load_shader]: Generating vert shader 9422dd982f7e9743436310b92aa200b8cefd1b15c5cf59b43ba9e88657468a3e
+[19:18:24.031] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aXY
+[19:18:24.031] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aUV
+[19:18:24.032] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aCOL
+[19:18:24.033] |T| [shader::create_parameters]: [LITERAL + 0] sa0 = 1 (0x3F800000)
+[19:18:24.033] |T| [shader::create_parameters]: [LITERAL + 1] sa1 = -0.00367647 (0xBB70F0F1)
+[19:18:24.034] |T| [shader::create_parameters]: [LITERAL + 2] sa2 = -1 (0xBF800000)
+[19:18:24.034] |T| [shader::create_parameters]: [LITERAL + 3] sa3 = 0.00208333 (0x3B088889)
+[19:18:24.035] |T| [shader::usse::USSERecompiler::get_or_recompile_block]: Recompiling block_0, size = 8, id = 91
+[19:18:24.043] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10400
+// Generated by (magic number): 1337000
+// Id's are bound by 182
+
+                              Capability Shader
+              79:             ExtInstImport  "GLSL.std.450"
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 4  "main_vs"
+               1:             String  "9422dd982f7e9743436310b92aa200b8cefd1b15c5cf59b43ba9e88657468a3e"
+                              SourceExtension  "gxp"
+                              Name 4  "main_vs"
+                              Name 23  "pa"
+                              Name 24  "sa"
+                              Name 26  "internals"
+                              Name 28  "r"
+                              Name 30  "p"
+                              Name 32  "idx"
+                              Name 34  "outs"
+                              Name 36  "aXY"
+                              Name 42  "aUV"
+                              Name 46  "aCOL"
+                              Name 55  "vert_output_finalize"
+                              Name 58  "v_Position"
+                              Name 63  "v_TexCoord0"
+                              Name 68  "v_TexCoord1"
+                              Name 91  "block_prim_0"
+                              Decorate 58(v_Position) BuiltIn Position
+               2:             TypeVoid
+               3:             TypeFunction 2
+               6:             TypeFloat 32
+               7:             TypeInt 32 1
+               8:             TypeBool
+               9:             TypeVector 6(float) 4
+              10:      7(int) Constant 32
+              11:             TypeArray 9(fvec4) 10
+              12:      7(int) Constant 3
+              13:             TypeArray 9(fvec4) 12
+              14:      7(int) Constant 20
+              15:             TypeArray 9(fvec4) 14
+              16:      7(int) Constant 2
+              17:             TypeArray 7(int) 16
+              18:      7(int) Constant 4
+              19:             TypeArray 8(bool) 18
+              20:      7(int) Constant 10
+              21:             TypeArray 9(fvec4) 20
+              22:             TypePointer Private 11
+          23(pa):     22(ptr) Variable Private
+          24(sa):     22(ptr) Variable Private
+              25:             TypePointer Private 13
+   26(internals):     25(ptr) Variable Private
+              27:             TypePointer Private 15
+           28(r):     27(ptr) Variable Private
+              29:             TypePointer Private 19
+           30(p):     29(ptr) Variable Private
+              31:             TypePointer Private 17
+         32(idx):     31(ptr) Variable Private
+              33:             TypePointer Private 21
+        34(outs):     33(ptr) Variable Private
+              35:             TypePointer Input 9(fvec4)
+         36(aXY):     35(ptr) Variable Input
+              38:             TypePointer Private 6(float)
+              39:             TypePointer Private 9(fvec4)
+              40:      7(int) Constant 0
+         42(aUV):     35(ptr) Variable Input
+              44:      7(int) Constant 1
+        46(aCOL):     35(ptr) Variable Input
+              49:    6(float) Constant 1065353216
+              50:    6(float) Constant 3144741105
+              51:    6(float) Constant 3212836864
+              52:    6(float) Constant 990414985
+              53:    9(fvec4) ConstantComposite 49 50 51 52
+              57:             TypePointer Output 9(fvec4)
+  58(v_Position):     57(ptr) Variable Output
+ 63(v_TexCoord0):     57(ptr) Variable Output
+ 68(v_TexCoord1):     57(ptr) Variable Output
+              80:             TypeInt 32 0
+              81:    6(float) Constant 1056964608
+              82:    6(float) Constant 0
+              83:    6(float) Constant 1073741824
+              84:             TypeVector 6(float) 1
+              85:    84(fvec) ConstantComposite 82
+              86:             TypeVector 6(float) 2
+              87:   86(fvec2) ConstantComposite 82 82
+              88:             TypeVector 6(float) 3
+              89:   88(fvec3) ConstantComposite 82 82 82
+              90:    9(fvec4) ConstantComposite 82 82 82 82
+             170:   86(fvec2) ConstantComposite 49 49
+      4(main_vs):           2 Function None 3
+               5:             Label
+              37:    9(fvec4) Load 36(aXY)
+              41:     39(ptr) AccessChain 23(pa) 40
+                              Store 41 37
+              43:    9(fvec4) Load 42(aUV)
+              45:     39(ptr) AccessChain 23(pa) 44
+                              Store 45 43
+              47:    9(fvec4) Load 46(aCOL)
+              48:     39(ptr) AccessChain 23(pa) 16
+                              Store 48 47
+              54:     39(ptr) AccessChain 24(sa) 40
+                              Store 54 53
+             181:           2 FunctionCall 91(block_prim_0)
+                              Return
+                              FunctionEnd
+55(vert_output_finalize):           2 Function None 3
+              56:             Label
+              59:     39(ptr) AccessChain 34(outs) 40
+              60:     39(ptr) AccessChain 34(outs) 40
+              61:    9(fvec4) Load 60
+              62:    9(fvec4) Load 59
+                              Store 58(v_Position) 62
+              64:     39(ptr) AccessChain 34(outs) 44
+              65:     39(ptr) AccessChain 34(outs) 44
+              66:    9(fvec4) Load 65
+              67:    9(fvec4) Load 64
+                              Store 63(v_TexCoord0) 67
+              69:     39(ptr) AccessChain 34(outs) 44
+              70:     39(ptr) AccessChain 34(outs) 16
+              71:    9(fvec4) Load 70
+              72:    9(fvec4) Load 69
+              73:    6(float) VectorExtractDynamic 72 16
+              74:    6(float) VectorExtractDynamic 72 12
+              75:    6(float) VectorExtractDynamic 71 40
+              76:    6(float) VectorExtractDynamic 71 44
+              77:    9(fvec4) CompositeConstruct 73 74 75 76
+                              Store 68(v_TexCoord1) 77
+                              Return
+                              FunctionEnd
+91(block_prim_0):           2 Function None 3
+              92:             Label
+                              Line 1 2 0
+              93:     39(ptr) AccessChain 23(pa) 44
+              94:     39(ptr) AccessChain 23(pa) 44
+              95:    9(fvec4) Load 94
+              96:    9(fvec4) Load 93
+              97:    6(float) VectorExtractDynamic 96 40
+              98:    6(float) VectorExtractDynamic 96 44
+              99:   86(fvec2) CompositeConstruct 97 98
+             100:     39(ptr) AccessChain 34(outs) 44
+             101:    9(fvec4) Load 100
+             102:    9(fvec4) VectorShuffle 101 99 4 5 2 3
+                              Store 100 102
+             103:     39(ptr) AccessChain 23(pa) 16
+             104:     39(ptr) AccessChain 23(pa) 16
+             105:    9(fvec4) Load 104
+             106:    9(fvec4) Load 103
+             107:    6(float) VectorExtractDynamic 106 40
+             108:    6(float) VectorExtractDynamic 106 44
+             109:   86(fvec2) CompositeConstruct 107 108
+             110:     39(ptr) AccessChain 34(outs) 44
+             111:    9(fvec4) Load 110
+             112:    9(fvec4) VectorShuffle 111 109 0 1 4 5
+                              Store 110 112
+             113:     39(ptr) AccessChain 23(pa) 16
+             114:     39(ptr) AccessChain 23(pa) 12
+             115:    9(fvec4) Load 114
+             116:    9(fvec4) Load 113
+             117:    6(float) VectorExtractDynamic 116 16
+             118:    6(float) VectorExtractDynamic 116 12
+             119:   86(fvec2) CompositeConstruct 117 118
+             120:     39(ptr) AccessChain 34(outs) 16
+             121:    9(fvec4) Load 120
+             122:    9(fvec4) VectorShuffle 121 119 4 5 2 3
+                              Store 120 122
+                              Line 1 3 0
+             123:     39(ptr) AccessChain 23(pa) 40
+             124:     39(ptr) AccessChain 23(pa) 40
+             125:    9(fvec4) Load 124
+             126:    9(fvec4) Load 123
+             127:    6(float) VectorExtractDynamic 126 40
+             128:     39(ptr) AccessChain 24(sa) 40
+             129:     39(ptr) AccessChain 24(sa) 44
+             130:    9(fvec4) Load 129
+             131:    9(fvec4) Load 128
+             132:    6(float) VectorExtractDynamic 131 12
+             133:     39(ptr) AccessChain 24(sa) 40
+             134:     39(ptr) AccessChain 24(sa) 44
+             135:    9(fvec4) Load 134
+             136:    9(fvec4) Load 133
+             137:    6(float) VectorExtractDynamic 136 16
+             138:    6(float) FMul 127 132
+             139:    6(float) FAdd 138 137
+             140:     39(ptr) AccessChain 23(pa) 40
+             141:    9(fvec4) Load 140
+             142:    9(fvec4) VectorInsertDynamic 141 139 40
+                              Store 140 142
+                              Line 1 4 0
+             143:     39(ptr) AccessChain 23(pa) 40
+             144:     39(ptr) AccessChain 23(pa) 40
+             145:    9(fvec4) Load 144
+             146:    9(fvec4) Load 143
+             147:    6(float) VectorExtractDynamic 146 44
+             148:     39(ptr) AccessChain 24(sa) 40
+             149:     39(ptr) AccessChain 24(sa) 40
+             150:    9(fvec4) Load 149
+             151:    9(fvec4) Load 148
+             152:    6(float) VectorExtractDynamic 151 44
+             153:     39(ptr) AccessChain 24(sa) 40
+             154:     39(ptr) AccessChain 24(sa) 40
+             155:    9(fvec4) Load 154
+             156:    9(fvec4) Load 153
+             157:    6(float) VectorExtractDynamic 156 40
+             158:    6(float) FMul 147 152
+             159:    6(float) FAdd 158 157
+             160:     39(ptr) AccessChain 23(pa) 40
+             161:    9(fvec4) Load 160
+             162:    9(fvec4) VectorInsertDynamic 161 159 44
+                              Store 160 162
+                              Line 1 5 0
+             163:     39(ptr) AccessChain 23(pa) 40
+             164:     39(ptr) AccessChain 23(pa) 40
+             165:    9(fvec4) Load 164
+             166:    9(fvec4) Load 163
+             167:    6(float) VectorExtractDynamic 166 40
+             168:    6(float) VectorExtractDynamic 166 44
+             169:   86(fvec2) CompositeConstruct 167 168
+             171:   86(fvec2) FMul 169 170
+             172:     39(ptr) AccessChain 34(outs) 40
+             173:    9(fvec4) Load 172
+             174:    9(fvec4) VectorShuffle 173 171 4 5 2 3
+                              Store 172 174
+                              Line 1 6 0
+             175:   86(fvec2) CompositeConstruct 82 49
+             176:   86(fvec2) FMul 175 170
+             177:     39(ptr) AccessChain 34(outs) 40
+             178:    9(fvec4) Load 177
+             179:    9(fvec4) VectorShuffle 178 176 0 1 4 5
+                              Store 177 179
+             180:           2 FunctionCall 55(vert_output_finalize)
+                              Return
+                              FunctionEnd
+
+[19:18:24.054] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 420
+
+in vec4 aXY;
+in vec4 aUV;
+in vec4 aCOL;
+out vec4 v_TexCoord0;
+out vec4 v_TexCoord1;
+vec4 pa[32];
+vec4 sa[32];
+vec4 internals[3];
+vec4 r[20];
+bool p[4];
+int idx[2];
+vec4 outs[10];
+
+void vert_output_finalize()
+{
+    gl_Position = outs[0];
+    v_TexCoord0 = outs[1];
+    v_TexCoord1 = vec4(outs[1].z, outs[1].w, outs[2].x, outs[2].y);
+}
+
+void block_prim_0()
+{
+    vec2 _99 = vec2(pa[1].x, pa[1].y);
+    outs[1] = vec4(_99.x, _99.y, outs[1].z, outs[1].w);
+    vec2 _109 = vec2(pa[2].x, pa[2].y);
+    outs[1] = vec4(outs[1].x, outs[1].y, _109.x, _109.y);
+    vec2 _119 = vec2(pa[2].z, pa[2].w);
+    outs[2] = vec4(_119.x, _119.y, outs[2].z, outs[2].w);
+    vec4 _142 = pa[0];
+    _142.x = (pa[0].x * sa[0].w) + sa[0].z;
+    pa[0] = _142;
+    vec4 _162 = pa[0];
+    _162.y = (pa[0].y * sa[0].y) + sa[0].x;
+    pa[0] = _162;
+    vec2 _171 = vec2(pa[0].x, pa[0].y) * vec2(1.0);
+    outs[0] = vec4(_171.x, _171.y, outs[0].z, outs[0].w);
+    vec2 _176 = vec2(0.0, 1.0) * vec2(1.0);
+    outs[0] = vec4(outs[0].x, outs[0].y, _176.x, _176.y);
+    vert_output_finalize();
+}
+
+void main()
+{
+    pa[0] = aXY;
+    pa[1] = aUV;
+    pa[2] = aCOL;
+    sa[0] = vec4(1.0, -0.00367647060193121433258056640625, -1.0, 0.00208333344198763370513916015625);
+    block_prim_0();
+}
+
+
+[19:18:24.059] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(14) : warning C7050: "outs[0].zw" might be used before being initialized
+0(14) : warning C7050: "outs[1].zw" might be used before being initialized
+0(14) : warning C7050: "outs[2].zw" might be used before being initialized
+
+
+[19:18:27.919] |W| [unimplemented_impl]: Unimplemented sceAvPlayerInit import called.
+[19:18:27.921] |W| [unimplemented_impl]: Unimplemented sceAvPlayerAddSource import called.
+[19:18:27.926] |W| [unimplemented_impl]: Unimplemented sceAvPlayerIsActive import called.
+[19:18:27.927] |W| [unimplemented_impl]: Unimplemented sceAudioOutReleasePort import called.
+[19:18:27.930] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
+[19:18:31.979] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1990E800, whence: SCE_SEEK_SET
+[19:18:32.086] |T| [read_file]: sceIoPread: Reading 366698 bytes of fd 0x9
+[19:18:32.087] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.091] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.093] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.100] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.102] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.103] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.105] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.113] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.114] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.115] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.123] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1D58E800, whence: SCE_SEEK_SET
+[19:18:32.154] |T| [read_file]: sceIoPread: Reading 7460 bytes of fd 0x9
+[19:18:32.155] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.166] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1DB4C000, whence: SCE_SEEK_SET
+[19:18:32.186] |T| [read_file]: sceIoPread: Reading 159960 bytes of fd 0x9
+[19:18:32.186] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.254] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x94001000
+[19:18:32.289] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x94001000
+[19:18:32.320] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x94001000
+[19:18:32.323] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x94001000
+[19:18:32.325] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x94001000
+[19:18:32.334] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x91B6000, whence: SCE_SEEK_SET
+[19:18:32.351] |T| [read_file]: sceIoPread: Reading 33348 bytes of fd 0x9
+[19:18:32.353] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.368] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.369] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.374] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.375] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.379] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.380] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.381] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.383] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.384] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.387] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.388] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.389] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.402] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1DB8B800, whence: SCE_SEEK_SET
+[19:18:32.403] |T| [read_file]: sceIoPread: Reading 452 bytes of fd 0x9
+[19:18:32.404] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.405] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x2FCDA800, whence: SCE_SEEK_SET
+[19:18:32.427] |T| [read_file]: sceIoPread: Reading 58388 bytes of fd 0x9
+[19:18:32.427] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.432] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1DB8C000, whence: SCE_SEEK_SET
+[19:18:32.433] |T| [read_file]: sceIoPread: Reading 1356 bytes of fd 0x9
+[19:18:32.433] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.434] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1DB8C800, whence: SCE_SEEK_SET
+[19:18:32.436] |T| [read_file]: sceIoPread: Reading 5988 bytes of fd 0x9
+[19:18:32.438] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.453] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.454] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.457] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.461] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:32.463] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.463] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.464] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.465] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.467] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.467] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.471] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.471] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.472] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.473] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.474] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.475] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.478] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.481] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.482] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.483] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.484] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.485] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.486] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.488] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.488] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:32.491] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:32.491] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:32.492] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.493] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.494] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.498] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x30061000, whence: SCE_SEEK_SET
+[19:18:32.512] |T| [read_file]: sceIoPread: Reading 32508 bytes of fd 0x9
+[19:18:32.512] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.534] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.535] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.536] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.536] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.537] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.538] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.539] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.540] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.540] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.541] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.541] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.542] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.542] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.543] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.546] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.549] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.550] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.551] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.552] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.553] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.553] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.556] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.557] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.564] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x2FCD0000, whence: SCE_SEEK_SET
+[19:18:32.572] |T| [read_file]: sceIoPread: Reading 42380 bytes of fd 0x9
+[19:18:32.573] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.584] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.584] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.585] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.591] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.591] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.592] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:32.601] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x19968800, whence: SCE_SEEK_SET
+[19:18:32.605] |T| [read_file]: sceIoPread: Reading 1048576 bytes of fd 0x9
+[19:18:32.605] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.607] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x19A68800, whence: SCE_SEEK_SET
+[19:18:32.611] |T| [read_file]: sceIoPread: Reading 1048576 bytes of fd 0x9
+[19:18:32.612] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.613] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x19B68800, whence: SCE_SEEK_SET
+[19:18:32.641] |T| [read_file]: sceIoPread: Reading 879304 bytes of fd 0x9
+[19:18:32.642] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.642] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1A0A2000, whence: SCE_SEEK_SET
+[19:18:32.693] |T| [read_file]: sceIoPread: Reading 1048576 bytes of fd 0x9
+[19:18:32.694] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.695] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1A1A2000, whence: SCE_SEEK_SET
+[19:18:32.703] |T| [read_file]: sceIoPread: Reading 1048576 bytes of fd 0x9
+[19:18:32.703] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.704] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1A2A2000, whence: SCE_SEEK_SET
+[19:18:32.711] |T| [read_file]: sceIoPread: Reading 343720 bytes of fd 0x9
+[19:18:32.713] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.713] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1983A000, whence: SCE_SEEK_SET
+[19:18:32.752] |T| [read_file]: sceIoPread: Reading 57784 bytes of fd 0x9
+[19:18:32.753] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.754] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1A2F6000, whence: SCE_SEEK_SET
+[19:18:32.755] |T| [read_file]: sceIoPread: Reading 364188 bytes of fd 0x9
+[19:18:32.756] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.756] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1DB89800, whence: SCE_SEEK_SET
+[19:18:32.757] |T| [read_file]: sceIoPread: Reading 1672 bytes of fd 0x9
+[19:18:32.758] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.758] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1DB86000, whence: SCE_SEEK_SET
+[19:18:32.759] |T| [read_file]: sceIoPread: Reading 608 bytes of fd 0x9
+[19:18:32.759] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:32.760] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1DB86800, whence: SCE_SEEK_SET
+[19:18:32.763] |T| [read_file]: sceIoPread: Reading 1100 bytes of fd 0x9
+[19:18:32.763] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.067] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.069] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.074] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.079] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.084] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.089] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.090] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.091] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.095] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.097] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.098] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.101] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.101] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.102] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.103] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.104] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.105] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.109] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.112] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.117] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.123] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.127] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.131] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.133] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.136] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.140] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.142] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.144] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.147] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.149] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.152] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.154] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.157] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.159] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.161] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.165] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.167] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.169] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.169] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.171] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.172] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.176] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.177] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.179] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.180] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.181] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.183] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.184] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.185] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.186] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.186] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.187] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.187] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.188] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.189] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.189] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.190] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.190] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.192] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.193] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.197] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.197] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.198] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.198] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.199] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.200] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.202] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.202] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.204] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.205] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.206] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.206] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.208] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.208] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.209] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.209] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.211] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.212] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.215] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.216] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.218] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.219] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.220] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.220] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.221] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.222] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.222] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.418] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.423] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.426] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.429] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.432] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.433] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.434] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.435] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.438] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.442] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.446] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.450] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.454] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.458] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.463] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.467] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.471] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.475] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.480] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.484] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.488] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.491] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.493] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.494] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.497] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.498] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.501] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.503] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.504] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.505] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.506] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.507] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.511] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.514] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.515] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.516] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.520] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.521] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.521] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.524] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.525] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.525] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.526] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.528] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.530] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.530] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.533] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.534] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.535] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.536] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.537] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.537] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.539] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.540] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.549] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.554] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.558] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.563] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.564] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.565] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.565] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95005000
+[19:18:33.566] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.567] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.569] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.569] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.572] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.573] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.574] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.575] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.576] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.578] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.579] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.583] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.585] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.585] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.589] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1A44A000, whence: SCE_SEEK_SET
+[19:18:33.685] |T| [read_file]: sceIoPread: Reading 43672 bytes of fd 0x9
+[19:18:33.686] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.687] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x1A449000, whence: SCE_SEEK_SET
+[19:18:33.696] |T| [read_file]: sceIoPread: Reading 3184 bytes of fd 0x9
+[19:18:33.696] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.704] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.706] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.707] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.709] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.711] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.712] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.713] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.713] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.714] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.716] |W| [init_texture_base]: Initialized texture with untested paletted texture format: 0x95001000
+[19:18:33.765] |W| [stubbed_impl]: Stubbed sceDisplayWaitSetFrameBuf import called. (move after setframebuf)
+[19:18:33.769] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x217140, whence: SCE_SEEK_SET
+[19:18:33.788] |T| [read_file]: sceIoPread: Reading 32768 bytes of fd 0x9
+[19:18:33.788] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.799] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x21F140, whence: SCE_SEEK_SET
+[19:18:33.800] |T| [read_file]: sceIoPread: Reading 32768 bytes of fd 0x9
+[19:18:33.800] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.802] |W| [unimplemented_impl]: Unimplemented sceNgsVoiceKill import called.
+[19:18:33.832] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x217140, whence: SCE_SEEK_SET
+[19:18:33.832] |T| [read_file]: sceIoPread: Reading 32768 bytes of fd 0x9
+[19:18:33.833] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.849] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x21F140, whence: SCE_SEEK_SET
+[19:18:33.849] |T| [read_file]: sceIoPread: Reading 32768 bytes of fd 0x9
+[19:18:33.851] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.881] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x227140, whence: SCE_SEEK_SET
+[19:18:33.882] |T| [read_file]: sceIoPread: Reading 32768 bytes of fd 0x9
+[19:18:33.882] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.898] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x22F140, whence: SCE_SEEK_SET
+[19:18:33.898] |T| [read_file]: sceIoPread: Reading 32768 bytes of fd 0x9
+[19:18:33.900] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.916] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x237140, whence: SCE_SEEK_SET
+[19:18:33.916] |T| [read_file]: sceIoPread: Reading 32768 bytes of fd 0x9
+[19:18:33.918] |T| [seek_file]: sceIoPread: Seeking fd: 0x9, offset: 0x3B0E4758, whence: SCE_SEEK_SET
+[19:18:33.918] |C| [run]: Unicorn error 0x7 at: start PC: 0x1A7527 error PC 0x14D9A LR: 0x0

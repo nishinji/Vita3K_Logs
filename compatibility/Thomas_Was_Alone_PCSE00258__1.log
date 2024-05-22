@@ -1,0 +1,87 @@
+[02:41:30.655] |I| [config::init]: log-level: 0
+[02:41:30.655] |I| [config::init]: log-imports: false
+[02:41:30.656] |I| [config::init]: log-exports: false
+[02:41:30.656] |I| [config::init]: log-active-shaders: false
+[02:41:30.656] |I| [config::init]: log-uniforms: false
+[02:41:30.659] |I| [SDL_main]: Vita3K v0.1 790-be6ba6b
+[02:41:31.222] |I| [init]: Swap interval = -1
+[02:41:40.145] |I| [load_app_impl]: Title: Thomas Was Alone
+[02:41:40.146] |I| [load_app_impl]: Serial: PCSE00258
+[02:41:40.146] |I| [load_app_impl]: Category: gp
+[02:41:40.227] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[02:41:40.227] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x37F30
+[02:41:40.228] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x3BDF0, setting to stub value 0xDEADBEEF
+[02:41:40.228] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x3D4A4, setting to stub value 0xDEADBEEF
+[02:41:40.228] |I| [load_app_impl]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[02:41:40.252] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[02:41:40.252] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6DB70
+[02:41:40.252] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x6E5AC, setting to stub value 0xDEADBEEF
+[02:41:40.253] |I| [load_app_impl]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[02:41:40.290] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[02:41:40.291] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8D1CC
+[02:41:40.291] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x8D74C, setting to stub value 0xDEADBEEF
+[02:41:40.291] |W| [load_var_imports]: 	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x8DA00, setting to stub value 0xDEADBEEF
+[02:41:40.291] |I| [load_app_impl]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[02:41:40.370] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[02:41:40.371] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81116C40
+[02:41:40.371] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8115F598
+[02:41:40.372] |I| [load_app_impl]: Main executable ThomasWasAlone (eboot.bin) loaded
+[02:41:40.376] |D| [run_app]: Running module_start of library: SceLibc
+[02:41:40.381] |T| [open_file]: sceKernelGetStdin: Opening file tty0: (tty0:)
+[02:41:40.381] |T| [open_file]: sceKernelGetStdout: Opening file tty0: (tty0:)
+[02:41:40.381] |T| [open_file]: sceKernelGetStderr: Opening file tty0: (tty0:)
+[02:41:40.386] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[02:41:40.386] |D| [run_app]: Running module_start of library: SceLibFios2
+[02:41:40.390] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[02:41:40.390] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[02:41:40.391] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[02:41:40.392] |D| [run_app]: Running module_start of library: SceUlt
+[02:41:40.395] |E| [call_import]: Import function for NID 0x50F2F2AA not found (thread name: SceUlt, thread ID: 36)
+[02:41:40.395] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[02:41:40.397] |T| [open_file]: sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSE00258/mai_moe/mai.suprx)
+[02:41:40.421] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[02:41:40.421] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[02:41:40.422] |T| [read_file]: sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87954
+[02:41:40.422] |I| [load_self]: Loading symbols for SELF: app0:mai_moe/mai.suprx
+[02:41:40.422] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x11980C
+[02:41:40.423] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x119868
+[02:41:40.423] |T| [close_file]: sceKernelLoadStartModule: Closing file: fd: 0x3
+[02:41:40.431] |W| [stubbed_impl]: Stubbed sceKernelDelayThread import called. (bad accuracy)
+[02:41:40.432] |T| [stat_file]: sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00258/mai_moe/load_type.mai)
+[02:41:40.433] |I| [export_sceIoOpen]: Opening file: app0:mai_moe/load_type.mai
+[02:41:40.433] |T| [open_file]: sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSE00258/mai_moe/load_type.mai)
+[02:41:40.436] |T| [stat_file]: sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00258/mai_moe/load_type.mai)
+[02:41:40.436] |T| [seek_file]: sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[02:41:40.437] |T| [read_file]: sceIoRead: Reading file: fd: 0x4, size: 1
+[02:41:40.437] |T| [close_file]: sceIoClose: Closing file: fd: 0x4
+[02:41:40.441] |I| [export_sceKernelLoadStartModule]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[02:41:40.443] |T| [open_file]: sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSE00258/sce_module/libfios2_m.suprx)
+[02:41:40.462] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[02:41:40.463] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[02:41:40.463] |T| [read_file]: sceKernelLoadStartModule: Reading file: fd: 0x5, size: 226560
+[02:41:40.464] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[02:41:40.464] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x1B8B70
+[02:41:40.465] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x1B95AC, setting to stub value 0xDEADBEEF
+[02:41:40.465] |T| [close_file]: sceKernelLoadStartModule: Closing file: fd: 0x5
+[02:41:40.470] |I| [export_sceKernelLoadStartModule]: Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[02:41:40.472] |T| [open_dir]: sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[02:41:40.473] |W| [io_error_impl]: open_dir (sceIoDopen) returned 0x80010002
+[02:41:40.473] |T| [read_dir]: sceIoDread: Reading dir fd: 0x80010002
+[02:41:40.473] |W| [io_error_impl]: read_dir (sceIoDread) returned 0x80010051
+[02:41:40.474] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x80010002
+[02:41:40.474] |W| [io_error_impl]: close_dir (sceIoDclose) returned 0x80010051
+[02:41:40.532] |I| [export_sceKernelLoadStartModule]: Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[02:41:40.654] |I| [export_sceIoOpen]: Opening file: app0:data/scripts/nucleus_main.lua
+[02:41:40.655] |T| [open_file]: sceIoOpen: Opening file app0:data/scripts/nucleus_main.lua (ux0:/app/PCSE00258/data/scripts/nucleus_main.lua)
+[02:41:40.724] |T| [seek_file]: sceIoLseek: Seeking file: fd: 0x6 at offset: 0x0, whence: SCE_SEEK_END
+[02:41:40.725] |T| [seek_file]: sceIoLseek: Seeking file: fd: 0x6 at offset: 0x0, whence: SCE_SEEK_SET
+[02:41:40.725] |T| [read_file]: sceIoRead: Reading file: fd: 0x6, size: 1726
+[02:41:40.725] |T| [close_file]: sceIoClose: Closing file: fd: 0x6
+[02:41:40.731] |I| [export_sceIoOpen]: Opening file: app0:data/scripts/strict.lua
+[02:41:40.731] |T| [open_file]: sceIoOpen: Opening file app0:data/scripts/strict.lua (ux0:/app/PCSE00258/data/scripts/strict.lua)
+[02:41:40.757] |T| [seek_file]: sceIoLseek: Seeking file: fd: 0x7 at offset: 0x0, whence: SCE_SEEK_END
+[02:41:40.757] |T| [seek_file]: sceIoLseek: Seeking file: fd: 0x7 at offset: 0x0, whence: SCE_SEEK_SET
+[02:41:40.758] |T| [read_file]: sceIoRead: Reading file: fd: 0x7, size: 1577
+[02:41:40.758] |T| [close_file]: sceIoClose: Closing file: fd: 0x7
+[02:41:40.764] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[02:41:40.768] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.

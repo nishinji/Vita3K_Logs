@@ -1,0 +1,1626 @@
+[15:13:13.951] |I| [config::init_config]: backend-renderer: Vulkan
+[15:13:13.952] |I| [config::init_config]: log-level: 1
+[15:13:14.178] |I| [SDL_main]: Vita3K v0.1.9 3422-564417b3
+[15:13:14.179] |I| [SDL_main]: Number of logical CPU cores: 8
+[15:13:14.179] |I| [SDL_main]: Available ram memory: 32697 MiB
+[15:13:14.349] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060
+[15:13:14.349] |I| [renderer::vulkan::VKState::create]: Driver version: 537.42.0.0
+[15:13:14.350] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[15:13:14.624] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[15:13:15.228] |I| [compat::update_app_compat_db]: Applications compatibility database is up to date.
+[15:13:26.968] |I| [renderer::vulkan::VKState::late_init]: Using shader interlock for accurate framebuffer fetch emulation
+[15:13:26.970] |I| [load_app_impl]: cpu-backend: Dynarmic
+[15:13:26.971] |I| [load_app_impl]: CPU Optimisation state: true
+[15:13:26.971] |I| [load_app_impl]: ngs state: true
+[15:13:26.971] |I| [load_app_impl]: Resolution multiplier: 1
+[15:13:26.971] |I| [load_app_impl]: 1 Controllers Connected
+[15:13:26.972] |I| [load_app_impl]: Controller 0: Nintendo Switch Pro Controller
+[15:13:26.972] |I| [load_app_impl]: Controller has motion support
+[15:13:26.972] |I| [load_app_impl]: modules mode: Automatic
+[15:13:26.972] |I| [load_app_impl]: Title: CHAOS RINGS Ⅱ
+[15:13:26.973] |I| [load_app_impl]: Serial: PCSG00498
+[15:13:26.973] |I| [load_app_impl]: Version: 1.00
+[15:13:26.974] |I| [load_app_impl]: Category: gd
+[15:13:26.976] |I| [load_module]: Loading module "app0:eboot.bin"
+[15:13:27.056] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[15:13:27.057] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x002E5754 / 0x81000000] (size: 0x002E0754) of module app0:eboot.bin
+[15:13:27.057] |I| [load_self]: Loaded module segment 1 @ [0x002E6000 - 0x004D044C / 0x812E1000] (size: 0x001EA44C) of module app0:eboot.bin
+[15:13:27.057] |I| [load_self]: Linking SELF app0:eboot.bin...
+[15:13:27.058] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x224944
+[15:13:27.058] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x2ee270
+[15:13:27.058] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x275fd8
+[15:13:27.059] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x2313bc, setting to stub value 0xdeadbeef
+[15:13:27.060] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x231358, setting to stub value 0xdeadbeef
+[15:13:27.061] |W| [load_var_imports]: 	NID NOT FOUND 0x5d8c1282 (UNRECOGNISED) at 0x2312fc, setting to stub value 0xdeadbeef
+[15:13:27.062] |W| [load_var_imports]: 	NID NOT FOUND 0x66b7406c (UNRECOGNISED) at 0x231310, setting to stub value 0xdeadbeef
+[15:13:27.063] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x2313f0, setting to stub value 0xdeadbeef
+[15:13:27.065] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x231324, setting to stub value 0xdeadbeef
+[15:13:27.066] |I| [load_module]: Module ChaosRings2 (at "app0:eboot.bin") loaded
+[15:13:27.066] |I| [load_app_impl]: Main executable ChaosRings2 (eboot.bin) loaded
+[15:13:27.067] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[15:13:27.081] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[15:13:27.081] |I| [load_self]: Loaded module segment 0 @ [0x004D7000 - 0x00526BD4 / 0x81000000] (size: 0x0004FBD4) of module app0:sce_module/libc.suprx
+[15:13:27.082] |I| [load_self]: Loaded module segment 1 @ [0x00527000 - 0x00529688 / 0x81050000] (size: 0x00002688) of module app0:sce_module/libc.suprx
+[15:13:27.082] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[15:13:27.082] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x51e7a0
+[15:13:27.083] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x51d508
+[15:13:27.083] |D| [load_var_exports]: Found previously not found variable. nid:0x5d8c1282, new_entry_point:0x5274b0
+[15:13:27.083] |D| [load_var_exports]: Found previously not found variable. nid:0x66b7406c, new_entry_point:0x5273b0
+[15:13:27.083] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x51e598
+[15:13:27.083] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x5275b0
+[15:13:27.084] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x51c6c4
+[15:13:27.084] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x512488
+[15:13:27.084] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[15:13:27.084] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[15:13:27.095] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[15:13:27.095] |I| [load_self]: Loaded module segment 0 @ [0x0052A000 - 0x00554AA8 / 0x81000000] (size: 0x0002AAA8) of module app0:sce_module/libfios2.suprx
+[15:13:27.095] |I| [load_self]: Loaded module segment 1 @ [0x004D1000 - 0x004D623D / 0x8102B000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[15:13:27.096] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[15:13:27.096] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x5549b0
+[15:13:27.096] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x54c138
+[15:13:27.096] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[15:13:27.097] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[15:13:27.110] |I| [load_self]: Loaded module segment 0 @ [0x00555000 - 0x005A5F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[15:13:27.110] |I| [load_self]: Loaded module segment 1 @ [0x005A6000 - 0x005A62F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[15:13:27.111] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[15:13:27.111] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x5917dc
+[15:13:27.111] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x590f10
+[15:13:27.112] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[15:13:27.112] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[15:13:27.119] |I| [load_self]: Loaded module segment 0 @ [0x005A7000 - 0x005B6F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[15:13:27.120] |I| [load_self]: Loaded module segment 1 @ [0x005B7000 - 0x005B7008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[15:13:27.120] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[15:13:27.120] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x5b5710
+[15:13:27.121] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x5b5300
+[15:13:27.121] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[15:13:27.129] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[15:13:27.131] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[15:13:27.136] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/85
+[15:13:27.139] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/85
+[15:13:27.145] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/85
+[15:13:27.147] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/85
+[15:13:27.153] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/85
+[15:13:27.154] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/85
+[15:13:27.159] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 7/85
+[15:13:27.164] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 8/85
+[15:13:27.169] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 9/85
+[15:13:27.175] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 10/85
+[15:13:27.180] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 11/85
+[15:13:27.181] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 12/85
+[15:13:27.187] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 13/85
+[15:13:27.193] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 14/85
+[15:13:27.198] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 15/85
+[15:13:27.200] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 16/85
+[15:13:27.205] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 17/85
+[15:13:27.210] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 18/85
+[15:13:27.215] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 19/85
+[15:13:27.217] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 20/85
+[15:13:27.222] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 21/85
+[15:13:27.227] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 22/85
+[15:13:27.232] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 23/85
+[15:13:27.237] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 24/85
+[15:13:27.242] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 25/85
+[15:13:27.248] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 26/85
+[15:13:27.253] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 27/85
+[15:13:27.258] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 28/85
+[15:13:27.264] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 29/85
+[15:13:27.270] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 30/85
+[15:13:27.275] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 31/85
+[15:13:27.280] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 32/85
+[15:13:27.285] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 33/85
+[15:13:27.290] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 34/85
+[15:13:27.296] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 35/85
+[15:13:27.302] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 36/85
+[15:13:27.307] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 37/85
+[15:13:27.312] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 38/85
+[15:13:27.317] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 39/85
+[15:13:27.319] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 40/85
+[15:13:27.324] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 41/85
+[15:13:27.326] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 42/85
+[15:13:27.331] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 43/85
+[15:13:27.336] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 44/85
+[15:13:27.341] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 45/85
+[15:13:27.342] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 46/85
+[15:13:27.347] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 47/85
+[15:13:27.349] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 48/85
+[15:13:27.351] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 49/85
+[15:13:27.356] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 50/85
+[15:13:27.358] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 51/85
+[15:13:27.363] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 52/85
+[15:13:27.364] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 53/85
+[15:13:27.369] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 54/85
+[15:13:27.374] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 55/85
+[15:13:27.379] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 56/85
+[15:13:27.384] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 57/85
+[15:13:27.392] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 58/85
+[15:13:27.399] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 59/85
+[15:13:27.406] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 60/85
+[15:13:27.411] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 61/85
+[15:13:27.416] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 62/85
+[15:13:27.421] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 63/85
+[15:13:27.426] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 64/85
+[15:13:27.432] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 65/85
+[15:13:27.437] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 66/85
+[15:13:27.442] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 67/85
+[15:13:27.447] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 68/85
+[15:13:27.452] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 69/85
+[15:13:27.460] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 70/85
+[15:13:27.468] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 71/85
+[15:13:27.476] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 72/85
+[15:13:27.482] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 73/85
+[15:13:27.488] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 74/85
+[15:13:27.495] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 75/85
+[15:13:27.501] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 76/85
+[15:13:27.507] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 77/85
+[15:13:27.513] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 78/85
+[15:13:27.521] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 79/85
+[15:13:27.527] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 80/85
+[15:13:27.537] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 81/85
+[15:13:27.543] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 82/85
+[15:13:27.549] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 83/85
+[15:13:27.556] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 84/85
+[15:13:27.560] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 85/85
+[15:13:27.575] |D| [start_module]: Running module_start of library: SceLibc at address 0x4d7805
+[15:13:27.653] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[15:13:27.655] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x52a001
+[15:13:27.671] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[15:13:27.674] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[15:13:27.721] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[15:13:27.740] |W| [export_sceKernelChangeThreadVfpException::<lambda_1>::operator ()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[15:13:27.741] |W| [export_sceFiosOverlayThreadSetDisabled02::<lambda_1>::operator ()]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[15:13:27.810] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_FIOS2
+[15:13:27.810] |I| [load_module]: Loading module "vs0:sys/external/libfios2.suprx"
+[15:13:27.822] |I| [load_self]: vs0:sys/external/libfios2.suprx: Skipping special segment 0x6fffff01...
+[15:13:27.822] |I| [load_self]: Loaded module segment 0 @ [0x0B084000 - 0x0B0B0CBF / 0x81000000] (size: 0x0002CCBF) of module vs0:sys/external/libfios2.suprx
+[15:13:27.822] |I| [load_self]: Loaded module segment 1 @ [0x00614000 - 0x00619255 / 0x8102D000] (size: 0x00005255) of module vs0:sys/external/libfios2.suprx
+[15:13:27.823] |I| [load_self]: Linking SELF vs0:sys/external/libfios2.suprx...
+[15:13:27.823] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xb0b0bc8
+[15:13:27.823] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xb0a7f08
+[15:13:27.823] |I| [load_module]: Module SceLibFios2 (at "vs0:sys/external/libfios2.suprx") loaded
+[15:13:27.824] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0xb084001
+[15:13:27.836] |I| [start_module]: Module SceLibFios2 (at "vs0:sys/external/libfios2.suprx") module_start returned 0x0
+[15:13:27.839] |I| [export_sceClibPrintf]: sceFiosInitialize: WARNING: FIOS has already been initialized. Updating parameters with new values.
+
+[15:13:27.853] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_ULT
+[15:13:27.853] |I| [load_module]: Loading module "app0:sce_module/libult.suprx"
+[15:13:27.860] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[15:13:27.861] |I| [load_self]: Loaded module segment 0 @ [0x0061D000 - 0x006309C4 / 0x81000000] (size: 0x000139C4) of module app0:sce_module/libult.suprx
+[15:13:27.865] |I| [load_self]: Loaded module segment 1 @ [0x00631000 - 0x00631814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[15:13:27.866] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[15:13:27.866] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x62f2f0
+[15:13:27.866] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x62c874
+[15:13:27.866] |I| [load_module]: Module SceUlt (at "app0:sce_module/libult.suprx") loaded
+[15:13:27.867] |D| [start_module]: Running module_start of library: SceUlt at address 0x620771
+[15:13:27.880] |W| [export__sceUlobjMgrRegisterLibultProtocolRevision::<lambda_1>::operator ()]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[15:13:27.881] |I| [start_module]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[15:13:27.885] |E| [call_import]: Import function for NID 0xd7f0f610 not found (thread name: PCSG00498, thread ID: 6)
+[15:13:27.901] |W| [export__sceKernelGetThreadInfo::<lambda_1>::operator ()]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[15:13:27.925] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[15:13:27.925] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[15:13:27.926] |W| [export__sceKernelWaitSignal::<lambda_1>::operator ()]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[15:13:27.940] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[15:13:28.030] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[15:13:28.043] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/font/TBGoPro-Bold.otf
+[15:13:28.048] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:CR2/resources/font/TBGoPro-Bold.otf
+
+[15:13:28.048] |W| [export_sceIoIoctl::<lambda_1>::operator ()]: Unimplemented sceIoIoctl import called.
+[15:13:28.080] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/font/DFGB_H9.TTC
+[15:13:28.085] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:CR2/resources/font/DFGB_H9.TTC
+
+[15:13:28.090] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/font/DFT_C5.ttc
+[15:13:28.094] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:CR2/resources/font/DFT_C5.ttc
+
+[15:13:28.097] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/font/DFMINBD.TTF
+[15:13:28.102] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:CR2/resources/font/DFMINBD.TTF
+
+[15:13:28.251] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/CRDB.psp2.mvgl
+[15:13:28.302] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/sndeff.sxd
+[15:13:28.323] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound//voice.sxd1
+[15:13:28.362] |W| [export___sceAppMgrGetAppState::<lambda_1>::operator ()]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[15:13:28.377] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[15:13:28.405] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[15:13:28.421] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[15:13:30.607] |W| [export_sceNpTrophyCreateHandle::<lambda_1>::operator ()]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[15:13:30.608] |W| [export_sceNpTrophyDestroyHandle::<lambda_1>::operator ()]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[15:13:32.669] |I| [export_sceIoOpen]: Opening file: savedata0:SAVEDATA0020.bin
+[15:13:33.125] |E| [mutex_lock_impl::<lambda_1>::operator ()]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_RECURSIVE (0x80028182)
+[15:13:33.159] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[15:13:43.727] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm01.sxd
+[15:13:47.669] |I| [export_sceIoOpen]: Opening file: savedata0:SAVEDATA0022.bin
+[15:13:52.469] |I| [export_sceIoOpen]: Opening file: savedata0:SAVEDATA0021.bin
+[15:14:11.276] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 95e4d31d29318e824f3e72a60b00a3c68b5d3e25a64ef470181e2bff4440606a
+[15:14:11.277] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 95e4d31d29318e824f3e72a60b00a3c68b5d3e25a64ef470181e2bff4440606a
+[15:14:11.278] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:11.279] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:14:11.279] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:14:11.280] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:11.280] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:14:11.280] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet1
+[15:14:11.281] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:11.288] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d3c2b951e1bc7979be7ef2de9f725d09336f951123025f363e55a8772811a893
+[15:14:11.289] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d3c2b951e1bc7979be7ef2de9f725d09336f951123025f363e55a8772811a893
+[15:14:11.290] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:11.290] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:12.019] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader bd4b7ed22a8dd48da061133b23d9afc107a1153232a8393aab1bec9d2029302a
+[15:14:12.020] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader bd4b7ed22a8dd48da061133b23d9afc107a1153232a8393aab1bec9d2029302a
+[15:14:12.021] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:12.021] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:14:12.022] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:14:12.022] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:12.023] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:14:12.023] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet1
+[15:14:12.023] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) FogParams
+[15:14:12.024] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:12.033] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c62e65cf358f463150bb39410ce53bf56c4fe1586a44a217ab8a50f2877aef74
+[15:14:12.034] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader c62e65cf358f463150bb39410ce53bf56c4fe1586a44a217ab8a50f2877aef74
+[15:14:12.035] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:12.035] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) FogColor
+[15:14:12.036] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:12.036] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[15:14:12.048] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm07.sxd
+[15:14:12.058] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a1a834b694b8daa7ee213ece2544ec3265b2f63148e47ee940be7aae2dd93da7
+[15:14:12.059] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader a1a834b694b8daa7ee213ece2544ec3265b2f63148e47ee940be7aae2dd93da7
+[15:14:12.061] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:12.062] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:14:12.062] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:14:12.063] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:12.063] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:14:12.064] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet1
+[15:14:12.064] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) FogParams
+[15:14:12.065] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:12.074] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a55d4d3734d4cb6d87c03949011ee5b41e877dceb5cc2d05c482f22926c6c490
+[15:14:12.076] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader a55d4d3734d4cb6d87c03949011ee5b41e877dceb5cc2d05c482f22926c6c490
+[15:14:12.077] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:12.077] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) FogColor
+[15:14:12.078] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:12.078] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[15:14:12.098] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 399448b3ae5c1bd4b55d29db3dbc35a05530e174bfd7c062b1fa6fa77a57730f
+[15:14:12.098] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 399448b3ae5c1bd4b55d29db3dbc35a05530e174bfd7c062b1fa6fa77a57730f
+[15:14:12.099] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:12.099] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:14:12.100] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:14:12.100] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:12.100] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float2) OffsetSet1
+[15:14:12.101] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:12.107] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 573b4c59d18e766e7d2f2ac810a1ea8170aace10503e80261d7427c00804f7df
+[15:14:12.108] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 573b4c59d18e766e7d2f2ac810a1ea8170aace10503e80261d7427c00804f7df
+[15:14:12.109] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:12.110] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:12.132] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 878ef1f5fb9c6cc11c7ca92bba732e1e72c83d35d54f5d7bcfa16a7176811de8
+[15:14:12.132] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 878ef1f5fb9c6cc11c7ca92bba732e1e72c83d35d54f5d7bcfa16a7176811de8
+[15:14:12.133] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:12.133] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:14:12.133] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:14:12.134] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:12.134] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ViewInverse[4]
+[15:14:12.134] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float2) OffsetSet1
+[15:14:12.134] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:12.145] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ba93938549708d961b37de434c1fc2388c24d580b2efdc756dc607577ef56853
+[15:14:12.146] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader ba93938549708d961b37de434c1fc2388c24d580b2efdc756dc607577ef56853
+[15:14:12.147] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:12.147] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:24.422] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 947315b1d820a372cb7c61db08e33c1d3debf0e30fc2999d2dde4be7558b5a53
+[15:14:24.423] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 947315b1d820a372cb7c61db08e33c1d3debf0e30fc2999d2dde4be7558b5a53
+[15:14:24.425] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:24.425] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Indices
+[15:14:24.426] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Weights
+[15:14:24.426] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Color
+[15:14:24.426] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:14:24.427] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:24.428] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:14:24.428] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet1
+[15:14:24.429] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) FogParams
+[15:14:24.429] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:24.450] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 66325a901c58ddcfe0c90ed0194218bc653dc35759389cd4390e2e2ef4a483a7
+[15:14:24.450] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 66325a901c58ddcfe0c90ed0194218bc653dc35759389cd4390e2e2ef4a483a7
+[15:14:24.452] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:24.452] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) FogColor
+[15:14:24.452] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:24.453] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[15:14:29.523] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 33fd61a3c79ff960e6194a153dd80021debd930fcbafac14906d4f00b1763c3a
+[15:14:29.524] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 33fd61a3c79ff960e6194a153dd80021debd930fcbafac14906d4f00b1763c3a
+[15:14:29.529] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:29.529] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Texcoord0
+[15:14:29.531] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:29.531] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:29.550] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8effb5e42e03fc58fcc126348bc65ae7e3065a9a427d200aaf48578fc1de65c5
+[15:14:29.551] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8effb5e42e03fc58fcc126348bc65ae7e3065a9a427d200aaf48578fc1de65c5
+[15:14:29.552] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:34.670] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 83911abc82836192fd5f3c1cc34fa39eb5858ea8d0f4cc5d3c78d76766821e50
+[15:14:34.673] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 83911abc82836192fd5f3c1cc34fa39eb5858ea8d0f4cc5d3c78d76766821e50
+[15:14:34.674] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:34.675] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:14:34.677] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Color
+[15:14:34.677] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Texcoord0
+[15:14:34.678] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord1
+[15:14:34.678] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:14:34.679] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:14:34.679] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:34.681] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:14:34.681] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet1
+[15:14:34.682] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float2) ScrollSpeedSet2
+[15:14:34.683] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:34.726] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5b64edf70a097a834fc89b3d1db7fbba48263edc9e149f506a037e305a04ffed
+[15:14:34.728] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5b64edf70a097a834fc89b3d1db7fbba48263edc9e149f506a037e305a04ffed
+[15:14:34.731] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:34.732] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half1) DistortionStrength
+[15:14:34.732] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:34.734] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord0
+[15:14:34.756] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 055ea1a728e6c7c73f93bca4f6ef042beef7ed15bb49adc023cd4aaf927ca46a
+[15:14:34.759] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 055ea1a728e6c7c73f93bca4f6ef042beef7ed15bb49adc023cd4aaf927ca46a
+[15:14:34.760] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:34.761] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:14:34.763] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Color
+[15:14:34.763] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Texcoord0
+[15:14:34.764] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord1
+[15:14:34.764] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:14:34.765] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:14:34.767] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:34.767] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:14:34.768] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet2
+[15:14:34.768] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:34.801] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d5249f44948cb2893bbcab8d1abbb04ff36da269c7a94b35d1cb5f3a6b9aedfb
+[15:14:34.802] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d5249f44948cb2893bbcab8d1abbb04ff36da269c7a94b35d1cb5f3a6b9aedfb
+[15:14:34.804] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:34.804] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half1) DistortionStrength
+[15:14:34.804] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:34.807] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord0
+[15:14:34.830] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 46425e4d3c0db899ec504156829bb5368c7d66c6e5085f11e7d2b10391a7ee59
+[15:14:34.831] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 46425e4d3c0db899ec504156829bb5368c7d66c6e5085f11e7d2b10391a7ee59
+[15:14:34.832] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:34.832] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:14:34.832] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Color
+[15:14:34.833] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Texcoord0
+[15:14:34.833] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord1
+[15:14:34.834] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:14:34.834] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:14:34.835] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:34.835] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:14:34.836] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet2
+[15:14:34.836] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float2) OffsetSet1
+[15:14:34.838] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:34.854] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader bd616d67c3122eecc5be0c2f9962a07effce9542f3ff233e20909e41096ee53e
+[15:14:34.855] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader bd616d67c3122eecc5be0c2f9962a07effce9542f3ff233e20909e41096ee53e
+[15:14:34.856] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:34.856] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half1) DistortionStrength
+[15:14:34.857] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:34.857] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord0
+[15:14:34.879] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d5a1150033f7636e0e7ad404ee88ad07b5a60e8f9007c6cff5a3476b174b42ed
+[15:14:34.880] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d5a1150033f7636e0e7ad404ee88ad07b5a60e8f9007c6cff5a3476b174b42ed
+[15:14:34.882] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:34.882] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:14:34.882] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Color
+[15:14:34.883] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Texcoord0
+[15:14:34.883] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord1
+[15:14:34.884] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:14:34.884] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:14:34.886] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:34.886] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:14:34.886] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet2
+[15:14:34.886] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:34.903] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 17c5bbb03949ac5bc9cb41b2dfcc1c66b09824bab9e84f7ba43578fd876344c8
+[15:14:34.904] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 17c5bbb03949ac5bc9cb41b2dfcc1c66b09824bab9e84f7ba43578fd876344c8
+[15:14:34.905] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:34.905] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half1) DistortionStrength
+[15:14:34.906] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:34.906] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord0
+[15:14:38.791] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 4b44b0c9e005674541f98c35b7d1d8fbbb3120fae4d4ca68e02dda156edd7c34
+[15:14:38.792] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 4b44b0c9e005674541f98c35b7d1d8fbbb3120fae4d4ca68e02dda156edd7c34
+[15:14:38.794] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:14:38.794] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:14:38.794] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:14:38.795] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:14:38.795] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ViewInverse[4]
+[15:14:38.796] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float2) OffsetSet1
+[15:14:38.796] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:14:38.818] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 98948882bee9abc804d01a47871796d61df9096b7b53db7f87fa5424f6ae6ee1
+[15:14:38.819] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 98948882bee9abc804d01a47871796d61df9096b7b53db7f87fa5424f6ae6ee1
+[15:14:38.820] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:14:38.820] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:14:40.459] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:14:46.453] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:15:03.253] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:15:08.037] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:15:08.039] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:15:23.902] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:15:26.798] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 4dd15f26ad1cd581d361a7761978c3d45a088bac5f7f447f6f2c477af6d9ecd1
+[15:15:26.799] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 4dd15f26ad1cd581d361a7761978c3d45a088bac5f7f447f6f2c477af6d9ecd1
+[15:15:26.800] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:15:26.800] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Texcoord0
+[15:15:26.801] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:15:26.801] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:15:26.801] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet1
+[15:15:26.802] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:15:26.809] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2ad79ba1795edc65eebcd5206aed01fb6f3891ca84c24ba7d807411e4d591a8e
+[15:15:26.810] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 2ad79ba1795edc65eebcd5206aed01fb6f3891ca84c24ba7d807411e4d591a8e
+[15:15:26.811] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:15:38.201] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:15:45.388] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6cee0e9f98b5a09800b31e37205d5039cf3745c2c7e27c8d1ddbb6bdb335079f
+[15:15:45.391] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 6cee0e9f98b5a09800b31e37205d5039cf3745c2c7e27c8d1ddbb6bdb335079f
+[15:15:45.392] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:15:45.392] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:15:45.393] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Color
+[15:15:45.393] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Texcoord0
+[15:15:45.394] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord1
+[15:15:45.394] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:15:45.395] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:15:45.395] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:15:45.396] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float2) OffsetSet1
+[15:15:45.396] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) OffsetSet2
+[15:15:45.397] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:15:45.418] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1be25d8f3af7dec59ebcf794bc44962ac3ee426b234bf98c03ad55f106c73545
+[15:15:45.418] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1be25d8f3af7dec59ebcf794bc44962ac3ee426b234bf98c03ad55f106c73545
+[15:15:45.420] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:15:45.420] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half1) DistortionStrength
+[15:15:45.423] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:15:45.423] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord0
+[15:16:01.051] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 10f4cfd7d994169178346664e4dce5827225550235dac366e8d527ca18a1f9f9
+[15:16:01.052] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 10f4cfd7d994169178346664e4dce5827225550235dac366e8d527ca18a1f9f9
+[15:16:01.053] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:01.054] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:01.054] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:01.055] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:01.055] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:16:01.056] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:16:01.056] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:16:01.057] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:16:01.057] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:01.057] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:16:01.058] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:01.091] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 005f144c567c3ff5d01c421f04480834b9c18a5f47ce8b47596893955a95862a
+[15:16:01.092] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 005f144c567c3ff5d01c421f04480834b9c18a5f47ce8b47596893955a95862a
+[15:16:01.093] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:16:01.093] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:16:01.094] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:16:01.094] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:16:01.095] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half1) Bumpiness
+[15:16:01.095] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) FogColor
+[15:16:01.096] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:01.096] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:16:01.097] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:16:01.097] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:16:01.141] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c3812d5ead65bb882ed015daf40770e5cc4356ab408e4991886bdaa03f775625
+[15:16:01.142] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader c3812d5ead65bb882ed015daf40770e5cc4356ab408e4991886bdaa03f775625
+[15:16:01.143] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:01.143] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:01.144] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:01.144] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:01.145] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:16:01.145] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:16:01.146] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:01.146] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:16:01.147] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:16:01.147] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:01.172] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 337d3eddd1db691805bfa8274a4cf8ce3d94aacfec7d09d5e4dbf209f1ee585a
+[15:16:01.173] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 337d3eddd1db691805bfa8274a4cf8ce3d94aacfec7d09d5e4dbf209f1ee585a
+[15:16:01.174] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:16:01.174] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:16:01.175] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:16:01.175] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:16:01.176] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) SurfaceColor
+[15:16:01.176] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) SubColor
+[15:16:01.177] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) RollOff
+[15:16:01.177] |D| [shader::create_parameters]: [DEFAULT  + 13] sa13 = (half1) VelvetStrength
+[15:16:01.177] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) FogColor
+[15:16:01.178] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:01.178] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:16:01.225] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 81063b023e2af3b5507e93a5d431d2ed80e547d935e56a8e060930bf48d2e33a
+[15:16:01.225] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 81063b023e2af3b5507e93a5d431d2ed80e547d935e56a8e060930bf48d2e33a
+[15:16:01.226] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:01.227] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:01.227] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:01.227] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:01.228] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:16:01.228] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:16:01.228] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:16:01.228] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:16:01.229] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:01.229] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:16:01.229] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:01.257] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 05bc57e4ed25493e52bccad70a442203546666c1ee11dc46723221101ec8e7b5
+[15:16:01.257] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 05bc57e4ed25493e52bccad70a442203546666c1ee11dc46723221101ec8e7b5
+[15:16:01.259] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:16:01.259] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:16:01.259] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:16:01.260] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:16:01.260] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) DiffuseColor
+[15:16:01.261] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) Bumpiness
+[15:16:01.263] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) FogColor
+[15:16:01.264] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:01.264] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:16:01.265] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:16:01.265] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:16:01.307] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 611fab3cab85d4b89a8795b140ad96d1484ed1c5ef79dd95bb79181ba2760c37
+[15:16:01.308] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 611fab3cab85d4b89a8795b140ad96d1484ed1c5ef79dd95bb79181ba2760c37
+[15:16:01.309] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:01.309] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:01.309] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:01.310] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:01.310] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:16:01.311] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:16:01.311] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:16:01.312] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:16:01.312] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:01.313] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:16:01.313] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:16:01.314] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:01.349] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a6f260edfbfc62dc7510247f8d6850c823c8c028721e69455c8a8dacb9225145
+[15:16:01.349] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader a6f260edfbfc62dc7510247f8d6850c823c8c028721e69455c8a8dacb9225145
+[15:16:01.350] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:16:01.351] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:16:01.351] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:16:01.352] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:16:01.352] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) DiffuseColor
+[15:16:01.353] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) Bumpiness
+[15:16:01.353] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) SurfaceColor
+[15:16:01.354] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) SubColor
+[15:16:01.354] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half1) RollOff
+[15:16:01.354] |D| [shader::create_parameters]: [DEFAULT  + 17] sa17 = (half1) VelvetStrength
+[15:16:01.355] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (half3) FogColor
+[15:16:01.355] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:01.356] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:16:01.356] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:16:01.357] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:16:31.034] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:16:31.035] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:16:32.899] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:16:39.099] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:16:39.686] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm22.sxd
+[15:16:39.716] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:16:40.899] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:16:44.870] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c0d76ec62902e3177ff8cae1f084ac5f86e8c232eca604f6b6c69b59914d7bcb
+[15:16:44.873] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader c0d76ec62902e3177ff8cae1f084ac5f86e8c232eca604f6b6c69b59914d7bcb
+[15:16:44.874] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:44.875] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:16:44.881] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:16:44.881] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:44.883] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:44.891] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f1c95d68eff7280c9e2611a41c2ee19ba8d812f2966630dd6dc6b23d616c31b6
+[15:16:44.892] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader f1c95d68eff7280c9e2611a41c2ee19ba8d812f2966630dd6dc6b23d616c31b6
+[15:16:44.893] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:16:44.912] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 945dcdea073c187552c190d0b534f3e69e548b43e0de48308fcb919b6234a809
+[15:16:44.913] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 945dcdea073c187552c190d0b534f3e69e548b43e0de48308fcb919b6234a809
+[15:16:44.915] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:44.916] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:16:44.921] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:44.922] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:44.936] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 73b149913b557576d5b007fe44890ca57b2d29ed6909d8f382826096c0fed1f1
+[15:16:44.936] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 73b149913b557576d5b007fe44890ca57b2d29ed6909d8f382826096c0fed1f1
+[15:16:44.937] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:16:44.938] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:52.165] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d09a550456908691ae3f4271f16f834b483fe33bc6654c28612c4449cef2ec2a
+[15:16:52.167] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d09a550456908691ae3f4271f16f834b483fe33bc6654c28612c4449cef2ec2a
+[15:16:52.168] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:52.169] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:52.169] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:52.170] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:52.170] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:16:52.170] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:16:52.171] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:16:52.171] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:16:52.172] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:52.172] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) CameraPosition
+[15:16:52.173] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:52.223] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fceff817cff537ea37c2c9fba2c15909bd8f1002172af21b99e0cdd74dad9cc2
+[15:16:52.224] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader fceff817cff537ea37c2c9fba2c15909bd8f1002172af21b99e0cdd74dad9cc2
+[15:16:52.225] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:16:52.226] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:16:52.226] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:16:52.231] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) GroundColor
+[15:16:52.233] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) SkyDir
+[15:16:52.233] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half4) DiffuseColor
+[15:16:52.234] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) Bumpiness
+[15:16:52.234] |D| [shader::create_parameters]: [DEFAULT  + 13] sa13 = (half1) SpecularPower
+[15:16:52.235] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:52.236] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:16:52.237] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:16:52.237] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:16:52.238] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (half4) v_TexCoord4
+[15:16:52.318] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f07bce253284082c4d15a3e5b0ab07063649e9bdd3c7fc95f5d56fe68353b4e5
+[15:16:52.318] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader f07bce253284082c4d15a3e5b0ab07063649e9bdd3c7fc95f5d56fe68353b4e5
+[15:16:52.319] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:52.319] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:52.320] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:52.320] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:52.322] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:16:52.324] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:16:52.324] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:16:52.324] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:52.326] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) CameraPosition
+[15:16:52.327] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:52.362] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 7fe0e75e902eb3a5c13a8b0e05468db00455191d2750acbf367c05f2081c858a
+[15:16:52.362] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 7fe0e75e902eb3a5c13a8b0e05468db00455191d2750acbf367c05f2081c858a
+[15:16:52.364] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:16:52.364] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:16:52.364] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:16:52.365] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) GroundColor
+[15:16:52.366] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) SkyDir
+[15:16:52.366] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half4) DiffuseColor
+[15:16:52.367] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) Bumpiness
+[15:16:52.367] |D| [shader::create_parameters]: [DEFAULT  + 13] sa13 = (half1) SpecularStrength
+[15:16:52.367] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half1) SpecularPower
+[15:16:52.368] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:16:52.368] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[15:16:52.369] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord3
+[15:16:52.369] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord4
+[15:16:52.420] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a66e70fcc68d5041dd2a1d054e7cd2ab9f4a85b734abd6abfb91656ca2f997dc
+[15:16:52.421] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader a66e70fcc68d5041dd2a1d054e7cd2ab9f4a85b734abd6abfb91656ca2f997dc
+[15:16:52.422] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:52.422] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:52.422] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:52.423] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:52.423] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:16:52.423] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:16:52.424] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:16:52.424] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:16:52.426] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:52.426] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) CameraPosition
+[15:16:52.426] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:52.461] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 61cd87506f7f7ad9ed92dfba442b32fb0e678a4177b3fadd062676934de6948d
+[15:16:52.462] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 61cd87506f7f7ad9ed92dfba442b32fb0e678a4177b3fadd062676934de6948d
+[15:16:52.462] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:16:52.462] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:16:52.462] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:16:52.463] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:16:52.463] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) GroundColor
+[15:16:52.463] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) SkyDir
+[15:16:52.463] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half4) DiffuseColor
+[15:16:52.464] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half1) Bumpiness
+[15:16:52.464] |D| [shader::create_parameters]: [DEFAULT  + 15] sa15 = (half1) SpecularPower
+[15:16:52.464] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:52.464] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:16:52.465] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:16:52.465] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:16:52.465] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (half4) v_TexCoord4
+[15:16:54.590] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ab52bda728345041bf89cf7ad3f4e9a4402f7b35e1ad0c1dd9dd232bb1f5c152
+[15:16:54.591] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ab52bda728345041bf89cf7ad3f4e9a4402f7b35e1ad0c1dd9dd232bb1f5c152
+[15:16:54.593] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:54.593] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:54.594] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:54.595] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:54.595] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:16:54.596] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:16:54.596] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:16:54.597] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:16:54.597] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:54.597] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:54.628] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 4c854a69ab6250e279b08e6f65a96003b7af30daa155a47a41ef63fe781a9382
+[15:16:54.629] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 4c854a69ab6250e279b08e6f65a96003b7af30daa155a47a41ef63fe781a9382
+[15:16:54.630] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:16:54.631] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:16:54.631] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:16:54.632] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) GroundColor
+[15:16:54.632] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) SkyDir
+[15:16:54.632] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half4) DiffuseColor
+[15:16:54.633] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) Bumpiness
+[15:16:54.633] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:54.634] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:16:54.634] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:16:54.635] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:16:54.677] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9a75bd27da5019b6a658d86f484128db586f450e20fbd77499a4e1688b55c4a9
+[15:16:54.678] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9a75bd27da5019b6a658d86f484128db586f450e20fbd77499a4e1688b55c4a9
+[15:16:54.679] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:54.680] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:54.680] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:54.681] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:54.681] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:16:54.681] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:16:54.682] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:16:54.682] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:16:54.682] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:54.683] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:54.701] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 4b82d31c2c90ce8decd3ea29155af6ef0ce6bbc6e5b48bbab02c758d4ccc9b0a
+[15:16:54.704] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 4b82d31c2c90ce8decd3ea29155af6ef0ce6bbc6e5b48bbab02c758d4ccc9b0a
+[15:16:54.705] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:16:54.705] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:16:54.705] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:16:54.706] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:16:54.706] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) GroundColor
+[15:16:54.706] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) SkyDir
+[15:16:54.707] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half4) DiffuseColor
+[15:16:54.707] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half1) Bumpiness
+[15:16:54.708] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:54.708] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:16:54.708] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:16:54.709] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:16:54.752] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 909d2657f75e55f3a6ade2c2b204efebfd01a51391909fcc24c16292f6941b45
+[15:16:54.752] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 909d2657f75e55f3a6ade2c2b204efebfd01a51391909fcc24c16292f6941b45
+[15:16:54.753] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:16:54.753] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:16:54.753] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:16:54.754] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:16:54.754] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:16:54.754] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:16:54.754] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:16:54.755] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:16:54.755] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:16:54.755] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) CameraPosition
+[15:16:54.755] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:16:54.776] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 09ed8389df40ef1da0c7573bf62dbadfe09c9875e4ec1b76a3f75467df569226
+[15:16:54.776] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 09ed8389df40ef1da0c7573bf62dbadfe09c9875e4ec1b76a3f75467df569226
+[15:16:54.777] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:16:54.777] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:16:54.778] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:16:54.778] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:16:54.778] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) GroundColor
+[15:16:54.779] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) SkyDir
+[15:16:54.779] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half4) DiffuseColor
+[15:16:54.780] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half1) Bumpiness
+[15:16:54.780] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half3) SurfaceColor
+[15:16:54.780] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (half3) SubColor
+[15:16:54.783] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half1) RollOff
+[15:16:54.783] |D| [shader::create_parameters]: [DEFAULT  + 21] sa21 = (half1) VelvetStrength
+[15:16:54.784] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:16:54.784] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:16:54.785] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:16:54.785] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:16:58.264] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:09.214] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:09.658] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c897c66d63375c019721af11cf8c89c3381f24b3da69973488313fb8814ce807
+[15:17:09.659] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader c897c66d63375c019721af11cf8c89c3381f24b3da69973488313fb8814ce807
+[15:17:09.660] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:17:09.660] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:17:09.661] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Color
+[15:17:09.661] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Texcoord0
+[15:17:09.662] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord1
+[15:17:09.662] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:17:09.662] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:17:09.663] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:17:09.663] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ViewInverse[4]
+[15:17:09.663] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float2) OffsetSet1
+[15:17:09.664] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float2) OffsetSet2
+[15:17:09.664] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:17:09.687] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 7f0db69733c9c79f6930e7a4895e87d07dc661a6c9df2397f9d76a98a7b91ddf
+[15:17:09.688] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 7f0db69733c9c79f6930e7a4895e87d07dc661a6c9df2397f9d76a98a7b91ddf
+[15:17:09.688] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:17:09.688] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half1) DistortionStrength
+[15:17:09.691] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:17:09.692] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half2) v_TexCoord0
+[15:17:11.964] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:15.015] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:17.564] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:28.014] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:31.098] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm15.sxd
+[15:17:31.313] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:39.048] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:17:39.050] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:17:41.797] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm22.sxd
+[15:17:47.063] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:50.913] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:54.263] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:57.162] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:17:59.263] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:18:45.252] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 617d91fa80faa7f0456874bc961cada1176bcd9c516d502317520355b67aa909
+[15:18:45.253] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 617d91fa80faa7f0456874bc961cada1176bcd9c516d502317520355b67aa909
+[15:18:45.255] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:18:45.255] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:18:45.255] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:18:45.256] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:18:45.256] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:18:45.257] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:18:45.257] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:18:45.258] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:18:45.258] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:18:45.259] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:18:45.259] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:18:45.260] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:18:45.296] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 31f1bf59e9e79ad6d9f1a6bd1c62f5ce508ed325b42190dd75ad13a663ed2767
+[15:18:45.297] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 31f1bf59e9e79ad6d9f1a6bd1c62f5ce508ed325b42190dd75ad13a663ed2767
+[15:18:45.298] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:18:45.298] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:18:45.299] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:18:45.299] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:18:45.300] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half1) Bumpiness
+[15:18:45.300] |D| [shader::create_parameters]: [DEFAULT  + 9] sa9 = (half1) SpecularPower
+[15:18:45.301] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) FogColor
+[15:18:45.301] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:18:45.302] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:18:45.302] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:18:45.303] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:18:45.303] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (half4) v_TexCoord4
+[15:18:45.352] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader cb3d362e18a9c60652b0962a6f09a15612d02328c949d414c0247541e3d3855f
+[15:18:45.353] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader cb3d362e18a9c60652b0962a6f09a15612d02328c949d414c0247541e3d3855f
+[15:18:45.354] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:18:45.354] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:18:45.355] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:18:45.355] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:18:45.355] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:18:45.356] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:18:45.356] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:18:45.356] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:18:45.356] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:18:45.357] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:18:45.383] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2418014a7c22e2e9d2219492abf6bc137a843ac5d62d5838494eb9302f369882
+[15:18:45.384] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 2418014a7c22e2e9d2219492abf6bc137a843ac5d62d5838494eb9302f369882
+[15:18:45.385] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:18:45.387] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:18:45.388] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:18:45.388] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:18:45.388] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half1) Bumpiness
+[15:18:45.389] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) FogColor
+[15:18:45.389] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:18:45.389] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[15:18:45.389] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord3
+[15:18:45.428] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 38d302fa009d1ba1051b18862616a77994f7a12c165d4ca2cb726bd27f5c8f9f
+[15:18:45.429] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 38d302fa009d1ba1051b18862616a77994f7a12c165d4ca2cb726bd27f5c8f9f
+[15:18:45.430] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:18:45.430] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:18:45.430] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:18:45.430] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:18:45.431] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:18:45.431] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:18:45.431] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:18:45.432] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:18:45.432] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:18:45.432] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:18:45.454] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f8d7f6c8d7118890a22a12689f6d523248a622cae190c6e64630d2ae7e958a27
+[15:18:45.454] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader f8d7f6c8d7118890a22a12689f6d523248a622cae190c6e64630d2ae7e958a27
+[15:18:45.455] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:18:45.455] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:18:45.455] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:18:45.455] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:18:45.456] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) DiffuseColor
+[15:18:45.456] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) Bumpiness
+[15:18:45.458] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) FogColor
+[15:18:45.458] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:18:45.458] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[15:18:45.459] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord3
+[15:18:59.127] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:19:13.626] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:19:15.012] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:19:15.014] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:19:18.660] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm15.sxd
+[15:19:18.876] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:19:25.367] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm22.sxd
+[15:19:31.925] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:19:40.888] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3bca762fec5547ae6625c55da370892b33a76bbb3ffa91ba67448f86479e22a1
+[15:19:40.889] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 3bca762fec5547ae6625c55da370892b33a76bbb3ffa91ba67448f86479e22a1
+[15:19:40.890] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:19:40.890] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:19:40.891] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:19:40.891] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:19:40.892] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Time
+[15:19:40.893] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float2) ScrollSpeedSet1
+[15:19:40.893] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:19:40.900] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 0bb7b41c67a5a5f0c01c841538420620c31049b6c2b5747a0c058dd7dd689f10
+[15:19:40.901] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 0bb7b41c67a5a5f0c01c841538420620c31049b6c2b5747a0c058dd7dd689f10
+[15:19:40.902] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:19:40.902] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:19:40.929] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b6c26670fae5b9f6a155260e04f0e8a241212b569e4aba4403b640c8c48357fa
+[15:19:40.930] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b6c26670fae5b9f6a155260e04f0e8a241212b569e4aba4403b640c8c48357fa
+[15:19:40.931] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:19:40.932] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:19:40.932] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:19:40.933] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:19:40.933] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:19:40.934] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:19:40.944] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 37a1b54be672daf7bb3a5626278030e5277d5719e2dc71d5b2ce3d38b7c11f60
+[15:19:40.945] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 37a1b54be672daf7bb3a5626278030e5277d5719e2dc71d5b2ce3d38b7c11f60
+[15:19:40.946] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:19:40.946] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) FogColor
+[15:19:40.946] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:19:40.947] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[15:19:47.159] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm23.sxd
+[15:20:00.418] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8a30d57ba74e26a4297e39785f6c7cfbb8a6c921261662bc119793980525ed1a
+[15:20:00.419] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 8a30d57ba74e26a4297e39785f6c7cfbb8a6c921261662bc119793980525ed1a
+[15:20:00.421] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:00.421] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:00.422] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:20:00.422] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:00.423] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:00.423] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:20:00.424] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:00.442] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 926dd62126e2ffffee934c47f69ee80a941459cec9290d0a06b5cda739d98e9f
+[15:20:00.443] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 926dd62126e2ffffee934c47f69ee80a941459cec9290d0a06b5cda739d98e9f
+[15:20:00.444] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:20:00.444] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:20:00.445] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:20:00.445] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:20:00.445] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) SurfaceColor
+[15:20:00.446] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) SubColor
+[15:20:00.446] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) RollOff
+[15:20:00.447] |D| [shader::create_parameters]: [DEFAULT  + 13] sa13 = (half1) VelvetStrength
+[15:20:00.447] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) FogColor
+[15:20:00.447] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:20:00.490] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 47ffc5b60972bebe8f8fa6a4426f61716a7cde186ced23fd17185f36220b68b6
+[15:20:00.491] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 47ffc5b60972bebe8f8fa6a4426f61716a7cde186ced23fd17185f36220b68b6
+[15:20:00.491] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:00.492] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:00.492] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:20:00.492] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:20:00.492] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:20:00.493] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:20:00.493] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:20:00.493] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:20:00.494] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:00.494] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:00.494] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:20:00.494] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:00.528] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 35eb34d43227bb49c60313e0e15262e08f6704dab5aef62143f1de177e97d1d7
+[15:20:00.529] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 35eb34d43227bb49c60313e0e15262e08f6704dab5aef62143f1de177e97d1d7
+[15:20:00.530] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:20:00.532] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:20:00.532] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:20:00.532] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:20:00.533] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half1) Bumpiness
+[15:20:00.533] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) SurfaceColor
+[15:20:00.534] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) SubColor
+[15:20:00.534] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half1) RollOff
+[15:20:00.534] |D| [shader::create_parameters]: [DEFAULT  + 15] sa15 = (half1) VelvetStrength
+[15:20:00.535] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half3) FogColor
+[15:20:00.535] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:20:00.535] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:20:00.535] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:20:00.536] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:20:00.592] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 096bd1bbd017c81c4f755889b95f31579f3bfaeeb7e05f30d7af23574be983c3
+[15:20:00.592] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 096bd1bbd017c81c4f755889b95f31579f3bfaeeb7e05f30d7af23574be983c3
+[15:20:00.593] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:00.593] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:00.594] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:20:00.594] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Tangent
+[15:20:00.594] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Binormal
+[15:20:00.595] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:00.595] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:00.595] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:20:00.596] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:00.617] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6657c36d9f1710fb211d904c67d21c31302366893689f5ea099f738ac447ba20
+[15:20:00.617] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 6657c36d9f1710fb211d904c67d21c31302366893689f5ea099f738ac447ba20
+[15:20:00.618] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:20:00.618] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:20:00.618] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:20:00.619] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:20:00.619] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half1) Bumpiness
+[15:20:00.619] |D| [shader::create_parameters]: [DEFAULT  + 9] sa9 = (half1) SpecularStrength
+[15:20:00.620] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) SpecularPower
+[15:20:00.621] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) FogColor
+[15:20:00.621] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:20:00.621] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[15:20:00.621] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord3
+[15:20:00.622] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord4
+[15:20:00.664] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2444f20a948f98b90d284cea29e3c9a1478661b04f98887cfd0f052603b29a80
+[15:20:00.664] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 2444f20a948f98b90d284cea29e3c9a1478661b04f98887cfd0f052603b29a80
+[15:20:00.666] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:00.666] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:00.666] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Color
+[15:20:00.667] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Texcoord0
+[15:20:00.667] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:00.667] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:00.668] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:20:00.668] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:00.680] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 86983edd8d22aaf9d85c88fb53fdc85338cc93a6d444b61d28dc4eed566a800d
+[15:20:00.681] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 86983edd8d22aaf9d85c88fb53fdc85338cc93a6d444b61d28dc4eed566a800d
+[15:20:00.682] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:20:00.682] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:20:00.683] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:20:00.683] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:20:00.683] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) SurfaceColor
+[15:20:00.684] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) SubColor
+[15:20:00.684] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) RollOff
+[15:20:00.684] |D| [shader::create_parameters]: [DEFAULT  + 13] sa13 = (half1) VelvetStrength
+[15:20:00.685] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) FogColor
+[15:20:00.685] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:20:00.685] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:20:00.725] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 264d9bf229c708f6112605b8a79b1955c927c4bb38ec39043daf9cbdee82ddeb
+[15:20:00.725] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 264d9bf229c708f6112605b8a79b1955c927c4bb38ec39043daf9cbdee82ddeb
+[15:20:00.726] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:00.726] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:00.727] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:20:00.727] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:20:00.727] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:20:00.728] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:00.728] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:00.728] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:00.747] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 367049d55cd1ae665750042b9caba6a377552564578d1f539acb972af4e54466
+[15:20:00.748] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 367049d55cd1ae665750042b9caba6a377552564578d1f539acb972af4e54466
+[15:20:00.749] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:20:00.749] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:20:00.750] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:20:00.750] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:20:00.751] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) FogColor
+[15:20:00.751] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:20:00.785] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e494608d7c17eae870005c4900d48a0d7bcb19a9acb6d9f9aa5baa8ae92ac874
+[15:20:00.785] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader e494608d7c17eae870005c4900d48a0d7bcb19a9acb6d9f9aa5baa8ae92ac874
+[15:20:00.786] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:00.787] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:00.787] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:20:00.787] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:20:00.788] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:20:00.788] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:20:00.789] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:20:00.789] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:20:00.789] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:00.790] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:00.790] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:20:00.790] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:00.822] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1cea52c45a22c1f5bc41217fe68a38f81ec24937df819266d22b46e35716bc6b
+[15:20:00.822] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1cea52c45a22c1f5bc41217fe68a38f81ec24937df819266d22b46e35716bc6b
+[15:20:00.824] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:20:00.824] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:20:00.824] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:20:00.825] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:20:00.825] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) DiffuseColor
+[15:20:00.826] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) Bumpiness
+[15:20:00.826] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) SurfaceColor
+[15:20:00.827] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) SubColor
+[15:20:00.827] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half1) RollOff
+[15:20:00.828] |D| [shader::create_parameters]: [DEFAULT  + 17] sa17 = (half1) VelvetStrength
+[15:20:00.828] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (half3) FogColor
+[15:20:00.829] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:20:00.829] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:20:00.830] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:20:00.830] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:20:00.893] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 33526577377be85f2bc4ec4df7394526b18c79c46e1a5cc69e8386c87b92609c
+[15:20:00.894] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 33526577377be85f2bc4ec4df7394526b18c79c46e1a5cc69e8386c87b92609c
+[15:20:00.895] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:00.896] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:00.896] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:20:00.896] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:20:00.897] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:20:00.897] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:00.897] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:00.898] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:20:00.898] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:00.919] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d306a0cf3e22bfb304e3de04ccca34d5664f1d325f1907d58fc8296454582a98
+[15:20:00.919] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d306a0cf3e22bfb304e3de04ccca34d5664f1d325f1907d58fc8296454582a98
+[15:20:00.920] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:20:00.920] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:20:00.921] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:20:00.921] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:20:00.922] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) DiffuseColor
+[15:20:00.922] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) SpecularStrength
+[15:20:00.922] |D| [shader::create_parameters]: [DEFAULT  + 11] sa11 = (half1) SpecularPower
+[15:20:00.923] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) FogColor
+[15:20:00.923] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:20:00.924] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[15:20:00.967] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 4a10c19c46dbc30e0e3d07645ca235c52d764f417b10924e42d63d0dc90aab48
+[15:20:00.970] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 4a10c19c46dbc30e0e3d07645ca235c52d764f417b10924e42d63d0dc90aab48
+[15:20:00.971] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:00.971] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:00.972] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:20:00.972] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:20:00.973] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:20:00.973] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:00.973] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:00.974] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:00.992] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9649e84a0b6d95cb71191d1c70aaf64231a4f6e1fda19e1924719e7a0cdfcc06
+[15:20:00.993] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9649e84a0b6d95cb71191d1c70aaf64231a4f6e1fda19e1924719e7a0cdfcc06
+[15:20:00.994] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:20:00.994] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:20:00.994] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:20:00.995] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:20:00.995] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) DiffuseColor
+[15:20:00.996] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) FogColor
+[15:20:00.996] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:20:12.124] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm23.sxd
+[15:20:31.027] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:20:31.028] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:20:41.332] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6c10f7de1527afbff5853a41da08a8edbfaac899c718e24286fb7b6f6c6f949e
+[15:20:41.333] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 6c10f7de1527afbff5853a41da08a8edbfaac899c718e24286fb7b6f6c6f949e
+[15:20:41.334] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:41.334] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:41.335] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:20:41.335] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:20:41.336] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:20:41.336] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:20:41.337] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Tangent
+[15:20:41.337] |D| [shader::create_parameters]: [BUFFER0  + 28] pa28 = (float4) Binormal
+[15:20:41.338] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:41.341] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:41.341] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:20:41.341] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:41.378] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 34f12874d037740e15c0fb0c3fabe403d6d432e117d570f3d4ee59bafad36e3f
+[15:20:41.378] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 34f12874d037740e15c0fb0c3fabe403d6d432e117d570f3d4ee59bafad36e3f
+[15:20:41.382] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:20:41.382] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:20:41.383] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:20:41.383] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:20:41.384] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half1) Bumpiness
+[15:20:41.384] |D| [shader::create_parameters]: [DEFAULT  + 9] sa9 = (half1) SpecularStrength
+[15:20:41.385] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) SpecularPower
+[15:20:41.385] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) FogColor
+[15:20:41.386] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:20:41.386] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:20:41.387] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:20:41.387] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:20:41.390] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (half4) v_TexCoord4
+[15:20:41.440] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a000bfaba9f63ac1f2f7b70d0c5151ae913fb6599291062ac6e85217386254ff
+[15:20:41.440] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader a000bfaba9f63ac1f2f7b70d0c5151ae913fb6599291062ac6e85217386254ff
+[15:20:41.441] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:20:41.441] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:20:41.442] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Color
+[15:20:41.442] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Texcoord0
+[15:20:41.442] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Tangent
+[15:20:41.443] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Binormal
+[15:20:41.443] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:20:41.443] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:20:41.444] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:20:41.444] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:20:41.473] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 57da0edb1e2be5097674ab08b9a5d07a40da5e66082c0f84058b96127b251649
+[15:20:41.473] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 57da0edb1e2be5097674ab08b9a5d07a40da5e66082c0f84058b96127b251649
+[15:20:41.475] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:20:41.475] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:20:41.475] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:20:41.476] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:20:41.476] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) DiffuseColor
+[15:20:41.477] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) Bumpiness
+[15:20:41.477] |D| [shader::create_parameters]: [DEFAULT  + 11] sa11 = (half1) SpecularStrength
+[15:20:41.478] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) SpecularPower
+[15:20:41.478] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) FogColor
+[15:20:41.479] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:20:41.479] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:20:41.479] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord2
+[15:20:41.480] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord3
+[15:20:41.480] |D| [shader::create_fragment_inputs]: Iterator: pa12 = (half4) v_TexCoord4
+[15:21:11.024] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:21:11.026] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:21:20.126] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 51b161e1e0903082d572e20557dc96bdcbc86d24fb0ad6705dbca27686913b71
+[15:21:20.138] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 51b161e1e0903082d572e20557dc96bdcbc86d24fb0ad6705dbca27686913b71
+[15:21:20.150] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:21:20.157] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:21:20.166] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:21:20.169] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:21:20.170] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ViewInverse[4]
+[15:21:20.178] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:21:20.486] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5b5b04bd128ab63b658f1da384dd16c65ccf9414af2bc69a90fc668dbb532252
+[15:21:20.496] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5b5b04bd128ab63b658f1da384dd16c65ccf9414af2bc69a90fc668dbb532252
+[15:21:20.502] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:21:20.503] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:21:23.654] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:21:31.904] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:21:35.588] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm17.sxd
+[15:21:38.104] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:21:41.154] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:21:45.903] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:21:50.039] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:21:50.040] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:21:54.203] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:22:00.653] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:22:02.453] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:22:07.702] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:22:11.902] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:22:14.502] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:22:33.502] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:22:38.289] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b8d973a013ad7abb0262dea9edb5c2c7ef7034a271005f9f0458c5953c65cf11
+[15:22:38.291] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b8d973a013ad7abb0262dea9edb5c2c7ef7034a271005f9f0458c5953c65cf11
+[15:22:38.292] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:22:38.292] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:22:38.293] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:22:38.293] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:22:38.294] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:22:38.294] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Texcoord0
+[15:22:38.295] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:22:38.296] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) CameraPosition
+[15:22:38.296] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:22:38.301] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:22:38.321] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b3abc4a862ed50895d9834f8522c9ba04797235c195fa8c591d4b7b8dd93909f
+[15:22:38.322] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader b3abc4a862ed50895d9834f8522c9ba04797235c195fa8c591d4b7b8dd93909f
+[15:22:38.323] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:22:38.323] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:22:38.323] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:22:38.324] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) GroundColor
+[15:22:38.324] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) SkyDir
+[15:22:38.325] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half4) DiffuseColor
+[15:22:38.325] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) SurfaceColor
+[15:22:38.326] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) SubColor
+[15:22:38.326] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half1) RollOff
+[15:22:38.326] |D| [shader::create_parameters]: [DEFAULT  + 17] sa17 = (half1) VelvetStrength
+[15:22:38.329] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:22:38.329] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord1
+[15:22:38.377] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fd03056d107557fc90b63e9e231411a774ed944dfc49331d5b85e7edabb8c7ac
+[15:22:38.377] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader fd03056d107557fc90b63e9e231411a774ed944dfc49331d5b85e7edabb8c7ac
+[15:22:38.378] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:22:38.378] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:22:38.379] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:22:38.379] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:22:38.379] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Color
+[15:22:38.380] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:22:38.380] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:22:38.397] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a42adfd7a5a4aaa0b7caf5a65f577e0daf92079156fbc41f58b312c7b7866038
+[15:22:38.397] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader a42adfd7a5a4aaa0b7caf5a65f577e0daf92079156fbc41f58b312c7b7866038
+[15:22:38.398] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:22:38.399] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:22:38.399] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:22:38.399] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) GroundColor
+[15:22:38.400] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) SkyDir
+[15:22:38.400] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half4) DiffuseColor
+[15:22:38.400] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:22:38.401] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_TexCoord0
+[15:22:38.401] |I| [shader::make_frag_finalize_function]: Non zero pa offset: 2 at a42adfd7a5a4aaa0b7caf5a65f577e0daf92079156fbc41f58b312c7b7866038
+[15:22:52.160] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fdcf827d0899e8d5a4702ae0912233862841c9945180e4eb54bfd23cee478022
+[15:22:52.161] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader fdcf827d0899e8d5a4702ae0912233862841c9945180e4eb54bfd23cee478022
+[15:22:52.162] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:22:52.162] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:22:52.163] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:22:52.163] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:22:52.164] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:22:52.164] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:22:52.165] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:22:52.165] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:22:52.165] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) CameraPosition
+[15:22:52.166] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:22:52.195] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 598d6339724477bc4e1f9b86c00b1cde3f150427062756797375a267e1ca1a01
+[15:22:52.196] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 598d6339724477bc4e1f9b86c00b1cde3f150427062756797375a267e1ca1a01
+[15:22:52.197] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) DirLamp01Color
+[15:22:52.197] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) DirLamp01Dir
+[15:22:52.198] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float3) AmbientColor
+[15:22:52.198] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float3) GroundColor
+[15:22:52.199] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) SkyDir
+[15:22:52.199] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) DiffuseColor
+[15:22:52.199] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float1) Bumpiness
+[15:22:52.200] |D| [shader::create_parameters]: [DEFAULT  + 25] sa25 = (float1) SpecularStrength
+[15:22:52.200] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
+[15:22:52.201] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord2
+[15:22:52.201] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_TexCoord3
+[15:22:52.201] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (float4) v_TexCoord4
+[15:22:52.241] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 22c84e6f3fb5905d99b9cf95298e732c9be6138be199719ea20fbbe0c896fe4c
+[15:22:52.242] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 22c84e6f3fb5905d99b9cf95298e732c9be6138be199719ea20fbbe0c896fe4c
+[15:22:52.243] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[15:22:52.243] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) normal
+[15:22:52.244] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) texcoord
+[15:22:52.244] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:22:52.245] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[108]
+[15:22:52.252] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9c02ac980408da9a9eb7fdda8c10c96dd3b6c213c745886d637e5d02f16b16b9
+[15:22:52.253] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9c02ac980408da9a9eb7fdda8c10c96dd3b6c213c745886d637e5d02f16b16b9
+[15:22:52.254] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
+[15:22:52.272] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3f86810aa7d8e799c243bf20440eb4bfa415e82493755a12326a359f149a49fa
+[15:22:52.273] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 3f86810aa7d8e799c243bf20440eb4bfa415e82493755a12326a359f149a49fa
+[15:22:52.274] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:22:52.274] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:22:52.274] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:22:52.275] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Tangent
+[15:22:52.275] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Binormal
+[15:22:52.275] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:22:52.276] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) CameraPosition
+[15:22:52.276] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:22:52.292] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 758cb543f38e358c7a1fa2386b9ea8979f2dc3bb0c38cbff8ef3605c6f3f560a
+[15:22:52.292] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 758cb543f38e358c7a1fa2386b9ea8979f2dc3bb0c38cbff8ef3605c6f3f560a
+[15:22:52.293] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) AlphaRef
+[15:22:52.294] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) DirLamp01Color
+[15:22:52.294] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float3) DirLamp01Dir
+[15:22:52.294] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float3) AmbientColor
+[15:22:52.295] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (float3) GroundColor
+[15:22:52.295] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float3) SkyDir
+[15:22:52.295] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float4) DiffuseColor
+[15:22:52.296] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (float1) Bumpiness
+[15:22:52.296] |D| [shader::create_parameters]: [DEFAULT  + 27] sa27 = (float1) SpecularStrength
+[15:22:52.296] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
+[15:22:52.297] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord2
+[15:22:52.297] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_TexCoord3
+[15:22:52.297] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (float4) v_TexCoord4
+[15:22:58.717] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:23:12.466] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:23:22.051] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:23:22.053] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:23:22.673] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/bgm14.sxd
+[15:23:38.065] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:23:46.458] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 0 (t = 52) from cache. Current t = 473127.
+[15:23:46.459] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 1 (t = 530) from cache. Current t = 473128.
+[15:23:46.465] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:23:49.808] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 2 (t = 531) from cache. Current t = 476771.
+[15:23:51.306] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 3 (t = 532) from cache. Current t = 478321.
+[15:23:51.307] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 26 (t = 7232) from cache. Current t = 478323.
+[15:23:51.815] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:23:53.032] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 27 (t = 7233) from cache. Current t = 480254.
+[15:23:53.035] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 17 (t = 7383) from cache. Current t = 480255.
+[15:23:53.051] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 18 (t = 7384) from cache. Current t = 480256.
+[15:23:53.053] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 19 (t = 7385) from cache. Current t = 480257.
+[15:23:53.069] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 20 (t = 7386) from cache. Current t = 480258.
+[15:23:53.070] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 21 (t = 7387) from cache. Current t = 480259.
+[15:23:56.409] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 22 (t = 7388) from cache. Current t = 485026.
+[15:23:58.957] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 23 (t = 7390) from cache. Current t = 487904.
+[15:23:58.958] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 24 (t = 7427) from cache. Current t = 487905.
+[15:23:58.959] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 25 (t = 7428) from cache. Current t = 487906.
+[15:23:58.965] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:24:02.307] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 9 (t = 7454) from cache. Current t = 491189.
+[15:24:04.314] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:24:04.357] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 10 (t = 7455) from cache. Current t = 493310.
+[15:24:04.358] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 11 (t = 7456) from cache. Current t = 493311.
+[15:24:05.531] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 12 (t = 7457) from cache. Current t = 494549.
+[15:24:05.534] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 13 (t = 7458) from cache. Current t = 494550.
+[15:24:05.550] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 14 (t = 7459) from cache. Current t = 494551.
+[15:24:05.554] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 34 (t = 9879) from cache. Current t = 494552.
+[15:24:05.572] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 44 (t = 11540) from cache. Current t = 494553.
+[15:24:05.574] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 35 (t = 11654) from cache. Current t = 494554.
+[15:24:06.710] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 36 (t = 11655) from cache. Current t = 496277.
+[15:24:08.059] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 37 (t = 11656) from cache. Current t = 498054.
+[15:24:10.457] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 38 (t = 11657) from cache. Current t = 500749.
+[15:24:10.458] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 39 (t = 11658) from cache. Current t = 500750.
+[15:24:10.459] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 40 (t = 11659) from cache. Current t = 500751.
+[15:24:10.464] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:24:15.305] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 41 (t = 11661) from cache. Current t = 505944.
+[15:24:15.307] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 42 (t = 11698) from cache. Current t = 505946.
+[15:24:15.814] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:24:17.031] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 43 (t = 11699) from cache. Current t = 507877.
+[15:24:17.033] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 28 (t = 11713) from cache. Current t = 507878.
+[15:24:17.049] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 29 (t = 11714) from cache. Current t = 507879.
+[15:24:17.051] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 30 (t = 11715) from cache. Current t = 507880.
+[15:24:17.067] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 31 (t = 11716) from cache. Current t = 507881.
+[15:24:17.069] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 32 (t = 11717) from cache. Current t = 507882.
+[15:24:18.459] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 33 (t = 11718) from cache. Current t = 509980.
+[15:24:19.859] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 4 (t = 11859) from cache. Current t = 511824.
+[15:24:21.955] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 5 (t = 11860) from cache. Current t = 514218.
+[15:24:22.256] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 6 (t = 11861) from cache. Current t = 514519.
+[15:24:22.258] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 7 (t = 11864) from cache. Current t = 514520.
+[15:24:22.258] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 8 (t = 11865) from cache. Current t = 514521.
+[15:24:22.264] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:24:25.606] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 50 (t = 11879) from cache. Current t = 518164.
+[15:24:26.352] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 51 (t = 11880) from cache. Current t = 518933.
+[15:24:26.354] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 673450e4d798440ae4f4d3951d4ab454a474fb922504b0c8b47b77dc2cf9226a
+[15:24:26.354] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 673450e4d798440ae4f4d3951d4ab454a474fb922504b0c8b47b77dc2cf9226a
+[15:24:26.355] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:24:26.355] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Color
+[15:24:26.356] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:24:26.356] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:24:26.356] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) ViewInverse[4]
+[15:24:26.357] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float1) Time
+[15:24:26.357] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float2) ScrollSpeedSet1
+[15:24:26.357] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:24:26.372] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9bdf730227b845b09f56a2ef39c62e5a3715a15927bd79df5cd8a6a85ff86878
+[15:24:26.372] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9bdf730227b845b09f56a2ef39c62e5a3715a15927bd79df5cd8a6a85ff86878
+[15:24:26.373] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DiffuseColor
+[15:24:26.373] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:24:26.400] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 52 (t = 12700) from cache. Current t = 518934.
+[15:24:27.959] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 53 (t = 12701) from cache. Current t = 520650.
+[15:24:27.960] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 54 (t = 12702) from cache. Current t = 520651.
+[15:24:27.961] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 45 (t = 12806) from cache. Current t = 520652.
+[15:24:27.963] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:24:30.331] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 48 (t = 12809) from cache. Current t = 522849.
+[15:24:30.333] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 46 (t = 12812) from cache. Current t = 522850.
+[15:24:30.349] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 47 (t = 12813) from cache. Current t = 522851.
+[15:24:30.351] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 55 (t = 12815) from cache. Current t = 522852.
+[15:24:30.367] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 49 (t = 12816) from cache. Current t = 522853.
+[15:24:30.369] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 56 (t = 12841) from cache. Current t = 522854.
+[15:24:32.773] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 81 (t = 15520) from cache. Current t = 526344.
+[15:24:32.775] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 82 (t = 15521) from cache. Current t = 526345.
+[15:24:32.777] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 83 (t = 15522) from cache. Current t = 526346.
+[15:24:32.778] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 84 (t = 15523) from cache. Current t = 526347.
+[15:24:32.779] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 85 (t = 15524) from cache. Current t = 526348.
+[15:24:32.781] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 86 (t = 15525) from cache. Current t = 526349.
+[15:24:32.788] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 87 (t = 15526) from cache. Current t = 526350.
+[15:24:32.789] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 88 (t = 15527) from cache. Current t = 526351.
+[15:24:32.791] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 89 (t = 15528) from cache. Current t = 526352.
+[15:24:32.795] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 90 (t = 15529) from cache. Current t = 526353.
+[15:24:32.798] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 91 (t = 17917) from cache. Current t = 526354.
+[15:24:32.801] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 92 (t = 17918) from cache. Current t = 526355.
+[15:24:32.802] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 93 (t = 17919) from cache. Current t = 526356.
+[15:24:32.804] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 94 (t = 17920) from cache. Current t = 526357.
+[15:24:32.805] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 95 (t = 17921) from cache. Current t = 526358.
+[15:24:32.805] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 96 (t = 17922) from cache. Current t = 526359.
+[15:24:32.809] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 97 (t = 17923) from cache. Current t = 526360.
+[15:24:32.815] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 98 (t = 17924) from cache. Current t = 526362.
+[15:24:32.817] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 99 (t = 17925) from cache. Current t = 526363.
+[15:24:32.818] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 100 (t = 17926) from cache. Current t = 526364.
+[15:24:34.130] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 75 (t = 19575) from cache. Current t = 528002.
+[15:24:34.132] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 78 (t = 19580) from cache. Current t = 528003.
+[15:24:34.148] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 79 (t = 19581) from cache. Current t = 528004.
+[15:24:34.150] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 69 (t = 19582) from cache. Current t = 528005.
+[15:24:34.168] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 73 (t = 19583) from cache. Current t = 528006.
+[15:24:34.170] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 74 (t = 19584) from cache. Current t = 528007.
+[15:24:34.186] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 76 (t = 19585) from cache. Current t = 528009.
+[15:24:34.186] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 77 (t = 19586) from cache. Current t = 528011.
+[15:24:36.060] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 80 (t = 19596) from cache. Current t = 530252.
+[15:24:36.061] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 70 (t = 19597) from cache. Current t = 530253.
+[15:24:36.062] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 71 (t = 19598) from cache. Current t = 530254.
+[15:24:36.063] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 101 (t = 19620) from cache. Current t = 530255.
+[15:24:36.063] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 102 (t = 19621) from cache. Current t = 530256.
+[15:24:36.064] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 72 (t = 19622) from cache. Current t = 530257.
+[15:24:36.064] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 57 (t = 19911) from cache. Current t = 530258.
+[15:24:36.065] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 58 (t = 19912) from cache. Current t = 530259.
+[15:24:36.066] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 61 (t = 19915) from cache. Current t = 530260.
+[15:24:36.066] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 62 (t = 19916) from cache. Current t = 530262.
+[15:24:36.067] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 63 (t = 19917) from cache. Current t = 530264.
+[15:24:36.068] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 60 (t = 19919) from cache. Current t = 530265.
+[15:24:36.068] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 59 (t = 19920) from cache. Current t = 530266.
+[15:24:36.069] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 64 (t = 19921) from cache. Current t = 530268.
+[15:24:36.301] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 65 (t = 19924) from cache. Current t = 530575.
+[15:24:40.063] |I| [export_sceIoOpen]: Opening file: app0:CR2/resources/Sound.psp2/sound/voice.sxd2
+[15:24:40.101] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 67 (t = 19925) from cache. Current t = 534978.
+[15:24:50.851] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 68 (t = 19927) from cache. Current t = 546536.
+[15:24:55.715] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 66 (t = 19928) from cache. Current t = 550915.
+[15:24:55.717] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 133 (t = 21467) from cache. Current t = 550916.
+[15:24:55.717] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 140 (t = 27001) from cache. Current t = 550917.
+[15:24:55.718] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 134 (t = 27026) from cache. Current t = 550918.
+[15:24:55.722] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 135 (t = 27027) from cache. Current t = 550919.
+[15:24:55.723] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 136 (t = 27028) from cache. Current t = 550920.
+[15:24:55.725] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 137 (t = 27029) from cache. Current t = 550921.
+[15:24:55.726] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 138 (t = 27030) from cache. Current t = 550934.
+[15:24:55.727] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 139 (t = 27031) from cache. Current t = 550935.
+[15:24:55.753] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 160 (t = 28858) from cache. Current t = 550976.
+[15:24:55.754] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 161 (t = 28859) from cache. Current t = 550977.
+[15:24:55.853] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 162 (t = 30080) from cache. Current t = 551107.
+[15:24:55.951] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 163 (t = 30081) from cache. Current t = 551227.
+[15:24:56.048] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:24:56.050] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:25:04.852] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 142 (t = 30456) from cache. Current t = 560481.
+[15:25:07.170] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 143 (t = 30459) from cache. Current t = 562019.
+[15:25:07.173] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 286182b2eb02c728ea67a8c207106e8f562c4438f9560caf04b56e32d5ea4d3f
+[15:25:07.174] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 286182b2eb02c728ea67a8c207106e8f562c4438f9560caf04b56e32d5ea4d3f
+[15:25:07.175] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:25:07.175] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:25:07.175] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:25:07.176] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:25:07.176] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:25:07.177] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:25:07.177] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:25:07.178] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:25:07.178] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:25:07.179] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:25:07.179] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:25:07.206] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 89718ca4a0f0556a4ecd8be0708abaf6f66812ae5203fab88ba61e138609860a
+[15:25:07.207] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 89718ca4a0f0556a4ecd8be0708abaf6f66812ae5203fab88ba61e138609860a
+[15:25:07.208] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) DirLamp01Color
+[15:25:07.208] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) DirLamp01Dir
+[15:25:07.209] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float3) AmbientColor
+[15:25:07.209] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) DiffuseColor
+[15:25:07.209] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float1) Bumpiness
+[15:25:07.210] |D| [shader::create_parameters]: [DEFAULT  + 17] sa17 = (float1) SpecularStrength
+[15:25:07.210] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float3) FogColor
+[15:25:07.210] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
+[15:25:07.211] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord2
+[15:25:07.211] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_TexCoord3
+[15:25:07.211] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (float4) v_TexCoord4
+[15:25:07.247] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ca6d6855dd8f8bfe2206f53aad06c6592de626f62aac68ad0b7c9b3a2d7a3194
+[15:25:07.248] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ca6d6855dd8f8bfe2206f53aad06c6592de626f62aac68ad0b7c9b3a2d7a3194
+[15:25:07.249] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:25:07.249] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:25:07.249] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:25:07.249] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Tangent
+[15:25:07.250] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Binormal
+[15:25:07.250] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:25:07.251] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:25:07.251] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:25:07.252] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:25:07.268] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 88d16fea9ee8bf4a4e5190ae326814ce04332778a8920868a2614424a477ee7d
+[15:25:07.271] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 88d16fea9ee8bf4a4e5190ae326814ce04332778a8920868a2614424a477ee7d
+[15:25:07.272] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) AlphaRef
+[15:25:07.272] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) DirLamp01Color
+[15:25:07.273] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (float3) DirLamp01Dir
+[15:25:07.273] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (float3) AmbientColor
+[15:25:07.273] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (float3) GroundColor
+[15:25:07.274] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (float3) SkyDir
+[15:25:07.274] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (float4) DiffuseColor
+[15:25:07.274] |D| [shader::create_parameters]: [DEFAULT  + 26] sa26 = (float1) Bumpiness
+[15:25:07.275] |D| [shader::create_parameters]: [DEFAULT  + 27] sa27 = (float1) SpecularStrength
+[15:25:07.275] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float3) FogColor
+[15:25:07.275] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord1
+[15:25:07.275] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord2
+[15:25:07.276] |D| [shader::create_fragment_inputs]: Iterator: pa16 = (float4) v_TexCoord3
+[15:25:07.276] |D| [shader::create_fragment_inputs]: Iterator: pa20 = (float4) v_TexCoord4
+[15:25:07.313] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 151 (t = 30471) from cache. Current t = 562035.
+[15:25:07.313] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 152 (t = 30472) from cache. Current t = 562036.
+[15:25:07.314] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 153 (t = 30473) from cache. Current t = 562040.
+[15:25:13.082] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 154 (t = 30474) from cache. Current t = 564544.
+[15:25:13.089] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 155 (t = 30475) from cache. Current t = 564546.
+[15:25:14.582] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 156 (t = 30476) from cache. Current t = 565168.
+[15:25:14.583] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 157 (t = 30477) from cache. Current t = 565170.
+[15:25:14.583] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 158 (t = 30479) from cache. Current t = 565171.
+[15:25:15.583] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 159 (t = 30481) from cache. Current t = 565539.
+[15:25:15.584] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 164 (t = 33602) from cache. Current t = 565540.
+[15:25:15.585] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ebab7c70ac497901fa574c16d631e22b55ad4f25997ad80feaa75c9947536811
+[15:25:15.586] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ebab7c70ac497901fa574c16d631e22b55ad4f25997ad80feaa75c9947536811
+[15:25:15.587] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:25:15.587] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:25:15.588] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:25:15.588] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Tangent
+[15:25:15.589] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Binormal
+[15:25:15.589] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:25:15.590] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:25:15.590] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:25:15.591] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:25:15.611] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5dcf5280f8314097cd9926538c5bca6ffd0dee722fc0fffa361afd3fb01050ff
+[15:25:15.612] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5dcf5280f8314097cd9926538c5bca6ffd0dee722fc0fffa361afd3fb01050ff
+[15:25:15.613] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:25:15.613] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:25:15.614] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:25:15.614] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) DiffuseColor
+[15:25:15.614] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half1) Bumpiness
+[15:25:15.615] |D| [shader::create_parameters]: [DEFAULT  + 9] sa9 = (half1) SpecularStrength
+[15:25:15.615] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) SpecularPower
+[15:25:15.615] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half3) SurfaceColor
+[15:25:15.616] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) FuzzySpecColor
+[15:25:15.616] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half3) SubColor
+[15:25:15.617] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (half1) RollOff
+[15:25:15.617] |D| [shader::create_parameters]: [DEFAULT  + 19] sa19 = (half1) VelvetStrength
+[15:25:15.618] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half3) FogColor
+[15:25:15.623] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:25:15.623] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[15:25:15.624] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord3
+[15:25:15.624] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord4
+[15:25:15.680] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 165 (t = 33603) from cache. Current t = 565541.
+[15:25:15.681] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 166 (t = 33604) from cache. Current t = 565542.
+[15:25:15.682] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader bc9f8a35d3a55652d71cc528cf614778b0a3ddd33235d1d02671c131f5ff0cc0
+[15:25:15.684] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader bc9f8a35d3a55652d71cc528cf614778b0a3ddd33235d1d02671c131f5ff0cc0
+[15:25:15.685] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:25:15.685] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:25:15.686] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Texcoord0
+[15:25:15.686] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Tangent
+[15:25:15.687] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Binormal
+[15:25:15.687] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:25:15.688] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:25:15.688] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float3) CameraPosition
+[15:25:15.689] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:25:15.714] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f3f9760ec23fdd7bdaa9af852d6843c5102e4476533dd10a714b18192d76166d
+[15:25:15.717] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader f3f9760ec23fdd7bdaa9af852d6843c5102e4476533dd10a714b18192d76166d
+[15:25:15.718] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:25:15.718] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:25:15.718] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:25:15.719] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:25:15.719] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half4) DiffuseColor
+[15:25:15.720] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half1) Bumpiness
+[15:25:15.720] |D| [shader::create_parameters]: [DEFAULT  + 11] sa11 = (half1) SpecularStrength
+[15:25:15.721] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) SpecularPower
+[15:25:15.721] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) SurfaceColor
+[15:25:15.722] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half3) FuzzySpecColor
+[15:25:15.722] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (half3) SubColor
+[15:25:15.723] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half1) RollOff
+[15:25:15.723] |D| [shader::create_parameters]: [DEFAULT  + 21] sa21 = (half1) VelvetStrength
+[15:25:15.724] |D| [shader::create_parameters]: [DEFAULT  + 22] sa22 = (half3) FogColor
+[15:25:15.724] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:25:15.725] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[15:25:15.725] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord3
+[15:25:15.726] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half4) v_TexCoord4
+[15:25:22.350] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 167 (t = 33605) from cache. Current t = 568605.
+[15:25:22.821] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 168 (t = 33606) from cache. Current t = 568681.
+[15:25:22.823] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 169 (t = 33607) from cache. Current t = 568682.
+[15:25:22.823] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 170 (t = 33609) from cache. Current t = 568684.
+[15:25:22.824] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 171 (t = 33611) from cache. Current t = 568685.
+[15:25:22.825] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 172 (t = 36486) from cache. Current t = 568686.
+[15:25:22.826] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 174 (t = 36488) from cache. Current t = 568687.
+[15:25:22.826] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 176 (t = 36490) from cache. Current t = 568691.
+[15:25:22.856] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 177 (t = 36491) from cache. Current t = 568744.
+[15:25:22.857] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 187 (t = 40891) from cache. Current t = 568745.
+[15:25:22.858] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 582f5318940a1d655bdc8969e1d23b1ecb40f9ee7f4ac14e9849064046816a8b
+[15:25:22.858] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 582f5318940a1d655bdc8969e1d23b1ecb40f9ee7f4ac14e9849064046816a8b
+[15:25:22.859] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:25:22.859] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:25:22.860] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:25:22.861] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:25:22.861] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:25:22.862] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:25:22.862] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:25:22.863] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:25:22.863] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:25:22.863] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:25:22.905] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 228f0328535f232a731f16ea8fb2d619b8522e9afbba7b25b719f2bbcc45d451
+[15:25:22.905] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 228f0328535f232a731f16ea8fb2d619b8522e9afbba7b25b719f2bbcc45d451
+[15:25:22.908] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) DirLamp01Color
+[15:25:22.909] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half3) DirLamp01Dir
+[15:25:22.909] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) AmbientColor
+[15:25:22.909] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) GroundColor
+[15:25:22.910] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) SkyDir
+[15:25:22.910] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half4) DiffuseColor
+[15:25:22.910] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half1) Bumpiness
+[15:25:22.911] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half3) FogColor
+[15:25:22.911] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:25:22.911] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[15:25:22.912] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord3
+[15:25:22.965] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c3a9f3bf5075d7e5bbd094be7dde059d0947c24c1ae021bf2d0ec3adc6af5c5b
+[15:25:22.966] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader c3a9f3bf5075d7e5bbd094be7dde059d0947c24c1ae021bf2d0ec3adc6af5c5b
+[15:25:22.967] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Position
+[15:25:22.967] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Normal
+[15:25:22.967] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Indices
+[15:25:22.967] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) Weights
+[15:25:22.968] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) Texcoord0
+[15:25:22.968] |D| [shader::create_parameters]: [BUFFER0  + 20] pa20 = (float4) Tangent
+[15:25:22.968] |D| [shader::create_parameters]: [BUFFER0  + 24] pa24 = (float4) Binormal
+[15:25:22.969] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) ViewProj[4]
+[15:25:22.969] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float3) FogParams
+[15:25:22.969] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) MatrixPalette[168]
+[15:25:23.007] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a3f1a3e11a46977ff1b75bab1c65016bb403d36e034c6b482cc6b9f0b0fcb0cb
+[15:25:23.007] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader a3f1a3e11a46977ff1b75bab1c65016bb403d36e034c6b482cc6b9f0b0fcb0cb
+[15:25:23.009] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) AlphaRef
+[15:25:23.009] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) DirLamp01Color
+[15:25:23.010] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half3) DirLamp01Dir
+[15:25:23.010] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half3) AmbientColor
+[15:25:23.010] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half3) GroundColor
+[15:25:23.011] |D| [shader::create_parameters]: [DEFAULT  + 10] sa10 = (half3) SkyDir
+[15:25:23.011] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (half4) DiffuseColor
+[15:25:23.011] |D| [shader::create_parameters]: [DEFAULT  + 14] sa14 = (half1) Bumpiness
+[15:25:23.011] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half3) FogColor
+[15:25:23.012] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[15:25:23.012] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[15:25:23.012] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_TexCoord3
+[15:25:23.072] |D| [renderer::TextureCache::cache_and_bind_texture]: Evicting texture 179 (t = 45237) from cache. Current t = 568805.
+[15:25:26.164] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:25:26.166] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:25:26.167] |E| [discordrpc::update_presence::<lambda_1>::operator ()]: Error updating Discord Rich Presence, err_code: 43

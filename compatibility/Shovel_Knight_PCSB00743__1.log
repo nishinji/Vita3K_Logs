@@ -1,0 +1,718 @@
+[03:36:41.856] |I| [config::init]: log-level: 0
+[03:36:41.857] |I| [config::init]: log-imports: false
+[03:36:41.857] |I| [config::init]: log-exports: false
+[03:36:41.858] |I| [config::init]: log-active-shaders: false
+[03:36:41.858] |I| [config::init]: log-uniforms: false
+[03:36:41.860] |I| [SDL_main]: Vita3K v0.1 790-be6ba6b
+[03:36:42.409] |I| [init]: Swap interval = -1
+[03:36:53.765] |I| [load_app_impl]: Title: Shovel Knight
+[03:36:53.766] |I| [load_app_impl]: Serial: PCSE00640
+[03:36:53.766] |I| [load_app_impl]: Category: gp
+[03:36:53.774] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[03:36:53.775] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x48314
+[03:36:53.775] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3D4DC
+[03:36:53.775] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x4163C, setting to stub value 0xDEADBEEF
+[03:36:53.776] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x431D0, setting to stub value 0xDEADBEEF
+[03:36:53.776] |I| [load_app_impl]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[03:36:53.781] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[03:36:53.781] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x84BC8
+[03:36:53.782] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7BF08
+[03:36:53.782] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x7C9D4, setting to stub value 0xDEADBEEF
+[03:36:53.782] |I| [load_app_impl]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[03:36:53.785] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[03:36:53.786] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9E2D0
+[03:36:53.786] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x9B858
+[03:36:53.786] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x9BDE0, setting to stub value 0xDEADBEEF
+[03:36:53.786] |W| [load_var_imports]: 	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x9C0A4, setting to stub value 0xDEADBEEF
+[03:36:53.786] |I| [load_app_impl]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[03:36:53.886] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[03:36:53.886] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3DCCCC
+[03:36:53.886] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x470A58
+[03:36:53.887] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x43DBDC
+[03:36:53.887] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x3DE988, setting to stub value 0xDEADBEEF
+[03:36:53.888] |I| [load_app_impl]: Main executable ShovelKnight (eboot.bin) loaded
+[03:36:53.892] |D| [run_app]: Running module_start of library: SceLibc
+[03:36:53.897] |T| [open_file]: sceKernelGetStdin: Opening file tty0: (tty0:)
+[03:36:53.897] |T| [open_file]: sceKernelGetStdout: Opening file tty0: (tty0:)
+[03:36:53.897] |T| [open_file]: sceKernelGetStderr: Opening file tty0: (tty0:)
+[03:36:53.902] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[03:36:53.903] |D| [run_app]: Running module_start of library: SceLibFios2
+[03:36:53.907] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[03:36:53.907] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[03:36:53.907] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[03:36:53.908] |D| [run_app]: Running module_start of library: SceUlt
+[03:36:53.911] |E| [call_import]: Import function for NID 0x50F2F2AA not found (thread name: SceUlt, thread ID: 36)
+[03:36:53.912] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[03:36:53.913] |T| [open_file]: sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSE00640/mai_moe/mai.suprx)
+[03:36:53.914] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[03:36:53.914] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[03:36:53.914] |T| [read_file]: sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87866
+[03:36:53.915] |I| [load_self]: Loading symbols for SELF: app0:mai_moe/mai.suprx
+[03:36:53.915] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6587E4
+[03:36:53.917] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x658840
+[03:36:53.918] |T| [close_file]: sceKernelLoadStartModule: Closing file: fd: 0x3
+[03:36:53.925] |W| [stubbed_impl]: Stubbed sceKernelDelayThread import called. (bad accuracy)
+[03:36:53.925] |T| [stat_file]: sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00640/mai_moe/load_type.mai)
+[03:36:53.927] |I| [export_sceIoOpen]: Opening file: app0:mai_moe/load_type.mai
+[03:36:53.927] |T| [open_file]: sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSE00640/mai_moe/load_type.mai)
+[03:36:53.928] |T| [stat_file]: sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00640/mai_moe/load_type.mai)
+[03:36:53.928] |T| [seek_file]: sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[03:36:53.929] |T| [read_file]: sceIoRead: Reading file: fd: 0x4, size: 1
+[03:36:53.929] |T| [close_file]: sceIoClose: Closing file: fd: 0x4
+[03:36:53.933] |I| [export_sceKernelLoadStartModule]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[03:36:53.934] |T| [open_file]: sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSE00640/sce_module/libfios2_m.suprx)
+[03:36:53.935] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[03:36:53.935] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[03:36:53.937] |T| [read_file]: sceKernelLoadStartModule: Reading file: fd: 0x5, size: 266640
+[03:36:53.941] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[03:36:53.941] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x707BC8
+[03:36:53.941] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6FEF08
+[03:36:53.941] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x6FF9D4, setting to stub value 0xDEADBEEF
+[03:36:53.942] |T| [close_file]: sceKernelLoadStartModule: Closing file: fd: 0x5
+[03:36:53.947] |I| [export_sceKernelLoadStartModule]: Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[03:36:53.948] |T| [open_dir]: sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[03:36:53.949] |W| [io_error_impl]: open_dir (sceIoDopen) returned 0x80010002
+[03:36:53.949] |T| [read_dir]: sceIoDread: Reading dir fd: 0x80010002
+[03:36:53.949] |W| [io_error_impl]: read_dir (sceIoDread) returned 0x80010051
+[03:36:53.950] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x80010002
+[03:36:53.950] |W| [io_error_impl]: close_dir (sceIoDclose) returned 0x80010051
+[03:36:54.025] |I| [export_sceKernelLoadStartModule]: Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[03:36:54.124] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[03:36:54.124] |W| [unimplemented_impl]: Unimplemented sceNpInit import called.
+[03:36:54.175] |I| [renderer::create]: GL_VERSION = 4.1.0 NVIDIA 419.35
+[03:36:54.176] |I| [renderer::create]: GL_SHADING_LANGUAGE_VERSION = 4.10 NVIDIA via Cg compiler
+[03:36:54.183] |W| [unimplemented_impl]: Unimplemented sceGxmProgramParameterGetType import called.
+[03:36:54.184] |I| [renderer::load_shader]: Generating vert shader 6d61299ea2c6eceede9f37854381b3310a9181b0e480eab7fb42006016ae1060
+[03:36:54.184] |D| [gxp::log_parameter]: Vertex attribute: name:vsIn.aPos semantic:POSITION type:0 component_count:4 container_index:0x0
+[03:36:54.186] |D| [gxp::log_parameter]: Vertex attribute: name:vsIn.bTex0 semantic:TEXCOORD type:0 component_count:4 container_index:0x0
+[03:36:54.187] |D| [gxp::log_parameter]: Uniform: name:g_matWVP semantic:NONE type:0 component_count:4 container_index:0xE
+[03:36:54.189] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 34
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 23  "main_vs" 5 6 13 16
+               1:             String  "6d61299ea2c6eceede9f37854381b3310a9181b0e480eab7fb42006016ae1060"
+                              SourceExtension  "gxp"
+                              Name 5  "vsIn_aPos"
+                              Name 6  "vsIn_bTex0"
+                              Name 8  "g_matWVP_0"
+                              Name 9  "g_matWVP_1"
+                              Name 10  "g_matWVP_2"
+                              Name 11  "g_matWVP_3"
+                              Name 13  "v_Position"
+                              Name 16  "v_TexCoord0"
+                              Name 18  "i0"
+                              Name 19  "i1"
+                              Name 20  "i2"
+                              Name 23  "main_vs"
+                              Decorate 13(v_Position) BuiltIn Position
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer Input 3(fvec4)
+    5(vsIn_aPos):      4(ptr) Variable Input
+   6(vsIn_bTex0):      4(ptr) Variable Input
+               7:             TypePointer UniformConstant 3(fvec4)
+   8(g_matWVP_0):      7(ptr) Variable UniformConstant
+   9(g_matWVP_1):      7(ptr) Variable UniformConstant
+  10(g_matWVP_2):      7(ptr) Variable UniformConstant
+  11(g_matWVP_3):      7(ptr) Variable UniformConstant
+              12:             TypePointer Output 3(fvec4)
+  13(v_Position):     12(ptr) Variable Output
+              14:             TypeVector 2(float) 2
+              15:             TypePointer Output 14(fvec2)
+ 16(v_TexCoord0):     15(ptr) Variable Output
+              17:             TypePointer Private 3(fvec4)
+          18(i0):     17(ptr) Variable Private
+          19(i1):     17(ptr) Variable Private
+          20(i2):     17(ptr) Variable Private
+              21:             TypeVoid
+              22:             TypeFunction 21
+              25:    2(float) Constant 1056964608
+              26:    2(float) Constant 0
+              27:    2(float) Constant 1065353216
+              28:    2(float) Constant 1073741824
+              29:             TypeVector 2(float) 1
+              30:             TypeVector 2(float) 3
+     23(main_vs):          21 Function None 22
+              24:             Label
+                              Line 1 4294967295 0
+              31:   14(fvec2) VectorShuffle 6(vsIn_bTex0) 6(vsIn_bTex0) 0 1
+                              Store 16(v_TexCoord0) 31
+              32:   30(fvec3) VectorShuffle 5(vsIn_aPos) 5(vsIn_aPos) 0 1 2
+              33:    3(fvec4) VectorShuffle 32 18(i0) 0 1 2 6
+                              Store 18(i0) 33
+                              Return
+                              FunctionEnd
+
+[03:36:54.191] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 g_matWVP_0;
+uniform vec4 g_matWVP_1;
+uniform vec4 g_matWVP_2;
+uniform vec4 g_matWVP_3;
+
+in vec4 vsIn_aPos;
+in vec4 vsIn_bTex0;
+out vec2 v_TexCoord0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+
+void main()
+{
+    v_TexCoord0 = vsIn_bTex0.xy;
+    i0 = vec4(vsIn_aPos.xyz.x, vsIn_aPos.xyz.y, vsIn_aPos.xyz.z, i0.w);
+}
+
+
+[03:36:54.228] |I| [renderer::load_shader]: Generating frag shader bb95ac38e5e76690ca41e934ace5033924306be2e5f643954fecdf0fd8126644
+[03:36:54.229] |D| [gxp::log_parameter]: Sampler: name:sampler_tex0 semantic:ATTR type:0 component_count:4 container_index:0x0
+[03:36:54.230] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(sampler_tex0, TEXCOORD0.xy)
+[03:36:54.232] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 33
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 20  "main_fs" 9 14 14
+                              ExecutionMode 20 OriginLowerLeft
+               1:             String  "bb95ac38e5e76690ca41e934ace5033924306be2e5f643954fecdf0fd8126644"
+                              SourceExtension  "gxp"
+                              Name 6  "sampler_tex0"
+                              Name 9  "tex_query0"
+                              Name 12  "v_TexCoord0"
+                              Name 14  "out_color"
+                              Name 15  "i0"
+                              Name 16  "i1"
+                              Name 17  "i2"
+                              Name 20  "main_fs"
+                              Name 30  "pa0_temp"
+                              Decorate 14(out_color) Location 0
+               2:             TypeFloat 32
+               3:             TypeImage 2(float) 2D sampled format:Unknown
+               4:             TypeSampledImage 3
+               5:             TypePointer UniformConstant 4
+ 6(sampler_tex0):      5(ptr) Variable UniformConstant
+               7:             TypeVector 2(float) 4
+               8:             TypePointer Private 7(fvec4)
+   9(tex_query0):      8(ptr) Variable Private
+              10:             TypeVector 2(float) 2
+              11:             TypePointer Input 10(fvec2)
+ 12(v_TexCoord0):     11(ptr) Variable Input
+              13:             TypePointer Output 7(fvec4)
+   14(out_color):     13(ptr) Variable Output
+          15(i0):      8(ptr) Variable Private
+          16(i1):      8(ptr) Variable Private
+          17(i2):      8(ptr) Variable Private
+              18:             TypeVoid
+              19:             TypeFunction 18
+              23:    2(float) Constant 1056964608
+              24:    2(float) Constant 0
+              25:    2(float) Constant 1065353216
+              26:    2(float) Constant 1073741824
+              27:             TypeVector 2(float) 1
+              28:             TypeVector 2(float) 3
+    30(pa0_temp):      8(ptr) Variable Private
+     20(main_fs):          18 Function None 19
+              21:             Label
+              22:      8(ptr) ImageSampleImplicitLod 6(sampler_tex0) 12(v_TexCoord0)
+                              Store 9(tex_query0) 22
+                              Line 1 4294967290 0
+              29:    7(fvec4) Load 9(tex_query0)
+              31:    7(fvec4) Load 9(tex_query0)
+                              Store 30(pa0_temp) 31
+                              Store 30(pa0_temp) 29
+              32:    7(fvec4) Load 30(pa0_temp)
+                              Store 14(out_color) 32
+                              Return
+                              FunctionEnd
+
+[03:36:54.234] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform sampler2D sampler_tex0;
+
+in vec2 v_TexCoord0;
+layout(location = 0) out vec4 out_color;
+vec4 tex_query0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+vec4 pa0_temp;
+
+void main()
+{
+    tex_query0 = texture(sampler_tex0, v_TexCoord0);
+    pa0_temp = tex_query0;
+    pa0_temp = tex_query0;
+    out_color = pa0_temp;
+}
+
+
+[03:36:54.241] |I| [renderer::load_shader]: Generating vert shader 31c193a70fd0a37a2ca5e2c961ad3af795a50bf00dddb0b3bd1f8e7eab462368
+[03:36:54.242] |D| [gxp::log_parameter]: Vertex attribute: name:vsIn.aPos semantic:POSITION type:0 component_count:4 container_index:0x0
+[03:36:54.242] |D| [gxp::log_parameter]: Vertex attribute: name:vsIn.bTex0 semantic:TEXCOORD type:0 component_count:4 container_index:0x0
+[03:36:54.243] |D| [gxp::log_parameter]: Uniform: name:g_matWVP semantic:NONE type:0 component_count:4 container_index:0xE
+[03:36:54.245] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 34
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 23  "main_vs" 5 6 13 16
+               1:             String  "31c193a70fd0a37a2ca5e2c961ad3af795a50bf00dddb0b3bd1f8e7eab462368"
+                              SourceExtension  "gxp"
+                              Name 5  "vsIn_aPos"
+                              Name 6  "vsIn_bTex0"
+                              Name 8  "g_matWVP_0"
+                              Name 9  "g_matWVP_1"
+                              Name 10  "g_matWVP_2"
+                              Name 11  "g_matWVP_3"
+                              Name 13  "v_Position"
+                              Name 16  "v_TexCoord0"
+                              Name 18  "i0"
+                              Name 19  "i1"
+                              Name 20  "i2"
+                              Name 23  "main_vs"
+                              Decorate 13(v_Position) BuiltIn Position
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer Input 3(fvec4)
+    5(vsIn_aPos):      4(ptr) Variable Input
+   6(vsIn_bTex0):      4(ptr) Variable Input
+               7:             TypePointer UniformConstant 3(fvec4)
+   8(g_matWVP_0):      7(ptr) Variable UniformConstant
+   9(g_matWVP_1):      7(ptr) Variable UniformConstant
+  10(g_matWVP_2):      7(ptr) Variable UniformConstant
+  11(g_matWVP_3):      7(ptr) Variable UniformConstant
+              12:             TypePointer Output 3(fvec4)
+  13(v_Position):     12(ptr) Variable Output
+              14:             TypeVector 2(float) 2
+              15:             TypePointer Output 14(fvec2)
+ 16(v_TexCoord0):     15(ptr) Variable Output
+              17:             TypePointer Private 3(fvec4)
+          18(i0):     17(ptr) Variable Private
+          19(i1):     17(ptr) Variable Private
+          20(i2):     17(ptr) Variable Private
+              21:             TypeVoid
+              22:             TypeFunction 21
+              25:    2(float) Constant 1056964608
+              26:    2(float) Constant 0
+              27:    2(float) Constant 1065353216
+              28:    2(float) Constant 1073741824
+              29:             TypeVector 2(float) 1
+              30:             TypeVector 2(float) 3
+     23(main_vs):          21 Function None 22
+              24:             Label
+                              Line 1 4294967289 0
+              31:   14(fvec2) VectorShuffle 6(vsIn_bTex0) 6(vsIn_bTex0) 0 1
+                              Store 16(v_TexCoord0) 31
+              32:   30(fvec3) VectorShuffle 5(vsIn_aPos) 5(vsIn_aPos) 0 1 2
+              33:    3(fvec4) VectorShuffle 32 18(i0) 0 1 2 6
+                              Store 18(i0) 33
+                              Return
+                              FunctionEnd
+
+[03:36:54.247] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 g_matWVP_0;
+uniform vec4 g_matWVP_1;
+uniform vec4 g_matWVP_2;
+uniform vec4 g_matWVP_3;
+
+in vec4 vsIn_aPos;
+in vec4 vsIn_bTex0;
+out vec2 v_TexCoord0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+
+void main()
+{
+    v_TexCoord0 = vsIn_bTex0.xy;
+    i0 = vec4(vsIn_aPos.xyz.x, vsIn_aPos.xyz.y, vsIn_aPos.xyz.z, i0.w);
+}
+
+
+[03:36:54.253] |I| [renderer::load_shader]: Generating frag shader 04fd923e4255845d4c61fa73ddfe9cb7440531720eb11cbb4258d03609f5dfd0
+[03:36:54.254] |D| [gxp::log_parameter]: Uniform: name:g_tint semantic:NONE type:0 component_count:4 container_index:0xE
+[03:36:54.255] |D| [gxp::log_parameter]: Sampler: name:sampler_tex0 semantic:ATTR type:0 component_count:4 container_index:0x0
+[03:36:54.255] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(sampler_tex0, TEXCOORD0.xy)
+[03:36:54.257] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 39
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 22  "main_fs" 11 16 16
+                              ExecutionMode 22 OriginLowerLeft
+               1:             String  "04fd923e4255845d4c61fa73ddfe9cb7440531720eb11cbb4258d03609f5dfd0"
+                              SourceExtension  "gxp"
+                              Name 5  "g_tint"
+                              Name 9  "sampler_tex0"
+                              Name 11  "tex_query0"
+                              Name 14  "v_TexCoord0"
+                              Name 16  "out_color"
+                              Name 17  "i0"
+                              Name 18  "i1"
+                              Name 19  "i2"
+                              Name 22  "main_fs"
+                              Name 36  "pa0_temp"
+                              Decorate 16(out_color) Location 0
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer UniformConstant 3(fvec4)
+       5(g_tint):      4(ptr) Variable UniformConstant
+               6:             TypeImage 2(float) 2D sampled format:Unknown
+               7:             TypeSampledImage 6
+               8:             TypePointer UniformConstant 7
+ 9(sampler_tex0):      8(ptr) Variable UniformConstant
+              10:             TypePointer Private 3(fvec4)
+  11(tex_query0):     10(ptr) Variable Private
+              12:             TypeVector 2(float) 2
+              13:             TypePointer Input 12(fvec2)
+ 14(v_TexCoord0):     13(ptr) Variable Input
+              15:             TypePointer Output 3(fvec4)
+   16(out_color):     15(ptr) Variable Output
+          17(i0):     10(ptr) Variable Private
+          18(i1):     10(ptr) Variable Private
+          19(i2):     10(ptr) Variable Private
+              20:             TypeVoid
+              21:             TypeFunction 20
+              25:    2(float) Constant 1056964608
+              26:    2(float) Constant 0
+              27:    2(float) Constant 1065353216
+              28:    2(float) Constant 1073741824
+              29:             TypeVector 2(float) 1
+              30:             TypeVector 2(float) 3
+    36(pa0_temp):     10(ptr) Variable Private
+     22(main_fs):          20 Function None 21
+              23:             Label
+              24:     10(ptr) ImageSampleImplicitLod 9(sampler_tex0) 14(v_TexCoord0)
+                              Store 11(tex_query0) 24
+                              Line 1 4294967286 0
+              31:    3(fvec4) Load 5(g_tint)
+                              Store 17(i0) 31
+              32:    3(fvec4) Load 11(tex_query0)
+                              Store 18(i1) 32
+              33:    3(fvec4) VectorShuffle 18(i1) 18(i1) 0 1 2 3
+              34:    3(fvec4) VectorShuffle 17(i0) 17(i0) 0 1 2 3
+              35:    3(fvec4) FMul 33 34
+              37:    3(fvec4) Load 11(tex_query0)
+                              Store 36(pa0_temp) 37
+                              Store 36(pa0_temp) 35
+              38:    3(fvec4) Load 36(pa0_temp)
+                              Store 16(out_color) 38
+                              Return
+                              FunctionEnd
+
+[03:36:54.259] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 g_tint;
+uniform sampler2D sampler_tex0;
+
+in vec2 v_TexCoord0;
+layout(location = 0) out vec4 out_color;
+vec4 tex_query0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+vec4 pa0_temp;
+
+void main()
+{
+    tex_query0 = texture(sampler_tex0, v_TexCoord0);
+    i0 = g_tint;
+    i1 = tex_query0;
+    pa0_temp = tex_query0;
+    pa0_temp = i1.xyzw * i0.xyzw;
+    out_color = pa0_temp;
+}
+
+
+[03:36:54.266] |I| [renderer::load_shader]: Generating vert shader 8557987f7512c4b705b7a11ec18f399d7c8b05b53fb73dc1975ae544a1a784d1
+[03:36:54.267] |D| [gxp::log_parameter]: Vertex attribute: name:vsIn.aPos semantic:POSITION type:0 component_count:4 container_index:0x0
+[03:36:54.267] |D| [gxp::log_parameter]: Vertex attribute: name:vsIn.bTex0 semantic:TEXCOORD type:0 component_count:4 container_index:0x0
+[03:36:54.268] |D| [gxp::log_parameter]: Uniform: name:g_matWVP semantic:NONE type:0 component_count:4 container_index:0xE
+[03:36:54.270] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 34
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 23  "main_vs" 5 6 13 16
+               1:             String  "8557987f7512c4b705b7a11ec18f399d7c8b05b53fb73dc1975ae544a1a784d1"
+                              SourceExtension  "gxp"
+                              Name 5  "vsIn_aPos"
+                              Name 6  "vsIn_bTex0"
+                              Name 8  "g_matWVP_0"
+                              Name 9  "g_matWVP_1"
+                              Name 10  "g_matWVP_2"
+                              Name 11  "g_matWVP_3"
+                              Name 13  "v_Position"
+                              Name 16  "v_TexCoord0"
+                              Name 18  "i0"
+                              Name 19  "i1"
+                              Name 20  "i2"
+                              Name 23  "main_vs"
+                              Decorate 13(v_Position) BuiltIn Position
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer Input 3(fvec4)
+    5(vsIn_aPos):      4(ptr) Variable Input
+   6(vsIn_bTex0):      4(ptr) Variable Input
+               7:             TypePointer UniformConstant 3(fvec4)
+   8(g_matWVP_0):      7(ptr) Variable UniformConstant
+   9(g_matWVP_1):      7(ptr) Variable UniformConstant
+  10(g_matWVP_2):      7(ptr) Variable UniformConstant
+  11(g_matWVP_3):      7(ptr) Variable UniformConstant
+              12:             TypePointer Output 3(fvec4)
+  13(v_Position):     12(ptr) Variable Output
+              14:             TypeVector 2(float) 2
+              15:             TypePointer Output 14(fvec2)
+ 16(v_TexCoord0):     15(ptr) Variable Output
+              17:             TypePointer Private 3(fvec4)
+          18(i0):     17(ptr) Variable Private
+          19(i1):     17(ptr) Variable Private
+          20(i2):     17(ptr) Variable Private
+              21:             TypeVoid
+              22:             TypeFunction 21
+              25:    2(float) Constant 1056964608
+              26:    2(float) Constant 0
+              27:    2(float) Constant 1065353216
+              28:    2(float) Constant 1073741824
+              29:             TypeVector 2(float) 1
+              30:             TypeVector 2(float) 3
+     23(main_vs):          21 Function None 22
+              24:             Label
+                              Line 1 4294967285 0
+              31:   14(fvec2) VectorShuffle 6(vsIn_bTex0) 6(vsIn_bTex0) 0 1
+                              Store 16(v_TexCoord0) 31
+              32:   30(fvec3) VectorShuffle 5(vsIn_aPos) 5(vsIn_aPos) 0 1 2
+              33:    3(fvec4) VectorShuffle 32 18(i0) 0 1 2 6
+                              Store 18(i0) 33
+                              Return
+                              FunctionEnd
+
+[03:36:54.272] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 g_matWVP_0;
+uniform vec4 g_matWVP_1;
+uniform vec4 g_matWVP_2;
+uniform vec4 g_matWVP_3;
+
+in vec4 vsIn_aPos;
+in vec4 vsIn_bTex0;
+out vec2 v_TexCoord0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+
+void main()
+{
+    v_TexCoord0 = vsIn_bTex0.xy;
+    i0 = vec4(vsIn_aPos.xyz.x, vsIn_aPos.xyz.y, vsIn_aPos.xyz.z, i0.w);
+}
+
+
+[03:36:54.279] |I| [renderer::load_shader]: Generating frag shader bad71fcbae0719748cd6f43f6132812a687f38df66d49fec6b89e0277e9d26c2
+[03:36:54.279] |D| [gxp::log_parameter]: Uniform: name:g_tint semantic:NONE type:0 component_count:4 container_index:0xE
+[03:36:54.280] |D| [gxp::log_parameter]: Uniform: name:g_paletteData semantic:NONE type:0 component_count:4 container_index:0xE
+[03:36:54.281] |D| [gxp::log_parameter]: Sampler: name:sampler_tex0 semantic:ATTR type:0 component_count:4 container_index:0x0
+[03:36:54.281] |D| [gxp::log_parameter]: Sampler: name:sampler_tex1 semantic:ATTR type:0 component_count:4 container_index:0x0
+[03:36:54.282] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(sampler_tex0, TEXCOORD0.xy)
+[03:36:54.283] |E| [shader::usse::USSETranslatorVisitor::load]: Can't load register sa12
+[03:36:54.284] |W| [shader::usse::USSETranslatorVisitor::vnmad32]: Could not find a src register
+[03:36:54.301] |E| [shader::usse::USSETranslatorVisitor::load]: Can't load register pa4
+[03:36:54.302] |E| [shader::usse::USSETranslatorVisitor::load]: Can't load register pa12
+[03:36:54.302] |W| [shader::usse::USSETranslatorVisitor::vnmad32]: Could not find a src register
+[03:36:54.303] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 113
+
+                              Capability Shader
+                              MemoryModel Logical GLSL450
+                              EntryPoint Fragment 28  "main_fs" 13 18 18
+                              ExecutionMode 28 OriginLowerLeft
+               1:             String  "bad71fcbae0719748cd6f43f6132812a687f38df66d49fec6b89e0277e9d26c2"
+                              SourceExtension  "gxp"
+                              Name 5  "g_tint"
+                              Name 6  "g_paletteData"
+                              Name 10  "sampler_tex0"
+                              Name 11  "sampler_tex1"
+                              Name 13  "tex_query0"
+                              Name 16  "v_TexCoord0"
+                              Name 18  "out_color"
+                              Name 19  "r0"
+                              Name 20  "r1"
+                              Name 21  "r2"
+                              Name 22  "r3"
+                              Name 23  "i0"
+                              Name 24  "i1"
+                              Name 25  "i2"
+                              Name 28  "main_fs"
+                              Name 83  "pa2_temp"
+                              Decorate 18(out_color) Location 0
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer UniformConstant 3(fvec4)
+       5(g_tint):      4(ptr) Variable UniformConstant
+6(g_paletteData):      4(ptr) Variable UniformConstant
+               7:             TypeImage 2(float) 2D sampled format:Unknown
+               8:             TypeSampledImage 7
+               9:             TypePointer UniformConstant 8
+10(sampler_tex0):      9(ptr) Variable UniformConstant
+11(sampler_tex1):      9(ptr) Variable UniformConstant
+              12:             TypePointer Private 3(fvec4)
+  13(tex_query0):     12(ptr) Variable Private
+              14:             TypeVector 2(float) 2
+              15:             TypePointer Input 14(fvec2)
+ 16(v_TexCoord0):     15(ptr) Variable Input
+              17:             TypePointer Output 3(fvec4)
+   18(out_color):     17(ptr) Variable Output
+          19(r0):     12(ptr) Variable Private
+          20(r1):     12(ptr) Variable Private
+          21(r2):     12(ptr) Variable Private
+          22(r3):     12(ptr) Variable Private
+          23(i0):     12(ptr) Variable Private
+          24(i1):     12(ptr) Variable Private
+          25(i2):     12(ptr) Variable Private
+              26:             TypeVoid
+              27:             TypeFunction 26
+              31:    2(float) Constant 1056964608
+              32:    2(float) Constant 0
+              33:    2(float) Constant 1065353216
+              34:    2(float) Constant 1073741824
+              35:             TypeVector 2(float) 1
+              36:             TypeVector 2(float) 3
+              45:             TypeInt 32 1
+              46:     45(int) Constant 0
+              79:     45(int) Constant 1
+              81:   14(fvec2) ConstantComposite 33 33
+    83(pa2_temp):     12(ptr) Variable Private
+     28(main_fs):          26 Function None 27
+              29:             Label
+              30:     12(ptr) ImageSampleImplicitLod 10(sampler_tex0) 16(v_TexCoord0)
+                              Store 13(tex_query0) 30
+                              Line 1 4294967282 0
+              37:    35(fvec) VectorShuffle 13(tex_query0) 13(tex_query0) 0
+              38:    35(fvec) VectorShuffle 13(tex_query0) 13(tex_query0) 2
+              39:    35(fvec) VectorShuffle 6(g_paletteData) 6(g_paletteData) 1
+              40:    35(fvec) FMul 38 39
+              41:    3(fvec4) VectorShuffle 40 25(i2) 0 2 3 4
+                              Store 25(i2) 41
+              42:    35(fvec) VectorShuffle 6(g_paletteData) 6(g_paletteData) 0
+              43:    35(fvec) VectorShuffle 25(i2) 25(i2) 0
+              44:    35(fvec) VectorShuffle 23(i0) 23(i0) 0
+              47:    35(fvec) VectorInsertDynamic 44 32 46
+              48:    35(fvec) FMul 42 43
+              49:    35(fvec) FAdd 48 47
+              50:    3(fvec4) VectorShuffle 49 23(i0) 0 2 3 4
+                              Store 23(i0) 50
+              51:    35(fvec) VectorShuffle 23(i0) 23(i0) 0
+              52:    35(fvec) VectorShuffle 23(i0) 23(i0) 0
+              53:    35(fvec) FMul 51 52
+              54:    3(fvec4) VectorShuffle 53 23(i0) 0 2 3 4
+                              Store 23(i0) 54
+              55:    35(fvec) VectorShuffle 6(g_paletteData) 6(g_paletteData) 0
+              56:    35(fvec) VectorShuffle 25(i2) 25(i2) 0
+              57:    35(fvec) VectorShuffle 23(i0) 23(i0) 0
+              58:    35(fvec) FMul 55 56
+              59:    35(fvec) FAdd 58 57
+              60:    3(fvec4) VectorShuffle 59 24(i1) 0 2 3 4
+                              Store 24(i1) 60
+              61:    35(fvec) VectorShuffle 13(tex_query0) 13(tex_query0) 2
+              62:    35(fvec) VectorShuffle 13(tex_query0) 13(tex_query0) 0
+              63:    35(fvec) FMul 61 62
+              64:    3(fvec4) VectorShuffle 63 23(i0) 0 2 3 4
+                              Store 23(i0) 64
+              65:    35(fvec) VectorShuffle 23(i0) 23(i0) 0
+              66:    35(fvec) VectorShuffle 23(i0) 23(i0) 0
+              67:    35(fvec) VectorInsertDynamic 66 33 46
+              68:    35(fvec) VectorShuffle 25(i2) 25(i2) 0
+              69:    35(fvec) FMul 65 67
+              70:    35(fvec) FAdd 69 68
+              71:    3(fvec4) VectorShuffle 70 23(i0) 0 2 3 4
+                              Store 23(i0) 71
+              72:    35(fvec) VectorShuffle 6(g_paletteData) 6(g_paletteData) 2
+              73:    35(fvec) VectorShuffle 24(i1) 24(i1) 0
+              74:    35(fvec) VectorShuffle 23(i0) 23(i0) 0
+              75:    35(fvec) FMul 72 73
+              76:    35(fvec) FAdd 75 74
+              77:    3(fvec4) VectorShuffle 76 23(i0) 0 2 3 4
+                              Store 23(i0) 77
+              78:   14(fvec2) VectorShuffle 23(i0) 23(i0) 0 0
+              80:   14(fvec2) VectorInsertDynamic 78 32 79
+              82:   14(fvec2) FMul 80 81
+              84:    3(fvec4) Load 13(tex_query0)
+                              Store 83(pa2_temp) 84
+              85:    3(fvec4) VectorShuffle 82 83(pa2_temp) 2 3 0 1
+                              Store 83(pa2_temp) 85
+              86:    3(fvec4) Load 83(pa2_temp)
+              87:    3(fvec4) Load 83(pa2_temp)
+              88:   14(fvec2) FMul 86 87
+              89:    3(fvec4) VectorShuffle 88 19(r0) 0 1 4 5
+                              Store 19(r0) 89
+              90:    3(fvec4) Load 83(pa2_temp)
+              91:    3(fvec4) Load 83(pa2_temp)
+              92:   14(fvec2) FMul 90 91
+              93:    3(fvec4) VectorShuffle 92 19(r0) 2 3 0 1
+                              Store 19(r0) 93
+                              Line 1 4294967277 0
+              94:   14(fvec2) VectorShuffle 83(pa2_temp) 83(pa2_temp) 0 0
+              95:   14(fvec2) VectorInsertDynamic 94 32 79
+              96:   14(fvec2) FMul 95 81
+              97:    3(fvec4) VectorShuffle 96 19(r0) 0 1 4 5
+                              Store 19(r0) 97
+              98:   14(fvec2) VectorShuffle 19(r0) 19(r0) 0 1
+              99:   14(fvec2) VectorShuffle 19(r0) 19(r0) 0 1
+             100:   14(fvec2) FMul 98 99
+             101:    3(fvec4) VectorShuffle 100 83(pa2_temp) 0 1 4 5
+                              Store 83(pa2_temp) 101
+             102:   14(fvec2) VectorShuffle 19(r0) 19(r0) 0 1
+             103:   14(fvec2) VectorShuffle 19(r0) 19(r0) 0 1
+             104:   14(fvec2) FMul 102 103
+             105:    3(fvec4) VectorShuffle 104 83(pa2_temp) 0 1 4 5
+                              Store 83(pa2_temp) 105
+                              Line 1 4294967275 0
+             106:    3(fvec4) Load 5(g_tint)
+                              Store 23(i0) 106
+             107:    3(fvec4) Load 19(r0)
+             108:    3(fvec4) VectorShuffle 23(i0) 23(i0) 0 1 2 3
+             109:    3(fvec4) FMul 107 108
+                              Store 23(i0) 109
+             110:    3(fvec4) VectorShuffle 23(i0) 23(i0) 0 1 2 3
+             111:    3(fvec4) VectorShuffle 110 83(pa2_temp) 3 0 1 2
+                              Store 83(pa2_temp) 111
+             112:    3(fvec4) Load 83(pa2_temp)
+                              Store 18(out_color) 112
+                              Return
+                              FunctionEnd
+

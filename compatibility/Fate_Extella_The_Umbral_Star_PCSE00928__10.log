@@ -1,0 +1,86 @@
+[05:47:45.658] |I| [SDL_main]:  Vita3K v0.1 571-70599d3
+[05:47:45.925] |I| [init]:  Swap interval = -1
+[05:47:47.600] |I| [install_vpk]:  PCSE00928 already installed, launching application...
+[05:47:47.601] |I| [load_app_impl]:  Title: Fate Extella
+[05:47:47.602] |I| [load_app_impl]:  Serial: PCSE00928
+[05:47:47.602] |I| [load_app_impl]:  Category: gd
+[05:47:47.655] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libc.suprx
+[05:47:47.656] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x48314
+[05:47:47.656] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3D4DC
+[05:47:47.656] |E| [load_var_imports]:  	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x431D0: 0x140
+[05:47:47.656] |I| [load_app_impl]:  Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[05:47:47.672] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[05:47:47.673] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x82BC8
+[05:47:47.674] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x79F08
+[05:47:47.674] |I| [load_app_impl]:  Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[05:47:47.680] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libult.suprx
+[05:47:47.680] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x9B2E8
+[05:47:47.681] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x98870
+[05:47:47.681] |E| [load_var_imports]:  	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x990BC: 0x1040
+[05:47:47.681] |I| [load_app_impl]:  Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[05:47:48.065] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[05:47:48.065] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x774938
+[05:47:48.065] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x851B30
+[05:47:48.066] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x7FAE1C
+[05:47:48.066] |I| [load_app_impl]:  Main executable cosmos (eboot.bin) loaded
+[05:47:48.071] |D| [run_app]:  Running module_start of library: SceLibc
+[05:47:48.171] |T| [open_file]:  sceKernelGetStdin: Opening file tty0: (tty0:)
+[05:47:48.172] |T| [open_file]:  sceKernelGetStdout: Opening file tty0: (tty0:)
+[05:47:48.172] |T| [open_file]:  sceKernelGetStderr: Opening file tty0: (tty0:)
+[05:47:48.180] |I| [run_app]:  Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[05:47:48.181] |D| [run_app]:  Running module_start of library: SceLibFios2
+[05:47:48.185] |W| [stubbed_impl]:  Stubbed sceKernelGetProcessId import called. (pid: 0)
+[05:47:48.186] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayGetList02 import called.
+[05:47:48.186] |I| [run_app]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[05:47:48.187] |D| [run_app]:  Running module_start of library: SceUlt
+[05:47:48.191] |E| [call_import]:  Import function for NID 0x50F2F2AA not found (thread ID: 41)
+[05:47:48.192] |I| [run_app]:  Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[05:47:48.194] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSE00928/mai_moe/mai.suprx)
+[05:47:48.194] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[05:47:48.195] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[05:47:48.195] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87866
+[05:47:48.206] |I| [load_self]:  Loading symbols for SELF: app0:mai_moe/mai.suprx
+[05:47:48.207] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0xEDE67E4
+[05:47:48.208] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0xEDE6840
+[05:47:48.208] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x3
+[05:47:48.234] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00928/mai_moe/load_type.mai)
+[05:47:48.235] |I| [export_sceIoOpen]:  Opening file: app0:mai_moe/load_type.mai
+[05:47:48.236] |T| [open_file]:  sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSE00928/mai_moe/load_type.mai)
+[05:47:48.237] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00928/mai_moe/load_type.mai)
+[05:47:48.238] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[05:47:48.238] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1
+[05:47:48.239] |T| [close_file]:  sceIoClose: Closing file: fd: 0x4
+[05:47:48.244] |I| [export_sceKernelLoadStartModule]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[05:47:48.245] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSE00928/sce_module/libfios2_m.suprx)
+[05:47:48.246] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[05:47:48.247] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[05:47:48.247] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x5, size: 266640
+[05:47:48.263] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[05:47:48.263] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0xEE95BC8
+[05:47:48.264] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0xEE8CF08
+[05:47:48.265] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x5
+[05:47:48.270] |I| [export_sceKernelLoadStartModule]:  Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[05:47:48.272] |T| [open_dir]:  sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[05:47:48.274] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x80010002
+[05:47:48.274] |W| [io_error_impl]:  read_dir (sceIoDread) returned 0x80010051
+[05:47:48.275] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x80010002
+[05:47:48.275] |W| [io_error_impl]:  close_dir (sceIoDclose) returned 0x80010051
+[05:47:48.334] |I| [export_sceKernelLoadStartModule]:  Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[05:47:48.335] |W| [unimplemented_impl]:  Unimplemented sceKernelGetModuleInfoByAddr import called.
+[05:47:48.337] |W| [unimplemented_impl]:  Unimplemented sceKernelRegisterThreadEventHandler import called.
+[05:47:49.031] |W| [unimplemented_impl]:  Unimplemented sceAppUtilInit import called.
+[05:47:49.055] |W| [unimplemented_impl]:  Unimplemented sceKernelChangeThreadVfpException import called.
+[05:47:49.057] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[05:47:49.093] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[05:47:49.096] |T| [stat_file]:  sceIoGetstat: Statting file app0:/resource/common/boot_config.ini (ux0:/app/PCSE00928//resource/common/boot_config.ini)
+[05:47:49.116] |I| [export_sceIoOpen]:  Opening file: app0:/resource/common/boot_config.ini
+[05:47:49.116] |T| [open_file]:  sceIoOpen: Opening file app0:/resource/common/boot_config.ini (ux0:/app/PCSE00928//resource/common/boot_config.ini)
+[05:47:49.117] |T| [stat_file]:  sceIoGetstat: Statting file app0:/resource/common/boot_config.ini (ux0:/app/PCSE00928//resource/common/boot_config.ini)
+[05:47:49.121] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0x6 at offset: 0x0, whence: SCE_SEEK_SET
+[05:47:49.121] |T| [read_file]:  sceIoPread: Reading file: fd: 0x6, size: 147
+[05:47:49.123] |T| [close_file]:  sceIoClose: Closing file: fd: 0x6
+[05:47:49.139] |W| [unimplemented_impl]:  Unimplemented sceKernelGetTimerTimeWide import called.
+[05:47:49.143] |E| [call_import]:  Import function for NID 0xE7F5BE01 not found (thread ID: 4)
+[05:47:49.146] |I| [export_sceIoOpen]:  Opening file: app0:/resource/target/psp2/pack/mount/retail/archive.pkh
+[05:47:49.146] |T| [open_file]:  sceIoOpen: Opening file app0:/resource/target/psp2/pack/mount/retail/archive.pkh (ux0:/app/PCSE00928//resource/target/psp2/pack/mount/retail/archive.pkh)
+[05:47:49.147] |T| [stat_file]:  sceIoGetstat: Statting file app0:/resource/target/psp2/pack/mount/retail/archive.pkh (ux0:/app/PCSE00928//resource/target/psp2/pack/mount/retail/archive.pkh)

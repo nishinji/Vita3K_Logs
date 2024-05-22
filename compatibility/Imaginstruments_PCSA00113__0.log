@@ -1,0 +1,94 @@
+[03:01:28.050] |I| [SDL_main]:  Vita3K v0.1 523-32e9a31
+[03:01:28.426] |I| [init]:  Swap interval = -1
+[03:01:29.278] |I| [install_vpk]:  PCSA00113 already installed, launching application...
+[03:01:29.279] |I| [load_app_impl]:  Title: Imaginstruments™
+[03:01:29.279] |I| [load_app_impl]:  Serial: PCSA00113
+[03:01:29.279] |I| [load_app_impl]:  Category: gd
+[03:01:29.290] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libc.suprx
+[03:01:29.290] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x37F30
+[03:01:29.290] |E| [load_var_imports]:  	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x3D4A4: 0x140
+[03:01:29.290] |I| [load_app_impl]:  Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[03:01:29.297] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[03:01:29.297] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x6BB64
+[03:01:29.297] |I| [load_app_impl]:  Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[03:01:29.301] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libult.suprx
+[03:01:29.301] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8A1CC
+[03:01:29.301] |E| [load_var_imports]:  	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x8AA00: 0xF40
+[03:01:29.301] |I| [load_app_impl]:  Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[03:01:29.305] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[03:01:29.305] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81019B78
+[03:01:29.305] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x810217C8
+[03:01:29.305] |I| [load_app_impl]:  Main executable Imaginstruments (eboot.bin) loaded
+[03:01:29.309] |D| [run_app]:  Running module_start of library: SceLibc
+[03:01:29.328] |T| [open_file]:  sceKernelGetStdin: Opening file tty0: (tty0:)
+[03:01:29.328] |T| [open_file]:  sceKernelGetStdout: Opening file tty0: (tty0:)
+[03:01:29.329] |T| [open_file]:  sceKernelGetStderr: Opening file tty0: (tty0:)
+[03:01:29.334] |I| [run_app]:  Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[03:01:29.335] |D| [run_app]:  Running module_start of library: SceLibFios2
+[03:01:29.345] |W| [stubbed_impl]:  Stubbed sceKernelGetProcessId import called. (pid: 0)
+[03:01:29.346] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayGetList02 import called.
+[03:01:29.346] |I| [run_app]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[03:01:29.347] |D| [run_app]:  Running module_start of library: SceUlt
+[03:01:29.352] |E| [call_import]:  Import function for NID 0x50F2F2AA not found (thread ID: 36)
+[03:01:29.352] |I| [run_app]:  Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[03:01:29.354] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSA00113/mai_moe/mai.suprx)
+[03:01:29.354] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[03:01:29.355] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[03:01:29.355] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87866
+[03:01:29.355] |I| [load_self]:  Loading symbols for SELF: app0:mai_moe/mai.suprx
+[03:01:29.357] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x20D47E4
+[03:01:29.358] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x20D4840
+[03:01:29.358] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x3
+[03:01:29.370] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSA00113/mai_moe/load_type.mai)
+[03:01:29.371] |I| [export_sceIoOpen]:  Opening file: app0:mai_moe/load_type.mai
+[03:01:29.371] |T| [open_file]:  sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSA00113/mai_moe/load_type.mai)
+[03:01:29.372] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSA00113/mai_moe/load_type.mai)
+[03:01:29.373] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[03:01:29.373] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1
+[03:01:29.374] |T| [close_file]:  sceIoClose: Closing file: fd: 0x4
+[03:01:29.378] |I| [export_sceKernelLoadStartModule]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[03:01:29.380] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSA00113/sce_module/libfios2_m.suprx)
+[03:01:29.381] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[03:01:29.382] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[03:01:29.382] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x5, size: 226544
+[03:01:29.383] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[03:01:29.383] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2173B64
+[03:01:29.384] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x5
+[03:01:29.395] |I| [export_sceKernelLoadStartModule]:  Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[03:01:29.396] |T| [open_dir]:  sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[03:01:29.397] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[03:01:29.397] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[03:01:29.398] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[03:01:29.398] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x6
+[03:01:29.471] |I| [export_sceKernelLoadStartModule]:  Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[03:01:29.482] |W| [unimplemented_impl]:  Unimplemented sceAppUtilInit import called.
+[03:01:29.482] |W| [unimplemented_impl]:  Unimplemented sceCommonDialogSetConfigParam import called.
+[03:01:29.484] |W| [unimplemented_impl]:  Unimplemented sceTouchSetSamplingState import called.
+[03:01:29.484] |W| [unimplemented_impl]:  Unimplemented sceTouchGetPanelInfo import called.
+[03:01:29.486] |W| [stubbed_impl]:  Stubbed sceNgsSystemGetRequiredMemorySize import called. (size = 1)
+[03:01:29.487] |W| [unimplemented_impl]:  Unimplemented sceNgsSystemInit import called.
+[03:01:29.487] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetTemplate1 import called.
+[03:01:29.488] |W| [stubbed_impl]:  Stubbed sceNgsRackGetRequiredMemorySize import called. (size = 1)
+[03:01:29.489] |W| [unimplemented_impl]:  Unimplemented sceNgsRackInit import called.
+[03:01:29.490] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetAtrac9Voice import called.
+[03:01:29.492] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetEqBuss import called.
+[03:01:29.493] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetMasterBuss import called.
+[03:01:29.494] |W| [unimplemented_impl]:  Unimplemented sceNgsRackGetVoiceHandle import called.
+[03:01:29.494] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceSetModuleCallback import called.
+[03:01:29.495] |W| [stubbed_impl]:  Stubbed sceNgsVoiceLockParams import called. (Ngs buffer stubbed)
+[03:01:29.496] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceUnlockParams import called.
+[03:01:29.496] |W| [unimplemented_impl]:  Unimplemented sceNgsPatchCreateRouting import called.
+[03:01:29.497] |W| [stubbed_impl]:  Stubbed sceNgsPatchGetInfo import called. (2 in/out channels)
+[03:01:29.497] |W| [unimplemented_impl]:  Unimplemented sceNgsVoicePatchSetVolumesMatrix import called.
+[03:01:29.498] |W| [unimplemented_impl]:  Unimplemented sceNgsVoicePlay import called.
+[03:01:29.499] |W| [unimplemented_impl]:  Unimplemented sceAudioOutSetVolume import called.
+[03:01:29.503] |W| [unimplemented_impl]:  Unimplemented sceNgsSystemUpdate import called.
+[03:01:29.504] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceGetStateData import called.
+[03:01:29.545] |I| [renderer::create]:  GL_VERSION = 4.1.0 NVIDIA 398.11
+[03:01:29.546] |I| [renderer::create]:  GL_SHADING_LANGUAGE_VERSION = 4.10 NVIDIA via Cg compiler
+[03:01:29.558] |W| [unimplemented_impl]:  Unimplemented sceDisplayWaitSetFrameBuf import called.
+[03:01:29.561] |E| [renderer::load_vertex_shader]:  Missing vertex shader 99cc16e76ba65bf5f87d10051d1848bb9473ad69240ce1aa88a33b277f34bdcc
+[03:01:29.561] |D| [renderer::log_parameter]:  Vertex attribute: name:position type:0 component_count:0x4 container_index:0x0
+[03:01:29.582] |E| [renderer::load_fragment_shader]:  Missing fragment shader 8851c743d65365bf5f64e633f69905811fcba6721127ba026bb4c665a1f8729a
+[03:01:29.582] |D| [renderer::log_parameter]:  Uniform: name:color type:0 component_count:0x4 container_index:0xE
+[03:01:29.588] |W| [unimplemented_impl]:  Unimplemented scePvfNewLib import called.
