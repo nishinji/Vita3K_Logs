@@ -1,0 +1,963 @@
+[12:19:31.330] |I| [config::init_config]: backend-renderer: Vulkan
+[12:19:31.330] |I| [config::init_config]: log-level: 0
+[12:19:31.572] |I| [SDL_main]: Vita3K v0.1.9 3496-aab4d821
+[12:19:31.573] |I| [SDL_main]: Number of logical CPU cores: 32
+[12:19:31.573] |I| [SDL_main]: Available ram memory: 32648 MiB
+[12:19:31.575] |I| [app::init]: Base path: C:/Users/tamag/Desktop/emu/windows-latest/
+[12:19:31.575] |I| [app::init]: Static assets path: C:\Users\tamag\Desktop\emu\windows-latest\
+[12:19:31.575] |I| [app::init]: Shared path: C:/Users/tamag/Desktop/emu/windows-latest/
+[12:19:31.575] |I| [app::init]: Log path: C:/Users/tamag/Desktop/emu/windows-latest/
+[12:19:31.575] |I| [app::init]: User config path: C:/Users/tamag/Desktop/emu/windows-latest/
+[12:19:31.575] |I| [app::init]: User pref path: F:\vita3k/
+[12:19:31.575] |I| [app::init]: User cache path: C:/Users/tamag/Desktop/emu/windows-latest/cache/
+[12:19:31.645] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[12:19:31.706] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060 Ti
+[12:19:31.706] |I| [renderer::vulkan::VKState::create]: Driver version: 537.13.0.0
+[12:19:31.707] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[12:19:31.976] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[12:19:32.453] |I| [compat::update_app_compat_db]: Applications compatibility database is up to date.
+[12:19:32.454] |W| [compat::load_app_compat_db]: App with Title ID PCSE00909 has an issue but no status label. Please check GitHub issue 2386 and request a status label be added.
+[12:19:32.611] |I| [gui::load_app_icon]: Default icon found for App RETROVITA, [RETROVITA] in path RETROVITA.
+[12:19:32.612] |I| [gui::load_app_icon]: Default icon found for App VDEC00001, [French American Games Decrypter] in path VDEC00001.
+[12:19:32.616] |I| [gui::load_app_icon]: Default icon found for App VKBUG0000, [vita3k-bugs] in path VKBUG0000.
+[12:19:32.617] |I| [gui::load_app_icon]: Default icon found for App VSDK00010, [Motion example] in path VSDK00010.
+[12:19:32.617] |I| [gui::load_app_icon]: Default icon found for App WAVE00001, [Wave Viewer] in path WAVE00001.
+[12:19:40.032] |I| [renderer::vulkan::VKState::late_init]: Using shader interlock for accurate framebuffer fetch emulation
+[12:19:40.034] |I| [load_app_impl]: cpu-backend: Dynarmic
+[12:19:40.034] |I| [load_app_impl]: CPU Optimisation state: true
+[12:19:40.035] |I| [load_app_impl]: ngs state: true
+[12:19:40.035] |I| [load_app_impl]: Resolution multiplier: 4
+[12:19:40.036] |I| [load_app_impl]: 1 Controllers Connected
+[12:19:40.036] |I| [load_app_impl]: Controller 0: PS4 Controller
+[12:19:40.037] |I| [load_app_impl]: Controller has motion support
+[12:19:40.037] |I| [load_app_impl]: modules mode: Automatic
+[12:19:40.038] |I| [load_app_impl]: Title: 彼女（あのコ）はオレからはなれない
+[12:19:40.038] |I| [load_app_impl]: Serial: PCSG00342
+[12:19:40.038] |I| [load_app_impl]: Version: 1.00
+[12:19:40.039] |I| [load_app_impl]: Category: gd
+[12:19:40.040] |I| [load_module]: Loading module "app0:eboot.bin"
+[12:19:40.050] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[12:19:40.050] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x80043898 / 0x81000000] (size: 0x0003F898) of module app0:eboot.bin
+[12:19:40.051] |I| [load_self]: Loaded module segment 1 @ [0x80044000 - 0x8004B290 / 0x81040000] (size: 0x00007290) of module app0:eboot.bin
+[12:19:40.052] |I| [load_self]: Linking SELF app0:eboot.bin...
+[12:19:40.053] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80037f90
+[12:19:40.053] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x80044a5c
+[12:19:40.054] |I| [load_module]: Module AnoOre (at "app0:eboot.bin") loaded
+[12:19:40.054] |I| [load_app_impl]: Main executable AnoOre (eboot.bin) loaded
+[12:19:40.054] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[12:19:40.067] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[12:19:40.067] |I| [load_self]: Loaded module segment 0 @ [0x8004C000 - 0x800993BC / 0x81000000] (size: 0x0004D3BC) of module app0:sce_module/libc.suprx
+[12:19:40.068] |I| [load_self]: Loaded module segment 1 @ [0x8009A000 - 0x8009C6F0 / 0x8104E000] (size: 0x000026F0) of module app0:sce_module/libc.suprx
+[12:19:40.069] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[12:19:40.069] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8008f164
+[12:19:40.069] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x800850fc
+[12:19:40.070] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[12:19:40.070] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[12:19:40.080] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[12:19:40.081] |I| [load_self]: Loaded module segment 0 @ [0x8009D000 - 0x800C812C / 0x81000000] (size: 0x0002B12C) of module app0:sce_module/libfios2.suprx
+[12:19:40.081] |I| [load_self]: Loaded module segment 1 @ [0x800C9000 - 0x800CE23D / 0x8102C000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[12:19:40.082] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[12:19:40.083] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x800c8034
+[12:19:40.083] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x800bf548
+[12:19:40.084] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[12:19:40.084] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[12:19:40.095] |I| [load_self]: Loaded module segment 0 @ [0x800CF000 - 0x8011FF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[12:19:40.095] |I| [load_self]: Loaded module segment 1 @ [0x80120000 - 0x801202F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[12:19:40.096] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[12:19:40.096] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8010b7dc
+[12:19:40.097] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8010af10
+[12:19:40.097] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[12:19:40.098] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[12:19:40.104] |I| [load_self]: Loaded module segment 0 @ [0x80121000 - 0x80130F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[12:19:40.106] |I| [load_self]: Loaded module segment 1 @ [0x80131000 - 0x80131008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[12:19:40.106] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[12:19:40.107] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8012f710
+[12:19:40.107] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8012f300
+[12:19:40.108] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[12:19:40.114] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[12:19:40.114] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[12:19:40.121] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/2
+[12:19:40.127] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/2
+[12:19:40.139] |D| [start_module]: Running module_start of library: SceLibc at address 0x8004c809
+[12:19:40.154] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[12:19:40.154] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[12:19:40.154] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[12:19:40.161] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[12:19:40.163] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x8009d001
+[12:19:40.175] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[12:19:40.175] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[12:19:40.177] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x80037f10
+[12:19:40.178] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x80037e50
+[12:19:40.191] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x80037e70
+[12:19:40.196] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[12:19:40.205] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[12:19:40.374] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[12:19:40.383] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72e58672 scePvfNewLib at 0x80037800
+[12:19:40.383] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x80037f00
+[12:19:40.389] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9a004680 printf at 0x80037ec0
+[12:19:40.393] |T| [write_file]: *** TTY: PVF> Library instance ID = 0x8121c854
+[12:19:40.394] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdfb677c5 scePvfSetEM at 0x80037860
+[12:19:40.394] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc4444fb3 scePvfSetResolution at 0x80037840
+[12:19:40.394] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2761feac scePvfFindOptimumFont at 0x800377d0
+[12:19:40.396] |T| [write_file]: *** TTY: PVF> targetFontIndex (JPN) = 0
+[12:19:40.396] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe35434bb scePvfOpen at 0x80037880
+[12:19:40.398] |I| [export_sceIoOpen]: Opening file: sa0:data/font/pvf/jpn0.pvf
+[12:19:40.398] |T| [open_file]: sceIoOpen: Opening file sa0:data/font/pvf/jpn0.pvf (sa0:/data/font/pvf/jpn0.pvf), fd: 0x3
+[12:19:40.399] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: sa0:data/font/pvf/jpn0.pvf
+
+[12:19:40.400] |W| [export_sceIoIoctl::<lambda_1>::operator ()]: Unimplemented sceIoIoctl import called.
+[12:19:40.401] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[12:19:40.406] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x80037e40
+[12:19:40.421] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x80037e60
+[12:19:40.433] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf17ade4d scePvfSetCharSize at 0x80037890
+[12:19:40.433] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3dd09bc9 scePvfSetSkewValue at 0x800377e0
+[12:19:40.434] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6e787722 scePvfSetEmboldenRate at 0x800377f0
+[12:19:40.434] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[12:19:40.435] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[12:19:40.442] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[12:19:40.443] |I| [load_self]: Loaded module segment 0 @ [0x81BDD000 - 0x81BF19FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[12:19:40.443] |I| [load_self]: Loaded module segment 1 @ [0x808D7000 - 0x808D706C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[12:19:40.444] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[12:19:40.445] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x81beed40
+[12:19:40.445] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x81bed548
+[12:19:40.446] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[12:19:40.446] |D| [start_module]: Running module_start of library: SceAvPlayer at address 0x81bdd001
+[12:19:40.458] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[12:19:40.460] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[12:19:40.465] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[12:19:40.466] |I| [load_self]: Loaded module segment 0 @ [0x81BF2000 - 0x81C01D20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[12:19:40.468] |I| [load_self]: Loaded module segment 1 @ [0x80AD7000 - 0x80AD7028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[12:19:40.469] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[12:19:40.469] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x81c019d0
+[12:19:40.469] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x81c008c4
+[12:19:40.470] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[12:19:40.472] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[12:19:40.483] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SYSTEM_GESTURE
+[12:19:40.483] |I| [load_module]: Loading module "vs0:sys/external/libsystemgesture.suprx"
+[12:19:40.488] |I| [load_self]: vs0:sys/external/libsystemgesture.suprx: Skipping special segment 0x6fffff01...
+[12:19:40.488] |I| [load_self]: Loaded module segment 0 @ [0x81C06000 - 0x81C0908C / 0x81000000] (size: 0x0000308C) of module vs0:sys/external/libsystemgesture.suprx
+[12:19:40.489] |I| [load_self]: Loaded module segment 1 @ [0x8107E000 - 0x8107EBF0 / 0x81004000] (size: 0x00000BF0) of module vs0:sys/external/libsystemgesture.suprx
+[12:19:40.490] |I| [load_self]: Linking SELF vs0:sys/external/libsystemgesture.suprx...
+[12:19:40.490] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x81c09074
+[12:19:40.491] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x81c08bd4
+[12:19:40.491] |I| [load_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") loaded
+[12:19:40.492] |D| [start_module]: Running module_start of library: SceSystemGesture at address 0x81c06001
+[12:19:40.504] |I| [start_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") module_start returned 0x0
+[12:19:40.506] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6078a08b sceSystemGestureInitializePrimitiveTouchRecognizer at 0x800378e0
+[12:19:40.507] |W| [export_sceTouchGetPixelDensity2::<lambda_1>::operator ()]: Stubbed sceTouchGetPixelDensity2 import called. (Return constant values (22.0))
+[12:19:40.508] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3367370 sceSystemGestureCreateTouchRecognizer at 0x80037920
+[12:19:40.509] |T| [write_file]: *** TTY: tap recognizer created (front : top-left)
+[12:19:40.509] |T| [write_file]: *** TTY: tap and hold recognizer created (front : top-right)
+[12:19:40.510] |T| [write_file]: *** TTY: multi-tap recognizer created (front : bottom-left)
+[12:19:40.510] |T| [write_file]: *** TTY: drag recognizer created (front : bottomright)
+[12:19:40.510] |T| [write_file]: *** TTY: pinch out/in recognizer created (front : top-left)
+[12:19:40.511] |T| [write_file]: *** TTY: pinch out/in recognizer created (back : full-screen)
+[12:19:40.511] |T| [write_file]: *** TTY: rotation recognizer created (front : bottom-left)
+[12:19:40.512] |T| [write_file]: *** TTY: rotation recognizer created (back : full-screen)
+[12:19:40.512] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_ATRAC
+[12:19:40.513] |I| [load_module]: Loading module "vs0:sys/external/libatrac.suprx"
+[12:19:40.520] |I| [load_self]: vs0:sys/external/libatrac.suprx: Skipping special segment 0x6fffff01...
+[12:19:40.520] |I| [load_self]: Loaded module segment 0 @ [0x81C0A000 - 0x81C0D55C / 0x81000000] (size: 0x0000355C) of module vs0:sys/external/libatrac.suprx
+[12:19:40.521] |I| [load_self]: Loaded module segment 1 @ [0x8123D000 - 0x8123E038 / 0x81004000] (size: 0x00001038) of module vs0:sys/external/libatrac.suprx
+[12:19:40.522] |I| [load_self]: Linking SELF vs0:sys/external/libatrac.suprx...
+[12:19:40.522] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x81c0d558
+[12:19:40.523] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x81c0cdb4
+[12:19:40.523] |I| [load_module]: Module SceAtrac (at "vs0:sys/external/libatrac.suprx") loaded
+[12:19:40.524] |D| [start_module]: Running module_start of library: SceAtrac at address 0x81c0b531
+[12:19:40.536] |I| [start_module]: Module SceAtrac (at "vs0:sys/external/libatrac.suprx") module_start returned 0x0
+[12:19:40.539] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1a34b331 sceAtracQueryDecoderGroupMemSize at 0x80037690
+[12:19:40.539] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1bfb98c sceAtracCreateDecoderGroup at 0x80037670
+[12:19:40.540] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[12:19:40.540] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[12:19:40.544] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR05953_00/TROPHY.TRP (ux0:/app/PCSG00342/sce_sys/trophy/NPWR05953_00/TROPHY.TRP), fd: 0x4
+[12:19:40.549] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR05953_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR05953_00/TROPUSR.DAT), fd: 0x5
+[12:19:40.554] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR05953_00/TROPCONF.SFM), fd: 0x6
+[12:19:40.554] |T| [write_file]: install_trophy_context: Writing to fd: 0x6, size: 1127
+[12:19:40.554] |T| [close_file]: install_trophy_context: Closing file fd: 0x6
+[12:19:40.559] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR05953_00/TROP.SFM), fd: 0x7
+[12:19:40.559] |T| [write_file]: install_trophy_context: Writing to fd: 0x7, size: 2585
+[12:19:40.560] |T| [close_file]: install_trophy_context: Closing file fd: 0x7
+[12:19:40.563] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/ICON0.PNG), fd: 0x8
+[12:19:40.564] |T| [write_file]: install_trophy_context: Writing to fd: 0x8, size: 117841
+[12:19:40.564] |T| [close_file]: install_trophy_context: Closing file fd: 0x8
+[12:19:40.568] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP000.PNG), fd: 0x9
+[12:19:40.568] |T| [write_file]: install_trophy_context: Writing to fd: 0x9, size: 106019
+[12:19:40.569] |T| [close_file]: install_trophy_context: Closing file fd: 0x9
+[12:19:40.573] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP001.PNG), fd: 0xa
+[12:19:40.573] |T| [write_file]: install_trophy_context: Writing to fd: 0xa, size: 125610
+[12:19:40.573] |T| [close_file]: install_trophy_context: Closing file fd: 0xa
+[12:19:40.577] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP002.PNG), fd: 0xb
+[12:19:40.580] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 102217
+[12:19:40.580] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[12:19:40.583] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP003.PNG), fd: 0xc
+[12:19:40.584] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 113553
+[12:19:40.584] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[12:19:40.588] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP004.PNG), fd: 0xd
+[12:19:40.588] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 117989
+[12:19:40.589] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[12:19:40.592] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP005.PNG), fd: 0xe
+[12:19:40.599] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 74235
+[12:19:40.600] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[12:19:40.604] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP006.PNG), fd: 0xf
+[12:19:40.604] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 89361
+[12:19:40.604] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[12:19:40.608] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP007.PNG), fd: 0x10
+[12:19:40.611] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 112055
+[12:19:40.611] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[12:19:40.615] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP008.PNG), fd: 0x11
+[12:19:40.616] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 105347
+[12:19:40.616] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[12:19:40.619] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP009.PNG), fd: 0x12
+[12:19:40.620] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 94573
+[12:19:40.620] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[12:19:40.624] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05953_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR05953_00/TROP010.PNG), fd: 0x13
+[12:19:40.624] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 112109
+[12:19:40.627] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[12:19:40.628] |T| [close_file]: create_trophy_context: Closing file fd: 0x5
+[12:19:40.628] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR05953_00 create successfuly!
+[12:19:40.629] |W| [export_sceNpTrophyCreateHandle::<lambda_1>::operator ()]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[12:19:40.664] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x80037f60
+[12:19:40.669] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa778a14b wcslen at 0x80037ef0
+[12:19:40.700] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x80037e00
+[12:19:40.701] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_marker_first_read.png
+[12:19:40.705] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_marker_first_read.png (ux0:/app/PCSG00342/resource/image/sys/sys_marker_first_read.png), fd: 0x14
+[12:19:40.706] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[12:19:40.711] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_marker_not_first.png
+[12:19:40.715] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_marker_not_first.png (ux0:/app/PCSG00342/resource/image/sys/sys_marker_not_first.png), fd: 0x15
+[12:19:40.715] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[12:19:40.716] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_marker_skip.png
+[12:19:40.719] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_marker_skip.png (ux0:/app/PCSG00342/resource/image/sys/sys_marker_skip.png), fd: 0x16
+[12:19:40.721] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[12:19:40.722] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_marker_all_skip.png
+[12:19:40.725] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_marker_all_skip.png (ux0:/app/PCSG00342/resource/image/sys/sys_marker_all_skip.png), fd: 0x17
+[12:19:40.726] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[12:19:40.726] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_marker_auto.png
+[12:19:40.729] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_marker_auto.png (ux0:/app/PCSG00342/resource/image/sys/sys_marker_auto.png), fd: 0x18
+[12:19:40.730] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[12:19:40.731] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_marker_quick_save.png
+[12:19:40.734] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_marker_quick_save.png (ux0:/app/PCSG00342/resource/image/sys/sys_marker_quick_save.png), fd: 0x19
+[12:19:40.734] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[12:19:40.825] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_panel_button_base.png
+[12:19:40.829] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_panel_button_base.png (ux0:/app/PCSG00342/resource/image/sysc/sysc_panel_button_base.png), fd: 0x1a
+[12:19:40.830] |T| [close_file]: sceIoClose: Closing file fd: 0x1a
+[12:19:40.832] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_panel_button_mark.png
+[12:19:40.835] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_panel_button_mark.png (ux0:/app/PCSG00342/resource/image/sysc/sysc_panel_button_mark.png), fd: 0x1b
+[12:19:40.836] |T| [close_file]: sceIoClose: Closing file fd: 0x1b
+[12:19:40.841] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xab0c7cf2 scePvfGetFontInfo at 0x80037830
+[12:19:40.843] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa88eedb0 scePvfGetCharInfo at 0x80037820
+[12:19:40.858] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa55f973f scePvfGetCharGlyphImage_Clip at 0x80037810
+[12:19:40.890] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_button_number.png
+[12:19:40.895] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_button_number.png (ux0:/app/PCSG00342/resource/image/sysc/sysc_button_number.png), fd: 0x1c
+[12:19:40.895] |T| [close_file]: sceIoClose: Closing file fd: 0x1c
+[12:19:40.913] |I| [export_sceIoOpen]: Opening file: savedata0:system.dat
+[12:19:40.916] |T| [open_file]: sceIoOpen: Opening file savedata0:system.dat (ux0:/user/00/savedata/PCSG00342/system.dat), fd: 0x1d
+[12:19:40.917] |T| [close_file]: sceIoClose: Closing file fd: 0x1d
+[12:19:40.921] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00342/SlotParam_0.bin), fd: 0x1e
+[12:19:40.921] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x1e
+[12:19:40.922] |I| [export_sceIoOpen]: Opening file: savedata0:system.dat
+[12:19:40.922] |T| [open_file]: sceIoOpen: Opening file savedata0:system.dat (ux0:/user/00/savedata/PCSG00342/system.dat), fd: 0x1f
+[12:19:40.924] |T| [close_file]: sceIoClose: Closing file fd: 0x1f
+[12:19:40.926] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfffbe239 fopen at 0x80037f40
+[12:19:40.927] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xee681e1d sceFiosFHOpenWithModeSync at 0x800850ec
+[12:19:40.930] |I| [export_sceIoOpen]: Opening file: addcont0:ANOOREADDCONTE00\resource\info.txt
+[12:19:40.935] |T| [open_file]: sceIoOpen: Opening file addcont0:ANOOREADDCONTE00\resource\info.txt (ux0:/addcont/PCSG00342/ANOOREADDCONTE00/resource/info.txt), fd: 0x20
+[12:19:40.936] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x89541ca5 fgetwc at 0x80037e90
+[12:19:40.937] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb309e327 sceFiosIsValidHandle at 0x800850bc
+[12:19:40.937] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x76945919 sceFiosFHReadSync at 0x8008507c
+[12:19:40.938] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec97321c fclose at 0x80037f30
+[12:19:40.939] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x45182328 sceFiosFHCloseSync at 0x8008505c
+[12:19:40.939] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[12:19:40.941] |I| [export_sceIoOpen]: Opening file: addcont0:ANOOREADDCONTE01\resource\info.txt
+[12:19:40.945] |T| [open_file]: sceIoOpen: Opening file addcont0:ANOOREADDCONTE01\resource\info.txt (ux0:/addcont/PCSG00342/ANOOREADDCONTE01/resource/info.txt), fd: 0x21
+[12:19:40.946] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[12:19:40.946] |I| [export_sceIoOpen]: Opening file: addcont0:ANOOREADDCONTE02\resource\info.txt
+[12:19:40.951] |T| [open_file]: sceIoOpen: Opening file addcont0:ANOOREADDCONTE02\resource\info.txt (ux0:/addcont/PCSG00342/ANOOREADDCONTE02/resource/info.txt), fd: 0x22
+[12:19:40.952] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[12:19:40.953] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72293931 _ZdlPv at 0x80037f50
+[12:19:40.958] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_button_saisho.png
+[12:19:40.961] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_button_saisho.png (ux0:/app/PCSG00342/resource/image/sys/sys_title_button_saisho.png), fd: 0x23
+[12:19:40.963] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[12:19:40.970] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_button_tsuduki.png
+[12:19:40.973] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_button_tsuduki.png (ux0:/app/PCSG00342/resource/image/sys/sys_title_button_tsuduki.png), fd: 0x24
+[12:19:40.974] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[12:19:40.978] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_button_help.png
+[12:19:40.981] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_button_help.png (ux0:/app/PCSG00342/resource/image/sys/sys_title_button_help.png), fd: 0x25
+[12:19:40.982] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[12:19:40.987] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_button_cg.png
+[12:19:40.990] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_button_cg.png (ux0:/app/PCSG00342/resource/image/sys/sys_title_button_cg.png), fd: 0x26
+[12:19:40.990] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[12:19:40.997] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_button_bgm.png
+[12:19:41.000] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_button_bgm.png (ux0:/app/PCSG00342/resource/image/sys/sys_title_button_bgm.png), fd: 0x27
+[12:19:41.000] |T| [close_file]: sceIoClose: Closing file fd: 0x27
+[12:19:41.005] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_button_extra.png
+[12:19:41.008] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_button_extra.png (ux0:/app/PCSG00342/resource/image/sys/sys_title_button_extra.png), fd: 0x28
+[12:19:41.008] |T| [close_file]: sceIoClose: Closing file fd: 0x28
+[12:19:41.018] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_base.jpg
+[12:19:41.022] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_base.jpg (ux0:/app/PCSG00342/resource/image/sys/sys_title_base.jpg), fd: 0x29
+[12:19:41.022] |T| [close_file]: sceIoClose: Closing file fd: 0x29
+[12:19:41.037] |I| [export_sceIoOpen]: Opening file: app0:resource\text\00\00_title.txt
+[12:19:41.043] |T| [open_file]: sceIoOpen: Opening file app0:resource\text\00\00_title.txt (ux0:/app/PCSG00342/resource/text/00/00_title.txt), fd: 0x2a
+[12:19:41.044] |T| [close_file]: sceIoClose: Closing file fd: 0x2a
+[12:19:41.053] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_maker_logo.jpg
+[12:19:41.057] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_maker_logo.jpg (ux0:/app/PCSG00342/resource/image/sys/sys_maker_logo.jpg), fd: 0x2b
+[12:19:41.057] |T| [close_file]: sceIoClose: Closing file fd: 0x2b
+[12:19:41.068] |T| [write_file]: *** TTY: ## adv_template: INIT SUCCEEDED ##
+[12:19:41.069] |E| [export_sceGxmTextureSetMinFilter::<lambda_2>::operator ()]: sceGxmTextureSetMinFilter returned SCE_GXM_ERROR_UNSUPPORTED (0x805b0009)
+[12:19:42.585] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_black.jpg
+[12:19:42.590] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_black.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_black.jpg), fd: 0x2c
+[12:19:42.590] |T| [close_file]: sceIoClose: Closing file fd: 0x2c
+[12:19:43.603] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_base_0.jpg
+[12:19:43.608] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_base_0.jpg (ux0:/app/PCSG00342/resource/image/sys/sys_title_base_0.jpg), fd: 0x2d
+[12:19:43.608] |T| [close_file]: sceIoClose: Closing file fd: 0x2d
+[12:19:43.619] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_base_1.png
+[12:19:43.623] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_base_1.png (ux0:/app/PCSG00342/resource/image/sys/sys_title_base_1.png), fd: 0x2e
+[12:19:43.624] |T| [close_file]: sceIoClose: Closing file fd: 0x2e
+[12:19:43.671] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_base_2.png
+[12:19:43.676] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_base_2.png (ux0:/app/PCSG00342/resource/image/sys/sys_title_base_2.png), fd: 0x2f
+[12:19:43.676] |T| [close_file]: sceIoClose: Closing file fd: 0x2f
+[12:19:44.719] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\bgm\BGM_KAKKOII.at9
+[12:19:44.724] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\bgm\BGM_KAKKOII.at9 (ux0:/app/PCSG00342/resource/sound/bgm/BGM_KAKKOII.at9), fd: 0x30
+[12:19:44.724] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[12:19:44.727] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\bgm\BGM_KAKKOII.at9
+[12:19:44.728] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\bgm\BGM_KAKKOII.at9 (ux0:/app/PCSG00342/resource/sound/bgm/BGM_KAKKOII.at9), fd: 0x31
+[12:19:44.729] |T| [log_import_call]: [LLE] TID: 57  FUNC: 0xd1997678 sceAtracSetDataAndAcquireHandle at 0x80037720
+[12:19:44.733] |T| [log_import_call]: [LLE] TID: 57  FUNC: 0x5c22e927 sceAtracSetLoopNum at 0x800376d0
+[12:19:44.734] |T| [log_import_call]: [LLE] TID: 57  FUNC: 0x722f5004 sceAtracIsSubBufferNeeded at 0x80037700
+[12:19:44.734] |T| [log_import_call]: [LLE] TID: 57  FUNC: 0x68dfc199 sceAtracGetContentInfo at 0x800376e0
+[12:19:44.735] |T| [log_import_call]: [LLE] TID: 57  FUNC: 0x75b0c63 sceAtracSetOutputSamples at 0x80037680
+[12:19:44.736] |T| [log_import_call]: [LLE] TID: 57  FUNC: 0xaca5f9cc sceAtracGetNextOutputPosition at 0x80037710
+[12:19:44.736] |T| [log_import_call]: [LLE] TID: 57  FUNC: 0x29c74ee3 sceAtracDecode at 0x800376b0
+[12:19:45.835] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_title_base.jpg
+[12:19:45.836] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_title_base.jpg (ux0:/app/PCSG00342/resource/image/sys/sys_title_base.jpg), fd: 0x32
+[12:19:45.837] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[12:19:46.351] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdf4c665a sceSystemGestureUpdatePrimitiveTouchRecognizer at 0x80037930
+[12:19:46.353] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x851fb144 sceSystemGestureUpdateTouchRecognizer at 0x80037900
+[12:19:46.354] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x13ad2218 sceSystemGestureGetTouchEventsCount at 0x800378c0
+[12:19:54.769] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x74724147 sceSystemGestureGetTouchEventByIndex at 0x800378f0
+[12:19:54.771] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5570b83e sceSystemGestureGetTouchEventByEventID at 0x800378d0
+[12:19:54.873] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_load_base.jpg
+[12:19:54.877] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_load_base.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_load_base.jpg), fd: 0x33
+[12:19:54.878] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[12:19:54.899] |I| [export_sceIoOpen]: Opening file: savedata0:screen_shot_1.jpg
+[12:19:54.903] |T| [open_file]: sceIoOpen: Opening file savedata0:screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0x34
+[12:19:54.904] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[12:19:54.904] |I| [export_sceIoOpen]: Opening file: savedata0:screen_shot_1.jpg
+[12:19:54.905] |T| [open_file]: sceIoOpen: Opening file savedata0:screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0x35
+[12:19:54.905] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[12:20:07.874] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\sec\sec_ok.at9
+[12:20:07.881] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\sec\sec_ok.at9 (ux0:/app/PCSG00342/resource/sound/sec/sec_ok.at9), fd: 0x36
+[12:20:08.144] |T| [log_import_call]: [LLE] TID: 58  FUNC: 0x8ef251 sceAtracReleaseHandle at 0x80037660
+[12:20:08.145] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[12:20:08.601] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00342/SlotParam_0.bin), fd: 0x37
+[12:20:08.602] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x37
+[12:20:08.603] |I| [export_sceIoOpen]: Opening file: savedata0:personal_data_1.dat
+[12:20:08.612] |T| [open_file]: sceIoOpen: Opening file savedata0:personal_data_1.dat (ux0:/user/00/savedata/PCSG00342/personal_data_1.dat), fd: 0x38
+[12:20:08.613] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[12:20:08.613] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_black.jpg
+[12:20:08.614] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_black.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_black.jpg), fd: 0x39
+[12:20:08.614] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[12:20:08.635] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[12:20:08.638] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_select.png
+[12:20:08.642] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_select.png (ux0:/app/PCSG00342/resource/image/sys/sys_select.png), fd: 0x3a
+[12:20:08.642] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[12:20:08.934] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_message_field.png
+[12:20:08.938] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_message_field.png (ux0:/app/PCSG00342/resource/image/sys/sys_message_field.png), fd: 0x3b
+[12:20:08.939] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[12:20:08.957] |I| [export_sceIoOpen]: Opening file: app0:resource\image\bg\BG_GK\BG_GK_KOMON_02A.jpg
+[12:20:08.961] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\bg\BG_GK\BG_GK_KOMON_02A.jpg (ux0:/app/PCSG00342/resource/image/bg/BG_GK/BG_GK_KOMON_02A.jpg), fd: 0x3c
+[12:20:08.962] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[12:20:08.989] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:20:08.993] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x3d
+[12:20:08.994] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[12:20:09.048] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KN_e.png
+[12:20:09.052] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KN_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KN_e.png), fd: 0x3e
+[12:20:09.053] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[12:20:09.062] |T| [log_import_call]: [LLE] TID: 55  FUNC: 0xc0883865 rand at 0x80037f20
+[12:20:09.063] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KN_m.png
+[12:20:09.066] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KN_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KN_m.png), fd: 0x3f
+[12:20:09.068] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[12:20:09.071] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\bgm\BGM_SHIZUKA.at9
+[12:20:09.074] |I| [export_sceIoOpen]: Opening file: app0:resource\text\01\01101\01op1-01_02.txt
+[12:20:09.075] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\bgm\BGM_SHIZUKA.at9 (ux0:/app/PCSG00342/resource/sound/bgm/BGM_SHIZUKA.at9), fd: 0x40
+[12:20:09.086] |T| [open_file]: sceIoOpen: Opening file app0:resource\text\01\01101\01op1-01_02.txt (ux0:/app/PCSG00342/resource/text/01/01101/01op1-01_02.txt), fd: 0x41
+[12:20:09.102] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[12:20:09.618] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000028.at9
+[12:20:09.622] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000028.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000028.at9), fd: 0x42
+[12:20:09.623] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[12:20:09.625] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000028.at9
+[12:20:09.625] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000028.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000028.at9), fd: 0x43
+[12:20:10.002] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[12:20:10.002] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[12:20:13.089] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:20:13.090] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x44
+[12:20:13.091] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[12:20:13.145] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_TR2_e.png
+[12:20:13.163] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_TR2_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_TR2_e.png), fd: 0x45
+[12:20:13.164] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[12:20:13.175] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_TR2_m.png
+[12:20:13.181] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_TR2_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_TR2_m.png), fd: 0x46
+[12:20:13.182] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[12:20:13.195] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[12:20:13.196] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000029.at9
+[12:20:13.199] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000029.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000029.at9), fd: 0x47
+[12:20:13.200] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[12:20:13.200] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000029.at9
+[12:20:13.201] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000029.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000029.at9), fd: 0x48
+[12:20:15.420] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:20:15.421] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x49
+[12:20:15.422] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[12:20:15.475] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KN_e.png
+[12:20:15.476] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KN_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KN_e.png), fd: 0x4a
+[12:20:15.477] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[12:20:15.485] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KN_m.png
+[12:20:15.486] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KN_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KN_m.png), fd: 0x4b
+[12:20:15.486] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[12:20:15.503] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[12:20:15.504] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000030.at9
+[12:20:15.509] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000030.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000030.at9), fd: 0x4c
+[12:20:15.509] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[12:20:15.510] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000030.at9
+[12:20:15.510] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000030.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000030.at9), fd: 0x4d
+[12:20:17.786] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:20:17.787] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x4e
+[12:20:17.788] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[12:20:17.841] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KM_e.png
+[12:20:17.846] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KM_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KM_e.png), fd: 0x4f
+[12:20:17.846] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[12:20:17.855] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KM_m.png
+[12:20:17.858] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KM_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KM_m.png), fd: 0x50
+[12:20:17.859] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[12:20:17.873] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[12:20:17.874] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000031.at9
+[12:20:17.878] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000031.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000031.at9), fd: 0x51
+[12:20:17.879] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[12:20:17.879] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000031.at9
+[12:20:17.880] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000031.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000031.at9), fd: 0x52
+[12:20:27.019] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:20:27.020] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x53
+[12:20:27.021] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[12:20:27.089] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KS_e.png
+[12:20:27.104] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KS_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KS_e.png), fd: 0x54
+[12:20:27.106] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[12:20:27.114] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KS_m.png
+[12:20:27.125] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KS_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KS_m.png), fd: 0x55
+[12:20:27.126] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[12:20:27.143] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[12:20:27.144] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000032.at9
+[12:20:27.164] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000032.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000032.at9), fd: 0x56
+[12:20:27.164] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[12:20:27.165] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000032.at9
+[12:20:27.165] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000032.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000032.at9), fd: 0x57
+[12:20:27.493] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[12:20:27.637] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:20:27.637] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x58
+[12:20:27.638] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[12:20:27.692] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KM_e.png
+[12:20:27.692] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KM_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KM_e.png), fd: 0x59
+[12:20:27.693] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[12:20:27.702] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KM_m.png
+[12:20:27.702] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KM_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KM_m.png), fd: 0x5a
+[12:20:27.703] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[12:20:27.705] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000033.at9
+[12:20:27.710] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000033.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000033.at9), fd: 0x5b
+[12:20:27.711] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[12:20:27.712] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000033.at9
+[12:20:27.712] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000033.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000033.at9), fd: 0x5c
+[12:20:30.303] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:20:30.303] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x5d
+[12:20:30.304] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[12:20:30.358] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KS_e.png
+[12:20:30.358] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KS_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KS_e.png), fd: 0x5e
+[12:20:30.359] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[12:20:30.368] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_KS_m.png
+[12:20:30.368] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_KS_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_KS_m.png), fd: 0x5f
+[12:20:30.369] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[12:20:30.373] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[12:20:30.374] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000034.at9
+[12:20:30.379] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000034.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000034.at9), fd: 0x60
+[12:20:30.379] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[12:20:30.380] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000034.at9
+[12:20:30.380] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000034.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000034.at9), fd: 0x61
+[12:20:32.869] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:20:32.870] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x62
+[12:20:32.871] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[12:20:32.925] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_OD_e.png
+[12:20:32.929] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_OD_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_OD_e.png), fd: 0x63
+[12:20:32.929] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[12:20:32.938] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_OD_m.png
+[12:20:32.942] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_OD_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_OD_m.png), fd: 0x64
+[12:20:32.942] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[12:20:32.963] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[12:20:32.964] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000035.at9
+[12:20:32.968] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000035.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000035.at9), fd: 0x65
+[12:20:32.970] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[12:20:32.970] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000035.at9
+[12:20:32.971] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000035.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000035.at9), fd: 0x66
+[12:20:38.413] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[12:21:05.368] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:21:05.368] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x67
+[12:21:05.369] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[12:21:05.432] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_BS_e.png
+[12:21:05.443] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_BS_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_BS_e.png), fd: 0x68
+[12:21:05.446] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[12:21:05.454] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_BS_m.png
+[12:21:05.468] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_BS_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_BS_m.png), fd: 0x69
+[12:21:05.469] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[12:21:05.471] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000036.at9
+[12:21:05.485] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000036.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000036.at9), fd: 0x6a
+[12:21:05.486] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[12:21:05.486] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000036.at9
+[12:21:05.488] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000036.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000036.at9), fd: 0x6b
+[12:21:07.185] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:21:07.185] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x6c
+[12:21:07.186] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[12:21:07.240] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_EG_e.png
+[12:21:07.255] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_EG_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_EG_e.png), fd: 0x6d
+[12:21:07.255] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[12:21:07.259] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_EG_m.png
+[12:21:07.262] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_EG_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_EG_m.png), fd: 0x6e
+[12:21:07.263] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[12:21:07.284] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[12:21:07.284] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000037.at9
+[12:21:07.288] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000037.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000037.at9), fd: 0x6f
+[12:21:07.289] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[12:21:07.289] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000037.at9
+[12:21:07.290] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000037.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000037.at9), fd: 0x70
+[12:21:07.802] |I| [export_sceIoOpen]: Opening file: app0:resource\text\01\01101\01op1-01_03.txt
+[12:21:07.836] |T| [open_file]: sceIoOpen: Opening file app0:resource\text\01\01101\01op1-01_03.txt (ux0:/app/PCSG00342/resource/text/01/01101/01op1-01_03.txt), fd: 0x71
+[12:21:07.844] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[12:21:10.751] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:21:10.752] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x72
+[12:21:10.753] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[12:21:10.806] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_BS_e.png
+[12:21:10.807] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_BS_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_BS_e.png), fd: 0x73
+[12:21:10.808] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[12:21:10.816] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_BS_m.png
+[12:21:10.816] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_BS_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_BS_m.png), fd: 0x74
+[12:21:10.817] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[12:21:10.834] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[12:21:10.834] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000038.at9
+[12:21:10.844] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000038.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000038.at9), fd: 0x75
+[12:21:10.844] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[12:21:10.845] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000038.at9
+[12:21:10.845] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000038.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000038.at9), fd: 0x76
+[12:21:11.554] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[12:21:11.554] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000039.at9
+[12:21:11.559] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000039.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000039.at9), fd: 0x77
+[12:21:11.559] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[12:21:11.560] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000039.at9
+[12:21:11.560] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000039.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000039.at9), fd: 0x78
+[12:21:11.801] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\se\P\Paper01.at9
+[12:21:11.814] |T| [log_import_call]: [LLE] TID: 59  FUNC: 0xd81d7280 sceAtracResetNextOutputPosition at 0x80037730
+[12:21:11.837] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\se\P\Paper01.at9 (ux0:/app/PCSG00342/resource/sound/se/P/Paper01.at9), fd: 0x79
+[12:21:11.838] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[12:21:11.840] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\se\P\Paper01.at9
+[12:21:11.840] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\se\P\Paper01.at9 (ux0:/app/PCSG00342/resource/sound/se/P/Paper01.at9), fd: 0x7a
+[12:21:12.334] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[12:21:12.474] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[12:21:13.368] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:21:13.368] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x7b
+[12:21:13.369] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[12:21:13.423] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_TR_e.png
+[12:21:13.428] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_TR_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_TR_e.png), fd: 0x7c
+[12:21:13.429] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[12:21:13.432] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_TR_m.png
+[12:21:13.435] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_TR_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_TR_m.png), fd: 0x7d
+[12:21:13.436] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[12:21:13.439] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000040.at9
+[12:21:13.442] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000040.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000040.at9), fd: 0x7e
+[12:21:13.443] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[12:21:13.443] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000040.at9
+[12:21:13.444] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000040.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000040.at9), fd: 0x7f
+[12:21:14.368] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:21:14.369] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x80
+[12:21:14.370] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[12:21:14.424] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_BS_e.png
+[12:21:14.424] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_BS_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_BS_e.png), fd: 0x81
+[12:21:14.425] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[12:21:14.433] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_BS_m.png
+[12:21:14.433] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_BS_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_BS_m.png), fd: 0x82
+[12:21:14.434] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[12:21:14.454] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[12:21:14.454] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000041.at9
+[12:21:14.462] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000041.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000041.at9), fd: 0x83
+[12:21:14.463] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[12:21:14.463] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000041.at9
+[12:21:14.464] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000041.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000041.at9), fd: 0x84
+[12:21:16.468] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu1b\yu1b_101.png
+[12:21:16.486] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu1b\yu1b_101.png (ux0:/app/PCSG00342/resource/image/tachie/yu1b/yu1b_101.png), fd: 0x85
+[12:21:16.491] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[12:21:16.543] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu1b\yu1b_TR_e.png
+[12:21:16.552] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu1b\yu1b_TR_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu1b/yu1b_TR_e.png), fd: 0x86
+[12:21:16.555] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[12:21:16.563] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu1b\yu1b_TR_m.png
+[12:21:16.581] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu1b\yu1b_TR_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu1b/yu1b_TR_m.png), fd: 0x87
+[12:21:16.581] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[12:21:16.864] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[12:21:16.864] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000042.at9
+[12:21:16.869] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000042.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000042.at9), fd: 0x88
+[12:21:16.869] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[12:21:16.870] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000042.at9
+[12:21:16.870] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000042.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000042.at9), fd: 0x89
+[12:21:18.134] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[12:21:21.068] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000043.at9
+[12:21:21.073] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000043.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000043.at9), fd: 0x8a
+[12:21:21.073] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[12:21:21.074] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000043.at9
+[12:21:21.074] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000043.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000043.at9), fd: 0x8b
+[12:21:25.234] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_105.png
+[12:21:25.235] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_105.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_105.png), fd: 0x8c
+[12:21:25.236] |T| [close_file]: sceIoClose: Closing file fd: 0x8c
+[12:21:25.296] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_NO_e.png
+[12:21:25.301] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_NO_e.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_NO_e.png), fd: 0x8d
+[12:21:25.302] |T| [close_file]: sceIoClose: Closing file fd: 0x8d
+[12:21:25.310] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\yu5b\yu5b_NO_m.png
+[12:21:25.314] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\yu5b\yu5b_NO_m.png (ux0:/app/PCSG00342/resource/image/tachie/yu5b/yu5b_NO_m.png), fd: 0x8e
+[12:21:25.315] |T| [close_file]: sceIoClose: Closing file fd: 0x8e
+[12:21:25.324] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[12:21:25.324] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000044.at9
+[12:21:25.328] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000044.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000044.at9), fd: 0x8f
+[12:21:25.328] |T| [close_file]: sceIoClose: Closing file fd: 0x8f
+[12:21:25.329] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010000\01000044.at9
+[12:21:25.330] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010000\01000044.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010000/01000044.at9), fd: 0x90
+[12:21:26.000] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\se\D\Dash05o.at9
+[12:21:26.016] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\se\D\Dash05o.at9 (ux0:/app/PCSG00342/resource/sound/se/D/Dash05o.at9), fd: 0x91
+[12:21:26.017] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[12:21:26.017] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\se\D\Dash05o.at9
+[12:21:26.018] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\se\D\Dash05o.at9 (ux0:/app/PCSG00342/resource/sound/se/D/Dash05o.at9), fd: 0x92
+[12:21:28.384] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[12:21:28.574] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[12:21:29.554] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[12:21:32.268] |I| [export_sceIoOpen]: Opening file: app0:resource\image\bg\BG_SK\BG_SKY_02A.jpg
+[12:21:32.272] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\bg\BG_SK\BG_SKY_02A.jpg (ux0:/app/PCSG00342/resource/image/bg/BG_SK/BG_SKY_02A.jpg), fd: 0x93
+[12:21:32.273] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[12:21:33.964] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_black.jpg
+[12:21:33.964] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_black.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_black.jpg), fd: 0x94
+[12:21:33.965] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[12:21:35.500] |I| [export_sceIoOpen]: Opening file: app0:resource\image\bg\BG_HM\BG_HM_HIROTOGAIKAN_03A.jpg
+[12:21:35.513] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\bg\BG_HM\BG_HM_HIROTOGAIKAN_03A.jpg (ux0:/app/PCSG00342/resource/image/bg/BG_HM/BG_HM_HIROTOGAIKAN_03A.jpg), fd: 0x95
+[12:21:35.517] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[12:21:37.047] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\se\C\Chime02.at9
+[12:21:37.067] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\se\C\Chime02.at9 (ux0:/app/PCSG00342/resource/sound/se/C/Chime02.at9), fd: 0x96
+[12:21:37.068] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[12:21:37.068] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\se\C\Chime02.at9
+[12:21:37.069] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\se\C\Chime02.at9 (ux0:/app/PCSG00342/resource/sound/se/C/Chime02.at9), fd: 0x97
+[12:21:37.077] |I| [export_sceIoOpen]: Opening file: app0:resource\image\bg\BG_HM\BG_HM_HIROTO_03D.jpg
+[12:21:37.087] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\bg\BG_HM\BG_HM_HIROTO_03D.jpg (ux0:/app/PCSG00342/resource/image/bg/BG_HM/BG_HM_HIROTO_03D.jpg), fd: 0x98
+[12:21:37.090] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[12:21:39.164] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[12:21:39.366] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\bgm\BGM_COMICAL2.at9
+[12:21:39.371] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\bgm\BGM_COMICAL2.at9 (ux0:/app/PCSG00342/resource/sound/bgm/BGM_COMICAL2.at9), fd: 0x99
+[12:21:39.372] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[12:21:39.372] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\bgm\BGM_COMICAL2.at9
+[12:21:39.373] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\bgm\BGM_COMICAL2.at9 (ux0:/app/PCSG00342/resource/sound/bgm/BGM_COMICAL2.at9), fd: 0x9a
+[12:21:39.375] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:21:39.393] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0x9b
+[12:21:39.395] |T| [close_file]: sceIoClose: Closing file fd: 0x9b
+[12:21:39.447] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_NO_e.png
+[12:21:39.451] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_NO_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_NO_e.png), fd: 0x9c
+[12:21:39.452] |T| [close_file]: sceIoClose: Closing file fd: 0x9c
+[12:21:39.462] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_NO_m.png
+[12:21:39.465] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_NO_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_NO_m.png), fd: 0x9d
+[12:21:39.465] |T| [close_file]: sceIoClose: Closing file fd: 0x9d
+[12:21:39.497] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\se\D\Door03O.at9
+[12:21:39.501] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\se\D\Door03O.at9 (ux0:/app/PCSG00342/resource/sound/se/D/Door03O.at9), fd: 0x9e
+[12:21:39.501] |T| [close_file]: sceIoClose: Closing file fd: 0x9e
+[12:21:39.502] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\se\D\Door03O.at9
+[12:21:39.502] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\se\D\Door03O.at9 (ux0:/app/PCSG00342/resource/sound/se/D/Door03O.at9), fd: 0x9f
+[12:21:40.048] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:21:40.048] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xa0
+[12:21:40.050] |T| [close_file]: sceIoClose: Closing file fd: 0xa0
+[12:21:40.074] |T| [close_file]: sceIoClose: Closing file fd: 0x9f
+[12:21:40.103] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_OD_e.png
+[12:21:40.117] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_OD_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_OD_e.png), fd: 0xa1
+[12:21:40.120] |T| [close_file]: sceIoClose: Closing file fd: 0xa1
+[12:21:40.131] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_OD_m.png
+[12:21:40.150] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_OD_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_OD_m.png), fd: 0xa2
+[12:21:40.151] |T| [close_file]: sceIoClose: Closing file fd: 0xa2
+[12:21:40.413] |I| [export_sceIoOpen]: Opening file: app0:resource\image\icon\icon_bikkuri.png
+[12:21:40.418] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\icon\icon_bikkuri.png (ux0:/app/PCSG00342/resource/image/icon/icon_bikkuri.png), fd: 0xa3
+[12:21:40.418] |T| [close_file]: sceIoClose: Closing file fd: 0xa3
+[12:21:40.447] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050022.at9
+[12:21:40.462] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050022.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050022.at9), fd: 0xa4
+[12:21:40.463] |T| [close_file]: sceIoClose: Closing file fd: 0xa4
+[12:21:40.464] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050022.at9
+[12:21:40.464] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050022.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050022.at9), fd: 0xa5
+[12:21:40.477] |E| [export__sceKernelStartThread::<lambda_1>::operator ()]: _sceKernelStartThread returned res (0x80028029)
+[12:21:40.482] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:21:40.482] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xa6
+[12:21:40.483] |T| [close_file]: sceIoClose: Closing file fd: 0xa6
+[12:21:40.544] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KM_e.png
+[12:21:40.548] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KM_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KM_e.png), fd: 0xa7
+[12:21:40.548] |T| [close_file]: sceIoClose: Closing file fd: 0xa7
+[12:21:40.559] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KM_m.png
+[12:21:40.563] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KM_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KM_m.png), fd: 0xa8
+[12:21:40.563] |T| [close_file]: sceIoClose: Closing file fd: 0xa8
+[12:21:50.964] |T| [close_file]: sceIoClose: Closing file fd: 0xa5
+[12:21:51.733] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:21:51.733] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xa9
+[12:21:51.734] |T| [close_file]: sceIoClose: Closing file fd: 0xa9
+[12:21:51.787] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_SR_e.png
+[12:21:51.792] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_SR_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_SR_e.png), fd: 0xaa
+[12:21:51.792] |T| [close_file]: sceIoClose: Closing file fd: 0xaa
+[12:21:51.802] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_SR_m.png
+[12:21:51.805] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_SR_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_SR_m.png), fd: 0xab
+[12:21:51.807] |T| [close_file]: sceIoClose: Closing file fd: 0xab
+[12:21:51.809] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050023.at9
+[12:21:51.832] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050023.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050023.at9), fd: 0xac
+[12:21:51.832] |T| [close_file]: sceIoClose: Closing file fd: 0xac
+[12:21:51.833] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050023.at9
+[12:21:51.833] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050023.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050023.at9), fd: 0xad
+[12:21:55.634] |T| [close_file]: sceIoClose: Closing file fd: 0xad
+[12:21:55.966] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:21:55.966] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xae
+[12:21:55.967] |T| [close_file]: sceIoClose: Closing file fd: 0xae
+[12:21:56.020] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_BS_e.png
+[12:21:56.025] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_BS_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_BS_e.png), fd: 0xaf
+[12:21:56.025] |T| [close_file]: sceIoClose: Closing file fd: 0xaf
+[12:21:56.035] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_BS_m.png
+[12:21:56.039] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_BS_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_BS_m.png), fd: 0xb0
+[12:21:56.041] |T| [close_file]: sceIoClose: Closing file fd: 0xb0
+[12:21:56.043] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050024.at9
+[12:21:56.047] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050024.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050024.at9), fd: 0xb1
+[12:21:56.049] |T| [close_file]: sceIoClose: Closing file fd: 0xb1
+[12:21:56.049] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050024.at9
+[12:21:56.050] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050024.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050024.at9), fd: 0xb2
+[12:22:01.785] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_log_base.jpg
+[12:22:01.789] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_log_base.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_log_base.jpg), fd: 0xb3
+[12:22:01.790] |T| [close_file]: sceIoClose: Closing file fd: 0xb3
+[12:22:02.664] |T| [close_file]: sceIoClose: Closing file fd: 0xb2
+[12:22:02.811] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_message_field.png
+[12:22:02.812] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_message_field.png (ux0:/app/PCSG00342/resource/image/sys/sys_message_field.png), fd: 0xb4
+[12:22:02.813] |T| [close_file]: sceIoClose: Closing file fd: 0xb4
+[12:22:04.462] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_black.jpg
+[12:22:04.463] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_black.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_black.jpg), fd: 0xb5
+[12:22:04.464] |T| [close_file]: sceIoClose: Closing file fd: 0xb5
+[12:22:05.980] |I| [export_sceIoOpen]: Opening file: app0:resource\image\bg\BG_HM\BG_HM_HIROTO_03D.jpg
+[12:22:05.980] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\bg\BG_HM\BG_HM_HIROTO_03D.jpg (ux0:/app/PCSG00342/resource/image/bg/BG_HM/BG_HM_HIROTO_03D.jpg), fd: 0xb6
+[12:22:05.981] |T| [close_file]: sceIoClose: Closing file fd: 0xb6
+[12:22:06.000] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:22:06.000] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xb7
+[12:22:06.001] |T| [close_file]: sceIoClose: Closing file fd: 0xb7
+[12:22:06.054] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_OD_e.png
+[12:22:06.055] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_OD_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_OD_e.png), fd: 0xb8
+[12:22:06.056] |T| [close_file]: sceIoClose: Closing file fd: 0xb8
+[12:22:06.065] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_OD_m.png
+[12:22:06.065] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_OD_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_OD_m.png), fd: 0xb9
+[12:22:06.066] |T| [close_file]: sceIoClose: Closing file fd: 0xb9
+[12:22:06.845] |I| [export_sceIoOpen]: Opening file: app0:resource\image\icon\icon_bikkuri.png
+[12:22:06.846] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\icon\icon_bikkuri.png (ux0:/app/PCSG00342/resource/image/icon/icon_bikkuri.png), fd: 0xba
+[12:22:06.847] |T| [close_file]: sceIoClose: Closing file fd: 0xba
+[12:22:06.878] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050025.at9
+[12:22:06.883] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050025.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050025.at9), fd: 0xbb
+[12:22:06.883] |T| [close_file]: sceIoClose: Closing file fd: 0xbb
+[12:22:06.884] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050025.at9
+[12:22:06.885] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050025.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050025.at9), fd: 0xbc
+[12:22:09.754] |T| [close_file]: sceIoClose: Closing file fd: 0xbc
+[12:22:20.548] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:22:20.549] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xbd
+[12:22:20.550] |T| [close_file]: sceIoClose: Closing file fd: 0xbd
+[12:22:20.603] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KN_e.png
+[12:22:20.609] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KN_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KN_e.png), fd: 0xbe
+[12:22:20.609] |T| [close_file]: sceIoClose: Closing file fd: 0xbe
+[12:22:20.619] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KN_m.png
+[12:22:20.623] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KN_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KN_m.png), fd: 0xbf
+[12:22:20.624] |T| [close_file]: sceIoClose: Closing file fd: 0xbf
+[12:22:20.625] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050026.at9
+[12:22:20.629] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050026.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050026.at9), fd: 0xc0
+[12:22:20.629] |T| [close_file]: sceIoClose: Closing file fd: 0xc0
+[12:22:20.630] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050026.at9
+[12:22:20.630] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050026.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050026.at9), fd: 0xc1
+[12:22:29.014] |T| [close_file]: sceIoClose: Closing file fd: 0xc1
+[12:22:29.564] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:22:29.565] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xc2
+[12:22:29.566] |T| [close_file]: sceIoClose: Closing file fd: 0xc2
+[12:22:29.619] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KM_e.png
+[12:22:29.619] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KM_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KM_e.png), fd: 0xc3
+[12:22:29.620] |T| [close_file]: sceIoClose: Closing file fd: 0xc3
+[12:22:29.630] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KM_m.png
+[12:22:29.630] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KM_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KM_m.png), fd: 0xc4
+[12:22:29.630] |T| [close_file]: sceIoClose: Closing file fd: 0xc4
+[12:22:29.895] |I| [export_sceIoOpen]: Opening file: app0:resource\image\icon\icon_ase.png
+[12:22:29.899] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\icon\icon_ase.png (ux0:/app/PCSG00342/resource/image/icon/icon_ase.png), fd: 0xc5
+[12:22:29.900] |T| [close_file]: sceIoClose: Closing file fd: 0xc5
+[12:22:29.928] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050027.at9
+[12:22:29.937] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050027.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050027.at9), fd: 0xc6
+[12:22:29.937] |T| [close_file]: sceIoClose: Closing file fd: 0xc6
+[12:22:29.938] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050027.at9
+[12:22:29.938] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050027.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050027.at9), fd: 0xc7
+[12:22:36.631] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:22:36.631] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xc8
+[12:22:36.632] |T| [close_file]: sceIoClose: Closing file fd: 0xc8
+[12:22:36.685] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KN_e.png
+[12:22:36.685] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KN_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KN_e.png), fd: 0xc9
+[12:22:36.686] |T| [close_file]: sceIoClose: Closing file fd: 0xc9
+[12:22:36.695] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KN_m.png
+[12:22:36.696] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KN_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KN_m.png), fd: 0xca
+[12:22:36.696] |T| [close_file]: sceIoClose: Closing file fd: 0xca
+[12:22:36.704] |T| [close_file]: sceIoClose: Closing file fd: 0xc7
+[12:22:36.704] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050028.at9
+[12:22:36.709] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050028.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050028.at9), fd: 0xcb
+[12:22:36.709] |T| [close_file]: sceIoClose: Closing file fd: 0xcb
+[12:22:36.710] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050028.at9
+[12:22:36.710] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050028.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050028.at9), fd: 0xcc
+[12:22:40.982] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:22:40.982] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xcd
+[12:22:40.983] |T| [close_file]: sceIoClose: Closing file fd: 0xcd
+[12:22:41.036] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_IK_e.png
+[12:22:41.040] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_IK_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_IK_e.png), fd: 0xce
+[12:22:41.041] |T| [close_file]: sceIoClose: Closing file fd: 0xce
+[12:22:41.050] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_IK_m.png
+[12:22:41.053] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_IK_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_IK_m.png), fd: 0xcf
+[12:22:41.053] |T| [close_file]: sceIoClose: Closing file fd: 0xcf
+[12:22:41.064] |T| [close_file]: sceIoClose: Closing file fd: 0xcc
+[12:22:41.064] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050029.at9
+[12:22:41.069] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050029.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050029.at9), fd: 0xd0
+[12:22:41.069] |T| [close_file]: sceIoClose: Closing file fd: 0xd0
+[12:22:41.070] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050029.at9
+[12:22:41.070] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050029.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050029.at9), fd: 0xd1
+[12:22:42.194] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:22:42.195] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xd2
+[12:22:42.196] |T| [close_file]: sceIoClose: Closing file fd: 0xd2
+[12:22:42.248] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KN_e.png
+[12:22:42.248] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KN_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KN_e.png), fd: 0xd3
+[12:22:42.249] |T| [close_file]: sceIoClose: Closing file fd: 0xd3
+[12:22:42.259] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_KN_m.png
+[12:22:42.259] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_KN_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_KN_m.png), fd: 0xd4
+[12:22:42.260] |T| [close_file]: sceIoClose: Closing file fd: 0xd4
+[12:22:43.865] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:22:43.865] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xd5
+[12:22:43.866] |T| [close_file]: sceIoClose: Closing file fd: 0xd5
+[12:22:43.918] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_BS_e.png
+[12:22:43.919] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_BS_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_BS_e.png), fd: 0xd6
+[12:22:43.920] |T| [close_file]: sceIoClose: Closing file fd: 0xd6
+[12:22:43.929] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_BS_m.png
+[12:22:43.929] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_BS_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_BS_m.png), fd: 0xd7
+[12:22:43.930] |T| [close_file]: sceIoClose: Closing file fd: 0xd7
+[12:22:44.205] |I| [export_sceIoOpen]: Opening file: app0:resource\image\icon\icon_hirameki.png
+[12:22:44.221] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\icon\icon_hirameki.png (ux0:/app/PCSG00342/resource/image/icon/icon_hirameki.png), fd: 0xd8
+[12:22:44.221] |T| [close_file]: sceIoClose: Closing file fd: 0xd8
+[12:22:44.254] |T| [close_file]: sceIoClose: Closing file fd: 0xd1
+[12:22:44.254] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050030.at9
+[12:22:44.259] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050030.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050030.at9), fd: 0xd9
+[12:22:44.260] |T| [close_file]: sceIoClose: Closing file fd: 0xd9
+[12:22:44.260] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050030.at9
+[12:22:44.261] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050030.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050030.at9), fd: 0xda
+[12:22:47.915] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:22:47.915] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xdb
+[12:22:47.916] |T| [close_file]: sceIoClose: Closing file fd: 0xdb
+[12:22:47.968] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_NO_e.png
+[12:22:47.969] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_NO_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_NO_e.png), fd: 0xdc
+[12:22:47.970] |T| [close_file]: sceIoClose: Closing file fd: 0xdc
+[12:22:47.979] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_NO_m.png
+[12:22:47.980] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_NO_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_NO_m.png), fd: 0xdd
+[12:22:47.980] |T| [close_file]: sceIoClose: Closing file fd: 0xdd
+[12:22:47.994] |T| [close_file]: sceIoClose: Closing file fd: 0xda
+[12:22:47.994] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050031.at9
+[12:22:47.999] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050031.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050031.at9), fd: 0xde
+[12:22:48.000] |T| [close_file]: sceIoClose: Closing file fd: 0xde
+[12:22:48.001] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050031.at9
+[12:22:48.001] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050031.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050031.at9), fd: 0xdf
+[12:22:48.581] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_log_base.jpg
+[12:22:48.582] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_log_base.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_log_base.jpg), fd: 0xe0
+[12:22:48.583] |T| [close_file]: sceIoClose: Closing file fd: 0xe0
+[12:22:49.324] |T| [close_file]: sceIoClose: Closing file fd: 0xdf
+[12:22:49.334] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_message_field.png
+[12:22:49.335] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_message_field.png (ux0:/app/PCSG00342/resource/image/sys/sys_message_field.png), fd: 0xe1
+[12:22:49.335] |T| [close_file]: sceIoClose: Closing file fd: 0xe1
+[12:22:50.115] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_info_base.jpg
+[12:22:50.119] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_info_base.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_info_base.jpg), fd: 0xe2
+[12:22:50.120] |T| [close_file]: sceIoClose: Closing file fd: 0xe2
+[12:22:51.187] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_message_field.png
+[12:22:51.188] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_message_field.png (ux0:/app/PCSG00342/resource/image/sys/sys_message_field.png), fd: 0xe3
+[12:22:51.189] |T| [close_file]: sceIoClose: Closing file fd: 0xe3
+[12:22:52.063] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_info_base.jpg
+[12:22:52.064] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_info_base.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_info_base.jpg), fd: 0xe4
+[12:22:52.065] |T| [close_file]: sceIoClose: Closing file fd: 0xe4
+[12:22:52.848] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\sec\sec_ok.at9
+[12:22:52.848] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\sec\sec_ok.at9 (ux0:/app/PCSG00342/resource/sound/sec/sec_ok.at9), fd: 0xe5
+[12:22:53.104] |T| [close_file]: sceIoClose: Closing file fd: 0xe5
+[12:22:54.987] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_message_field.png
+[12:22:54.987] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_message_field.png (ux0:/app/PCSG00342/resource/image/sys/sys_message_field.png), fd: 0xe6
+[12:22:54.988] |T| [close_file]: sceIoClose: Closing file fd: 0xe6
+[12:22:55.487] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_save_base.jpg
+[12:22:55.492] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_save_base.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_save_base.jpg), fd: 0xe7
+[12:22:55.492] |T| [close_file]: sceIoClose: Closing file fd: 0xe7
+[12:22:55.516] |I| [export_sceIoOpen]: Opening file: savedata0:screen_shot_1.jpg
+[12:22:55.516] |T| [open_file]: sceIoOpen: Opening file savedata0:screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0xe8
+[12:22:55.517] |T| [close_file]: sceIoClose: Closing file fd: 0xe8
+[12:22:55.518] |I| [export_sceIoOpen]: Opening file: savedata0:screen_shot_1.jpg
+[12:22:55.519] |T| [open_file]: sceIoOpen: Opening file savedata0:screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0xe9
+[12:22:55.520] |T| [close_file]: sceIoClose: Closing file fd: 0xe9
+[12:22:56.361] |I| [export_sceIoOpen]: Opening file: savedata0:screen_shot_2.jpg
+[12:22:56.361] |E| [open_file]: Missing file at F:/vita3k/ux0/user/00/savedata/PCSG00342/screen_shot_2.jpg (target path: savedata0:screen_shot_2.jpg)
+[12:22:56.362] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:22:56.827] |I| [export_sceIoOpen]: Opening file: savedata0:screen_shot_1.jpg
+[12:22:56.827] |T| [open_file]: sceIoOpen: Opening file savedata0:screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0xea
+[12:22:56.828] |T| [close_file]: sceIoClose: Closing file fd: 0xea
+[12:22:56.829] |I| [export_sceIoOpen]: Opening file: savedata0:screen_shot_1.jpg
+[12:22:56.830] |T| [open_file]: sceIoOpen: Opening file savedata0:screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0xeb
+[12:22:56.831] |T| [close_file]: sceIoClose: Closing file fd: 0xeb
+[12:22:57.164] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\sec\sec_ok.at9
+[12:22:57.164] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\sec\sec_ok.at9 (ux0:/app/PCSG00342/resource/sound/sec/sec_ok.at9), fd: 0xec
+[12:22:57.424] |T| [close_file]: sceIoClose: Closing file fd: 0xec
+[12:22:57.917] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x80037ed0
+[12:22:57.918] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x80037ea0
+[12:22:57.919] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/personal_data_1.dat (ux0:/user/00/savedata/PCSG00342/personal_data_1.dat), fd: 0xed
+[12:22:57.919] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xed, size: 18944
+[12:22:57.920] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xed
+[12:22:57.920] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/personal_data_1.dat (ux0:/user/00/savedata/PCSG00342/personal_data_1.dat), fd: 0xee
+[12:22:57.921] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0xee, to size: 18944
+[12:22:57.922] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xee
+[12:22:57.922] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00342/SlotParam_0.bin), fd: 0xef
+[12:22:57.923] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xef, size: 844
+[12:22:57.923] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xef
+[12:22:57.926] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/system.dat (ux0:/user/00/savedata/PCSG00342/system.dat), fd: 0xf0
+[12:22:57.926] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xf0, size: 5532
+[12:22:57.927] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xf0
+[12:22:57.927] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/system.dat (ux0:/user/00/savedata/PCSG00342/system.dat), fd: 0xf1
+[12:22:57.928] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0xf1, to size: 5532
+[12:22:57.929] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xf1
+[12:22:57.929] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00342/SlotParam_0.bin), fd: 0xf2
+[12:22:57.930] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xf2, size: 844
+[12:22:57.931] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xf2
+[12:22:57.933] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0xf3
+[12:22:57.933] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xf3, size: 61440
+[12:22:57.934] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xf3
+[12:22:57.934] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0xf4
+[12:22:57.941] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0xf4, to size: 61440
+[12:22:57.941] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xf4
+[12:22:57.942] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00342/SlotParam_0.bin), fd: 0xf5
+[12:22:57.943] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xf5, size: 844
+[12:22:57.943] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xf5
+[12:22:57.944] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sysc\sysc_save_base.jpg
+[12:22:57.944] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sysc\sysc_save_base.jpg (ux0:/app/PCSG00342/resource/image/sysc/sysc_save_base.jpg), fd: 0xf6
+[12:22:57.945] |T| [close_file]: sceIoClose: Closing file fd: 0xf6
+[12:22:57.970] |I| [export_sceIoOpen]: Opening file: savedata0:screen_shot_1.jpg
+[12:22:57.970] |T| [open_file]: sceIoOpen: Opening file savedata0:screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0xf7
+[12:22:57.971] |T| [close_file]: sceIoClose: Closing file fd: 0xf7
+[12:22:57.972] |I| [export_sceIoOpen]: Opening file: savedata0:screen_shot_1.jpg
+[12:22:57.972] |T| [open_file]: sceIoOpen: Opening file savedata0:screen_shot_1.jpg (ux0:/user/00/savedata/PCSG00342/screen_shot_1.jpg), fd: 0xf8
+[12:22:57.973] |T| [close_file]: sceIoClose: Closing file fd: 0xf8
+[12:22:57.982] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\sec\sec_save.at9
+[12:22:57.986] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\sec\sec_save.at9 (ux0:/app/PCSG00342/resource/sound/sec/sec_save.at9), fd: 0xf9
+[12:22:58.994] |T| [close_file]: sceIoClose: Closing file fd: 0xf9
+[12:23:00.104] |I| [export_sceIoOpen]: Opening file: app0:resource\image\sys\sys_message_field.png
+[12:23:00.105] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\sys\sys_message_field.png (ux0:/app/PCSG00342/resource/image/sys/sys_message_field.png), fd: 0xfa
+[12:23:00.106] |T| [close_file]: sceIoClose: Closing file fd: 0xfa
+[12:23:00.914] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_201.png
+[12:23:00.915] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_201.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_201.png), fd: 0xfb
+[12:23:00.916] |T| [close_file]: sceIoClose: Closing file fd: 0xfb
+[12:23:00.968] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_EG_e.png
+[12:23:00.972] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_EG_e.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_EG_e.png), fd: 0xfc
+[12:23:00.973] |T| [close_file]: sceIoClose: Closing file fd: 0xfc
+[12:23:00.977] |I| [export_sceIoOpen]: Opening file: app0:resource\image\tachie\ms1b\ms1b_EG_m.png
+[12:23:00.980] |T| [open_file]: sceIoOpen: Opening file app0:resource\image\tachie\ms1b\ms1b_EG_m.png (ux0:/app/PCSG00342/resource/image/tachie/ms1b/ms1b_EG_m.png), fd: 0xfd
+[12:23:00.981] |T| [close_file]: sceIoClose: Closing file fd: 0xfd
+[12:23:00.982] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050032.at9
+[12:23:00.986] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050032.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050032.at9), fd: 0xfe
+[12:23:00.987] |T| [close_file]: sceIoClose: Closing file fd: 0xfe
+[12:23:00.987] |I| [export_sceIoOpen]: Opening file: app0:resource\sound\voice\01\010500\01050032.at9
+[12:23:00.988] |T| [open_file]: sceIoOpen: Opening file app0:resource\sound\voice\01\010500\01050032.at9 (ux0:/app/PCSG00342/resource/sound/voice/01/010500/01050032.at9), fd: 0xff
+[12:23:08.626] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[12:23:08.627] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved

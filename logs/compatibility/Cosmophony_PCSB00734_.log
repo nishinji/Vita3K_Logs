@@ -1,0 +1,1639 @@
+[13:14:03.727] |I| [config::init_config]: backend-renderer: Vulkan
+[13:14:03.730] |I| [config::init_config]: log-level: 0
+[13:14:04.009] |I| [SDL_main]: Vita3K v0.1.8 3324-300e5f51
+[13:14:04.010] |I| [SDL_main]: Number of logical CPU cores: 2
+[13:14:04.010] |I| [SDL_main]: Available ram memory: 3959 MiB
+[13:14:04.410] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[13:14:05.653] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[13:14:05.654] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[13:14:05.656] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[13:14:05.656] |I| [renderer::vulkan::VKState::create]: Using shader interlock for accurate framebuffer fetch emulation
+[13:14:05.767] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[13:14:07.065] |W| [compat::load_compat_app_db]: App with Title ID PCSB00861 has an issue but no status label. Please check GitHub issue 2309 and request a status label be added.
+[13:14:08.440] |I| [compat::update_compat_app_db]: Applications compatibility database is up to date.
+[13:14:18.720] |I| [load_app_impl]: cpu-backend: Dynarmic
+[13:14:18.721] |I| [load_app_impl]: CPU Optimisation state: true
+[13:14:18.721] |I| [load_app_impl]: ngs state: true
+[13:14:18.722] |I| [load_app_impl]: Resolution multiplier: 1
+[13:14:18.722] |I| [load_app_impl]: modules mode: Automatic
+[13:14:18.722] |I| [load_app_impl]: Title: Cosmophony
+[13:14:18.722] |I| [load_app_impl]: Serial: PCSB00734
+[13:14:18.722] |I| [load_app_impl]: Version: 1.00
+[13:14:18.722] |I| [load_app_impl]: Category: gd
+[13:14:18.729] |I| [load_module]: Loading module "app0:eboot.bin"
+[13:14:21.649] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[13:14:21.650] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x01CC5D20 / 0x81000000] (size: 0x01CC0D20) of module app0:eboot.bin
+[13:14:21.650] |I| [load_self]: Loaded module segment 1 @ [0x01CC6000 - 0x02000778 / 0x82CC1000] (size: 0x0033A778) of module app0:eboot.bin
+[13:14:21.651] |I| [load_self]: Linking SELF app0:eboot.bin...
+[13:14:21.653] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x1adae0c
+[13:14:21.656] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x1cc608c
+[13:14:21.657] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x1c10f8c
+[13:14:21.659] |W| [load_var_imports]: 	NID NOT FOUND 0x1a5c609 (UNRECOGNISED) at 0x1b03abc, setting to stub value 0xdeadbeef
+[13:14:21.663] |W| [load_var_imports]: 	NID NOT FOUND 0x6ef1e48 (UNRECOGNISED) at 0x1b037d4, setting to stub value 0xdeadbeef
+[13:14:21.667] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x1b03aa8, setting to stub value 0xdeadbeef
+[13:14:21.672] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x1b03a74, setting to stub value 0xdeadbeef
+[13:14:21.678] |W| [load_var_imports]: 	NID NOT FOUND 0x5d8c1282 (UNRECOGNISED) at 0x1b037e8, setting to stub value 0xdeadbeef
+[13:14:21.681] |W| [load_var_imports]: 	NID NOT FOUND 0x66b7406c (UNRECOGNISED) at 0x1b03a60, setting to stub value 0xdeadbeef
+[13:14:21.688] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x1b0383c, setting to stub value 0xdeadbeef
+[13:14:21.695] |I| [load_module]: Module UnityPlayer_437_Release (at "app0:eboot.bin") loaded
+[13:14:21.704] |I| [load_app_impl]: Main executable UnityPlayer_437_Release (eboot.bin) loaded
+[13:14:21.722] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[13:14:21.774] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[13:14:21.775] |I| [load_self]: Loaded module segment 0 @ [0x02008000 - 0x02057C54 / 0x81000000] (size: 0x0004FC54) of module app0:sce_module/libc.suprx
+[13:14:21.779] |I| [load_self]: Loaded module segment 1 @ [0x02058000 - 0x0205A688 / 0x81050000] (size: 0x00002688) of module app0:sce_module/libc.suprx
+[13:14:21.783] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[13:14:21.784] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x204f820
+[13:14:21.786] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x204e588
+[13:14:21.788] |D| [load_var_exports]: Found previously not found variable. nid:0x5d8c1282, new_entry_point:0x20584b0
+[13:14:21.789] |D| [load_var_exports]: Found previously not found variable. nid:0x66b7406c, new_entry_point:0x20583b0
+[13:14:21.791] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x20585b0
+[13:14:21.793] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x204d744
+[13:14:21.797] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x20434f8
+[13:14:21.800] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[13:14:21.801] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[13:14:21.857] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[13:14:21.858] |I| [load_self]: Loaded module segment 0 @ [0x0205B000 - 0x0208633C / 0x81000000] (size: 0x0002B33C) of module app0:sce_module/libfios2.suprx
+[13:14:21.861] |I| [load_self]: Loaded module segment 1 @ [0x02087000 - 0x0208C23D / 0x8102C000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[13:14:21.863] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[13:14:21.864] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x2086244
+[13:14:21.867] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x207d878
+[13:14:21.868] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[13:14:21.870] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[13:14:21.909] |I| [load_self]: Loaded module segment 0 @ [0x0208D000 - 0x020DDF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[13:14:21.912] |I| [load_self]: Loaded module segment 1 @ [0x02003000 - 0x020032F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[13:14:21.917] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[13:14:21.919] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x20c97dc
+[13:14:21.921] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x20c8f10
+[13:14:21.925] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[13:14:21.926] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[13:14:21.945] |I| [load_self]: Loaded module segment 0 @ [0x020DE000 - 0x020EDF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[13:14:21.947] |I| [load_self]: Loaded module segment 1 @ [0x02004000 - 0x02004008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[13:14:21.951] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[13:14:21.953] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x20ec710
+[13:14:21.956] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x20ec300
+[13:14:21.958] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[13:14:21.996] |D| [start_module]: Running module_start of library: SceLibc at address 0x2008871
+[13:14:22.046] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[13:14:22.047] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[13:14:22.050] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[13:14:22.076] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[13:14:22.085] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x205b001
+[13:14:22.131] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[13:14:22.133] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[13:14:22.141] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x1ad936c
+[13:14:22.149] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x54f87eac _sceLdTlsRegisterModuleInfo at 0x1ad919c
+[13:14:22.155] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x1ad93bc
+[13:14:22.163] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcef7c575 mspace_create at 0x1ad939c
+[13:14:22.188] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x1ad916c
+[13:14:22.192] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe080b96e mspace_malloc at 0x1ad93dc
+[13:14:22.198] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x1ad946c
+[13:14:22.202] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x1ad971c
+[13:14:22.205] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x1ad973c
+[13:14:22.230] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x1ad91dc
+[13:14:22.240] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x52f780dd mspace_memalign at 0x1ad918c
+[13:14:22.390] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x1ad90ac
+[13:14:22.413] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x1ad924c
+[13:14:22.416] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x1ad91ec
+[13:14:22.478] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa1bff606 snprintf at 0x1ad92cc
+[13:14:22.541] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x1ad930c
+[13:14:22.545] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x1ad920c
+[13:14:22.708] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdae8d60f time at 0x1ad93cc
+[13:14:22.928] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_ULT
+[13:14:22.929] |I| [load_module]: Loading module "app0:sce_module/libult.suprx"
+[13:14:23.003] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[13:14:23.005] |I| [load_self]: Loaded module segment 0 @ [0x026E7000 - 0x026FA9A4 / 0x81000000] (size: 0x000139A4) of module app0:sce_module/libult.suprx
+[13:14:23.006] |I| [load_self]: Loaded module segment 1 @ [0x020EE000 - 0x020EE814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[13:14:23.007] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[13:14:23.009] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x26f92d0
+[13:14:23.011] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x26f6858
+[13:14:23.012] |I| [load_module]: Module SceUlt (at "app0:sce_module/libult.suprx") loaded
+[13:14:23.013] |D| [start_module]: Running module_start of library: SceUlt at address 0x26ea769
+[13:14:23.055] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[13:14:23.056] |I| [start_module]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[13:14:23.079] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x644da029 sceUltWaitingQueueResourcePoolGetWorkAreaSize at 0x1ada82c
+[13:14:23.081] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x1ad92ec
+[13:14:23.090] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x62f9493e _sceUltWaitingQueueResourcePoolCreate at 0x1ada81c
+[13:14:23.097] |E| [call_import]: Import function for NID 0xd7f0f610 not found (thread name: PCSB00734, thread ID: 6)
+[13:14:23.098] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5afec7a1 _sceUltMutexCreate at 0x1ada80c
+[13:14:23.106] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[13:14:23.107] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[13:14:23.110] |I| [load_module]: Loading module "app0:/Media/Modules/pthread.suprx"
+[13:14:23.165] |I| [load_self]: app0:/Media/Modules/pthread.suprx: Skipping special segment 0x6fffff01...
+[13:14:23.168] |I| [load_self]: Loaded module segment 0 @ [0x026FB000 - 0x027016A0 / 0x81000000] (size: 0x000066A0) of module app0:/Media/Modules/pthread.suprx
+[13:14:23.170] |I| [load_self]: Loaded module segment 1 @ [0x02702000 - 0x02704168 / 0x81007000] (size: 0x00002168) of module app0:/Media/Modules/pthread.suprx
+[13:14:23.172] |I| [load_self]: Linking SELF app0:/Media/Modules/pthread.suprx...
+[13:14:23.174] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x2700398
+[13:14:23.175] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x270169c
+[13:14:23.177] |I| [load_module]: Module PTHREAD_PRX (at "app0:/Media/Modules/pthread.suprx") loaded
+[13:14:23.178] |D| [start_module]: Running module_start of library: PTHREAD_PRX at address 0x27000a5
+[13:14:23.221] |I| [start_module]: Module PTHREAD_PRX (at "app0:/Media/Modules/pthread.suprx") module_start returned 0x0
+[13:14:23.231] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x1ad921c
+[13:14:23.232] |I| [load_module]: Loading module "app0:/Media/Modules/SUPRXManager.suprx"
+[13:14:23.276] |I| [load_self]: app0:/Media/Modules/SUPRXManager.suprx: Skipping special segment 0x6fffff01...
+[13:14:23.277] |I| [load_self]: Loaded module segment 0 @ [0x02705000 - 0x0270A6A8 / 0x81000000] (size: 0x000056A8) of module app0:/Media/Modules/SUPRXManager.suprx
+[13:14:23.279] |I| [load_self]: Loaded module segment 1 @ [0x020EF000 - 0x020EF044 / 0x81006000] (size: 0x00000044) of module app0:/Media/Modules/SUPRXManager.suprx
+[13:14:23.282] |I| [load_self]: Linking SELF app0:/Media/Modules/SUPRXManager.suprx...
+[13:14:23.285] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x2709f98
+[13:14:23.288] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x270a5ec
+[13:14:23.290] |I| [load_module]: Module SUPRXManager (at "app0:/Media/Modules/SUPRXManager.suprx") loaded
+[13:14:23.291] |D| [start_module]: Running module_start of library: SUPRXManager at address 0x2706859
+[13:14:23.342] |I| [start_module]: Module SUPRXManager (at "app0:/Media/Modules/SUPRXManager.suprx") module_start returned 0x0
+[13:14:23.353] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET
+[13:14:23.357] |I| [load_module]: Loading module "app0:/Media/Modules/mono-vita.suprx"
+[13:14:23.967] |I| [load_self]: app0:/Media/Modules/mono-vita.suprx: Skipping special segment 0x6fffff01...
+[13:14:23.969] |I| [load_self]: Loaded module segment 0 @ [0x0270B000 - 0x029563B4 / 0x81000000] (size: 0x0024B3B4) of module app0:/Media/Modules/mono-vita.suprx
+[13:14:23.972] |I| [load_self]: Loaded module segment 1 @ [0x02957000 - 0x029BEC60 / 0x8124C000] (size: 0x00067C60) of module app0:/Media/Modules/mono-vita.suprx
+[13:14:23.976] |I| [load_self]: Linking SELF app0:/Media/Modules/mono-vita.suprx...
+[13:14:23.978] |D| [load_var_exports]: Found previously not found variable. nid:0x1a5c609, new_entry_point:0x295eb50
+[13:14:23.980] |D| [load_var_exports]: Found previously not found variable. nid:0x6ef1e48, new_entry_point:0x295eb48
+[13:14:23.986] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x289e600
+[13:14:23.987] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x293927c
+[13:14:23.989] |I| [load_module]: Module MONO (at "app0:/Media/Modules/mono-vita.suprx") loaded
+[13:14:23.991] |D| [start_module]: Running module_start of library: MONO at address 0x287faa5
+[13:14:24.040] |I| [start_module]: Module MONO (at "app0:/Media/Modules/mono-vita.suprx") module_start returned 0x0
+[13:14:24.047] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x422ae097 UNRECOGNISED at 0x1ad87cc
+[13:14:24.141] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xbc529b7b __tls_get_addr at 0x1ad934c
+[13:14:24.196] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x7ad7a737 mspace_malloc_usable_size at 0x1ad922c
+[13:14:24.204] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x915da59e mspace_reallocalign at 0x1ad928c
+[13:14:24.215] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x33b83b70 __cxa_atexit at 0x1ad90fc
+[13:14:24.221] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xd5fd9ffa UNRECOGNISED at 0x1ad887c
+[13:14:24.223] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xb777bb9e UNRECOGNISED at 0x1ad886c
+[13:14:24.227] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x774c2c05 sceFiosInitialize at 0x1ad9acc
+[13:14:24.290] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[13:14:24.293] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[13:14:24.368] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xd55b8555 sceFiosIOFilterAdd at 0x1ad9b4c
+[13:14:24.372] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x57252f2 sceFiosIOFilterPsarcDearchiver at 0x1ad9a3c
+[13:14:24.468] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xdf3352fc sceFiosArchiveGetMountBufferSizeSync at 0x1ad9b5c
+[13:14:24.538] |I| [export_sceIoOpen]: Opening file: app0:/archive.psarc
+[13:14:24.542] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/archive.psarc (target path: app0:/archive.psarc)
+[13:14:24.546] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:24.609] |I| [export_sceIoOpen]: Opening file: app0:/archive_patch.psarc
+[13:14:24.610] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/archive_patch.psarc (target path: app0:/archive_patch.psarc)
+[13:14:24.613] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:24.619] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x2f3e5b16 memchr at 0x1ad90dc
+[13:14:24.623] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x34bc3713 sceFiosDHOpenSync at 0x1ad9a9c
+[13:14:24.633] |T| [open_dir]: _sceIoDopen: Opening dir app0:/Media (ux0:/app/PCSB00734/Media), fd: 0x3
+[13:14:24.645] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xb7e79cad sceFiosDHReadSync at 0x1ad9b1c
+[13:14:24.654] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level0 of fd: 0x3
+[13:14:24.664] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level1 of fd: 0x3
+[13:14:24.671] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x3cdfd2a3 mspace_free at 0x1ad911c
+[13:14:24.680] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level10 of fd: 0x3
+[13:14:24.686] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level11 of fd: 0x3
+[13:14:24.691] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level12 of fd: 0x3
+[13:14:24.694] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level2 of fd: 0x3
+[13:14:24.696] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level3 of fd: 0x3
+[13:14:24.699] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level4 of fd: 0x3
+[13:14:24.702] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level5 of fd: 0x3
+[13:14:24.706] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level6 of fd: 0x3
+[13:14:24.710] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level7 of fd: 0x3
+[13:14:24.714] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level8 of fd: 0x3
+[13:14:24.716] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/level9 of fd: 0x3
+[13:14:24.721] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/mainData of fd: 0x3
+[13:14:24.725] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed of fd: 0x3
+[13:14:24.730] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Modules of fd: 0x3
+[13:14:24.735] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins of fd: 0x3
+[13:14:24.740] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Resources of fd: 0x3
+[13:14:24.745] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/resources.assets of fd: 0x3
+[13:14:24.748] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets0.assets of fd: 0x3
+[13:14:24.750] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets1.assets of fd: 0x3
+[13:14:24.755] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets10.assets of fd: 0x3
+[13:14:24.758] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets11.assets of fd: 0x3
+[13:14:24.762] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets12.assets of fd: 0x3
+[13:14:24.765] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets13.assets of fd: 0x3
+[13:14:24.772] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets2.assets of fd: 0x3
+[13:14:24.775] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets3.assets of fd: 0x3
+[13:14:24.777] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets4.assets of fd: 0x3
+[13:14:24.779] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets5.assets of fd: 0x3
+[13:14:24.782] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets6.assets of fd: 0x3
+[13:14:24.788] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets7.assets of fd: 0x3
+[13:14:24.791] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets8.assets of fd: 0x3
+[13:14:24.793] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/sharedassets9.assets of fd: 0x3
+[13:14:24.798] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x1f3cc428 sceFiosDHCloseSync at 0x1ad9a6c
+[13:14:24.805] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x3
+[13:14:24.809] |T| [open_dir]: _sceIoDopen: Opening dir app0:/Media/Managed (ux0:/app/PCSB00734/Media/Managed), fd: 0x4
+[13:14:24.811] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/Assembly-CSharp-firstpass.dll of fd: 0x4
+[13:14:24.815] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/Assembly-CSharp.dll of fd: 0x4
+[13:14:24.822] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/Assembly-UnityScript-firstpass.dll of fd: 0x4
+[13:14:24.826] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/Assembly-UnityScript.dll of fd: 0x4
+[13:14:24.828] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/Boo.Lang.dll of fd: 0x4
+[13:14:24.831] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/LitJSON.dll of fd: 0x4
+[13:14:24.833] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/mono of fd: 0x4
+[13:14:24.839] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/Mono.Posix.dll of fd: 0x4
+[13:14:24.842] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/Mono.Security.dll of fd: 0x4
+[13:14:24.844] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/mscorlib.dll of fd: 0x4
+[13:14:24.848] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/SonyNP.dll of fd: 0x4
+[13:14:24.852] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/SonyVitaCommonDialog.dll of fd: 0x4
+[13:14:24.855] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/SonyVitaSavedGames.dll of fd: 0x4
+[13:14:24.857] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/System.Configuration.dll of fd: 0x4
+[13:14:24.859] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/System.Core.dll of fd: 0x4
+[13:14:24.862] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/System.dll of fd: 0x4
+[13:14:24.865] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/System.Security.dll of fd: 0x4
+[13:14:24.870] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/System.Xml.dll of fd: 0x4
+[13:14:24.873] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/Uni2DLab.dll of fd: 0x4
+[13:14:24.876] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/UnityEngine.dll of fd: 0x4
+[13:14:24.880] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/UnityEngine.dll.mdb of fd: 0x4
+[13:14:24.883] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/VisualizerStudio.dll of fd: 0x4
+[13:14:24.889] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x4
+[13:14:24.890] |T| [open_dir]: _sceIoDopen: Opening dir app0:/Media/Managed/mono (ux0:/app/PCSB00734/Media/Managed/mono), fd: 0x5
+[13:14:24.896] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/mono/2.0 of fd: 0x5
+[13:14:24.898] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x5
+[13:14:24.899] |T| [open_dir]: _sceIoDopen: Opening dir app0:/Media/Managed/mono/2.0 (ux0:/app/PCSB00734/Media/Managed/mono/2.0), fd: 0x6
+[13:14:24.906] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Managed/mono/2.0/machine.config of fd: 0x6
+[13:14:24.909] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x6
+[13:14:24.915] |T| [open_dir]: _sceIoDopen: Opening dir app0:/Media/Modules (ux0:/app/PCSB00734/Media/Modules), fd: 0x7
+[13:14:24.917] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Modules/mono-vita.suprx of fd: 0x7
+[13:14:24.924] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Modules/pthread.suprx of fd: 0x7
+[13:14:24.927] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Modules/SUPRXManager.suprx of fd: 0x7
+[13:14:24.932] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x7
+[13:14:24.984] |T| [open_dir]: _sceIoDopen: Opening dir app0:/Media/Plugins (ux0:/app/PCSB00734/Media/Plugins), fd: 0x8
+[13:14:24.988] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/CommonDialog.suprx of fd: 0x8
+[13:14:24.990] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/CommonDialog.suprx.b.suprx of fd: 0x8
+[13:14:24.993] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/CommonDialog_Source.zip of fd: 0x8
+[13:14:24.995] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/CommonDialog_stub.a of fd: 0x8
+[13:14:24.998] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/SavedGames.suprx of fd: 0x8
+[13:14:25.001] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/SavedGames.suprx.b.suprx of fd: 0x8
+[13:14:25.005] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/SavedGames_Source.zip of fd: 0x8
+[13:14:25.010] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/SavedGames_stub.a of fd: 0x8
+[13:14:25.012] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/UnityNpToolkit.suprx of fd: 0x8
+[13:14:25.015] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/UnityNpToolkit.suprx.b.suprx of fd: 0x8
+[13:14:25.020] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/UnityNpToolkit_Source.zip of fd: 0x8
+[13:14:25.024] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Plugins/UnityNpToolkit_stub.a of fd: 0x8
+[13:14:25.029] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x8
+[13:14:25.031] |T| [open_dir]: _sceIoDopen: Opening dir app0:/Media/Resources (ux0:/app/PCSB00734/Media/Resources), fd: 0x9
+[13:14:25.034] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Resources/unity default resources of fd: 0x9
+[13:14:25.038] |T| [read_dir]: _sceIoDread: Reading entry app0:/Media/Resources/unity_builtin_extra of fd: 0x9
+[13:14:25.042] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x9
+[13:14:25.052] |E| [open_dir]: Directory does not exist at: D:/GAMESANDEMULATORS/Vita3K/storage/_INVALID/ (target path: /archive/mount/point)
+[13:14:25.056] |W| [io_error_impl]: open_dir (_sceIoDopen) returned 0x80010002
+[13:14:25.127] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x15c8bacf UNRECOGNISED at 0x1adadec
+[13:14:25.139] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xc6bae7e1 UNRECOGNISED at 0x1ad884c
+[13:14:25.140] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xac498e17 UNRECOGNISED at 0x1ad881c
+[13:14:25.154] |I| [export_sceIoOpen]: Opening file: app0:/mono/etc/mono/config
+[13:14:25.155] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/mono/etc/mono/config (target path: app0:/mono/etc/mono/config)
+[13:14:25.157] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.162] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
+[13:14:25.163] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/.mono/config (target path: app0:/.mono/config)
+[13:14:25.169] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.172] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xe0d010c1 UNRECOGNISED at 0x1ad885c
+[13:14:25.173] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xf4d93ed UNRECOGNISED at 0x1ad87bc
+[13:14:25.176] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x6baebcc1 UNRECOGNISED at 0x1ad87ec
+[13:14:25.182] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xee681e1d sceFiosFHOpenWithModeSync at 0x20434e8
+[13:14:25.190] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
+[13:14:25.191] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
+[13:14:25.194] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.209] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x8cd18c0f UNRECOGNISED at 0x1ad87fc
+[13:14:25.221] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xfd77e36d UNRECOGNISED at 0x1ad8c6c
+[13:14:25.226] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x5e0eda4b UNRECOGNISED at 0x1ad8a0c
+[13:14:25.231] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x4633134a mspace_realloc at 0x1ad913c
+[13:14:25.241] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/config
+[13:14:25.242] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/config (target path: app0:Media/Managed/mono/config)
+[13:14:25.244] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.245] |I| [export_sceIoOpen]: Opening file: app0:/.mono/config
+[13:14:25.247] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/.mono/config (target path: app0:/.mono/config)
+[13:14:25.249] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.254] |I| [export_sceIoOpen]: Opening file: /proc/cpuinfo
+[13:14:25.255] |E| [open_file]: Cannot find device for path: /proc/cpuinfo
+[13:14:25.259] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.260] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x19994f2a UNRECOGNISED at 0x1ad88fc
+[13:14:25.321] |T| [write_file]: *** TTY: entering exception wait...
+[13:14:25.323] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[13:14:25.326] |W| [stubbed_impl]: Stubbed sceKernelWaitExceptionForMono import called. (Inifinite wait)
+[13:14:25.437] |I| [export_sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
+[13:14:25.438] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
+[13:14:25.440] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.444] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/mscorlib.dll
+[13:14:25.446] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/mscorlib.dll (ux0:/app/PCSB00734/Media/Managed/mscorlib.dll), fd: 0xa
+[13:14:25.528] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xf355f381 mspace_is_heap_empty at 0x1ad948c
+[13:14:25.533] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[13:14:25.688] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll
+[13:14:25.692] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll)
+[13:14:25.695] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.706] |I| [export_sceIoOpen]: Opening file: app0:/app0/mscorlib.dll
+[13:14:25.707] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/app0/mscorlib.dll (target path: app0:/app0/mscorlib.dll)
+[13:14:25.710] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.719] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/mscorlib.dll.config
+[13:14:25.720] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mscorlib.dll.config (target path: app0:/Media/Managed/mscorlib.dll.config)
+[13:14:25.723] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:25.726] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/mscorlib/mscorlib.config
+[13:14:25.727] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/mscorlib/mscorlib.config (target path: app0:Media/Managed/mono/assemblies/mscorlib/mscorlib.config)
+[13:14:25.731] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:26.591] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x8682d761 UNRECOGNISED at 0x1ad8b0c
+[13:14:26.593] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x50f85b2f UNRECOGNISED at 0x1ad89bc
+[13:14:26.596] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xec231b14 UNRECOGNISED at 0x1ad8c0c
+[13:14:26.599] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x231753c3 UNRECOGNISED at 0x1ad8d6c
+[13:14:26.767] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSB00734/sce_sys/safemem.dat (target path: savedata0:/sce_sys/safemem.dat)
+[13:14:26.772] |W| [io_error_impl]: open_file (sceAppUtilLoadSafeMemory) returned 0x80010002
+[13:14:26.776] |T| [open_file]: sceAppUtilLoadSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSB00734/sce_sys/safemem.dat), fd: 0xb
+[13:14:26.778] |T| [write_file]: sceAppUtilLoadSafeMemory: Writing to fd: 0xb, size: 65536
+[13:14:26.780] |T| [close_file]: sceAppUtilLoadSafeMemory: Closing file fd: 0xb
+[13:14:26.782] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x5b9bb802 free at 0x1ad91bc
+[13:14:26.785] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x30cbbc66 mspace_destroy at 0x1ad90ec
+[13:14:27.103] |W| [unimplemented_impl]: Unimplemented sceMotionSetDeadband import called.
+[13:14:27.105] |W| [unimplemented_impl]: Unimplemented sceMotionSetTiltCorrection import called.
+[13:14:27.107] |W| [unimplemented_impl]: Unimplemented sceMotionSetAngleThreshold import called.
+[13:14:27.108] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[13:14:27.226] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x93fc85ed _FSinx at 0x1ad962c
+[13:14:27.289] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x24d87e05 _sceUltMutexOptParamInitialize at 0x1ada7fc
+[13:14:27.340] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x1eac8a sceUltMutexLock at 0x1ada7ec
+[13:14:27.366] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x897c9097 sceUltMutexUnlock at 0x1ada83c
+[13:14:27.402] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xe5936a69 sceUltMutexTryLock at 0x1ada85c
+[13:14:27.454] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x9f87712d strncpy at 0x1ad92bc
+[13:14:27.457] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xfba69bc2 strncat at 0x1ad94ac
+[13:14:27.549] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x789215c3 sceFiosFileGetSizeSync at 0x1ad9adc
+[13:14:27.561] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xc3e7c3db sceFiosFHOpenSync at 0x1ad9b2c
+[13:14:27.562] |I| [export_sceIoOpen]: Opening file: app0:/Media/mainData
+[13:14:27.565] |T| [open_file]: sceIoOpen: Opening file app0:/Media/mainData (ux0:/app/PCSB00734/Media/mainData), fd: 0xc
+[13:14:27.599] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xe2805059 sceFiosFHPreadSync at 0x1ad9b6c
+[13:14:27.859] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xfe83f2e4 vsnprintf at 0x1ad94bc
+[13:14:27.883] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[13:14:28.037] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[13:14:28.072] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[13:14:28.122] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[13:14:28.147] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MiB emuenv mem)
+[13:14:28.282] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x748af35f UNRECOGNISED at 0x1ad8c9c
+[13:14:28.283] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x854d84de UNRECOGNISED at 0x1ad8cbc
+[13:14:28.286] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xcdc48b99 UNRECOGNISED at 0x1ad8cdc
+[13:14:28.287] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xf67a82d8 UNRECOGNISED at 0x1ad8cfc
+[13:14:28.289] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xd4619b10 UNRECOGNISED at 0x1ad8cec
+[13:14:28.327] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x10bf31a0 UNRECOGNISED at 0x1ad8c7c
+[13:14:28.331] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x76fab6f8 UNRECOGNISED at 0x1ad8cac
+[13:14:28.333] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x213104f9 UNRECOGNISED at 0x1ad8c8c
+[13:14:28.662] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x6b54ba realloc at 0x1ad905c
+[13:14:28.681] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xd5200cb strstr at 0x1ad907c
+[13:14:28.788] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xe4299dcb strncmp at 0x1ad93fc
+[13:14:28.804] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x289b8b3 strtok at 0x1ad906c
+[13:14:28.808] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xe71c5cde _Stoul at 0x1ad940c
+[13:14:28.901] |I| [export_sceIoOpen]: Opening file: app0:/Media/Resources/unity default resources
+[13:14:28.903] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Resources/unity default resources (ux0:/app/PCSB00734/Media/Resources/unity default resources), fd: 0xd
+[13:14:29.308] |E| [logging::ret_error_impl]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[13:14:29.314] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x7341c2e6 UNRECOGNISED at 0x1ad904c
+[13:14:29.318] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[13:14:29.321] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[13:14:29.334] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x637ea8a5 UNRECOGNISED at 0x1ad8fbc
+[13:14:29.337] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x279651c1 UNRECOGNISED at 0x1ad8f9c
+[13:14:29.687] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x9281791a UNRECOGNISED at 0x1ad8b1c
+[13:14:29.688] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x218c4f8e UNRECOGNISED at 0x1ad892c
+[13:14:29.690] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x5b833798 UNRECOGNISED at 0x1ad89ec
+[13:14:29.695] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x162420ba UNRECOGNISED at 0x1ad88ec
+[13:14:29.696] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x70920860 UNRECOGNISED at 0x1ad8aac
+[13:14:29.699] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.dll
+[13:14:29.701] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/UnityEngine.dll (ux0:/app/PCSB00734/Media/Managed/UnityEngine.dll), fd: 0xe
+[13:14:29.730] |T| [close_file]: sceIoClose: Closing file fd: 0xe
+[13:14:29.743] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/UnityEngine.dll.config
+[13:14:29.744] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/UnityEngine.dll.config (target path: app0:/Media/Managed/UnityEngine.dll.config)
+[13:14:29.748] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:29.750] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/UnityEngine/UnityEngine.config
+[13:14:29.752] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/UnityEngine/UnityEngine.config (target path: app0:Media/Managed/mono/assemblies/UnityEngine/UnityEngine.config)
+[13:14:29.756] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:29.758] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xb0b22c43 UNRECOGNISED at 0x1ad8b6c
+[13:14:29.763] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x7f88e43d UNRECOGNISED at 0x1ad8acc
+[13:14:29.767] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x6ca6771d UNRECOGNISED at 0x1ad8a8c
+[13:14:29.781] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll
+[13:14:29.783] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.mscorlib/0.0.0.0__b77a5c561934e089/policy.2.0.mscorlib.dll)
+[13:14:29.788] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:29.801] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x81340cf3 UNRECOGNISED at 0x1ad8aec
+[13:14:29.805] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x4d2e1385 UNRECOGNISED at 0x1ad899c
+[13:14:29.806] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x2aed83ef UNRECOGNISED at 0x1ad893c
+[13:14:29.808] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x310d629 UNRECOGNISED at 0x1ad888c
+[13:14:29.810] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x6cce88f6 UNRECOGNISED at 0x1ad8a9c
+[13:14:29.827] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x106402fe UNRECOGNISED at 0x1ad88cc
+[13:14:30.289] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xfb1ba879 UNRECOGNISED at 0x1ad8c5c
+[13:14:30.290] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x2f2b052f UNRECOGNISED at 0x1ad894c
+[13:14:30.326] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp-firstpass.dll
+[13:14:30.330] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/Assembly-CSharp-firstpass.dll (ux0:/app/PCSB00734/Media/Managed/Assembly-CSharp-firstpass.dll), fd: 0xf
+[13:14:30.386] |T| [close_file]: sceIoClose: Closing file fd: 0xf
+[13:14:30.391] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll
+[13:14:30.393] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll (target path: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll)
+[13:14:30.396] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.400] |E| [stat_file]: Cannot find device for path: app0/System.Core.dll
+[13:14:30.401] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.405] |E| [stat_file]: Cannot find device for path: app0/System.Core.exe
+[13:14:30.406] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.412] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.dll
+[13:14:30.416] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.420] |E| [stat_file]: Cannot find device for path: app0/System.Core/System.Core.exe
+[13:14:30.422] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.424] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.dll
+[13:14:30.426] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.428] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core.exe
+[13:14:30.430] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.431] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.dll
+[13:14:30.434] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.437] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Core/System.Core.exe
+[13:14:30.438] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.445] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll
+[13:14:30.447] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll (target path: app0:Media/Managed/mono/gac/System.Core/3.5.0.0__b77a5c561934e089/System.Core.dll)
+[13:14:30.450] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.453] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Core.dll
+[13:14:30.457] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/System.Core.dll (ux0:/app/PCSB00734/Media/Managed/System.Core.dll), fd: 0x10
+[13:14:30.495] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[13:14:30.499] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll
+[13:14:30.501] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll)
+[13:14:30.505] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.507] |E| [stat_file]: Cannot find device for path: app0/System.dll
+[13:14:30.508] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.510] |E| [stat_file]: Cannot find device for path: app0/System.exe
+[13:14:30.511] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.513] |E| [stat_file]: Cannot find device for path: app0/System/System.dll
+[13:14:30.515] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.518] |E| [stat_file]: Cannot find device for path: app0/System/System.exe
+[13:14:30.520] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.521] |E| [stat_file]: Cannot find device for path: Media/Managed/System.dll
+[13:14:30.523] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.526] |E| [stat_file]: Cannot find device for path: Media/Managed/System.exe
+[13:14:30.528] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.530] |E| [stat_file]: Cannot find device for path: Media/Managed/System/System.dll
+[13:14:30.532] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.534] |E| [stat_file]: Cannot find device for path: Media/Managed/System/System.exe
+[13:14:30.535] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.537] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System/2.0.0.0__b77a5c561934e089/System.dll
+[13:14:30.542] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/System/2.0.0.0__b77a5c561934e089/System.dll (target path: app0:Media/Managed/mono/gac/System/2.0.0.0__b77a5c561934e089/System.dll)
+[13:14:30.545] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.547] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.dll
+[13:14:30.549] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/System.dll (ux0:/app/PCSB00734/Media/Managed/System.dll), fd: 0x11
+[13:14:30.590] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[13:14:30.596] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.Mono.Security/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Security.dll
+[13:14:30.600] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.Mono.Security/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Security.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.Mono.Security/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Security.dll)
+[13:14:30.606] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.609] |E| [stat_file]: Cannot find device for path: app0/Mono.Security.dll
+[13:14:30.611] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.615] |E| [stat_file]: Cannot find device for path: app0/Mono.Security.exe
+[13:14:30.618] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.621] |E| [stat_file]: Cannot find device for path: app0/Mono.Security/Mono.Security.dll
+[13:14:30.622] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.626] |E| [stat_file]: Cannot find device for path: app0/Mono.Security/Mono.Security.exe
+[13:14:30.627] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.630] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Security.dll
+[13:14:30.632] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.633] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Security.exe
+[13:14:30.635] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.637] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Security/Mono.Security.dll
+[13:14:30.639] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.644] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Security/Mono.Security.exe
+[13:14:30.647] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.650] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/Mono.Security/2.0.0.0__0738eb9f132ed756/Mono.Security.dll
+[13:14:30.656] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/Mono.Security/2.0.0.0__0738eb9f132ed756/Mono.Security.dll (target path: app0:Media/Managed/mono/gac/Mono.Security/2.0.0.0__0738eb9f132ed756/Mono.Security.dll)
+[13:14:30.660] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.662] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/Mono.Security.dll
+[13:14:30.664] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/Mono.Security.dll (ux0:/app/PCSB00734/Media/Managed/Mono.Security.dll), fd: 0x12
+[13:14:30.694] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[13:14:30.698] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/Mono.Security.dll.config
+[13:14:30.700] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/Mono.Security.dll.config (target path: app0:Media/Managed/Mono.Security.dll.config)
+[13:14:30.706] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.708] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Mono.Security/Mono.Security.config
+[13:14:30.710] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/Mono.Security/Mono.Security.config (target path: app0:Media/Managed/mono/assemblies/Mono.Security/Mono.Security.config)
+[13:14:30.713] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.717] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Configuration/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Configuration.dll
+[13:14:30.726] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.System.Configuration/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Configuration.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Configuration/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Configuration.dll)
+[13:14:30.730] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.731] |E| [stat_file]: Cannot find device for path: app0/System.Configuration.dll
+[13:14:30.733] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.735] |E| [stat_file]: Cannot find device for path: app0/System.Configuration.exe
+[13:14:30.739] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.741] |E| [stat_file]: Cannot find device for path: app0/System.Configuration/System.Configuration.dll
+[13:14:30.743] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.746] |E| [stat_file]: Cannot find device for path: app0/System.Configuration/System.Configuration.exe
+[13:14:30.748] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.753] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration.dll
+[13:14:30.755] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.757] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration.exe
+[13:14:30.758] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.760] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration/System.Configuration.dll
+[13:14:30.763] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.765] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Configuration/System.Configuration.exe
+[13:14:30.768] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.771] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+[13:14:30.774] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll (target path: app0:Media/Managed/mono/gac/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll)
+[13:14:30.776] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.780] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Configuration.dll
+[13:14:30.782] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/System.Configuration.dll (ux0:/app/PCSB00734/Media/Managed/System.Configuration.dll), fd: 0x13
+[13:14:30.806] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[13:14:30.810] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Xml/0.0.0.0__b77a5c561934e089/policy.2.0.System.Xml.dll
+[13:14:30.812] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.System.Xml/0.0.0.0__b77a5c561934e089/policy.2.0.System.Xml.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Xml/0.0.0.0__b77a5c561934e089/policy.2.0.System.Xml.dll)
+[13:14:30.816] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.817] |E| [stat_file]: Cannot find device for path: app0/System.Xml.dll
+[13:14:30.819] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.822] |E| [stat_file]: Cannot find device for path: app0/System.Xml.exe
+[13:14:30.823] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.825] |E| [stat_file]: Cannot find device for path: app0/System.Xml/System.Xml.dll
+[13:14:30.829] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.830] |E| [stat_file]: Cannot find device for path: app0/System.Xml/System.Xml.exe
+[13:14:30.832] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.834] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml.dll
+[13:14:30.837] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.838] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml.exe
+[13:14:30.840] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.843] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml/System.Xml.dll
+[13:14:30.845] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.847] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Xml/System.Xml.exe
+[13:14:30.848] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.850] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll
+[13:14:30.854] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll (target path: app0:Media/Managed/mono/gac/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll)
+[13:14:30.859] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.862] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Xml.dll
+[13:14:30.863] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/System.Xml.dll (ux0:/app/PCSB00734/Media/Managed/System.Xml.dll), fd: 0x14
+[13:14:30.904] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[13:14:30.910] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Xml.dll.config
+[13:14:30.912] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/System.Xml.dll.config (target path: app0:Media/Managed/System.Xml.dll.config)
+[13:14:30.915] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.916] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Xml/System.Xml.config
+[13:14:30.919] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/System.Xml/System.Xml.config (target path: app0:Media/Managed/mono/assemblies/System.Xml/System.Xml.config)
+[13:14:30.920] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.921] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System.Security/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Security.dll
+[13:14:30.927] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.System.Security/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Security.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System.Security/0.0.0.0__b03f5f7f11d50a3a/policy.2.0.System.Security.dll)
+[13:14:30.929] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.931] |E| [stat_file]: Cannot find device for path: app0/System.Security.dll
+[13:14:30.932] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.938] |E| [stat_file]: Cannot find device for path: app0/System.Security.exe
+[13:14:30.939] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.940] |E| [stat_file]: Cannot find device for path: app0/System.Security/System.Security.dll
+[13:14:30.942] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.944] |E| [stat_file]: Cannot find device for path: app0/System.Security/System.Security.exe
+[13:14:30.945] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.947] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security.dll
+[13:14:30.948] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.950] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security.exe
+[13:14:30.955] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.957] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security/System.Security.dll
+[13:14:30.958] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.960] |E| [stat_file]: Cannot find device for path: Media/Managed/System.Security/System.Security.exe
+[13:14:30.961] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:30.963] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll
+[13:14:30.966] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll (target path: app0:Media/Managed/mono/gac/System.Security/2.0.0.0__b03f5f7f11d50a3a/System.Security.dll)
+[13:14:30.973] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.975] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Security.dll
+[13:14:30.978] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/System.Security.dll (ux0:/app/PCSB00734/Media/Managed/System.Security.dll), fd: 0x15
+[13:14:30.989] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[13:14:30.992] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Security.dll.config
+[13:14:30.993] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/System.Security.dll.config (target path: app0:Media/Managed/System.Security.dll.config)
+[13:14:30.995] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:30.999] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Security/System.Security.config
+[13:14:31.005] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/System.Security/System.Security.config (target path: app0:Media/Managed/mono/assemblies/System.Security/System.Security.config)
+[13:14:31.007] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.008] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Configuration.dll.config
+[13:14:31.010] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/System.Configuration.dll.config (target path: app0:Media/Managed/System.Configuration.dll.config)
+[13:14:31.014] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.016] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Configuration/System.Configuration.config
+[13:14:31.020] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/System.Configuration/System.Configuration.config (target path: app0:Media/Managed/mono/assemblies/System.Configuration/System.Configuration.config)
+[13:14:31.023] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.025] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.dll.config
+[13:14:31.026] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/System.dll.config (target path: app0:Media/Managed/System.dll.config)
+[13:14:31.031] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.033] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System/System.config
+[13:14:31.036] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/System/System.config (target path: app0:Media/Managed/mono/assemblies/System/System.config)
+[13:14:31.039] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.042] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.Mono.Posix/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Posix.dll
+[13:14:31.046] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.Mono.Posix/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Posix.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.Mono.Posix/0.0.0.0__0738eb9f132ed756/policy.2.0.Mono.Posix.dll)
+[13:14:31.050] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.051] |E| [stat_file]: Cannot find device for path: app0/Mono.Posix.dll
+[13:14:31.054] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.056] |E| [stat_file]: Cannot find device for path: app0/Mono.Posix.exe
+[13:14:31.057] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.061] |E| [stat_file]: Cannot find device for path: app0/Mono.Posix/Mono.Posix.dll
+[13:14:31.062] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.065] |E| [stat_file]: Cannot find device for path: app0/Mono.Posix/Mono.Posix.exe
+[13:14:31.066] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.068] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Posix.dll
+[13:14:31.071] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.072] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Posix.exe
+[13:14:31.074] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.078] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Posix/Mono.Posix.dll
+[13:14:31.079] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.082] |E| [stat_file]: Cannot find device for path: Media/Managed/Mono.Posix/Mono.Posix.exe
+[13:14:31.082] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.086] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/Mono.Posix/2.0.0.0__0738eb9f132ed756/Mono.Posix.dll
+[13:14:31.088] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/Mono.Posix/2.0.0.0__0738eb9f132ed756/Mono.Posix.dll (target path: app0:Media/Managed/mono/gac/Mono.Posix/2.0.0.0__0738eb9f132ed756/Mono.Posix.dll)
+[13:14:31.093] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.095] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/Mono.Posix.dll
+[13:14:31.097] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/Mono.Posix.dll (ux0:/app/PCSB00734/Media/Managed/Mono.Posix.dll), fd: 0x16
+[13:14:31.121] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[13:14:31.123] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/Mono.Posix.dll.config
+[13:14:31.125] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/Mono.Posix.dll.config (target path: app0:Media/Managed/Mono.Posix.dll.config)
+[13:14:31.129] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.130] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Mono.Posix/Mono.Posix.config
+[13:14:31.132] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/Mono.Posix/Mono.Posix.config (target path: app0:Media/Managed/mono/assemblies/Mono.Posix/Mono.Posix.config)
+[13:14:31.134] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.138] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/System.Core.dll.config
+[13:14:31.139] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/System.Core.dll.config (target path: app0:Media/Managed/System.Core.dll.config)
+[13:14:31.142] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.144] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config
+[13:14:31.146] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/System.Core/System.Core.config (target path: app0:Media/Managed/mono/assemblies/System.Core/System.Core.config)
+[13:14:31.149] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.151] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp-firstpass.dll.config
+[13:14:31.153] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/Assembly-CSharp-firstpass.dll.config (target path: app0:/Media/Managed/Assembly-CSharp-firstpass.dll.config)
+[13:14:31.158] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.161] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.config
+[13:14:31.164] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.config (target path: app0:Media/Managed/mono/assemblies/Assembly-CSharp-firstpass/Assembly-CSharp-firstpass.config)
+[13:14:31.167] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.169] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp.dll
+[13:14:31.171] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/Assembly-CSharp.dll (ux0:/app/PCSB00734/Media/Managed/Assembly-CSharp.dll), fd: 0x17
+[13:14:31.217] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[13:14:31.220] |E| [stat_file]: Cannot find device for path: app0/SonyNP.dll
+[13:14:31.223] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.226] |E| [stat_file]: Cannot find device for path: app0/SonyNP.exe
+[13:14:31.228] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.230] |E| [stat_file]: Cannot find device for path: app0/SonyNP/SonyNP.dll
+[13:14:31.231] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.235] |E| [stat_file]: Cannot find device for path: app0/SonyNP/SonyNP.exe
+[13:14:31.239] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.240] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP.dll
+[13:14:31.242] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.243] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP.exe
+[13:14:31.245] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.247] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP/SonyNP.dll
+[13:14:31.248] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.252] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyNP/SonyNP.exe
+[13:14:31.256] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.258] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyNP.dll
+[13:14:31.260] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/SonyNP.dll (ux0:/app/PCSB00734/Media/Managed/SonyNP.dll), fd: 0x18
+[13:14:31.277] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[13:14:31.279] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyNP.dll.config
+[13:14:31.282] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/SonyNP.dll.config (target path: app0:Media/Managed/SonyNP.dll.config)
+[13:14:31.285] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.288] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config
+[13:14:31.289] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/SonyNP/SonyNP.config (target path: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config)
+[13:14:31.292] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.294] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames.dll
+[13:14:31.296] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.299] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames.exe
+[13:14:31.301] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.305] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames/SonyVitaSavedGames.dll
+[13:14:31.306] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.307] |E| [stat_file]: Cannot find device for path: app0/SonyVitaSavedGames/SonyVitaSavedGames.exe
+[13:14:31.308] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.310] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames.dll
+[13:14:31.311] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.315] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames.exe
+[13:14:31.316] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.318] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames/SonyVitaSavedGames.dll
+[13:14:31.321] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.323] |E| [stat_file]: Cannot find device for path: Media/Managed/SonyVitaSavedGames/SonyVitaSavedGames.exe
+[13:14:31.323] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.325] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaSavedGames.dll
+[13:14:31.327] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/SonyVitaSavedGames.dll (ux0:/app/PCSB00734/Media/Managed/SonyVitaSavedGames.dll), fd: 0x19
+[13:14:31.355] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[13:14:31.357] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaSavedGames.dll.config
+[13:14:31.358] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/SonyVitaSavedGames.dll.config (target path: app0:Media/Managed/SonyVitaSavedGames.dll.config)
+[13:14:31.362] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.364] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config
+[13:14:31.367] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config)
+[13:14:31.371] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.373] |E| [stat_file]: Cannot find device for path: app0/VisualizerStudio.dll
+[13:14:31.375] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.378] |E| [stat_file]: Cannot find device for path: app0/VisualizerStudio.exe
+[13:14:31.380] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.382] |E| [stat_file]: Cannot find device for path: app0/VisualizerStudio/VisualizerStudio.dll
+[13:14:31.383] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.386] |E| [stat_file]: Cannot find device for path: app0/VisualizerStudio/VisualizerStudio.exe
+[13:14:31.388] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.390] |E| [stat_file]: Cannot find device for path: Media/Managed/VisualizerStudio.dll
+[13:14:31.392] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.395] |E| [stat_file]: Cannot find device for path: Media/Managed/VisualizerStudio.exe
+[13:14:31.397] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.399] |E| [stat_file]: Cannot find device for path: Media/Managed/VisualizerStudio/VisualizerStudio.dll
+[13:14:31.401] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.403] |E| [stat_file]: Cannot find device for path: Media/Managed/VisualizerStudio/VisualizerStudio.exe
+[13:14:31.406] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.407] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/VisualizerStudio.dll
+[13:14:31.411] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/VisualizerStudio.dll (ux0:/app/PCSB00734/Media/Managed/VisualizerStudio.dll), fd: 0x1a
+[13:14:31.437] |T| [close_file]: sceIoClose: Closing file fd: 0x1a
+[13:14:31.440] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/VisualizerStudio.dll.config
+[13:14:31.441] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/VisualizerStudio.dll.config (target path: app0:Media/Managed/VisualizerStudio.dll.config)
+[13:14:31.445] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.447] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/VisualizerStudio/VisualizerStudio.config
+[13:14:31.449] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/VisualizerStudio/VisualizerStudio.config (target path: app0:Media/Managed/mono/assemblies/VisualizerStudio/VisualizerStudio.config)
+[13:14:31.452] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.455] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-CSharp.dll.config
+[13:14:31.459] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/Assembly-CSharp.dll.config (target path: app0:/Media/Managed/Assembly-CSharp.dll.config)
+[13:14:31.462] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.464] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Assembly-CSharp/Assembly-CSharp.config
+[13:14:31.467] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/Assembly-CSharp/Assembly-CSharp.config (target path: app0:Media/Managed/mono/assemblies/Assembly-CSharp/Assembly-CSharp.config)
+[13:14:31.471] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.475] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-UnityScript-firstpass.dll
+[13:14:31.477] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/Assembly-UnityScript-firstpass.dll (ux0:/app/PCSB00734/Media/Managed/Assembly-UnityScript-firstpass.dll), fd: 0x1b
+[13:14:31.508] |T| [close_file]: sceIoClose: Closing file fd: 0x1b
+[13:14:31.512] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.Boo.Lang/0.0.0.0__32c39770e9a21a67/policy.2.0.Boo.Lang.dll
+[13:14:31.514] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.Boo.Lang/0.0.0.0__32c39770e9a21a67/policy.2.0.Boo.Lang.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.Boo.Lang/0.0.0.0__32c39770e9a21a67/policy.2.0.Boo.Lang.dll)
+[13:14:31.517] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.519] |E| [stat_file]: Cannot find device for path: app0/Boo.Lang.dll
+[13:14:31.521] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.525] |E| [stat_file]: Cannot find device for path: app0/Boo.Lang.exe
+[13:14:31.526] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.528] |E| [stat_file]: Cannot find device for path: app0/Boo.Lang/Boo.Lang.dll
+[13:14:31.529] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.531] |E| [stat_file]: Cannot find device for path: app0/Boo.Lang/Boo.Lang.exe
+[13:14:31.532] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.534] |E| [stat_file]: Cannot find device for path: Media/Managed/Boo.Lang.dll
+[13:14:31.539] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.541] |E| [stat_file]: Cannot find device for path: Media/Managed/Boo.Lang.exe
+[13:14:31.542] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.545] |E| [stat_file]: Cannot find device for path: Media/Managed/Boo.Lang/Boo.Lang.dll
+[13:14:31.546] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.548] |E| [stat_file]: Cannot find device for path: Media/Managed/Boo.Lang/Boo.Lang.exe
+[13:14:31.549] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[13:14:31.552] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/Boo.Lang/2.0.9.5__32c39770e9a21a67/Boo.Lang.dll
+[13:14:31.558] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/Boo.Lang/2.0.9.5__32c39770e9a21a67/Boo.Lang.dll (target path: app0:Media/Managed/mono/gac/Boo.Lang/2.0.9.5__32c39770e9a21a67/Boo.Lang.dll)
+[13:14:31.560] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.562] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/Boo.Lang.dll
+[13:14:31.563] |T| [open_file]: sceIoOpen: Opening file app0:Media/Managed/Boo.Lang.dll (ux0:/app/PCSB00734/Media/Managed/Boo.Lang.dll), fd: 0x1c
+[13:14:31.589] |T| [close_file]: sceIoClose: Closing file fd: 0x1c
+[13:14:31.592] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/Boo.Lang.dll.config
+[13:14:31.593] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/Boo.Lang.dll.config (target path: app0:Media/Managed/Boo.Lang.dll.config)
+[13:14:31.596] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.598] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Boo.Lang/Boo.Lang.config
+[13:14:31.599] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/Boo.Lang/Boo.Lang.config (target path: app0:Media/Managed/mono/assemblies/Boo.Lang/Boo.Lang.config)
+[13:14:31.606] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.608] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-UnityScript-firstpass.dll.config
+[13:14:31.609] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/Assembly-UnityScript-firstpass.dll.config (target path: app0:/Media/Managed/Assembly-UnityScript-firstpass.dll.config)
+[13:14:31.612] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.613] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Assembly-UnityScript-firstpass/Assembly-UnityScript-firstpass.config
+[13:14:31.618] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/Assembly-UnityScript-firstpass/Assembly-UnityScript-firstpass.config (target path: app0:Media/Managed/mono/assemblies/Assembly-UnityScript-firstpass/Assembly-UnityScript-firstpass.config)
+[13:14:31.623] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.626] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-UnityScript.dll
+[13:14:31.627] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/Assembly-UnityScript.dll (ux0:/app/PCSB00734/Media/Managed/Assembly-UnityScript.dll), fd: 0x1d
+[13:14:31.640] |T| [close_file]: sceIoClose: Closing file fd: 0x1d
+[13:14:31.643] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Assembly-UnityScript.dll.config
+[13:14:31.644] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/Assembly-UnityScript.dll.config (target path: app0:/Media/Managed/Assembly-UnityScript.dll.config)
+[13:14:31.647] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.651] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Assembly-UnityScript/Assembly-UnityScript.config
+[13:14:31.655] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/Assembly-UnityScript/Assembly-UnityScript.config (target path: app0:Media/Managed/mono/assemblies/Assembly-UnityScript/Assembly-UnityScript.config)
+[13:14:31.658] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.660] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/LitJSON.dll
+[13:14:31.661] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/LitJSON.dll (ux0:/app/PCSB00734/Media/Managed/LitJSON.dll), fd: 0x1e
+[13:14:31.676] |T| [close_file]: sceIoClose: Closing file fd: 0x1e
+[13:14:31.679] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/LitJSON.dll.config
+[13:14:31.679] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/LitJSON.dll.config (target path: app0:/Media/Managed/LitJSON.dll.config)
+[13:14:31.683] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.688] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/LitJSON/LitJSON.config
+[13:14:31.689] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/LitJSON/LitJSON.config (target path: app0:Media/Managed/mono/assemblies/LitJSON/LitJSON.config)
+[13:14:31.692] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.694] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/SonyNP.dll
+[13:14:31.695] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/SonyNP.dll (ux0:/app/PCSB00734/Media/Managed/SonyNP.dll), fd: 0x1f
+[13:14:31.701] |T| [close_file]: sceIoClose: Closing file fd: 0x1f
+[13:14:31.705] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyNP.dll.config
+[13:14:31.706] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/SonyNP.dll.config (target path: app0:Media/Managed/SonyNP.dll.config)
+[13:14:31.709] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.711] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config
+[13:14:31.715] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/SonyNP/SonyNP.config (target path: app0:Media/Managed/mono/assemblies/SonyNP/SonyNP.config)
+[13:14:31.718] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.732] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/SonyVitaCommonDialog.dll
+[13:14:31.733] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/SonyVitaCommonDialog.dll (ux0:/app/PCSB00734/Media/Managed/SonyVitaCommonDialog.dll), fd: 0x20
+[13:14:31.763] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[13:14:31.766] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/SonyVitaCommonDialog.dll.config
+[13:14:31.767] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/SonyVitaCommonDialog.dll.config (target path: app0:/Media/Managed/SonyVitaCommonDialog.dll.config)
+[13:14:31.771] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.772] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config
+[13:14:31.777] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaCommonDialog/SonyVitaCommonDialog.config)
+[13:14:31.781] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.783] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/SonyVitaSavedGames.dll
+[13:14:31.784] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/SonyVitaSavedGames.dll (ux0:/app/PCSB00734/Media/Managed/SonyVitaSavedGames.dll), fd: 0x21
+[13:14:31.789] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[13:14:31.791] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/SonyVitaSavedGames.dll.config
+[13:14:31.795] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/SonyVitaSavedGames.dll.config (target path: app0:Media/Managed/SonyVitaSavedGames.dll.config)
+[13:14:31.798] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.800] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config
+[13:14:31.802] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config (target path: app0:Media/Managed/mono/assemblies/SonyVitaSavedGames/SonyVitaSavedGames.config)
+[13:14:31.806] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.811] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Uni2DLab.dll
+[13:14:31.813] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/Uni2DLab.dll (ux0:/app/PCSB00734/Media/Managed/Uni2DLab.dll), fd: 0x22
+[13:14:31.816] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[13:14:31.819] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/Uni2DLab.dll.config
+[13:14:31.820] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/Uni2DLab.dll.config (target path: app0:/Media/Managed/Uni2DLab.dll.config)
+[13:14:31.825] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.826] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/Uni2DLab/Uni2DLab.config
+[13:14:31.829] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/Uni2DLab/Uni2DLab.config (target path: app0:Media/Managed/mono/assemblies/Uni2DLab/Uni2DLab.config)
+[13:14:31.831] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.833] |I| [export_sceIoOpen]: Opening file: app0:/Media/Managed/VisualizerStudio.dll
+[13:14:31.835] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Managed/VisualizerStudio.dll (ux0:/app/PCSB00734/Media/Managed/VisualizerStudio.dll), fd: 0x23
+[13:14:31.839] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[13:14:31.843] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/VisualizerStudio.dll.config
+[13:14:31.845] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/VisualizerStudio.dll.config (target path: app0:Media/Managed/VisualizerStudio.dll.config)
+[13:14:31.848] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.849] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/assemblies/VisualizerStudio/VisualizerStudio.config
+[13:14:31.852] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/assemblies/VisualizerStudio/VisualizerStudio.config (target path: app0:Media/Managed/mono/assemblies/VisualizerStudio/VisualizerStudio.config)
+[13:14:31.858] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:31.878] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xedb2e0d7 UNRECOGNISED at 0x1ad8c1c
+[13:14:31.945] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x3ef4fbc7 UNRECOGNISED at 0x1ad898c
+[13:14:32.023] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x3db2d1f6 UNRECOGNISED at 0x1ad897c
+[13:14:32.025] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xbeb37a1e UNRECOGNISED at 0x1ad8bac
+[13:14:32.035] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xdd1db80f UNRECOGNISED at 0x1ad8bec
+[13:14:33.217] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xd0176286 UNRECOGNISED at 0x1ad901c
+[13:14:33.219] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xf03639d4 UNRECOGNISED at 0x1ad902c
+[13:14:33.223] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x7564bc7e UNRECOGNISED at 0x1ad8fdc
+[13:14:33.233] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x5427dc47 UNRECOGNISED at 0x1ad8fac
+[13:14:33.234] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x394d3b4 UNRECOGNISED at 0x1ad8f7c
+[13:14:33.237] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x2532be3b UNRECOGNISED at 0x1ad8f8c
+[13:14:33.247] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xf24e8d3c UNRECOGNISED at 0x1ad903c
+[13:14:33.309] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x80b7d7b2 UNRECOGNISED at 0x1ad8adc
+[13:14:33.323] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x2dda7b0b UNRECOGNISED at 0x1ad8d7c
+[13:14:33.495] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x50b326ce setjmp at 0x1ad917c
+[13:14:33.710] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x2f7b5e8f UNRECOGNISED at 0x1ad895c
+[13:14:33.807] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[13:14:33.937] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets0.assets
+[13:14:33.939] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets0.assets (ux0:/app/PCSB00734/Media/sharedassets0.assets), fd: 0x24
+[13:14:34.245] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x1f5efc4c UNRECOGNISED at 0x1ad890c
+[13:14:34.247] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x1349a962 UNRECOGNISED at 0x1ad88dc
+[13:14:34.249] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x4e898f6c UNRECOGNISED at 0x1ad89ac
+[13:14:34.251] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x5bc78438 UNRECOGNISED at 0x1ad89fc
+[13:14:34.311] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x663081ee UNRECOGNISED at 0x1ad8e0c
+[13:14:34.407] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xbe39a69 UNRECOGNISED at 0x1ad88bc
+[13:14:34.409] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xbc3ee500 UNRECOGNISED at 0x1ad8b9c
+[13:14:34.413] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x655a4839 UNRECOGNISED at 0x1ad8a1c
+[13:14:34.424] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x5a06debe UNRECOGNISED at 0x1ad89cc
+[13:14:34.427] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x70a02007 UNRECOGNISED at 0x1ad8abc
+[13:14:34.462] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xa6d80b78 UNRECOGNISED at 0x1ad8b4c
+[13:14:34.464] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x97a68419 UNRECOGNISED at 0x1ad8b2c
+[13:14:34.466] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xa4bebffd UNRECOGNISED at 0x1ad8b3c
+[13:14:34.470] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x315ec2e1 UNRECOGNISED at 0x1ad8d8c
+[13:14:35.815] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll
+[13:14:35.819] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll (target path: app0:Media/Managed/mono/gac/policy.3.5.System.Core/0.0.0.0__b77a5c561934e089/policy.3.5.System.Core.dll)
+[13:14:35.823] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:41.961] |I| [export_sceIoOpen]: Opening file: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll
+[13:14:41.965] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSB00734/Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll (target path: app0:Media/Managed/mono/gac/policy.2.0.System/0.0.0.0__b77a5c561934e089/policy.2.0.System.dll)
+[13:14:41.969] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:42.624] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xc6a97afc UNRECOGNISED at 0x1ad8bcc
+[13:14:42.647] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x957caf7 UNRECOGNISED at 0x1ad88ac
+[13:14:42.755] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x33763ad5 UNRECOGNISED at 0x1ad8d9c
+[13:14:42.761] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x9e9d4618 UNRECOGNISED at 0x1ad8eac
+[13:14:42.762] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xd0d065f4 UNRECOGNISED at 0x1ad8f1c
+[13:14:42.764] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x8b5c3a08 UNRECOGNISED at 0x1ad8e5c
+[13:14:42.770] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x921409dc UNRECOGNISED at 0x1ad8e8c
+[13:14:42.772] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xf76df0cd UNRECOGNISED at 0x1ad8f4c
+[13:14:42.774] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x1274a59b UNRECOGNISED at 0x1ad8d4c
+[13:14:42.778] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x379e33a4 UNRECOGNISED at 0x1ad8dac
+[13:14:42.780] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xde3734e5 UNRECOGNISED at 0x1ad8f2c
+[13:14:42.782] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xeb8d03c1 UNRECOGNISED at 0x1ad8bfc
+[13:14:42.786] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x595b1ce4 UNRECOGNISED at 0x1ad8dec
+[13:14:42.800] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x9e028879 UNRECOGNISED at 0x1ad8e9c
+[13:14:42.805] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xb0a28856 UNRECOGNISED at 0x1ad8ebc
+[13:14:43.066] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x39a60403 UNRECOGNISED at 0x1ad896c
+[13:14:43.071] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x58746e5e UNRECOGNISED at 0x1ad8ddc
+[13:14:43.073] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x8ada0876 UNRECOGNISED at 0x1ad8e4c
+[13:14:43.079] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xb0e052b9 UNRECOGNISED at 0x1ad8b7c
+[13:14:43.100] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xc965110e UNRECOGNISED at 0x1ad8efc
+[13:14:43.495] |I| [export_sceIoOpen]: Opening file: app0:/Media/Resources/unity_builtin_extra
+[13:14:43.497] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Resources/unity_builtin_extra (ux0:/app/PCSB00734/Media/Resources/unity_builtin_extra), fd: 0x25
+[13:14:44.244] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xc5b9c8d8 _FDtest at 0x1ad965c
+[13:14:44.305] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0xcd7c05bd floorf at 0x1ad967c
+[13:14:44.311] |T| [log_import_call]: [LLE] TID: 399 FUNC: 0x75348906 fabsf at 0x1ad960c
+[13:14:45.411] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xa88edca8 sceFiosFHClose at 0x1ad9b0c
+[13:14:45.415] |T| [close_file]: sceIoClose: Closing file fd: 0xc
+[13:14:45.857] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xb7f12960 UNRECOGNISED at 0x1ad883c
+[13:14:45.868] |W| [stubbed_impl]: Stubbed sceMotionGetState import called. (Set value to zero)
+[13:14:45.870] |W| [unimplemented_impl]: Unimplemented sceMotionGetMagnetometerState import called.
+[13:14:46.263] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x1b9a575e sceFiosOpIsDone at 0x1ad9a4c
+[13:14:46.266] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xe4ea92fa sceFiosOpDelete at 0x1ad9b7c
+[13:14:46.269] |I| [export_sceIoOpen]: Opening file: app0:/Media/resources.assets
+[13:14:46.271] |T| [open_file]: sceIoOpen: Opening file app0:/Media/resources.assets (ux0:/app/PCSB00734/Media/resources.assets), fd: 0x26
+[13:14:47.567] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xa98e941b tanf at 0x1ad963c
+[13:14:47.636] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampEnable import called.
+[13:14:47.637] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampValue import called.
+[13:14:47.652] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x1cd8f88e fmodf at 0x1ad950c
+[13:14:47.692] |I| [float_to_half_init]: AVX+F16C instruction set is not supported. Using basic f32 to f16 conversion
+[13:14:47.855] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[13:14:47.858] |C| [renderer::vulkan::PipelineCache::retrieve_shader]: Mask not implemented in the vulkan renderer!
+[13:14:47.860] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3a7349a016eef77eeeca149e3bca528bc9b1f4db659b2df1af0b68d9ae083c2c
+[13:14:47.865] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 3a7349a016eef77eeeca149e3bca528bc9b1f4db659b2df1af0b68d9ae083c2c
+[13:14:47.869] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) coords
+[13:14:47.887] |C| [renderer::vulkan::PipelineCache::retrieve_shader]: Mask not implemented in the vulkan renderer!
+[13:14:47.897] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9f8f4953a7a8e8cd5f99b798477a08396ab9555daf6275056d51c2a90851643a
+[13:14:47.900] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9f8f4953a7a8e8cd5f99b798477a08396ab9555daf6275056d51c2a90851643a
+[13:14:47.904] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) mask
+[13:14:47.914] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 6d4b9fd7f374332d8fbef73acd203e3fc3b18704ed409601518c31c9dba2ad6a
+[13:14:47.917] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 6d4b9fd7f374332d8fbef73acd203e3fc3b18704ed409601518c31c9dba2ad6a
+[13:14:47.921] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) position
+[13:14:47.922] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) depth
+[13:14:47.923] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:14:47.929] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[13:14:47.968] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 4291f996eb5f888561df422b9dabe78fcd152b55c1a7570c1459741b919fedc8
+[13:14:47.970] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 4291f996eb5f888561df422b9dabe78fcd152b55c1a7570c1459741b919fedc8
+[13:14:47.974] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) color
+[13:14:47.976] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:14:47.997] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 462de6683eab699559419421ecb741b6d030d6ab02c8e184ca02988d0a600c0f
+[13:14:48.000] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 462de6683eab699559419421ecb741b6d030d6ab02c8e184ca02988d0a600c0f
+[13:14:48.004] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) IN_vertex
+[13:14:48.007] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) IN_color
+[13:14:48.009] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) IN_texcoord
+[13:14:48.012] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:14:48.014] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (half4) _Color
+[13:14:48.016] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:14:48.022] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[13:14:48.056] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ec1fa677d244641b430deb8fcaf742804c888f1e73c149fa3acf8812f974fb98
+[13:14:48.091] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader ec1fa677d244641b430deb8fcaf742804c888f1e73c149fa3acf8812f974fb98
+[13:14:48.098] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[13:14:48.121] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_MainTex, TEXCOORD0.xy)
+[13:14:48.122] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:14:48.151] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xa130e3a UNRECOGNISED at 0x1ad8d0c
+[13:14:48.198] |C| [renderer::vulkan::PipelineCache::retrieve_shader]: Mask not implemented in the vulkan renderer!
+[13:14:48.215] |C| [renderer::vulkan::PipelineCache::retrieve_shader]: Mask not implemented in the vulkan renderer!
+[13:14:49.288] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xbe69753 UNRECOGNISED at 0x1ad8d2c
+[13:14:49.385] |I| [load_module]: Loading module "app0:/Media/Plugins/SavedGames.suprx"
+[13:14:49.446] |I| [load_self]: app0:/Media/Plugins/SavedGames.suprx: Skipping special segment 0x6fffff01...
+[13:14:49.447] |I| [load_self]: Loaded module segment 0 @ [0x02AC0000 - 0x02AC5E18 / 0x81000000] (size: 0x00005E18) of module app0:/Media/Plugins/SavedGames.suprx
+[13:14:49.450] |I| [load_self]: Loaded module segment 1 @ [0x02AC6000 - 0x02AC6220 / 0x81006000] (size: 0x00000220) of module app0:/Media/Plugins/SavedGames.suprx
+[13:14:49.452] |I| [load_self]: Linking SELF app0:/Media/Plugins/SavedGames.suprx...
+[13:14:49.454] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x2ac4b80
+[13:14:49.456] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x2ac5dc4
+[13:14:49.458] |I| [load_module]: Module SavedGameList (at "app0:/Media/Plugins/SavedGames.suprx") loaded
+[13:14:49.460] |D| [start_module]: Running module_start of library: SavedGameList at address 0x2ac4475
+[13:14:49.530] |I| [start_module]: Module SavedGameList (at "app0:/Media/Plugins/SavedGames.suprx") module_start returned 0x0
+[13:14:49.542] |I| [load_module]: Loading module "app0:/Media/Plugins/SavedGames.suprx.b.suprx"
+[13:14:49.567] |I| [load_self]: app0:/Media/Plugins/SavedGames.suprx.b.suprx: Skipping special segment 0x6fffff01...
+[13:14:49.568] |I| [load_self]: Loaded module segment 0 @ [0x02AC7000 - 0x02AC78F8 / 0x81000000] (size: 0x000008F8) of module app0:/Media/Plugins/SavedGames.suprx.b.suprx
+[13:14:49.570] |I| [load_self]: Loaded module segment 1 @ [0x02AC8000 - 0x02AC80A8 / 0x81001000] (size: 0x000000A8) of module app0:/Media/Plugins/SavedGames.suprx.b.suprx
+[13:14:49.573] |I| [load_self]: Linking SELF app0:/Media/Plugins/SavedGames.suprx.b.suprx...
+[13:14:49.575] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x2ac7398
+[13:14:49.576] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x2ac78f4
+[13:14:49.579] |I| [load_module]: Module B_SavedGames (at "app0:/Media/Plugins/SavedGames.suprx.b.suprx") loaded
+[13:14:49.580] |D| [start_module]: Running module_start of library: B_SavedGames at address 0x2ac7195
+[13:14:49.662] |I| [start_module]: Module B_SavedGames (at "app0:/Media/Plugins/SavedGames.suprx.b.suprx") module_start returned 0x0
+[13:14:49.865] |W| [unimplemented_impl]: Unimplemented sceCommonDialogIsRunning import called.
+[13:14:49.943] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSB00734/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[13:14:49.955] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[13:14:49.957] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[13:14:49.966] |I| [export_sceIoOpen]: Opening file: savedata0:data0000.bin
+[13:14:49.968] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSB00734/data0000.bin (target path: savedata0:data0000.bin)
+[13:14:49.970] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[13:14:49.996] |E| [logging::ret_error_impl]: sceSaveDataDialogTerm returned SCE_COMMON_DIALOG_ERROR_NOT_IN_USE (0x80020411)
+[13:14:50.208] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSB00734/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[13:14:50.218] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[13:14:50.222] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x27
+[13:14:50.224] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x27, size: 8
+[13:14:50.233] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x27
+[13:14:50.236] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x28
+[13:14:50.240] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x28, size: 844
+[13:14:50.252] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x28
+[13:14:51.482] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x3a3e5424 asinf at 0x1ad953c
+[13:14:51.484] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x4e09dd53 atan2f at 0x1ad955c
+[13:14:51.526] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x6746a4cd UNRECOGNISED at 0x1ad8a2c
+[13:14:51.527] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xbb1d3b23 UNRECOGNISED at 0x1ad8b8c
+[13:14:51.538] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x6a31913f UNRECOGNISED at 0x1ad8a5c
+[13:14:51.549] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x2105b42d UNRECOGNISED at 0x1ad891c
+[13:14:52.250] |I| [load_module]: Loading module "app0:/Media/Plugins/UnityNpToolkit.suprx"
+[13:14:52.339] |I| [load_self]: app0:/Media/Plugins/UnityNpToolkit.suprx: Skipping special segment 0x6fffff01...
+[13:14:52.340] |I| [load_self]: Loaded module segment 0 @ [0x02AC9000 - 0x02B223E4 / 0x81000000] (size: 0x000593E4) of module app0:/Media/Plugins/UnityNpToolkit.suprx
+[13:14:52.343] |I| [load_self]: Loaded module segment 1 @ [0x02B23000 - 0x02B35CCC / 0x8105A000] (size: 0x00012CCC) of module app0:/Media/Plugins/UnityNpToolkit.suprx
+[13:14:52.348] |I| [load_self]: Linking SELF app0:/Media/Plugins/UnityNpToolkit.suprx...
+[13:14:52.350] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x2b13f9c
+[13:14:52.351] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x2b21150
+[13:14:52.355] |I| [load_module]: Module UnityPluginToolkit (at "app0:/Media/Plugins/UnityNpToolkit.suprx") loaded
+[13:14:52.357] |D| [start_module]: Running module_start of library: UnityPluginToolkit at address 0x2ae0cf5
+[13:14:52.473] |I| [start_module]: Module UnityPluginToolkit (at "app0:/Media/Plugins/UnityNpToolkit.suprx") module_start returned 0x0
+[13:14:52.483] |I| [load_module]: Loading module "app0:/Media/Plugins/UnityNpToolkit.suprx.b.suprx"
+[13:14:52.519] |I| [load_self]: app0:/Media/Plugins/UnityNpToolkit.suprx.b.suprx: Skipping special segment 0x6fffff01...
+[13:14:52.522] |I| [load_self]: Loaded module segment 0 @ [0x02B36000 - 0x02B3961C / 0x81000000] (size: 0x0000361C) of module app0:/Media/Plugins/UnityNpToolkit.suprx.b.suprx
+[13:14:52.526] |I| [load_self]: Loaded module segment 1 @ [0x02B3A000 - 0x02B3A6D0 / 0x81004000] (size: 0x000006D0) of module app0:/Media/Plugins/UnityNpToolkit.suprx.b.suprx
+[13:14:52.531] |I| [load_self]: Linking SELF app0:/Media/Plugins/UnityNpToolkit.suprx.b.suprx...
+[13:14:52.531] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x2b36fe8
+[13:14:52.533] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x2b39618
+[13:14:52.534] |I| [load_module]: Module B_UnityNpToolkit (at "app0:/Media/Plugins/UnityNpToolkit.suprx.b.suprx") loaded
+[13:14:52.537] |D| [start_module]: Running module_start of library: B_UnityNpToolkit at address 0x2b36195
+[13:14:52.671] |I| [start_module]: Module B_UnityNpToolkit (at "app0:/Media/Plugins/UnityNpToolkit.suprx.b.suprx") module_start returned 0x0
+[13:14:52.686] |E| [logging::ret_error_impl]: sceNetCtlInetRegisterCallback returned SCE_NET_CTL_ERROR_NOT_INITIALIZED (0x80412101)
+[13:14:52.692] |T| [write_file]: *** TTY: ERROR: Failed to register NetCtlStatus callback
+[13:14:52.766] |E| [logging::ret_error_impl]: sceNetInit returned SCE_NET_ERROR_EBUSY (0x80410110)
+[13:14:52.767] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[13:14:52.771] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[13:14:52.772] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_HTTPS
+[13:14:52.773] |I| [load_module]: Loading module "vs0:sys/external/libhttp.suprx"
+[13:14:52.793] |I| [load_self]: vs0:sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[13:14:52.794] |I| [load_self]: Loaded module segment 0 @ [0x02B3D000 - 0x02B5A150 / 0x81000000] (size: 0x0001D150) of module vs0:sys/external/libhttp.suprx
+[13:14:52.798] |I| [load_self]: Loaded module segment 1 @ [0x02B5B000 - 0x02B5B640 / 0x8101E000] (size: 0x00000640) of module vs0:sys/external/libhttp.suprx
+[13:14:52.800] |I| [load_self]: Linking SELF vs0:sys/external/libhttp.suprx...
+[13:14:52.802] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x2b58e68
+[13:14:52.803] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x2b55ca0
+[13:14:52.805] |I| [load_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") loaded
+[13:14:52.806] |D| [start_module]: Running module_start of library: SceLibHttp at address 0x2b462e5
+[13:14:52.844] |I| [start_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") module_start returned 0x0
+[13:14:52.851] |I| [load_module]: Loading module "vs0:sys/external/libssl.suprx"
+[13:14:52.898] |I| [load_self]: Loaded module segment 0 @ [0x02B5C000 - 0x02BC2EA4 / 0x81000000] (size: 0x00066EA4) of module vs0:sys/external/libssl.suprx
+[13:14:52.901] |I| [load_self]: Loaded module segment 1 @ [0x0B8CA000 - 0x0B8CF188 / 0x81067000] (size: 0x00005188) of module vs0:sys/external/libssl.suprx
+[13:14:52.906] |I| [load_self]: Linking SELF vs0:sys/external/libssl.suprx...
+[13:14:52.907] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x2bae9b0
+[13:14:52.908] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x2ba8c70
+[13:14:52.910] |I| [load_module]: Module SceLibSsl (at "vs0:sys/external/libssl.suprx") loaded
+[13:14:52.912] |T| [log_import_call]: [LLE] TID: 643 FUNC: 0x214926d9 sceHttpInit at 0x2b12dac
+[13:14:52.921] |T| [log_import_call]: [LLE] TID: 643 FUNC: 0x3c733316 sceSslInit at 0x2b12d0c
+[13:14:52.936] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[13:14:52.942] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_BASIC
+[13:14:52.946] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[13:14:52.951] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
+[13:14:52.966] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[13:14:52.971] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR08403_00/TROPHY.TRP (ux0:/app/PCSB00734/sce_sys/trophy/NPWR08403_00/TROPHY.TRP), fd: 0x29
+[13:14:52.981] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/trophy/data/NPWR08403_00/TROPUSR.DAT (target path: ux0:/user/00/trophy/data/NPWR08403_00/TROPUSR.DAT)
+[13:14:52.983] |W| [io_error_impl]: open_file (create_trophy_context) returned 0x80010002
+[13:14:52.991] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[13:14:52.995] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[13:14:53.001] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR08403_00/TROPCONF.SFM), fd: 0x2a
+[13:14:53.008] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 1075
+[13:14:53.008] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[13:14:53.009] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[13:14:53.017] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR08403_00/TROP.SFM), fd: 0x2b
+[13:14:53.023] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 2070
+[13:14:53.025] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[13:14:53.031] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR08403_00/TROP_02.SFM), fd: 0x2c
+[13:14:53.034] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 2166
+[13:14:53.039] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[13:14:53.044] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR08403_00/TROP_03.SFM), fd: 0x2d
+[13:14:53.051] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 2158
+[13:14:53.053] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[13:14:53.057] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR08403_00/TROP_04.SFM), fd: 0x2e
+[13:14:53.059] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 2146
+[13:14:53.060] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[13:14:53.063] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR08403_00/TROP_05.SFM), fd: 0x2f
+[13:14:53.068] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 2153
+[13:14:53.069] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[13:14:53.073] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP_07.SFM (ux0:/user/00/trophy/conf/NPWR08403_00/TROP_07.SFM), fd: 0x30
+[13:14:53.075] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 2141
+[13:14:53.077] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[13:14:53.080] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/ICON0.PNG), fd: 0x31
+[13:14:53.086] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 11874
+[13:14:53.087] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[13:14:53.090] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP000.PNG), fd: 0x32
+[13:14:53.091] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 74489
+[13:14:53.093] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[13:14:53.096] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP001.PNG), fd: 0x33
+[13:14:53.101] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 69273
+[13:14:53.102] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[13:14:53.109] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP002.PNG), fd: 0x34
+[13:14:53.115] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 70273
+[13:14:53.117] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[13:14:53.128] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP003.PNG), fd: 0x35
+[13:14:53.134] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 72587
+[13:14:53.134] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[13:14:53.138] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP004.PNG), fd: 0x36
+[13:14:53.140] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 69224
+[13:14:53.141] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[13:14:53.145] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP005.PNG), fd: 0x37
+[13:14:53.150] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 51641
+[13:14:53.152] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[13:14:53.155] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP006.PNG), fd: 0x38
+[13:14:53.160] |T| [write_file]: install_trophy_context: Writing to fd: 0x38, size: 53427
+[13:14:53.162] |T| [close_file]: install_trophy_context: Closing file fd: 0x38
+[13:14:53.171] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP007.PNG), fd: 0x39
+[13:14:53.176] |T| [write_file]: install_trophy_context: Writing to fd: 0x39, size: 53744
+[13:14:53.177] |T| [close_file]: install_trophy_context: Closing file fd: 0x39
+[13:14:53.182] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP008.PNG), fd: 0x3a
+[13:14:53.185] |T| [write_file]: install_trophy_context: Writing to fd: 0x3a, size: 51524
+[13:14:53.186] |T| [close_file]: install_trophy_context: Closing file fd: 0x3a
+[13:14:53.190] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR08403_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR08403_00/TROP009.PNG), fd: 0x3b
+[13:14:53.200] |T| [write_file]: install_trophy_context: Writing to fd: 0x3b, size: 54085
+[13:14:53.201] |T| [close_file]: install_trophy_context: Closing file fd: 0x3b
+[13:14:53.205] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR08403_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR08403_00/TROPUSR.DAT), fd: 0x3c
+[13:14:53.215] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3c, size: 4
+[13:14:53.216] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3c, size: 16
+[13:14:53.218] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3c, size: 16
+[13:14:53.220] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3c, size: 4
+[13:14:53.222] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3c, size: 4
+[13:14:53.224] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3c, size: 4
+[13:14:53.231] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3c, size: 64
+[13:14:53.234] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3c, size: 1024
+[13:14:53.236] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x3c, size: 512
+[13:14:53.238] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x3c
+[13:14:53.241] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR08403_00 create successfuly!
+[13:14:53.243] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[13:14:53.359] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[13:15:00.210] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x22bb8237 floor at 0x1ad951c
+[13:15:00.991] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xd376c2ff UNRECOGNISED at 0x1ad8bdc
+[13:15:03.045] |I| [ngs::PlayerModule::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[13:15:03.094] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xe37447b UNRECOGNISED at 0x1ad8d3c
+[13:15:03.159] |T| [log_import_call]: [LLE] TID: 263 FUNC: 0x5d7a7eb2 modff at 0x1ad959c
+[13:15:03.234] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x6bbfec89 ceilf at 0x1ad95ec
+[13:15:03.458] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e189b5886c1b688c962f0dffc713dab7eb03da868883413a5e29faeab5323f92
+[13:15:03.461] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader e189b5886c1b688c962f0dffc713dab7eb03da868883413a5e29faeab5323f92
+[13:15:03.467] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:15:03.470] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_color
+[13:15:03.470] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_texcoord
+[13:15:03.472] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:15:03.474] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _MainTex_ST
+[13:15:03.476] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[13:15:03.566] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 51ff737ab5dd6fee07abd4823eef9e605763d4ab31d4a3598e6c168aebb9b5b3
+[13:15:03.641] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 51ff737ab5dd6fee07abd4823eef9e605763d4ab31d4a3598e6c168aebb9b5b3
+[13:15:03.645] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _TintColor
+[13:15:03.677] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[13:15:03.678] |T| [shader::create_fragment_inputs]: pa2 = tex2D<float4>(_MainTex, TEXCOORD0.xy)
+[13:15:03.680] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:15:03.692] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:15:03.750] |C| [renderer::vulkan::PipelineCache::retrieve_shader]: Mask not implemented in the vulkan renderer!
+[13:15:03.843] |C| [renderer::vulkan::PipelineCache::retrieve_shader]: Mask not implemented in the vulkan renderer!
+[13:15:05.978] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f98610d18d2298bc1291e656457790ec3311750ec27d9e62217f9352f1ce3a62
+[13:15:05.999] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader f98610d18d2298bc1291e656457790ec3311750ec27d9e62217f9352f1ce3a62
+[13:15:06.005] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:15:06.006] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_color
+[13:15:06.008] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_texcoord
+[13:15:06.009] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:15:06.010] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _MainTex_ST
+[13:15:06.013] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (half4) _Color
+[13:15:06.018] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:15:06.025] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[13:15:06.115] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e51a773c7ae1fde2f852aea18a844b8f093d0d46e8a55fdef5d9f32017704b3d
+[13:15:06.130] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader e51a773c7ae1fde2f852aea18a844b8f093d0d46e8a55fdef5d9f32017704b3d
+[13:15:06.141] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[13:15:06.143] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_MainTex, TEXCOORD0.xy)
+[13:15:06.145] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:15:13.327] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets1.assets
+[13:15:13.328] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets1.assets (ux0:/app/PCSB00734/Media/sharedassets1.assets), fd: 0x3d
+[13:15:13.397] |I| [export_sceIoOpen]: Opening file: app0:/Media/level0
+[13:15:13.399] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level0 (ux0:/app/PCSB00734/Media/level0), fd: 0x3e
+[13:15:14.381] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xc9e96714 sceUltWaitingQueueResourcePoolDestroy at 0x1ada84c
+[13:15:14.386] |E| [call_import]: Import function for NID 0xf9c0f5da not found (thread name: Unity_main_thread, thread ID: 71)
+[13:15:14.388] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xeebd9052 sceUltMutexDestroy at 0x1ada86c
+[13:15:14.436] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[13:15:14.579] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x6dea815a powf at 0x1ad95fc
+[13:15:15.276] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x90e38d35 UNRECOGNISED at 0x1ad8e7c
+[13:15:15.280] |W| [stubbed_impl]: Stubbed sceKernelSuspendThreadForVM import called. (STUB)
+[13:15:15.281] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xb764e385 UNRECOGNISED at 0x1ad8edc
+[13:15:15.304] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x8b68e2d3 UNRECOGNISED at 0x1ad8e6c
+[13:15:15.369] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0xb1c040f4 UNRECOGNISED at 0x1ad8ecc
+[13:15:15.372] |W| [stubbed_impl]: Stubbed sceKernelResumeThreadForVM import called. (STUB)
+[13:15:15.467] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[13:15:15.470] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[13:15:15.472] |T| [close_file]: sceIoClose: Closing file fd: 0xd
+[13:15:15.476] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[13:15:15.479] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[13:15:15.480] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadContextForVM import called. (Stub)
+[13:15:15.730] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8900152e256239323fe930517a6e369112a68a79d8ae81896fd9e4af5e361a62
+[13:15:15.739] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 8900152e256239323fe930517a6e369112a68a79d8ae81896fd9e4af5e361a62
+[13:15:15.743] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:15:15.745] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_color
+[13:15:15.748] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_texcoord
+[13:15:15.750] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:15:15.752] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _MainTex_ST
+[13:15:15.755] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[13:15:15.786] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f2951074b89156b3dabd4be9cbb6e2d2e61678f7a8375eb5f94a0eb9d08c4ca8
+[13:15:15.792] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader f2951074b89156b3dabd4be9cbb6e2d2e61678f7a8375eb5f94a0eb9d08c4ca8
+[13:15:15.797] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[13:15:15.797] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_MainTex, TEXCOORD0.xy)
+[13:15:15.799] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[13:15:26.979] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets2.assets
+[13:15:27.019] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets2.assets (ux0:/app/PCSB00734/Media/sharedassets2.assets), fd: 0x3f
+[13:15:27.124] |I| [export_sceIoOpen]: Opening file: app0:/Media/level1
+[13:15:27.125] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level1 (ux0:/app/PCSB00734/Media/level1), fd: 0x40
+[13:15:27.158] |I| [export_sceIoOpen]: Opening file: app0:/Media/Resources/unity default resources
+[13:15:27.160] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Resources/unity default resources (ux0:/app/PCSB00734/Media/Resources/unity default resources), fd: 0x41
+[13:15:27.169] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets0.assets
+[13:15:27.170] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets0.assets (ux0:/app/PCSB00734/Media/sharedassets0.assets), fd: 0x42
+[13:15:29.010] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[13:15:29.166] |I| [export_sceIoOpen]: Opening file: app0:/Media/resources.assets
+[13:15:29.168] |T| [open_file]: sceIoOpen: Opening file app0:/Media/resources.assets (ux0:/app/PCSB00734/Media/resources.assets), fd: 0x43
+[13:15:29.194] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x181827ed strtol at 0x1ad908c
+[13:15:30.647] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:15:30.649] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x44
+[13:15:30.926] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[13:15:30.929] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[13:15:30.932] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[13:15:30.933] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[13:15:30.936] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[13:15:31.607] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader bf8cc1c229b111f42164b1b12302b86f90f8b6d6fe26b4d96a3e592229d072aa
+[13:15:31.617] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader bf8cc1c229b111f42164b1b12302b86f90f8b6d6fe26b4d96a3e592229d072aa
+[13:15:31.623] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:15:31.626] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_normal
+[13:15:31.628] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_texcoord
+[13:15:31.632] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) unity_SHAr
+[13:15:31.634] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) unity_SHAg
+[13:15:31.636] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) unity_SHAb
+[13:15:31.638] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) unity_SHBr
+[13:15:31.641] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) unity_SHBg
+[13:15:31.648] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) unity_SHBb
+[13:15:31.650] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (float4) unity_SHC
+[13:15:31.653] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:15:31.656] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _Object2World[4]
+[13:15:31.658] |D| [shader::create_parameters]: [DEFAULT  + 60] sa60 = (float4) unity_Scale
+[13:15:31.660] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float4) _MainTex_ST
+[13:15:31.671] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 20
+[13:15:31.796] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 239d7c4d1178fa7a5499201b030b8411ddde6d32f10b8da85831c8a28836698d
+[13:15:31.801] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 239d7c4d1178fa7a5499201b030b8411ddde6d32f10b8da85831c8a28836698d
+[13:15:31.807] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _WorldSpaceLightPos0
+[13:15:31.807] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) _LightColor0
+[13:15:31.809] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half4) _Color
+[13:15:31.810] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[13:15:31.817] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_MainTex, TEXCOORD0.xy)
+[13:15:31.818] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord2
+[13:15:31.820] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[13:15:31.846] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2a6d0ad547adb481da38a6772424b4bba7b855227c265a1136b537728706c491
+[13:15:31.848] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 2a6d0ad547adb481da38a6772424b4bba7b855227c265a1136b537728706c491
+[13:15:31.852] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:15:31.854] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_texcoord
+[13:15:31.857] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:15:31.857] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _MainTex_ST
+[13:15:31.860] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:15:31.901] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 7c5fa6014d52e61191244d55dfe1b2d7cc7cdb976b4dca6a5ff6bd9d6e13899b
+[13:15:31.904] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 7c5fa6014d52e61191244d55dfe1b2d7cc7cdb976b4dca6a5ff6bd9d6e13899b
+[13:15:31.909] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _Color
+[13:15:31.911] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(_MainTex, TEXCOORD0.xy)
+[13:15:31.915] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:15:32.346] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d5d130744e4cbed168a3ed5d1212541c84e6c524baf0ea7a0a2bbdb349214604
+[13:15:32.390] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d5d130744e4cbed168a3ed5d1212541c84e6c524baf0ea7a0a2bbdb349214604
+[13:15:32.397] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:15:32.399] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_normal
+[13:15:32.400] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_texcoord
+[13:15:32.402] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) _WorldSpaceCameraPos
+[13:15:32.406] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) unity_SHAr
+[13:15:32.409] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) unity_SHAg
+[13:15:32.411] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) unity_SHAb
+[13:15:32.412] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) unity_SHBr
+[13:15:32.418] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) unity_SHBg
+[13:15:32.419] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (float4) unity_SHBb
+[13:15:32.423] |D| [shader::create_parameters]: [DEFAULT  + 60] sa60 = (float4) unity_SHC
+[13:15:32.426] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:15:32.428] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _Object2World[4]
+[13:15:32.432] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float4) unity_Scale
+[13:15:32.434] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (float4) _MainTex_ST
+[13:15:32.437] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 24
+[13:15:32.516] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a2d44cce63017fc7d5efdd7df8bfb20e98d6db3b0199c4a83ee2616c6f818a83
+[13:15:32.520] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader a2d44cce63017fc7d5efdd7df8bfb20e98d6db3b0199c4a83ee2616c6f818a83
+[13:15:32.528] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _WorldSpaceLightPos0
+[13:15:32.530] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) _LightColor0
+[13:15:32.533] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (half4) _SpecColor
+[13:15:32.536] |D| [shader::create_parameters]: [DEFAULT  + 6] sa6 = (half4) _Color
+[13:15:32.538] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (half1) _Shininess
+[13:15:32.540] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[13:15:32.543] |T| [shader::create_fragment_inputs]: pa2 = tex2D<float4>(_MainTex, TEXCOORD0.xy)
+[13:15:32.545] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord2
+[13:15:32.548] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (float4) v_TexCoord3
+[13:15:32.552] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:15:32.563] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 23
+[13:15:42.631] |I| [export_sceIoOpen]: Opening file: app0:/Media/resources.assets
+[13:15:42.634] |T| [open_file]: sceIoOpen: Opening file app0:/Media/resources.assets (ux0:/app/PCSB00734/Media/resources.assets), fd: 0x45
+[13:15:43.044] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:15:43.046] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x46
+[13:15:43.378] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:15:43.393] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x47
+[13:15:43.452] |I| [export_sceIoOpen]: Opening file: app0:/Media/Resources/unity default resources
+[13:15:43.453] |T| [open_file]: sceIoOpen: Opening file app0:/Media/Resources/unity default resources (ux0:/app/PCSB00734/Media/Resources/unity default resources), fd: 0x48
+[13:15:43.461] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets0.assets
+[13:15:43.462] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets0.assets (ux0:/app/PCSB00734/Media/sharedassets0.assets), fd: 0x49
+[13:15:57.302] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x3f2dd4c5 UNRECOGNISED at 0x1ad8dbc
+[13:15:57.652] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[13:15:58.864] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[13:15:58.868] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[13:15:58.870] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[13:15:58.872] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[13:15:59.465] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x4a
+[13:15:59.470] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4a
+[13:15:59.474] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x4b
+[13:15:59.480] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x4b, size: 46
+[13:15:59.482] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x4b
+[13:15:59.484] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x4c
+[13:15:59.501] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x4c, size: 844
+[13:15:59.503] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x4c
+[13:15:59.643] |W| [stubbed_impl]: Stubbed sceGxmMidSceneFlush import called. (Surfaces not flushed back to memory)
+[13:15:59.647] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ea8b740b57ecc6b7daf2af482efee89300721553d03ae8bf5cda2892ede23bb1
+[13:15:59.649] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ea8b740b57ecc6b7daf2af482efee89300721553d03ae8bf5cda2892ede23bb1
+[13:15:59.653] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:15:59.695] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_texcoord
+[13:15:59.708] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_color
+[13:15:59.711] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:15:59.713] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[13:15:59.747] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8b443378179d0bbee056f7b69c0391f5cded41d5508c335786a5d1553588b1cd
+[13:15:59.768] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8b443378179d0bbee056f7b69c0391f5cded41d5508c335786a5d1553588b1cd
+[13:15:59.788] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[13:15:59.804] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(_MainTex, TEXCOORD0.xy)
+[13:15:59.808] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[13:15:59.811] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:15:59.901] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b782a0cfe5223a8aa14752c0fb4e4934731407bc0053b15ad11886cd804e4aae
+[13:15:59.905] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b782a0cfe5223a8aa14752c0fb4e4934731407bc0053b15ad11886cd804e4aae
+[13:15:59.910] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:15:59.912] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:15:59.914] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:15:59.941] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b26f8379aa394a6025582b6fe63e92051ec588ab9736cff2f856217ebb3bfca3
+[13:15:59.985] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader b26f8379aa394a6025582b6fe63e92051ec588ab9736cff2f856217ebb3bfca3
+[13:15:59.998] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:16:00.088] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader dd20532f45599ab14f21190d6a6e997e301b2d37dd51f734d175a44908a0f441
+[13:16:00.092] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader dd20532f45599ab14f21190d6a6e997e301b2d37dd51f734d175a44908a0f441
+[13:16:00.102] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:16:00.114] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_texcoord
+[13:16:00.117] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:16:00.118] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) glstate_matrix_texture0[4]
+[13:16:00.121] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float1) _LocalScaleX
+[13:16:00.121] |D| [shader::create_parameters]: [DEFAULT  + 33] sa33 = (float1) _LocalScaleY
+[13:16:00.123] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float1) _LocalScaleZ
+[13:16:00.126] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:16:00.151] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[13:16:00.184] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader cb171bf0bed4cb649adda765584447001c379290960227cc0ab1c30a855e6c97
+[13:16:00.215] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader cb171bf0bed4cb649adda765584447001c379290960227cc0ab1c30a855e6c97
+[13:16:00.220] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _Color
+[13:16:00.238] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:16:00.303] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 0380596ad7c4491a8e95144573b4a094eb5c898f38b28baee725818bc2d78bc7
+[13:16:00.308] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 0380596ad7c4491a8e95144573b4a094eb5c898f38b28baee725818bc2d78bc7
+[13:16:00.315] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:16:00.323] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_normal
+[13:16:00.325] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) unity_SHAr
+[13:16:00.328] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) unity_SHAg
+[13:16:00.329] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) unity_SHAb
+[13:16:00.331] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) unity_SHBr
+[13:16:00.333] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) unity_SHBg
+[13:16:00.336] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) unity_SHBb
+[13:16:00.337] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (float4) unity_SHC
+[13:16:00.339] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:16:00.341] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _Object2World[4]
+[13:16:00.342] |D| [shader::create_parameters]: [DEFAULT  + 60] sa60 = (float4) unity_Scale
+[13:16:00.345] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 19
+[13:16:00.444] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5abde4d12b9b3d4b82285e1f84f76b44ee113839a0d6488219a92d9c8f097b5a
+[13:16:00.449] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 5abde4d12b9b3d4b82285e1f84f76b44ee113839a0d6488219a92d9c8f097b5a
+[13:16:00.454] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _WorldSpaceLightPos0
+[13:16:00.456] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) _LightColor0
+[13:16:00.457] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) _Color
+[13:16:00.459] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[13:16:00.464] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_TexCoord1
+[13:16:00.484] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[13:16:00.495] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[13:16:00.621] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 46d594a70210deacce26be2d6851244a0ce852e2d912fed8d3cb3e18bcdab3e9
+[13:16:00.632] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 46d594a70210deacce26be2d6851244a0ce852e2d912fed8d3cb3e18bcdab3e9
+[13:16:00.650] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:16:00.690] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_texcoord
+[13:16:00.692] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:16:00.695] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _MainTex_ST
+[13:16:00.697] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:16:00.733] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 22bb24c5187f3efa217f897ca9d5739c5a72e40311d9d3d0adf21a1539b6d6bf
+[13:16:00.763] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 22bb24c5187f3efa217f897ca9d5739c5a72e40311d9d3d0adf21a1539b6d6bf
+[13:16:00.773] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) _Cutoff
+[13:16:00.781] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(_MainTex, TEXCOORD0.xy)
+[13:16:00.788] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:16:00.800] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[13:16:00.816] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 2
+[13:16:00.853] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 86b6441e60b53be5056d68b97be0e4a07e82dc1bc2d22bf0eef9b65533c40644
+[13:16:00.856] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 86b6441e60b53be5056d68b97be0e4a07e82dc1bc2d22bf0eef9b65533c40644
+[13:16:00.862] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) invrt_Position
+[13:16:00.865] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) invrt_Normal
+[13:16:00.866] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) invrt_BoneWeights
+[13:16:00.906] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (int4) invrt_BoneIndices
+[13:16:00.911] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (int1) skinning_stride
+[13:16:00.913] |D| [shader::create_parameters]: [BUFFER0  + 0] sa0 = (float4) skinMatrices[1024]
+[13:16:00.916] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 96
+[13:16:01.296] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b7707a3a3a3e0e04305cff2111f6efe0e1cc470f474a270af66d5890471158b1
+[13:16:01.299] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b7707a3a3a3e0e04305cff2111f6efe0e1cc470f474a270af66d5890471158b1
+[13:16:01.305] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:16:01.307] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:16:01.309] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:16:01.336] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3320910ec93f38fe25b3542412e3361391b282ed06a4897eecdd2313e8b18d9c
+[13:16:01.375] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 3320910ec93f38fe25b3542412e3361391b282ed06a4897eecdd2313e8b18d9c
+[13:16:01.385] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _Color
+[13:16:01.389] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:16:01.444] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 006968435766b38740444b4a72038b3ef776a171901efdc18d26c91be1e165de
+[13:16:01.473] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 006968435766b38740444b4a72038b3ef776a171901efdc18d26c91be1e165de
+[13:16:01.478] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:16:01.480] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_texcoord
+[13:16:01.481] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:16:01.483] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _MainTex_ST
+[13:16:01.485] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:16:01.510] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 0e86b0466e8d3970da157ec5dc7e239ca04d3ea84d49bad1c32a0e4acf872248
+[13:16:01.517] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 0e86b0466e8d3970da157ec5dc7e239ca04d3ea84d49bad1c32a0e4acf872248
+[13:16:01.544] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _Color
+[13:16:01.559] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(_MainTex, TEXCOORD0.xy)
+[13:16:01.562] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[13:16:01.651] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9be9280683fd3bfea33713b18478c381414de7f1c11c8b023f9d23afaa65fce1
+[13:16:01.654] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9be9280683fd3bfea33713b18478c381414de7f1c11c8b023f9d23afaa65fce1
+[13:16:01.660] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:16:01.663] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_normal
+[13:16:01.665] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_texcoord
+[13:16:01.667] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) unity_SHAr
+[13:16:01.670] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) unity_SHAg
+[13:16:01.672] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) unity_SHAb
+[13:16:01.674] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) unity_SHBr
+[13:16:01.676] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) unity_SHBg
+[13:16:01.679] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) unity_SHBb
+[13:16:01.681] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (float4) unity_SHC
+[13:16:01.682] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:16:01.687] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _Object2World[4]
+[13:16:01.688] |D| [shader::create_parameters]: [DEFAULT  + 60] sa60 = (float4) unity_Scale
+[13:16:01.689] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float1) _LocalScaleX
+[13:16:01.692] |D| [shader::create_parameters]: [DEFAULT  + 65] sa65 = (float1) _LocalScaleY
+[13:16:01.693] |D| [shader::create_parameters]: [DEFAULT  + 66] sa66 = (float1) _LocalScaleZ
+[13:16:01.696] |D| [shader::create_parameters]: [DEFAULT  + 68] sa68 = (float4) _MainTex_ST
+[13:16:01.700] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[13:16:01.707] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 22
+[13:16:01.776] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 72f938f0797548355356ad47451f3bef2711bce8544b7c4b45e94a11d9d326be
+[13:16:01.784] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 72f938f0797548355356ad47451f3bef2711bce8544b7c4b45e94a11d9d326be
+[13:16:01.790] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _WorldSpaceLightPos0
+[13:16:01.794] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) _LightColor0
+[13:16:01.799] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) _Color
+[13:16:01.800] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[13:16:01.805] |T| [shader::create_fragment_inputs]: pa2 = tex2D<float4>(_MainTex, TEXCOORD0.xy)
+[13:16:01.806] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord2
+[13:16:01.808] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[13:16:01.815] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[13:16:02.083] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 85884e9b1e2517f5d852a770995d8a2df1b040d64e5f817f5dee34e2d2de15c4
+[13:16:02.091] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 85884e9b1e2517f5d852a770995d8a2df1b040d64e5f817f5dee34e2d2de15c4
+[13:16:02.098] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:16:02.101] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_texcoord
+[13:16:02.103] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_color
+[13:16:02.105] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:16:02.108] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[13:16:02.140] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d82407d6ec1242270e6ea93bba0fbdc025f96284fc723a303ad078132619949f
+[13:16:02.143] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d82407d6ec1242270e6ea93bba0fbdc025f96284fc723a303ad078132619949f
+[13:16:02.154] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[13:16:02.157] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[13:16:08.552] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1cf5f1834ecce585f48cec34c837196a0122cacd2aad642c14ffce030ea66c91
+[13:16:08.560] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 1cf5f1834ecce585f48cec34c837196a0122cacd2aad642c14ffce030ea66c91
+[13:16:08.568] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:16:08.570] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_normal
+[13:16:08.572] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_texcoord
+[13:16:08.575] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) unity_SHAr
+[13:16:08.576] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float4) unity_SHAg
+[13:16:08.579] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) unity_SHAb
+[13:16:08.582] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float4) unity_SHBr
+[13:16:08.585] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float4) unity_SHBg
+[13:16:08.587] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (float4) unity_SHBb
+[13:16:08.589] |D| [shader::create_parameters]: [DEFAULT  + 56] sa56 = (float4) unity_SHC
+[13:16:08.595] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:16:08.602] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) _Object2World[4]
+[13:16:08.604] |D| [shader::create_parameters]: [DEFAULT  + 60] sa60 = (float4) unity_Scale
+[13:16:08.607] |D| [shader::create_parameters]: [DEFAULT  + 64] sa64 = (float4) _MainTex_ST
+[13:16:08.609] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 20
+[13:16:08.685] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c1944ab695851b51bee366cdbaf6a487b385d5bfdf64d869ea2e4264f70eb70f
+[13:16:08.688] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader c1944ab695851b51bee366cdbaf6a487b385d5bfdf64d869ea2e4264f70eb70f
+[13:16:08.693] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) _WorldSpaceLightPos0
+[13:16:08.696] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) _LightColor0
+[13:16:08.700] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float4) _Color
+[13:16:08.703] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord1
+[13:16:08.705] |T| [shader::create_fragment_inputs]: pa2 = tex2D<float4>(_MainTex, TEXCOORD0.xy)
+[13:16:08.708] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord2
+[13:16:08.711] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[13:16:21.952] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 332e5a303b79c096688c14d14ea97b54f880bdc5b17d4eb25d6cc090f25a6f20
+[13:16:21.961] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 332e5a303b79c096688c14d14ea97b54f880bdc5b17d4eb25d6cc090f25a6f20
+[13:16:21.977] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) v_vertex
+[13:16:21.979] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) v_texcoord
+[13:16:21.981] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) v_color
+[13:16:21.983] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) glstate_matrix_mvp[4]
+[13:16:21.986] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[13:16:22.027] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c04d1a04f11b51829672df4e54620e711fe9cddc95b83899cd57751b5cdb42e7
+[13:16:22.031] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader c04d1a04f11b51829672df4e54620e711fe9cddc95b83899cd57751b5cdb42e7
+[13:16:22.039] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[13:16:22.040] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[13:16:30.030] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:16:30.036] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x4d
+[13:16:30.062] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:16:30.063] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x4e
+[13:16:31.162] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[13:16:31.374] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[13:16:31.540] |E| [logging::ret_error_impl]: sceNgsVoicePause returned SCE_NGS_ERROR_INVALID_STATE (0x804a0010)
+[13:16:31.556] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x4f
+[13:16:31.562] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4f
+[13:16:31.567] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x50
+[13:16:31.570] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x50, size: 278
+[13:16:31.572] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x50
+[13:16:31.575] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x51
+[13:16:31.580] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x51, size: 844
+[13:16:31.582] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x51
+[13:16:39.356] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:16:39.357] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x52
+[13:16:39.383] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:16:39.386] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x53
+[13:16:40.352] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[13:16:40.565] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[13:16:40.742] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x54
+[13:16:40.760] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x54
+[13:16:40.766] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x55
+[13:16:40.771] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x55, size: 278
+[13:16:40.772] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x55
+[13:16:40.775] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x56
+[13:16:40.781] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x56, size: 844
+[13:16:40.783] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x56
+[13:16:52.007] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[13:16:52.012] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[13:16:53.980] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:16:53.982] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x57
+[13:16:54.007] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:16:54.008] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x58
+[13:16:55.210] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[13:16:55.434] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[13:16:55.692] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x59
+[13:16:55.742] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x59
+[13:16:55.747] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x5a
+[13:16:55.754] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x5a, size: 278
+[13:16:55.756] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x5a
+[13:16:55.758] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x5b
+[13:16:55.761] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x5b, size: 844
+[13:16:55.765] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x5b
+[13:17:15.188] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:17:15.190] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x5c
+[13:17:15.213] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:17:15.215] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x5d
+[13:17:16.276] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[13:17:16.482] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[13:17:16.691] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x5e
+[13:17:16.698] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x5e
+[13:17:16.703] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x5f
+[13:17:16.704] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x5f, size: 278
+[13:17:16.706] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x5f
+[13:17:16.709] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x60
+[13:17:16.714] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x60, size: 844
+[13:17:16.716] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x60
+[13:17:18.614] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:17:18.616] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x61
+[13:17:18.639] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:17:18.640] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x62
+[13:17:19.570] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[13:17:19.776] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[13:17:19.981] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x63
+[13:17:19.985] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x63
+[13:17:19.990] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x64
+[13:17:19.992] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x64, size: 278
+[13:17:19.994] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x64
+[13:17:19.999] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x65
+[13:17:20.001] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x65, size: 844
+[13:17:20.004] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x65
+[13:17:38.900] |T| [log_import_call]: [LLE] TID: 71  FUNC: 0x8e5a06c5 abs at 0x1ad927c
+[13:17:38.977] |I| [export_sceIoOpen]: Opening file: app0:/Media/resources.assets
+[13:17:38.978] |T| [open_file]: sceIoOpen: Opening file app0:/Media/resources.assets (ux0:/app/PCSB00734/Media/resources.assets), fd: 0x66
+[13:17:39.079] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:17:39.080] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x67
+[13:17:39.106] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:17:39.107] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x68
+[13:17:40.049] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[13:17:40.290] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[13:17:40.292] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[13:17:40.503] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x69
+[13:17:40.516] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x69
+[13:17:40.520] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x6a
+[13:17:40.587] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x6a, size: 280
+[13:17:40.592] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x6a
+[13:17:40.596] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x6b
+[13:17:40.748] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x6b, size: 844
+[13:17:40.749] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x6b
+[13:17:59.966] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:17:59.968] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x6c
+[13:17:59.993] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:17:59.994] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x6d
+[13:18:01.014] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[13:18:01.242] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[13:18:01.419] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x6e
+[13:18:01.427] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x6e
+[13:18:01.433] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x6f
+[13:18:01.439] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x6f, size: 280
+[13:18:01.454] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x6f
+[13:18:01.458] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x70
+[13:18:01.473] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x70, size: 844
+[13:18:01.476] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x70
+[13:18:10.161] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:18:10.163] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x71
+[13:18:10.188] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:18:10.189] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x72
+[13:18:11.147] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[13:18:11.374] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[13:18:11.638] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x73
+[13:18:11.646] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x73
+[13:18:11.651] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x74
+[13:18:11.656] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x74, size: 280
+[13:18:11.657] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x74
+[13:18:11.661] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x75
+[13:18:11.663] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x75, size: 844
+[13:18:11.667] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x75
+[13:18:24.433] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:18:24.445] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x76
+[13:18:24.475] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:18:24.477] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x77
+[13:18:25.526] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[13:18:25.765] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[13:18:25.982] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x78
+[13:18:25.986] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x78
+[13:18:25.992] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x79
+[13:18:25.996] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x79, size: 280
+[13:18:25.996] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x79
+[13:18:25.999] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x7a
+[13:18:26.001] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x7a, size: 844
+[13:18:26.003] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x7a
+[13:19:55.715] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets2.assets
+[13:19:55.716] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets2.assets (ux0:/app/PCSB00734/Media/sharedassets2.assets), fd: 0x7b
+[13:19:55.725] |I| [export_sceIoOpen]: Opening file: app0:/Media/level1
+[13:19:55.726] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level1 (ux0:/app/PCSB00734/Media/level1), fd: 0x7c
+[13:19:55.737] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets1.assets
+[13:19:55.738] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets1.assets (ux0:/app/PCSB00734/Media/sharedassets1.assets), fd: 0x7d
+[13:19:56.412] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[13:19:58.688] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[13:19:58.691] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[13:20:05.767] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:20:05.768] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x7e
+[13:20:05.792] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:20:05.793] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x7f
+[13:20:05.805] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets0.assets
+[13:20:05.809] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets0.assets (ux0:/app/PCSB00734/Media/sharedassets0.assets), fd: 0x80
+[13:20:19.020] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[13:20:19.064] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets4.assets
+[13:20:19.066] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets4.assets (ux0:/app/PCSB00734/Media/sharedassets4.assets), fd: 0x81
+[13:20:19.483] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[13:20:19.485] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[13:20:19.487] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[13:20:19.755] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x82
+[13:20:19.763] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x82
+[13:20:19.768] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x83
+[13:20:19.775] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x83, size: 412
+[13:20:19.797] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x83
+[13:20:19.800] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x84
+[13:20:19.803] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x84, size: 844
+[13:20:19.805] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x84
+[13:21:17.727] |I| [export_sceIoOpen]: Opening file: app0:/Media/sharedassets3.assets
+[13:21:17.732] |T| [open_file]: sceIoOpen: Opening file app0:/Media/sharedassets3.assets (ux0:/app/PCSB00734/Media/sharedassets3.assets), fd: 0x85
+[13:21:17.757] |I| [export_sceIoOpen]: Opening file: app0:/Media/level2
+[13:21:17.759] |T| [open_file]: sceIoOpen: Opening file app0:/Media/level2 (ux0:/app/PCSB00734/Media/level2), fd: 0x86
+[13:21:18.771] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[13:21:19.003] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[13:21:19.207] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x87
+[13:21:19.215] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x87
+[13:21:19.219] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data0000.bin (ux0:/user/00/savedata/PCSB00734/data0000.bin), fd: 0x88
+[13:21:19.225] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x88, size: 624
+[13:21:19.227] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x88
+[13:21:19.231] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00734/SlotParam_0.bin), fd: 0x89
+[13:21:19.238] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x89, size: 844
+[13:21:19.241] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x89

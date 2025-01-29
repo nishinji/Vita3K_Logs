@@ -1,0 +1,262 @@
+[03:03:08.796] |I| [SDL_main]:  Vita3K v0.1 523-32e9a31
+[03:03:09.221] |I| [init]:  Swap interval = -1
+[03:03:12.494] |I| [load_app_impl]:  Title: Crazy Market
+[03:03:12.494] |I| [load_app_impl]:  Serial: PCSE00291
+[03:03:12.494] |I| [load_app_impl]:  Category: gd
+[03:03:12.505] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libc.suprx
+[03:03:12.505] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3A798
+[03:03:12.505] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x447D4
+[03:03:12.505] |E| [load_var_imports]:  	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x4021C: 0x140
+[03:03:12.505] |I| [load_app_impl]:  Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[03:03:12.512] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[03:03:12.512] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x72884
+[03:03:12.513] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x7AA74
+[03:03:12.513] |I| [load_app_impl]:  Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[03:03:12.516] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libult.suprx
+[03:03:12.517] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x91658
+[03:03:12.517] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x940A0
+[03:03:12.517] |E| [load_var_imports]:  	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x91EB4: 0x1040
+[03:03:12.517] |I| [load_app_impl]:  Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[03:03:12.546] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[03:03:12.546] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x810F1C04
+[03:03:12.546] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8110EC60
+[03:03:12.547] |I| [load_app_impl]:  Main executable SexyCashier (eboot.bin) loaded
+[03:03:12.557] |D| [run_app]:  Running module_start of library: SceLibc
+[03:03:12.621] |T| [open_file]:  sceKernelGetStdin: Opening file tty0: (tty0:)
+[03:03:12.621] |T| [open_file]:  sceKernelGetStdout: Opening file tty0: (tty0:)
+[03:03:12.621] |T| [open_file]:  sceKernelGetStderr: Opening file tty0: (tty0:)
+[03:03:12.633] |I| [run_app]:  Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[03:03:12.634] |D| [run_app]:  Running module_start of library: SceLibFios2
+[03:03:12.639] |W| [stubbed_impl]:  Stubbed sceKernelGetProcessId import called. (pid: 0)
+[03:03:12.640] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayGetList02 import called.
+[03:03:12.640] |I| [run_app]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[03:03:12.642] |D| [run_app]:  Running module_start of library: SceUlt
+[03:03:12.651] |E| [call_import]:  Import function for NID 0x50F2F2AA not found (thread ID: 36)
+[03:03:12.652] |I| [run_app]:  Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[03:03:12.655] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSE00291/mai_moe/mai.suprx)
+[03:03:12.656] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[03:03:12.657] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[03:03:12.658] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87866
+[03:03:12.659] |I| [load_self]:  Loading symbols for SELF: app0:mai_moe/mai.suprx
+[03:03:12.661] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x80DB7E4
+[03:03:12.662] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x80DB840
+[03:03:12.662] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x3
+[03:03:12.671] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00291/mai_moe/load_type.mai)
+[03:03:12.672] |I| [export_sceIoOpen]:  Opening file: app0:mai_moe/load_type.mai
+[03:03:12.673] |T| [open_file]:  sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSE00291/mai_moe/load_type.mai)
+[03:03:12.673] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00291/mai_moe/load_type.mai)
+[03:03:12.674] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[03:03:12.674] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1
+[03:03:12.675] |T| [close_file]:  sceIoClose: Closing file: fd: 0x4
+[03:03:12.680] |I| [export_sceKernelLoadStartModule]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[03:03:12.681] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSE00291/sce_module/libfios2_m.suprx)
+[03:03:12.682] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[03:03:12.682] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[03:03:12.683] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x5, size: 248992
+[03:03:12.683] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[03:03:12.684] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x817E884
+[03:03:12.684] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x8186A74
+[03:03:12.684] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x5
+[03:03:12.689] |I| [export_sceKernelLoadStartModule]:  Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[03:03:12.690] |T| [open_dir]:  sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[03:03:12.691] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[03:03:12.692] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[03:03:12.692] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[03:03:12.693] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x6
+[03:03:12.771] |I| [export_sceKernelLoadStartModule]:  Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[03:03:12.796] |W| [unimplemented_impl]:  Unimplemented sceKernelLibcClock import called.
+[03:03:12.857] |I| [renderer::create]:  GL_VERSION = 4.1.0 NVIDIA 398.11
+[03:03:12.858] |I| [renderer::create]:  GL_SHADING_LANGUAGE_VERSION = 4.10 NVIDIA via Cg compiler
+[03:03:12.866] |E| [renderer::load_vertex_shader]:  Missing vertex shader 59ceab7763eda74bd4e9d68de9db6bb7218719343a7dfafdfed0349d30005c95
+[03:03:12.867] |D| [renderer::log_parameter]:  Vertex attribute: name:aPosition type:0 component_count:0x4 container_index:0x0
+[03:03:12.867] |D| [renderer::log_parameter]:  Vertex attribute: name:aColor type:0 component_count:0x4 container_index:0x0
+[03:03:12.868] |D| [renderer::log_parameter]:  Vertex attribute: name:aTexCoord type:0 component_count:0x4 container_index:0x0
+[03:03:12.868] |D| [renderer::log_parameter]:  Uniform: name:mProjection type:0 component_count:0x4 container_index:0xE
+[03:03:12.871] |E| [renderer::load_fragment_shader]:  Missing fragment shader 591260b44bba66a0f711d742e1c0f85292b237f975fe996ee4572f2d78cc832a
+[03:03:12.871] |D| [renderer::log_parameter]:  Sampler: name:tex type:0 component_count:0x4 container_index:0x0
+[03:03:12.874] |E| [renderer::load_vertex_shader]:  Missing vertex shader 310d3bc782b5e37073890a6c458d88e8be1994aabc25439344bb9ff382dd51ad
+[03:03:12.874] |D| [renderer::log_parameter]:  Vertex attribute: name:aPosition type:0 component_count:0x4 container_index:0x0
+[03:03:12.875] |D| [renderer::log_parameter]:  Vertex attribute: name:aColor type:0 component_count:0x4 container_index:0x0
+[03:03:12.876] |D| [renderer::log_parameter]:  Vertex attribute: name:aTexCoord type:0 component_count:0x4 container_index:0x0
+[03:03:12.877] |D| [renderer::log_parameter]:  Vertex attribute: name:aMisc type:0 component_count:0x4 container_index:0x0
+[03:03:12.877] |D| [renderer::log_parameter]:  Uniform: name:mProjection type:0 component_count:0x4 container_index:0xE
+[03:03:12.880] |E| [renderer::load_fragment_shader]:  Missing fragment shader 3dacbd2aec95b3ad838d0021758aa310881f8de075d7c107693b914f0d9f6551
+[03:03:12.880] |D| [renderer::log_parameter]:  Sampler: name:tex type:0 component_count:0x4 container_index:0x0
+[03:03:12.883] |E| [renderer::load_vertex_shader]:  Missing vertex shader ca2c45d88e1300819904c10d599ed3862c32a710835016764c4c2bfcbb4cbf1a
+[03:03:12.883] |D| [renderer::log_parameter]:  Vertex attribute: name:aPosition type:0 component_count:0x4 container_index:0x0
+[03:03:12.883] |D| [renderer::log_parameter]:  Vertex attribute: name:aColor type:0 component_count:0x4 container_index:0x0
+[03:03:12.884] |D| [renderer::log_parameter]:  Vertex attribute: name:aTexCoord type:0 component_count:0x4 container_index:0x0
+[03:03:12.884] |D| [renderer::log_parameter]:  Vertex attribute: name:aMisc type:0 component_count:0x4 container_index:0x0
+[03:03:12.884] |D| [renderer::log_parameter]:  Uniform: name:mProjection type:0 component_count:0x4 container_index:0xE
+[03:03:12.886] |E| [renderer::load_fragment_shader]:  Missing fragment shader f21e140b990fa6f2e7c323b7cdba69fe0e1b74ff684b483c2c69b8dcd412e019
+[03:03:12.887] |D| [renderer::log_parameter]:  Sampler: name:tex type:0 component_count:0x4 container_index:0x0
+[03:03:12.898] |I| [export_sceIoOpen]:  Opening file: app0:DATA/KEYMAP
+[03:03:12.899] |T| [open_file]:  sceIoOpen: Opening file app0:DATA/KEYMAP (ux0:/app/PCSE00291/DATA/KEYMAP)
+[03:03:12.900] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 2
+[03:03:12.900] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 2
+[03:03:12.901] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 2
+[03:03:12.901] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.901] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.902] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 1
+[03:03:12.902] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 1
+[03:03:12.903] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 1
+[03:03:12.903] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.903] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.904] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.905] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.905] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.906] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.906] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.906] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.906] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.907] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.907] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.907] |T| [read_file]:  sceIoRead: Reading file: fd: 0x7, size: 4
+[03:03:12.908] |T| [close_file]:  sceIoClose: Closing file: fd: 0x7
+[03:03:12.910] |W| [unimplemented_impl]:  Unimplemented sceTouchGetPanelInfo import called.
+[03:03:12.910] |W| [unimplemented_impl]:  Unimplemented sceTouchSetSamplingState import called.
+[03:03:12.919] |W| [unimplemented_impl]:  Unimplemented sceKernelChangeThreadVfpException import called.
+[03:03:12.920] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[03:03:12.933] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetScreamVoice import called.
+[03:03:12.934] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetScreamAtrac9Voice import called.
+[03:03:12.939] |W| [stubbed_impl]:  Stubbed sceNgsSystemGetRequiredMemorySize import called. (size = 1)
+[03:03:12.940] |W| [unimplemented_impl]:  Unimplemented sceNgsSystemInit import called.
+[03:03:12.940] |W| [unimplemented_impl]:  Unimplemented sceNgsSystemSetFlags import called.
+[03:03:12.940] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetCompressorBuss import called.
+[03:03:12.941] |W| [stubbed_impl]:  Stubbed sceNgsRackGetRequiredMemorySize import called. (size = 1)
+[03:03:12.941] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x1, size: 27
+[03:03:12.941] |I| [write_file]:  *** TTY: # Audio out thread started 
+[03:03:12.941] |W| [unimplemented_impl]:  Unimplemented sceNgsRackInit import called.
+[03:03:12.942] |W| [unimplemented_impl]:  Unimplemented sceNgsRackGetVoiceHandle import called.
+[03:03:12.942] |W| [unimplemented_impl]:  Unimplemented sceAudioOutSetVolume import called.
+[03:03:12.944] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceInit import called.
+[03:03:12.944] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceBypassModule import called.
+[03:03:12.945] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetMasterBuss import called.
+[03:03:12.945] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetCompressorSideChainBuss import called.
+[03:03:12.947] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetReverbBuss import called.
+[03:03:12.947] |W| [stubbed_impl]:  Stubbed sceNgsVoiceLockParams import called. (Ngs buffer stubbed)
+[03:03:12.948] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceUnlockParams import called.
+[03:03:12.948] |W| [unimplemented_impl]:  Unimplemented sceNgsPatchCreateRouting import called.
+[03:03:12.949] |W| [stubbed_impl]:  Stubbed sceNgsPatchGetInfo import called. (2 in/out channels)
+[03:03:12.949] |W| [unimplemented_impl]:  Unimplemented sceNgsVoicePatchSetVolumesMatrix import called.
+[03:03:12.949] |W| [unimplemented_impl]:  Unimplemented sceNgsVoicePlay import called.
+[03:03:12.953] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceSetFinishedCallback import called.
+[03:03:12.958] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceSetModuleCallback import called.
+[03:03:12.963] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x1, size: 76
+[03:03:12.963] |I| [write_file]:  *** TTY: SCREAM Version 7.6.9 Build 0 of Branch SCE Built on Mar 25 2013 at 08:21:47 
+[03:03:12.963] |W| [unimplemented_impl]:  Unimplemented sceKernelTryLockLwMutex import called.
+[03:03:12.965] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x1, size: 79
+[03:03:12.965] |I| [write_file]:  *** TTY: SndStream Version 7.6.9 Build 0 of Branch SCE Built on Mar 25 2013 at 08:21:48 
+[03:03:12.983] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[03:03:12.986] |I| [export_sceIoOpen]:  Opening file: app0:/STREAM/Track1.at9
+[03:03:12.986] |T| [open_file]:  sceIoOpen: Opening file app0:/STREAM/Track1.at9 (ux0:/app/PCSE00291//STREAM/Track1.at9)
+[03:03:12.987] |T| [stat_file]:  sceIoGetstat: Statting file app0:/STREAM/Track1.at9 (ux0:/app/PCSE00291//STREAM/Track1.at9)
+[03:03:12.992] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0x8 at offset: 0x0, whence: SCE_SEEK_SET
+[03:03:12.993] |T| [read_file]:  sceIoPread: Reading file: fd: 0x8, size: 12
+[03:03:12.996] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0x8 at offset: 0xC, whence: SCE_SEEK_SET
+[03:03:12.996] |T| [read_file]:  sceIoPread: Reading file: fd: 0x8, size: 256
+[03:03:12.999] |W| [unimplemented_impl]:  Unimplemented sceNgsAT9GetSectionDetails import called.
+[03:03:13.000] |T| [close_file]:  sceIoClose: Closing file: fd: 0x8
+[03:03:13.001] |I| [export_sceIoOpen]:  Opening file: app0:/STREAM/Track2.at9
+[03:03:13.001] |T| [open_file]:  sceIoOpen: Opening file app0:/STREAM/Track2.at9 (ux0:/app/PCSE00291//STREAM/Track2.at9)
+[03:03:13.002] |T| [stat_file]:  sceIoGetstat: Statting file app0:/STREAM/Track2.at9 (ux0:/app/PCSE00291//STREAM/Track2.at9)
+[03:03:13.002] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0x9 at offset: 0x0, whence: SCE_SEEK_SET
+[03:03:13.003] |T| [read_file]:  sceIoPread: Reading file: fd: 0x9, size: 12
+[03:03:13.004] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0x9 at offset: 0xC, whence: SCE_SEEK_SET
+[03:03:13.004] |T| [read_file]:  sceIoPread: Reading file: fd: 0x9, size: 256
+[03:03:13.004] |T| [close_file]:  sceIoClose: Closing file: fd: 0x9
+[03:03:13.005] |I| [export_sceIoOpen]:  Opening file: app0:/STREAM/Track3.at9
+[03:03:13.005] |T| [open_file]:  sceIoOpen: Opening file app0:/STREAM/Track3.at9 (ux0:/app/PCSE00291//STREAM/Track3.at9)
+[03:03:13.005] |T| [stat_file]:  sceIoGetstat: Statting file app0:/STREAM/Track3.at9 (ux0:/app/PCSE00291//STREAM/Track3.at9)
+[03:03:13.006] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0xA at offset: 0x0, whence: SCE_SEEK_SET
+[03:03:13.006] |T| [read_file]:  sceIoPread: Reading file: fd: 0xA, size: 12
+[03:03:13.007] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0xA at offset: 0xC, whence: SCE_SEEK_SET
+[03:03:13.007] |T| [read_file]:  sceIoPread: Reading file: fd: 0xA, size: 256
+[03:03:13.007] |T| [close_file]:  sceIoClose: Closing file: fd: 0xA
+[03:03:13.008] |I| [export_sceIoOpen]:  Opening file: app0:/STREAM/Track4.at9
+[03:03:13.008] |T| [open_file]:  sceIoOpen: Opening file app0:/STREAM/Track4.at9 (ux0:/app/PCSE00291//STREAM/Track4.at9)
+[03:03:13.009] |T| [stat_file]:  sceIoGetstat: Statting file app0:/STREAM/Track4.at9 (ux0:/app/PCSE00291//STREAM/Track4.at9)
+[03:03:13.009] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0xB at offset: 0x0, whence: SCE_SEEK_SET
+[03:03:13.010] |T| [read_file]:  sceIoPread: Reading file: fd: 0xB, size: 12
+[03:03:13.010] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0xB at offset: 0xC, whence: SCE_SEEK_SET
+[03:03:13.011] |T| [read_file]:  sceIoPread: Reading file: fd: 0xB, size: 256
+[03:03:13.011] |T| [close_file]:  sceIoClose: Closing file: fd: 0xB
+[03:03:13.012] |I| [export_sceIoOpen]:  Opening file: app0:/STREAM/Track5.at9
+[03:03:13.012] |T| [open_file]:  sceIoOpen: Opening file app0:/STREAM/Track5.at9 (ux0:/app/PCSE00291//STREAM/Track5.at9)
+[03:03:13.014] |T| [stat_file]:  sceIoGetstat: Statting file app0:/STREAM/Track5.at9 (ux0:/app/PCSE00291//STREAM/Track5.at9)
+[03:03:13.015] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0xC at offset: 0x0, whence: SCE_SEEK_SET
+[03:03:13.015] |T| [read_file]:  sceIoPread: Reading file: fd: 0xC, size: 12
+[03:03:13.016] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0xC at offset: 0xC, whence: SCE_SEEK_SET
+[03:03:13.016] |T| [read_file]:  sceIoPread: Reading file: fd: 0xC, size: 256
+[03:03:13.016] |T| [close_file]:  sceIoClose: Closing file: fd: 0xC
+[03:03:13.017] |I| [export_sceIoOpen]:  Opening file: app0:/STREAM/Ending.at9
+[03:03:13.017] |T| [open_file]:  sceIoOpen: Opening file app0:/STREAM/Ending.at9 (ux0:/app/PCSE00291//STREAM/Ending.at9)
+[03:03:13.017] |T| [stat_file]:  sceIoGetstat: Statting file app0:/STREAM/Ending.at9 (ux0:/app/PCSE00291//STREAM/Ending.at9)
+[03:03:13.018] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0xD at offset: 0x0, whence: SCE_SEEK_SET
+[03:03:13.018] |T| [read_file]:  sceIoPread: Reading file: fd: 0xD, size: 12
+[03:03:13.019] |T| [seek_file]:  sceIoPread: Seeking file: fd: 0xD at offset: 0xC, whence: SCE_SEEK_SET
+[03:03:13.019] |T| [read_file]:  sceIoPread: Reading file: fd: 0xD, size: 256
+[03:03:13.019] |T| [close_file]:  sceIoClose: Closing file: fd: 0xD
+[03:03:13.020] |W| [unimplemented_impl]:  Unimplemented sceAppMgrAcquireBgmPort import called.
+[03:03:13.021] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x1, size: 46
+[03:03:13.021] |I| [write_file]:  *** TTY: sce_scream_api.cpp(1385) : Invalid parameter. 
+[03:03:13.022] |W| [unimplemented_impl]:  Unimplemented sceMotionStartSampling import called.
+[03:03:13.022] |W| [unimplemented_impl]:  Unimplemented sceMotionMagnetometerOff import called.
+[03:03:13.024] |W| [unimplemented_impl]:  Unimplemented sceMotionSetTiltCorrection import called.
+[03:03:13.042] |W| [unimplemented_impl]:  Unimplemented sceNetCtlInit import called.
+[03:03:13.043] |W| [stubbed_impl]:  Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_DISCONNECTED)
+[03:03:13.044] |W| [unimplemented_impl]:  Unimplemented sceHttpInit import called.
+[03:03:13.045] |W| [unimplemented_impl]:  Unimplemented sceSslInit import called.
+[03:03:13.046] |W| [unimplemented_impl]:  Unimplemented sceNpInit import called.
+[03:03:13.046] |W| [unimplemented_impl]:  Unimplemented sceNpBasicInit import called.
+[03:03:13.047] |W| [unimplemented_impl]:  Unimplemented sceNpRegisterServiceStateCallback import called.
+[03:03:13.047] |W| [unimplemented_impl]:  Unimplemented sceNpBasicRegisterHandler import called.
+[03:03:13.048] |W| [unimplemented_impl]:  Unimplemented sceKernelGetThreadExitStatus import called.
+[03:03:13.052] |E| [ret_error_impl]:  sceNetInit returned SCE_NET_ERROR_EINTERNAL (0x804101CC)
+[03:03:13.053] |W| [unimplemented_impl]:  Unimplemented sceAppUtilInit import called.
+[03:03:13.061] |W| [unimplemented_impl]:  Unimplemented sceMotionGetState import called.
+[03:03:13.062] |W| [unimplemented_impl]:  Unimplemented _sceAppMgrGetAppState import called.
+[03:03:13.065] |I| [export_sceIoOpen]:  Opening file: app0:DATA/SHD
+[03:03:13.065] |T| [open_file]:  sceIoOpen: Opening file app0:DATA/SHD (ux0:/app/PCSE00291/DATA/SHD)
+[03:03:13.066] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 2
+[03:03:13.067] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 2
+[03:03:13.067] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 2
+[03:03:13.067] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 4
+[03:03:13.068] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 4
+[03:03:13.068] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 4
+[03:03:13.068] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 4
+[03:03:13.068] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 4
+[03:03:13.069] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 4
+[03:03:13.069] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 4
+[03:03:13.070] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 4
+[03:03:13.071] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0xE at offset: 0x443AC, whence: SCE_SEEK_CUR
+[03:03:13.071] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 1
+[03:03:13.072] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 13
+[03:03:13.073] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 65536
+[03:03:13.073] |T| [read_file]:  sceIoRead: Reading file: fd: 0xE, size: 36613
+[03:03:13.105] |W| [unimplemented_impl]:  Unimplemented sceGxmTextureSetMipFilter import called.
+[03:03:13.106] |T| [close_file]:  sceIoClose: Closing file: fd: 0xE
+[03:03:13.107] |I| [export_sceIoOpen]:  Opening file: app0:DATA/SYS
+[03:03:13.107] |T| [open_file]:  sceIoOpen: Opening file app0:DATA/SYS (ux0:/app/PCSE00291/DATA/SYS)
+[03:03:13.108] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 2
+[03:03:13.108] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 2
+[03:03:13.108] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 2
+[03:03:13.109] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 4
+[03:03:13.109] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 4
+[03:03:13.109] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 4
+[03:03:13.110] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 4
+[03:03:13.110] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 4
+[03:03:13.111] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 4
+[03:03:13.111] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 4
+[03:03:13.111] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 4
+[03:03:13.112] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0xF at offset: 0x561, whence: SCE_SEEK_CUR
+[03:03:13.112] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 1
+[03:03:13.112] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 13
+[03:03:13.112] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 65536
+[03:03:13.113] |T| [read_file]:  sceIoRead: Reading file: fd: 0xF, size: 57300
+[03:03:13.116] |T| [close_file]:  sceIoClose: Closing file: fd: 0xF
+[03:03:13.116] |E| [ret_error_impl]:  sceGxmEndScene returned SCE_GXM_ERROR_NOT_WITHIN_SCENE (0x805B0006)
+[03:03:13.117] |W| [unimplemented_impl]:  Unimplemented sceGxmColorSurfaceGetFormat import called.
+[03:03:13.117] |W| [unimplemented_impl]:  Unimplemented sceGxmColorSurfaceGetType import called.
+[03:03:13.118] |W| [unimplemented_impl]:  Unimplemented sceCommonDialogUpdate import called.
+[03:03:13.119] |E| [ret_error_impl]:  sceKernelStartThread returned res (0x80028021)

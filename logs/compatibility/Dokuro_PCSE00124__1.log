@@ -1,0 +1,616 @@
+[20:25:27.533] |I| [config::init_config]: backend-renderer: Vulkan
+[20:25:27.534] |I| [config::init_config]: log-level: 0
+[20:25:27.737] |I| [SDL_main]: Vita3K v0.1.9 3523-2d65c332
+[20:25:27.737] |I| [SDL_main]: Number of logical CPU cores: 12
+[20:25:27.738] |I| [SDL_main]: Available ram memory: 32678 MiB
+[20:25:27.739] |I| [app::init]: Base path: S:/Vita3K/
+[20:25:27.739] |I| [app::init]: User pref path: C:/Users/Sammy Hipple/AppData/Roaming/Vita3K/Vita3K/
+[20:25:27.939] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce GTX 1050 Ti
+[20:25:27.939] |I| [renderer::vulkan::VKState::create]: Driver version: 546.1.0.0
+[20:25:27.940] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[20:25:28.191] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[20:25:28.573] |I| [compat::update_app_compat_db]: Applications compatibility database is up to date.
+[20:29:05.067] |I| [renderer::vulkan::VKState::late_init]: The Vulkan renderer is using texture viewport for better performance
+[20:29:05.068] |I| [load_app_impl]: cpu-backend: Dynarmic
+[20:29:05.068] |I| [load_app_impl]: CPU Optimisation state: true
+[20:29:05.068] |I| [load_app_impl]: ngs state: true
+[20:29:05.068] |I| [load_app_impl]: Resolution multiplier: 4
+[20:29:05.068] |I| [load_app_impl]: modules mode: Automatic
+[20:29:05.069] |I| [load_app_impl]: Title: Dokuro
+[20:29:05.069] |I| [load_app_impl]: Serial: PCSE00124
+[20:29:05.069] |I| [load_app_impl]: Version: 1.00
+[20:29:05.069] |I| [load_app_impl]: Category: gd
+[20:29:05.069] |I| [load_module]: Loading module "app0:eboot.bin"
+[20:29:05.126] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[20:29:05.126] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x813180A8 / 0x81000000] (size: 0x003180A8) of module app0:eboot.bin
+[20:29:05.126] |I| [load_self]: Loaded module segment 1 @ [0x81319000 - 0x81368D24 / 0x81319000] (size: 0x0004FD24) of module app0:eboot.bin
+[20:29:05.126] |I| [load_self]: Linking SELF app0:eboot.bin...
+[20:29:05.126] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x812941bc
+[20:29:05.126] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x8131dd18
+[20:29:05.126] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x81297620, setting to stub value 0xdeadbeef
+[20:29:05.126] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x8129756c, setting to stub value 0xdeadbeef
+[20:29:05.126] |W| [load_var_imports]: 	NID NOT FOUND 0x5d8c1282 (UNRECOGNISED) at 0x8129765c, setting to stub value 0xdeadbeef
+[20:29:05.127] |W| [load_var_imports]: 	NID NOT FOUND 0x66b7406c (UNRECOGNISED) at 0x81297648, setting to stub value 0xdeadbeef
+[20:29:05.127] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x81297624, setting to stub value 0xdeadbeef
+[20:29:05.127] |W| [load_var_imports]: 	NID NOT FOUND 0x64ada35 (UNRECOGNISED) at 0x812964b4, setting to stub value 0xdeadbeef
+[20:29:05.127] |W| [load_var_imports]: 	NID NOT FOUND 0x82a84e5e (UNRECOGNISED) at 0x81295400, setting to stub value 0xdeadbeef
+[20:29:05.127] |W| [load_var_imports]: 	NID NOT FOUND 0xddae7cbe (UNRECOGNISED) at 0x81297568, setting to stub value 0xdeadbeef
+[20:29:05.127] |I| [load_module]: Module DokuroVitaPSP2 (at "app0:eboot.bin") loaded
+[20:29:05.127] |I| [load_app_impl]: Main executable DokuroVitaPSP2 (eboot.bin) loaded
+[20:29:05.127] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[20:29:05.134] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[20:29:05.134] |I| [load_self]: Loaded module segment 0 @ [0x8000C000 - 0x80047F34 / 0x81000000] (size: 0x0003BF34) of module app0:sce_module/libc.suprx
+[20:29:05.134] |I| [load_self]: Loaded module segment 1 @ [0x80048000 - 0x8004A33C / 0x8103C000] (size: 0x0000233C) of module app0:sce_module/libc.suprx
+[20:29:05.134] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[20:29:05.134] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x8004186c
+[20:29:05.134] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x80040d40
+[20:29:05.134] |D| [load_var_exports]: Found previously not found variable. nid:0x5d8c1282, new_entry_point:0x800484b0
+[20:29:05.134] |D| [load_var_exports]: Found previously not found variable. nid:0x66b7406c, new_entry_point:0x800483b0
+[20:29:05.134] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x800485b0
+[20:29:05.135] |D| [load_var_exports]: Found previously not found variable. nid:0x64ada35, new_entry_point:0x80047544
+[20:29:05.135] |D| [load_var_exports]: Found previously not found variable. nid:0x82a84e5e, new_entry_point:0x800474d8
+[20:29:05.135] |D| [load_var_exports]: Found previously not found variable. nid:0xddae7cbe, new_entry_point:0x80047568
+[20:29:05.135] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80039a70
+[20:29:05.135] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[20:29:05.135] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[20:29:05.139] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[20:29:05.139] |I| [load_self]: Loaded module segment 0 @ [0x8004B000 - 0x8006CE94 / 0x81000000] (size: 0x00021E94) of module app0:sce_module/libfios2.suprx
+[20:29:05.139] |I| [load_self]: Loaded module segment 1 @ [0x80004000 - 0x8000922C / 0x81022000] (size: 0x0000522C) of module app0:sce_module/libfios2.suprx
+[20:29:05.139] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[20:29:05.140] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80066888
+[20:29:05.140] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[20:29:05.140] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[20:29:05.146] |I| [load_self]: Loaded module segment 0 @ [0x8006D000 - 0x800BDF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[20:29:05.146] |I| [load_self]: Loaded module segment 1 @ [0x8000A000 - 0x8000A2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[20:29:05.146] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[20:29:05.147] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x800a97dc
+[20:29:05.147] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x800a8f10
+[20:29:05.147] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[20:29:05.147] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[20:29:05.148] |I| [load_self]: Loaded module segment 0 @ [0x800BE000 - 0x800CDF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[20:29:05.148] |I| [load_self]: Loaded module segment 1 @ [0x8000B000 - 0x8000B008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[20:29:05.148] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[20:29:05.149] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x800cc710
+[20:29:05.149] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x800cc300
+[20:29:05.149] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[20:29:05.149] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[20:29:05.149] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[20:29:05.150] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/10
+[20:29:05.151] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/10
+[20:29:05.151] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/10
+[20:29:05.152] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/10
+[20:29:05.153] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/10
+[20:29:05.153] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/10
+[20:29:05.154] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 7/10
+[20:29:05.154] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 8/10
+[20:29:05.155] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 9/10
+[20:29:05.156] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 10/10
+[20:29:05.166] |D| [start_module]: Running module_start of library: SceLibc at address 0x8000c5e5
+[20:29:05.231] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xcef7c575 mspace_create at 0x812934bc
+[20:29:05.233] |I| [export_sceIoOpen]: Opening file: tty0:
+[20:29:05.233] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[20:29:05.233] |I| [export_sceIoOpen]: Opening file: tty0:
+[20:29:05.233] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[20:29:05.233] |I| [export_sceIoOpen]: Opening file: tty1:
+[20:29:05.233] |T| [open_file]: sceIoOpen: Opening terminal tty1:
+[20:29:05.237] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[20:29:05.239] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x8004b001
+[20:29:05.249] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[20:29:05.251] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8129347c
+[20:29:05.252] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x8129338c
+[20:29:05.252] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x8129333c
+[20:29:05.252] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe080b96e mspace_malloc at 0x812934fc
+[20:29:05.253] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x8129330c
+[20:29:05.255] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4a496bc0 _FSin at 0x812935bc
+[20:29:05.257] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x812932ec
+[20:29:05.257] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3cdfd2a3 mspace_free at 0x8129327c
+[20:29:05.258] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x8129354c
+[20:29:05.261] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x812934dc
+[20:29:05.261] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x812932ac
+[20:29:05.263] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x8129320c
+[20:29:05.303] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9a004680 printf at 0x812933cc
+[20:29:05.307] |T| [write_file]: *** TTY: sizeof counter = 24
+[20:29:05.308] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x812933ec
+[20:29:05.310] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x8129375c
+[20:29:05.310] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x812932fc
+[20:29:05.311] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2f75cf9b mbstowcs at 0x8129322c
+[20:29:05.311] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa778a14b wcslen at 0x8129340c
+[20:29:05.312] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd9f9ddcd wmemcpy at 0x812934ec
+[20:29:05.313] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9a8f7fc0 wcstombs at 0x812933dc
+[20:29:05.314] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72293931 _ZdlPv at 0x812936fc
+[20:29:05.369] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET
+[20:29:05.381] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[20:29:05.382] |W| [export_sceGxmGetRenderTargetMemSize::<lambda_2>::operator ()]: Stubbed sceGxmGetRenderTargetMemSize import called. (64KiB emuenv mem)
+[20:29:05.527] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa7cbe4a6 qsort at 0x8129341c
+[20:29:05.542] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x8129331c
+[20:29:05.542] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2f3e5b16 memchr at 0x8129321c
+[20:29:05.574] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x8129332c
+[20:29:05.613] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x33b83b70 __cxa_atexit at 0x8129326c
+[20:29:05.618] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[20:29:05.666] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[20:29:05.666] |W| [export_sceCommonDialogSetConfigParam::<lambda_1>::operator ()]: Unimplemented sceCommonDialogSetConfigParam import called.
+[20:29:05.667] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[20:29:05.667] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x8129342c
+[20:29:05.667] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x52f780dd mspace_memalign at 0x812932bc
+[20:29:05.668] |T| [write_file]: *** TTY: ...sceNgsSystemInit() OK
+[20:29:05.668] |T| [write_file]: *** TTY: ....init'd NGS
+[20:29:05.669] |T| [write_file]: *** TTY: ....created Racks
+[20:29:05.669] |T| [write_file]: *** TTY: ....set Player Callbacks
+[20:29:05.669] |T| [write_file]: *** TTY: ....connected Racks
+[20:29:05.670] |T| [write_file]: *** TTY: prepareAudioOut: sending output to audio port 1
+[20:29:05.679] |T| [write_file]: *** TTY: startAudioUpdateThread: started AudioUpdateThread
+[20:29:05.681] |T| [write_file]: *** TTY: _AudioOutputThread running
+[20:29:05.689] |T| [write_file]: *** TTY: StartLoaderThread: started StartLoaderThread
+[20:29:05.689] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x812939ec
+[20:29:05.705] |W| [export_sceKernelChangeThreadVfpException::<lambda_1>::operator ()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[20:29:05.706] |W| [export__sceFiosKernelOverlayThreadSetDisabled::<lambda_1>::operator ()]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
+[20:29:05.736] |T| [log_import_call]: [LLE] TID: 102 FUNC: 0xa1bff606 snprintf at 0x812933fc
+[20:29:05.739] |I| [export_sceIoOpen]: Opening file: savedata0:data.bin
+[20:29:05.739] |T| [open_file]: sceIoOpen: Opening file savedata0:data.bin (ux0:/user/00/savedata/PCSE00124/data.bin), fd: 0x3
+[20:29:05.742] |T| [write_file]: *** TTY: sizeof counter = 24
+[20:29:05.743] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[20:29:05.746] |T| [write_file]: *** TTY: StartLoaderThread: started GameObjectAsyncLoader::StartLoaderThread
+[20:29:05.751] |I| [export_sceIoOpen]: Opening file: app0:././Bin/pac/common.pac
+[20:29:05.752] |T| [open_file]: sceIoOpen: Opening file app0:././Bin/pac/common.pac (ux0:/app/PCSE00124/./Bin/pac/common.pac), fd: 0x4
+[20:29:05.754] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[20:29:05.756] |E| [mutex_lock_impl::<lambda_1>::operator ()]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_RECURSIVE (0x80028182)
+[20:29:05.767] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x184c4b07 strcasecmp at 0x812931fc
+[20:29:05.783] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x8129344c
+[20:29:05.810] |T| [write_file]: *** TTY: common load end 0.057156 sec
+[20:29:05.813] |T| [write_file]: *** TTY: game common load end 0.002594 sec
+[20:29:05.814] |T| [write_file]: *** TTY: event common load end 0.001043 sec
+[20:29:05.819] |T| [write_file]: *** TTY: trial end load end 0.004981 sec
+[20:29:05.819] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0xbf699bd4 sceFiosFHOpen at 0x81293a1c
+[20:29:05.825] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[20:29:05.826] |W| [export__sceFiosKernelOverlayResolveWithRangeSync::<lambda_1>::operator ()]: Stubbed _sceFiosKernelOverlayResolveWithRangeSync import called. (Using strncpy)
+[20:29:05.828] |W| [export__sceFiosKernelOverlayGetRecommendedScheduler::<lambda_1>::operator ()]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
+[20:29:05.833] |I| [export_sceIoOpen]: Opening file: app0:/Bin/pac/common_game.pac
+[20:29:05.833] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/pac/common_game.pac (ux0:/app/PCSE00124/Bin/pac/common_game.pac), fd: 0x5
+[20:29:05.834] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0x1b9a575e sceFiosOpIsDone at 0x812939cc
+[20:29:05.839] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0xe4ea92fa sceFiosOpDelete at 0x81293a3c
+[20:29:05.840] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0xd97c4df7 sceFiosFHStat at 0x81293a2c
+[20:29:05.840] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfffbe239 fopen at 0x8129356c
+[20:29:05.841] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xee681e1d sceFiosFHOpenWithModeSync at 0x80039a60
+[20:29:05.844] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0xb09afbdf sceFiosFHRead at 0x81293a0c
+[20:29:05.852] |I| [export_sceIoOpen]: Opening file: app0:/Bin/pac/common_se.pac
+[20:29:05.853] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/pac/common_se.pac (ux0:/app/PCSE00124/Bin/pac/common_se.pac), fd: 0x6
+[20:29:05.854] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3a7cde1 fseek at 0x8129349c
+[20:29:05.855] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa75f3c4a sceFiosFHSeek at 0x80039a10
+[20:29:05.856] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x41c2af95 ftell at 0x8129328c
+[20:29:05.856] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb31c73a9 fread at 0x8129345c
+[20:29:05.857] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb309e327 sceFiosIsValidHandle at 0x80039a30
+[20:29:05.857] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x76945919 sceFiosFHReadSync at 0x800399f0
+[20:29:05.858] |T| [log_import_call]: [LLE] TID: 88  FUNC: 0xa88edca8 sceFiosFHClose at 0x812939fc
+[20:29:05.860] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[20:29:05.871] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec97321c fclose at 0x8129353c
+[20:29:05.871] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x45182328 sceFiosFHCloseSync at 0x800399d0
+[20:29:05.871] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[20:29:05.873] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x8129350c
+[20:29:05.873] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcefdd143 strrchr at 0x812934cc
+[20:29:05.873] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x8129337c
+[20:29:05.878] |T| [write_file]: *** TTY: se common load end 0.038183 sec
+[20:29:05.879] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[20:29:05.879] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[20:29:05.879] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR02958_00/TROPHY.TRP (ux0:/app/PCSE00124/sce_sys/trophy/NPWR02958_00/TROPHY.TRP), fd: 0x7
+[20:29:05.879] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR02958_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR02958_00/TROPUSR.DAT), fd: 0x8
+[20:29:05.880] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR02958_00/TROPCONF.SFM), fd: 0x9
+[20:29:05.880] |T| [write_file]: install_trophy_context: Writing to fd: 0x9, size: 2185
+[20:29:05.880] |T| [close_file]: install_trophy_context: Closing file fd: 0x9
+[20:29:05.880] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR02958_00/TROP.SFM), fd: 0xa
+[20:29:05.881] |T| [write_file]: install_trophy_context: Writing to fd: 0xa, size: 5082
+[20:29:05.881] |T| [close_file]: install_trophy_context: Closing file fd: 0xa
+[20:29:05.881] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP_00.SFM (ux0:/user/00/trophy/conf/NPWR02958_00/TROP_00.SFM), fd: 0xb
+[20:29:05.881] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 5583
+[20:29:05.881] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[20:29:05.882] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP_01.SFM (ux0:/user/00/trophy/conf/NPWR02958_00/TROP_01.SFM), fd: 0xc
+[20:29:05.882] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 5082
+[20:29:05.882] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[20:29:05.882] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR02958_00/TROP_02.SFM), fd: 0xd
+[20:29:05.882] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 5315
+[20:29:05.882] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[20:29:05.883] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR02958_00/TROP_03.SFM), fd: 0xe
+[20:29:05.883] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 5245
+[20:29:05.883] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[20:29:05.883] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR02958_00/TROP_04.SFM), fd: 0xf
+[20:29:05.884] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 5281
+[20:29:05.884] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[20:29:05.884] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR02958_00/TROP_05.SFM), fd: 0x10
+[20:29:05.884] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 5226
+[20:29:05.884] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[20:29:05.885] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP_09.SFM (ux0:/user/00/trophy/conf/NPWR02958_00/TROP_09.SFM), fd: 0x11
+[20:29:05.885] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 5459
+[20:29:05.885] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[20:29:05.885] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/ICON0.PNG), fd: 0x12
+[20:29:05.885] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 96890
+[20:29:05.885] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[20:29:05.886] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP000.PNG), fd: 0x13
+[20:29:05.886] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 66147
+[20:29:05.886] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[20:29:05.886] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP001.PNG), fd: 0x14
+[20:29:05.887] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 71203
+[20:29:05.887] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[20:29:05.887] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP002.PNG), fd: 0x15
+[20:29:05.887] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 68671
+[20:29:05.887] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[20:29:05.888] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP003.PNG), fd: 0x16
+[20:29:05.888] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 75012
+[20:29:05.888] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[20:29:05.888] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP004.PNG), fd: 0x17
+[20:29:05.889] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 89873
+[20:29:05.889] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[20:29:05.889] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP005.PNG), fd: 0x18
+[20:29:05.889] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 75761
+[20:29:05.889] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[20:29:05.890] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP006.PNG), fd: 0x19
+[20:29:05.890] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 117103
+[20:29:05.890] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[20:29:05.890] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP007.PNG), fd: 0x1a
+[20:29:05.891] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 67323
+[20:29:05.891] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[20:29:05.891] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP008.PNG), fd: 0x1b
+[20:29:05.891] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 78869
+[20:29:05.892] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[20:29:05.892] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP009.PNG), fd: 0x1c
+[20:29:05.892] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 71315
+[20:29:05.892] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[20:29:05.893] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP010.PNG), fd: 0x1d
+[20:29:05.893] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 70882
+[20:29:05.893] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[20:29:05.894] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP011.PNG), fd: 0x1e
+[20:29:05.894] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 70654
+[20:29:05.894] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[20:29:05.894] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP012.PNG), fd: 0x1f
+[20:29:05.895] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 77355
+[20:29:05.895] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[20:29:05.895] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP013.PNG), fd: 0x20
+[20:29:05.895] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 77819
+[20:29:05.895] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[20:29:05.896] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP014.PNG), fd: 0x21
+[20:29:05.896] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 88416
+[20:29:05.896] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[20:29:05.896] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP015.PNG), fd: 0x22
+[20:29:05.897] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 76781
+[20:29:05.897] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[20:29:05.897] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP016.PNG), fd: 0x23
+[20:29:05.897] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 76515
+[20:29:05.898] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[20:29:05.898] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP017.PNG), fd: 0x24
+[20:29:05.898] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 76643
+[20:29:05.898] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[20:29:05.899] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP018.PNG), fd: 0x25
+[20:29:05.899] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 76659
+[20:29:05.899] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[20:29:05.900] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP019.PNG), fd: 0x26
+[20:29:05.900] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 87896
+[20:29:05.900] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[20:29:05.900] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP020.PNG), fd: 0x27
+[20:29:05.900] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 69374
+[20:29:05.901] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[20:29:05.901] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP021.PNG), fd: 0x28
+[20:29:05.901] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 69587
+[20:29:05.901] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[20:29:05.902] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP022.PNG), fd: 0x29
+[20:29:05.902] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 70076
+[20:29:05.902] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[20:29:05.902] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP023.PNG), fd: 0x2a
+[20:29:05.903] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 70365
+[20:29:05.903] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[20:29:05.903] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP024.PNG), fd: 0x2b
+[20:29:05.903] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 76749
+[20:29:05.904] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[20:29:05.904] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP025.PNG), fd: 0x2c
+[20:29:05.904] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 69093
+[20:29:05.904] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[20:29:05.905] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP026.PNG), fd: 0x2d
+[20:29:05.905] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 67916
+[20:29:05.905] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[20:29:05.906] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP027.PNG), fd: 0x2e
+[20:29:05.906] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 72158
+[20:29:05.906] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[20:29:05.906] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP028.PNG), fd: 0x2f
+[20:29:05.907] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 63882
+[20:29:05.907] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[20:29:05.907] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP029.PNG), fd: 0x30
+[20:29:05.907] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 64202
+[20:29:05.908] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[20:29:05.908] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02958_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR02958_00/TROP030.PNG), fd: 0x31
+[20:29:05.908] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 65284
+[20:29:05.908] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[20:29:05.909] |T| [close_file]: create_trophy_context: Closing file fd: 0x8
+[20:29:05.909] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR02958_00 create successfuly!
+[20:29:05.919] |T| [write_file]: *** TTY: startTrophyThread: started AudioUpdateThread
+[20:29:05.921] |T| [write_file]: *** TTY: _TrophyUpdateThread running
+[20:29:05.955] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SCREEN_SHOT
+[20:29:05.955] |W| [export_sceScreenShotSetOverlayImage::<lambda_1>::operator ()]: Unimplemented sceScreenShotSetOverlayImage import called.
+[20:29:05.961] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3a3e5424 asinf at 0x8129359c
+[20:29:05.961] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4e09dd53 atan2f at 0x812935cc
+[20:29:05.964] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x75348906 fabsf at 0x8129361c
+[20:29:05.965] |I| [export_sceIoOpen]: Opening file: app0:/Bin/pac/event_common.pac
+[20:29:05.965] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/pac/event_common.pac (ux0:/app/PCSE00124/Bin/pac/event_common.pac), fd: 0x32
+[20:29:05.978] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[20:29:09.579] |I| [export_sceIoOpen]: Opening file: app0:/Bin/pac/TrialEnd.pac
+[20:29:09.579] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/pac/TrialEnd.pac (ux0:/app/PCSE00124/Bin/pac/TrialEnd.pac), fd: 0x33
+[20:29:09.590] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[20:29:15.346] |I| [export_sceIoOpen]: Opening file: app0:Bin/sound/Bgm/BGM_01-LR.vag
+[20:29:15.347] |T| [open_file]: sceIoOpen: Opening file app0:Bin/sound/Bgm/BGM_01-LR.vag (ux0:/app/PCSE00124/Bin/sound/Bgm/BGM_01-LR.vag), fd: 0x34
+[20:29:15.348] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[20:29:15.348] |T| [write_file]: *** TTY:  VAG file "app0:Bin/sound/Bgm/BGM_01-LR.vag" has been loaded
+[20:29:15.348] |T| [write_file]: *** TTY: ....init'd Player
+[20:29:15.363] |I| [ngs::PlayerModule::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[20:29:27.515] |I| [export_sceIoOpen]: Opening file: app0:/Bin/pac/ev01.pac
+[20:29:27.515] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/pac/ev01.pac (ux0:/app/PCSE00124/Bin/pac/ev01.pac), fd: 0x35
+[20:29:27.521] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[20:29:27.552] |I| [export_sceIoOpen]: Opening file: app0:././Bin/text/ev01/ev01_en.txt
+[20:29:27.552] |T| [open_file]: sceIoOpen: Opening file app0:././Bin/text/ev01/ev01_en.txt (ux0:/app/PCSE00124/./Bin/text/ev01/ev01_en.txt), fd: 0x36
+[20:29:27.553] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[20:29:27.555] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe71c5cde _Stoul at 0x8129351c
+[20:29:27.558] |I| [export_sceIoOpen]: Opening file: app0:/Bin/pac/anim/ev01.pac
+[20:29:27.559] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/pac/anim/ev01.pac (ux0:/app/PCSE00124/Bin/pac/anim/ev01.pac), fd: 0x37
+[20:29:27.559] |I| [export_sceIoOpen]: Opening file: app0:././Bin/Scene/ev01.dat
+[20:29:27.560] |T| [open_file]: sceIoOpen: Opening file app0:././Bin/Scene/ev01.dat (ux0:/app/PCSE00124/./Bin/Scene/ev01.dat), fd: 0x38
+[20:29:27.560] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[20:29:27.570] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[20:29:27.598] |T| [log_import_call]: [LLE] TID: 104 FUNC: 0xd5200cb strstr at 0x812931ec
+[20:29:27.798] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc0883865 rand at 0x8129348c
+[20:29:27.799] |I| [export_sceIoOpen]: Opening file: app0:Bin/sound/Bgm/BGM_04-LR.vag
+[20:29:27.799] |T| [open_file]: sceIoOpen: Opening file app0:Bin/sound/Bgm/BGM_04-LR.vag (ux0:/app/PCSE00124/Bin/sound/Bgm/BGM_04-LR.vag), fd: 0x39
+[20:29:27.799] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[20:29:27.799] |T| [write_file]: *** TTY:  VAG file "app0:Bin/sound/Bgm/BGM_04-LR.vag" has been loaded
+[20:29:27.799] |T| [write_file]: *** TTY: ....init'd Player
+[20:29:49.745] |I| [export_sceIoOpen]: Opening file: app0:Bin/sound/Bgm/BGM_06-LR.vag
+[20:29:49.750] |T| [open_file]: sceIoOpen: Opening file app0:Bin/sound/Bgm/BGM_06-LR.vag (ux0:/app/PCSE00124/Bin/sound/Bgm/BGM_06-LR.vag), fd: 0x3a
+[20:29:49.752] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[20:29:49.752] |T| [write_file]: *** TTY:  VAG file "app0:Bin/sound/Bgm/BGM_06-LR.vag" has been loaded
+[20:29:49.752] |T| [write_file]: *** TTY: ....init'd Player
+[20:29:57.014] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[20:29:57.014] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[20:30:17.207] |I| [export_sceIoOpen]: Opening file: app0:/Bin/pac/anim/common.pac
+[20:30:17.208] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/pac/anim/common.pac (ux0:/app/PCSE00124/Bin/pac/anim/common.pac), fd: 0x3b
+[20:30:17.208] |I| [export_sceIoOpen]: Opening file: app0:/Bin/pac/stg01.pac
+[20:30:17.208] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/pac/stg01.pac (ux0:/app/PCSE00124/Bin/pac/stg01.pac), fd: 0x3c
+[20:30:17.223] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[20:30:17.229] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[20:30:17.329] |T| [write_file]: *** TTY: stage load end 0.121495 sec
+[20:30:17.336] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7fb2bf4 _Znaj at 0x8129372c
+[20:30:17.349] |I| [export_sceIoOpen]: Opening file: app0:/Bin/pac/anim/stg01.pac
+[20:30:17.350] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/pac/anim/stg01.pac (ux0:/app/PCSE00124/Bin/pac/anim/stg01.pac), fd: 0x3d
+[20:30:17.362] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[20:30:17.371] |I| [export_sceIoOpen]: Opening file: app0:././Bin/Scene/common.dat
+[20:30:17.371] |T| [open_file]: sceIoOpen: Opening file app0:././Bin/Scene/common.dat (ux0:/app/PCSE00124/./Bin/Scene/common.dat), fd: 0x3e
+[20:30:17.372] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[20:30:17.423] |I| [export_sceIoOpen]: Opening file: app0:././Bin/Scene/stg01.dat
+[20:30:17.423] |T| [open_file]: sceIoOpen: Opening file app0:././Bin/Scene/stg01.dat (ux0:/app/PCSE00124/./Bin/Scene/stg01.dat), fd: 0x3f
+[20:30:17.423] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[20:30:17.660] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_powder01_s_op.dat
+[20:30:17.660] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_powder01_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_powder01_s_op.dat), fd: 0x40
+[20:30:17.672] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[20:30:17.677] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_broken01_op.dat
+[20:30:17.678] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_broken01_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_broken01_op.dat), fd: 0x41
+[20:30:17.690] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[20:30:17.693] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_blow01_s_op.dat
+[20:30:17.693] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_blow01_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_blow01_s_op.dat), fd: 0x42
+[20:30:17.705] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[20:30:17.709] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_slash01_s_op.dat
+[20:30:17.710] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_slash01_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_slash01_s_op.dat), fd: 0x43
+[20:30:17.721] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[20:30:17.725] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_invalid01_op.dat
+[20:30:17.726] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_invalid01_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_invalid01_op.dat), fd: 0x44
+[20:30:17.737] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[20:30:17.741] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_generator_op.dat
+[20:30:17.741] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_generator_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_generator_op.dat), fd: 0x45
+[20:30:17.753] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[20:30:17.757] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_question_op.dat
+[20:30:17.757] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_question_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_question_op.dat), fd: 0x46
+[20:30:17.769] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[20:30:17.773] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_surprise_op.dat
+[20:30:17.773] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_surprise_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_surprise_op.dat), fd: 0x47
+[20:30:17.785] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[20:30:17.790] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_changewave_op.dat
+[20:30:17.790] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_changewave_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_changewave_op.dat), fd: 0x48
+[20:30:17.801] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[20:30:17.805] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_blow01_l_op.dat
+[20:30:17.805] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_blow01_l_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_blow01_l_op.dat), fd: 0x49
+[20:30:17.817] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[20:30:17.821] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_broken02_op.dat
+[20:30:17.821] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_broken02_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_broken02_op.dat), fd: 0x4a
+[20:30:17.832] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[20:30:17.836] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_broken03_op.dat
+[20:30:17.837] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_broken03_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_broken03_op.dat), fd: 0x4b
+[20:30:17.848] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[20:30:17.852] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_burn01_s_op.dat
+[20:30:17.852] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_burn01_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_burn01_s_op.dat), fd: 0x4c
+[20:30:17.864] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[20:30:17.868] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_explosion01_s_op.dat
+[20:30:17.868] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_explosion01_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_explosion01_s_op.dat), fd: 0x4d
+[20:30:17.879] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[20:30:17.884] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_explosion01_l_op.dat
+[20:30:17.884] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_explosion01_l_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_explosion01_l_op.dat), fd: 0x4e
+[20:30:17.896] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[20:30:17.900] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_fuse_op.dat
+[20:30:17.900] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_fuse_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_fuse_op.dat), fd: 0x4f
+[20:30:17.912] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[20:30:17.915] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_happy_op.dat
+[20:30:17.915] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_happy_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_happy_op.dat), fd: 0x50
+[20:30:17.927] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[20:30:17.932] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_heat_op.dat
+[20:30:17.932] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_heat_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_heat_op.dat), fd: 0x51
+[20:30:17.943] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[20:30:17.947] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_magicglare_op.dat
+[20:30:17.947] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_magicglare_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_magicglare_op.dat), fd: 0x52
+[20:30:17.959] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[20:30:17.963] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_powder01_l_op.dat
+[20:30:17.963] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_powder01_l_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_powder01_l_op.dat), fd: 0x53
+[20:30:17.976] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[20:30:17.980] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_powder02_s_op.dat
+[20:30:17.980] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_powder02_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_powder02_s_op.dat), fd: 0x54
+[20:30:17.992] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[20:30:17.996] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_shockwave_s_op.dat
+[20:30:17.996] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_shockwave_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_shockwave_s_op.dat), fd: 0x55
+[20:30:18.007] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[20:30:18.011] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_shockwave_l_op.dat
+[20:30:18.011] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_shockwave_l_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_shockwave_l_op.dat), fd: 0x56
+[20:30:18.022] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[20:30:18.026] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_slash01_l_op.dat
+[20:30:18.026] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_slash01_l_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_slash01_l_op.dat), fd: 0x57
+[20:30:18.037] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[20:30:18.041] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_smoke_op.dat
+[20:30:18.041] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_smoke_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_smoke_op.dat), fd: 0x58
+[20:30:18.053] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[20:30:18.057] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_spark_op.dat
+[20:30:18.057] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_spark_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_spark_op.dat), fd: 0x59
+[20:30:18.069] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[20:30:18.073] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_spray_s_op.dat
+[20:30:18.073] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_spray_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_spray_s_op.dat), fd: 0x5a
+[20:30:18.085] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[20:30:18.089] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_spray_l_op.dat
+[20:30:18.089] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_spray_l_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_spray_l_op.dat), fd: 0x5b
+[20:30:18.102] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[20:30:18.105] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_wind_op.dat
+[20:30:18.105] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_wind_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_wind_op.dat), fd: 0x5c
+[20:30:18.116] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[20:30:18.120] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_powder07_s_op.dat
+[20:30:18.121] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_powder07_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_powder07_s_op.dat), fd: 0x5d
+[20:30:18.132] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[20:30:18.135] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_stan_op.dat
+[20:30:18.135] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_stan_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_stan_op.dat), fd: 0x5e
+[20:30:18.147] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[20:30:18.151] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_poseglare_op.dat
+[20:30:18.151] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_poseglare_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_poseglare_op.dat), fd: 0x5f
+[20:30:18.164] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[20:30:18.168] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_spraywave_op.dat
+[20:30:18.168] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_spraywave_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_spraywave_op.dat), fd: 0x60
+[20:30:18.179] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[20:30:18.184] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_hyperikemenglare_op.dat
+[20:30:18.184] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_hyperikemenglare_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_hyperikemenglare_op.dat), fd: 0x61
+[20:30:18.195] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[20:30:18.199] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_ikemenglare_op.dat
+[20:30:18.199] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_ikemenglare_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_ikemenglare_op.dat), fd: 0x62
+[20:30:18.212] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[20:30:18.215] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_sweat_op.dat
+[20:30:18.215] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_sweat_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_sweat_op.dat), fd: 0x63
+[20:30:18.228] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[20:30:18.232] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_powder04_l_op.dat
+[20:30:18.232] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_powder04_l_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_powder04_l_op.dat), fd: 0x64
+[20:30:18.243] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[20:30:18.247] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_weakslash01_s_op.dat
+[20:30:18.247] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_weakslash01_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_weakslash01_s_op.dat), fd: 0x65
+[20:30:18.259] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[20:30:18.263] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_powder05_s_op.dat
+[20:30:18.263] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_powder05_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_powder05_s_op.dat), fd: 0x66
+[20:30:18.275] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[20:30:18.279] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/eff_powder04_s_op.dat
+[20:30:18.279] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/eff_powder04_s_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/eff_powder04_s_op.dat), fd: 0x67
+[20:30:18.290] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[20:30:18.408] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.409] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.410] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.410] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.411] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.411] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.420] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.421] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.421] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.422] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.422] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.423] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.429] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.430] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.430] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.431] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.431] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.432] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.440] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.440] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.441] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.441] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.442] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.442] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.448] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.448] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.449] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.449] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.450] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.458] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.458] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.459] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.459] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.460] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.460] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.468] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.468] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.469] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.469] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.470] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.470] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.471] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.471] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.488] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.489] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.489] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.490] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.490] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.491] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.491] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.504] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.505] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.505] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.505] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.508] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Foot_WBone02R : HitBody5 ].
+[20:30:18.509] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ HitBody3 ].
+[20:30:18.509] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_arm01L01 : HitBody6 ].
+[20:30:18.509] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ HitBody2 ].
+[20:30:18.509] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_weapon00 : HitBody7 ].
+[20:30:18.509] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ HitBody4 ].
+[20:30:18.509] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ HitBody1 ].
+[20:30:18.517] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ Eff_DistantBurn01_S_P ].
+[20:30:18.528] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/chr0201_op.dat
+[20:30:18.528] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/chr0201_op.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/chr0201_op.dat), fd: 0x68
+[20:30:18.539] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[20:30:18.544] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/gim_woodbox01_op3.dat
+[20:30:18.544] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/gim_woodbox01_op3.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/gim_woodbox01_op3.dat), fd: 0x69
+[20:30:18.555] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[20:30:18.559] |I| [export_sceIoOpen]: Opening file: app0:/Bin/Scene/Prefab/gim_woodbox02_spike_op3.dat
+[20:30:18.559] |T| [open_file]: sceIoOpen: Opening file app0:/Bin/Scene/Prefab/gim_woodbox02_spike_op3.dat (ux0:/app/PCSE00124/Bin/Scene/Prefab/gim_woodbox02_spike_op3.dat), fd: 0x6a
+[20:30:18.570] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[20:30:23.284] |I| [export_sceIoOpen]: Opening file: app0:Bin/sound/Bgm/BGM_11-LR.vag
+[20:30:23.284] |T| [open_file]: sceIoOpen: Opening file app0:Bin/sound/Bgm/BGM_11-LR.vag (ux0:/app/PCSE00124/Bin/sound/Bgm/BGM_11-LR.vag), fd: 0x6b
+[20:30:23.284] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[20:30:23.284] |T| [write_file]: *** TTY:  VAG file "app0:Bin/sound/Bgm/BGM_11-LR.vag" has been loaded
+[20:30:23.285] |T| [write_file]: *** TTY: ....init'd Player
+[20:30:23.379] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x27eab8c1 acosf at 0x8129358c
+[20:30:23.406] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc9be3f05 atan2 at 0x8129365c
+[20:30:23.409] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcd7c05bd floorf at 0x8129366c
+[20:30:23.440] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xba3f6937 sqrtf at 0x8129364c
+[20:30:23.560] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.561] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.561] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.562] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.563] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.563] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.564] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.565] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.565] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.566] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.566] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.567] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.568] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.568] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.569] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.570] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.571] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.572] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.573] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.574] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.574] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.575] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.575] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.576] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.577] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.577] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.578] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:23.579] |T| [write_file]: *** TTY: Warning : Can't Node Aplly[ mesh_Heat01 : mesh_Heat00 ].
+[20:30:53.010] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[20:30:53.010] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[20:34:14.383] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[20:34:14.384] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[20:34:14.384] |E| [discordrpc::update_presence::<lambda_1>::operator ()]: Error updating Discord Rich Presence, err_code: 43

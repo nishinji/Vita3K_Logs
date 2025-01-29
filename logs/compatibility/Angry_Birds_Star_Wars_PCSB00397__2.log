@@ -1,0 +1,942 @@
+[15:14:38.347] |I| [config::init_config]: backend-renderer: Vulkan
+[15:14:38.349] |I| [config::init_config]: log-level: 0
+[15:14:38.796] |I| [SDL_main]: Vita3K v0.1.8 3256-6fff5ed7
+[15:14:38.798] |I| [SDL_main]: Number of logical CPU cores: 2
+[15:14:38.798] |I| [SDL_main]: Available ram memory: 3959 MiB
+[15:14:39.509] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[15:14:40.799] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[15:14:40.800] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[15:14:40.801] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[15:14:40.802] |I| [renderer::vulkan::VKState::create]: Using shader interlock for accurate framebuffer fetch emulation
+[15:14:40.968] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[15:14:43.601] |W| [compat::load_compat_app_db]: App with Title ID PCSE01415 has an issue but no status label. Please check GitHub issue 2065 and request a status label be added.
+[15:14:43.603] |W| [compat::load_compat_app_db]: App with Title ID PCSE01072 has an issue but no status label. Please check GitHub issue 2064 and request a status label be added.
+[15:14:43.604] |W| [compat::load_compat_app_db]: App with Title ID PCSE01077 has an issue but no status label. Please check GitHub issue 2063 and request a status label be added.
+[15:14:43.605] |W| [compat::load_compat_app_db]: App with Title ID PCSE01460 has an issue but no status label. Please check GitHub issue 2062 and request a status label be added.
+[15:14:43.607] |W| [compat::load_compat_app_db]: App with Title ID PCSG01240 has an issue but no status label. Please check GitHub issue 2061 and request a status label be added.
+[15:14:43.609] |W| [compat::load_compat_app_db]: App with Title ID PCSE00062 has an issue but no status label. Please check GitHub issue 2060 and request a status label be added.
+[15:14:43.612] |W| [compat::load_compat_app_db]: App with Title ID PCSH00006 has an issue but no status label. Please check GitHub issue 2059 and request a status label be added.
+[15:14:43.639] |W| [compat::load_compat_app_db]: App with Title ID PCSB00183 has an issue but no status label. Please check GitHub issue 1939 and request a status label be added.
+[15:14:43.640] |W| [compat::load_compat_app_db]: App with Title ID PCSF00532 has an issue but no status label. Please check GitHub issue 1911 and request a status label be added.
+[15:14:43.643] |W| [compat::load_compat_app_db]: App with Title ID PCSA00133 has an issue but no status label. Please check GitHub issue 1649 and request a status label be added.
+[15:14:44.969] |I| [compat::update_compat_app_db]: Applications compatibility database is up to date.
+[15:15:17.628] |I| [load_app_impl]: cpu-backend: Dynarmic
+[15:15:17.630] |I| [load_app_impl]: CPU Optimisation state: true
+[15:15:17.632] |I| [load_app_impl]: ngs state: true
+[15:15:17.634] |I| [load_app_impl]: Resolution multiplier: 1
+[15:15:17.636] |I| [load_app_impl]: modules mode: Automatic
+[15:15:17.637] |I| [load_app_impl]: Title: Angry Birds™ Star Wars
+[15:15:17.669] |I| [load_app_impl]: Serial: PCSB00397
+[15:15:17.671] |I| [load_app_impl]: Version: 1.00
+[15:15:17.675] |I| [load_app_impl]: Category: gd
+[15:15:17.767] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[15:15:17.768] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x00052A2C / 0x81000000] (size: 0x0004DA2C) of module app0:sce_module/libc.suprx
+[15:15:17.771] |I| [load_self]: Loaded module segment 1 @ [0x00053000 - 0x000556F8 / 0x8104E000] (size: 0x000026F8) of module app0:sce_module/libc.suprx
+[15:15:17.775] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[15:15:17.777] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x3e798
+[15:15:17.779] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x487d4
+[15:15:17.781] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[15:15:17.859] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[15:15:17.860] |I| [load_self]: Loaded module segment 0 @ [0x00056000 - 0x0007E928 / 0x81000000] (size: 0x00028928) of module app0:sce_module/libfios2.suprx
+[15:15:17.863] |I| [load_self]: Loaded module segment 1 @ [0x0007F000 - 0x000841FD / 0x81029000] (size: 0x000051FD) of module app0:sce_module/libfios2.suprx
+[15:15:17.866] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[15:15:17.868] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x766a8
+[15:15:17.870] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x7e810
+[15:15:17.871] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[15:15:17.943] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[15:15:17.944] |I| [load_self]: Loaded module segment 0 @ [0x00085000 - 0x00099744 / 0x81000000] (size: 0x00014744) of module app0:sce_module/libult.suprx
+[15:15:17.947] |I| [load_self]: Loaded module segment 1 @ [0x0009A000 - 0x0009A814 / 0x81015000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[15:15:17.950] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[15:15:17.952] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x95658
+[15:15:17.954] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x980a0
+[15:15:17.958] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[15:15:18.001] |I| [load_self]: Loaded module segment 0 @ [0x0009B000 - 0x000EBF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[15:15:18.004] |I| [load_self]: Loaded module segment 1 @ [0x000EC000 - 0x000EC2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[15:15:18.009] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[15:15:18.010] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xd77dc
+[15:15:18.012] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xd6f10
+[15:15:18.013] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[15:15:18.035] |I| [load_self]: Loaded module segment 0 @ [0x000ED000 - 0x000FCF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[15:15:18.042] |I| [load_self]: Loaded module segment 1 @ [0x000FD000 - 0x000FD008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[15:15:18.045] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[15:15:18.047] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xfb710
+[15:15:18.048] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xfb300
+[15:15:18.050] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[15:15:18.636] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[15:15:18.638] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x814C21F0 / 0x81000000] (size: 0x004C21F0) of module app0:eboot.bin
+[15:15:18.644] |I| [load_self]: Loaded module segment 1 @ [0x814C3000 - 0x8188B1B8 / 0x814C3000] (size: 0x003C81B8) of module app0:eboot.bin
+[15:15:18.647] |I| [load_self]: Linking SELF app0:eboot.bin...
+[15:15:18.649] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x81438390
+[15:15:18.651] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x814c308c
+[15:15:18.673] |I| [load_app_impl]: Main executable Black (eboot.bin) loaded
+[15:15:18.723] |D| [run_app]: Running module_start of library: SceLibc at address 0x5809
+[15:15:18.780] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[15:15:18.781] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[15:15:18.783] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[15:15:18.812] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[15:15:18.820] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x56001
+[15:15:18.867] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[15:15:18.869] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[15:15:18.878] |D| [run_app]: Running module_start of library: SceUlt at address 0x885ed
+[15:15:18.921] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[15:15:18.922] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[15:15:19.845] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[15:15:19.848] |I| [load_module]: Loading module ID: 0x4c
+[15:15:19.939] |I| [load_self]: sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[15:15:19.940] |I| [load_self]: Loaded module segment 0 @ [0x00305000 - 0x003199FC / 0x81000000] (size: 0x000149FC) of module sys/external/libsceavplayer.suprx
+[15:15:19.944] |I| [load_self]: Loaded module segment 1 @ [0x00140000 - 0x0014006C / 0x81015000] (size: 0x0000006C) of module sys/external/libsceavplayer.suprx
+[15:15:19.947] |I| [load_self]: Linking SELF sys/external/libsceavplayer.suprx...
+[15:15:19.949] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x316d40
+[15:15:19.950] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x315548
+[15:15:19.952] |I| [load_module]: Module SceAvPlayer (at "sys/external/libsceavplayer.suprx") loaded
+[15:15:19.954] |D| [load_module]: Running module_start of module: SceAvPlayer
+[15:15:19.956] |I| [load_module]: Module SceAvPlayer (at "sys/external/libsceavplayer.suprx") module_start returned 0x0
+[15:15:20.020] |I| [load_self]: sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[15:15:20.021] |I| [load_self]: Loaded module segment 0 @ [0x0031A000 - 0x00329D20 / 0x81000000] (size: 0x0000FD20) of module sys/external/libscemp4.suprx
+[15:15:20.026] |I| [load_self]: Loaded module segment 1 @ [0x00141000 - 0x00141028 / 0x81010000] (size: 0x00000028) of module sys/external/libscemp4.suprx
+[15:15:20.029] |I| [load_self]: Linking SELF sys/external/libscemp4.suprx...
+[15:15:20.030] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x3299d0
+[15:15:20.032] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x3288c4
+[15:15:20.034] |I| [load_module]: Module SceMp4 (at "sys/external/libscemp4.suprx") loaded
+[15:15:20.041] |W| [unimplemented_impl]: Unimplemented sceNpActivityInit import called.
+[15:15:20.581] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[15:15:20.613] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[15:15:20.787] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[15:15:20.958] |I| [export_sceIoOpen]: Opening file: app0:data/shaders.xmat
+[15:15:21.162] |T| [open_file]: sceIoOpen: Opening file app0:data/shaders.xmat (ux0:/app/PCSB00397/data/shaders.xmat), fd: 0x3
+[15:15:21.232] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[15:15:21.430] |I| [export_sceIoOpen]: Opening file: app0:data/config.lua
+[15:15:21.602] |T| [open_file]: sceIoOpen: Opening file app0:data/config.lua (ux0:/app/PCSB00397/data/config.lua), fd: 0x4
+[15:15:21.773] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[15:15:22.289] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[15:15:22.357] |I| [export_sceIoOpen]: Opening file: app0:data/atlas/splash_960x544.xgt
+[15:15:22.443] |T| [open_file]: sceIoOpen: Opening file app0:data/atlas/splash_960x544.xgt (ux0:/app/PCSB00397/data/atlas/splash_960x544.xgt), fd: 0x5
+[15:15:22.452] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[15:15:22.456] |I| [export_sceIoOpen]: Opening file: app0:data/atlas/splash_960x544.xgt
+[15:15:22.460] |T| [open_file]: sceIoOpen: Opening file app0:data/atlas/splash_960x544.xgt (ux0:/app/PCSB00397/data/atlas/splash_960x544.xgt), fd: 0x6
+[15:15:22.504] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[15:15:22.523] |I| [export_sceIoOpen]: Opening file: app0:data/scripts.pak
+[15:15:22.629] |T| [open_file]: sceIoOpen: Opening file app0:data/scripts.pak (ux0:/app/PCSB00397/data/scripts.pak), fd: 0x7
+[15:15:22.637] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[15:15:22.711] |W| [unimplemented_impl]: Unimplemented sceGxmColorSurfaceSetClip import called.
+[15:15:22.713] |I| [export_sceIoOpen]: Opening file: app0:data/localization/text_game.xlc
+[15:15:22.786] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[15:15:22.788] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 33fea79ac36a5b9d97ccbc6c7f3625cbc64514d6cc93341de19a46557148a21f
+[15:15:22.790] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/text_game.xlc (ux0:/app/PCSB00397/data/localization/text_game.xlc), fd: 0x8
+[15:15:22.794] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 33fea79ac36a5b9d97ccbc6c7f3625cbc64514d6cc93341de19a46557148a21f
+[15:15:22.804] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[15:15:22.806] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aColour
+[15:15:22.808] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord0
+[15:15:22.811] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_matWorldViewProj_PSC[4]
+[15:15:22.821] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[15:15:22.862] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline.fnt
+[15:15:22.867] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 445940f44496a042f0b5ea6a2aaa26d4046fc0041d8f6437644c0162948480a9
+[15:15:22.870] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 445940f44496a042f0b5ea6a2aaa26d4046fc0041d8f6437644c0162948480a9
+[15:15:22.875] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[15:15:22.877] |T| [shader::create_fragment_inputs]: pa2 = tex2D<float4>(tex, TEXCOORD0.xy)
+[15:15:22.879] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[15:15:22.963] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline.fnt (ux0:/app/PCSB00397/data/localization/font_headline.fnt), fd: 0x9
+[15:15:23.010] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[15:15:23.089] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline_00.xgt
+[15:15:23.429] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline_00.xgt (ux0:/app/PCSB00397/data/localization/font_headline_00.xgt), fd: 0xa
+[15:15:23.548] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[15:15:23.552] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline_00.xgt
+[15:15:23.555] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline_00.xgt (ux0:/app/PCSB00397/data/localization/font_headline_00.xgt), fd: 0xb
+[15:15:23.589] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[15:15:23.596] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline_00.xgt
+[15:15:23.598] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline_00.xgt (ux0:/app/PCSB00397/data/localization/font_headline_00.xgt), fd: 0xc
+[15:15:23.665] |T| [close_file]: sceIoClose: Closing file fd: 0xc
+[15:15:23.668] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline_01.xgt
+[15:15:23.741] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline_01.xgt (ux0:/app/PCSB00397/data/localization/font_headline_01.xgt), fd: 0xd
+[15:15:23.749] |T| [close_file]: sceIoClose: Closing file fd: 0xd
+[15:15:23.751] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline_01.xgt
+[15:15:23.753] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline_01.xgt (ux0:/app/PCSB00397/data/localization/font_headline_01.xgt), fd: 0xe
+[15:15:23.757] |T| [close_file]: sceIoClose: Closing file fd: 0xe
+[15:15:23.760] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline_01.xgt
+[15:15:23.763] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline_01.xgt (ux0:/app/PCSB00397/data/localization/font_headline_01.xgt), fd: 0xf
+[15:15:23.783] |T| [close_file]: sceIoClose: Closing file fd: 0xf
+[15:15:23.785] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline_02.xgt
+[15:15:23.847] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline_02.xgt (ux0:/app/PCSB00397/data/localization/font_headline_02.xgt), fd: 0x10
+[15:15:23.855] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[15:15:23.858] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline_02.xgt
+[15:15:23.862] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline_02.xgt (ux0:/app/PCSB00397/data/localization/font_headline_02.xgt), fd: 0x11
+[15:15:23.867] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[15:15:23.869] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_headline_02.xgt
+[15:15:23.873] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_headline_02.xgt (ux0:/app/PCSB00397/data/localization/font_headline_02.xgt), fd: 0x12
+[15:15:23.895] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[15:15:23.907] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large.fnt
+[15:15:23.953] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large.fnt (ux0:/app/PCSB00397/data/localization/font_large.fnt), fd: 0x13
+[15:15:23.970] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[15:15:23.972] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large_00.xgt
+[15:15:24.023] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large_00.xgt (ux0:/app/PCSB00397/data/localization/font_large_00.xgt), fd: 0x14
+[15:15:24.029] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[15:15:24.032] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large_00.xgt
+[15:15:24.034] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large_00.xgt (ux0:/app/PCSB00397/data/localization/font_large_00.xgt), fd: 0x15
+[15:15:24.038] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[15:15:24.040] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large_00.xgt
+[15:15:24.044] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large_00.xgt (ux0:/app/PCSB00397/data/localization/font_large_00.xgt), fd: 0x16
+[15:15:24.068] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[15:15:24.070] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large_01.xgt
+[15:15:24.152] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large_01.xgt (ux0:/app/PCSB00397/data/localization/font_large_01.xgt), fd: 0x17
+[15:15:24.163] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[15:15:24.166] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large_01.xgt
+[15:15:24.168] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large_01.xgt (ux0:/app/PCSB00397/data/localization/font_large_01.xgt), fd: 0x18
+[15:15:24.172] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[15:15:24.174] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large_01.xgt
+[15:15:24.178] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large_01.xgt (ux0:/app/PCSB00397/data/localization/font_large_01.xgt), fd: 0x19
+[15:15:24.196] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[15:15:24.198] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large_02.xgt
+[15:15:24.293] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large_02.xgt (ux0:/app/PCSB00397/data/localization/font_large_02.xgt), fd: 0x1a
+[15:15:24.301] |T| [close_file]: sceIoClose: Closing file fd: 0x1a
+[15:15:24.303] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large_02.xgt
+[15:15:24.305] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large_02.xgt (ux0:/app/PCSB00397/data/localization/font_large_02.xgt), fd: 0x1b
+[15:15:24.311] |T| [close_file]: sceIoClose: Closing file fd: 0x1b
+[15:15:24.313] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_large_02.xgt
+[15:15:24.316] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_large_02.xgt (ux0:/app/PCSB00397/data/localization/font_large_02.xgt), fd: 0x1c
+[15:15:24.323] |T| [close_file]: sceIoClose: Closing file fd: 0x1c
+[15:15:24.325] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_medium.fnt
+[15:15:24.407] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_medium.fnt (ux0:/app/PCSB00397/data/localization/font_medium.fnt), fd: 0x1d
+[15:15:24.419] |T| [close_file]: sceIoClose: Closing file fd: 0x1d
+[15:15:24.422] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_medium_00.xgt
+[15:15:24.601] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_medium_00.xgt (ux0:/app/PCSB00397/data/localization/font_medium_00.xgt), fd: 0x1e
+[15:15:24.606] |T| [close_file]: sceIoClose: Closing file fd: 0x1e
+[15:15:24.608] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_medium_00.xgt
+[15:15:24.613] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_medium_00.xgt (ux0:/app/PCSB00397/data/localization/font_medium_00.xgt), fd: 0x1f
+[15:15:24.617] |T| [close_file]: sceIoClose: Closing file fd: 0x1f
+[15:15:24.620] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_medium_00.xgt
+[15:15:24.622] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_medium_00.xgt (ux0:/app/PCSB00397/data/localization/font_medium_00.xgt), fd: 0x20
+[15:15:24.648] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[15:15:24.651] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_medium_01.xgt
+[15:15:24.705] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_medium_01.xgt (ux0:/app/PCSB00397/data/localization/font_medium_01.xgt), fd: 0x21
+[15:15:24.713] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[15:15:24.715] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_medium_01.xgt
+[15:15:24.717] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_medium_01.xgt (ux0:/app/PCSB00397/data/localization/font_medium_01.xgt), fd: 0x22
+[15:15:24.720] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[15:15:24.722] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_medium_01.xgt
+[15:15:24.725] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_medium_01.xgt (ux0:/app/PCSB00397/data/localization/font_medium_01.xgt), fd: 0x23
+[15:15:24.757] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[15:15:24.759] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small.fnt
+[15:15:24.847] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small.fnt (ux0:/app/PCSB00397/data/localization/font_small.fnt), fd: 0x24
+[15:15:24.856] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[15:15:24.858] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small_00.xgt
+[15:15:24.981] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small_00.xgt (ux0:/app/PCSB00397/data/localization/font_small_00.xgt), fd: 0x25
+[15:15:24.987] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[15:15:24.989] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small_00.xgt
+[15:15:24.992] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small_00.xgt (ux0:/app/PCSB00397/data/localization/font_small_00.xgt), fd: 0x26
+[15:15:24.996] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[15:15:24.998] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small_00.xgt
+[15:15:25.001] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small_00.xgt (ux0:/app/PCSB00397/data/localization/font_small_00.xgt), fd: 0x27
+[15:15:25.007] |T| [close_file]: sceIoClose: Closing file fd: 0x27
+[15:15:25.012] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small_01.xgt
+[15:15:25.074] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small_01.xgt (ux0:/app/PCSB00397/data/localization/font_small_01.xgt), fd: 0x28
+[15:15:25.078] |T| [close_file]: sceIoClose: Closing file fd: 0x28
+[15:15:25.079] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small_01.xgt
+[15:15:25.082] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small_01.xgt (ux0:/app/PCSB00397/data/localization/font_small_01.xgt), fd: 0x29
+[15:15:25.086] |T| [close_file]: sceIoClose: Closing file fd: 0x29
+[15:15:25.087] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small_01.xgt
+[15:15:25.089] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small_01.xgt (ux0:/app/PCSB00397/data/localization/font_small_01.xgt), fd: 0x2a
+[15:15:25.093] |T| [close_file]: sceIoClose: Closing file fd: 0x2a
+[15:15:25.113] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small_02.xgt
+[15:15:25.174] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small_02.xgt (ux0:/app/PCSB00397/data/localization/font_small_02.xgt), fd: 0x2b
+[15:15:25.180] |T| [close_file]: sceIoClose: Closing file fd: 0x2b
+[15:15:25.182] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small_02.xgt
+[15:15:25.184] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small_02.xgt (ux0:/app/PCSB00397/data/localization/font_small_02.xgt), fd: 0x2c
+[15:15:25.187] |T| [close_file]: sceIoClose: Closing file fd: 0x2c
+[15:15:25.188] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_small_02.xgt
+[15:15:25.191] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_small_02.xgt (ux0:/app/PCSB00397/data/localization/font_small_02.xgt), fd: 0x2d
+[15:15:25.198] |T| [close_file]: sceIoClose: Closing file fd: 0x2d
+[15:15:25.199] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_credits.fnt
+[15:15:25.285] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_credits.fnt (ux0:/app/PCSB00397/data/localization/font_credits.fnt), fd: 0x2e
+[15:15:25.293] |T| [close_file]: sceIoClose: Closing file fd: 0x2e
+[15:15:25.296] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_credits_00.xgt
+[15:15:25.369] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_credits_00.xgt (ux0:/app/PCSB00397/data/localization/font_credits_00.xgt), fd: 0x2f
+[15:15:25.379] |T| [close_file]: sceIoClose: Closing file fd: 0x2f
+[15:15:25.381] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_credits_00.xgt
+[15:15:25.385] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_credits_00.xgt (ux0:/app/PCSB00397/data/localization/font_credits_00.xgt), fd: 0x30
+[15:15:25.390] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[15:15:25.394] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_credits_00.xgt
+[15:15:25.397] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_credits_00.xgt (ux0:/app/PCSB00397/data/localization/font_credits_00.xgt), fd: 0x31
+[15:15:25.407] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[15:15:25.408] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_credits_01.xgt
+[15:15:25.489] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_credits_01.xgt (ux0:/app/PCSB00397/data/localization/font_credits_01.xgt), fd: 0x32
+[15:15:25.494] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[15:15:25.496] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_credits_01.xgt
+[15:15:25.498] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_credits_01.xgt (ux0:/app/PCSB00397/data/localization/font_credits_01.xgt), fd: 0x33
+[15:15:25.502] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[15:15:25.504] |I| [export_sceIoOpen]: Opening file: app0:data/localization/font_credits_01.xgt
+[15:15:25.507] |T| [open_file]: sceIoOpen: Opening file app0:data/localization/font_credits_01.xgt (ux0:/app/PCSB00397/data/localization/font_credits_01.xgt), fd: 0x34
+[15:15:25.513] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[15:15:25.516] |I| [export_sceIoOpen]: Opening file: app0:data/atlas/atlaspsp2.atlas
+[15:15:25.555] |T| [open_file]: sceIoOpen: Opening file app0:data/atlas/atlaspsp2.atlas (ux0:/app/PCSB00397/data/atlas/atlaspsp2.atlas), fd: 0x35
+[15:15:25.568] |I| [export_sceIoOpen]: Opening file: app0:data/atlas/atlaspsp2_1_of_1.xgt
+[15:15:25.609] |T| [open_file]: sceIoOpen: Opening file app0:data/atlas/atlaspsp2_1_of_1.xgt (ux0:/app/PCSB00397/data/atlas/atlaspsp2_1_of_1.xgt), fd: 0x36
+[15:15:25.616] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[15:15:25.619] |I| [export_sceIoOpen]: Opening file: app0:data/atlas/atlaspsp2_1_of_1.xgt
+[15:15:25.621] |T| [open_file]: sceIoOpen: Opening file app0:data/atlas/atlaspsp2_1_of_1.xgt (ux0:/app/PCSB00397/data/atlas/atlaspsp2_1_of_1.xgt), fd: 0x37
+[15:15:25.627] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[15:15:25.631] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[15:15:25.634] |I| [export_sceIoOpen]: Opening file: app0:data/audio/stereo44100/sfx.bnk
+[15:15:25.702] |T| [open_file]: sceIoOpen: Opening file app0:data/audio/stereo44100/sfx.bnk (ux0:/app/PCSB00397/data/audio/stereo44100/sfx.bnk), fd: 0x38
+[15:15:25.954] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[15:15:25.967] |I| [export_sceIoOpen]: Opening file: app0:data/levels.pak
+[15:15:26.060] |T| [open_file]: sceIoOpen: Opening file app0:data/levels.pak (ux0:/app/PCSB00397/data/levels.pak), fd: 0x39
+[15:15:26.098] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[15:15:26.120] |I| [export_sceIoOpen]: Opening file: app0:data/images.pak
+[15:15:26.239] |T| [open_file]: sceIoOpen: Opening file app0:data/images.pak (ux0:/app/PCSB00397/data/images.pak), fd: 0x3a
+[15:15:27.829] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 486de26bfa1dfa2b5989ebf59ca4bab5b53f1d07bf561037f7aeb4f908d60f1b
+[15:15:27.837] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 486de26bfa1dfa2b5989ebf59ca4bab5b53f1d07bf561037f7aeb4f908d60f1b
+[15:15:27.918] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Input_vColour
+[15:15:27.923] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Input_vTex0
+[15:15:27.924] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Input_vPosition
+[15:15:27.927] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_matWorldViewProj_VSC[4]
+[15:15:27.931] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) g_vUserClipPlane0_VSC
+[15:15:27.933] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) g_vUserClipPlane1_VSC
+[15:15:27.936] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) g_vUserClipPlane2_VSC
+[15:15:27.940] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float4) g_vUserClipPlane3_VSC
+[15:15:27.942] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[15:15:27.953] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 19
+[15:15:28.035] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d72c4510be9b51e5ed4ffebde19a249d6ccef9034dc057fe277483a41af828e4
+[15:15:28.043] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d72c4510be9b51e5ed4ffebde19a249d6ccef9034dc057fe277483a41af828e4
+[15:15:28.050] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_vALPHA_FACTOR_PSC
+[15:15:28.051] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[15:15:28.054] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(g_tSampler00, TEXCOORD1.xy)
+[15:15:28.059] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[15:15:28.076] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[15:15:28.133] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b26f5837c66a4e74a3de166e62c69c7c5b2fbee3ffb821636d38c7927c5a3470
+[15:15:28.164] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b26f5837c66a4e74a3de166e62c69c7c5b2fbee3ffb821636d38c7927c5a3470
+[15:15:28.171] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Input_vColour
+[15:15:28.174] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Input_vTex0
+[15:15:28.175] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Input_vPosition
+[15:15:28.176] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_matWorldViewProj_VSC[4]
+[15:15:28.179] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) g_vUserClipPlane0_VSC
+[15:15:28.181] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) g_vUserClipPlane1_VSC
+[15:15:28.183] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) g_vUserClipPlane2_VSC
+[15:15:28.186] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float4) g_vUserClipPlane3_VSC
+[15:15:28.191] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[15:15:28.208] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 19
+[15:15:28.309] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9c6eb913c0d36670b31e3625046412dcf31a5e1281c4de48591da53b9500a8d1
+[15:15:28.360] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 9c6eb913c0d36670b31e3625046412dcf31a5e1281c4de48591da53b9500a8d1
+[15:15:28.367] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_vALPHA_FACTOR_PSC
+[15:15:28.368] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[15:15:28.369] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(g_tSampler00, TEXCOORD1.xy)
+[15:15:28.372] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[15:15:28.375] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[15:15:32.115] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSB00397/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[15:15:32.122] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[15:15:32.125] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[15:15:38.318] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x4c847adf sceAvPlayerInit at 0x81436d10
+[15:15:38.382] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xbc83c8fd sceAvPlayerAddSource at 0x81436d60
+[15:15:38.421] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x5474af0 sceMp4OpenFile at 0x3151a8
+[15:15:38.429] |I| [export_sceIoOpen]: Opening file: app0:data/videos/psp2/activision.mp4
+[15:15:38.493] |T| [open_file]: sceIoOpen: Opening file app0:data/videos/psp2/activision.mp4 (ux0:/app/PCSB00397/data/videos/psp2/activision.mp4), fd: 0x3b
+[15:15:38.556] |T| [log_import_call]: [LLE] TID: 1508 FUNC: 0x30e49e4d sceMp4StartFileStreaming at 0x3151c8
+[15:15:38.676] |T| [log_import_call]: [LLE] TID: 1508 FUNC: 0x2cd86fd6 sceAvPlayerStreamCount at 0x81436cd0
+[15:15:38.679] |T| [log_import_call]: [LLE] TID: 1508 FUNC: 0xd5b26179 UNRECOGNISED at 0x3152c8
+[15:15:38.716] |T| [log_import_call]: [LLE] TID: 1508 FUNC: 0x34e2d370 sceAvPlayerGetStreamInfo at 0x81436cf0
+[15:15:38.723] |T| [log_import_call]: [LLE] TID: 1508 FUNC: 0x70127ab8 sceAvPlayerEnableStream at 0x81436d20
+[15:15:38.773] |W| [stubbed_impl]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[15:15:38.798] |W| [stubbed_impl]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[15:15:38.962] |T| [log_import_call]: [LLE] TID: 1508 FUNC: 0x609e57ad sceMp4EnableStream at 0x315208
+[15:15:38.978] |W| [stubbed_impl]: Stubbed sceAudiodecGetContextSize import called. (fake size)
+[15:15:39.001] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x2acb4217 sceAvPlayerStart at 0x81436cc0
+[15:15:39.149] |T| [log_import_call]: [LLE] TID: 1605 FUNC: 0x20a01112 sceMp4GetNextUnit at 0x3151b8
+[15:15:39.191] |T| [log_import_call]: [LLE] TID: 1605 FUNC: 0xd092a066 sceMp4GetNextUnitData at 0x3152a8
+[15:15:39.214] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x2e4ff35f sceAvPlayerIsActive at 0x81436ce0
+[15:15:39.228] |T| [log_import_call]: [LLE] TID: 1606 FUNC: 0xa10fc252 sceAvPlayerGetAudioData at 0x81436d50
+[15:15:39.284] |E| [logging::ret_error_impl]: _sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[15:15:39.285] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x8bc3221b sceAvPlayerGetVideoData at 0x81436d40
+[15:15:39.476] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[15:15:39.516] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[15:15:40.675] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xbd35e360 sceAvPlayerStop at 0x81436d70
+[15:15:40.731] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xc05dff01 UNRECOGNISED at 0x315288
+[15:15:40.735] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x40351e1a sceMp4Reset at 0x3151e8
+[15:15:40.750] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x7aa29b2d sceAvPlayerClose at 0x81436d30
+[15:15:40.759] |W| [stubbed_impl]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[15:15:40.811] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x920623c8 sceMp4CloseFile at 0x315238
+[15:15:40.822] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[15:15:40.873] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x7b4832fe sceMp4ReleaseBuffer at 0x315228
+[15:15:40.941] |I| [export_sceIoOpen]: Opening file: app0:data/videos/psp2/rovio.mp4
+[15:15:41.041] |T| [open_file]: sceIoOpen: Opening file app0:data/videos/psp2/rovio.mp4 (ux0:/app/PCSB00397/data/videos/psp2/rovio.mp4), fd: 0x3c
+[15:15:41.487] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[15:15:41.518] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[15:15:41.672] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[15:15:41.858] |I| [export_sceIoOpen]: Opening file: app0:data/videos/psp2/exient.mp4
+[15:15:41.924] |T| [open_file]: sceIoOpen: Opening file app0:data/videos/psp2/exient.mp4 (ux0:/app/PCSB00397/data/videos/psp2/exient.mp4), fd: 0x3d
+[15:15:42.383] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[15:15:42.407] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[15:15:42.504] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[15:15:42.557] |I| [export_sceIoOpen]: Opening file: app0:data/videos/psp2/title.mp4
+[15:15:42.636] |T| [open_file]: sceIoOpen: Opening file app0:data/videos/psp2/title.mp4 (ux0:/app/PCSB00397/data/videos/psp2/title.mp4), fd: 0x3e
+[15:15:43.085] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[15:15:43.094] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[15:15:43.107] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[15:15:44.151] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[15:15:44.211] |I| [export_sceIoOpen]: Opening file: app0:data/trophies.xml
+[15:15:44.219] |E| [logging::ret_error_impl]: _sceKernelWaitSema returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[15:15:44.317] |T| [open_file]: sceIoOpen: Opening file app0:data/trophies.xml (ux0:/app/PCSB00397/data/trophies.xml), fd: 0x3f
+[15:15:44.331] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[15:15:44.346] |I| [export_sceIoOpen]: Opening file: app0:data/leaderboards/leaderboards_episode.xml
+[15:15:44.425] |T| [open_file]: sceIoOpen: Opening file app0:data/leaderboards/leaderboards_episode.xml (ux0:/app/PCSB00397/data/leaderboards/leaderboards_episode.xml), fd: 0x40
+[15:15:44.432] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[15:15:44.503] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR05075_00/TROPHY.TRP (ux0:/app/PCSB00397/sce_sys/trophy/NPWR05075_00/TROPHY.TRP), fd: 0x41
+[15:15:44.559] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR05075_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR05075_00/TROPUSR.DAT), fd: 0x42
+[15:15:44.625] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR05075_00/TROPCONF.SFM), fd: 0x43
+[15:15:44.629] |T| [write_file]: install_trophy_context: Writing to fd: 0x43, size: 3231
+[15:15:44.632] |T| [close_file]: install_trophy_context: Closing file fd: 0x43
+[15:15:44.638] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR05075_00/TROP.SFM), fd: 0x44
+[15:15:44.640] |T| [write_file]: install_trophy_context: Writing to fd: 0x44, size: 8572
+[15:15:44.644] |T| [close_file]: install_trophy_context: Closing file fd: 0x44
+[15:15:44.780] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR05075_00/TROP_02.SFM), fd: 0x45
+[15:15:44.788] |T| [write_file]: install_trophy_context: Writing to fd: 0x45, size: 8928
+[15:15:44.789] |T| [close_file]: install_trophy_context: Closing file fd: 0x45
+[15:15:44.843] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR05075_00/TROP_03.SFM), fd: 0x46
+[15:15:44.846] |T| [write_file]: install_trophy_context: Writing to fd: 0x46, size: 8951
+[15:15:44.849] |T| [close_file]: install_trophy_context: Closing file fd: 0x46
+[15:15:44.894] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR05075_00/TROP_04.SFM), fd: 0x47
+[15:15:44.897] |T| [write_file]: install_trophy_context: Writing to fd: 0x47, size: 8974
+[15:15:44.899] |T| [close_file]: install_trophy_context: Closing file fd: 0x47
+[15:15:45.012] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR05075_00/TROP_05.SFM), fd: 0x48
+[15:15:45.016] |T| [write_file]: install_trophy_context: Writing to fd: 0x48, size: 8794
+[15:15:45.020] |T| [close_file]: install_trophy_context: Closing file fd: 0x48
+[15:15:45.104] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP_08.SFM (ux0:/user/00/trophy/conf/NPWR05075_00/TROP_08.SFM), fd: 0x49
+[15:15:45.108] |T| [write_file]: install_trophy_context: Writing to fd: 0x49, size: 10483
+[15:15:45.111] |T| [close_file]: install_trophy_context: Closing file fd: 0x49
+[15:15:45.267] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP_17.SFM (ux0:/user/00/trophy/conf/NPWR05075_00/TROP_17.SFM), fd: 0x4a
+[15:15:45.272] |T| [write_file]: install_trophy_context: Writing to fd: 0x4a, size: 8870
+[15:15:45.275] |T| [close_file]: install_trophy_context: Closing file fd: 0x4a
+[15:15:45.380] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/ICON0.PNG), fd: 0x4b
+[15:15:45.383] |T| [write_file]: install_trophy_context: Writing to fd: 0x4b, size: 104408
+[15:15:45.386] |T| [close_file]: install_trophy_context: Closing file fd: 0x4b
+[15:15:45.458] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP000.PNG), fd: 0x4c
+[15:15:45.462] |T| [write_file]: install_trophy_context: Writing to fd: 0x4c, size: 41532
+[15:15:45.466] |T| [close_file]: install_trophy_context: Closing file fd: 0x4c
+[15:15:45.469] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP001.PNG), fd: 0x4d
+[15:15:45.473] |T| [write_file]: install_trophy_context: Writing to fd: 0x4d, size: 35992
+[15:15:45.476] |T| [close_file]: install_trophy_context: Closing file fd: 0x4d
+[15:15:45.521] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP002.PNG), fd: 0x4e
+[15:15:45.528] |T| [write_file]: install_trophy_context: Writing to fd: 0x4e, size: 30953
+[15:15:45.529] |T| [close_file]: install_trophy_context: Closing file fd: 0x4e
+[15:15:45.607] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP003.PNG), fd: 0x4f
+[15:15:45.611] |T| [write_file]: install_trophy_context: Writing to fd: 0x4f, size: 35012
+[15:15:45.614] |T| [close_file]: install_trophy_context: Closing file fd: 0x4f
+[15:15:45.686] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP004.PNG), fd: 0x50
+[15:15:45.690] |T| [write_file]: install_trophy_context: Writing to fd: 0x50, size: 53801
+[15:15:45.692] |T| [close_file]: install_trophy_context: Closing file fd: 0x50
+[15:15:45.783] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP005.PNG), fd: 0x51
+[15:15:45.789] |T| [write_file]: install_trophy_context: Writing to fd: 0x51, size: 47418
+[15:15:45.791] |T| [close_file]: install_trophy_context: Closing file fd: 0x51
+[15:15:45.831] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP006.PNG), fd: 0x52
+[15:15:45.836] |T| [write_file]: install_trophy_context: Writing to fd: 0x52, size: 52697
+[15:15:45.838] |T| [close_file]: install_trophy_context: Closing file fd: 0x52
+[15:15:45.918] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP007.PNG), fd: 0x53
+[15:15:45.923] |T| [write_file]: install_trophy_context: Writing to fd: 0x53, size: 47203
+[15:15:45.926] |T| [close_file]: install_trophy_context: Closing file fd: 0x53
+[15:15:45.988] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP008.PNG), fd: 0x54
+[15:15:45.993] |T| [write_file]: install_trophy_context: Writing to fd: 0x54, size: 61434
+[15:15:45.996] |T| [close_file]: install_trophy_context: Closing file fd: 0x54
+[15:15:46.099] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP009.PNG), fd: 0x55
+[15:15:46.104] |T| [write_file]: install_trophy_context: Writing to fd: 0x55, size: 57779
+[15:15:46.106] |T| [close_file]: install_trophy_context: Closing file fd: 0x55
+[15:15:46.166] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP010.PNG), fd: 0x56
+[15:15:46.171] |T| [write_file]: install_trophy_context: Writing to fd: 0x56, size: 76619
+[15:15:46.173] |T| [close_file]: install_trophy_context: Closing file fd: 0x56
+[15:15:46.242] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP011.PNG), fd: 0x57
+[15:15:46.245] |T| [write_file]: install_trophy_context: Writing to fd: 0x57, size: 40258
+[15:15:46.247] |T| [close_file]: install_trophy_context: Closing file fd: 0x57
+[15:15:46.335] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP012.PNG), fd: 0x58
+[15:15:46.339] |T| [write_file]: install_trophy_context: Writing to fd: 0x58, size: 46542
+[15:15:46.342] |T| [close_file]: install_trophy_context: Closing file fd: 0x58
+[15:15:46.395] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP013.PNG), fd: 0x59
+[15:15:46.399] |T| [write_file]: install_trophy_context: Writing to fd: 0x59, size: 48721
+[15:15:46.401] |T| [close_file]: install_trophy_context: Closing file fd: 0x59
+[15:15:46.441] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP014.PNG), fd: 0x5a
+[15:15:46.445] |T| [write_file]: install_trophy_context: Writing to fd: 0x5a, size: 50578
+[15:15:46.447] |T| [close_file]: install_trophy_context: Closing file fd: 0x5a
+[15:15:46.499] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP015.PNG), fd: 0x5b
+[15:15:46.503] |T| [write_file]: install_trophy_context: Writing to fd: 0x5b, size: 62039
+[15:15:46.505] |T| [close_file]: install_trophy_context: Closing file fd: 0x5b
+[15:15:46.507] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP016.PNG), fd: 0x5c
+[15:15:46.510] |T| [write_file]: install_trophy_context: Writing to fd: 0x5c, size: 47469
+[15:15:46.513] |T| [close_file]: install_trophy_context: Closing file fd: 0x5c
+[15:15:46.577] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP017.PNG), fd: 0x5d
+[15:15:46.580] |T| [write_file]: install_trophy_context: Writing to fd: 0x5d, size: 54815
+[15:15:46.582] |T| [close_file]: install_trophy_context: Closing file fd: 0x5d
+[15:15:46.648] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP018.PNG), fd: 0x5e
+[15:15:46.652] |T| [write_file]: install_trophy_context: Writing to fd: 0x5e, size: 57243
+[15:15:46.655] |T| [close_file]: install_trophy_context: Closing file fd: 0x5e
+[15:15:46.755] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP019.PNG), fd: 0x5f
+[15:15:46.758] |T| [write_file]: install_trophy_context: Writing to fd: 0x5f, size: 79140
+[15:15:46.762] |T| [close_file]: install_trophy_context: Closing file fd: 0x5f
+[15:15:46.826] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP020.PNG), fd: 0x60
+[15:15:46.830] |T| [write_file]: install_trophy_context: Writing to fd: 0x60, size: 52301
+[15:15:46.832] |T| [close_file]: install_trophy_context: Closing file fd: 0x60
+[15:15:46.887] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP021.PNG), fd: 0x61
+[15:15:46.891] |T| [write_file]: install_trophy_context: Writing to fd: 0x61, size: 60900
+[15:15:46.894] |T| [close_file]: install_trophy_context: Closing file fd: 0x61
+[15:15:47.000] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP022.PNG), fd: 0x62
+[15:15:47.006] |T| [write_file]: install_trophy_context: Writing to fd: 0x62, size: 69637
+[15:15:47.008] |T| [close_file]: install_trophy_context: Closing file fd: 0x62
+[15:15:47.071] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP023.PNG), fd: 0x63
+[15:15:47.075] |T| [write_file]: install_trophy_context: Writing to fd: 0x63, size: 57556
+[15:15:47.077] |T| [close_file]: install_trophy_context: Closing file fd: 0x63
+[15:15:47.139] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP024.PNG), fd: 0x64
+[15:15:47.142] |T| [write_file]: install_trophy_context: Writing to fd: 0x64, size: 59681
+[15:15:47.146] |T| [close_file]: install_trophy_context: Closing file fd: 0x64
+[15:15:47.265] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP025.PNG), fd: 0x65
+[15:15:47.269] |T| [write_file]: install_trophy_context: Writing to fd: 0x65, size: 38486
+[15:15:47.271] |T| [close_file]: install_trophy_context: Closing file fd: 0x65
+[15:15:47.399] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP026.PNG), fd: 0x66
+[15:15:47.407] |T| [write_file]: install_trophy_context: Writing to fd: 0x66, size: 41853
+[15:15:47.409] |T| [close_file]: install_trophy_context: Closing file fd: 0x66
+[15:15:47.465] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP027.PNG), fd: 0x67
+[15:15:47.469] |T| [write_file]: install_trophy_context: Writing to fd: 0x67, size: 44083
+[15:15:47.473] |T| [close_file]: install_trophy_context: Closing file fd: 0x67
+[15:15:47.617] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP028.PNG), fd: 0x68
+[15:15:47.624] |T| [write_file]: install_trophy_context: Writing to fd: 0x68, size: 52954
+[15:15:47.626] |T| [close_file]: install_trophy_context: Closing file fd: 0x68
+[15:15:47.694] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP029.PNG), fd: 0x69
+[15:15:47.697] |T| [write_file]: install_trophy_context: Writing to fd: 0x69, size: 39409
+[15:15:47.701] |T| [close_file]: install_trophy_context: Closing file fd: 0x69
+[15:15:47.794] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP030.PNG), fd: 0x6a
+[15:15:47.799] |T| [write_file]: install_trophy_context: Writing to fd: 0x6a, size: 64554
+[15:15:47.802] |T| [close_file]: install_trophy_context: Closing file fd: 0x6a
+[15:15:47.876] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP031.PNG), fd: 0x6b
+[15:15:47.880] |T| [write_file]: install_trophy_context: Writing to fd: 0x6b, size: 59282
+[15:15:47.884] |T| [close_file]: install_trophy_context: Closing file fd: 0x6b
+[15:15:47.957] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP032.PNG), fd: 0x6c
+[15:15:47.961] |T| [write_file]: install_trophy_context: Writing to fd: 0x6c, size: 81435
+[15:15:47.964] |T| [close_file]: install_trophy_context: Closing file fd: 0x6c
+[15:15:48.030] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP033.PNG), fd: 0x6d
+[15:15:48.034] |T| [write_file]: install_trophy_context: Writing to fd: 0x6d, size: 36008
+[15:15:48.038] |T| [close_file]: install_trophy_context: Closing file fd: 0x6d
+[15:15:48.135] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP034.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP034.PNG), fd: 0x6e
+[15:15:48.141] |T| [write_file]: install_trophy_context: Writing to fd: 0x6e, size: 38646
+[15:15:48.143] |T| [close_file]: install_trophy_context: Closing file fd: 0x6e
+[15:15:48.165] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP035.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP035.PNG), fd: 0x6f
+[15:15:48.172] |T| [write_file]: install_trophy_context: Writing to fd: 0x6f, size: 34799
+[15:15:48.175] |T| [close_file]: install_trophy_context: Closing file fd: 0x6f
+[15:15:48.275] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP036.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP036.PNG), fd: 0x70
+[15:15:48.279] |T| [write_file]: install_trophy_context: Writing to fd: 0x70, size: 44042
+[15:15:48.282] |T| [close_file]: install_trophy_context: Closing file fd: 0x70
+[15:15:48.371] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP037.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP037.PNG), fd: 0x71
+[15:15:48.376] |T| [write_file]: install_trophy_context: Writing to fd: 0x71, size: 37208
+[15:15:48.379] |T| [close_file]: install_trophy_context: Closing file fd: 0x71
+[15:15:48.464] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP038.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP038.PNG), fd: 0x72
+[15:15:48.467] |T| [write_file]: install_trophy_context: Writing to fd: 0x72, size: 61832
+[15:15:48.472] |T| [close_file]: install_trophy_context: Closing file fd: 0x72
+[15:15:48.543] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP039.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP039.PNG), fd: 0x73
+[15:15:48.547] |T| [write_file]: install_trophy_context: Writing to fd: 0x73, size: 60468
+[15:15:48.550] |T| [close_file]: install_trophy_context: Closing file fd: 0x73
+[15:15:48.579] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP040.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP040.PNG), fd: 0x74
+[15:15:48.582] |T| [write_file]: install_trophy_context: Writing to fd: 0x74, size: 49365
+[15:15:48.584] |T| [close_file]: install_trophy_context: Closing file fd: 0x74
+[15:15:48.656] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP041.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP041.PNG), fd: 0x75
+[15:15:48.660] |T| [write_file]: install_trophy_context: Writing to fd: 0x75, size: 48072
+[15:15:48.662] |T| [close_file]: install_trophy_context: Closing file fd: 0x75
+[15:15:48.705] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP042.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP042.PNG), fd: 0x76
+[15:15:48.709] |T| [write_file]: install_trophy_context: Writing to fd: 0x76, size: 65526
+[15:15:48.711] |T| [close_file]: install_trophy_context: Closing file fd: 0x76
+[15:15:48.745] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP043.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP043.PNG), fd: 0x77
+[15:15:48.749] |T| [write_file]: install_trophy_context: Writing to fd: 0x77, size: 82842
+[15:15:48.751] |T| [close_file]: install_trophy_context: Closing file fd: 0x77
+[15:15:48.781] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP044.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP044.PNG), fd: 0x78
+[15:15:48.783] |T| [write_file]: install_trophy_context: Writing to fd: 0x78, size: 87579
+[15:15:48.786] |T| [close_file]: install_trophy_context: Closing file fd: 0x78
+[15:15:48.790] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP045.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP045.PNG), fd: 0x79
+[15:15:48.795] |T| [write_file]: install_trophy_context: Writing to fd: 0x79, size: 63791
+[15:15:48.797] |T| [close_file]: install_trophy_context: Closing file fd: 0x79
+[15:15:48.855] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP046.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP046.PNG), fd: 0x7a
+[15:15:48.859] |T| [write_file]: install_trophy_context: Writing to fd: 0x7a, size: 25405
+[15:15:48.861] |T| [close_file]: install_trophy_context: Closing file fd: 0x7a
+[15:15:48.894] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP047.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP047.PNG), fd: 0x7b
+[15:15:48.898] |T| [write_file]: install_trophy_context: Writing to fd: 0x7b, size: 23403
+[15:15:48.901] |T| [close_file]: install_trophy_context: Closing file fd: 0x7b
+[15:15:49.048] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP048.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP048.PNG), fd: 0x7c
+[15:15:49.052] |T| [write_file]: install_trophy_context: Writing to fd: 0x7c, size: 46691
+[15:15:49.055] |T| [close_file]: install_trophy_context: Closing file fd: 0x7c
+[15:15:49.058] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP049.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP049.PNG), fd: 0x7d
+[15:15:49.060] |T| [write_file]: install_trophy_context: Writing to fd: 0x7d, size: 28622
+[15:15:49.063] |T| [close_file]: install_trophy_context: Closing file fd: 0x7d
+[15:15:49.102] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05075_00/TROP050.PNG (ux0:/user/00/trophy/conf/NPWR05075_00/TROP050.PNG), fd: 0x7e
+[15:15:49.108] |T| [write_file]: install_trophy_context: Writing to fd: 0x7e, size: 34506
+[15:15:49.109] |T| [close_file]: install_trophy_context: Closing file fd: 0x7e
+[15:15:49.112] |T| [close_file]: create_trophy_context: Closing file fd: 0x42
+[15:15:49.116] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR05075_00 create successfuly!
+[15:15:49.246] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[15:15:49.257] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[15:15:49.329] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon01.png
+[15:15:49.363] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon01.png (ux0:/app/PCSB00397/data/psp2/icon01.png), fd: 0x7f
+[15:15:49.367] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[15:15:49.371] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon01.png
+[15:15:49.374] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon01.png (ux0:/app/PCSB00397/data/psp2/icon01.png), fd: 0x80
+[15:15:49.385] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[15:15:49.399] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon02.png
+[15:15:49.434] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon02.png (ux0:/app/PCSB00397/data/psp2/icon02.png), fd: 0x81
+[15:15:49.439] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[15:15:49.441] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon02.png
+[15:15:49.443] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon02.png (ux0:/app/PCSB00397/data/psp2/icon02.png), fd: 0x82
+[15:15:49.452] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[15:15:49.452] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon03.png
+[15:15:49.524] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon03.png (ux0:/app/PCSB00397/data/psp2/icon03.png), fd: 0x83
+[15:15:49.527] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[15:15:49.531] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon03.png
+[15:15:49.533] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon03.png (ux0:/app/PCSB00397/data/psp2/icon03.png), fd: 0x84
+[15:15:49.543] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[15:15:49.543] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon04.png
+[15:15:49.589] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon04.png (ux0:/app/PCSB00397/data/psp2/icon04.png), fd: 0x85
+[15:15:49.593] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[15:15:49.596] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon04.png
+[15:15:49.624] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon04.png (ux0:/app/PCSB00397/data/psp2/icon04.png), fd: 0x86
+[15:15:49.629] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[15:15:49.631] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon05.png
+[15:15:49.666] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon05.png (ux0:/app/PCSB00397/data/psp2/icon05.png), fd: 0x87
+[15:15:49.669] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[15:15:49.674] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon05.png
+[15:15:49.676] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon05.png (ux0:/app/PCSB00397/data/psp2/icon05.png), fd: 0x88
+[15:15:49.687] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[15:15:49.690] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon06.png
+[15:15:49.707] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon06.png (ux0:/app/PCSB00397/data/psp2/icon06.png), fd: 0x89
+[15:15:49.710] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[15:15:49.712] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon06.png
+[15:15:49.716] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon06.png (ux0:/app/PCSB00397/data/psp2/icon06.png), fd: 0x8a
+[15:15:49.721] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[15:15:49.724] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon07.png
+[15:15:49.787] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon07.png (ux0:/app/PCSB00397/data/psp2/icon07.png), fd: 0x8b
+[15:15:49.792] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[15:15:49.795] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon07.png
+[15:15:49.797] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon07.png (ux0:/app/PCSB00397/data/psp2/icon07.png), fd: 0x8c
+[15:15:49.803] |T| [close_file]: sceIoClose: Closing file fd: 0x8c
+[15:15:49.803] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon08.png
+[15:15:49.846] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon08.png (ux0:/app/PCSB00397/data/psp2/icon08.png), fd: 0x8d
+[15:15:49.851] |T| [close_file]: sceIoClose: Closing file fd: 0x8d
+[15:15:49.854] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon08.png
+[15:15:49.857] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon08.png (ux0:/app/PCSB00397/data/psp2/icon08.png), fd: 0x8e
+[15:15:49.865] |T| [close_file]: sceIoClose: Closing file fd: 0x8e
+[15:15:49.866] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon09.png
+[15:15:49.885] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon09.png (ux0:/app/PCSB00397/data/psp2/icon09.png), fd: 0x8f
+[15:15:49.891] |T| [close_file]: sceIoClose: Closing file fd: 0x8f
+[15:15:49.892] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon09.png
+[15:15:49.896] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon09.png (ux0:/app/PCSB00397/data/psp2/icon09.png), fd: 0x90
+[15:15:49.905] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[15:15:49.907] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon10.png
+[15:15:49.962] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon10.png (ux0:/app/PCSB00397/data/psp2/icon10.png), fd: 0x91
+[15:15:49.969] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[15:15:49.972] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon10.png
+[15:15:49.973] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon10.png (ux0:/app/PCSB00397/data/psp2/icon10.png), fd: 0x92
+[15:15:49.983] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[15:15:49.983] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon11.png
+[15:15:50.013] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon11.png (ux0:/app/PCSB00397/data/psp2/icon11.png), fd: 0x93
+[15:15:50.016] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[15:15:50.019] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon11.png
+[15:15:50.023] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon11.png (ux0:/app/PCSB00397/data/psp2/icon11.png), fd: 0x94
+[15:15:50.028] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[15:15:50.030] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon12.png
+[15:15:50.065] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon12.png (ux0:/app/PCSB00397/data/psp2/icon12.png), fd: 0x95
+[15:15:50.068] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[15:15:50.073] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon12.png
+[15:15:50.075] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon12.png (ux0:/app/PCSB00397/data/psp2/icon12.png), fd: 0x96
+[15:15:50.084] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[15:15:50.085] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon13.png
+[15:15:50.111] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon13.png (ux0:/app/PCSB00397/data/psp2/icon13.png), fd: 0x97
+[15:15:50.115] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[15:15:50.117] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon13.png
+[15:15:50.119] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon13.png (ux0:/app/PCSB00397/data/psp2/icon13.png), fd: 0x98
+[15:15:50.125] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[15:15:50.129] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon14.png
+[15:15:50.183] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon14.png (ux0:/app/PCSB00397/data/psp2/icon14.png), fd: 0x99
+[15:15:50.186] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[15:15:50.190] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon14.png
+[15:15:50.192] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon14.png (ux0:/app/PCSB00397/data/psp2/icon14.png), fd: 0x9a
+[15:15:50.197] |T| [close_file]: sceIoClose: Closing file fd: 0x9a
+[15:15:50.197] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon15.png
+[15:15:50.243] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon15.png (ux0:/app/PCSB00397/data/psp2/icon15.png), fd: 0x9b
+[15:15:50.252] |T| [close_file]: sceIoClose: Closing file fd: 0x9b
+[15:15:50.253] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon15.png
+[15:15:50.257] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon15.png (ux0:/app/PCSB00397/data/psp2/icon15.png), fd: 0x9c
+[15:15:50.277] |T| [close_file]: sceIoClose: Closing file fd: 0x9c
+[15:15:50.277] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon16.png
+[15:15:50.311] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon16.png (ux0:/app/PCSB00397/data/psp2/icon16.png), fd: 0x9d
+[15:15:50.319] |T| [close_file]: sceIoClose: Closing file fd: 0x9d
+[15:15:50.320] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon16.png
+[15:15:50.324] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon16.png (ux0:/app/PCSB00397/data/psp2/icon16.png), fd: 0x9e
+[15:15:50.335] |T| [close_file]: sceIoClose: Closing file fd: 0x9e
+[15:15:50.336] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon17.png
+[15:15:50.382] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon17.png (ux0:/app/PCSB00397/data/psp2/icon17.png), fd: 0x9f
+[15:15:50.386] |T| [close_file]: sceIoClose: Closing file fd: 0x9f
+[15:15:50.388] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon17.png
+[15:15:50.393] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon17.png (ux0:/app/PCSB00397/data/psp2/icon17.png), fd: 0xa0
+[15:15:50.398] |T| [close_file]: sceIoClose: Closing file fd: 0xa0
+[15:15:50.399] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon18.png
+[15:15:50.424] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon18.png (ux0:/app/PCSB00397/data/psp2/icon18.png), fd: 0xa1
+[15:15:50.428] |T| [close_file]: sceIoClose: Closing file fd: 0xa1
+[15:15:50.432] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon18.png
+[15:15:50.434] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon18.png (ux0:/app/PCSB00397/data/psp2/icon18.png), fd: 0xa2
+[15:15:50.439] |T| [close_file]: sceIoClose: Closing file fd: 0xa2
+[15:15:50.442] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon19.png
+[15:15:50.483] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon19.png (ux0:/app/PCSB00397/data/psp2/icon19.png), fd: 0xa3
+[15:15:50.486] |T| [close_file]: sceIoClose: Closing file fd: 0xa3
+[15:15:50.490] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon19.png
+[15:15:50.492] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon19.png (ux0:/app/PCSB00397/data/psp2/icon19.png), fd: 0xa4
+[15:15:50.501] |T| [close_file]: sceIoClose: Closing file fd: 0xa4
+[15:15:50.501] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon20.png
+[15:15:50.541] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon20.png (ux0:/app/PCSB00397/data/psp2/icon20.png), fd: 0xa5
+[15:15:50.545] |T| [close_file]: sceIoClose: Closing file fd: 0xa5
+[15:15:50.549] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon20.png
+[15:15:50.552] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon20.png (ux0:/app/PCSB00397/data/psp2/icon20.png), fd: 0xa6
+[15:15:50.561] |T| [close_file]: sceIoClose: Closing file fd: 0xa6
+[15:15:50.562] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon21.png
+[15:15:50.579] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon21.png (ux0:/app/PCSB00397/data/psp2/icon21.png), fd: 0xa7
+[15:15:50.581] |T| [close_file]: sceIoClose: Closing file fd: 0xa7
+[15:15:50.584] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon21.png
+[15:15:50.586] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon21.png (ux0:/app/PCSB00397/data/psp2/icon21.png), fd: 0xa8
+[15:15:50.598] |T| [close_file]: sceIoClose: Closing file fd: 0xa8
+[15:15:50.660] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon22.png
+[15:15:50.676] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon22.png (ux0:/app/PCSB00397/data/psp2/icon22.png), fd: 0xa9
+[15:15:50.680] |T| [close_file]: sceIoClose: Closing file fd: 0xa9
+[15:15:50.683] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon22.png
+[15:15:50.685] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon22.png (ux0:/app/PCSB00397/data/psp2/icon22.png), fd: 0xaa
+[15:15:50.692] |T| [close_file]: sceIoClose: Closing file fd: 0xaa
+[15:15:50.693] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon23.png
+[15:15:50.764] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon23.png (ux0:/app/PCSB00397/data/psp2/icon23.png), fd: 0xab
+[15:15:50.768] |T| [close_file]: sceIoClose: Closing file fd: 0xab
+[15:15:50.771] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon23.png
+[15:15:50.774] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon23.png (ux0:/app/PCSB00397/data/psp2/icon23.png), fd: 0xac
+[15:15:50.779] |T| [close_file]: sceIoClose: Closing file fd: 0xac
+[15:15:50.780] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon24.png
+[15:15:50.796] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon24.png (ux0:/app/PCSB00397/data/psp2/icon24.png), fd: 0xad
+[15:15:50.798] |T| [close_file]: sceIoClose: Closing file fd: 0xad
+[15:15:50.800] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon24.png
+[15:15:50.802] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon24.png (ux0:/app/PCSB00397/data/psp2/icon24.png), fd: 0xae
+[15:15:50.809] |T| [close_file]: sceIoClose: Closing file fd: 0xae
+[15:15:50.811] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon25.png
+[15:15:50.872] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon25.png (ux0:/app/PCSB00397/data/psp2/icon25.png), fd: 0xaf
+[15:15:50.876] |T| [close_file]: sceIoClose: Closing file fd: 0xaf
+[15:15:50.878] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon25.png
+[15:15:50.881] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon25.png (ux0:/app/PCSB00397/data/psp2/icon25.png), fd: 0xb0
+[15:15:50.887] |T| [close_file]: sceIoClose: Closing file fd: 0xb0
+[15:15:50.890] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon26.png
+[15:15:50.907] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon26.png (ux0:/app/PCSB00397/data/psp2/icon26.png), fd: 0xb1
+[15:15:50.909] |T| [close_file]: sceIoClose: Closing file fd: 0xb1
+[15:15:50.911] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon26.png
+[15:15:50.912] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon26.png (ux0:/app/PCSB00397/data/psp2/icon26.png), fd: 0xb2
+[15:15:50.916] |T| [close_file]: sceIoClose: Closing file fd: 0xb2
+[15:15:50.919] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon27.png
+[15:15:50.961] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon27.png (ux0:/app/PCSB00397/data/psp2/icon27.png), fd: 0xb3
+[15:15:50.967] |T| [close_file]: sceIoClose: Closing file fd: 0xb3
+[15:15:50.968] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon27.png
+[15:15:50.971] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon27.png (ux0:/app/PCSB00397/data/psp2/icon27.png), fd: 0xb4
+[15:15:50.977] |T| [close_file]: sceIoClose: Closing file fd: 0xb4
+[15:15:50.978] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon28.png
+[15:15:51.030] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon28.png (ux0:/app/PCSB00397/data/psp2/icon28.png), fd: 0xb5
+[15:15:51.033] |T| [close_file]: sceIoClose: Closing file fd: 0xb5
+[15:15:51.035] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon28.png
+[15:15:51.038] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon28.png (ux0:/app/PCSB00397/data/psp2/icon28.png), fd: 0xb6
+[15:15:51.044] |T| [close_file]: sceIoClose: Closing file fd: 0xb6
+[15:15:51.045] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon29.png
+[15:15:51.092] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon29.png (ux0:/app/PCSB00397/data/psp2/icon29.png), fd: 0xb7
+[15:15:51.098] |T| [close_file]: sceIoClose: Closing file fd: 0xb7
+[15:15:51.099] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon29.png
+[15:15:51.101] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon29.png (ux0:/app/PCSB00397/data/psp2/icon29.png), fd: 0xb8
+[15:15:51.106] |T| [close_file]: sceIoClose: Closing file fd: 0xb8
+[15:15:51.109] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon30.png
+[15:15:51.144] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon30.png (ux0:/app/PCSB00397/data/psp2/icon30.png), fd: 0xb9
+[15:15:51.147] |T| [close_file]: sceIoClose: Closing file fd: 0xb9
+[15:15:51.150] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon30.png
+[15:15:51.152] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon30.png (ux0:/app/PCSB00397/data/psp2/icon30.png), fd: 0xba
+[15:15:51.159] |T| [close_file]: sceIoClose: Closing file fd: 0xba
+[15:15:51.159] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon31.png
+[15:15:51.231] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon31.png (ux0:/app/PCSB00397/data/psp2/icon31.png), fd: 0xbb
+[15:15:51.236] |T| [close_file]: sceIoClose: Closing file fd: 0xbb
+[15:15:51.240] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon31.png
+[15:15:51.240] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon31.png (ux0:/app/PCSB00397/data/psp2/icon31.png), fd: 0xbc
+[15:15:51.246] |T| [close_file]: sceIoClose: Closing file fd: 0xbc
+[15:15:51.246] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon32.png
+[15:15:51.279] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon32.png (ux0:/app/PCSB00397/data/psp2/icon32.png), fd: 0xbd
+[15:15:51.283] |T| [close_file]: sceIoClose: Closing file fd: 0xbd
+[15:15:51.285] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon32.png
+[15:15:51.287] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon32.png (ux0:/app/PCSB00397/data/psp2/icon32.png), fd: 0xbe
+[15:15:51.293] |T| [close_file]: sceIoClose: Closing file fd: 0xbe
+[15:15:51.293] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon33.png
+[15:15:51.318] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon33.png (ux0:/app/PCSB00397/data/psp2/icon33.png), fd: 0xbf
+[15:15:51.322] |T| [close_file]: sceIoClose: Closing file fd: 0xbf
+[15:15:51.324] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon33.png
+[15:15:51.326] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon33.png (ux0:/app/PCSB00397/data/psp2/icon33.png), fd: 0xc0
+[15:15:51.331] |T| [close_file]: sceIoClose: Closing file fd: 0xc0
+[15:15:51.332] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon34.png
+[15:15:51.353] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon34.png (ux0:/app/PCSB00397/data/psp2/icon34.png), fd: 0xc1
+[15:15:51.358] |T| [close_file]: sceIoClose: Closing file fd: 0xc1
+[15:15:51.359] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon34.png
+[15:15:51.363] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon34.png (ux0:/app/PCSB00397/data/psp2/icon34.png), fd: 0xc2
+[15:15:51.369] |T| [close_file]: sceIoClose: Closing file fd: 0xc2
+[15:15:51.369] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon35.png
+[15:15:51.385] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon35.png (ux0:/app/PCSB00397/data/psp2/icon35.png), fd: 0xc3
+[15:15:51.387] |T| [close_file]: sceIoClose: Closing file fd: 0xc3
+[15:15:51.390] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon35.png
+[15:15:51.392] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon35.png (ux0:/app/PCSB00397/data/psp2/icon35.png), fd: 0xc4
+[15:15:51.398] |T| [close_file]: sceIoClose: Closing file fd: 0xc4
+[15:15:51.398] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon36.png
+[15:15:51.415] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon36.png (ux0:/app/PCSB00397/data/psp2/icon36.png), fd: 0xc5
+[15:15:51.417] |T| [close_file]: sceIoClose: Closing file fd: 0xc5
+[15:15:51.419] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon36.png
+[15:15:51.422] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon36.png (ux0:/app/PCSB00397/data/psp2/icon36.png), fd: 0xc6
+[15:15:51.429] |T| [close_file]: sceIoClose: Closing file fd: 0xc6
+[15:15:51.429] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon37.png
+[15:15:51.454] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon37.png (ux0:/app/PCSB00397/data/psp2/icon37.png), fd: 0xc7
+[15:15:51.460] |T| [close_file]: sceIoClose: Closing file fd: 0xc7
+[15:15:51.461] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon37.png
+[15:15:51.464] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon37.png (ux0:/app/PCSB00397/data/psp2/icon37.png), fd: 0xc8
+[15:15:51.470] |T| [close_file]: sceIoClose: Closing file fd: 0xc8
+[15:15:51.470] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon38.png
+[15:15:51.487] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon38.png (ux0:/app/PCSB00397/data/psp2/icon38.png), fd: 0xc9
+[15:15:51.492] |T| [close_file]: sceIoClose: Closing file fd: 0xc9
+[15:15:51.493] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon38.png
+[15:15:51.495] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon38.png (ux0:/app/PCSB00397/data/psp2/icon38.png), fd: 0xca
+[15:15:51.500] |T| [close_file]: sceIoClose: Closing file fd: 0xca
+[15:15:51.500] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon39.png
+[15:15:51.517] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon39.png (ux0:/app/PCSB00397/data/psp2/icon39.png), fd: 0xcb
+[15:15:51.522] |T| [close_file]: sceIoClose: Closing file fd: 0xcb
+[15:15:51.526] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon39.png
+[15:15:51.528] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon39.png (ux0:/app/PCSB00397/data/psp2/icon39.png), fd: 0xcc
+[15:15:51.531] |T| [close_file]: sceIoClose: Closing file fd: 0xcc
+[15:15:51.532] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon40.png
+[15:15:51.565] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon40.png (ux0:/app/PCSB00397/data/psp2/icon40.png), fd: 0xcd
+[15:15:51.569] |T| [close_file]: sceIoClose: Closing file fd: 0xcd
+[15:15:51.573] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon40.png
+[15:15:51.574] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon40.png (ux0:/app/PCSB00397/data/psp2/icon40.png), fd: 0xce
+[15:15:51.580] |T| [close_file]: sceIoClose: Closing file fd: 0xce
+[15:15:51.580] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon41.png
+[15:15:51.604] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon41.png (ux0:/app/PCSB00397/data/psp2/icon41.png), fd: 0xcf
+[15:15:51.607] |T| [close_file]: sceIoClose: Closing file fd: 0xcf
+[15:15:51.610] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon41.png
+[15:15:51.612] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon41.png (ux0:/app/PCSB00397/data/psp2/icon41.png), fd: 0xd0
+[15:15:51.618] |T| [close_file]: sceIoClose: Closing file fd: 0xd0
+[15:15:51.618] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon42.png
+[15:15:51.636] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon42.png (ux0:/app/PCSB00397/data/psp2/icon42.png), fd: 0xd1
+[15:15:51.640] |T| [close_file]: sceIoClose: Closing file fd: 0xd1
+[15:15:51.641] |I| [export_sceIoOpen]: Opening file: app0:data/psp2/icon42.png
+[15:15:51.643] |T| [open_file]: sceIoOpen: Opening file app0:data/psp2/icon42.png (ux0:/app/PCSB00397/data/psp2/icon42.png), fd: 0xd2
+[15:15:51.649] |T| [close_file]: sceIoClose: Closing file fd: 0xd2
+[15:15:51.699] |W| [unimplemented_impl]: Unimplemented sceNearInitialize import called.
+[15:15:51.702] |W| [unimplemented_impl]: Unimplemented sceNearGetDiscoveredGifts import called.
+[15:15:51.707] |W| [unimplemented_impl]: Unimplemented sceNearGetDiscoveredGiftStatus import called.
+[15:15:51.750] |W| [stubbed_impl]: Stubbed sceNpGetServiceState import called. (Stub)
+[15:15:52.052] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d48e3e3fcd3eaf444c133c9559dfd32c18a72c10fb71a0f8817645193bdebcf1
+[15:15:52.078] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d48e3e3fcd3eaf444c133c9559dfd32c18a72c10fb71a0f8817645193bdebcf1
+[15:15:52.085] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Input_vColour
+[15:15:52.087] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Input_vTex0
+[15:15:52.098] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Input_vPosition
+[15:15:52.100] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_matWorldViewProj_VSC[4]
+[15:15:52.102] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) g_vUserClipPlane0_VSC
+[15:15:52.108] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) g_vUserClipPlane1_VSC
+[15:15:52.110] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) g_vUserClipPlane2_VSC
+[15:15:52.112] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float4) g_vUserClipPlane3_VSC
+[15:15:52.115] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[15:15:52.130] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 19
+[15:15:52.242] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d6a7fbf416fd01e7bf2a49a185b59b2852af8713f413ffe2ad2db2bfe6f59987
+[15:15:52.276] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d6a7fbf416fd01e7bf2a49a185b59b2852af8713f413ffe2ad2db2bfe6f59987
+[15:15:52.307] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[15:15:52.308] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(g_tSampler00, TEXCOORD1.xy)
+[15:15:52.310] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[15:15:52.490] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader dbb6579442c6892c145926300673107a19cc953dc5e51b7da1e07799bdac084c
+[15:15:52.496] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader dbb6579442c6892c145926300673107a19cc953dc5e51b7da1e07799bdac084c
+[15:15:52.502] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Input_vColour
+[15:15:52.507] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Input_vTex0
+[15:15:52.510] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Input_vPosition
+[15:15:52.511] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_matWorldViewProj_VSC[4]
+[15:15:52.515] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) g_vUserClipPlane0_VSC
+[15:15:52.516] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) g_vUserClipPlane1_VSC
+[15:15:52.519] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) g_vUserClipPlane2_VSC
+[15:15:52.520] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float4) g_vUserClipPlane3_VSC
+[15:15:52.524] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[15:15:52.530] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 19
+[15:15:52.710] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f82654f7cf99fbfb6c9dce4434fdbb951eb5c97300a6f41ab2f8e6910d9d32c1
+[15:15:52.751] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader f82654f7cf99fbfb6c9dce4434fdbb951eb5c97300a6f41ab2f8e6910d9d32c1
+[15:15:52.756] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[15:15:52.757] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(g_tSampler00, TEXCOORD1.xy)
+[15:15:52.760] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[15:15:53.494] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ce8593873ea80e830cfc1931de74cd265778fc0731387430da3469c7f1e555f6
+[15:15:53.502] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ce8593873ea80e830cfc1931de74cd265778fc0731387430da3469c7f1e555f6
+[15:15:53.513] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Input_vColour
+[15:15:53.520] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Input_vTex0
+[15:15:53.524] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Input_vPosition
+[15:15:53.526] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_matWorldViewProj_VSC[4]
+[15:15:53.527] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) g_vUserClipPlane0_VSC
+[15:15:53.529] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) g_vUserClipPlane1_VSC
+[15:15:53.532] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) g_vUserClipPlane2_VSC
+[15:15:53.534] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float4) g_vUserClipPlane3_VSC
+[15:15:53.536] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[15:15:53.567] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 19
+[15:15:53.630] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader bcb01748310f5a1fba8670d59eff31f0e8763fa9171da8a62d00eb4d672ebdf2
+[15:15:53.633] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader bcb01748310f5a1fba8670d59eff31f0e8763fa9171da8a62d00eb4d672ebdf2
+[15:15:53.638] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_vALPHA_FACTOR_PSC
+[15:15:53.643] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[15:15:53.645] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(g_tSampler00, TEXCOORD1.xy)
+[15:15:53.648] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[15:15:53.652] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[15:15:55.217] |I| [export_sceIoOpen]: Opening file: app0:data/audio/stereo44100/music/black_main_title_final.at9
+[15:15:55.436] |T| [open_file]: sceIoOpen: Opening file app0:data/audio/stereo44100/music/black_main_title_final.at9 (ux0:/app/PCSB00397/data/audio/stereo44100/music/black_main_title_final.at9), fd: 0xd3
+[15:15:55.496] |E| [logging::ret_error_impl]: sceNgsVoiceResume returned SCE_NGS_ERROR_INVALID_STATE (0x804a0010)
+[15:15:55.550] |I| [ngs::PlayerModule::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[15:16:06.340] |W| [unimplemented_impl]: Unimplemented sceLiveAreaUpdateFrameAsync import called.
+[15:16:06.551] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSB00397/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[15:16:06.669] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[15:16:06.679] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/save.dat (ux0:/user/00/savedata/PCSB00397/save.dat), fd: 0xd4
+[15:16:06.796] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xd4, size: 1120
+[15:16:06.807] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xd4
+[15:16:06.825] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/save.dat (ux0:/user/00/savedata/PCSB00397/save.dat), fd: 0xd5
+[15:16:06.870] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0xd5, to size: 1120
+[15:16:06.870] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xd5
+[15:16:06.879] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00397/SlotParam_0.bin), fd: 0xd6
+[15:16:06.894] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xd6, size: 844
+[15:16:06.901] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xd6
+[15:16:08.266] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00397/SlotParam_0.bin), fd: 0xd7
+[15:16:08.348] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0xd7
+[15:16:08.359] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/save.dat (ux0:/user/00/savedata/PCSB00397/save.dat), fd: 0xd8
+[15:16:08.364] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xd8, size: 1120
+[15:16:08.367] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xd8
+[15:16:08.369] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/save.dat (ux0:/user/00/savedata/PCSB00397/save.dat), fd: 0xd9
+[15:16:08.372] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0xd9, to size: 1120
+[15:16:08.373] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xd9
+[15:16:08.377] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00397/SlotParam_0.bin), fd: 0xda
+[15:16:08.383] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xda, size: 844
+[15:16:08.385] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xda
+[15:16:12.827] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ed0f294dda75229408aa5cc5e5ae18b86825487463fc4655ba7965d3dc22cb87
+[15:16:12.835] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ed0f294dda75229408aa5cc5e5ae18b86825487463fc4655ba7965d3dc22cb87
+[15:16:12.839] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) Input_vColour
+[15:16:12.841] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) Input_vTex0
+[15:16:12.841] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) Input_vPosition
+[15:16:12.843] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_matWorldViewProj_VSC[4]
+[15:16:12.845] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) g_vUserClipPlane0_VSC
+[15:16:12.847] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) g_vUserClipPlane1_VSC
+[15:16:12.851] |D| [shader::create_parameters]: [DEFAULT  + 24] sa24 = (float4) g_vUserClipPlane2_VSC
+[15:16:12.853] |D| [shader::create_parameters]: [DEFAULT  + 28] sa28 = (float4) g_vUserClipPlane3_VSC
+[15:16:12.856] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[15:16:12.868] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 20
+[15:16:12.935] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b0ab8732bc40941d946d1fc1493e1d2f9818cb20dfe1fa4ac680eb63253ea028
+[15:16:12.939] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader b0ab8732bc40941d946d1fc1493e1d2f9818cb20dfe1fa4ac680eb63253ea028
+[15:16:12.944] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_vALPHA_FACTOR_PSC
+[15:16:12.945] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(g_tSampler00, TEXCOORD1.xy)
+[15:16:12.947] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(g_tSampler01, TEXCOORD0.xy)
+[15:16:12.950] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[15:16:12.953] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[15:16:14.132] |T| [close_file]: sceIoClose: Closing file fd: 0xd3
+[15:16:15.752] |I| [export_sceIoOpen]: Opening file: app0:data/audio/stereo44100/music/comic_action_music.at9
+[15:16:15.805] |T| [open_file]: sceIoOpen: Opening file app0:data/audio/stereo44100/music/comic_action_music.at9 (ux0:/app/PCSB00397/data/audio/stereo44100/music/comic_action_music.at9), fd: 0xdb
+[15:16:16.712] |T| [close_file]: sceIoClose: Closing file fd: 0xdb
+[15:16:18.442] |I| [export_sceIoOpen]: Opening file: app0:data/audio/stereo44100/music/background_theme1_1.at9
+[15:16:18.581] |T| [open_file]: sceIoOpen: Opening file app0:data/audio/stereo44100/music/background_theme1_1.at9 (ux0:/app/PCSB00397/data/audio/stereo44100/music/background_theme1_1.at9), fd: 0xdc
+[15:16:42.083] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[15:16:42.086] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[15:16:46.501] |T| [close_file]: sceIoClose: Closing file fd: 0xdc
+[15:16:50.142] |W| [unimplemented_impl]: Unimplemented sceNpActivityPostStatus import called.
+[15:16:50.323] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00397/SlotParam_0.bin), fd: 0xdd
+[15:16:50.335] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0xdd
+[15:16:50.339] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/save.dat (ux0:/user/00/savedata/PCSB00397/save.dat), fd: 0xde
+[15:16:50.342] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xde, size: 1376
+[15:16:50.346] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xde
+[15:16:50.348] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/save.dat (ux0:/user/00/savedata/PCSB00397/save.dat), fd: 0xdf
+[15:16:50.351] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0xdf, to size: 1376
+[15:16:50.353] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xdf
+[15:16:50.355] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB00397/SlotParam_0.bin), fd: 0xe0
+[15:16:50.358] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xe0, size: 844
+[15:16:50.367] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xe0

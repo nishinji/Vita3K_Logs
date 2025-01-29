@@ -1,0 +1,1377 @@
+[11:01:27.912] |I| [config::init_config]: backend-renderer: Vulkan
+[11:01:27.914] |I| [config::init_config]: log-level: 0
+[11:01:27.987] |I| [SDL_main]: Vita3K v0.1.6 2858-ad2e287f
+[11:01:27.988] |I| [SDL_main]: Number of logical CPU cores: 8
+[11:01:27.988] |I| [SDL_main]: Available ram memory: 16215 MiB
+[11:01:28.657] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[11:01:28.798] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060 Laptop GPU
+[11:01:28.804] |I| [renderer::vulkan::VKState::create]: Driver version: 516.94.0.0
+[11:01:29.347] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[11:01:40.232] |I| [load_app_impl]: cpu-backend: Dynarmic
+[11:01:40.233] |I| [load_app_impl]: CPU Optimisation state: true
+[11:01:40.234] |I| [load_app_impl]: ngs state: true
+[11:01:40.234] |I| [load_app_impl]: Resolution multiplier: 1
+[11:01:40.235] |I| [load_app_impl]: modules mode: Auto & Manual
+[11:01:40.235] |I| [load_app_impl]: lle-modules: libhttp
+[11:01:40.235] |I| [load_app_impl]: Title: StarDrone Extreme
+[11:01:40.235] |I| [load_app_impl]: Serial: PCSE00029
+[11:01:40.236] |I| [load_app_impl]: Version: 1.00
+[11:01:40.236] |I| [load_app_impl]: Category: gd
+[11:01:40.273] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6FFFFF01...
+[11:01:40.274] |I| [load_self]: Loaded module segment 0 @ [0x00004000 - 0x000401CC / 0x81000000] (size: 0x0003C1CC) of module app0:sce_module/libc.suprx
+[11:01:40.275] |I| [load_self]: Loaded module segment 1 @ [0x00041000 - 0x0004333C / 0x8103D000] (size: 0x0000233C) of module app0:sce_module/libc.suprx
+[11:01:40.275] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[11:01:40.277] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x31CE4
+[11:01:40.277] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x3549C, setting to stub value 0xDEADBEEF
+[11:01:40.280] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[11:01:40.307] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6FFFFF01...
+[11:01:40.308] |I| [load_self]: Loaded module segment 0 @ [0x00045000 - 0x00066B7C / 0x81000000] (size: 0x00021B7C) of module app0:sce_module/libfios2.suprx
+[11:01:40.312] |I| [load_self]: Loaded module segment 1 @ [0x00067000 - 0x0006C194 / 0x81022000] (size: 0x00005194) of module app0:sce_module/libfios2.suprx
+[11:01:40.318] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[11:01:40.325] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x606CC
+[11:01:40.327] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[11:01:40.351] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6FFFFF01...
+[11:01:40.352] |I| [load_self]: Loaded module segment 0 @ [0x0006D000 - 0x00080B0C / 0x81000000] (size: 0x00013B0C) of module app0:sce_module/libult.suprx
+[11:01:40.356] |I| [load_self]: Loaded module segment 1 @ [0x00081000 - 0x00081810 / 0x81014000] (size: 0x00000810) of module app0:sce_module/libult.suprx
+[11:01:40.364] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[11:01:40.365] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7D7F0
+[11:01:40.370] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[11:01:40.399] |I| [load_self]: Loaded module segment 0 @ [0x00082000 - 0x000D2F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[11:01:40.400] |I| [load_self]: Loaded module segment 1 @ [0x000D3000 - 0x000D32F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[11:01:40.401] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[11:01:40.402] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xBE7DC
+[11:01:40.402] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xBDF10
+[11:01:40.403] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0xD2EE0, setting to stub value 0xDEADBEEF
+[11:01:40.406] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[11:01:40.411] |I| [load_self]: Loaded module segment 0 @ [0x000D5000 - 0x000E4F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[11:01:40.412] |I| [load_self]: Loaded module segment 1 @ [0x000E5000 - 0x000E5008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[11:01:40.414] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[11:01:40.415] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE3710
+[11:01:40.415] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE3300
+[11:01:40.418] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[11:01:40.498] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6FFFFF01...
+[11:01:40.498] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x8114F2AC / 0x81000000] (size: 0x0014F2AC) of module app0:eboot.bin
+[11:01:40.499] |I| [load_self]: Loaded module segment 1 @ [0x81150000 - 0x83F0D310 / 0x81150000] (size: 0x02DBD310) of module app0:eboot.bin
+[11:01:40.501] |I| [load_self]: Linking SELF app0:eboot.bin...
+[11:01:40.501] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8111FB5C
+[11:01:40.504] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81153C84
+[11:01:40.505] |I| [load_app_impl]: Main executable StarDrone_master (eboot.bin) loaded
+[11:01:40.509] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/6
+[11:01:40.513] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/6
+[11:01:40.525] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/6
+[11:01:40.532] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/6
+[11:01:40.536] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/6
+[11:01:40.541] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/6
+[11:01:40.572] |D| [run_app]: Running module_start of library: SceLibc at address 0x45E5
+[11:01:40.634] |I| [export_sceIoOpen]: Opening file: tty0:
+[11:01:40.635] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[11:01:40.636] |I| [export_sceIoOpen]: Opening file: tty0:
+[11:01:40.638] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[11:01:40.639] |I| [export_sceIoOpen]: Opening file: tty1:
+[11:01:40.639] |T| [open_file]: sceIoOpen: Opening terminal tty1:
+[11:01:40.649] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[11:01:40.657] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x45001
+[11:01:40.682] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[11:01:40.691] |D| [run_app]: Running module_start of library: SceUlt at address 0x70B61
+[11:01:40.717] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[11:01:40.893] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[11:01:41.081] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MiB emuenv mem)
+[11:01:41.102] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[11:01:41.115] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data (ux0:/app/PCSE00029/data), fd: 0x3
+[11:01:41.117] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/animations_psp2.pak of fd: 0x3
+[11:01:41.121] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/asteroids.lua of fd: 0x3
+[11:01:41.124] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/attraction.ani of fd: 0x3
+[11:01:41.125] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/balls.ani of fd: 0x3
+[11:01:41.128] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/berserk.ani of fd: 0x3
+[11:01:41.129] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/bumper.ani of fd: 0x3
+[11:01:41.131] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/bumper_small.ani of fd: 0x3
+[11:01:41.131] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/common_ani.lua of fd: 0x3
+[11:01:41.137] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/congratulations.xml of fd: 0x3
+[11:01:41.138] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/credits.lua of fd: 0x3
+[11:01:41.139] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/credits.xml of fd: 0x3
+[11:01:41.140] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/creeper.ani of fd: 0x3
+[11:01:41.141] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/creeper_debris.ani of fd: 0x3
+[11:01:41.141] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/cubics.ani of fd: 0x3
+[11:01:41.142] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/cubics_breakable.ani of fd: 0x3
+[11:01:41.143] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/cubic_debris.ani of fd: 0x3
+[11:01:41.144] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/cursor_arrow.ani of fd: 0x3
+[11:01:41.147] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/debris.ani of fd: 0x3
+[11:01:41.148] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/demo_complete.xml of fd: 0x3
+[11:01:41.151] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/demo_main_menu2.xml of fd: 0x3
+[11:01:41.152] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/difficulty.xml of fd: 0x3
+[11:01:41.153] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/dron.ani of fd: 0x3
+[11:01:41.156] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/drone_link.ani of fd: 0x3
+[11:01:41.156] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/drone_sl.ani of fd: 0x3
+[11:01:41.157] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/drone_slr.ani of fd: 0x3
+[11:01:41.158] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/dron_rage.ani of fd: 0x3
+[11:01:41.159] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/dron_starter.ani of fd: 0x3
+[11:01:41.168] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts of fd: 0x3
+[11:01:41.169] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/fonts (ux0:/app/PCSE00029/data/fonts), fd: 0x4
+[11:01:41.173] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/europe of fd: 0x4
+[11:01:41.181] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/fonts/europe (ux0:/app/PCSE00029/data/fonts/europe), fd: 0x5
+[11:01:41.183] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/europe/couriernew8.txt of fd: 0x5
+[11:01:41.187] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/europe/fontana22.txt of fd: 0x5
+[11:01:41.188] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/europe/fontana26.txt of fd: 0x5
+[11:01:41.189] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/europe/header.txt of fd: 0x5
+[11:01:41.194] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/europe/hud.txt of fd: 0x5
+[11:01:41.196] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/europe/standard.txt of fd: 0x5
+[11:01:41.200] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x5
+[11:01:41.201] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan1 of fd: 0x4
+[11:01:41.203] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/fonts/japan1 (ux0:/app/PCSE00029/data/fonts/japan1), fd: 0x6
+[11:01:41.207] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan1/header.txt of fd: 0x6
+[11:01:41.209] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan1/hud.txt of fd: 0x6
+[11:01:41.212] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan1/KozukaMinchoProL12.txt of fd: 0x6
+[11:01:41.213] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan1/KozukaMinchoProL14.txt of fd: 0x6
+[11:01:41.213] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan1/KozukaMinchoProL20.txt of fd: 0x6
+[11:01:41.215] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan1/standard.txt of fd: 0x6
+[11:01:41.216] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x6
+[11:01:41.219] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan2 of fd: 0x4
+[11:01:41.223] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/fonts/japan2 (ux0:/app/PCSE00029/data/fonts/japan2), fd: 0x7
+[11:01:41.227] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan2/header.txt of fd: 0x7
+[11:01:41.228] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan2/hud.txt of fd: 0x7
+[11:01:41.230] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan2/KozukaMinchoProL12.txt of fd: 0x7
+[11:01:41.231] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan2/KozukaMinchoProL14.txt of fd: 0x7
+[11:01:41.232] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan2/KozukaMinchoProL20.txt of fd: 0x7
+[11:01:41.232] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/japan2/standard.txt of fd: 0x7
+[11:01:41.234] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x7
+[11:01:41.237] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/russian of fd: 0x4
+[11:01:41.242] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/fonts/russian (ux0:/app/PCSE00029/data/fonts/russian), fd: 0x8
+[11:01:41.246] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/russian/CourierNew8.txt of fd: 0x8
+[11:01:41.248] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/russian/header.txt of fd: 0x8
+[11:01:41.252] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/russian/hud.txt of fd: 0x8
+[11:01:41.253] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/fonts/russian/standard.txt of fd: 0x8
+[11:01:41.261] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x8
+[11:01:41.261] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x4
+[11:01:41.262] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/game_complete.xml of fd: 0x3
+[11:01:41.263] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/get_ready.xml of fd: 0x3
+[11:01:41.265] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/help.xml of fd: 0x3
+[11:01:41.266] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/helthpack_big.ani of fd: 0x3
+[11:01:41.269] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/helthpack_small.ani of fd: 0x3
+[11:01:41.269] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ICON0.PNG of fd: 0x3
+[11:01:41.273] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/invisibility.ani of fd: 0x3
+[11:01:41.274] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/killerwalls.ani of fd: 0x3
+[11:01:41.275] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/killer_ramp.ani of fd: 0x3
+[11:01:41.275] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/l2test.xml of fd: 0x3
+[11:01:41.277] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/language of fd: 0x3
+[11:01:41.281] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/language (ux0:/app/PCSE00029/data/language), fd: 0x9
+[11:01:41.286] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/language/english.txt of fd: 0x9
+[11:01:41.287] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/language/french.txt of fd: 0x9
+[11:01:41.290] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/language/german.txt of fd: 0x9
+[11:01:41.291] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/language/japan.txt of fd: 0x9
+[11:01:41.292] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/language/russian.txt of fd: 0x9
+[11:01:41.293] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/language/spanish.txt of fd: 0x9
+[11:01:41.294] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x9
+[11:01:41.294] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels of fd: 0x3
+[11:01:41.296] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/levels (ux0:/app/PCSE00029/data/levels), fd: 0xA
+[11:01:41.297] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/0Traning_OrbitPoints.lev of fd: 0xA
+[11:01:41.301] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/0Traning_OrbitPoints.lua of fd: 0xA
+[11:01:41.305] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/10.ld of fd: 0xA
+[11:01:41.305] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/10.lev of fd: 0xA
+[11:01:41.307] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/10xx.ld of fd: 0xA
+[11:01:41.307] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/10xx.lev of fd: 0xA
+[11:01:41.308] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/11.ld of fd: 0xA
+[11:01:41.309] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/11.lev of fd: 0xA
+[11:01:41.310] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/11xx.ld of fd: 0xA
+[11:01:41.310] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/11xx.lev of fd: 0xA
+[11:01:41.312] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/12.ld of fd: 0xA
+[11:01:41.315] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/12.lev of fd: 0xA
+[11:01:41.316] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/12xx.ld of fd: 0xA
+[11:01:41.323] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/12xx.lev of fd: 0xA
+[11:01:41.324] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/13.ld of fd: 0xA
+[11:01:41.324] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/13.lev of fd: 0xA
+[11:01:41.326] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/14.ld of fd: 0xA
+[11:01:41.332] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/14.lev of fd: 0xA
+[11:01:41.333] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/15.ld of fd: 0xA
+[11:01:41.337] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/15.lev of fd: 0xA
+[11:01:41.337] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/16.ld of fd: 0xA
+[11:01:41.338] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/16.lev of fd: 0xA
+[11:01:41.339] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/17.ld of fd: 0xA
+[11:01:41.340] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/17.lev of fd: 0xA
+[11:01:41.346] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/19.ld of fd: 0xA
+[11:01:41.347] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/19.lev of fd: 0xA
+[11:01:41.351] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/1xx.ld of fd: 0xA
+[11:01:41.351] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/1xx.lev of fd: 0xA
+[11:01:41.352] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/24.ld of fd: 0xA
+[11:01:41.354] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/24.lev of fd: 0xA
+[11:01:41.354] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/2xx.ld of fd: 0xA
+[11:01:41.355] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/2xx.lev of fd: 0xA
+[11:01:41.356] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/3xx.ld of fd: 0xA
+[11:01:41.357] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/3xx.lev of fd: 0xA
+[11:01:41.358] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/4xx.ld of fd: 0xA
+[11:01:41.363] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/4xx.lev of fd: 0xA
+[11:01:41.364] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/5xx.ld of fd: 0xA
+[11:01:41.368] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/5xx.lev of fd: 0xA
+[11:01:41.369] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/6xx.ld of fd: 0xA
+[11:01:41.370] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/6xx.lev of fd: 0xA
+[11:01:41.371] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/7xx.ld of fd: 0xA
+[11:01:41.372] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/7xx.lev of fd: 0xA
+[11:01:41.373] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/8xx.ld of fd: 0xA
+[11:01:41.374] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/8xx.lev of fd: 0xA
+[11:01:41.381] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/9xx.ld of fd: 0xA
+[11:01:41.385] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/9xx.lev of fd: 0xA
+[11:01:41.394] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/bigwig.ld of fd: 0xA
+[11:01:41.402] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/bigwig.lev of fd: 0xA
+[11:01:41.416] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/BonusLevel_01.ld of fd: 0xA
+[11:01:41.426] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/boxing.ld of fd: 0xA
+[11:01:41.427] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/boxing.lev of fd: 0xA
+[11:01:41.429] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/brickmaze.ld of fd: 0xA
+[11:01:41.432] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/brickmaze.lev of fd: 0xA
+[11:01:41.449] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/butterfly.ld of fd: 0xA
+[11:01:41.460] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/butterfly.lev of fd: 0xA
+[11:01:41.473] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/coridoring.ld of fd: 0xA
+[11:01:41.478] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/coridoring.lev of fd: 0xA
+[11:01:41.489] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/creepers.ld of fd: 0xA
+[11:01:41.494] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/creepers.lev of fd: 0xA
+[11:01:41.500] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/d0.ld of fd: 0xA
+[11:01:41.502] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/d0.lev of fd: 0xA
+[11:01:41.503] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/default_script.lua of fd: 0xA
+[11:01:41.504] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/door.ld of fd: 0xA
+[11:01:41.507] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/door.lev of fd: 0xA
+[11:01:41.509] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/doormania.ld of fd: 0xA
+[11:01:41.518] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/doormania.lev of fd: 0xA
+[11:01:41.520] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/doors.ld of fd: 0xA
+[11:01:41.523] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/doors.lev of fd: 0xA
+[11:01:41.524] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/f1.ld of fd: 0xA
+[11:01:41.527] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/final.ld of fd: 0xA
+[11:01:41.539] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/final.lev of fd: 0xA
+[11:01:41.544] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/fish.ld of fd: 0xA
+[11:01:41.546] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/fish.lev of fd: 0xA
+[11:01:41.554] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/goal.ld of fd: 0xA
+[11:01:41.557] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/hobot.ld of fd: 0xA
+[11:01:41.565] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/hobot.lev of fd: 0xA
+[11:01:41.566] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/J-turn.ld of fd: 0xA
+[11:01:41.578] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/launch_02.ld of fd: 0xA
+[11:01:41.579] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/launch_02.lev of fd: 0xA
+[11:01:41.585] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/launch_02.lua of fd: 0xA
+[11:01:41.592] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/launch_03.ld of fd: 0xA
+[11:01:41.599] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/launch_03.lev of fd: 0xA
+[11:01:41.601] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/launch_03.lua of fd: 0xA
+[11:01:41.608] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level01.ld of fd: 0xA
+[11:01:41.611] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level01.lev of fd: 0xA
+[11:01:41.623] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level02.ld of fd: 0xA
+[11:01:41.630] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level02.lev of fd: 0xA
+[11:01:41.631] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level03.ld of fd: 0xA
+[11:01:41.640] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level03.lev of fd: 0xA
+[11:01:41.641] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level04.ld of fd: 0xA
+[11:01:41.644] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level04.lev of fd: 0xA
+[11:01:41.647] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level05.ld of fd: 0xA
+[11:01:41.652] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level05.lev of fd: 0xA
+[11:01:41.655] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level06.ld of fd: 0xA
+[11:01:41.658] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level06.lev of fd: 0xA
+[11:01:41.659] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level07.ld of fd: 0xA
+[11:01:41.660] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level07.lev of fd: 0xA
+[11:01:41.661] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level47.ld of fd: 0xA
+[11:01:41.670] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level48.ld of fd: 0xA
+[11:01:41.676] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level49.ld of fd: 0xA
+[11:01:41.678] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level50.ld of fd: 0xA
+[11:01:41.691] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level50.lev of fd: 0xA
+[11:01:41.694] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level51.ld of fd: 0xA
+[11:01:41.703] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level51.lev of fd: 0xA
+[11:01:41.706] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level52.ld of fd: 0xA
+[11:01:41.707] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/level54.ld of fd: 0xA
+[11:01:41.720] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/line_test.ld of fd: 0xA
+[11:01:41.722] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/magnet-test.ld of fd: 0xA
+[11:01:41.724] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/main_menu.ld of fd: 0xA
+[11:01:41.726] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/main_menu.lev of fd: 0xA
+[11:01:41.727] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/main_menu.lua of fd: 0xA
+[11:01:41.733] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/minefield.ld of fd: 0xA
+[11:01:41.736] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/mushroom.ld of fd: 0xA
+[11:01:41.742] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/mushroom.lev of fd: 0xA
+[11:01:41.747] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/no_name01.ld of fd: 0xA
+[11:01:41.755] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/pacman.ld of fd: 0xA
+[11:01:41.757] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/pacman.lev of fd: 0xA
+[11:01:41.764] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map01.ld of fd: 0xA
+[11:01:41.768] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map01.lev of fd: 0xA
+[11:01:41.769] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map02.ld of fd: 0xA
+[11:01:41.780] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map02.lev of fd: 0xA
+[11:01:41.788] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map03.ld of fd: 0xA
+[11:01:41.797] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map03.lev of fd: 0xA
+[11:01:41.802] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map04.ld of fd: 0xA
+[11:01:41.803] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map04.lev of fd: 0xA
+[11:01:41.811] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map05.ld of fd: 0xA
+[11:01:41.812] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map05.lev of fd: 0xA
+[11:01:41.818] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map06.ld of fd: 0xA
+[11:01:41.827] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map06.lev of fd: 0xA
+[11:01:41.828] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map10.ld of fd: 0xA
+[11:01:41.833] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map10.lev of fd: 0xA
+[11:01:41.841] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map11.ld of fd: 0xA
+[11:01:41.844] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map11.lev of fd: 0xA
+[11:01:41.847] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map12.ld of fd: 0xA
+[11:01:41.857] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map12.lev of fd: 0xA
+[11:01:41.863] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map13.ld of fd: 0xA
+[11:01:41.869] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map13.lev of fd: 0xA
+[11:01:41.879] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map14.ld of fd: 0xA
+[11:01:41.889] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map14.lev of fd: 0xA
+[11:01:41.891] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map15.ld of fd: 0xA
+[11:01:41.893] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map15.lev of fd: 0xA
+[11:01:41.894] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map15_tutorial_1.ld of fd: 0xA
+[11:01:41.898] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map15_tutorial_1.lev of fd: 0xA
+[11:01:41.902] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map16_tutorial_2.ld of fd: 0xA
+[11:01:41.904] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ps_map16_tutorial_2.lev of fd: 0xA
+[11:01:41.906] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/puzzler.ld of fd: 0xA
+[11:01:41.910] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/puzzler.lev of fd: 0xA
+[11:01:41.919] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/Racing_01.ld of fd: 0xA
+[11:01:41.921] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/Racing_01.lev of fd: 0xA
+[11:01:41.922] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/Racing_02.ld of fd: 0xA
+[11:01:41.928] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/Racing_02.lev of fd: 0xA
+[11:01:41.929] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ramp_slide_01.ld of fd: 0xA
+[11:01:41.932] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/rokets.ld of fd: 0xA
+[11:01:41.935] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/round_one.ld of fd: 0xA
+[11:01:41.940] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/round_one.lev of fd: 0xA
+[11:01:41.944] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/round_three.ld of fd: 0xA
+[11:01:41.946] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/round_three.lev of fd: 0xA
+[11:01:41.951] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/round_two.ld of fd: 0xA
+[11:01:41.952] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/round_two.lev of fd: 0xA
+[11:01:41.953] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/Saturn.ld of fd: 0xA
+[11:01:41.954] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/saturn.lev of fd: 0xA
+[11:01:41.954] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/shamrock.ld of fd: 0xA
+[11:01:41.955] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/shamrock.lev of fd: 0xA
+[11:01:41.963] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/Slalom.ld of fd: 0xA
+[11:01:41.964] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/slalom.lev of fd: 0xA
+[11:01:41.970] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/slider.ld of fd: 0xA
+[11:01:41.978] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/slider.lev of fd: 0xA
+[11:01:41.979] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/snail.ld of fd: 0xA
+[11:01:41.983] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/snail.lev of fd: 0xA
+[11:01:41.985] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/Snake.ld of fd: 0xA
+[11:01:41.995] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/snake.lev of fd: 0xA
+[11:01:41.998] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/sniper.ld of fd: 0xA
+[11:01:42.004] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/sniper.lev of fd: 0xA
+[11:01:42.006] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/speedupzigzag.ld of fd: 0xA
+[11:01:42.007] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_benchmark.ld of fd: 0xA
+[11:01:42.013] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_benchmark.lev of fd: 0xA
+[11:01:42.025] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_benchmark.lua of fd: 0xA
+[11:01:42.026] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_berserk.ld of fd: 0xA
+[11:01:42.033] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_creeper_finish.ld of fd: 0xA
+[11:01:42.041] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_creeper_finish.lev of fd: 0xA
+[11:01:42.044] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_no_link.ld of fd: 0xA
+[11:01:42.047] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_puzzle_finish.ld of fd: 0xA
+[11:01:42.055] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_puzzle_finish.lev of fd: 0xA
+[11:01:42.056] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_question.ld of fd: 0xA
+[11:01:42.059] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_rage.ld of fd: 0xA
+[11:01:42.062] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_sentient.ld of fd: 0xA
+[11:01:42.075] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_sentient.lev of fd: 0xA
+[11:01:42.076] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_simple.ld of fd: 0xA
+[11:01:42.080] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_simple.lev of fd: 0xA
+[11:01:42.088] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_slide_wall.ld of fd: 0xA
+[11:01:42.091] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_speedup.ld of fd: 0xA
+[11:01:42.102] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_star_finish.ld of fd: 0xA
+[11:01:42.104] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_vm.ld of fd: 0xA
+[11:01:42.112] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_vm.lev of fd: 0xA
+[11:01:42.116] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_walls.lev of fd: 0xA
+[11:01:42.119] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/test_Z_array.ld of fd: 0xA
+[11:01:42.120] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/Training_OrbitPoints.ld of fd: 0xA
+[11:01:42.128] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/training_orbitpoints.lev of fd: 0xA
+[11:01:42.130] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/training_orbitpoints.lua of fd: 0xA
+[11:01:42.132] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tubes.ld of fd: 0xA
+[11:01:42.134] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tubes.lev of fd: 0xA
+[11:01:42.136] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/turn_01.ld of fd: 0xA
+[11:01:42.137] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial01.ld of fd: 0xA
+[11:01:42.142] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial01.lev of fd: 0xA
+[11:01:42.145] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial01.lua of fd: 0xA
+[11:01:42.146] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial02.ld of fd: 0xA
+[11:01:42.147] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial02.lev of fd: 0xA
+[11:01:42.148] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial02.lua of fd: 0xA
+[11:01:42.150] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial03.ld of fd: 0xA
+[11:01:42.153] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial03.lev of fd: 0xA
+[11:01:42.158] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial03.lua of fd: 0xA
+[11:01:42.162] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial04.ld of fd: 0xA
+[11:01:42.166] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial04.lev of fd: 0xA
+[11:01:42.167] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial04.lua of fd: 0xA
+[11:01:42.172] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial05.ld of fd: 0xA
+[11:01:42.177] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial05.lev of fd: 0xA
+[11:01:42.180] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tutorial05.lua of fd: 0xA
+[11:01:42.188] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tut_launching_01.ld of fd: 0xA
+[11:01:42.190] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tut_launching_01.lev of fd: 0xA
+[11:01:42.197] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/tut_launching_01.lua of fd: 0xA
+[11:01:42.201] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/vibemasters.ld of fd: 0xA
+[11:01:42.214] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/vibemasters.lev of fd: 0xA
+[11:01:42.223] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/vm_arena.ld of fd: 0xA
+[11:01:42.230] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/vm_arena.lev of fd: 0xA
+[11:01:42.243] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ZaSaDa.ld of fd: 0xA
+[11:01:42.244] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/ZaSaDa.lev of fd: 0xA
+[11:01:42.253] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c01.ld of fd: 0xA
+[11:01:42.259] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c01.lev of fd: 0xA
+[11:01:42.272] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c01_a.ld of fd: 0xA
+[11:01:42.276] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c01_a.lev of fd: 0xA
+[11:01:42.285] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c02.ld of fd: 0xA
+[11:01:42.290] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c02.lev of fd: 0xA
+[11:01:42.300] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c03.ld of fd: 0xA
+[11:01:42.303] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c03.lev of fd: 0xA
+[11:01:42.311] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c04.ld of fd: 0xA
+[11:01:42.314] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_c04.lev of fd: 0xA
+[11:01:42.317] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_cr01.ld of fd: 0xA
+[11:01:42.322] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_cr01.lev of fd: 0xA
+[11:01:42.327] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_cr01_a.ld of fd: 0xA
+[11:01:42.330] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_cr01_a.lev of fd: 0xA
+[11:01:42.334] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_cr01_b.ld of fd: 0xA
+[11:01:42.336] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_cr01_b.lev of fd: 0xA
+[11:01:42.345] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_cr01_c.ld of fd: 0xA
+[11:01:42.346] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_cr01_c.lev of fd: 0xA
+[11:01:42.350] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_p01.ld of fd: 0xA
+[11:01:42.353] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_p01.lev of fd: 0xA
+[11:01:42.366] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_p02.ld of fd: 0xA
+[11:01:42.374] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_p02.lev of fd: 0xA
+[11:01:42.379] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_p03.ld of fd: 0xA
+[11:01:42.385] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_p03.lev of fd: 0xA
+[11:01:42.391] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_p04.ld of fd: 0xA
+[11:01:42.395] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_p04.lev of fd: 0xA
+[11:01:42.402] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template.ld of fd: 0xA
+[11:01:42.410] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template.lev of fd: 0xA
+[11:01:42.414] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template2.ld of fd: 0xA
+[11:01:42.415] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template2.lev of fd: 0xA
+[11:01:42.427] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template3.ld of fd: 0xA
+[11:01:42.428] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template3.lev of fd: 0xA
+[11:01:42.433] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template4.ld of fd: 0xA
+[11:01:42.434] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template4.lev of fd: 0xA
+[11:01:42.437] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template5.ld of fd: 0xA
+[11:01:42.441] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_template5.lev of fd: 0xA
+[11:01:42.444] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_tempy.ld of fd: 0xA
+[11:01:42.452] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_tempy.lev of fd: 0xA
+[11:01:42.456] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test1.ld of fd: 0xA
+[11:01:42.457] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test1.lev of fd: 0xA
+[11:01:42.459] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test1_a.ld of fd: 0xA
+[11:01:42.467] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test1_a.lev of fd: 0xA
+[11:01:42.473] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test2.ld of fd: 0xA
+[11:01:42.476] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test2.lev of fd: 0xA
+[11:01:42.484] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test3.ld of fd: 0xA
+[11:01:42.486] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test3.lev of fd: 0xA
+[11:01:42.493] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test4.ld of fd: 0xA
+[11:01:42.501] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test4.lev of fd: 0xA
+[11:01:42.505] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test6.ld of fd: 0xA
+[11:01:42.509] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test6.lev of fd: 0xA
+[11:01:42.515] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test7.ld of fd: 0xA
+[11:01:42.516] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test7.lev of fd: 0xA
+[11:01:42.520] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test8.ld of fd: 0xA
+[11:01:42.521] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/levels/_test8.lev of fd: 0xA
+[11:01:42.523] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xA
+[11:01:42.524] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/level_complete.xml of fd: 0x3
+[11:01:42.530] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/level_failed.xml of fd: 0x3
+[11:01:42.531] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/level_list.lua of fd: 0x3
+[11:01:42.533] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/level_list_demo.lua of fd: 0x3
+[11:01:42.534] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/level_select.xml of fd: 0x3
+[11:01:42.540] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/level_shot_tweaks.lua of fd: 0x3
+[11:01:42.552] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/lightning.ani of fd: 0x3
+[11:01:42.560] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/logo_sequence.lua of fd: 0x3
+[11:01:42.565] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ls_test.lua of fd: 0x3
+[11:01:42.568] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/magnet_active.ani of fd: 0x3
+[11:01:42.570] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/magnet_standby.ani of fd: 0x3
+[11:01:42.582] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/main_menu2.xml of fd: 0x3
+[11:01:42.585] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/manifest.lua of fd: 0x3
+[11:01:42.596] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/medal.xml of fd: 0x3
+[11:01:42.598] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/medals_small.ani of fd: 0x3
+[11:01:42.606] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/medal_bronze.ani of fd: 0x3
+[11:01:42.609] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/medal_gold.ani of fd: 0x3
+[11:01:42.613] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/medal_silver.ani of fd: 0x3
+[11:01:42.620] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/messagebox.xml of fd: 0x3
+[11:01:42.621] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/messagebox2.xml of fd: 0x3
+[11:01:42.627] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/mine_debris.ani of fd: 0x3
+[11:01:42.628] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/mine_standby.ani of fd: 0x3
+[11:01:42.629] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/mm2_msgbox.xml of fd: 0x3
+[11:01:42.631] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/mouse_help.xml of fd: 0x3
+[11:01:42.633] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music of fd: 0x3
+[11:01:42.644] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/music (ux0:/app/PCSE00029/data/music), fd: 0xB
+[11:01:42.647] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/ambience.at9 of fd: 0xB
+[11:01:42.652] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/Berserk.at9 of fd: 0xB
+[11:01:42.654] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/Complete.at9 of fd: 0xB
+[11:01:42.658] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/death.at9 of fd: 0xB
+[11:01:42.659] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/Eclipse.at9 of fd: 0xB
+[11:01:42.660] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/Fury.at9 of fd: 0xB
+[11:01:42.662] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/Masters.at9 of fd: 0xB
+[11:01:42.667] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/menu.at9 of fd: 0xB
+[11:01:42.669] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/music.at9 of fd: 0xB
+[11:01:42.672] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/New_Aeon_PS3.at9 of fd: 0xB
+[11:01:42.676] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/New_Salvation.at9 of fd: 0xB
+[11:01:42.682] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/Photon.at9 of fd: 0xB
+[11:01:42.692] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/Radial.at9 of fd: 0xB
+[11:01:42.693] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/music/Triptonite.at9 of fd: 0xB
+[11:01:42.703] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xB
+[11:01:42.706] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/options.xml of fd: 0x3
+[11:01:42.711] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles of fd: 0x3
+[11:01:42.712] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/particles (ux0:/app/PCSE00029/data/particles), fd: 0xC
+[11:01:42.714] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/breakable_collision.lua of fd: 0xC
+[11:01:42.718] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/breakable_collision1.lua of fd: 0xC
+[11:01:42.720] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/breakable_collision2.lua of fd: 0xC
+[11:01:42.720] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/collision_enraged.lua of fd: 0xC
+[11:01:42.721] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/collision_normal.lua of fd: 0xC
+[11:01:42.723] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/creeper_death1.lua of fd: 0xC
+[11:01:42.724] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/creeper_death2.lua of fd: 0xC
+[11:01:42.730] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/cube_destroy1.lua of fd: 0xC
+[11:01:42.731] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/cube_destroy2.lua of fd: 0xC
+[11:01:42.735] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/enrage.lua of fd: 0xC
+[11:01:42.736] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/mine_death1.lua of fd: 0xC
+[11:01:42.737] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/mine_death2.lua of fd: 0xC
+[11:01:42.741] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/player_death1.lua of fd: 0xC
+[11:01:42.744] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/player_death2.lua of fd: 0xC
+[11:01:42.749] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/puzzle.lua of fd: 0xC
+[11:01:42.751] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/puzzle_complete1.lua of fd: 0xC
+[11:01:42.752] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/puzzle_complete2.lua of fd: 0xC
+[11:01:42.753] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/puzzle_complete3.lua of fd: 0xC
+[11:01:42.754] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/star_lit1.lua of fd: 0xC
+[11:01:42.755] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/star_lit2.lua of fd: 0xC
+[11:01:42.760] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/star_lit3.lua of fd: 0xC
+[11:01:42.761] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/templates.lua of fd: 0xC
+[11:01:42.765] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/test.lua of fd: 0xC
+[11:01:42.765] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/trail1.lua of fd: 0xC
+[11:01:42.767] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/trail2.lua of fd: 0xC
+[11:01:42.768] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/trail3.lua of fd: 0xC
+[11:01:42.769] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/vibemaster_death1.lua of fd: 0xC
+[11:01:42.770] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles/vibemaster_death2.lua of fd: 0xC
+[11:01:42.777] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xC
+[11:01:42.777] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2 of fd: 0x3
+[11:01:42.783] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/particles2 (ux0:/app/PCSE00029/data/particles2), fd: 0xD
+[11:01:42.786] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/badaboom.lua of fd: 0xD
+[11:01:42.787] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/badaboom2.lua of fd: 0xD
+[11:01:42.790] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/badaboom3.lua of fd: 0xD
+[11:01:42.791] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/breakable_collision1.lua of fd: 0xD
+[11:01:42.795] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/breakable_collision2.lua of fd: 0xD
+[11:01:42.796] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/creeper_death1.lua of fd: 0xD
+[11:01:42.798] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/creeper_death2.lua of fd: 0xD
+[11:01:42.799] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/killer_wall.lua of fd: 0xD
+[11:01:42.800] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/mine_death1.lua of fd: 0xD
+[11:01:42.806] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/mine_death2.lua of fd: 0xD
+[11:01:42.807] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/player_death1.lua of fd: 0xD
+[11:01:42.811] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/player_death2.lua of fd: 0xD
+[11:01:42.812] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/sp_highlight.lua of fd: 0xD
+[11:01:42.815] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/start_drone.lua of fd: 0xD
+[11:01:42.816] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_1.lua of fd: 0xD
+[11:01:42.817] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_2.lua of fd: 0xD
+[11:01:42.823] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_3.lua of fd: 0xD
+[11:01:42.824] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_4.lua of fd: 0xD
+[11:01:42.828] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_5.lua of fd: 0xD
+[11:01:42.829] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_6.lua of fd: 0xD
+[11:01:42.830] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_7.lua of fd: 0xD
+[11:01:42.831] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_lit1.lua of fd: 0xD
+[11:01:42.832] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_lit2.lua of fd: 0xD
+[11:01:42.833] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/star_lit3.lua of fd: 0xD
+[11:01:42.837] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/stoonger.lua of fd: 0xD
+[11:01:42.838] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/stoonger_station_smoke.lua of fd: 0xD
+[11:01:42.840] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/test.lua of fd: 0xD
+[11:01:42.841] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/test1_1.lua of fd: 0xD
+[11:01:42.844] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/test1_2.lua of fd: 0xD
+[11:01:42.846] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/test1_3.lua of fd: 0xD
+[11:01:42.847] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/test2.lua of fd: 0xD
+[11:01:42.849] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/test3.lua of fd: 0xD
+[11:01:42.853] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/vibemaster.lua of fd: 0xD
+[11:01:42.858] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/vibemaster_attack.lua of fd: 0xD
+[11:01:42.859] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/vibemaster_death1.lua of fd: 0xD
+[11:01:42.860] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/vibemaster_death2.lua of fd: 0xD
+[11:01:42.861] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/particles2/vibe_master_destruct.lua of fd: 0xD
+[11:01:42.867] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xD
+[11:01:42.868] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/pass_blue.ani of fd: 0x3
+[11:01:42.873] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/pass_green.ani of fd: 0x3
+[11:01:42.874] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/pass_red.ani of fd: 0x3
+[11:01:42.875] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/player_debris.ani of fd: 0x3
+[11:01:42.876] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/profile.lua of fd: 0x3
+[11:01:42.877] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/question.ani of fd: 0x3
+[11:01:42.878] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/question_mark.xml of fd: 0x3
+[11:01:42.879] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/question_marks.lua of fd: 0x3
+[11:01:42.884] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/r-wires.ani of fd: 0x3
+[11:01:42.885] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/RandomObjects.lua of fd: 0x3
+[11:01:42.889] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/resources.xml of fd: 0x3
+[11:01:42.890] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/rocket_shell.ani of fd: 0x3
+[11:01:42.891] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/rock_destruction.ani of fd: 0x3
+[11:01:42.892] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/score.xml of fd: 0x3
+[11:01:42.893] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/score_gather.lua of fd: 0x3
+[11:01:42.894] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/script_prelude.lua of fd: 0x3
+[11:01:42.895] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/sc_glow.ani of fd: 0x3
+[11:01:42.899] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/sel_and_fire.xml of fd: 0x3
+[11:01:42.900] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/shield.ani of fd: 0x3
+[11:01:42.907] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/shield_berserk.ani of fd: 0x3
+[11:01:42.908] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/simple_ramp.ani of fd: 0x3
+[11:01:42.910] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/simple_ramp_glow.ani of fd: 0x3
+[11:01:42.915] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/sliding_ramp.ani of fd: 0x3
+[11:01:42.916] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/sounds_psp2.pak of fd: 0x3
+[11:01:42.918] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/sound_config.xml of fd: 0x3
+[11:01:42.920] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/speedup.ani of fd: 0x3
+[11:01:42.923] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/sputnik_2.ani of fd: 0x3
+[11:01:42.924] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/sp_active.ani of fd: 0x3
+[11:01:42.929] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/sp_inactive.ani of fd: 0x3
+[11:01:42.930] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/sp_possible.ani of fd: 0x3
+[11:01:42.934] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/star.ani of fd: 0x3
+[11:01:42.935] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/star_glow.ani of fd: 0x3
+[11:01:42.937] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/stoonger.ani of fd: 0x3
+[11:01:42.938] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/stoonger_destroy.ani of fd: 0x3
+[11:01:42.939] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/stoonger_eye.ani of fd: 0x3
+[11:01:42.940] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/stoonger_station.ani of fd: 0x3
+[11:01:42.941] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/stoonger_station_debris.ani of fd: 0x3
+[11:01:42.947] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/test.xml of fd: 0x3
+[11:01:42.952] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/textures_header_psp2.pak of fd: 0x3
+[11:01:42.953] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/textures_psp2.pak of fd: 0x3
+[11:01:42.954] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/time_bonus.ani of fd: 0x3
+[11:01:42.955] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/tutorial_common.lua of fd: 0x3
+[11:01:42.956] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/tutorial_level_complete.xml of fd: 0x3
+[11:01:42.961] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/tweaks.lua of fd: 0x3
+[11:01:42.962] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui-high_scores.xml of fd: 0x3
+[11:01:42.965] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui-level-select-menu.xml of fd: 0x3
+[11:01:42.967] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui-main-menu.xml of fd: 0x3
+[11:01:42.970] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui-options-menu.xml of fd: 0x3
+[11:01:42.971] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui-pause-menu.xml of fd: 0x3
+[11:01:42.972] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui-restricted-dialog.xml of fd: 0x3
+[11:01:42.974] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui-results-last-menu.xml of fd: 0x3
+[11:01:42.979] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui-results-menu.xml of fd: 0x3
+[11:01:42.983] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui-yes-no-dialog.xml of fd: 0x3
+[11:01:42.984] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui_vita_01.xml of fd: 0x3
+[11:01:42.985] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui_vita_02.xml of fd: 0x3
+[11:01:42.987] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui_vita_03.xml of fd: 0x3
+[11:01:42.989] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui_vita_04.xml of fd: 0x3
+[11:01:42.995] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui_vita_05.xml of fd: 0x3
+[11:01:42.997] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui_vita_06.xml of fd: 0x3
+[11:01:42.999] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui_vita_07.xml of fd: 0x3
+[11:01:43.001] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/ui_vita_08.xml of fd: 0x3
+[11:01:43.002] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/vibemaster.ani of fd: 0x3
+[11:01:43.003] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/vibemaster_debris.ani of fd: 0x3
+[11:01:43.006] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/vibro_config.xml of fd: 0x3
+[11:01:43.011] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/vm_360.ani of fd: 0x3
+[11:01:43.015] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/vm_brain.ani of fd: 0x3
+[11:01:43.016] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/waymark.ani of fd: 0x3
+[11:01:43.017] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/waymark_contour.ani of fd: 0x3
+[11:01:43.019] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-cill.ani of fd: 0x3
+[11:01:43.024] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-goal.ani of fd: 0x3
+[11:01:43.026] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-help01.ani of fd: 0x3
+[11:01:43.033] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-help02.ani of fd: 0x3
+[11:01:43.035] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-help03.ani of fd: 0x3
+[11:01:43.037] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-help04.ani of fd: 0x3
+[11:01:43.041] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-stars_blue.ani of fd: 0x3
+[11:01:43.043] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-stars_green.ani of fd: 0x3
+[11:01:43.048] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-stars_purple.ani of fd: 0x3
+[11:01:43.052] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z-stars_red.ani of fd: 0x3
+[11:01:43.057] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zs_yello.ani of fd: 0x3
+[11:01:43.058] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases of fd: 0x3
+[11:01:43.062] |T| [open_dir]: _sceIoDopen: Opening dir app0:/data/zz_atlases (ux0:/app/PCSE00029/data/zz_atlases), fd: 0xE
+[11:01:43.064] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/amber_01.xml of fd: 0xE
+[11:01:43.066] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/balls_01.xml of fd: 0xE
+[11:01:43.067] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/bumper_01.xml of fd: 0xE
+[11:01:43.068] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/creeper_cubics_01.xml of fd: 0xE
+[11:01:43.074] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/danger_rocks_01.xml of fd: 0xE
+[11:01:43.075] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/dron_01.xml of fd: 0xE
+[11:01:43.079] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/goal_star_01.xml of fd: 0xE
+[11:01:43.080] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/junk_01.xml of fd: 0xE
+[11:01:43.082] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/killer_ramp_01.xml of fd: 0xE
+[11:01:43.083] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/mine_01.xml of fd: 0xE
+[11:01:43.084] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/paralon_01.xml of fd: 0xE
+[11:01:43.088] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/plastic_01.xml of fd: 0xE
+[11:01:43.089] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/rage_starter_trail_01.xml of fd: 0xE
+[11:01:43.096] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/ramp_shield_berserk_01.xml of fd: 0xE
+[11:01:43.098] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/rock_destruction_01.xml of fd: 0xE
+[11:01:43.099] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/seastones_shield_01.xml of fd: 0xE
+[11:01:43.103] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/sliding_ramp_01.xml of fd: 0xE
+[11:01:43.104] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/speedup_01.xml of fd: 0xE
+[11:01:43.108] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/sp_01.xml of fd: 0xE
+[11:01:43.110] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/star_glow_01.xml of fd: 0xE
+[11:01:43.111] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/vibemaster_01.xml of fd: 0xE
+[11:01:43.115] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/waymark_01.xml of fd: 0xE
+[11:01:43.120] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/z_array_cubes_01.xml of fd: 0xE
+[11:01:43.122] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/z_cill_01.xml of fd: 0xE
+[11:01:43.125] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/zz_atlases/z_stars_01.xml of fd: 0xE
+[11:01:43.126] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xE
+[11:01:43.127] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z_array_01.ani of fd: 0x3
+[11:01:43.128] |T| [read_dir]: _sceIoDread: Reading entry app0:/data/z_cubes.ani of fd: 0x3
+[11:01:43.129] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x3
+[11:01:43.142] |I| [export_sceIoOpen]: Opening file: app0:/data/textures_psp2.pak
+[11:01:43.142] |T| [open_file]: sceIoOpen: Opening file app0:/data/textures_psp2.pak (ux0:/app/PCSE00029/data/textures_psp2.pak), fd: 0xF
+[11:01:43.437] |T| [close_file]: sceIoClose: Closing file fd: 0xF
+[11:01:43.471] |I| [load_module]: Loading module ID: 0x13
+[11:01:43.473] |I| [load_self]: sys/external/libsystemgesture.suprx: Skipping special segment 0x6FFFFF01...
+[11:01:43.474] |I| [load_self]: Loaded module segment 0 @ [0x0A23B000 - 0x0A23E08C / 0x81000000] (size: 0x0000308C) of module sys/external/libsystemgesture.suprx
+[11:01:43.475] |I| [load_self]: Loaded module segment 1 @ [0x04135000 - 0x04135BF0 / 0x81004000] (size: 0x00000BF0) of module sys/external/libsystemgesture.suprx
+[11:01:43.477] |I| [load_self]: Linking SELF sys/external/libsystemgesture.suprx...
+[11:01:43.477] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA23E074
+[11:01:43.478] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA23DBD4
+[11:01:43.480] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") loaded
+[11:01:43.480] |D| [load_module]: Running module_start of module: SceSystemGesture
+[11:01:43.481] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") module_start returned 0x0
+[11:01:43.482] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x6078A08B sceSystemGestureInitializePrimitiveTouchRecognizer at 0x8111EC00
+[11:01:43.484] |W| [unimplemented_impl]: Unimplemented sceTouchGetPixelDensity2 import called.
+[11:01:43.484] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xC3367370 sceSystemGestureCreateTouchRecognizer at 0x8111EC30
+[11:01:43.492] |I| [load_module]: Loading module ID: 0xD
+[11:01:43.497] |I| [load_self]: Loaded module segment 0 @ [0x0C910000 - 0x0C927244 / 0x81000000] (size: 0x00017244) of module sys/external/libsas.suprx
+[11:01:43.498] |I| [load_self]: Loaded module segment 1 @ [0x04136000 - 0x04136038 / 0x81018000] (size: 0x00000038) of module sys/external/libsas.suprx
+[11:01:43.503] |I| [load_self]: Linking SELF sys/external/libsas.suprx...
+[11:01:43.507] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xC924004
+[11:01:43.508] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC923BF0
+[11:01:43.512] |I| [load_module]: Module SceSasUser (at "sys/external/libsas.suprx") loaded
+[11:01:43.515] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x180C6824 sceSasGetNeededMemorySize at 0x8111E6A0
+[11:01:43.544] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x449B5974 sceSasInit at 0x8111E6D0
+[11:01:43.615] |I| [export_sceIoOpen]: Opening file: app0:/data/sounds_psp2.pak
+[11:01:43.615] |T| [log_import_call]: [LLE] TID: 43  FUNC: 0x7A4672B2 sceSasCore at 0x8111E700
+[11:01:43.615] |T| [open_file]: sceIoOpen: Opening file app0:/data/sounds_psp2.pak (ux0:/app/PCSE00029/data/sounds_psp2.pak), fd: 0x10
+[11:01:43.621] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[11:01:43.622] |I| [export_sceIoOpen]: Opening file: app0:/data/music/ambience.at9
+[11:01:43.622] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/ambience.at9 (ux0:/app/PCSE00029/data/music/ambience.at9), fd: 0x11
+[11:01:43.628] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[11:01:43.629] |I| [export_sceIoOpen]: Opening file: app0:/data/music/Berserk.at9
+[11:01:43.631] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/Berserk.at9 (ux0:/app/PCSE00029/data/music/Berserk.at9), fd: 0x12
+[11:01:43.635] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[11:01:43.637] |I| [export_sceIoOpen]: Opening file: app0:/data/music/Complete.at9
+[11:01:43.637] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/Complete.at9 (ux0:/app/PCSE00029/data/music/Complete.at9), fd: 0x13
+[11:01:43.640] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[11:01:43.644] |I| [export_sceIoOpen]: Opening file: app0:/data/music/death.at9
+[11:01:43.645] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/death.at9 (ux0:/app/PCSE00029/data/music/death.at9), fd: 0x14
+[11:01:43.656] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[11:01:43.658] |E| [call_import]: Import function for NID 0xE340CC92 not found (thread name: sas.thread, thread ID: 43)
+[11:01:43.661] |I| [export_sceIoOpen]: Opening file: app0:/data/music/Eclipse.at9
+[11:01:43.667] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/Eclipse.at9 (ux0:/app/PCSE00029/data/music/Eclipse.at9), fd: 0x15
+[11:01:43.677] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[11:01:43.679] |I| [export_sceIoOpen]: Opening file: app0:/data/music/Fury.at9
+[11:01:43.680] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/Fury.at9 (ux0:/app/PCSE00029/data/music/Fury.at9), fd: 0x16
+[11:01:43.683] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[11:01:43.684] |I| [export_sceIoOpen]: Opening file: app0:/data/music/Masters.at9
+[11:01:43.686] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/Masters.at9 (ux0:/app/PCSE00029/data/music/Masters.at9), fd: 0x17
+[11:01:43.694] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[11:01:43.698] |I| [export_sceIoOpen]: Opening file: app0:/data/music/menu.at9
+[11:01:43.698] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/menu.at9 (ux0:/app/PCSE00029/data/music/menu.at9), fd: 0x18
+[11:01:43.700] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[11:01:43.701] |I| [export_sceIoOpen]: Opening file: app0:/data/music/music.at9
+[11:01:43.706] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/music.at9 (ux0:/app/PCSE00029/data/music/music.at9), fd: 0x19
+[11:01:43.709] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[11:01:43.713] |I| [export_sceIoOpen]: Opening file: app0:/data/music/New_Aeon_PS3.at9
+[11:01:43.713] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/New_Aeon_PS3.at9 (ux0:/app/PCSE00029/data/music/New_Aeon_PS3.at9), fd: 0x1A
+[11:01:43.717] |T| [close_file]: sceIoClose: Closing file fd: 0x1A
+[11:01:43.717] |I| [export_sceIoOpen]: Opening file: app0:/data/music/New_Salvation.at9
+[11:01:43.718] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/New_Salvation.at9 (ux0:/app/PCSE00029/data/music/New_Salvation.at9), fd: 0x1B
+[11:01:43.724] |T| [close_file]: sceIoClose: Closing file fd: 0x1B
+[11:01:43.728] |I| [export_sceIoOpen]: Opening file: app0:/data/music/Photon.at9
+[11:01:43.729] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/Photon.at9 (ux0:/app/PCSE00029/data/music/Photon.at9), fd: 0x1C
+[11:01:43.737] |T| [close_file]: sceIoClose: Closing file fd: 0x1C
+[11:01:43.739] |I| [export_sceIoOpen]: Opening file: app0:/data/music/Radial.at9
+[11:01:43.741] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/Radial.at9 (ux0:/app/PCSE00029/data/music/Radial.at9), fd: 0x1D
+[11:01:43.744] |T| [close_file]: sceIoClose: Closing file fd: 0x1D
+[11:01:43.745] |I| [export_sceIoOpen]: Opening file: app0:/data/music/Triptonite.at9
+[11:01:43.748] |T| [open_file]: sceIoOpen: Opening file app0:/data/music/Triptonite.at9 (ux0:/app/PCSE00029/data/music/Triptonite.at9), fd: 0x1E
+[11:01:43.750] |T| [close_file]: sceIoClose: Closing file fd: 0x1E
+[11:01:43.773] |I| [export_sceIoOpen]: Opening file: app0:/data/ICON0.PNG
+[11:01:43.775] |T| [open_file]: sceIoOpen: Opening file app0:/data/ICON0.PNG (ux0:/app/PCSE00029/data/ICON0.PNG), fd: 0x1F
+[11:01:43.789] |T| [close_file]: sceIoClose: Closing file fd: 0x1F
+[11:01:43.811] |I| [export_sceIoOpen]: Opening file: app0:/data/language/english.txt
+[11:01:43.813] |T| [open_file]: sceIoOpen: Opening file app0:/data/language/english.txt (ux0:/app/PCSE00029/data/language/english.txt), fd: 0x20
+[11:01:43.836] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[11:01:43.896] |T| [write_file]: *** TTY: MORECORE: committed 67174400 (total 67174400)  43d0000
+[11:01:43.972] |I| [export_sceIoOpen]: Opening file: app0:/data/level_list.lua
+[11:01:43.973] |T| [open_file]: sceIoOpen: Opening file app0:/data/level_list.lua (ux0:/app/PCSE00029/data/level_list.lua), fd: 0x21
+[11:01:43.981] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[11:01:44.063] |I| [export_sceIoOpen]: Opening file: app0:/data/resources.xml
+[11:01:44.064] |T| [open_file]: sceIoOpen: Opening file app0:/data/resources.xml (ux0:/app/PCSE00029/data/resources.xml), fd: 0x22
+[11:01:44.423] |I| [export_sceIoOpen]: Opening file: app0:/data/score.xml
+[11:01:44.425] |T| [open_file]: sceIoOpen: Opening file app0:/data/score.xml (ux0:/app/PCSE00029/data/score.xml), fd: 0x23
+[11:01:44.426] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[11:01:44.514] |I| [export_sceIoOpen]: Opening file: app0:/data/sel_and_fire.xml
+[11:01:44.515] |T| [open_file]: sceIoOpen: Opening file app0:/data/sel_and_fire.xml (ux0:/app/PCSE00029/data/sel_and_fire.xml), fd: 0x24
+[11:01:44.522] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[11:01:44.548] |I| [export_sceIoOpen]: Opening file: app0:/data/animations_psp2.pak
+[11:01:44.549] |T| [open_file]: sceIoOpen: Opening file app0:/data/animations_psp2.pak (ux0:/app/PCSE00029/data/animations_psp2.pak), fd: 0x25
+[11:01:44.560] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[11:01:44.571] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/europe/fontana22.txt
+[11:01:44.573] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/europe/fontana22.txt (ux0:/app/PCSE00029/data/fonts/europe/fontana22.txt), fd: 0x26
+[11:01:44.579] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[11:01:44.715] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/europe/fontana26.txt
+[11:01:44.716] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/europe/fontana26.txt (ux0:/app/PCSE00029/data/fonts/europe/fontana26.txt), fd: 0x27
+[11:01:44.721] |T| [close_file]: sceIoClose: Closing file fd: 0x27
+[11:01:44.788] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/europe/hud.txt
+[11:01:44.788] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/europe/hud.txt (ux0:/app/PCSE00029/data/fonts/europe/hud.txt), fd: 0x28
+[11:01:44.793] |T| [close_file]: sceIoClose: Closing file fd: 0x28
+[11:01:44.888] |I| [export_sceIoOpen]: Opening file: app0:/data/fonts/europe/couriernew8.txt
+[11:01:44.889] |T| [open_file]: sceIoOpen: Opening file app0:/data/fonts/europe/couriernew8.txt (ux0:/app/PCSE00029/data/fonts/europe/couriernew8.txt), fd: 0x29
+[11:01:44.893] |T| [close_file]: sceIoClose: Closing file fd: 0x29
+[11:01:44.990] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[11:01:44.991] |I| [export_sceIoOpen]: Opening file: savedata0:data.bin
+[11:01:44.992] |T| [open_file]: sceIoOpen: Opening file savedata0:data.bin (ux0:/user/00/savedata/PCSE00029/data.bin), fd: 0x2A
+[11:01:44.994] |T| [close_file]: sceIoClose: Closing file fd: 0x2A
+[11:01:44.997] |W| [unimplemented_impl]: Unimplemented sceAppUtilShutdown import called.
+[11:01:45.079] |I| [export_sceIoOpen]: Opening file: app0:/data/credits.lua
+[11:01:45.079] |T| [open_file]: sceIoOpen: Opening file app0:/data/credits.lua (ux0:/app/PCSE00029/data/credits.lua), fd: 0x2B
+[11:01:45.081] |T| [close_file]: sceIoClose: Closing file fd: 0x2B
+[11:01:45.106] |I| [export_sceIoOpen]: Opening file: app0:/data/common_ani.lua
+[11:01:45.107] |T| [open_file]: sceIoOpen: Opening file app0:/data/common_ani.lua (ux0:/app/PCSE00029/data/common_ani.lua), fd: 0x2C
+[11:01:45.112] |T| [close_file]: sceIoClose: Closing file fd: 0x2C
+[11:01:45.116] |I| [export_sceIoOpen]: Opening file: app0:/data/RandomObjects.lua
+[11:01:45.118] |T| [open_file]: sceIoOpen: Opening file app0:/data/RandomObjects.lua (ux0:/app/PCSE00029/data/RandomObjects.lua), fd: 0x2D
+[11:01:45.125] |T| [close_file]: sceIoClose: Closing file fd: 0x2D
+[11:01:45.150] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/templates.lua
+[11:01:45.151] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/templates.lua (ux0:/app/PCSE00029/data/particles/templates.lua), fd: 0x2E
+[11:01:45.160] |T| [close_file]: sceIoClose: Closing file fd: 0x2E
+[11:01:45.190] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/breakable_collision.lua
+[11:01:45.193] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/breakable_collision.lua (ux0:/app/PCSE00029/data/particles/breakable_collision.lua), fd: 0x2F
+[11:01:45.201] |T| [close_file]: sceIoClose: Closing file fd: 0x2F
+[11:01:45.223] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/breakable_collision1.lua
+[11:01:45.224] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/breakable_collision1.lua (ux0:/app/PCSE00029/data/particles/breakable_collision1.lua), fd: 0x30
+[11:01:45.229] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[11:01:45.240] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/breakable_collision2.lua
+[11:01:45.241] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/breakable_collision2.lua (ux0:/app/PCSE00029/data/particles/breakable_collision2.lua), fd: 0x31
+[11:01:45.249] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[11:01:45.252] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/collision_enraged.lua
+[11:01:45.255] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/collision_enraged.lua (ux0:/app/PCSE00029/data/particles/collision_enraged.lua), fd: 0x32
+[11:01:45.262] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[11:01:45.269] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/collision_normal.lua
+[11:01:45.270] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/collision_normal.lua (ux0:/app/PCSE00029/data/particles/collision_normal.lua), fd: 0x33
+[11:01:45.280] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[11:01:45.283] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/creeper_death1.lua
+[11:01:45.286] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/creeper_death1.lua (ux0:/app/PCSE00029/data/particles/creeper_death1.lua), fd: 0x34
+[11:01:45.287] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[11:01:45.296] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/creeper_death2.lua
+[11:01:45.297] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/creeper_death2.lua (ux0:/app/PCSE00029/data/particles/creeper_death2.lua), fd: 0x35
+[11:01:45.299] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[11:01:45.304] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/cube_destroy1.lua
+[11:01:45.309] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/cube_destroy1.lua (ux0:/app/PCSE00029/data/particles/cube_destroy1.lua), fd: 0x36
+[11:01:45.318] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[11:01:45.328] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/cube_destroy2.lua
+[11:01:45.329] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/cube_destroy2.lua (ux0:/app/PCSE00029/data/particles/cube_destroy2.lua), fd: 0x37
+[11:01:45.331] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[11:01:45.340] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/enrage.lua
+[11:01:45.342] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/enrage.lua (ux0:/app/PCSE00029/data/particles/enrage.lua), fd: 0x38
+[11:01:45.346] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[11:01:45.351] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/mine_death1.lua
+[11:01:45.355] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/mine_death1.lua (ux0:/app/PCSE00029/data/particles/mine_death1.lua), fd: 0x39
+[11:01:45.364] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[11:01:45.375] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/mine_death2.lua
+[11:01:45.377] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/mine_death2.lua (ux0:/app/PCSE00029/data/particles/mine_death2.lua), fd: 0x3A
+[11:01:45.384] |T| [close_file]: sceIoClose: Closing file fd: 0x3A
+[11:01:45.387] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/player_death1.lua
+[11:01:45.388] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/player_death1.lua (ux0:/app/PCSE00029/data/particles/player_death1.lua), fd: 0x3B
+[11:01:45.391] |T| [close_file]: sceIoClose: Closing file fd: 0x3B
+[11:01:45.394] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/player_death2.lua
+[11:01:45.398] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/player_death2.lua (ux0:/app/PCSE00029/data/particles/player_death2.lua), fd: 0x3C
+[11:01:45.406] |T| [close_file]: sceIoClose: Closing file fd: 0x3C
+[11:01:45.408] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/puzzle.lua
+[11:01:45.408] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/puzzle.lua (ux0:/app/PCSE00029/data/particles/puzzle.lua), fd: 0x3D
+[11:01:45.417] |T| [close_file]: sceIoClose: Closing file fd: 0x3D
+[11:01:45.427] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/puzzle_complete1.lua
+[11:01:45.430] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/puzzle_complete1.lua (ux0:/app/PCSE00029/data/particles/puzzle_complete1.lua), fd: 0x3E
+[11:01:45.440] |T| [close_file]: sceIoClose: Closing file fd: 0x3E
+[11:01:45.447] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/puzzle_complete2.lua
+[11:01:45.448] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/puzzle_complete2.lua (ux0:/app/PCSE00029/data/particles/puzzle_complete2.lua), fd: 0x3F
+[11:01:45.453] |T| [close_file]: sceIoClose: Closing file fd: 0x3F
+[11:01:45.456] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/puzzle_complete3.lua
+[11:01:45.461] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/puzzle_complete3.lua (ux0:/app/PCSE00029/data/particles/puzzle_complete3.lua), fd: 0x40
+[11:01:45.468] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[11:01:45.471] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/star_lit1.lua
+[11:01:45.475] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/star_lit1.lua (ux0:/app/PCSE00029/data/particles/star_lit1.lua), fd: 0x41
+[11:01:45.478] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[11:01:45.481] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/star_lit2.lua
+[11:01:45.483] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/star_lit2.lua (ux0:/app/PCSE00029/data/particles/star_lit2.lua), fd: 0x42
+[11:01:45.491] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[11:01:45.493] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/star_lit3.lua
+[11:01:45.495] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/star_lit3.lua (ux0:/app/PCSE00029/data/particles/star_lit3.lua), fd: 0x43
+[11:01:45.497] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[11:01:45.501] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/templates.lua
+[11:01:45.508] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/templates.lua (ux0:/app/PCSE00029/data/particles/templates.lua), fd: 0x44
+[11:01:45.514] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[11:01:45.517] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/test.lua
+[11:01:45.523] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/test.lua (ux0:/app/PCSE00029/data/particles/test.lua), fd: 0x45
+[11:01:45.527] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[11:01:45.529] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/trail1.lua
+[11:01:45.530] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/trail1.lua (ux0:/app/PCSE00029/data/particles/trail1.lua), fd: 0x46
+[11:01:45.532] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[11:01:45.535] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/trail2.lua
+[11:01:45.540] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/trail2.lua (ux0:/app/PCSE00029/data/particles/trail2.lua), fd: 0x47
+[11:01:45.547] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[11:01:45.549] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/trail3.lua
+[11:01:45.553] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/trail3.lua (ux0:/app/PCSE00029/data/particles/trail3.lua), fd: 0x48
+[11:01:45.556] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[11:01:45.560] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/vibemaster_death1.lua
+[11:01:45.562] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/vibemaster_death1.lua (ux0:/app/PCSE00029/data/particles/vibemaster_death1.lua), fd: 0x49
+[11:01:45.573] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[11:01:45.577] |I| [export_sceIoOpen]: Opening file: app0:/data/particles/vibemaster_death2.lua
+[11:01:45.579] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles/vibemaster_death2.lua (ux0:/app/PCSE00029/data/particles/vibemaster_death2.lua), fd: 0x4A
+[11:01:45.582] |T| [close_file]: sceIoClose: Closing file fd: 0x4A
+[11:01:45.592] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/breakable_collision1.lua
+[11:01:45.593] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/breakable_collision1.lua (ux0:/app/PCSE00029/data/particles2/breakable_collision1.lua), fd: 0x4B
+[11:01:45.595] |T| [close_file]: sceIoClose: Closing file fd: 0x4B
+[11:01:45.633] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/breakable_collision2.lua
+[11:01:45.634] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/breakable_collision2.lua (ux0:/app/PCSE00029/data/particles2/breakable_collision2.lua), fd: 0x4C
+[11:01:45.638] |T| [close_file]: sceIoClose: Closing file fd: 0x4C
+[11:01:45.641] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/creeper_death1.lua
+[11:01:45.653] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/creeper_death1.lua (ux0:/app/PCSE00029/data/particles2/creeper_death1.lua), fd: 0x4D
+[11:01:45.662] |T| [close_file]: sceIoClose: Closing file fd: 0x4D
+[11:01:45.667] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/creeper_death2.lua
+[11:01:45.668] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/creeper_death2.lua (ux0:/app/PCSE00029/data/particles2/creeper_death2.lua), fd: 0x4E
+[11:01:45.683] |T| [close_file]: sceIoClose: Closing file fd: 0x4E
+[11:01:45.693] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/killer_wall.lua
+[11:01:45.700] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/killer_wall.lua (ux0:/app/PCSE00029/data/particles2/killer_wall.lua), fd: 0x4F
+[11:01:45.703] |T| [close_file]: sceIoClose: Closing file fd: 0x4F
+[11:01:45.710] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/mine_death1.lua
+[11:01:45.711] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/mine_death1.lua (ux0:/app/PCSE00029/data/particles2/mine_death1.lua), fd: 0x50
+[11:01:45.713] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[11:01:45.719] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/mine_death2.lua
+[11:01:45.728] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/mine_death2.lua (ux0:/app/PCSE00029/data/particles2/mine_death2.lua), fd: 0x51
+[11:01:45.744] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[11:01:45.746] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/player_death1.lua
+[11:01:45.746] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/player_death1.lua (ux0:/app/PCSE00029/data/particles2/player_death1.lua), fd: 0x52
+[11:01:45.754] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[11:01:45.758] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/player_death2.lua
+[11:01:45.761] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/player_death2.lua (ux0:/app/PCSE00029/data/particles2/player_death2.lua), fd: 0x53
+[11:01:45.763] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[11:01:45.771] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/sp_highlight.lua
+[11:01:45.773] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/sp_highlight.lua (ux0:/app/PCSE00029/data/particles2/sp_highlight.lua), fd: 0x54
+[11:01:45.777] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[11:01:45.784] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_1.lua
+[11:01:45.784] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_1.lua (ux0:/app/PCSE00029/data/particles2/star_1.lua), fd: 0x55
+[11:01:45.788] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[11:01:45.791] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_2.lua
+[11:01:45.792] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_2.lua (ux0:/app/PCSE00029/data/particles2/star_2.lua), fd: 0x56
+[11:01:45.800] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[11:01:45.803] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_3.lua
+[11:01:45.804] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_3.lua (ux0:/app/PCSE00029/data/particles2/star_3.lua), fd: 0x57
+[11:01:45.808] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[11:01:45.812] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_4.lua
+[11:01:45.813] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_4.lua (ux0:/app/PCSE00029/data/particles2/star_4.lua), fd: 0x58
+[11:01:45.816] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[11:01:45.818] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_5.lua
+[11:01:45.818] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_5.lua (ux0:/app/PCSE00029/data/particles2/star_5.lua), fd: 0x59
+[11:01:45.824] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[11:01:45.834] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_6.lua
+[11:01:45.839] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_6.lua (ux0:/app/PCSE00029/data/particles2/star_6.lua), fd: 0x5A
+[11:01:45.843] |T| [close_file]: sceIoClose: Closing file fd: 0x5A
+[11:01:45.851] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_7.lua
+[11:01:45.855] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_7.lua (ux0:/app/PCSE00029/data/particles2/star_7.lua), fd: 0x5B
+[11:01:45.860] |T| [close_file]: sceIoClose: Closing file fd: 0x5B
+[11:01:45.867] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_lit1.lua
+[11:01:45.868] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_lit1.lua (ux0:/app/PCSE00029/data/particles2/star_lit1.lua), fd: 0x5C
+[11:01:45.870] |T| [close_file]: sceIoClose: Closing file fd: 0x5C
+[11:01:45.874] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_lit2.lua
+[11:01:45.876] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_lit2.lua (ux0:/app/PCSE00029/data/particles2/star_lit2.lua), fd: 0x5D
+[11:01:45.880] |T| [close_file]: sceIoClose: Closing file fd: 0x5D
+[11:01:45.882] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/star_lit3.lua
+[11:01:45.883] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/star_lit3.lua (ux0:/app/PCSE00029/data/particles2/star_lit3.lua), fd: 0x5E
+[11:01:45.886] |T| [close_file]: sceIoClose: Closing file fd: 0x5E
+[11:01:45.891] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/start_drone.lua
+[11:01:45.891] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/start_drone.lua (ux0:/app/PCSE00029/data/particles2/start_drone.lua), fd: 0x5F
+[11:01:45.895] |T| [close_file]: sceIoClose: Closing file fd: 0x5F
+[11:01:45.898] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/stoonger.lua
+[11:01:45.898] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/stoonger.lua (ux0:/app/PCSE00029/data/particles2/stoonger.lua), fd: 0x60
+[11:01:45.900] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[11:01:45.906] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/stoonger_station_smoke.lua
+[11:01:45.907] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/stoonger_station_smoke.lua (ux0:/app/PCSE00029/data/particles2/stoonger_station_smoke.lua), fd: 0x61
+[11:01:45.910] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[11:01:45.912] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/test.lua
+[11:01:45.912] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/test.lua (ux0:/app/PCSE00029/data/particles2/test.lua), fd: 0x62
+[11:01:45.913] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[11:01:45.917] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/test1_1.lua
+[11:01:45.919] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/test1_1.lua (ux0:/app/PCSE00029/data/particles2/test1_1.lua), fd: 0x63
+[11:01:45.927] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[11:01:45.938] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/test1_2.lua
+[11:01:45.939] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/test1_2.lua (ux0:/app/PCSE00029/data/particles2/test1_2.lua), fd: 0x64
+[11:01:45.946] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[11:01:45.949] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/test1_3.lua
+[11:01:45.950] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/test1_3.lua (ux0:/app/PCSE00029/data/particles2/test1_3.lua), fd: 0x65
+[11:01:45.955] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[11:01:45.957] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/test2.lua
+[11:01:45.958] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/test2.lua (ux0:/app/PCSE00029/data/particles2/test2.lua), fd: 0x66
+[11:01:45.960] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[11:01:45.961] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/test3.lua
+[11:01:45.962] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/test3.lua (ux0:/app/PCSE00029/data/particles2/test3.lua), fd: 0x67
+[11:01:45.966] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[11:01:45.972] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/vibe_master_destruct.lua
+[11:01:45.972] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/vibe_master_destruct.lua (ux0:/app/PCSE00029/data/particles2/vibe_master_destruct.lua), fd: 0x68
+[11:01:45.974] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[11:01:45.976] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/vibemaster.lua
+[11:01:45.978] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/vibemaster.lua (ux0:/app/PCSE00029/data/particles2/vibemaster.lua), fd: 0x69
+[11:01:45.984] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[11:01:45.991] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/vibemaster_attack.lua
+[11:01:45.991] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/vibemaster_attack.lua (ux0:/app/PCSE00029/data/particles2/vibemaster_attack.lua), fd: 0x6A
+[11:01:45.993] |T| [close_file]: sceIoClose: Closing file fd: 0x6A
+[11:01:45.997] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/vibemaster_death1.lua
+[11:01:45.997] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/vibemaster_death1.lua (ux0:/app/PCSE00029/data/particles2/vibemaster_death1.lua), fd: 0x6B
+[11:01:46.002] |T| [close_file]: sceIoClose: Closing file fd: 0x6B
+[11:01:46.003] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/vibemaster_death2.lua
+[11:01:46.004] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/vibemaster_death2.lua (ux0:/app/PCSE00029/data/particles2/vibemaster_death2.lua), fd: 0x6C
+[11:01:46.005] |T| [close_file]: sceIoClose: Closing file fd: 0x6C
+[11:01:46.008] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/badaboom.lua
+[11:01:46.012] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/badaboom.lua (ux0:/app/PCSE00029/data/particles2/badaboom.lua), fd: 0x6D
+[11:01:46.018] |T| [close_file]: sceIoClose: Closing file fd: 0x6D
+[11:01:46.020] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/badaboom2.lua
+[11:01:46.022] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/badaboom2.lua (ux0:/app/PCSE00029/data/particles2/badaboom2.lua), fd: 0x6E
+[11:01:46.029] |T| [close_file]: sceIoClose: Closing file fd: 0x6E
+[11:01:46.036] |I| [export_sceIoOpen]: Opening file: app0:/data/particles2/badaboom3.lua
+[11:01:46.045] |T| [open_file]: sceIoOpen: Opening file app0:/data/particles2/badaboom3.lua (ux0:/app/PCSE00029/data/particles2/badaboom3.lua), fd: 0x6F
+[11:01:46.056] |T| [close_file]: sceIoClose: Closing file fd: 0x6F
+[11:01:46.072] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/main_menu.lev
+[11:01:46.072] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/main_menu.lev (ux0:/app/PCSE00029/data/levels/main_menu.lev), fd: 0x70
+[11:01:46.076] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[11:01:46.081] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/main_menu.ld
+[11:01:46.082] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/main_menu.ld (ux0:/app/PCSE00029/data/levels/main_menu.ld), fd: 0x71
+[11:01:46.085] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[11:01:46.368] |I| [export_sceIoOpen]: Opening file: app0:/data/asteroids.lua
+[11:01:46.369] |T| [open_file]: sceIoOpen: Opening file app0:/data/asteroids.lua (ux0:/app/PCSE00029/data/asteroids.lua), fd: 0x72
+[11:01:46.371] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[11:01:46.427] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/main_menu.lua
+[11:01:46.427] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/main_menu.lua (ux0:/app/PCSE00029/data/levels/main_menu.lua), fd: 0x73
+[11:01:46.429] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[11:01:46.432] |I| [export_sceIoOpen]: Opening file: app0:/data/script_prelude.lua
+[11:01:46.433] |T| [open_file]: sceIoOpen: Opening file app0:/data/script_prelude.lua (ux0:/app/PCSE00029/data/script_prelude.lua), fd: 0x74
+[11:01:46.436] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[11:01:46.460] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:01:46.461] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0x75
+[11:01:46.463] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[11:01:46.572] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/main_menu.lua
+[11:01:46.573] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/main_menu.lua (ux0:/app/PCSE00029/data/levels/main_menu.lua), fd: 0x76
+[11:01:46.574] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[11:01:46.581] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:01:46.582] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0x77
+[11:01:46.585] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[11:01:46.651] |E| [logging::ret_error_impl]: sceAppUtilDrmClose returned SCE_APPUTIL_ERROR_NOT_MOUNTED (0x80100604)
+[11:01:46.691] |W| [unimplemented_impl]: Unimplemented sceLiveAreaUpdateFrameSync import called.
+[11:01:46.692] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSE00029/data.bin), fd: 0x78
+[11:01:46.694] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x78, size: 51928
+[11:01:46.695] |I| [export_sceIoOpen]: Opening file: app0:/data/ui-main-menu.xml
+[11:01:46.695] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x78
+[11:01:46.697] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui-main-menu.xml (ux0:/app/PCSE00029/data/ui-main-menu.xml), fd: 0x79
+[11:01:46.698] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00029/SlotParam_0.bin), fd: 0x7A
+[11:01:46.709] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[11:01:46.713] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x7A, size: 844
+[11:01:46.715] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x7A
+[11:01:46.720] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_vita_01.xml
+[11:01:46.721] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_vita_01.xml (ux0:/app/PCSE00029/data/ui_vita_01.xml), fd: 0x7B
+[11:01:46.728] |T| [close_file]: sceIoClose: Closing file fd: 0x7B
+[11:01:46.737] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_vita_02.xml
+[11:01:46.737] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_vita_02.xml (ux0:/app/PCSE00029/data/ui_vita_02.xml), fd: 0x7C
+[11:01:46.742] |T| [close_file]: sceIoClose: Closing file fd: 0x7C
+[11:01:46.749] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_vita_03.xml
+[11:01:46.751] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_vita_03.xml (ux0:/app/PCSE00029/data/ui_vita_03.xml), fd: 0x7D
+[11:01:46.755] |T| [close_file]: sceIoClose: Closing file fd: 0x7D
+[11:01:46.759] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_vita_04.xml
+[11:01:46.760] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_vita_04.xml (ux0:/app/PCSE00029/data/ui_vita_04.xml), fd: 0x7E
+[11:01:46.761] |T| [close_file]: sceIoClose: Closing file fd: 0x7E
+[11:01:46.765] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_vita_05.xml
+[11:01:46.766] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_vita_05.xml (ux0:/app/PCSE00029/data/ui_vita_05.xml), fd: 0x7F
+[11:01:46.772] |T| [close_file]: sceIoClose: Closing file fd: 0x7F
+[11:01:46.776] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_vita_06.xml
+[11:01:46.777] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_vita_06.xml (ux0:/app/PCSE00029/data/ui_vita_06.xml), fd: 0x80
+[11:01:46.783] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[11:01:46.791] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_vita_07.xml
+[11:01:46.792] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_vita_07.xml (ux0:/app/PCSE00029/data/ui_vita_07.xml), fd: 0x81
+[11:01:46.801] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[11:01:46.815] |I| [export_sceIoOpen]: Opening file: app0:/data/ui_vita_08.xml
+[11:01:46.816] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui_vita_08.xml (ux0:/app/PCSE00029/data/ui_vita_08.xml), fd: 0x82
+[11:01:46.821] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[11:01:46.850] |I| [export_sceIoOpen]: Opening file: app0:/data/ui-options-menu.xml
+[11:01:46.852] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui-options-menu.xml (ux0:/app/PCSE00029/data/ui-options-menu.xml), fd: 0x83
+[11:01:46.860] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[11:01:46.897] |I| [export_sceIoOpen]: Opening file: app0:/data/ui-pause-menu.xml
+[11:01:46.898] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui-pause-menu.xml (ux0:/app/PCSE00029/data/ui-pause-menu.xml), fd: 0x84
+[11:01:46.899] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[11:01:46.908] |I| [export_sceIoOpen]: Opening file: app0:/data/ui-high_scores.xml
+[11:01:46.909] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui-high_scores.xml (ux0:/app/PCSE00029/data/ui-high_scores.xml), fd: 0x85
+[11:01:46.913] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[11:01:46.920] |I| [export_sceIoOpen]: Opening file: app0:/data/ui-results-menu.xml
+[11:01:46.920] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui-results-menu.xml (ux0:/app/PCSE00029/data/ui-results-menu.xml), fd: 0x86
+[11:01:46.925] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[11:01:46.930] |I| [export_sceIoOpen]: Opening file: app0:/data/ui-level-select-menu.xml
+[11:01:46.931] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui-level-select-menu.xml (ux0:/app/PCSE00029/data/ui-level-select-menu.xml), fd: 0x87
+[11:01:46.933] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[11:01:46.945] |I| [export_sceIoOpen]: Opening file: app0:/data/ui-yes-no-dialog.xml
+[11:01:46.946] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui-yes-no-dialog.xml (ux0:/app/PCSE00029/data/ui-yes-no-dialog.xml), fd: 0x88
+[11:01:46.947] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[11:01:46.950] |I| [export_sceIoOpen]: Opening file: app0:/data/ui-results-last-menu.xml
+[11:01:46.952] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui-results-last-menu.xml (ux0:/app/PCSE00029/data/ui-results-last-menu.xml), fd: 0x89
+[11:01:46.953] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[11:01:46.959] |I| [export_sceIoOpen]: Opening file: app0:/data/ui-restricted-dialog.xml
+[11:01:46.960] |T| [open_file]: sceIoOpen: Opening file app0:/data/ui-restricted-dialog.xml (ux0:/app/PCSE00029/data/ui-restricted-dialog.xml), fd: 0x8A
+[11:01:46.962] |T| [close_file]: sceIoClose: Closing file fd: 0x8A
+[11:01:47.006] |I| [load_module]: Loading module ID: 0x4
+[11:01:47.014] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6FFFFF01...
+[11:01:47.016] |I| [load_self]: Loaded module segment 0 @ [0x08401000 - 0x0841E150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[11:01:47.020] |I| [load_self]: Loaded module segment 1 @ [0x04346000 - 0x04346640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[11:01:47.023] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[11:01:47.024] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x841CE68
+[11:01:47.028] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8419CA0
+[11:01:47.029] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[11:01:47.032] |D| [load_module]: Running module_start of module: SceLibHttp
+[11:01:47.033] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[11:01:47.054] |I| [load_self]: Loaded module segment 0 @ [0x0841F000 - 0x08485EA4 / 0x81000000] (size: 0x00066EA4) of module sys/external/libssl.suprx
+[11:01:47.058] |I| [load_self]: Loaded module segment 1 @ [0x043C9000 - 0x043CE188 / 0x81067000] (size: 0x00005188) of module sys/external/libssl.suprx
+[11:01:47.062] |I| [load_self]: Linking SELF sys/external/libssl.suprx...
+[11:01:47.063] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x84719B0
+[11:01:47.064] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x846BC70
+[11:01:47.065] |I| [load_module]: Module SceLibSsl (at "sys/external/libssl.suprx") loaded
+[11:01:47.067] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[11:01:47.067] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x3C733316 sceSslInit at 0x8111EB20
+[11:01:47.073] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x214926D9 sceHttpInit at 0x8111EB30
+[11:01:47.077] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
+[11:01:47.079] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[11:01:47.080] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogInit import called.
+[11:01:47.082] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetStatus import called. (SCE_COMMON_DIALOG_STATUS_FINISHED)
+[11:01:47.082] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetResult import called. (result->result = -1, return 0)
+[11:01:47.084] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogTerm import called.
+[11:01:47.087] |W| [unimplemented_impl]: Unimplemented sceNpAuthTerm import called.
+[11:01:47.088] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xC9076666 sceHttpTerm at 0x8111EB40
+[11:01:47.096] |W| [unimplemented_impl]: Unimplemented sceClibMspaceIsHeapEmpty import called.
+[11:01:47.097] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x3CE6E3A sceSslTerm at 0x8111EB10
+[11:01:47.102] |W| [stubbed_impl]: Stubbed sceNetCtlTerm import called. (Stub)
+[11:01:47.105] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
+[11:01:47.108] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xDF4C665A sceSystemGestureUpdatePrimitiveTouchRecognizer at 0x8111EC40
+[11:01:47.113] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x851FB144 sceSystemGestureUpdateTouchRecognizer at 0x8111EC20
+[11:01:47.116] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x13AD2218 sceSystemGestureGetTouchEventsCount at 0x8111EBE0
+[11:01:47.136] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR01851_00/TROPHY.TRP (ux0:/app/PCSE00029/sce_sys/trophy/NPWR01851_00/TROPHY.TRP), fd: 0x8B
+[11:01:47.138] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR01851_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR01851_00/TROPUSR.DAT), fd: 0x8C
+[11:01:47.143] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR01851_00/TROPCONF.SFM), fd: 0x8D
+[11:01:47.144] |T| [write_file]: install_trophy_context: Writing to fd: 0x8D, size: 1318
+[11:01:47.145] |T| [close_file]: install_trophy_context: Closing file fd: 0x8D
+[11:01:47.147] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR01851_00/TROP.SFM), fd: 0x8E
+[11:01:47.150] |T| [write_file]: install_trophy_context: Writing to fd: 0x8E, size: 2774
+[11:01:47.154] |T| [close_file]: install_trophy_context: Closing file fd: 0x8E
+[11:01:47.157] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/ICON0.PNG), fd: 0x8F
+[11:01:47.159] |T| [write_file]: install_trophy_context: Writing to fd: 0x8F, size: 72044
+[11:01:47.167] |T| [close_file]: install_trophy_context: Closing file fd: 0x8F
+[11:01:47.169] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP000.PNG), fd: 0x90
+[11:01:47.173] |T| [write_file]: install_trophy_context: Writing to fd: 0x90, size: 104652
+[11:01:47.174] |T| [close_file]: install_trophy_context: Closing file fd: 0x90
+[11:01:47.176] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP001.PNG), fd: 0x91
+[11:01:47.184] |T| [write_file]: install_trophy_context: Writing to fd: 0x91, size: 52525
+[11:01:47.189] |T| [close_file]: install_trophy_context: Closing file fd: 0x91
+[11:01:47.198] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP002.PNG), fd: 0x92
+[11:01:47.207] |T| [write_file]: install_trophy_context: Writing to fd: 0x92, size: 83769
+[11:01:47.208] |T| [close_file]: install_trophy_context: Closing file fd: 0x92
+[11:01:47.212] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP003.PNG), fd: 0x93
+[11:01:47.217] |T| [write_file]: install_trophy_context: Writing to fd: 0x93, size: 82784
+[11:01:47.218] |T| [close_file]: install_trophy_context: Closing file fd: 0x93
+[11:01:47.220] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP004.PNG), fd: 0x94
+[11:01:47.221] |T| [write_file]: install_trophy_context: Writing to fd: 0x94, size: 88882
+[11:01:47.223] |T| [close_file]: install_trophy_context: Closing file fd: 0x94
+[11:01:47.228] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP005.PNG), fd: 0x95
+[11:01:47.233] |T| [write_file]: install_trophy_context: Writing to fd: 0x95, size: 79298
+[11:01:47.234] |T| [close_file]: install_trophy_context: Closing file fd: 0x95
+[11:01:47.235] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP006.PNG), fd: 0x96
+[11:01:47.237] |T| [write_file]: install_trophy_context: Writing to fd: 0x96, size: 101108
+[11:01:47.238] |T| [close_file]: install_trophy_context: Closing file fd: 0x96
+[11:01:47.242] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP007.PNG), fd: 0x97
+[11:01:47.248] |T| [write_file]: install_trophy_context: Writing to fd: 0x97, size: 99934
+[11:01:47.249] |T| [close_file]: install_trophy_context: Closing file fd: 0x97
+[11:01:47.252] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP008.PNG), fd: 0x98
+[11:01:47.254] |T| [write_file]: install_trophy_context: Writing to fd: 0x98, size: 99010
+[11:01:47.254] |T| [close_file]: install_trophy_context: Closing file fd: 0x98
+[11:01:47.261] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP009.PNG), fd: 0x99
+[11:01:47.268] |T| [write_file]: install_trophy_context: Writing to fd: 0x99, size: 96993
+[11:01:47.269] |T| [close_file]: install_trophy_context: Closing file fd: 0x99
+[11:01:47.272] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP010.PNG), fd: 0x9A
+[11:01:47.277] |T| [write_file]: install_trophy_context: Writing to fd: 0x9A, size: 103678
+[11:01:47.279] |T| [close_file]: install_trophy_context: Closing file fd: 0x9A
+[11:01:47.281] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP011.PNG), fd: 0x9B
+[11:01:47.282] |T| [write_file]: install_trophy_context: Writing to fd: 0x9B, size: 124112
+[11:01:47.283] |T| [close_file]: install_trophy_context: Closing file fd: 0x9B
+[11:01:47.293] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP012.PNG), fd: 0x9C
+[11:01:47.297] |T| [write_file]: install_trophy_context: Writing to fd: 0x9C, size: 107300
+[11:01:47.298] |T| [close_file]: install_trophy_context: Closing file fd: 0x9C
+[11:01:47.307] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP013.PNG), fd: 0x9D
+[11:01:47.310] |T| [write_file]: install_trophy_context: Writing to fd: 0x9D, size: 104832
+[11:01:47.312] |T| [close_file]: install_trophy_context: Closing file fd: 0x9D
+[11:01:47.313] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR01851_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR01851_00/TROP014.PNG), fd: 0x9E
+[11:01:47.315] |T| [write_file]: install_trophy_context: Writing to fd: 0x9E, size: 114940
+[11:01:47.315] |T| [close_file]: install_trophy_context: Closing file fd: 0x9E
+[11:01:47.319] |T| [close_file]: create_trophy_context: Closing file fd: 0x8C
+[11:01:47.320] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR01851_00 create successfuly!
+[11:01:47.324] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[11:01:47.365] |E| [call_import]: Import function for NID 0xE340CA23 not found (thread name: PCSE00029, thread ID: 7)
+[11:01:47.443] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x2B75F9BC sceSasSetVoice at 0x8111E6B0
+[11:01:47.446] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x2C48A08C sceSasSetPitch at 0x8111E6C0
+[11:01:47.448] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xBE8204D sceSasSetVolume at 0x8111E690
+[11:01:47.452] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xECCE0DB8 sceSasSetSimpleADSR at 0x8111E730
+[11:01:47.454] |T| [log_import_call]: [LLE] TID: 43  FUNC: 0x7E63E6 sceSasGetEndState at 0x8111E680
+[11:01:47.458] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xC838DB6F sceSasSetKeyOn at 0x8111E720
+[11:01:47.461] |T| [log_import_call]: [LLE] TID: 43  FUNC: 0x5E42ADAB sceSasSetKeyOff at 0x8111E6F0
+[11:01:47.560] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/rock_destruction_01.xml
+[11:01:47.562] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/rock_destruction_01.xml (ux0:/app/PCSE00029/data/zz_atlases/rock_destruction_01.xml), fd: 0x9F
+[11:01:47.568] |T| [close_file]: sceIoClose: Closing file fd: 0x9F
+[11:01:47.573] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/mine_01.xml
+[11:01:47.574] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/mine_01.xml (ux0:/app/PCSE00029/data/zz_atlases/mine_01.xml), fd: 0xA0
+[11:01:47.584] |T| [close_file]: sceIoClose: Closing file fd: 0xA0
+[11:01:47.595] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/balls_01.xml
+[11:01:47.596] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/balls_01.xml (ux0:/app/PCSE00029/data/zz_atlases/balls_01.xml), fd: 0xA1
+[11:01:47.604] |T| [close_file]: sceIoClose: Closing file fd: 0xA1
+[11:01:47.609] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/speedup_01.xml
+[11:01:47.611] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/speedup_01.xml (ux0:/app/PCSE00029/data/zz_atlases/speedup_01.xml), fd: 0xA2
+[11:01:47.622] |T| [close_file]: sceIoClose: Closing file fd: 0xA2
+[11:01:47.627] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/z_array_cubes_01.xml
+[11:01:47.634] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/z_array_cubes_01.xml (ux0:/app/PCSE00029/data/zz_atlases/z_array_cubes_01.xml), fd: 0xA3
+[11:01:47.644] |T| [close_file]: sceIoClose: Closing file fd: 0xA3
+[11:01:47.654] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/star_glow_01.xml
+[11:01:47.661] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/star_glow_01.xml (ux0:/app/PCSE00029/data/zz_atlases/star_glow_01.xml), fd: 0xA4
+[11:01:47.683] |T| [close_file]: sceIoClose: Closing file fd: 0xA4
+[11:01:47.693] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/z_stars_01.xml
+[11:01:47.695] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/z_stars_01.xml (ux0:/app/PCSE00029/data/zz_atlases/z_stars_01.xml), fd: 0xA5
+[11:01:47.701] |T| [close_file]: sceIoClose: Closing file fd: 0xA5
+[11:01:47.713] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/z_cill_01.xml
+[11:01:47.714] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/z_cill_01.xml (ux0:/app/PCSE00029/data/zz_atlases/z_cill_01.xml), fd: 0xA6
+[11:01:47.717] |T| [close_file]: sceIoClose: Closing file fd: 0xA6
+[11:01:47.727] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/waymark_01.xml
+[11:01:47.728] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/waymark_01.xml (ux0:/app/PCSE00029/data/zz_atlases/waymark_01.xml), fd: 0xA7
+[11:01:47.738] |T| [close_file]: sceIoClose: Closing file fd: 0xA7
+[11:01:47.770] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/amber_01.xml
+[11:01:47.771] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/amber_01.xml (ux0:/app/PCSE00029/data/zz_atlases/amber_01.xml), fd: 0xA8
+[11:01:47.773] |T| [close_file]: sceIoClose: Closing file fd: 0xA8
+[11:01:47.776] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/paralon_01.xml
+[11:01:47.776] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/paralon_01.xml (ux0:/app/PCSE00029/data/zz_atlases/paralon_01.xml), fd: 0xA9
+[11:01:47.782] |T| [close_file]: sceIoClose: Closing file fd: 0xA9
+[11:01:47.786] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/junk_01.xml
+[11:01:47.787] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/junk_01.xml (ux0:/app/PCSE00029/data/zz_atlases/junk_01.xml), fd: 0xAA
+[11:01:47.790] |T| [close_file]: sceIoClose: Closing file fd: 0xAA
+[11:01:47.794] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/plastic_01.xml
+[11:01:47.796] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/plastic_01.xml (ux0:/app/PCSE00029/data/zz_atlases/plastic_01.xml), fd: 0xAB
+[11:01:47.801] |T| [close_file]: sceIoClose: Closing file fd: 0xAB
+[11:01:47.803] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/danger_rocks_01.xml
+[11:01:47.804] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/danger_rocks_01.xml (ux0:/app/PCSE00029/data/zz_atlases/danger_rocks_01.xml), fd: 0xAC
+[11:01:47.808] |T| [close_file]: sceIoClose: Closing file fd: 0xAC
+[11:01:47.811] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/killer_ramp_01.xml
+[11:01:47.812] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/killer_ramp_01.xml (ux0:/app/PCSE00029/data/zz_atlases/killer_ramp_01.xml), fd: 0xAD
+[11:01:47.816] |T| [close_file]: sceIoClose: Closing file fd: 0xAD
+[11:01:47.826] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/goal_star_01.xml
+[11:01:47.827] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/goal_star_01.xml (ux0:/app/PCSE00029/data/zz_atlases/goal_star_01.xml), fd: 0xAE
+[11:01:47.831] |T| [close_file]: sceIoClose: Closing file fd: 0xAE
+[11:01:47.834] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/creeper_cubics_01.xml
+[11:01:47.835] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/creeper_cubics_01.xml (ux0:/app/PCSE00029/data/zz_atlases/creeper_cubics_01.xml), fd: 0xAF
+[11:01:47.837] |T| [close_file]: sceIoClose: Closing file fd: 0xAF
+[11:01:47.846] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/dron_01.xml
+[11:01:47.847] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/dron_01.xml (ux0:/app/PCSE00029/data/zz_atlases/dron_01.xml), fd: 0xB0
+[11:01:47.853] |T| [close_file]: sceIoClose: Closing file fd: 0xB0
+[11:01:47.864] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/rage_starter_trail_01.xml
+[11:01:47.865] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/rage_starter_trail_01.xml (ux0:/app/PCSE00029/data/zz_atlases/rage_starter_trail_01.xml), fd: 0xB1
+[11:01:47.867] |T| [close_file]: sceIoClose: Closing file fd: 0xB1
+[11:01:47.894] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/sliding_ramp_01.xml
+[11:01:47.895] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/sliding_ramp_01.xml (ux0:/app/PCSE00029/data/zz_atlases/sliding_ramp_01.xml), fd: 0xB2
+[11:01:47.896] |T| [close_file]: sceIoClose: Closing file fd: 0xB2
+[11:01:47.906] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/seastones_shield_01.xml
+[11:01:47.907] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/seastones_shield_01.xml (ux0:/app/PCSE00029/data/zz_atlases/seastones_shield_01.xml), fd: 0xB3
+[11:01:47.908] |T| [close_file]: sceIoClose: Closing file fd: 0xB3
+[11:01:47.921] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/ramp_shield_berserk_01.xml
+[11:01:47.921] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/ramp_shield_berserk_01.xml (ux0:/app/PCSE00029/data/zz_atlases/ramp_shield_berserk_01.xml), fd: 0xB4
+[11:01:47.927] |T| [close_file]: sceIoClose: Closing file fd: 0xB4
+[11:01:47.952] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/bumper_01.xml
+[11:01:47.953] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/bumper_01.xml (ux0:/app/PCSE00029/data/zz_atlases/bumper_01.xml), fd: 0xB5
+[11:01:47.954] |T| [close_file]: sceIoClose: Closing file fd: 0xB5
+[11:01:47.959] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/vibemaster_01.xml
+[11:01:47.960] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/vibemaster_01.xml (ux0:/app/PCSE00029/data/zz_atlases/vibemaster_01.xml), fd: 0xB6
+[11:01:47.967] |T| [close_file]: sceIoClose: Closing file fd: 0xB6
+[11:01:47.983] |I| [export_sceIoOpen]: Opening file: app0:/data/zz_atlases/sp_01.xml
+[11:01:47.983] |T| [open_file]: sceIoOpen: Opening file app0:/data/zz_atlases/sp_01.xml (ux0:/app/PCSE00029/data/zz_atlases/sp_01.xml), fd: 0xB7
+[11:01:47.988] |T| [close_file]: sceIoClose: Closing file fd: 0xB7
+[11:01:48.155] |W| [renderer::vulkan::VKContext::start_recording]: Render Target is using more scenes per frame than what was planned!
+[11:01:49.370] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x74724147 sceSystemGestureGetTouchEventByIndex at 0x8111EC10
+[11:01:49.372] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x5570B83E sceSystemGestureGetTouchEventByEventID at 0x8111EBF0
+[11:01:50.972] |I| [export_sceIoOpen]: Opening file: app0:/data/score.xml
+[11:01:50.973] |T| [open_file]: sceIoOpen: Opening file app0:/data/score.xml (ux0:/app/PCSE00029/data/score.xml), fd: 0xB8
+[11:01:50.975] |T| [close_file]: sceIoClose: Closing file fd: 0xB8
+[11:01:50.981] |I| [export_sceIoOpen]: Opening file: app0:/data/sel_and_fire.xml
+[11:01:50.982] |T| [open_file]: sceIoOpen: Opening file app0:/data/sel_and_fire.xml (ux0:/app/PCSE00029/data/sel_and_fire.xml), fd: 0xB9
+[11:01:50.986] |T| [close_file]: sceIoClose: Closing file fd: 0xB9
+[11:01:51.034] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/ps_map15_tutorial_1.lev
+[11:01:51.036] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/ps_map15_tutorial_1.lev (ux0:/app/PCSE00029/data/levels/ps_map15_tutorial_1.lev), fd: 0xBA
+[11:01:51.044] |T| [close_file]: sceIoClose: Closing file fd: 0xBA
+[11:01:51.046] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/ps_map15_tutorial_1.ld
+[11:01:51.047] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/ps_map15_tutorial_1.ld (ux0:/app/PCSE00029/data/levels/ps_map15_tutorial_1.ld), fd: 0xBB
+[11:01:51.053] |T| [close_file]: sceIoClose: Closing file fd: 0xBB
+[11:01:51.176] |I| [export_sceIoOpen]: Opening file: app0:/data/asteroids.lua
+[11:01:51.176] |T| [open_file]: sceIoOpen: Opening file app0:/data/asteroids.lua (ux0:/app/PCSE00029/data/asteroids.lua), fd: 0xBC
+[11:01:51.178] |T| [close_file]: sceIoClose: Closing file fd: 0xBC
+[11:01:51.197] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/default_script.lua
+[11:01:51.197] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/default_script.lua (ux0:/app/PCSE00029/data/levels/default_script.lua), fd: 0xBD
+[11:01:51.204] |T| [close_file]: sceIoClose: Closing file fd: 0xBD
+[11:01:51.212] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:01:51.213] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0xBE
+[11:01:51.214] |T| [close_file]: sceIoClose: Closing file fd: 0xBE
+[11:01:51.279] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/default_script.lua
+[11:01:51.280] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/default_script.lua (ux0:/app/PCSE00029/data/levels/default_script.lua), fd: 0xBF
+[11:01:51.283] |T| [close_file]: sceIoClose: Closing file fd: 0xBF
+[11:01:51.286] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:01:51.287] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0xC0
+[11:01:51.292] |T| [close_file]: sceIoClose: Closing file fd: 0xC0
+[11:02:12.237] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/default_script.lua
+[11:02:12.238] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/default_script.lua (ux0:/app/PCSE00029/data/levels/default_script.lua), fd: 0xC1
+[11:02:12.240] |T| [close_file]: sceIoClose: Closing file fd: 0xC1
+[11:02:12.244] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:02:12.247] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0xC2
+[11:02:12.252] |T| [close_file]: sceIoClose: Closing file fd: 0xC2
+[11:02:29.865] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/default_script.lua
+[11:02:29.868] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/default_script.lua (ux0:/app/PCSE00029/data/levels/default_script.lua), fd: 0xC3
+[11:02:29.880] |T| [close_file]: sceIoClose: Closing file fd: 0xC3
+[11:02:29.898] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:02:29.899] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0xC4
+[11:02:29.913] |T| [close_file]: sceIoClose: Closing file fd: 0xC4
+[11:02:51.223] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[11:02:51.224] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR01851_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR01851_00/TROPUSR.DAT), fd: 0xC5
+[11:02:51.227] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC5, size: 4
+[11:02:51.228] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC5, size: 16
+[11:02:51.232] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC5, size: 16
+[11:02:51.232] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC5, size: 4
+[11:02:51.233] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC5, size: 4
+[11:02:51.234] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC5, size: 4
+[11:02:51.237] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC5, size: 64
+[11:02:51.238] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC5, size: 1024
+[11:02:51.239] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC5, size: 512
+[11:02:51.239] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0xC5
+[11:02:51.240] |I| [do_trophy_callback]: Trophy unlocked, name: Lost in space.., detail: Lost in space 3 times..., id = 11
+[11:02:51.246] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[11:02:52.248] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/default_script.lua
+[11:02:52.249] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/default_script.lua (ux0:/app/PCSE00029/data/levels/default_script.lua), fd: 0xC6
+[11:02:52.250] |T| [close_file]: sceIoClose: Closing file fd: 0xC6
+[11:02:52.255] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:02:52.255] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0xC7
+[11:02:52.258] |T| [close_file]: sceIoClose: Closing file fd: 0xC7
+[11:03:04.152] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR01851_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR01851_00/TROPUSR.DAT), fd: 0xC8
+[11:03:04.154] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC8, size: 4
+[11:03:04.157] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC8, size: 16
+[11:03:04.158] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC8, size: 16
+[11:03:04.159] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC8, size: 4
+[11:03:04.160] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC8, size: 4
+[11:03:04.163] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC8, size: 4
+[11:03:04.163] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC8, size: 64
+[11:03:04.164] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC8, size: 1024
+[11:03:04.169] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0xC8, size: 512
+[11:03:04.169] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0xC8
+[11:03:04.178] |I| [do_trophy_callback]: Trophy unlocked, name: New Hope, detail: Let's rock!, id = 14
+[11:03:07.163] |W| [unimplemented_impl]: Unimplemented sceLiveAreaUpdateFrameAsync import called.
+[11:03:07.171] |W| [unimplemented_impl]: Unimplemented sceNpActivityInit import called.
+[11:03:07.172] |W| [unimplemented_impl]: Unimplemented sceNpActivityPostStatus import called.
+[11:03:07.181] |W| [unimplemented_impl]: Unimplemented sceNpActivityTerm import called.
+[11:03:07.236] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSE00029/data.bin), fd: 0xC9
+[11:03:07.244] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xC9, size: 51928
+[11:03:07.252] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xC9
+[11:03:07.256] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00029/SlotParam_0.bin), fd: 0xCA
+[11:03:07.260] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xCA, size: 844
+[11:03:07.264] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xCA
+[11:03:12.033] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/main_menu.lev
+[11:03:12.035] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/main_menu.lev (ux0:/app/PCSE00029/data/levels/main_menu.lev), fd: 0xCB
+[11:03:12.043] |T| [close_file]: sceIoClose: Closing file fd: 0xCB
+[11:03:12.060] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/main_menu.ld
+[11:03:12.075] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/main_menu.ld (ux0:/app/PCSE00029/data/levels/main_menu.ld), fd: 0xCC
+[11:03:12.086] |T| [close_file]: sceIoClose: Closing file fd: 0xCC
+[11:03:12.259] |I| [export_sceIoOpen]: Opening file: app0:/data/asteroids.lua
+[11:03:12.260] |T| [open_file]: sceIoOpen: Opening file app0:/data/asteroids.lua (ux0:/app/PCSE00029/data/asteroids.lua), fd: 0xCD
+[11:03:12.264] |T| [close_file]: sceIoClose: Closing file fd: 0xCD
+[11:03:12.283] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/main_menu.lua
+[11:03:12.284] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/main_menu.lua (ux0:/app/PCSE00029/data/levels/main_menu.lua), fd: 0xCE
+[11:03:12.291] |T| [close_file]: sceIoClose: Closing file fd: 0xCE
+[11:03:12.306] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:03:12.309] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0xCF
+[11:03:12.314] |T| [close_file]: sceIoClose: Closing file fd: 0xCF
+[11:03:12.408] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/main_menu.lua
+[11:03:12.410] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/main_menu.lua (ux0:/app/PCSE00029/data/levels/main_menu.lua), fd: 0xD0
+[11:03:12.421] |T| [close_file]: sceIoClose: Closing file fd: 0xD0
+[11:03:12.433] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:03:12.439] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0xD1
+[11:03:12.451] |T| [close_file]: sceIoClose: Closing file fd: 0xD1
+[11:03:12.862] |I| [export_sceIoOpen]: Opening file: app0:/data/score.xml
+[11:03:12.864] |T| [open_file]: sceIoOpen: Opening file app0:/data/score.xml (ux0:/app/PCSE00029/data/score.xml), fd: 0xD2
+[11:03:12.885] |T| [close_file]: sceIoClose: Closing file fd: 0xD2
+[11:03:12.903] |I| [export_sceIoOpen]: Opening file: app0:/data/sel_and_fire.xml
+[11:03:12.907] |T| [open_file]: sceIoOpen: Opening file app0:/data/sel_and_fire.xml (ux0:/app/PCSE00029/data/sel_and_fire.xml), fd: 0xD3
+[11:03:12.916] |T| [close_file]: sceIoClose: Closing file fd: 0xD3
+[11:03:12.938] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/ps_map16_tutorial_2.lev
+[11:03:12.939] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/ps_map16_tutorial_2.lev (ux0:/app/PCSE00029/data/levels/ps_map16_tutorial_2.lev), fd: 0xD4
+[11:03:12.956] |T| [close_file]: sceIoClose: Closing file fd: 0xD4
+[11:03:12.967] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/ps_map16_tutorial_2.ld
+[11:03:12.968] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/ps_map16_tutorial_2.ld (ux0:/app/PCSE00029/data/levels/ps_map16_tutorial_2.ld), fd: 0xD5
+[11:03:12.982] |T| [close_file]: sceIoClose: Closing file fd: 0xD5
+[11:03:13.190] |I| [export_sceIoOpen]: Opening file: app0:/data/asteroids.lua
+[11:03:13.190] |T| [open_file]: sceIoOpen: Opening file app0:/data/asteroids.lua (ux0:/app/PCSE00029/data/asteroids.lua), fd: 0xD6
+[11:03:13.205] |T| [close_file]: sceIoClose: Closing file fd: 0xD6
+[11:03:13.217] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/default_script.lua
+[11:03:13.218] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/default_script.lua (ux0:/app/PCSE00029/data/levels/default_script.lua), fd: 0xD7
+[11:03:13.242] |T| [close_file]: sceIoClose: Closing file fd: 0xD7
+[11:03:13.253] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:03:13.256] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0xD8
+[11:03:13.265] |T| [close_file]: sceIoClose: Closing file fd: 0xD8
+[11:03:13.337] |I| [export_sceIoOpen]: Opening file: app0:/data/levels/default_script.lua
+[11:03:13.338] |T| [open_file]: sceIoOpen: Opening file app0:/data/levels/default_script.lua (ux0:/app/PCSE00029/data/levels/default_script.lua), fd: 0xD9
+[11:03:13.342] |T| [close_file]: sceIoClose: Closing file fd: 0xD9
+[11:03:13.353] |I| [export_sceIoOpen]: Opening file: app0:/data/tutorial_common.lua
+[11:03:13.355] |T| [open_file]: sceIoOpen: Opening file app0:/data/tutorial_common.lua (ux0:/app/PCSE00029/data/tutorial_common.lua), fd: 0xDA
+[11:03:13.363] |T| [close_file]: sceIoClose: Closing file fd: 0xDA

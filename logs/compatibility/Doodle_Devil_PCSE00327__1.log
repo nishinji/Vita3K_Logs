@@ -1,0 +1,1415 @@
+[10:08:50.206] |I| [config::init_config]: backend-renderer: Vulkan
+[10:08:50.208] |I| [config::init_config]: log-level: 0
+[10:08:50.273] |I| [SDL_main]: Vita3K v0.1.6 2858-ad2e287f
+[10:08:50.274] |I| [SDL_main]: Number of logical CPU cores: 8
+[10:08:50.276] |I| [SDL_main]: Available ram memory: 16215 MiB
+[10:08:50.658] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[10:08:50.822] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060 Laptop GPU
+[10:08:50.823] |I| [renderer::vulkan::VKState::create]: Driver version: 516.94.0.0
+[10:08:51.434] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[10:09:00.133] |I| [load_app_impl]: cpu-backend: Dynarmic
+[10:09:00.133] |I| [load_app_impl]: CPU Optimisation state: true
+[10:09:00.133] |I| [load_app_impl]: ngs state: true
+[10:09:00.133] |I| [load_app_impl]: Resolution multiplier: 1
+[10:09:00.134] |I| [load_app_impl]: modules mode: Auto & Manual
+[10:09:00.134] |I| [load_app_impl]: lle-modules: libhttp
+[10:09:00.134] |I| [load_app_impl]: Title: Doodle Devil
+[10:09:00.134] |I| [load_app_impl]: Serial: PCSE00327
+[10:09:00.136] |I| [load_app_impl]: Version: 1.00
+[10:09:00.136] |I| [load_app_impl]: Category: gd
+[10:09:00.161] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6FFFFF01...
+[10:09:00.162] |I| [load_self]: Loaded module segment 0 @ [0x00004000 - 0x000513BC / 0x81000000] (size: 0x0004D3BC) of module app0:sce_module/libc.suprx
+[10:09:00.162] |I| [load_self]: Loaded module segment 1 @ [0x00052000 - 0x000546F0 / 0x8104E000] (size: 0x000026F0) of module app0:sce_module/libc.suprx
+[10:09:00.162] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[10:09:00.163] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x47164
+[10:09:00.164] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3D0FC
+[10:09:00.164] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x410BC, setting to stub value 0xDEADBEEF
+[10:09:00.165] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x42B70, setting to stub value 0xDEADBEEF
+[10:09:00.168] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[10:09:00.181] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6FFFFF01...
+[10:09:00.181] |I| [load_self]: Loaded module segment 0 @ [0x00057000 - 0x0008212C / 0x81000000] (size: 0x0002B12C) of module app0:sce_module/libfios2.suprx
+[10:09:00.185] |I| [load_self]: Loaded module segment 1 @ [0x00083000 - 0x0008823D / 0x8102C000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[10:09:00.186] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[10:09:00.187] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x82034
+[10:09:00.191] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x79548
+[10:09:00.191] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[10:09:00.201] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6FFFFF01...
+[10:09:00.202] |I| [load_self]: Loaded module segment 0 @ [0x00089000 - 0x0009C84C / 0x81000000] (size: 0x0001384C) of module app0:sce_module/libult.suprx
+[10:09:00.207] |I| [load_self]: Loaded module segment 1 @ [0x0009D000 - 0x0009D814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[10:09:00.212] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[10:09:00.212] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x9B1A8
+[10:09:00.213] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x98738
+[10:09:00.215] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[10:09:00.230] |I| [load_self]: Loaded module segment 0 @ [0x0009E000 - 0x000EEF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[10:09:00.231] |I| [load_self]: Loaded module segment 1 @ [0x000EF000 - 0x000EF2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[10:09:00.239] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[10:09:00.241] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xDA7DC
+[10:09:00.243] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xD9F10
+[10:09:00.245] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[10:09:00.253] |I| [load_self]: Loaded module segment 0 @ [0x000F0000 - 0x000FFF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[10:09:00.254] |I| [load_self]: Loaded module segment 1 @ [0x00100000 - 0x00100008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[10:09:00.257] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[10:09:00.258] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xFE710
+[10:09:00.259] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xFE300
+[10:09:00.260] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[10:09:00.299] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6FFFFF01...
+[10:09:00.299] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x810E71D0 / 0x81000000] (size: 0x000E71D0) of module app0:eboot.bin
+[10:09:00.301] |I| [load_self]: Loaded module segment 1 @ [0x810E8000 - 0x810F2364 / 0x810E8000] (size: 0x0000A364) of module app0:eboot.bin
+[10:09:00.302] |I| [load_self]: Linking SELF app0:eboot.bin...
+[10:09:00.305] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x810C17E8
+[10:09:00.307] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x810E880C
+[10:09:00.309] |I| [load_app_impl]: Main executable doodle_devil_vita (eboot.bin) loaded
+[10:09:00.311] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[10:09:00.316] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[10:09:00.321] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/4
+[10:09:00.326] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/4
+[10:09:00.334] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/4
+[10:09:00.339] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/4
+[10:09:00.372] |D| [run_app]: Running module_start of library: SceLibc at address 0x4809
+[10:09:00.403] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[10:09:00.404] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[10:09:00.414] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[10:09:00.430] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[10:09:00.438] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x57001
+[10:09:00.466] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[10:09:00.468] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[10:09:00.477] |D| [run_app]: Running module_start of library: SceUlt at address 0x8C661
+[10:09:00.505] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[10:09:00.506] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[10:09:00.710] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[10:09:00.711] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[10:09:00.959] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[10:09:01.016] |T| [write_file]: *** TTY: ...sceNgsSystemInit() OK
+[10:09:01.041] |T| [write_file]: *** TTY: prepareAudioOut: sending output to audio port 1
+[10:09:01.081] |T| [write_file]: *** TTY: startAudioUpdateThread: started AudioUpdateThread
+[10:09:01.085] |T| [export_sceNgsPatchCreateRouting]: Patching 0x14B4D0:0:0 to 0x14B2C0:0
+[10:09:01.087] |T| [write_file]: *** TTY: _AudioOutputThread running
+[10:09:01.176] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/bkg_4_3.png
+[10:09:01.177] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/bkg_4_3.png (ux0:/app/PCSE00327/resources/Content/Interface/bkg_4_3.png), fd: 0x3
+[10:09:01.185] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[10:09:01.483] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/cursor.png
+[10:09:01.484] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/cursor.png (ux0:/app/PCSE00327/resources/Content/Interface/cursor.png), fd: 0x4
+[10:09:01.486] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[10:09:01.493] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PS Buttons/cross_button.png
+[10:09:01.494] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PS Buttons/cross_button.png (ux0:/app/PCSE00327/resources/Content/PS Buttons/cross_button.png), fd: 0x5
+[10:09:01.502] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[10:09:01.512] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PS Buttons/square_button.png
+[10:09:01.513] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PS Buttons/square_button.png (ux0:/app/PCSE00327/resources/Content/PS Buttons/square_button.png), fd: 0x6
+[10:09:01.520] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[10:09:01.527] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PS Buttons/triangle_button.png
+[10:09:01.529] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PS Buttons/triangle_button.png (ux0:/app/PCSE00327/resources/Content/PS Buttons/triangle_button.png), fd: 0x7
+[10:09:01.534] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[10:09:01.541] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PS Buttons/circle_button.png
+[10:09:01.541] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PS Buttons/circle_button.png (ux0:/app/PCSE00327/resources/Content/PS Buttons/circle_button.png), fd: 0x8
+[10:09:01.549] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[10:09:01.561] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PS Buttons/r_button.png
+[10:09:01.562] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PS Buttons/r_button.png (ux0:/app/PCSE00327/resources/Content/PS Buttons/r_button.png), fd: 0x9
+[10:09:01.568] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[10:09:01.571] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PS Buttons/l_button.png
+[10:09:01.574] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PS Buttons/l_button.png (ux0:/app/PCSE00327/resources/Content/PS Buttons/l_button.png), fd: 0xA
+[10:09:01.582] |T| [close_file]: sceIoClose: Closing file fd: 0xA
+[10:09:01.586] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PS Buttons/start_button.png
+[10:09:01.587] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PS Buttons/start_button.png (ux0:/app/PCSE00327/resources/Content/PS Buttons/start_button.png), fd: 0xB
+[10:09:01.596] |T| [close_file]: sceIoClose: Closing file fd: 0xB
+[10:09:01.609] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PS Buttons/stick.png
+[10:09:01.611] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PS Buttons/stick.png (ux0:/app/PCSE00327/resources/Content/PS Buttons/stick.png), fd: 0xC
+[10:09:01.615] |T| [close_file]: sceIoClose: Closing file fd: 0xC
+[10:09:01.619] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PS Buttons/d_pad.png
+[10:09:01.623] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PS Buttons/d_pad.png (ux0:/app/PCSE00327/resources/Content/PS Buttons/d_pad.png), fd: 0xD
+[10:09:01.631] |T| [close_file]: sceIoClose: Closing file fd: 0xD
+[10:09:01.680] |T| [open_dir]: _sceIoDopen: Opening dir app0:/resources/Content/loc (ux0:/app/PCSE00327/resources/Content/loc), fd: 0xE
+[10:09:01.681] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/br of fd: 0xE
+[10:09:01.690] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/ch of fd: 0xE
+[10:09:01.692] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/de of fd: 0xE
+[10:09:01.693] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/en of fd: 0xE
+[10:09:01.694] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/es of fd: 0xE
+[10:09:01.695] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/fr of fd: 0xE
+[10:09:01.696] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/it of fd: 0xE
+[10:09:01.697] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/jp of fd: 0xE
+[10:09:01.703] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/kr of fd: 0xE
+[10:09:01.704] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/multi.xml of fd: 0xE
+[10:09:01.709] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/nl of fd: 0xE
+[10:09:01.711] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/pl of fd: 0xE
+[10:09:01.715] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/ru of fd: 0xE
+[10:09:01.717] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/sv of fd: 0xE
+[10:09:01.722] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xE
+[10:09:01.755] |T| [open_dir]: _sceIoDopen: Opening dir app0:/resources/Content/loc/en (ux0:/app/PCSE00327/resources/Content/loc/en), fd: 0xF
+[10:09:01.757] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/en/credits.xml of fd: 0xF
+[10:09:01.766] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/en/elements.xml of fd: 0xF
+[10:09:01.770] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/en/interface.xml of fd: 0xF
+[10:09:01.771] |T| [read_dir]: _sceIoDread: Reading entry app0:/resources/Content/loc/en/quotes.csv of fd: 0xF
+[10:09:01.773] |T| [close_dir]: sceIoDclose: Closing dir fd: 0xF
+[10:09:01.785] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/loc/en/credits.xml
+[10:09:01.788] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/loc/en/credits.xml (ux0:/app/PCSE00327/resources/Content/loc/en/credits.xml), fd: 0x10
+[10:09:01.796] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[10:09:01.863] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/loc/en/elements.xml
+[10:09:01.863] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/loc/en/elements.xml (ux0:/app/PCSE00327/resources/Content/loc/en/elements.xml), fd: 0x11
+[10:09:01.865] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[10:09:01.910] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/loc/en/interface.xml
+[10:09:01.911] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/loc/en/interface.xml (ux0:/app/PCSE00327/resources/Content/loc/en/interface.xml), fd: 0x12
+[10:09:01.913] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[10:09:01.983] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/loc/multi.xml
+[10:09:01.984] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/loc/multi.xml (ux0:/app/PCSE00327/resources/Content/loc/multi.xml), fd: 0x13
+[10:09:01.985] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[10:09:02.032] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/loc/en/quotes.csv
+[10:09:02.032] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/loc/en/quotes.csv (ux0:/app/PCSE00327/resources/Content/loc/en/quotes.csv), fd: 0x14
+[10:09:02.037] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[10:09:02.310] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/not_opened_element.png
+[10:09:02.311] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/not_opened_element.png (ux0:/app/PCSE00327/resources/Content/Interface/not_opened_element.png), fd: 0x15
+[10:09:02.313] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[10:09:02.317] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/new1.png
+[10:09:02.318] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/new1.png (ux0:/app/PCSE00327/resources/Content/Interface/new1.png), fd: 0x16
+[10:09:02.322] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[10:09:02.324] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/new2.png
+[10:09:02.325] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/new2.png (ux0:/app/PCSE00327/resources/Content/Interface/new2.png), fd: 0x17
+[10:09:02.326] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[10:09:02.329] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/new3.png
+[10:09:02.330] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/new3.png (ux0:/app/PCSE00327/resources/Content/Interface/new3.png), fd: 0x18
+[10:09:02.332] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[10:09:02.335] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/scroller.png
+[10:09:02.338] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/scroller.png (ux0:/app/PCSE00327/resources/Content/Interface/scroller.png), fd: 0x19
+[10:09:02.340] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[10:09:02.342] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/plus.png
+[10:09:02.343] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/plus.png (ux0:/app/PCSE00327/resources/Content/Interface/plus.png), fd: 0x1A
+[10:09:02.345] |T| [close_file]: sceIoClose: Closing file fd: 0x1A
+[10:09:02.347] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/equal.png
+[10:09:02.347] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/equal.png (ux0:/app/PCSE00327/resources/Content/Interface/equal.png), fd: 0x1B
+[10:09:02.354] |T| [close_file]: sceIoClose: Closing file fd: 0x1B
+[10:09:02.358] |W| [unimplemented_impl]: Unimplemented sceMotionStopSampling import called.
+[10:09:02.360] |W| [unimplemented_impl]: Unimplemented sceMotionMagnetometerOff import called.
+[10:09:02.420] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/game.xml
+[10:09:02.421] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/game.xml (ux0:/app/PCSE00327/resources/Content/game.xml), fd: 0x1C
+[10:09:02.430] |T| [close_file]: sceIoClose: Closing file fd: 0x1C
+[10:09:02.475] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain28.xml
+[10:09:02.476] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain28.xml (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain28.xml), fd: 0x1D
+[10:09:02.478] |T| [close_file]: sceIoClose: Closing file fd: 0x1D
+[10:09:02.530] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain28.png
+[10:09:02.530] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain28.png (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain28.png), fd: 0x1E
+[10:09:02.532] |T| [close_file]: sceIoClose: Closing file fd: 0x1E
+[10:09:02.622] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain23.xml
+[10:09:02.623] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain23.xml (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain23.xml), fd: 0x1F
+[10:09:02.626] |T| [close_file]: sceIoClose: Closing file fd: 0x1F
+[10:09:02.666] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain23.png
+[10:09:02.668] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain23.png (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain23.png), fd: 0x20
+[10:09:02.670] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[10:09:02.741] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain28.txt
+[10:09:02.742] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain28.txt (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain28.txt), fd: 0x21
+[10:09:02.744] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[10:09:02.797] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/_lamebrain28.png
+[10:09:02.798] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/_lamebrain28.png (ux0:/app/PCSE00327/resources/Content/Fonts/_lamebrain28.png), fd: 0x22
+[10:09:02.800] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[10:09:02.860] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain34.xml
+[10:09:02.861] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain34.xml (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain34.xml), fd: 0x23
+[10:09:02.863] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[10:09:02.902] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain34.png
+[10:09:02.903] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain34.png (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain34.png), fd: 0x24
+[10:09:02.905] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[10:09:02.982] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain14.xml
+[10:09:02.983] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain14.xml (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain14.xml), fd: 0x25
+[10:09:02.985] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[10:09:03.022] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain14.png
+[10:09:03.023] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain14.png (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain14.png), fd: 0x26
+[10:09:03.025] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[10:09:03.083] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain20.xml
+[10:09:03.083] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain20.xml (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain20.xml), fd: 0x27
+[10:09:03.086] |T| [close_file]: sceIoClose: Closing file fd: 0x27
+[10:09:03.125] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Fonts/lamebrain20.png
+[10:09:03.126] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Fonts/lamebrain20.png (ux0:/app/PCSE00327/resources/Content/Fonts/lamebrain20.png), fd: 0x28
+[10:09:03.127] |T| [close_file]: sceIoClose: Closing file fd: 0x28
+[10:09:03.217] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/Background.xml
+[10:09:03.218] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/Background.xml (ux0:/app/PCSE00327/resources/Content/Interface/Background.xml), fd: 0x29
+[10:09:03.219] |T| [close_file]: sceIoClose: Closing file fd: 0x29
+[10:09:03.237] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/bkg_2.png
+[10:09:03.238] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/bkg_2.png (ux0:/app/PCSE00327/resources/Content/Interface/bkg_2.png), fd: 0x2A
+[10:09:03.243] |T| [close_file]: sceIoClose: Closing file fd: 0x2A
+[10:09:03.532] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/book_2.png
+[10:09:03.533] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/book_2.png (ux0:/app/PCSE00327/resources/Content/Interface/book_2.png), fd: 0x2B
+[10:09:03.544] |T| [close_file]: sceIoClose: Closing file fd: 0x2B
+[10:09:03.889] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/up_board_2.png
+[10:09:03.890] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/up_board_2.png (ux0:/app/PCSE00327/resources/Content/Interface/up_board_2.png), fd: 0x2C
+[10:09:03.892] |T| [close_file]: sceIoClose: Closing file fd: 0x2C
+[10:09:03.909] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/splash.xml
+[10:09:03.909] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/splash.xml (ux0:/app/PCSE00327/resources/Content/Splash/splash.xml), fd: 0x2D
+[10:09:03.915] |T| [close_file]: sceIoClose: Closing file fd: 0x2D
+[10:09:03.931] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/bkg_splash.png
+[10:09:03.932] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/bkg_splash.png (ux0:/app/PCSE00327/resources/Content/Splash/bkg_splash.png), fd: 0x2E
+[10:09:03.939] |T| [close_file]: sceIoClose: Closing file fd: 0x2E
+[10:09:04.246] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/8floor_splash.png
+[10:09:04.247] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/8floor_splash.png (ux0:/app/PCSE00327/resources/Content/Splash/8floor_splash.png), fd: 0x2F
+[10:09:04.253] |T| [close_file]: sceIoClose: Closing file fd: 0x2F
+[10:09:04.324] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/bkg_splash_spl.png
+[10:09:04.325] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/bkg_splash_spl.png (ux0:/app/PCSE00327/resources/Content/Splash/bkg_splash_spl.png), fd: 0x30
+[10:09:04.328] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[10:09:04.404] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/load_anim_01.png
+[10:09:04.405] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/load_anim_01.png (ux0:/app/PCSE00327/resources/Content/Splash/load_anim_01.png), fd: 0x31
+[10:09:04.410] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[10:09:04.435] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/load_anim_02.png
+[10:09:04.435] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/load_anim_02.png (ux0:/app/PCSE00327/resources/Content/Splash/load_anim_02.png), fd: 0x32
+[10:09:04.443] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[10:09:04.462] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/load_anim_03.png
+[10:09:04.465] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/load_anim_03.png (ux0:/app/PCSE00327/resources/Content/Splash/load_anim_03.png), fd: 0x33
+[10:09:04.473] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[10:09:04.492] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/load_anim_04.png
+[10:09:04.493] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/load_anim_04.png (ux0:/app/PCSE00327/resources/Content/Splash/load_anim_04.png), fd: 0x34
+[10:09:04.509] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[10:09:04.533] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/load_anim_05.png
+[10:09:04.534] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/load_anim_05.png (ux0:/app/PCSE00327/resources/Content/Splash/load_anim_05.png), fd: 0x35
+[10:09:04.545] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[10:09:04.561] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/load_anim_06.png
+[10:09:04.563] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/load_anim_06.png (ux0:/app/PCSE00327/resources/Content/Splash/load_anim_06.png), fd: 0x36
+[10:09:04.567] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[10:09:04.581] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Splash/load_anim_07.png
+[10:09:04.582] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Splash/load_anim_07.png (ux0:/app/PCSE00327/resources/Content/Splash/load_anim_07.png), fd: 0x37
+[10:09:04.590] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[10:09:04.652] |T| [open_file]: sceSaveDataDialogInit: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x38
+[10:09:04.653] |T| [close_file]: sceSaveDataDialogInit: Closing file fd: 0x38
+[10:09:04.658] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x39
+[10:09:04.668] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x39
+[10:09:04.670] |W| [unimplemented_impl]: Unimplemented sceStoreCheckoutDialogGetStatus import called.
+[10:09:04.683] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[10:09:04.732] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[10:09:07.410] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x3A
+[10:09:07.414] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x3A
+[10:09:08.091] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x3B
+[10:09:08.096] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x3B
+[10:09:09.075] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x3C
+[10:09:09.084] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x3C
+[10:09:09.561] |I| [load_module]: Loading module ID: 0x4
+[10:09:09.571] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6FFFFF01...
+[10:09:09.572] |I| [load_self]: Loaded module segment 0 @ [0x0CFA7000 - 0x0CFC4150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[10:09:09.578] |I| [load_self]: Loaded module segment 1 @ [0x07276000 - 0x07276640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[10:09:09.582] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[10:09:09.588] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xCFC2E68
+[10:09:09.595] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xCFBFCA0
+[10:09:09.596] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[10:09:09.601] |D| [load_module]: Running module_start of module: SceLibHttp
+[10:09:09.609] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[10:09:09.638] |I| [load_self]: Loaded module segment 0 @ [0x0CFC5000 - 0x0D02BEA4 / 0x81000000] (size: 0x00066EA4) of module sys/external/libssl.suprx
+[10:09:09.641] |I| [load_self]: Loaded module segment 1 @ [0x0B312000 - 0x0B317188 / 0x81067000] (size: 0x00005188) of module sys/external/libssl.suprx
+[10:09:09.643] |I| [load_self]: Linking SELF sys/external/libssl.suprx...
+[10:09:09.648] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xD0179B0
+[10:09:09.649] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xD011C70
+[10:09:09.651] |I| [load_module]: Module SceLibSsl (at "sys/external/libssl.suprx") loaded
+[10:09:09.654] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[10:09:09.656] |T| [log_import_call]: [LLE] TID: 47  FUNC: 0x3C733316 sceSslInit at 0x810BFADC
+[10:09:09.664] |T| [log_import_call]: [LLE] TID: 47  FUNC: 0x214926D9 sceHttpInit at 0x810BFB0C
+[10:09:09.676] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2Init import called.
+[10:09:09.711] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR05243_00/TROPHY.TRP (ux0:/app/PCSE00327/sce_sys/trophy/NPWR05243_00/TROPHY.TRP), fd: 0x3D
+[10:09:09.713] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR05243_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR05243_00/TROPUSR.DAT), fd: 0x3E
+[10:09:09.719] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROPCONF.SFM), fd: 0x3F
+[10:09:09.725] |T| [write_file]: install_trophy_context: Writing to fd: 0x3F, size: 1228
+[10:09:09.727] |T| [close_file]: install_trophy_context: Closing file fd: 0x3F
+[10:09:09.733] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROP.SFM), fd: 0x40
+[10:09:09.734] |T| [write_file]: install_trophy_context: Writing to fd: 0x40, size: 2542
+[10:09:09.741] |T| [close_file]: install_trophy_context: Closing file fd: 0x40
+[10:09:09.743] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP_00.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROP_00.SFM), fd: 0x41
+[10:09:09.747] |T| [write_file]: install_trophy_context: Writing to fd: 0x41, size: 2837
+[10:09:09.747] |T| [close_file]: install_trophy_context: Closing file fd: 0x41
+[10:09:09.749] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROP_02.SFM), fd: 0x42
+[10:09:09.760] |T| [write_file]: install_trophy_context: Writing to fd: 0x42, size: 2679
+[10:09:09.764] |T| [close_file]: install_trophy_context: Closing file fd: 0x42
+[10:09:09.767] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROP_03.SFM), fd: 0x43
+[10:09:09.776] |T| [write_file]: install_trophy_context: Writing to fd: 0x43, size: 2623
+[10:09:09.778] |T| [close_file]: install_trophy_context: Closing file fd: 0x43
+[10:09:09.780] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROP_04.SFM), fd: 0x44
+[10:09:09.792] |T| [write_file]: install_trophy_context: Writing to fd: 0x44, size: 2626
+[10:09:09.793] |T| [close_file]: install_trophy_context: Closing file fd: 0x44
+[10:09:09.797] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROP_05.SFM), fd: 0x45
+[10:09:09.803] |T| [write_file]: install_trophy_context: Writing to fd: 0x45, size: 2578
+[10:09:09.806] |T| [close_file]: install_trophy_context: Closing file fd: 0x45
+[10:09:09.808] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP_06.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROP_06.SFM), fd: 0x46
+[10:09:09.812] |T| [write_file]: install_trophy_context: Writing to fd: 0x46, size: 2561
+[10:09:09.820] |T| [close_file]: install_trophy_context: Closing file fd: 0x46
+[10:09:09.822] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP_08.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROP_08.SFM), fd: 0x47
+[10:09:09.828] |T| [write_file]: install_trophy_context: Writing to fd: 0x47, size: 2970
+[10:09:09.829] |T| [close_file]: install_trophy_context: Closing file fd: 0x47
+[10:09:09.836] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP_13.SFM (ux0:/user/00/trophy/conf/NPWR05243_00/TROP_13.SFM), fd: 0x48
+[10:09:09.840] |T| [write_file]: install_trophy_context: Writing to fd: 0x48, size: 2509
+[10:09:09.845] |T| [close_file]: install_trophy_context: Closing file fd: 0x48
+[10:09:09.861] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/ICON0.PNG), fd: 0x49
+[10:09:09.875] |T| [write_file]: install_trophy_context: Writing to fd: 0x49, size: 72232
+[10:09:09.880] |T| [close_file]: install_trophy_context: Closing file fd: 0x49
+[10:09:09.885] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP000.PNG), fd: 0x4A
+[10:09:09.904] |T| [write_file]: install_trophy_context: Writing to fd: 0x4A, size: 60619
+[10:09:09.905] |T| [close_file]: install_trophy_context: Closing file fd: 0x4A
+[10:09:09.915] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP001.PNG), fd: 0x4B
+[10:09:09.935] |T| [write_file]: install_trophy_context: Writing to fd: 0x4B, size: 57666
+[10:09:09.943] |T| [close_file]: install_trophy_context: Closing file fd: 0x4B
+[10:09:09.947] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP002.PNG), fd: 0x4C
+[10:09:09.951] |T| [write_file]: install_trophy_context: Writing to fd: 0x4C, size: 64036
+[10:09:09.952] |T| [close_file]: install_trophy_context: Closing file fd: 0x4C
+[10:09:09.958] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP003.PNG), fd: 0x4D
+[10:09:09.966] |T| [write_file]: install_trophy_context: Writing to fd: 0x4D, size: 65207
+[10:09:09.967] |T| [close_file]: install_trophy_context: Closing file fd: 0x4D
+[10:09:09.972] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP004.PNG), fd: 0x4E
+[10:09:09.977] |T| [write_file]: install_trophy_context: Writing to fd: 0x4E, size: 64633
+[10:09:09.978] |T| [close_file]: install_trophy_context: Closing file fd: 0x4E
+[10:09:09.980] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP005.PNG), fd: 0x4F
+[10:09:09.991] |T| [write_file]: install_trophy_context: Writing to fd: 0x4F, size: 60513
+[10:09:09.995] |T| [close_file]: install_trophy_context: Closing file fd: 0x4F
+[10:09:10.005] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP006.PNG), fd: 0x50
+[10:09:10.014] |T| [write_file]: install_trophy_context: Writing to fd: 0x50, size: 55551
+[10:09:10.025] |T| [close_file]: install_trophy_context: Closing file fd: 0x50
+[10:09:10.027] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP007.PNG), fd: 0x51
+[10:09:10.032] |T| [write_file]: install_trophy_context: Writing to fd: 0x51, size: 62569
+[10:09:10.033] |T| [close_file]: install_trophy_context: Closing file fd: 0x51
+[10:09:10.036] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP008.PNG), fd: 0x52
+[10:09:10.039] |T| [write_file]: install_trophy_context: Writing to fd: 0x52, size: 70989
+[10:09:10.040] |T| [close_file]: install_trophy_context: Closing file fd: 0x52
+[10:09:10.043] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP009.PNG), fd: 0x53
+[10:09:10.051] |T| [write_file]: install_trophy_context: Writing to fd: 0x53, size: 70781
+[10:09:10.052] |T| [close_file]: install_trophy_context: Closing file fd: 0x53
+[10:09:10.057] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP010.PNG), fd: 0x54
+[10:09:10.068] |T| [write_file]: install_trophy_context: Writing to fd: 0x54, size: 77060
+[10:09:10.071] |T| [close_file]: install_trophy_context: Closing file fd: 0x54
+[10:09:10.074] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP011.PNG), fd: 0x55
+[10:09:10.082] |T| [write_file]: install_trophy_context: Writing to fd: 0x55, size: 56397
+[10:09:10.085] |T| [close_file]: install_trophy_context: Closing file fd: 0x55
+[10:09:10.090] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05243_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR05243_00/TROP012.PNG), fd: 0x56
+[10:09:10.096] |T| [write_file]: install_trophy_context: Writing to fd: 0x56, size: 55471
+[10:09:10.098] |T| [close_file]: install_trophy_context: Closing file fd: 0x56
+[10:09:10.102] |T| [close_file]: create_trophy_context: Closing file fd: 0x3E
+[10:09:10.105] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR05243_00 create successfuly!
+[10:09:10.112] |W| [unimplemented_impl]: Unimplemented sceNpActivityInit import called.
+[10:09:10.119] |W| [unimplemented_impl]: Unimplemented sceNpSnsFacebookInit import called.
+[10:09:10.121] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
+[10:09:10.196] |E| [logging::ret_error_impl]: sceNetInit returned SCE_NET_ERROR_EBUSY (0x80410110)
+[10:09:10.197] |E| [logging::ret_error_impl]: sceNetCtlInit returned SCE_NET_CTL_ERROR_NOT_TERMINATED (0x80412102)
+[10:09:10.198] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[10:09:10.199] |E| [call_import]: Import function for NID 0xE340CCFB not found (thread name: Toolkit::NP, thread ID: 63)
+[10:09:10.200] |E| [call_import]: Import function for NID 0xE340CD00 not found (thread name: Toolkit::NP, thread ID: 63)
+[10:09:10.206] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[10:09:10.210] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
+[10:09:10.234] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Abstract.png
+[10:09:10.235] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Abstract.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Abstract.png), fd: 0x57
+[10:09:10.238] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[10:09:10.247] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[10:09:10.253] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[10:09:10.258] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[10:09:10.283] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Empty.png
+[10:09:10.283] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Empty.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Empty.png), fd: 0x58
+[10:09:10.302] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[10:09:10.316] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Evil.png
+[10:09:10.317] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Evil.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Evil.png), fd: 0x59
+[10:09:10.323] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[10:09:10.353] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Fantasy.png
+[10:09:10.355] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Fantasy.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Fantasy.png), fd: 0x5A
+[10:09:10.364] |T| [close_file]: sceIoClose: Closing file fd: 0x5A
+[10:09:10.384] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Food.png
+[10:09:10.385] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Food.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Food.png), fd: 0x5B
+[10:09:10.393] |T| [close_file]: sceIoClose: Closing file fd: 0x5B
+[10:09:10.425] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Good.png
+[10:09:10.426] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Good.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Good.png), fd: 0x5C
+[10:09:10.431] |T| [close_file]: sceIoClose: Closing file fd: 0x5C
+[10:09:10.454] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Hitec.png
+[10:09:10.455] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Hitec.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Hitec.png), fd: 0x5D
+[10:09:10.465] |T| [close_file]: sceIoClose: Closing file fd: 0x5D
+[10:09:10.489] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Human.png
+[10:09:10.490] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Human.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Human.png), fd: 0x5E
+[10:09:10.500] |T| [close_file]: sceIoClose: Closing file fd: 0x5E
+[10:09:10.506] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Science.png
+[10:09:10.508] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Science.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Science.png), fd: 0x5F
+[10:09:10.509] |T| [close_file]: sceIoClose: Closing file fd: 0x5F
+[10:09:10.530] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Scifi.png
+[10:09:10.531] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Scifi.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Scifi.png), fd: 0x60
+[10:09:10.537] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[10:09:10.555] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Social.png
+[10:09:10.556] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Social.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Social.png), fd: 0x61
+[10:09:10.561] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[10:09:10.586] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Tools.png
+[10:09:10.588] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Tools.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Tools.png), fd: 0x62
+[10:09:10.594] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[10:09:10.625] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[10:09:10.628] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/main.at9
+[10:09:10.629] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/main.at9 (ux0:/app/PCSE00327/resources/Content/Sounds/main.at9), fd: 0x63
+[10:09:10.646] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[10:09:10.657] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/game.xml
+[10:09:10.658] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/game.xml (ux0:/app/PCSE00327/resources/Content/game.xml), fd: 0x64
+[10:09:10.664] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[10:09:10.744] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/click.wav
+[10:09:10.745] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/click.wav (ux0:/app/PCSE00327/resources/Content/Sounds/click.wav), fd: 0x65
+[10:09:10.748] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[10:09:10.750] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92A8080:0:0 to 0x14B2C0:0
+[10:09:10.772] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/element_click.wav
+[10:09:10.773] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/element_click.wav (ux0:/app/PCSE00327/resources/Content/Sounds/element_click.wav), fd: 0x66
+[10:09:10.785] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[10:09:10.789] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92A8590:0:0 to 0x14B2C0:0
+[10:09:10.799] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/flight.wav
+[10:09:10.801] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/flight.wav (ux0:/app/PCSE00327/resources/Content/Sounds/flight.wav), fd: 0x67
+[10:09:10.810] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[10:09:10.814] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92A8AA0:0:0 to 0x14B2C0:0
+[10:09:10.824] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/hint.wav
+[10:09:10.827] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/hint.wav (ux0:/app/PCSE00327/resources/Content/Sounds/hint.wav), fd: 0x68
+[10:09:10.830] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[10:09:10.836] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92A8FB0:0:0 to 0x14B2C0:0
+[10:09:10.847] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/hint_recharged.wav
+[10:09:10.848] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/hint_recharged.wav (ux0:/app/PCSE00327/resources/Content/Sounds/hint_recharged.wav), fd: 0x69
+[10:09:10.852] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[10:09:10.853] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92A94C0:0:0 to 0x14B2C0:0
+[10:09:10.861] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/move.wav
+[10:09:10.862] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/move.wav (ux0:/app/PCSE00327/resources/Content/Sounds/move.wav), fd: 0x6A
+[10:09:10.865] |T| [close_file]: sceIoClose: Closing file fd: 0x6A
+[10:09:10.872] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92A99D0:0:0 to 0x14B2C0:0
+[10:09:10.877] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/flash_v1.wav
+[10:09:10.880] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/flash_v1.wav (ux0:/app/PCSE00327/resources/Content/Sounds/flash_v1.wav), fd: 0x6B
+[10:09:10.885] |T| [close_file]: sceIoClose: Closing file fd: 0x6B
+[10:09:10.886] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92A9EE0:0:0 to 0x14B2C0:0
+[10:09:10.893] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/flash_v2.wav
+[10:09:10.900] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/flash_v2.wav (ux0:/app/PCSE00327/resources/Content/Sounds/flash_v2.wav), fd: 0x6C
+[10:09:10.904] |T| [close_file]: sceIoClose: Closing file fd: 0x6C
+[10:09:10.907] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AA3F0:0:0 to 0x14B2C0:0
+[10:09:10.914] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/flash_v4.wav
+[10:09:10.923] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/flash_v4.wav (ux0:/app/PCSE00327/resources/Content/Sounds/flash_v4.wav), fd: 0x6D
+[10:09:10.934] |T| [close_file]: sceIoClose: Closing file fd: 0x6D
+[10:09:10.938] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AA900:0:0 to 0x14B2C0:0
+[10:09:10.942] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/new_element_v1.wav
+[10:09:10.948] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/new_element_v1.wav (ux0:/app/PCSE00327/resources/Content/Sounds/new_element_v1.wav), fd: 0x6E
+[10:09:10.954] |T| [close_file]: sceIoClose: Closing file fd: 0x6E
+[10:09:10.966] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AAE10:0:0 to 0x14B2C0:0
+[10:09:10.971] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/new_element_v1.wav
+[10:09:10.976] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/new_element_v1.wav (ux0:/app/PCSE00327/resources/Content/Sounds/new_element_v1.wav), fd: 0x6F
+[10:09:10.985] |T| [close_file]: sceIoClose: Closing file fd: 0x6F
+[10:09:10.993] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AB320:0:0 to 0x14B2C0:0
+[10:09:11.002] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/new_element_v1.wav
+[10:09:11.007] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/new_element_v1.wav (ux0:/app/PCSE00327/resources/Content/Sounds/new_element_v1.wav), fd: 0x70
+[10:09:11.013] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[10:09:11.015] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AB830:0:0 to 0x14B2C0:0
+[10:09:11.017] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/old_element_v1.wav
+[10:09:11.022] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/old_element_v1.wav (ux0:/app/PCSE00327/resources/Content/Sounds/old_element_v1.wav), fd: 0x71
+[10:09:11.028] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[10:09:11.029] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92ABD40:0:0 to 0x14B2C0:0
+[10:09:11.031] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/old_element_v2.wav
+[10:09:11.032] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/old_element_v2.wav (ux0:/app/PCSE00327/resources/Content/Sounds/old_element_v2.wav), fd: 0x72
+[10:09:11.038] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[10:09:11.042] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AC250:0:0 to 0x14B2C0:0
+[10:09:11.044] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/wrong_click.wav
+[10:09:11.048] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/wrong_click.wav (ux0:/app/PCSE00327/resources/Content/Sounds/wrong_click.wav), fd: 0x73
+[10:09:11.054] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[10:09:11.059] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AC760:0:0 to 0x14B2C0:0
+[10:09:11.072] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/no.wav
+[10:09:11.076] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/no.wav (ux0:/app/PCSE00327/resources/Content/Sounds/no.wav), fd: 0x74
+[10:09:11.090] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[10:09:11.093] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92ACC70:0:0 to 0x14B2C0:0
+[10:09:11.102] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v1.wav
+[10:09:11.105] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v1.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v1.wav), fd: 0x75
+[10:09:11.107] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[10:09:11.109] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AD180:0:0 to 0x14B2C0:0
+[10:09:11.114] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v2.wav
+[10:09:11.118] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v2.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v2.wav), fd: 0x76
+[10:09:11.123] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[10:09:11.125] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AD690:0:0 to 0x14B2C0:0
+[10:09:11.135] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v3.wav
+[10:09:11.136] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v3.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v3.wav), fd: 0x77
+[10:09:11.145] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[10:09:11.146] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92ADBA0:0:0 to 0x14B2C0:0
+[10:09:11.148] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v4.wav
+[10:09:11.150] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v4.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v4.wav), fd: 0x78
+[10:09:11.156] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[10:09:11.160] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AE0B0:0:0 to 0x14B2C0:0
+[10:09:11.167] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v5.wav
+[10:09:11.169] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v5.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v5.wav), fd: 0x79
+[10:09:11.171] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[10:09:11.179] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AE5C0:0:0 to 0x14B2C0:0
+[10:09:11.188] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v6.wav
+[10:09:11.190] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v6.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v6.wav), fd: 0x7A
+[10:09:11.196] |T| [close_file]: sceIoClose: Closing file fd: 0x7A
+[10:09:11.197] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AEAD0:0:0 to 0x14B2C0:0
+[10:09:11.198] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v8.wav
+[10:09:11.200] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v8.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v8.wav), fd: 0x7B
+[10:09:11.206] |T| [close_file]: sceIoClose: Closing file fd: 0x7B
+[10:09:11.207] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AEFE0:0:0 to 0x14B2C0:0
+[10:09:11.212] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v9.wav
+[10:09:11.213] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v9.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v9.wav), fd: 0x7C
+[10:09:11.215] |T| [close_file]: sceIoClose: Closing file fd: 0x7C
+[10:09:11.216] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AF4F0:0:0 to 0x14B2C0:0
+[10:09:11.221] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v10.wav
+[10:09:11.223] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v10.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v10.wav), fd: 0x7D
+[10:09:11.235] |T| [close_file]: sceIoClose: Closing file fd: 0x7D
+[10:09:11.237] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AFA00:0:0 to 0x14B2C0:0
+[10:09:11.241] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v11.wav
+[10:09:11.243] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v11.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v11.wav), fd: 0x7E
+[10:09:11.251] |T| [close_file]: sceIoClose: Closing file fd: 0x7E
+[10:09:11.252] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92AFF10:0:0 to 0x14B2C0:0
+[10:09:11.257] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v12.wav
+[10:09:11.258] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v12.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v12.wav), fd: 0x7F
+[10:09:11.262] |T| [close_file]: sceIoClose: Closing file fd: 0x7F
+[10:09:11.270] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B0420:0:0 to 0x14B2C0:0
+[10:09:11.273] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v15.wav
+[10:09:11.278] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v15.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v15.wav), fd: 0x80
+[10:09:11.284] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[10:09:11.285] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B0930:0:0 to 0x14B2C0:0
+[10:09:11.286] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v16.wav
+[10:09:11.291] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v16.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v16.wav), fd: 0x81
+[10:09:11.300] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[10:09:11.303] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B0E40:0:0 to 0x14B2C0:0
+[10:09:11.305] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v17.wav
+[10:09:11.307] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v17.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v17.wav), fd: 0x82
+[10:09:11.314] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[10:09:11.319] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B1350:0:0 to 0x14B2C0:0
+[10:09:11.321] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v18.wav
+[10:09:11.322] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v18.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v18.wav), fd: 0x83
+[10:09:11.324] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[10:09:11.327] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B1860:0:0 to 0x14B2C0:0
+[10:09:11.329] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v19.wav
+[10:09:11.338] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v19.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v19.wav), fd: 0x84
+[10:09:11.348] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[10:09:11.352] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B1D70:0:0 to 0x14B2C0:0
+[10:09:11.353] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v20.wav
+[10:09:11.355] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v20.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v20.wav), fd: 0x85
+[10:09:11.360] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[10:09:11.365] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B2280:0:0 to 0x14B2C0:0
+[10:09:11.366] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v21.wav
+[10:09:11.367] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v21.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v21.wav), fd: 0x86
+[10:09:11.383] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[10:09:11.394] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B2790:0:0 to 0x14B2C0:0
+[10:09:11.400] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v22.wav
+[10:09:11.406] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v22.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v22.wav), fd: 0x87
+[10:09:11.415] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[10:09:11.417] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B2CA0:0:0 to 0x14B2C0:0
+[10:09:11.418] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Sounds/voice/god_thanks_v25.wav
+[10:09:11.426] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Sounds/voice/god_thanks_v25.wav (ux0:/app/PCSE00327/resources/Content/Sounds/voice/god_thanks_v25.wav), fd: 0x88
+[10:09:11.429] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[10:09:11.442] |T| [export_sceNgsPatchCreateRouting]: Patching 0x92B31B0:0:0 to 0x14B2C0:0
+[10:09:11.445] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/packs/packs.xml
+[10:09:11.448] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/packs/packs.xml (ux0:/app/PCSE00327/resources/Content/packs/packs.xml), fd: 0x89
+[10:09:11.460] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[10:09:11.606] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Packs/Ep1_DD.xml
+[10:09:11.608] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Packs/Ep1_DD.xml (ux0:/app/PCSE00327/resources/Content/Packs/Ep1_DD.xml), fd: 0x8A
+[10:09:11.612] |T| [close_file]: sceIoClose: Closing file fd: 0x8A
+[10:09:11.671] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/border.png
+[10:09:11.672] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/border.png (ux0:/app/PCSE00327/resources/Content/elements/border.png), fd: 0x8B
+[10:09:11.681] |T| [close_file]: sceIoClose: Closing file fd: 0x8B
+[10:09:11.717] |T| [write_file]: *** TTY: Apple 
+[10:09:11.730] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/elements_texture_01.png
+[10:09:11.731] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/elements_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/elements_texture_01.png), fd: 0x8C
+[10:09:11.735] |T| [close_file]: sceIoClose: Closing file fd: 0x8C
+[10:09:11.998] |T| [write_file]: *** TTY: Human 
+[10:09:12.004] |T| [write_file]: *** TTY: Knowledge 
+[10:09:12.017] |T| [write_file]: *** TTY: Sin 
+[10:09:12.031] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:12.033] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x8D
+[10:09:12.044] |T| [close_file]: sceIoClose: Closing file fd: 0x8D
+[10:09:12.250] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:12.250] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x8E
+[10:09:12.254] |T| [close_file]: sceIoClose: Closing file fd: 0x8E
+[10:09:12.444] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:12.446] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x8F
+[10:09:12.447] |T| [close_file]: sceIoClose: Closing file fd: 0x8F
+[10:09:12.633] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:12.633] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x90
+[10:09:12.640] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[10:09:12.827] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Packs/Ep2_DD.xml
+[10:09:12.830] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Packs/Ep2_DD.xml (ux0:/app/PCSE00327/resources/Content/Packs/Ep2_DD.xml), fd: 0x91
+[10:09:12.833] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[10:09:13.119] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/border.png
+[10:09:13.124] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/border.png (ux0:/app/PCSE00327/resources/Content/elements/border.png), fd: 0x92
+[10:09:13.135] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[10:09:13.139] |T| [write_file]: *** TTY: AI 
+[10:09:13.142] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/elements_texture_02.png
+[10:09:13.149] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/elements_texture_02.png (ux0:/app/PCSE00327/resources/Content/elements/elements_texture_02.png), fd: 0x93
+[10:09:13.154] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[10:09:13.330] |T| [write_file]: *** TTY: AK-47 
+[10:09:13.336] |T| [write_file]: *** TTY: Acid 
+[10:09:13.337] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/elements_texture_03.png
+[10:09:13.338] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/elements_texture_03.png (ux0:/app/PCSE00327/resources/Content/elements/elements_texture_03.png), fd: 0x94
+[10:09:13.341] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[10:09:13.482] |T| [write_file]: *** TTY: Air 
+[10:09:13.483] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/elements_texture_01.png
+[10:09:13.484] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/elements_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/elements_texture_01.png), fd: 0x95
+[10:09:13.487] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[10:09:13.644] |T| [write_file]: *** TTY: Airplane 
+[10:09:13.654] |T| [write_file]: *** TTY: Alien 
+[10:09:13.661] |T| [write_file]: *** TTY: Angel 
+[10:09:13.667] |T| [write_file]: *** TTY: Apple 
+[10:09:13.668] |T| [write_file]: *** TTY: Armageddon 
+[10:09:13.681] |T| [write_file]: *** TTY: Armor 
+[10:09:13.687] |T| [write_file]: *** TTY: Army 
+[10:09:13.693] |T| [write_file]: *** TTY: Ash 
+[10:09:13.697] |T| [write_file]: *** TTY: Atheism 
+[10:09:13.705] |T| [write_file]: *** TTY: BFG 9000 
+[10:09:13.717] |T| [write_file]: *** TTY: Bacteria 
+[10:09:13.726] |T| [write_file]: *** TTY: Bat 
+[10:09:13.732] |T| [write_file]: *** TTY: Battle cruiser 
+[10:09:13.743] |T| [write_file]: *** TTY: Bazooka 
+[10:09:13.750] |T| [write_file]: *** TTY: Beast 
+[10:09:13.760] |T| [write_file]: *** TTY: Biological weapon 
+[10:09:13.781] |T| [write_file]: *** TTY: Blood 
+[10:09:13.789] |T| [write_file]: *** TTY: Bomb 
+[10:09:13.799] |T| [write_file]: *** TTY: Bomber 
+[10:09:13.808] |T| [write_file]: *** TTY: Book 
+[10:09:13.818] |T| [write_file]: *** TTY: Cannon 
+[10:09:13.829] |T| [write_file]: *** TTY: Car 
+[10:09:13.835] |T| [write_file]: *** TTY: Castle 
+[10:09:13.846] |T| [write_file]: *** TTY: Cellphone 
+[10:09:13.855] |T| [write_file]: *** TTY: Cellulose 
+[10:09:13.864] |T| [write_file]: *** TTY: Censored 
+[10:09:13.872] |T| [write_file]: *** TTY: Cerberus 
+[10:09:13.883] |T| [write_file]: *** TTY: Chaos 
+[10:09:13.899] |T| [write_file]: *** TTY: Chemical weapon 
+[10:09:13.918] |T| [write_file]: *** TTY: City 
+[10:09:13.931] |T| [write_file]: *** TTY: Coffee 
+[10:09:13.944] |T| [write_file]: *** TTY: Communism 
+[10:09:13.955] |T| [write_file]: *** TTY: Computer 
+[10:09:13.963] |T| [write_file]: *** TTY: Copyright 
+[10:09:13.978] |T| [write_file]: *** TTY: Corpse 
+[10:09:13.987] |T| [write_file]: *** TTY: Corruption 
+[10:09:13.997] |T| [write_file]: *** TTY: Crow 
+[10:09:14.003] |T| [write_file]: *** TTY: Cthulhu 
+[10:09:14.011] |T| [write_file]: *** TTY: Cyberspace 
+[10:09:14.020] |T| [write_file]: *** TTY: Cyborg 
+[10:09:14.029] |T| [write_file]: *** TTY: Darkness 
+[10:09:14.036] |T| [write_file]: *** TTY: Death 
+[10:09:14.047] |T| [write_file]: *** TTY: Death ray gun 
+[10:09:14.068] |T| [write_file]: *** TTY: Death star 
+[10:09:14.081] |T| [write_file]: *** TTY: Democracy 
+[10:09:14.095] |T| [write_file]: *** TTY: Demon 
+[10:09:14.105] |T| [write_file]: *** TTY: Desert eagle 
+[10:09:14.114] |T| [write_file]: *** TTY: Dictatorship 
+[10:09:14.127] |T| [write_file]: *** TTY: Diseases 
+[10:09:14.140] |T| [write_file]: *** TTY: Disintegrator 
+[10:09:14.150] |T| [write_file]: *** TTY: Dove 
+[10:09:14.156] |T| [write_file]: *** TTY: Dragon 
+[10:09:14.161] |T| [write_file]: *** TTY: Earth 
+[10:09:14.169] |T| [write_file]: *** TTY: Earthquake 
+[10:09:14.180] |T| [write_file]: *** TTY: Egg 
+[10:09:14.188] |T| [write_file]: *** TTY: Electricity 
+[10:09:14.197] |T| [write_file]: *** TTY: Elf 
+[10:09:14.204] |T| [write_file]: *** TTY: Empire 
+[10:09:14.215] |T| [write_file]: *** TTY: Energy 
+[10:09:14.220] |T| [write_file]: *** TTY: Envy 
+[10:09:14.224] |T| [write_file]: *** TTY: Epidemic 
+[10:09:14.232] |T| [write_file]: *** TTY: Fire 
+[10:09:14.236] |T| [write_file]: *** TTY: Firearm 
+[10:09:14.247] |T| [write_file]: *** TTY: Fish 
+[10:09:14.256] |T| [write_file]: *** TTY: Flamethrower 
+[10:09:14.266] |T| [write_file]: *** TTY: Food 
+[10:09:14.274] |T| [write_file]: *** TTY: Force field 
+[10:09:14.284] |T| [write_file]: *** TTY: Frankenstein 
+[10:09:14.298] |T| [write_file]: *** TTY: Friendship 
+[10:09:14.306] |T| [write_file]: *** TTY: Gambling 
+[10:09:14.313] |T| [write_file]: *** TTY: Ghost 
+[10:09:14.318] |T| [write_file]: *** TTY: Ghoul 
+[10:09:14.322] |T| [write_file]: *** TTY: Gluttony 
+[10:09:14.330] |T| [write_file]: *** TTY: Grass 
+[10:09:14.336] |T| [write_file]: *** TTY: Greed 
+[10:09:14.347] |T| [write_file]: *** TTY: Gunpowder 
+[10:09:14.361] |T| [write_file]: *** TTY: Hacker 
+[10:09:14.369] |T| [write_file]: *** TTY: Hand grenade 
+[10:09:14.379] |T| [write_file]: *** TTY: Heavens 
+[10:09:14.390] |T| [write_file]: *** TTY: Helicopter 
+[10:09:14.399] |T| [write_file]: *** TTY: Heresy 
+[10:09:14.406] |T| [write_file]: *** TTY: House 
+[10:09:14.415] |T| [write_file]: *** TTY: Human 
+[10:09:14.415] |T| [write_file]: *** TTY: Hydra 
+[10:09:14.429] |T| [write_file]: *** TTY: Inferno 
+[10:09:14.437] |T| [write_file]: *** TTY: Internet 
+[10:09:14.445] |T| [write_file]: *** TTY: Knowledge 
+[10:09:14.445] |T| [write_file]: *** TTY: Land mine 
+[10:09:14.453] |T| [write_file]: *** TTY: Laser 
+[10:09:14.461] |T| [write_file]: *** TTY: Lava 
+[10:09:14.466] |T| [write_file]: *** TTY: Lawyer 
+[10:09:14.473] |T| [write_file]: *** TTY: Leather 
+[10:09:14.487] |T| [write_file]: *** TTY: Life 
+[10:09:14.496] |T| [write_file]: *** TTY: Light 
+[10:09:14.507] |T| [write_file]: *** TTY: Light saber 
+[10:09:14.520] |T| [write_file]: *** TTY: Lust 
+[10:09:14.531] |T| [write_file]: *** TTY: Magic 
+[10:09:14.547] |T| [write_file]: *** TTY: Man 
+[10:09:14.561] |T| [write_file]: *** TTY: Mechanism 
+[10:09:14.581] |T| [write_file]: *** TTY: Metal 
+[10:09:14.590] |T| [write_file]: *** TTY: Missile 
+[10:09:14.599] |T| [write_file]: *** TTY: Money 
+[10:09:14.606] |T| [write_file]: *** TTY: Murder 
+[10:09:14.617] |T| [write_file]: *** TTY: Mushroom 
+[10:09:14.630] |T| [write_file]: *** TTY: Mutant 
+[10:09:14.636] |T| [write_file]: *** TTY: Napalm 
+[10:09:14.647] |T| [write_file]: *** TTY: Necromancer 
+[10:09:14.656] |T| [write_file]: *** TTY: Nuclear bomb 
+[10:09:14.665] |T| [write_file]: *** TTY: Oil 
+[10:09:14.672] |T| [write_file]: *** TTY: Order 
+[10:09:14.683] |T| [write_file]: *** TTY: Pegasus 
+[10:09:14.690] |T| [write_file]: *** TTY: Phoenix 
+[10:09:14.698] |T| [write_file]: *** TTY: Piranha 
+[10:09:14.710] |T| [write_file]: *** TTY: Plasma 
+[10:09:14.716] |T| [write_file]: *** TTY: Plasmagun 
+[10:09:14.726] |T| [write_file]: *** TTY: Poison 
+[10:09:14.733] |T| [write_file]: *** TTY: Poison gas 
+[10:09:14.746] |T| [write_file]: *** TTY: Politician 
+[10:09:14.757] |T| [write_file]: *** TTY: Potion 
+[10:09:14.765] |T| [write_file]: *** TTY: Prayer 
+[10:09:14.774] |T| [write_file]: *** TTY: Pride 
+[10:09:14.780] |T| [write_file]: *** TTY: Psycology 
+[10:09:14.788] |T| [write_file]: *** TTY: Radar 
+[10:09:14.798] |T| [write_file]: *** TTY: Radiation 
+[10:09:14.809] |T| [write_file]: *** TTY: Radiowave 
+[10:09:14.818] |T| [write_file]: *** TTY: Rat 
+[10:09:14.823] |T| [write_file]: *** TTY: Razorvine 
+[10:09:14.830] |T| [write_file]: *** TTY: Religion 
+[10:09:14.837] |T| [write_file]: *** TTY: Resurrection 
+[10:09:14.848] |T| [write_file]: *** TTY: Robot 
+[10:09:14.854] |T| [write_file]: *** TTY: Rocket 
+[10:09:14.861] |T| [write_file]: *** TTY: Sacrifice 
+[10:09:14.868] |T| [write_file]: *** TTY: Satellite 
+[10:09:14.878] |T| [write_file]: *** TTY: Scientist 
+[10:09:14.886] |T| [write_file]: *** TTY: Scroll 
+[10:09:14.897] |T| [write_file]: *** TTY: Sect 
+[10:09:14.902] |T| [write_file]: *** TTY: Seeds 
+[10:09:14.909] |T| [write_file]: *** TTY: Sex 
+[10:09:14.915] |T| [write_file]: *** TTY: Sin 
+[10:09:14.916] |T| [write_file]: *** TTY: Skeleton 
+[10:09:14.923] |T| [write_file]: *** TTY: Sloth 
+[10:09:14.931] |T| [write_file]: *** TTY: Snake 
+[10:09:14.938] |T| [write_file]: *** TTY: Soldier 
+[10:09:14.945] |T| [write_file]: *** TTY: Soul 
+[10:09:14.952] |T| [write_file]: *** TTY: Space marine 
+[10:09:14.963] |T| [write_file]: *** TTY: Space ship 
+[10:09:14.970] |T| [write_file]: *** TTY: Spell 
+[10:09:14.977] |T| [write_file]: *** TTY: Spell book 
+[10:09:14.984] |T| [write_file]: *** TTY: Spore 
+[10:09:14.990] |T| [write_file]: *** TTY: Steam 
+[10:09:15.000] |T| [write_file]: *** TTY: Stone 
+[10:09:15.007] |T| [write_file]: *** TTY: Styx 
+[10:09:15.014] |T| [write_file]: *** TTY: Submarine 
+[10:09:15.027] |T| [write_file]: *** TTY: Suffering 
+[10:09:15.038] |T| [write_file]: *** TTY: Sulfur 
+[10:09:15.048] |T| [write_file]: *** TTY: Surveillance 
+[10:09:15.055] |T| [write_file]: *** TTY: TNT 
+[10:09:15.064] |T| [write_file]: *** TTY: TV 
+[10:09:15.068] |T| [write_file]: *** TTY: Tank 
+[10:09:15.073] |T| [write_file]: *** TTY: Terrorism 
+[10:09:15.084] |T| [write_file]: *** TTY: Theft 
+[10:09:15.095] |T| [write_file]: *** TTY: Tobacco 
+[10:09:15.101] |T| [write_file]: *** TTY: Torture 
+[10:09:15.111] |T| [write_file]: *** TTY: Tower 
+[10:09:15.118] |T| [write_file]: *** TTY: Tree 
+[10:09:15.132] |T| [write_file]: *** TTY: Tsunami 
+[10:09:15.146] |T| [write_file]: *** TTY: UFO 
+[10:09:15.152] |T| [write_file]: *** TTY: Unicorn 
+[10:09:15.165] |T| [write_file]: *** TTY: Vacuum bomb 
+[10:09:15.179] |T| [write_file]: *** TTY: Vampire 
+[10:09:15.186] |T| [write_file]: *** TTY: Virus 
+[10:09:15.191] |T| [write_file]: *** TTY: Void 
+[10:09:15.198] |T| [write_file]: *** TTY: Wand 
+[10:09:15.204] |T| [write_file]: *** TTY: War 
+[10:09:15.212] |T| [write_file]: *** TTY: Warrior 
+[10:09:15.220] |T| [write_file]: *** TTY: Water 
+[10:09:15.230] |T| [write_file]: *** TTY: Weapon 
+[10:09:15.235] |T| [write_file]: *** TTY: Werewolf 
+[10:09:15.248] |T| [write_file]: *** TTY: Witch 
+[10:09:15.255] |T| [write_file]: *** TTY: Wizard 
+[10:09:15.264] |T| [write_file]: *** TTY: Wolf 
+[10:09:15.271] |T| [write_file]: *** TTY: Woman 
+[10:09:15.283] |T| [write_file]: *** TTY: Work 
+[10:09:15.296] |T| [write_file]: *** TTY: Worm 
+[10:09:15.305] |T| [write_file]: *** TTY: Wrath 
+[10:09:15.316] |T| [write_file]: *** TTY: Zombie 
+[10:09:15.324] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:15.325] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x96
+[10:09:15.333] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[10:09:15.488] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_02.png
+[10:09:15.489] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_02.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_02.png), fd: 0x97
+[10:09:15.493] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[10:09:15.620] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:15.620] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x98
+[10:09:15.624] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[10:09:15.771] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_03.png
+[10:09:15.773] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_03.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_03.png), fd: 0x99
+[10:09:15.776] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[10:09:15.879] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:15.880] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x9A
+[10:09:15.887] |T| [close_file]: sceIoClose: Closing file fd: 0x9A
+[10:09:16.071] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:16.072] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x9B
+[10:09:16.080] |T| [close_file]: sceIoClose: Closing file fd: 0x9B
+[10:09:16.320] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:16.321] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x9C
+[10:09:16.331] |T| [close_file]: sceIoClose: Closing file fd: 0x9C
+[10:09:16.546] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:16.547] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x9D
+[10:09:16.552] |T| [close_file]: sceIoClose: Closing file fd: 0x9D
+[10:09:16.713] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:16.716] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x9E
+[10:09:16.720] |T| [close_file]: sceIoClose: Closing file fd: 0x9E
+[10:09:16.903] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:16.907] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0x9F
+[10:09:16.926] |T| [close_file]: sceIoClose: Closing file fd: 0x9F
+[10:09:17.235] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:17.236] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0xA0
+[10:09:17.240] |T| [close_file]: sceIoClose: Closing file fd: 0xA0
+[10:09:17.418] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_02.png
+[10:09:17.420] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_02.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_02.png), fd: 0xA1
+[10:09:17.428] |T| [close_file]: sceIoClose: Closing file fd: 0xA1
+[10:09:17.587] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:17.588] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0xA2
+[10:09:17.594] |T| [close_file]: sceIoClose: Closing file fd: 0xA2
+[10:09:17.803] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:17.803] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0xA3
+[10:09:17.809] |T| [close_file]: sceIoClose: Closing file fd: 0xA3
+[10:09:17.964] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/groups_texture_01.png
+[10:09:17.965] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/groups_texture_01.png (ux0:/app/PCSE00327/resources/Content/elements/groups_texture_01.png), fd: 0xA4
+[10:09:17.968] |T| [close_file]: sceIoClose: Closing file fd: 0xA4
+[10:09:18.122] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Packs/Ep3_DD.xml
+[10:09:18.125] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Packs/Ep3_DD.xml (ux0:/app/PCSE00327/resources/Content/Packs/Ep3_DD.xml), fd: 0xA5
+[10:09:18.127] |T| [close_file]: sceIoClose: Closing file fd: 0xA5
+[10:09:18.358] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/elements/border.png
+[10:09:18.359] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/elements/border.png (ux0:/app/PCSE00327/resources/Content/elements/border.png), fd: 0xA6
+[10:09:18.363] |T| [close_file]: sceIoClose: Closing file fd: 0xA6
+[10:09:18.374] |T| [write_file]: *** TTY: AI 
+[10:09:18.374] |T| [write_file]: *** TTY: AK-47 
+[10:09:18.376] |T| [write_file]: *** TTY: Acid 
+[10:09:18.385] |T| [write_file]: *** TTY: Air 
+[10:09:18.388] |T| [write_file]: *** TTY: Airplane 
+[10:09:18.392] |T| [write_file]: *** TTY: Alien 
+[10:09:18.402] |T| [write_file]: *** TTY: Angel 
+[10:09:18.404] |T| [write_file]: *** TTY: Apple 
+[10:09:18.408] |T| [write_file]: *** TTY: Armageddon 
+[10:09:18.414] |T| [write_file]: *** TTY: Armor 
+[10:09:18.415] |T| [write_file]: *** TTY: Army 
+[10:09:18.417] |T| [write_file]: *** TTY: Ash 
+[10:09:18.420] |T| [write_file]: *** TTY: Atheism 
+[10:09:18.422] |T| [write_file]: *** TTY: BFG 9000 
+[10:09:18.423] |T| [write_file]: *** TTY: Bacteria 
+[10:09:18.429] |T| [write_file]: *** TTY: Bat 
+[10:09:18.430] |T| [write_file]: *** TTY: Battle cruiser 
+[10:09:18.433] |T| [write_file]: *** TTY: Bazooka 
+[10:09:18.435] |T| [write_file]: *** TTY: Beast 
+[10:09:18.436] |T| [write_file]: *** TTY: Biological weapon 
+[10:09:18.437] |T| [write_file]: *** TTY: Blood 
+[10:09:18.438] |T| [write_file]: *** TTY: Bomb 
+[10:09:18.445] |T| [write_file]: *** TTY: Bomber 
+[10:09:18.447] |T| [write_file]: *** TTY: Book 
+[10:09:18.450] |T| [write_file]: *** TTY: Cannon 
+[10:09:18.451] |T| [write_file]: *** TTY: Car 
+[10:09:18.457] |T| [write_file]: *** TTY: Castle 
+[10:09:18.459] |T| [write_file]: *** TTY: Cellphone 
+[10:09:18.465] |T| [write_file]: *** TTY: Cellulose 
+[10:09:18.469] |T| [write_file]: *** TTY: Censored 
+[10:09:18.473] |T| [write_file]: *** TTY: Cerberus 
+[10:09:18.478] |T| [write_file]: *** TTY: Chaos 
+[10:09:18.481] |T| [write_file]: *** TTY: Chemical weapon 
+[10:09:18.485] |T| [write_file]: *** TTY: City 
+[10:09:18.489] |T| [write_file]: *** TTY: Coffee 
+[10:09:18.494] |T| [write_file]: *** TTY: Communism 
+[10:09:18.498] |T| [write_file]: *** TTY: Computer 
+[10:09:18.498] |T| [write_file]: *** TTY: Copyright 
+[10:09:18.499] |T| [write_file]: *** TTY: Corpse 
+[10:09:18.502] |T| [write_file]: *** TTY: Corruption 
+[10:09:18.506] |T| [write_file]: *** TTY: Crow 
+[10:09:18.507] |T| [write_file]: *** TTY: Cthulhu 
+[10:09:18.510] |T| [write_file]: *** TTY: Cyberspace 
+[10:09:18.521] |T| [write_file]: *** TTY: Cyborg 
+[10:09:18.524] |T| [write_file]: *** TTY: Darkness 
+[10:09:18.528] |T| [write_file]: *** TTY: Death 
+[10:09:18.529] |T| [write_file]: *** TTY: Death ray gun 
+[10:09:18.530] |T| [write_file]: *** TTY: Death star 
+[10:09:18.531] |T| [write_file]: *** TTY: Democracy 
+[10:09:18.532] |T| [write_file]: *** TTY: Demon 
+[10:09:18.538] |T| [write_file]: *** TTY: Desert eagle 
+[10:09:18.544] |T| [write_file]: *** TTY: Dictatorship 
+[10:09:18.548] |T| [write_file]: *** TTY: Diseases 
+[10:09:18.553] |T| [write_file]: *** TTY: Disintegrator 
+[10:09:18.557] |T| [write_file]: *** TTY: Dove 
+[10:09:18.560] |T| [write_file]: *** TTY: Dragon 
+[10:09:18.561] |T| [write_file]: *** TTY: Earth 
+[10:09:18.566] |T| [write_file]: *** TTY: Earthquake 
+[10:09:18.567] |T| [write_file]: *** TTY: Egg 
+[10:09:18.570] |T| [write_file]: *** TTY: Electricity 
+[10:09:18.573] |T| [write_file]: *** TTY: Elf 
+[10:09:18.575] |T| [write_file]: *** TTY: Empire 
+[10:09:18.577] |T| [write_file]: *** TTY: Energy 
+[10:09:18.585] |T| [write_file]: *** TTY: Envy 
+[10:09:18.587] |T| [write_file]: *** TTY: Epidemic 
+[10:09:18.590] |T| [write_file]: *** TTY: Fire 
+[10:09:18.601] |T| [write_file]: *** TTY: Firearm 
+[10:09:18.602] |T| [write_file]: *** TTY: Fish 
+[10:09:18.605] |T| [write_file]: *** TTY: Flamethrower 
+[10:09:18.613] |T| [write_file]: *** TTY: Food 
+[10:09:18.614] |T| [write_file]: *** TTY: Force field 
+[10:09:18.618] |T| [write_file]: *** TTY: Frankenstein 
+[10:09:18.620] |T| [write_file]: *** TTY: Friendship 
+[10:09:18.621] |T| [write_file]: *** TTY: Gambling 
+[10:09:18.630] |T| [write_file]: *** TTY: Ghost 
+[10:09:18.634] |T| [write_file]: *** TTY: Ghoul 
+[10:09:18.640] |T| [write_file]: *** TTY: Gluttony 
+[10:09:18.644] |T| [write_file]: *** TTY: Grass 
+[10:09:18.649] |T| [write_file]: *** TTY: Greed 
+[10:09:18.658] |T| [write_file]: *** TTY: Gunpowder 
+[10:09:18.667] |T| [write_file]: *** TTY: Hacker 
+[10:09:18.677] |T| [write_file]: *** TTY: Hand grenade 
+[10:09:18.678] |T| [write_file]: *** TTY: Heavens 
+[10:09:18.681] |T| [write_file]: *** TTY: Helicopter 
+[10:09:18.682] |T| [write_file]: *** TTY: Heresy 
+[10:09:18.693] |T| [write_file]: *** TTY: House 
+[10:09:18.696] |T| [write_file]: *** TTY: Human 
+[10:09:18.699] |T| [write_file]: *** TTY: Hydra 
+[10:09:18.706] |T| [write_file]: *** TTY: Inferno 
+[10:09:18.716] |T| [write_file]: *** TTY: Internet 
+[10:09:18.719] |T| [write_file]: *** TTY: Knowledge 
+[10:09:18.722] |T| [write_file]: *** TTY: Land mine 
+[10:09:18.727] |T| [write_file]: *** TTY: Laser 
+[10:09:18.728] |T| [write_file]: *** TTY: Lava 
+[10:09:18.736] |T| [write_file]: *** TTY: Lawyer 
+[10:09:18.742] |T| [write_file]: *** TTY: Leather 
+[10:09:18.753] |T| [write_file]: *** TTY: Life 
+[10:09:18.757] |T| [write_file]: *** TTY: Light 
+[10:09:18.759] |T| [write_file]: *** TTY: Light saber 
+[10:09:18.761] |T| [write_file]: *** TTY: Lust 
+[10:09:18.774] |T| [write_file]: *** TTY: Magic 
+[10:09:18.775] |T| [write_file]: *** TTY: Man 
+[10:09:18.781] |T| [write_file]: *** TTY: Mechanism 
+[10:09:18.783] |T| [write_file]: *** TTY: Metal 
+[10:09:18.788] |T| [write_file]: *** TTY: Missile 
+[10:09:18.794] |T| [write_file]: *** TTY: Money 
+[10:09:18.804] |T| [write_file]: *** TTY: Murder 
+[10:09:18.810] |T| [write_file]: *** TTY: Mushroom 
+[10:09:18.816] |T| [write_file]: *** TTY: Mutant 
+[10:09:18.822] |T| [write_file]: *** TTY: Napalm 
+[10:09:18.831] |T| [write_file]: *** TTY: Necromancer 
+[10:09:18.836] |T| [write_file]: *** TTY: Nuclear bomb 
+[10:09:18.844] |T| [write_file]: *** TTY: Oil 
+[10:09:18.846] |T| [write_file]: *** TTY: Order 
+[10:09:18.851] |T| [write_file]: *** TTY: Pegasus 
+[10:09:18.855] |T| [write_file]: *** TTY: Phoenix 
+[10:09:18.859] |T| [write_file]: *** TTY: Piranha 
+[10:09:18.866] |T| [write_file]: *** TTY: Plasma 
+[10:09:18.869] |T| [write_file]: *** TTY: Plasmagun 
+[10:09:18.878] |T| [write_file]: *** TTY: Poison 
+[10:09:18.882] |T| [write_file]: *** TTY: Poison gas 
+[10:09:18.891] |T| [write_file]: *** TTY: Politician 
+[10:09:18.900] |T| [write_file]: *** TTY: Potion 
+[10:09:18.909] |T| [write_file]: *** TTY: Prayer 
+[10:09:18.914] |T| [write_file]: *** TTY: Pride 
+[10:09:18.925] |T| [write_file]: *** TTY: Psycology 
+[10:09:18.936] |T| [write_file]: *** TTY: Radar 
+[10:09:18.944] |T| [write_file]: *** TTY: Radiation 
+[10:09:18.969] |T| [write_file]: *** TTY: Radiowave 
+[10:09:18.971] |T| [write_file]: *** TTY: Rat 
+[10:09:18.977] |T| [write_file]: *** TTY: Razorvine 
+[10:09:18.983] |T| [write_file]: *** TTY: Religion 
+[10:09:18.988] |T| [write_file]: *** TTY: Resurrection 
+[10:09:18.992] |T| [write_file]: *** TTY: Robot 
+[10:09:19.007] |T| [write_file]: *** TTY: Rocket 
+[10:09:19.016] |T| [write_file]: *** TTY: Sacrifice 
+[10:09:19.021] |T| [write_file]: *** TTY: Satellite 
+[10:09:19.023] |T| [write_file]: *** TTY: Scientist 
+[10:09:19.035] |T| [write_file]: *** TTY: Scroll 
+[10:09:19.039] |T| [write_file]: *** TTY: Sect 
+[10:09:19.045] |T| [write_file]: *** TTY: Seeds 
+[10:09:19.049] |T| [write_file]: *** TTY: Sex 
+[10:09:19.061] |T| [write_file]: *** TTY: Sin 
+[10:09:19.065] |T| [write_file]: *** TTY: Skeleton 
+[10:09:19.068] |T| [write_file]: *** TTY: Sloth 
+[10:09:19.076] |T| [write_file]: *** TTY: Snake 
+[10:09:19.080] |T| [write_file]: *** TTY: Soldier 
+[10:09:19.083] |T| [write_file]: *** TTY: Soul 
+[10:09:19.088] |T| [write_file]: *** TTY: Space marine 
+[10:09:19.092] |T| [write_file]: *** TTY: Space ship 
+[10:09:19.100] |T| [write_file]: *** TTY: Spell 
+[10:09:19.106] |T| [write_file]: *** TTY: Spell book 
+[10:09:19.111] |T| [write_file]: *** TTY: Spore 
+[10:09:19.114] |T| [write_file]: *** TTY: Steam 
+[10:09:19.120] |T| [write_file]: *** TTY: Stone 
+[10:09:19.123] |T| [write_file]: *** TTY: Styx 
+[10:09:19.124] |T| [write_file]: *** TTY: Submarine 
+[10:09:19.126] |T| [write_file]: *** TTY: Suffering 
+[10:09:19.138] |T| [write_file]: *** TTY: Sulfur 
+[10:09:19.142] |T| [write_file]: *** TTY: Surveillance 
+[10:09:19.146] |T| [write_file]: *** TTY: TNT 
+[10:09:19.153] |T| [write_file]: *** TTY: TV 
+[10:09:19.157] |T| [write_file]: *** TTY: Tank 
+[10:09:19.162] |T| [write_file]: *** TTY: Terrorism 
+[10:09:19.170] |T| [write_file]: *** TTY: Theft 
+[10:09:19.171] |T| [write_file]: *** TTY: Tobacco 
+[10:09:19.179] |T| [write_file]: *** TTY: Torture 
+[10:09:19.183] |T| [write_file]: *** TTY: Tower 
+[10:09:19.184] |T| [write_file]: *** TTY: Tree 
+[10:09:19.186] |T| [write_file]: *** TTY: Tsunami 
+[10:09:19.187] |T| [write_file]: *** TTY: UFO 
+[10:09:19.198] |T| [write_file]: *** TTY: Unicorn 
+[10:09:19.203] |T| [write_file]: *** TTY: Vacuum bomb 
+[10:09:19.211] |T| [write_file]: *** TTY: Vampire 
+[10:09:19.217] |T| [write_file]: *** TTY: Virus 
+[10:09:19.226] |T| [write_file]: *** TTY: Void 
+[10:09:19.230] |T| [write_file]: *** TTY: Wand 
+[10:09:19.234] |T| [write_file]: *** TTY: War 
+[10:09:19.238] |T| [write_file]: *** TTY: Warrior 
+[10:09:19.253] |T| [write_file]: *** TTY: Water 
+[10:09:19.263] |T| [write_file]: *** TTY: Weapon 
+[10:09:19.266] |T| [write_file]: *** TTY: Werewolf 
+[10:09:19.267] |T| [write_file]: *** TTY: Witch 
+[10:09:19.283] |T| [write_file]: *** TTY: Wizard 
+[10:09:19.288] |T| [write_file]: *** TTY: Wolf 
+[10:09:19.289] |T| [write_file]: *** TTY: Woman 
+[10:09:19.291] |T| [write_file]: *** TTY: Work 
+[10:09:19.294] |T| [write_file]: *** TTY: Worm 
+[10:09:19.294] |T| [write_file]: *** TTY: Wrath 
+[10:09:19.295] |T| [write_file]: *** TTY: Zombie 
+[10:09:19.327] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/credits/credits.xml
+[10:09:19.329] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/credits/credits.xml (ux0:/app/PCSE00327/resources/Content/credits/credits.xml), fd: 0xA7
+[10:09:19.332] |T| [close_file]: sceIoClose: Closing file fd: 0xA7
+[10:09:19.351] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Credits/credits_screen.png
+[10:09:19.352] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Credits/credits_screen.png (ux0:/app/PCSE00327/resources/Content/Credits/credits_screen.png), fd: 0xA8
+[10:09:19.358] |T| [close_file]: sceIoClose: Closing file fd: 0xA8
+[10:09:19.609] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Credits/doodlegod_credits.png
+[10:09:19.610] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Credits/doodlegod_credits.png (ux0:/app/PCSE00327/resources/Content/Credits/doodlegod_credits.png), fd: 0xA9
+[10:09:19.611] |T| [close_file]: sceIoClose: Closing file fd: 0xA9
+[10:09:19.631] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Credits/8floor_credits.png
+[10:09:19.632] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Credits/8floor_credits.png (ux0:/app/PCSE00327/resources/Content/Credits/8floor_credits.png), fd: 0xAA
+[10:09:19.640] |T| [close_file]: sceIoClose: Closing file fd: 0xAA
+[10:09:19.651] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/button_toolbar_2.png
+[10:09:19.653] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/button_toolbar_2.png (ux0:/app/PCSE00327/resources/Content/Interface/button_toolbar_2.png), fd: 0xAB
+[10:09:19.661] |T| [close_file]: sceIoClose: Closing file fd: 0xAB
+[10:09:19.678] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/back.png
+[10:09:19.680] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/back.png (ux0:/app/PCSE00327/resources/Content/Interface/back.png), fd: 0xAC
+[10:09:19.688] |T| [close_file]: sceIoClose: Closing file fd: 0xAC
+[10:09:19.715] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/dialog.xml
+[10:09:19.715] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/dialog.xml (ux0:/app/PCSE00327/resources/Content/Interface/dialog.xml), fd: 0xAD
+[10:09:19.728] |T| [close_file]: sceIoClose: Closing file fd: 0xAD
+[10:09:19.732] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/dialog.png
+[10:09:19.733] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/dialog.png (ux0:/app/PCSE00327/resources/Content/Interface/dialog.png), fd: 0xAE
+[10:09:19.744] |T| [close_file]: sceIoClose: Closing file fd: 0xAE
+[10:09:19.775] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/button_yes.png
+[10:09:19.777] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/button_yes.png (ux0:/app/PCSE00327/resources/Content/Interface/button_yes.png), fd: 0xAF
+[10:09:19.788] |T| [close_file]: sceIoClose: Closing file fd: 0xAF
+[10:09:19.802] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/button_no.png
+[10:09:19.808] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/button_no.png (ux0:/app/PCSE00327/resources/Content/Interface/button_no.png), fd: 0xB0
+[10:09:19.822] |T| [close_file]: sceIoClose: Closing file fd: 0xB0
+[10:09:19.887] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Trial/GameOver.xml
+[10:09:19.903] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Trial/GameOver.xml (ux0:/app/PCSE00327/resources/Content/Trial/GameOver.xml), fd: 0xB1
+[10:09:19.912] |T| [close_file]: sceIoClose: Closing file fd: 0xB1
+[10:09:19.921] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Trial/end_game_bkg2.png
+[10:09:19.926] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Trial/end_game_bkg2.png (ux0:/app/PCSE00327/resources/Content/Trial/end_game_bkg2.png), fd: 0xB2
+[10:09:19.933] |T| [close_file]: sceIoClose: Closing file fd: 0xB2
+[10:09:20.203] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/GamePlay.xml
+[10:09:20.204] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/GamePlay.xml (ux0:/app/PCSE00327/resources/Content/Interface/GamePlay.xml), fd: 0xB3
+[10:09:20.206] |T| [close_file]: sceIoClose: Closing file fd: 0xB3
+[10:09:20.284] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/under_group.png
+[10:09:20.285] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/under_group.png (ux0:/app/PCSE00327/resources/Content/Interface/under_group.png), fd: 0xB4
+[10:09:20.288] |T| [close_file]: sceIoClose: Closing file fd: 0xB4
+[10:09:20.309] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Air.png
+[10:09:20.309] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Air.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Air.png), fd: 0xB5
+[10:09:20.314] |T| [close_file]: sceIoClose: Closing file fd: 0xB5
+[10:09:20.341] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/line.png
+[10:09:20.343] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/line.png (ux0:/app/PCSE00327/resources/Content/Interface/line.png), fd: 0xB6
+[10:09:20.352] |T| [close_file]: sceIoClose: Closing file fd: 0xB6
+[10:09:20.364] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/extra_hints/under_digit.png
+[10:09:20.372] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/extra_hints/under_digit.png (ux0:/app/PCSE00327/resources/Content/extra_hints/under_digit.png), fd: 0xB7
+[10:09:20.378] |T| [close_file]: sceIoClose: Closing file fd: 0xB7
+[10:09:20.406] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/extra_hints/scetch.png
+[10:09:20.429] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/extra_hints/scetch.png (ux0:/app/PCSE00327/resources/Content/extra_hints/scetch.png), fd: 0xB8
+[10:09:20.455] |T| [close_file]: sceIoClose: Closing file fd: 0xB8
+[10:09:20.497] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/extra_hints/button_recharge.png
+[10:09:20.505] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/extra_hints/button_recharge.png (ux0:/app/PCSE00327/resources/Content/extra_hints/button_recharge.png), fd: 0xB9
+[10:09:20.508] |T| [close_file]: sceIoClose: Closing file fd: 0xB9
+[10:09:20.519] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/extra_hints/button_recharge_disabled.png
+[10:09:20.522] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/extra_hints/button_recharge_disabled.png (ux0:/app/PCSE00327/resources/Content/extra_hints/button_recharge_disabled.png), fd: 0xBA
+[10:09:20.526] |T| [close_file]: sceIoClose: Closing file fd: 0xBA
+[10:09:20.537] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/extra_hints/pay_button.png
+[10:09:20.546] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/extra_hints/pay_button.png (ux0:/app/PCSE00327/resources/Content/extra_hints/pay_button.png), fd: 0xBB
+[10:09:20.560] |T| [close_file]: sceIoClose: Closing file fd: 0xBB
+[10:09:20.604] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/go_mobile.png
+[10:09:20.608] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/go_mobile.png (ux0:/app/PCSE00327/resources/Content/MainMenu/go_mobile.png), fd: 0xBC
+[10:09:20.621] |T| [close_file]: sceIoClose: Closing file fd: 0xBC
+[10:09:20.674] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/help_view.png
+[10:09:20.677] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/help_view.png (ux0:/app/PCSE00327/resources/Content/Interface/help_view.png), fd: 0xBD
+[10:09:20.683] |T| [close_file]: sceIoClose: Closing file fd: 0xBD
+[10:09:20.724] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/arrow_l.png
+[10:09:20.725] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/arrow_l.png (ux0:/app/PCSE00327/resources/Content/Interface/arrow_l.png), fd: 0xBE
+[10:09:20.734] |T| [close_file]: sceIoClose: Closing file fd: 0xBE
+[10:09:20.739] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/arrow_r.png
+[10:09:20.742] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/arrow_r.png (ux0:/app/PCSE00327/resources/Content/Interface/arrow_r.png), fd: 0xBF
+[10:09:20.747] |T| [close_file]: sceIoClose: Closing file fd: 0xBF
+[10:09:20.756] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/arrow_u.png
+[10:09:20.760] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/arrow_u.png (ux0:/app/PCSE00327/resources/Content/Interface/arrow_u.png), fd: 0xC0
+[10:09:20.773] |T| [close_file]: sceIoClose: Closing file fd: 0xC0
+[10:09:20.786] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/create_light.png
+[10:09:20.787] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/create_light.png (ux0:/app/PCSE00327/resources/Content/Interface/create_light.png), fd: 0xC1
+[10:09:20.799] |T| [close_file]: sceIoClose: Closing file fd: 0xC1
+[10:09:20.962] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/paper_anim_01.png
+[10:09:20.963] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/paper_anim_01.png (ux0:/app/PCSE00327/resources/Content/Interface/paper_anim_01.png), fd: 0xC2
+[10:09:20.967] |T| [close_file]: sceIoClose: Closing file fd: 0xC2
+[10:09:21.225] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/paper_anim_02.png
+[10:09:21.227] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/paper_anim_02.png (ux0:/app/PCSE00327/resources/Content/Interface/paper_anim_02.png), fd: 0xC3
+[10:09:21.232] |T| [close_file]: sceIoClose: Closing file fd: 0xC3
+[10:09:21.512] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/paper_anim_03.png
+[10:09:21.512] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/paper_anim_03.png (ux0:/app/PCSE00327/resources/Content/Interface/paper_anim_03.png), fd: 0xC4
+[10:09:21.514] |T| [close_file]: sceIoClose: Closing file fd: 0xC4
+[10:09:21.794] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/paper_anim_04.png
+[10:09:21.794] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/paper_anim_04.png (ux0:/app/PCSE00327/resources/Content/Interface/paper_anim_04.png), fd: 0xC5
+[10:09:21.798] |T| [close_file]: sceIoClose: Closing file fd: 0xC5
+[10:09:22.115] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/hint_on.png
+[10:09:22.121] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/hint_on.png (ux0:/app/PCSE00327/resources/Content/Interface/hint_on.png), fd: 0xC6
+[10:09:22.126] |T| [close_file]: sceIoClose: Closing file fd: 0xC6
+[10:09:22.137] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/hint_off.png
+[10:09:22.147] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/hint_off.png (ux0:/app/PCSE00327/resources/Content/Interface/hint_off.png), fd: 0xC7
+[10:09:22.164] |T| [close_file]: sceIoClose: Closing file fd: 0xC7
+[10:09:22.177] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/extra_hint.png
+[10:09:22.179] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/extra_hint.png (ux0:/app/PCSE00327/resources/Content/Interface/extra_hint.png), fd: 0xC8
+[10:09:22.191] |T| [close_file]: sceIoClose: Closing file fd: 0xC8
+[10:09:22.201] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/extra_hint_disable.png
+[10:09:22.203] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/extra_hint_disable.png (ux0:/app/PCSE00327/resources/Content/Interface/extra_hint_disable.png), fd: 0xC9
+[10:09:22.208] |T| [close_file]: sceIoClose: Closing file fd: 0xC9
+[10:09:22.218] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/log.png
+[10:09:22.224] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/log.png (ux0:/app/PCSE00327/resources/Content/Interface/log.png), fd: 0xCA
+[10:09:22.229] |T| [close_file]: sceIoClose: Closing file fd: 0xCA
+[10:09:22.237] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/help.png
+[10:09:22.238] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/help.png (ux0:/app/PCSE00327/resources/Content/Interface/help.png), fd: 0xCB
+[10:09:22.242] |T| [close_file]: sceIoClose: Closing file fd: 0xCB
+[10:09:22.272] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/review.png
+[10:09:22.280] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/review.png (ux0:/app/PCSE00327/resources/Content/MainMenu/review.png), fd: 0xCC
+[10:09:22.286] |T| [close_file]: sceIoClose: Closing file fd: 0xCC
+[10:09:22.317] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/menu.png
+[10:09:22.318] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/menu.png (ux0:/app/PCSE00327/resources/Content/Interface/menu.png), fd: 0xCD
+[10:09:22.327] |T| [close_file]: sceIoClose: Closing file fd: 0xCD
+[10:09:22.401] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/MainMenu.xml
+[10:09:22.402] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/MainMenu.xml (ux0:/app/PCSE00327/resources/Content/MainMenu/MainMenu.xml), fd: 0xCE
+[10:09:22.409] |T| [close_file]: sceIoClose: Closing file fd: 0xCE
+[10:09:22.421] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/bkg.png
+[10:09:22.422] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/bkg.png (ux0:/app/PCSE00327/resources/Content/MainMenu/bkg.png), fd: 0xCF
+[10:09:22.424] |T| [close_file]: sceIoClose: Closing file fd: 0xCF
+[10:09:22.702] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/facebook.png
+[10:09:22.703] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/facebook.png (ux0:/app/PCSE00327/resources/Content/MainMenu/facebook.png), fd: 0xD0
+[10:09:22.705] |T| [close_file]: sceIoClose: Closing file fd: 0xD0
+[10:09:22.708] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/play.png
+[10:09:22.709] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/play.png (ux0:/app/PCSE00327/resources/Content/MainMenu/play.png), fd: 0xD1
+[10:09:22.712] |T| [close_file]: sceIoClose: Closing file fd: 0xD1
+[10:09:22.728] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/credits.png
+[10:09:22.729] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/credits.png (ux0:/app/PCSE00327/resources/Content/MainMenu/credits.png), fd: 0xD2
+[10:09:22.740] |T| [close_file]: sceIoClose: Closing file fd: 0xD2
+[10:09:22.753] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/options.png
+[10:09:22.754] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/options.png (ux0:/app/PCSE00327/resources/Content/MainMenu/options.png), fd: 0xD3
+[10:09:22.760] |T| [close_file]: sceIoClose: Closing file fd: 0xD3
+[10:09:22.773] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/banner_god.png
+[10:09:22.774] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/banner_god.png (ux0:/app/PCSE00327/resources/Content/MainMenu/banner_god.png), fd: 0xD4
+[10:09:22.778] |T| [close_file]: sceIoClose: Closing file fd: 0xD4
+[10:09:22.814] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/Markets.xml
+[10:09:22.817] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/Markets.xml (ux0:/app/PCSE00327/resources/Content/Markets/Markets.xml), fd: 0xD5
+[10:09:22.818] |T| [close_file]: sceIoClose: Closing file fd: 0xD5
+[10:09:22.826] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/markets/bkg_new.png
+[10:09:22.826] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/markets/bkg_new.png (ux0:/app/PCSE00327/resources/Content/markets/bkg_new.png), fd: 0xD6
+[10:09:22.835] |T| [close_file]: sceIoClose: Closing file fd: 0xD6
+[10:09:23.160] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/appstore_button.png
+[10:09:23.162] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/appstore_button.png (ux0:/app/PCSE00327/resources/Content/Markets/appstore_button.png), fd: 0xD7
+[10:09:23.173] |T| [close_file]: sceIoClose: Closing file fd: 0xD7
+[10:09:23.177] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/google_play_button.png
+[10:09:23.178] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/google_play_button.png (ux0:/app/PCSE00327/resources/Content/Markets/google_play_button.png), fd: 0xD8
+[10:09:23.181] |T| [close_file]: sceIoClose: Closing file fd: 0xD8
+[10:09:23.195] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/amazon_button2.png
+[10:09:23.203] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/amazon_button2.png (ux0:/app/PCSE00327/resources/Content/Markets/amazon_button2.png), fd: 0xD9
+[10:09:23.208] |T| [close_file]: sceIoClose: Closing file fd: 0xD9
+[10:09:23.218] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/j2me_button.png
+[10:09:23.219] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/j2me_button.png (ux0:/app/PCSE00327/resources/Content/Markets/j2me_button.png), fd: 0xDA
+[10:09:23.223] |T| [close_file]: sceIoClose: Closing file fd: 0xDA
+[10:09:23.232] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/nokia_button.png
+[10:09:23.233] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/nokia_button.png (ux0:/app/PCSE00327/resources/Content/Markets/nokia_button.png), fd: 0xDB
+[10:09:23.242] |T| [close_file]: sceIoClose: Closing file fd: 0xDB
+[10:09:23.249] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/winphone_big_button.png
+[10:09:23.251] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/winphone_big_button.png (ux0:/app/PCSE00327/resources/Content/Markets/winphone_big_button.png), fd: 0xDC
+[10:09:23.264] |T| [close_file]: sceIoClose: Closing file fd: 0xDC
+[10:09:23.278] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/blackberry_button.png
+[10:09:23.281] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/blackberry_button.png (ux0:/app/PCSE00327/resources/Content/Markets/blackberry_button.png), fd: 0xDD
+[10:09:23.284] |T| [close_file]: sceIoClose: Closing file fd: 0xDD
+[10:09:23.297] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/nook_color_button.png
+[10:09:23.299] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/nook_color_button.png (ux0:/app/PCSE00327/resources/Content/Markets/nook_color_button.png), fd: 0xDE
+[10:09:23.303] |T| [close_file]: sceIoClose: Closing file fd: 0xDE
+[10:09:23.314] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/iphone_button.png
+[10:09:23.316] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/iphone_button.png (ux0:/app/PCSE00327/resources/Content/Markets/iphone_button.png), fd: 0xDF
+[10:09:23.321] |T| [close_file]: sceIoClose: Closing file fd: 0xDF
+[10:09:23.329] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/ipad_button.png
+[10:09:23.331] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/ipad_button.png (ux0:/app/PCSE00327/resources/Content/Markets/ipad_button.png), fd: 0xE0
+[10:09:23.333] |T| [close_file]: sceIoClose: Closing file fd: 0xE0
+[10:09:23.346] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/button_toolbar_2.png
+[10:09:23.349] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/button_toolbar_2.png (ux0:/app/PCSE00327/resources/Content/Markets/button_toolbar_2.png), fd: 0xE1
+[10:09:23.358] |T| [close_file]: sceIoClose: Closing file fd: 0xE1
+[10:09:23.366] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Markets/back.png
+[10:09:23.368] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Markets/back.png (ux0:/app/PCSE00327/resources/Content/Markets/back.png), fd: 0xE2
+[10:09:23.373] |T| [close_file]: sceIoClose: Closing file fd: 0xE2
+[10:09:23.384] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/Options.xml
+[10:09:23.386] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/Options.xml (ux0:/app/PCSE00327/resources/Content/MainMenu/Options.xml), fd: 0xE3
+[10:09:23.391] |T| [close_file]: sceIoClose: Closing file fd: 0xE3
+[10:09:23.403] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/options_bkg.png
+[10:09:23.404] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/options_bkg.png (ux0:/app/PCSE00327/resources/Content/MainMenu/options_bkg.png), fd: 0xE4
+[10:09:23.411] |T| [close_file]: sceIoClose: Closing file fd: 0xE4
+[10:09:23.560] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/button_close_options.png
+[10:09:23.565] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/button_close_options.png (ux0:/app/PCSE00327/resources/Content/MainMenu/button_close_options.png), fd: 0xE5
+[10:09:23.568] |T| [close_file]: sceIoClose: Closing file fd: 0xE5
+[10:09:23.574] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/sound_off.png
+[10:09:23.576] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/sound_off.png (ux0:/app/PCSE00327/resources/Content/MainMenu/sound_off.png), fd: 0xE6
+[10:09:23.578] |T| [close_file]: sceIoClose: Closing file fd: 0xE6
+[10:09:23.587] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/sound_01.png
+[10:09:23.588] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/sound_01.png (ux0:/app/PCSE00327/resources/Content/MainMenu/sound_01.png), fd: 0xE7
+[10:09:23.592] |T| [close_file]: sceIoClose: Closing file fd: 0xE7
+[10:09:23.599] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/sound_02.png
+[10:09:23.602] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/sound_02.png (ux0:/app/PCSE00327/resources/Content/MainMenu/sound_02.png), fd: 0xE8
+[10:09:23.611] |T| [close_file]: sceIoClose: Closing file fd: 0xE8
+[10:09:23.618] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/sound_03.png
+[10:09:23.620] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/sound_03.png (ux0:/app/PCSE00327/resources/Content/MainMenu/sound_03.png), fd: 0xE9
+[10:09:23.624] |T| [close_file]: sceIoClose: Closing file fd: 0xE9
+[10:09:23.635] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/voice_off.png
+[10:09:23.636] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/voice_off.png (ux0:/app/PCSE00327/resources/Content/MainMenu/voice_off.png), fd: 0xEA
+[10:09:23.641] |T| [close_file]: sceIoClose: Closing file fd: 0xEA
+[10:09:23.649] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/voice_01.png
+[10:09:23.651] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/voice_01.png (ux0:/app/PCSE00327/resources/Content/MainMenu/voice_01.png), fd: 0xEB
+[10:09:23.654] |T| [close_file]: sceIoClose: Closing file fd: 0xEB
+[10:09:23.663] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/voice_02.png
+[10:09:23.663] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/voice_02.png (ux0:/app/PCSE00327/resources/Content/MainMenu/voice_02.png), fd: 0xEC
+[10:09:23.673] |T| [close_file]: sceIoClose: Closing file fd: 0xEC
+[10:09:23.683] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/voice_03.png
+[10:09:23.684] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/voice_03.png (ux0:/app/PCSE00327/resources/Content/MainMenu/voice_03.png), fd: 0xED
+[10:09:23.692] |T| [close_file]: sceIoClose: Closing file fd: 0xED
+[10:09:23.705] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/music_off.png
+[10:09:23.705] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/music_off.png (ux0:/app/PCSE00327/resources/Content/MainMenu/music_off.png), fd: 0xEE
+[10:09:23.712] |T| [close_file]: sceIoClose: Closing file fd: 0xEE
+[10:09:23.719] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Mainmenu/music_01.png
+[10:09:23.721] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Mainmenu/music_01.png (ux0:/app/PCSE00327/resources/Content/Mainmenu/music_01.png), fd: 0xEF
+[10:09:23.725] |T| [close_file]: sceIoClose: Closing file fd: 0xEF
+[10:09:23.732] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Mainmenu/music_02.png
+[10:09:23.733] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Mainmenu/music_02.png (ux0:/app/PCSE00327/resources/Content/Mainmenu/music_02.png), fd: 0xF0
+[10:09:23.735] |T| [close_file]: sceIoClose: Closing file fd: 0xF0
+[10:09:23.743] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Mainmenu/music_03.png
+[10:09:23.744] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Mainmenu/music_03.png (ux0:/app/PCSE00327/resources/Content/Mainmenu/music_03.png), fd: 0xF1
+[10:09:23.747] |T| [close_file]: sceIoClose: Closing file fd: 0xF1
+[10:09:23.758] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/reset_back.png
+[10:09:23.759] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/reset_back.png (ux0:/app/PCSE00327/resources/Content/MainMenu/reset_back.png), fd: 0xF2
+[10:09:23.763] |T| [close_file]: sceIoClose: Closing file fd: 0xF2
+[10:09:23.774] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/reset_button.png
+[10:09:23.776] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/reset_button.png (ux0:/app/PCSE00327/resources/Content/MainMenu/reset_button.png), fd: 0xF3
+[10:09:23.780] |T| [close_file]: sceIoClose: Closing file fd: 0xF3
+[10:09:23.789] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/PlayMenu.xml
+[10:09:23.790] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/PlayMenu.xml (ux0:/app/PCSE00327/resources/Content/PlayMenu/PlayMenu.xml), fd: 0xF4
+[10:09:23.802] |T| [close_file]: sceIoClose: Closing file fd: 0xF4
+[10:09:23.826] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/under_main_game.png
+[10:09:23.827] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/under_main_game.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/under_main_game.png), fd: 0xF5
+[10:09:23.833] |T| [close_file]: sceIoClose: Closing file fd: 0xF5
+[10:09:23.844] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/button_main_game.png
+[10:09:23.847] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/button_main_game.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/button_main_game.png), fd: 0xF6
+[10:09:23.851] |T| [close_file]: sceIoClose: Closing file fd: 0xF6
+[10:09:23.880] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/under_main_game_select.png
+[10:09:23.882] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/under_main_game_select.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/under_main_game_select.png), fd: 0xF7
+[10:09:23.883] |T| [close_file]: sceIoClose: Closing file fd: 0xF7
+[10:09:23.898] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/button_main_game_select.png
+[10:09:23.899] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/button_main_game_select.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/button_main_game_select.png), fd: 0xF8
+[10:09:23.904] |T| [close_file]: sceIoClose: Closing file fd: 0xF8
+[10:09:23.940] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/tree.png
+[10:09:23.941] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/tree.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/tree.png), fd: 0xF9
+[10:09:23.945] |T| [close_file]: sceIoClose: Closing file fd: 0xF9
+[10:09:24.020] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/beginning.png
+[10:09:24.021] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/beginning.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/beginning.png), fd: 0xFA
+[10:09:24.024] |T| [close_file]: sceIoClose: Closing file fd: 0xFA
+[10:09:24.045] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/percent_basic.png
+[10:09:24.047] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/percent_basic.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/percent_basic.png), fd: 0xFB
+[10:09:24.050] |T| [close_file]: sceIoClose: Closing file fd: 0xFB
+[10:09:24.054] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/quests/reset_button.png
+[10:09:24.055] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/quests/reset_button.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/quests/reset_button.png), fd: 0xFC
+[10:09:24.056] |T| [close_file]: sceIoClose: Closing file fd: 0xFC
+[10:09:24.066] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/technology.png
+[10:09:24.066] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/technology.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/technology.png), fd: 0xFD
+[10:09:24.071] |T| [close_file]: sceIoClose: Closing file fd: 0xFD
+[10:09:24.096] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/technology_lock.png
+[10:09:24.097] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/technology_lock.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/technology_lock.png), fd: 0xFE
+[10:09:24.099] |T| [close_file]: sceIoClose: Closing file fd: 0xFE
+[10:09:24.119] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/percent_technology.png
+[10:09:24.120] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/percent_technology.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/percent_technology.png), fd: 0xFF
+[10:09:24.125] |T| [close_file]: sceIoClose: Closing file fd: 0xFF
+[10:09:24.130] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/modern_age.png
+[10:09:24.131] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/modern_age.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/modern_age.png), fd: 0x100
+[10:09:24.134] |T| [close_file]: sceIoClose: Closing file fd: 0x100
+[10:09:24.156] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/modern_age_lock.png
+[10:09:24.158] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/modern_age_lock.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/modern_age_lock.png), fd: 0x101
+[10:09:24.160] |T| [close_file]: sceIoClose: Closing file fd: 0x101
+[10:09:24.181] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/percent_modern.png
+[10:09:24.182] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/percent_modern.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/percent_modern.png), fd: 0x102
+[10:09:24.187] |T| [close_file]: sceIoClose: Closing file fd: 0x102
+[10:09:24.192] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/world_of_magic.png
+[10:09:24.194] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/world_of_magic.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/world_of_magic.png), fd: 0x103
+[10:09:24.196] |T| [close_file]: sceIoClose: Closing file fd: 0x103
+[10:09:24.215] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/world_of_magic_lock.png
+[10:09:24.216] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/world_of_magic_lock.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/world_of_magic_lock.png), fd: 0x104
+[10:09:24.223] |T| [close_file]: sceIoClose: Closing file fd: 0x104
+[10:09:24.242] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/PlayMenu/tree/percent_magic.png
+[10:09:24.243] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/PlayMenu/tree/percent_magic.png (ux0:/app/PCSE00327/resources/Content/PlayMenu/tree/percent_magic.png), fd: 0x105
+[10:09:24.248] |T| [close_file]: sceIoClose: Closing file fd: 0x105
+[10:09:24.258] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/Portrait.xml
+[10:09:24.258] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/Portrait.xml (ux0:/app/PCSE00327/resources/Content/Interface/Portrait.xml), fd: 0x106
+[10:09:24.260] |T| [close_file]: sceIoClose: Closing file fd: 0x106
+[10:09:24.262] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/small_screen2.png
+[10:09:24.265] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/small_screen2.png (ux0:/app/PCSE00327/resources/Content/Interface/small_screen2.png), fd: 0x107
+[10:09:24.268] |T| [close_file]: sceIoClose: Closing file fd: 0x107
+[10:09:24.334] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/small_screen2_logo.png
+[10:09:24.335] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/small_screen2_logo.png (ux0:/app/PCSE00327/resources/Content/Interface/small_screen2_logo.png), fd: 0x108
+[10:09:24.337] |T| [close_file]: sceIoClose: Closing file fd: 0x108
+[10:09:24.371] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/PressStart.xml
+[10:09:24.372] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/PressStart.xml (ux0:/app/PCSE00327/resources/Content/MainMenu/PressStart.xml), fd: 0x109
+[10:09:24.374] |T| [close_file]: sceIoClose: Closing file fd: 0x109
+[10:09:24.378] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/name_of_game.png
+[10:09:24.379] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/name_of_game.png (ux0:/app/PCSE00327/resources/Content/MainMenu/name_of_game.png), fd: 0x10A
+[10:09:24.381] |T| [close_file]: sceIoClose: Closing file fd: 0x10A
+[10:09:24.424] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Interface/Snapped.xml
+[10:09:24.425] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Interface/Snapped.xml (ux0:/app/PCSE00327/resources/Content/Interface/Snapped.xml), fd: 0x10B
+[10:09:24.427] |T| [close_file]: sceIoClose: Closing file fd: 0x10B
+[10:09:24.430] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Teaser/teaser.xml
+[10:09:24.431] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Teaser/teaser.xml (ux0:/app/PCSE00327/resources/Content/Teaser/teaser.xml), fd: 0x10C
+[10:09:24.433] |T| [close_file]: sceIoClose: Closing file fd: 0x10C
+[10:09:24.470] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Teaser/teaser2.xml
+[10:09:24.471] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Teaser/teaser2.xml (ux0:/app/PCSE00327/resources/Content/Teaser/teaser2.xml), fd: 0x10D
+[10:09:24.474] |T| [close_file]: sceIoClose: Closing file fd: 0x10D
+[10:09:24.499] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Teaser/teaser3.xml
+[10:09:24.500] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Teaser/teaser3.xml (ux0:/app/PCSE00327/resources/Content/Teaser/teaser3.xml), fd: 0x10E
+[10:09:24.504] |T| [close_file]: sceIoClose: Closing file fd: 0x10E
+[10:09:24.533] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Teaser/teaser4.xml
+[10:09:24.534] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Teaser/teaser4.xml (ux0:/app/PCSE00327/resources/Content/Teaser/teaser4.xml), fd: 0x10F
+[10:09:24.538] |T| [close_file]: sceIoClose: Closing file fd: 0x10F
+[10:09:24.578] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Teaser/teaserd1.xml
+[10:09:24.580] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Teaser/teaserd1.xml (ux0:/app/PCSE00327/resources/Content/Teaser/teaserd1.xml), fd: 0x110
+[10:09:24.583] |T| [close_file]: sceIoClose: Closing file fd: 0x110
+[10:09:24.620] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Teaser/teaserd2.xml
+[10:09:24.621] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Teaser/teaserd2.xml (ux0:/app/PCSE00327/resources/Content/Teaser/teaserd2.xml), fd: 0x111
+[10:09:24.624] |T| [close_file]: sceIoClose: Closing file fd: 0x111
+[10:09:24.663] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Teaser/teaserd3.xml
+[10:09:24.663] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Teaser/teaserd3.xml (ux0:/app/PCSE00327/resources/Content/Teaser/teaserd3.xml), fd: 0x112
+[10:09:24.666] |T| [close_file]: sceIoClose: Closing file fd: 0x112
+[10:09:24.705] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Trial/Trial.xml
+[10:09:24.705] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Trial/Trial.xml (ux0:/app/PCSE00327/resources/Content/Trial/Trial.xml), fd: 0x113
+[10:09:24.711] |T| [close_file]: sceIoClose: Closing file fd: 0x113
+[10:09:24.715] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Trial/bkg.png
+[10:09:24.716] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Trial/bkg.png (ux0:/app/PCSE00327/resources/Content/Trial/bkg.png), fd: 0x114
+[10:09:24.718] |T| [close_file]: sceIoClose: Closing file fd: 0x114
+[10:09:25.031] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/MainMenu/unlock_button.png
+[10:09:25.033] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/MainMenu/unlock_button.png (ux0:/app/PCSE00327/resources/Content/MainMenu/unlock_button.png), fd: 0x115
+[10:09:25.042] |T| [close_file]: sceIoClose: Closing file fd: 0x115
+[10:09:25.075] |E| [logging::ret_error_impl]: _sceKernelWaitThreadEnd returned SCE_KERNEL_ERROR_UNKNOWN_THREAD_ID (0x80028021)
+[10:09:45.816] |T| [open_file]: sceSaveDataDialogInit: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x116
+[10:09:45.819] |T| [close_file]: sceSaveDataDialogInit: Closing file fd: 0x116
+[10:09:45.828] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x117
+[10:09:45.832] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x117
+[10:09:47.290] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x118
+[10:09:47.292] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x118
+[10:09:48.023] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x119
+[10:09:48.029] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x119
+[10:09:48.557] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x11A
+[10:09:48.559] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x11A
+[10:09:49.107] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x11B
+[10:09:49.115] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x11B
+[10:09:49.473] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00327/SlotParam_0.bin), fd: 0x11C
+[10:09:49.477] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x11C
+[10:09:51.078] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/teaser/intro_01.png
+[10:09:51.079] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/teaser/intro_01.png (ux0:/app/PCSE00327/resources/Content/teaser/intro_01.png), fd: 0x11D
+[10:09:51.081] |T| [close_file]: sceIoClose: Closing file fd: 0x11D
+[10:09:51.112] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/teaser/intro_02.png
+[10:09:51.113] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/teaser/intro_02.png (ux0:/app/PCSE00327/resources/Content/teaser/intro_02.png), fd: 0x11E
+[10:09:51.115] |T| [close_file]: sceIoClose: Closing file fd: 0x11E
+[10:09:51.146] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/teaser/intro_03.png
+[10:09:51.147] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/teaser/intro_03.png (ux0:/app/PCSE00327/resources/Content/teaser/intro_03.png), fd: 0x11F
+[10:09:51.153] |T| [close_file]: sceIoClose: Closing file fd: 0x11F
+[10:09:51.178] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/teaser/intro_04.png
+[10:09:51.179] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/teaser/intro_04.png (ux0:/app/PCSE00327/resources/Content/teaser/intro_04.png), fd: 0x120
+[10:09:51.195] |T| [close_file]: sceIoClose: Closing file fd: 0x120
+[10:09:51.341] |I| [ngs::player::Module::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[10:10:11.719] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[10:10:11.797] |E| [logging::ret_error_impl]: sceNgsVoiceResume returned SCE_NGS_ERROR_INVALID_STATE (0x804A0010)
+[10:10:25.547] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Human.png
+[10:10:25.548] |T| [open_file]: sceIoOpen: Opening file app0:/resources/Content/Elements/scetch_Human.png (ux0:/app/PCSE00327/resources/Content/Elements/scetch_Human.png), fd: 0x121
+[10:10:25.553] |T| [close_file]: sceIoClose: Closing file fd: 0x121
+[10:10:26.721] |I| [export_sceIoOpen]: Opening file: app0:/resources/Content/Elements/scetch_Plant.png
+[10:10:26.723] |E| [open_file]: Missing file at C:/Users/ Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE00327/resources/Content/Elements/scetch_Plant.png (target path: app0:/resources/Content/Elements/scetch_Plant.png)
+[10:10:26.728] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002

@@ -1,0 +1,883 @@
+[19:26:08.625] |I| [config::init_config]: backend-renderer: OpenGL
+[19:26:08.625] |I| [config::init_config]: log-level: 0
+[19:26:08.809] |I| [SDL_main]: Vita3K v0.1.9 3544-66041f0c
+[19:26:08.809] |I| [SDL_main]: Number of logical CPU cores: 12
+[19:26:08.809] |I| [SDL_main]: Available ram memory: 31936 MiB
+[19:26:08.810] |I| [app::init]: Base path: D:/Games/PS Vita/
+[19:26:08.810] |I| [app::init]: User pref path: D:\Games\PS Vita/
+[19:26:09.021] |I| [renderer::gl::create]: GPU = NVIDIA GeForce GTX 1070/PCIe/SSE2
+[19:26:09.021] |I| [renderer::gl::create]: GL_VERSION = 4.6.0 NVIDIA 546.33
+[19:26:09.021] |I| [renderer::gl::create]: GL_SHADING_LANGUAGE_VERSION = 4.60 NVIDIA
+[19:26:09.022] |I| [renderer::gl::create]: Your GPU supports shader interlock, some games that use programmable blending will have better performance.
+[19:26:09.534] |I| [compat::update_app_compat_db]: Applications compatibility database is up to date.
+[19:26:17.615] |I| [gui::set_vsync_state]: V-Sync state: true
+[19:26:17.910] |I| [load_app_impl]: cpu-backend: Dynarmic
+[19:26:17.910] |I| [load_app_impl]: CPU Optimisation state: true
+[19:26:17.910] |I| [load_app_impl]: ngs state: true
+[19:26:17.910] |I| [load_app_impl]: Resolution multiplier: 1
+[19:26:17.910] |I| [load_app_impl]: modules mode: Automatic
+[19:26:17.910] |I| [load_app_impl]: Title: 学園K -Wonderful School Days- V  Edition
+[19:26:17.911] |I| [load_app_impl]: Serial: PCSG00654
+[19:26:17.911] |I| [load_app_impl]: Version: 1.00
+[19:26:17.911] |I| [load_app_impl]: Category: gd
+[19:26:17.911] |I| [load_module]: Loading module "app0:eboot.bin"
+[19:26:17.921] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[19:26:17.921] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x800A0B1F / 0x81000000] (size: 0x0009CB1F) of module app0:eboot.bin
+[19:26:17.921] |I| [load_self]: Loaded module segment 1 @ [0x800A1000 - 0x80104604 / 0x8109D000] (size: 0x00063604) of module app0:eboot.bin
+[19:26:17.921] |I| [load_self]: Linking SELF app0:eboot.bin...
+[19:26:17.922] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8007e330
+[19:26:17.922] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x800a5bbc
+[19:26:17.922] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8008f514
+[19:26:17.922] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x80080a40, setting to stub value 0xdeadbeef
+[19:26:17.923] |I| [load_module]: Module eboot (at "app0:eboot.bin") loaded
+[19:26:17.924] |I| [load_app_impl]: Main executable eboot (eboot.bin) loaded
+[19:26:17.924] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[19:26:17.930] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[19:26:17.930] |I| [load_self]: Loaded module segment 0 @ [0x80106000 - 0x80157814 / 0x81000000] (size: 0x00051814) of module app0:sce_module/libc.suprx
+[19:26:17.931] |I| [load_self]: Loaded module segment 1 @ [0x80158000 - 0x8015A8A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[19:26:17.931] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[19:26:17.931] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x801585b0
+[19:26:17.932] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8014d284
+[19:26:17.932] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8014244c
+[19:26:17.932] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[19:26:17.933] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[19:26:17.936] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[19:26:17.936] |I| [load_self]: Loaded module segment 0 @ [0x8015B000 - 0x80187CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[19:26:17.937] |I| [load_self]: Loaded module segment 1 @ [0x80188000 - 0x8018D255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[19:26:17.937] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[19:26:17.938] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80187bc8
+[19:26:17.938] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8017ef08
+[19:26:17.938] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[19:26:17.938] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[19:26:17.943] |I| [load_self]: Loaded module segment 0 @ [0x8018E000 - 0x801DEF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[19:26:17.944] |I| [load_self]: Loaded module segment 1 @ [0x80105000 - 0x801052F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[19:26:17.944] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[19:26:17.944] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x801ca7dc
+[19:26:17.945] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x801c9f10
+[19:26:17.945] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[19:26:17.945] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[19:26:17.947] |I| [load_self]: Loaded module segment 0 @ [0x801DF000 - 0x801EEF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[19:26:17.947] |I| [load_self]: Loaded module segment 1 @ [0x801EF000 - 0x801EF008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[19:26:17.947] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[19:26:17.948] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x801ed710
+[19:26:17.948] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x801ed300
+[19:26:17.948] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[19:26:17.949] |I| [renderer::gl::compile_shader]: frag shader compiled: aa5150eafc0a249a68788be3926e134bd0465592353aae3ac94e49656b7e30f4
+[19:26:17.950] |I| [renderer::gl::compile_shader]: vert shader compiled: b9a6cd9849a4259e1e54d35a7e75eacc1a6c8357da2461d78fd0c6be2fd8879f
+[19:26:17.950] |E| [renderer::gl::compile_program]: Fragment info
+-------------
+0(30) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[19:26:17.951] |I| [renderer::gl::pre_compile_program]: Program Compiled 1/3
+[19:26:17.983] |I| [renderer::gl::compile_shader]: frag shader compiled: 861a3ec1dc210306323e3c25fd1f1f47da96ee525643abdb8ebee13891f58924
+[19:26:17.984] |I| [renderer::gl::compile_shader]: vert shader compiled: fccf7212c12c38930c104fbcae962420dc5ea0786c65a897d14244898fdf67fc
+[19:26:17.984] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(33) : warning C7050: "internals[0].zw" might be used before being initialized
+
+
+[19:26:17.984] |I| [renderer::gl::pre_compile_program]: Program Compiled 2/3
+[19:26:17.985] |I| [renderer::gl::compile_shader]: frag shader compiled: c2a1f2a2aee9c4c7b0d109fb665b4bb5a0e2f070e3086d6642515de556265a4d
+[19:26:17.986] |I| [renderer::gl::compile_shader]: vert shader compiled: ad1c8381454083c204ae8fb7c64070ccc2e00f73fcfe39db96fb77be408c4139
+[19:26:17.986] |E| [renderer::gl::compile_program]: Vertex info
+-----------
+0(35) : warning C7050: "internals[0].zw" might be used before being initialized
+
+Fragment info
+-------------
+0(28) : warning C7050: "pa[0].zw" might be used before being initialized
+
+
+[19:26:17.986] |I| [renderer::gl::pre_compile_program]: Program Compiled 3/3
+[19:26:17.995] |D| [start_module]: Running module_start of library: SceLibc at address 0x80106871
+[19:26:18.012] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[19:26:18.012] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[19:26:18.012] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[19:26:18.017] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[19:26:18.018] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x8015b001
+[19:26:18.028] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[19:26:18.028] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[19:26:18.030] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8007e020
+[19:26:18.030] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x8007e070
+[19:26:18.032] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x8007df50
+[19:26:18.034] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc0883865 rand at 0x8007e030
+[19:26:18.058] |W| [export_sceRtcGetAccumulativeTime::<lambda_1>::operator ()]: Stubbed sceRtcGetAccumulativeTime import called. (sceRtcGetAccumulativeTime)
+[19:26:18.058] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3aad41b0 srand at 0x8007df00
+[19:26:18.066] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[19:26:18.066] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x8007df80
+[19:26:18.102] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[19:26:18.150] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x8007dfb0
+[19:26:18.151] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x8007dfe0
+[19:26:18.152] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SYSTEM_GESTURE
+[19:26:18.152] |I| [load_module]: Loading module "vs0:sys/external/libsystemgesture.suprx"
+[19:26:18.152] |I| [load_self]: vs0:sys/external/libsystemgesture.suprx: Skipping special segment 0x6fffff01...
+[19:26:18.152] |I| [load_self]: Loaded module segment 0 @ [0x80735000 - 0x8073808C / 0x81000000] (size: 0x0000308C) of module vs0:sys/external/libsystemgesture.suprx
+[19:26:18.153] |I| [load_self]: Loaded module segment 1 @ [0x806FD000 - 0x806FDBF0 / 0x81004000] (size: 0x00000BF0) of module vs0:sys/external/libsystemgesture.suprx
+[19:26:18.153] |I| [load_self]: Linking SELF vs0:sys/external/libsystemgesture.suprx...
+[19:26:18.154] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80738074
+[19:26:18.154] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80737bd4
+[19:26:18.154] |I| [load_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") loaded
+[19:26:18.155] |D| [start_module]: Running module_start of library: SceSystemGesture at address 0x80735001
+[19:26:18.162] |I| [start_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") module_start returned 0x0
+[19:26:18.164] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6078a08b sceSystemGestureInitializePrimitiveTouchRecognizer at 0x8007d9e0
+[19:26:18.164] |W| [export_sceTouchGetPixelDensity2::<lambda_1>::operator ()]: Stubbed sceTouchGetPixelDensity2 import called. (Return constant values (22.0))
+[19:26:18.165] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3367370 sceSystemGestureCreateTouchRecognizer at 0x8007da20
+[19:26:18.173] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x8007df60
+[19:26:18.173] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x8007d8f0
+[19:26:18.184] |W| [export_sceKernelChangeThreadVfpException::<lambda_1>::operator ()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[19:26:18.185] |W| [export_sceFiosOverlayThreadSetDisabled02::<lambda_1>::operator ()]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[19:26:18.206] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[19:26:18.207] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SCREEN_SHOT
+[19:26:18.207] |W| [export_sceScreenShotDisable::<lambda_1>::operator ()]: Unimplemented sceScreenShotDisable import called.
+[19:26:18.207] |W| [export_sceScreenShotSetOverlayImage::<lambda_1>::operator ()]: Unimplemented sceScreenShotSetOverlayImage import called.
+[19:26:18.208] |W| [export_sceScreenShotEnable::<lambda_1>::operator ()]: Unimplemented sceScreenShotEnable import called.
+[19:26:18.209] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdf4c665a sceSystemGestureUpdatePrimitiveTouchRecognizer at 0x8007da30
+[19:26:18.210] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x851fb144 sceSystemGestureUpdateTouchRecognizer at 0x8007da00
+[19:26:18.211] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x13ad2218 sceSystemGestureGetTouchEventsCount at 0x8007d9d0
+[19:26:18.213] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x8007dfc0
+[19:26:18.213] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x8007dea0
+[19:26:18.216] |E| [export_sceGxmSetVertexStream::<lambda_1>::operator ()]: sceGxmSetVertexStream returned SCE_GXM_ERROR_INVALID_POINTER (0x805b0004)
+[19:26:18.216] |E| [gxmDrawElementGeneral::<lambda_1>::operator ()]: sceGxmDraw returned SCE_GXM_ERROR_INVALID_POINTER (0x805b0004)
+[19:26:18.217] |E| [export_sceGxmSetFragmentTexture::<lambda_1>::operator ()]: sceGxmSetFragmentTexture returned SCE_GXM_ERROR_INVALID_POINTER (0x805b0004)
+[19:26:18.217] |T| [log_import_call]: [LLE] TID: 69  FUNC: 0xbf699bd4 sceFiosFHOpen at 0x8007d930
+[19:26:18.217] |E| [gxmDrawElementGeneral::<lambda_4>::operator ()]: sceGxmDraw returned SCE_GXM_ERROR_NULL_PROGRAM (0x805b0008)
+[19:26:18.218] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[19:26:18.227] |I| [export_sceIoOpen]: Opening file: app0:/Data/CORE.DAT
+[19:26:18.227] |T| [open_file]: sceIoOpen: Opening file app0:/Data/CORE.DAT (ux0:/app/PCSG00654/Data/CORE.DAT), fd: 0x3
+[19:26:18.227] |T| [log_import_call]: [LLE] TID: 69  FUNC: 0x1b9a575e sceFiosOpIsDone at 0x8007d890
+[19:26:18.231] |T| [log_import_call]: [LLE] TID: 69  FUNC: 0xbf099e16 sceFiosOpGetError at 0x8007d920
+[19:26:18.232] |T| [log_import_call]: [LLE] TID: 69  FUNC: 0xe4ea92fa sceFiosOpDelete at 0x8007d970
+[19:26:18.233] |T| [log_import_call]: [LLE] TID: 69  FUNC: 0xc5c26581 sceFiosFHGetSize at 0x8007d950
+[19:26:18.233] |T| [log_import_call]: [LLE] TID: 69  FUNC: 0xb09afbdf sceFiosFHRead at 0x8007d910
+[19:26:18.238] |T| [log_import_call]: [LLE] TID: 69  FUNC: 0x45182328 sceFiosFHCloseSync at 0x8007d8c0
+[19:26:18.239] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[19:26:18.337] |I| [export_sceIoOpen]: Opening file: app0:/Data/VOICE.IDX
+[19:26:18.337] |T| [open_file]: sceIoOpen: Opening file app0:/Data/VOICE.IDX (ux0:/app/PCSG00654/Data/VOICE.IDX), fd: 0x4
+[19:26:18.340] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[19:26:18.365] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x184c4b07 strcasecmp at 0x8007dec0
+[19:26:18.371] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[19:26:18.373] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9a004680 printf at 0x8007dfd0
+[19:26:18.375] |T| [write_file]: *** TTY: prepareAudioOut2: sending output to audio port 1
+[19:26:18.384] |T| [write_file]: *** TTY: audioUpdateThread running
+[19:26:18.391] |T| [write_file]: *** TTY: started AudioDataThread
+[19:26:18.392] |I| [export_sceIoOpen]: Opening file: app0:/Data/DATA.PAK
+[19:26:18.393] |T| [open_file]: sceIoOpen: Opening file app0:/Data/DATA.PAK (ux0:/app/PCSG00654/Data/DATA.PAK), fd: 0x5
+[19:26:18.395] |T| [log_import_call]: [LLE] TID: 69  FUNC: 0xd1bc28e7 bsearch at 0x8007e050
+[19:26:18.395] |T| [log_import_call]: [LLE] TID: 69  FUNC: 0x6a51e688 sceFiosFHPread at 0x8007d8d0
+[19:26:18.459] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x8007e060
+[19:26:18.460] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[19:26:18.460] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[19:26:18.461] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR09051_00/TROPHY.TRP (ux0:/app/PCSG00654/sce_sys/trophy/NPWR09051_00/TROPHY.TRP), fd: 0x6
+[19:26:18.461] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR09051_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR09051_00/TROPUSR.DAT), fd: 0x7
+[19:26:18.462] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR09051_00/TROPCONF.SFM), fd: 0x8
+[19:26:18.462] |T| [write_file]: install_trophy_context: Writing to fd: 0x8, size: 2592
+[19:26:18.463] |T| [close_file]: install_trophy_context: Closing file fd: 0x8
+[19:26:18.463] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR09051_00/TROP.SFM), fd: 0x9
+[19:26:18.463] |T| [write_file]: install_trophy_context: Writing to fd: 0x9, size: 7150
+[19:26:18.464] |T| [close_file]: install_trophy_context: Closing file fd: 0x9
+[19:26:18.464] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/ICON0.PNG), fd: 0xa
+[19:26:18.464] |T| [write_file]: install_trophy_context: Writing to fd: 0xa, size: 115034
+[19:26:18.465] |T| [close_file]: install_trophy_context: Closing file fd: 0xa
+[19:26:18.465] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP000.PNG), fd: 0xb
+[19:26:18.466] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 23222
+[19:26:18.466] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[19:26:18.466] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP001.PNG), fd: 0xc
+[19:26:18.467] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 91083
+[19:26:18.467] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[19:26:18.467] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP002.PNG), fd: 0xd
+[19:26:18.468] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 62501
+[19:26:18.468] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[19:26:18.468] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP003.PNG), fd: 0xe
+[19:26:18.469] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 75286
+[19:26:18.469] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[19:26:18.470] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP004.PNG), fd: 0xf
+[19:26:18.470] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 64538
+[19:26:18.470] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[19:26:18.471] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP005.PNG), fd: 0x10
+[19:26:18.471] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 76775
+[19:26:18.472] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[19:26:18.472] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP006.PNG), fd: 0x11
+[19:26:18.472] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 72735
+[19:26:18.473] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[19:26:18.473] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP007.PNG), fd: 0x12
+[19:26:18.473] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 70874
+[19:26:18.474] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[19:26:18.474] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP008.PNG), fd: 0x13
+[19:26:18.475] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 54943
+[19:26:18.475] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[19:26:18.475] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP009.PNG), fd: 0x14
+[19:26:18.476] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 63456
+[19:26:18.476] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[19:26:18.476] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP010.PNG), fd: 0x15
+[19:26:18.477] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 36719
+[19:26:18.477] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[19:26:18.477] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP011.PNG), fd: 0x16
+[19:26:18.478] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 100859
+[19:26:18.478] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[19:26:18.478] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP012.PNG), fd: 0x17
+[19:26:18.479] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 68755
+[19:26:18.479] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[19:26:18.480] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP013.PNG), fd: 0x18
+[19:26:18.481] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 72716
+[19:26:18.481] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[19:26:18.481] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP014.PNG), fd: 0x19
+[19:26:18.481] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 92758
+[19:26:18.481] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[19:26:18.482] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP015.PNG), fd: 0x1a
+[19:26:18.482] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 62151
+[19:26:18.483] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[19:26:18.483] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP016.PNG), fd: 0x1b
+[19:26:18.483] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 71317
+[19:26:18.484] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[19:26:18.484] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP017.PNG), fd: 0x1c
+[19:26:18.485] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 86553
+[19:26:18.485] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[19:26:18.485] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP018.PNG), fd: 0x1d
+[19:26:18.486] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 94496
+[19:26:18.486] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[19:26:18.486] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP019.PNG), fd: 0x1e
+[19:26:18.487] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 65159
+[19:26:18.487] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[19:26:18.487] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP020.PNG), fd: 0x1f
+[19:26:18.488] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 64722
+[19:26:18.488] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[19:26:18.488] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP021.PNG), fd: 0x20
+[19:26:18.489] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 46921
+[19:26:18.489] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[19:26:18.489] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP022.PNG), fd: 0x21
+[19:26:18.490] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 80211
+[19:26:18.490] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[19:26:18.490] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP023.PNG), fd: 0x22
+[19:26:18.491] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 75308
+[19:26:18.491] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[19:26:18.491] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP024.PNG), fd: 0x23
+[19:26:18.492] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 74467
+[19:26:18.492] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[19:26:18.492] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP025.PNG), fd: 0x24
+[19:26:18.493] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 32717
+[19:26:18.493] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[19:26:18.494] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP026.PNG), fd: 0x25
+[19:26:18.494] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 81427
+[19:26:18.494] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[19:26:18.495] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP027.PNG), fd: 0x26
+[19:26:18.495] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 66731
+[19:26:18.496] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[19:26:18.496] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP028.PNG), fd: 0x27
+[19:26:18.497] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 61356
+[19:26:18.497] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[19:26:18.497] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP029.PNG), fd: 0x28
+[19:26:18.498] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 36130
+[19:26:18.498] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[19:26:18.498] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP030.PNG), fd: 0x29
+[19:26:18.499] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 49219
+[19:26:18.499] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[19:26:18.500] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP031.PNG), fd: 0x2a
+[19:26:18.500] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 33215
+[19:26:18.500] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[19:26:18.501] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP032.PNG), fd: 0x2b
+[19:26:18.501] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 38598
+[19:26:18.501] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[19:26:18.502] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP033.PNG), fd: 0x2c
+[19:26:18.502] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 66230
+[19:26:18.503] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[19:26:18.503] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP034.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP034.PNG), fd: 0x2d
+[19:26:18.503] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 70996
+[19:26:18.504] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[19:26:18.504] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP035.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP035.PNG), fd: 0x2e
+[19:26:18.504] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 72621
+[19:26:18.505] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[19:26:18.505] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP036.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP036.PNG), fd: 0x2f
+[19:26:18.505] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 57102
+[19:26:18.506] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[19:26:18.506] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP037.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP037.PNG), fd: 0x30
+[19:26:18.507] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 62403
+[19:26:18.507] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[19:26:18.507] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR09051_00/TROP038.PNG (ux0:/user/00/trophy/conf/NPWR09051_00/TROP038.PNG), fd: 0x31
+[19:26:18.508] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 8589
+[19:26:18.508] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[19:26:18.508] |T| [close_file]: create_trophy_context: Closing file fd: 0x7
+[19:26:18.508] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR09051_00 create successfuly!
+[19:26:18.649] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x8007df70
+[19:26:18.657] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_0.bin), fd: 0x32
+[19:26:18.658] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x32
+[19:26:18.658] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_1.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_1.bin), fd: 0x33
+[19:26:18.659] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x33
+[19:26:18.659] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_2.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_2.bin), fd: 0x34
+[19:26:18.659] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x34
+[19:26:18.660] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_3.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_3.bin), fd: 0x35
+[19:26:18.660] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x35
+[19:26:18.660] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_4.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_4.bin), fd: 0x36
+[19:26:18.661] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x36
+[19:26:18.661] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_5.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_5.bin), fd: 0x37
+[19:26:18.662] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x37
+[19:26:18.662] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_6.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_6.bin), fd: 0x38
+[19:26:18.662] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x38
+[19:26:18.663] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_7.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_7.bin), fd: 0x39
+[19:26:18.663] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x39
+[19:26:18.663] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_8.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_8.bin), fd: 0x3a
+[19:26:18.664] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x3a
+[19:26:18.664] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_9.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_9.bin), fd: 0x3b
+[19:26:18.665] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x3b
+[19:26:18.665] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_10.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_10.bin), fd: 0x3c
+[19:26:18.665] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x3c
+[19:26:18.666] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_11.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_11.bin), fd: 0x3d
+[19:26:18.667] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x3d
+[19:26:18.667] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_12.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_12.bin), fd: 0x3e
+[19:26:18.668] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x3e
+[19:26:18.668] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_13.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_13.bin), fd: 0x3f
+[19:26:18.669] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x3f
+[19:26:18.669] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_14.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_14.bin), fd: 0x40
+[19:26:18.669] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x40
+[19:26:18.670] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_15.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_15.bin), fd: 0x41
+[19:26:18.670] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x41
+[19:26:18.671] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_16.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_16.bin), fd: 0x42
+[19:26:18.671] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x42
+[19:26:18.671] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_17.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_17.bin), fd: 0x43
+[19:26:18.672] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x43
+[19:26:18.672] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_18.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_18.bin), fd: 0x44
+[19:26:18.673] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x44
+[19:26:18.673] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_19.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_19.bin), fd: 0x45
+[19:26:18.674] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x45
+[19:26:18.674] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_20.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_20.bin), fd: 0x46
+[19:26:18.674] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x46
+[19:26:18.675] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_21.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_21.bin), fd: 0x47
+[19:26:18.675] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x47
+[19:26:18.675] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_22.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_22.bin), fd: 0x48
+[19:26:18.676] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x48
+[19:26:18.676] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_23.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_23.bin), fd: 0x49
+[19:26:18.677] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x49
+[19:26:18.677] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_24.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_24.bin), fd: 0x4a
+[19:26:18.677] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4a
+[19:26:18.678] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_25.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_25.bin), fd: 0x4b
+[19:26:18.678] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4b
+[19:26:18.679] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_26.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_26.bin), fd: 0x4c
+[19:26:18.679] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4c
+[19:26:18.679] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_27.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_27.bin), fd: 0x4d
+[19:26:18.680] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4d
+[19:26:18.680] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_28.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_28.bin), fd: 0x4e
+[19:26:18.681] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4e
+[19:26:18.681] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_29.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_29.bin), fd: 0x4f
+[19:26:18.681] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x4f
+[19:26:18.682] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_30.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_30.bin), fd: 0x50
+[19:26:18.683] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x50
+[19:26:18.684] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_31.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_31.bin), fd: 0x51
+[19:26:18.684] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x51
+[19:26:18.684] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_32.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_32.bin), fd: 0x52
+[19:26:18.685] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x52
+[19:26:18.685] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_33.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_33.bin), fd: 0x53
+[19:26:18.685] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x53
+[19:26:18.686] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_34.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_34.bin), fd: 0x54
+[19:26:18.686] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x54
+[19:26:18.687] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_35.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_35.bin), fd: 0x55
+[19:26:18.687] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x55
+[19:26:18.687] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_36.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_36.bin), fd: 0x56
+[19:26:18.688] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x56
+[19:26:18.688] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_37.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_37.bin), fd: 0x57
+[19:26:18.689] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x57
+[19:26:18.689] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_38.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_38.bin), fd: 0x58
+[19:26:18.689] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x58
+[19:26:18.690] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_39.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_39.bin), fd: 0x59
+[19:26:18.690] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x59
+[19:26:18.691] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_40.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_40.bin), fd: 0x5a
+[19:26:18.691] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x5a
+[19:26:18.691] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_41.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_41.bin), fd: 0x5b
+[19:26:18.692] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x5b
+[19:26:18.692] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_42.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_42.bin), fd: 0x5c
+[19:26:18.692] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x5c
+[19:26:18.693] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_43.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_43.bin), fd: 0x5d
+[19:26:18.693] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x5d
+[19:26:18.693] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_44.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_44.bin), fd: 0x5e
+[19:26:18.694] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x5e
+[19:26:18.694] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_45.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_45.bin), fd: 0x5f
+[19:26:18.695] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x5f
+[19:26:18.695] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_46.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_46.bin), fd: 0x60
+[19:26:18.695] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x60
+[19:26:18.696] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_47.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_47.bin), fd: 0x61
+[19:26:18.696] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x61
+[19:26:18.697] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_48.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_48.bin), fd: 0x62
+[19:26:18.697] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x62
+[19:26:18.697] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_49.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_49.bin), fd: 0x63
+[19:26:18.698] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x63
+[19:26:18.699] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_50.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_50.bin), fd: 0x64
+[19:26:18.699] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x64
+[19:26:18.700] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_51.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_51.bin), fd: 0x65
+[19:26:18.700] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x65
+[19:26:18.701] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_52.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_52.bin), fd: 0x66
+[19:26:18.701] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x66
+[19:26:18.701] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_53.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_53.bin), fd: 0x67
+[19:26:18.702] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x67
+[19:26:18.702] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_54.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_54.bin), fd: 0x68
+[19:26:18.703] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x68
+[19:26:18.703] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_55.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_55.bin), fd: 0x69
+[19:26:18.704] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x69
+[19:26:18.704] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_56.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_56.bin), fd: 0x6a
+[19:26:18.704] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x6a
+[19:26:18.705] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_57.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_57.bin), fd: 0x6b
+[19:26:18.705] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x6b
+[19:26:18.705] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_58.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_58.bin), fd: 0x6c
+[19:26:18.706] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x6c
+[19:26:18.706] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_59.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_59.bin), fd: 0x6d
+[19:26:18.707] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x6d
+[19:26:18.707] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_60.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_60.bin), fd: 0x6e
+[19:26:18.708] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x6e
+[19:26:18.708] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_61.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_61.bin), fd: 0x6f
+[19:26:18.708] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x6f
+[19:26:18.709] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_62.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_62.bin), fd: 0x70
+[19:26:18.709] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x70
+[19:26:18.709] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_63.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_63.bin), fd: 0x71
+[19:26:18.710] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x71
+[19:26:18.710] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_64.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_64.bin), fd: 0x72
+[19:26:18.711] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x72
+[19:26:18.711] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_65.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_65.bin), fd: 0x73
+[19:26:18.711] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x73
+[19:26:18.712] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_66.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_66.bin), fd: 0x74
+[19:26:18.712] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x74
+[19:26:18.712] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_67.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_67.bin), fd: 0x75
+[19:26:18.713] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x75
+[19:26:18.713] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_68.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_68.bin), fd: 0x76
+[19:26:18.714] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x76
+[19:26:18.714] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_69.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_69.bin), fd: 0x77
+[19:26:18.715] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x77
+[19:26:18.716] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_70.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_70.bin), fd: 0x78
+[19:26:18.716] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x78
+[19:26:18.716] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_71.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_71.bin), fd: 0x79
+[19:26:18.717] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x79
+[19:26:18.717] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_72.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_72.bin), fd: 0x7a
+[19:26:18.718] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x7a
+[19:26:18.718] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_73.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_73.bin), fd: 0x7b
+[19:26:18.718] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x7b
+[19:26:18.719] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_74.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_74.bin), fd: 0x7c
+[19:26:18.719] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x7c
+[19:26:18.719] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_75.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_75.bin), fd: 0x7d
+[19:26:18.720] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x7d
+[19:26:18.720] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_76.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_76.bin), fd: 0x7e
+[19:26:18.721] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x7e
+[19:26:18.721] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_77.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_77.bin), fd: 0x7f
+[19:26:18.721] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x7f
+[19:26:18.722] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_78.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_78.bin), fd: 0x80
+[19:26:18.722] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x80
+[19:26:18.722] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_79.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_79.bin), fd: 0x81
+[19:26:18.723] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x81
+[19:26:18.723] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_80.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_80.bin), fd: 0x82
+[19:26:18.724] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x82
+[19:26:18.724] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_81.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_81.bin), fd: 0x83
+[19:26:18.724] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x83
+[19:26:18.725] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_82.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_82.bin), fd: 0x84
+[19:26:18.725] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x84
+[19:26:18.725] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_83.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_83.bin), fd: 0x85
+[19:26:18.726] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x85
+[19:26:18.726] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_84.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_84.bin), fd: 0x86
+[19:26:18.727] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x86
+[19:26:18.727] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_85.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_85.bin), fd: 0x87
+[19:26:18.727] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x87
+[19:26:18.728] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_86.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_86.bin), fd: 0x88
+[19:26:18.728] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x88
+[19:26:18.728] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_87.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_87.bin), fd: 0x89
+[19:26:18.729] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x89
+[19:26:18.729] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_88.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_88.bin), fd: 0x8a
+[19:26:18.730] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x8a
+[19:26:18.731] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_89.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_89.bin), fd: 0x8b
+[19:26:18.731] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x8b
+[19:26:18.732] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_90.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_90.bin), fd: 0x8c
+[19:26:18.732] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x8c
+[19:26:18.733] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_91.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_91.bin), fd: 0x8d
+[19:26:18.733] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x8d
+[19:26:18.733] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_92.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_92.bin), fd: 0x8e
+[19:26:18.734] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x8e
+[19:26:18.734] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_93.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_93.bin), fd: 0x8f
+[19:26:18.735] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x8f
+[19:26:18.735] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_94.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_94.bin), fd: 0x90
+[19:26:18.735] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x90
+[19:26:18.736] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_95.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_95.bin), fd: 0x91
+[19:26:18.736] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x91
+[19:26:18.736] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_96.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_96.bin), fd: 0x92
+[19:26:18.737] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x92
+[19:26:18.737] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_97.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_97.bin), fd: 0x93
+[19:26:18.738] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x93
+[19:26:18.738] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_98.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_98.bin), fd: 0x94
+[19:26:18.738] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x94
+[19:26:18.739] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_99.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_99.bin), fd: 0x95
+[19:26:18.739] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x95
+[19:26:18.740] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_100.bin (ux0:/user/00/savedata/PCSG00654/SlotParam_100.bin), fd: 0x96
+[19:26:18.740] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x96
+[19:26:19.768] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x74724147 sceSystemGestureGetTouchEventByIndex at 0x8007d9f0
+[19:26:22.739] |T| [log_import_call]: [LLE] TID: 82  FUNC: 0xa1bff606 snprintf at 0x8007dff0
+[19:26:22.741] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/system/system.bin
+[19:26:22.741] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/system/system.bin (ux0:/user/00/savedata/PCSG00654/savedata/system/system.bin), fd: 0x97
+[19:26:22.742] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[19:26:22.874] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game000.bin
+[19:26:22.875] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game000.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game000.bin), fd: 0x98
+[19:26:22.875] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[19:26:22.875] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game001.bin
+[19:26:22.876] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game001.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game001.bin), fd: 0x99
+[19:26:22.876] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[19:26:22.876] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game002.bin
+[19:26:22.877] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game002.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game002.bin), fd: 0x9a
+[19:26:22.877] |T| [close_file]: sceIoClose: Closing file fd: 0x9a
+[19:26:22.877] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game003.bin
+[19:26:22.878] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game003.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game003.bin), fd: 0x9b
+[19:26:22.878] |T| [close_file]: sceIoClose: Closing file fd: 0x9b
+[19:26:22.878] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game004.bin
+[19:26:22.879] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game004.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game004.bin), fd: 0x9c
+[19:26:22.879] |T| [close_file]: sceIoClose: Closing file fd: 0x9c
+[19:26:22.879] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game005.bin
+[19:26:22.880] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game005.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game005.bin), fd: 0x9d
+[19:26:22.880] |T| [close_file]: sceIoClose: Closing file fd: 0x9d
+[19:26:22.880] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game006.bin
+[19:26:22.881] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game006.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game006.bin), fd: 0x9e
+[19:26:22.881] |T| [close_file]: sceIoClose: Closing file fd: 0x9e
+[19:26:22.881] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game007.bin
+[19:26:22.882] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game007.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game007.bin), fd: 0x9f
+[19:26:22.882] |T| [close_file]: sceIoClose: Closing file fd: 0x9f
+[19:26:22.882] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game008.bin
+[19:26:22.883] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game008.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game008.bin), fd: 0xa0
+[19:26:22.883] |T| [close_file]: sceIoClose: Closing file fd: 0xa0
+[19:26:22.884] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game009.bin
+[19:26:22.884] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game009.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game009.bin), fd: 0xa1
+[19:26:22.885] |T| [close_file]: sceIoClose: Closing file fd: 0xa1
+[19:26:22.885] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game010.bin
+[19:26:22.885] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game010.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game010.bin), fd: 0xa2
+[19:26:22.886] |T| [close_file]: sceIoClose: Closing file fd: 0xa2
+[19:26:22.886] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game011.bin
+[19:26:22.886] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game011.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game011.bin), fd: 0xa3
+[19:26:22.887] |T| [close_file]: sceIoClose: Closing file fd: 0xa3
+[19:26:22.887] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game012.bin
+[19:26:22.887] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game012.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game012.bin), fd: 0xa4
+[19:26:22.888] |T| [close_file]: sceIoClose: Closing file fd: 0xa4
+[19:26:22.888] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game013.bin
+[19:26:22.888] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game013.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game013.bin), fd: 0xa5
+[19:26:22.889] |T| [close_file]: sceIoClose: Closing file fd: 0xa5
+[19:26:22.889] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game014.bin
+[19:26:22.889] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game014.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game014.bin), fd: 0xa6
+[19:26:22.890] |T| [close_file]: sceIoClose: Closing file fd: 0xa6
+[19:26:22.890] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game015.bin
+[19:26:22.890] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game015.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game015.bin), fd: 0xa7
+[19:26:22.892] |T| [close_file]: sceIoClose: Closing file fd: 0xa7
+[19:26:22.892] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game016.bin
+[19:26:22.892] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game016.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game016.bin), fd: 0xa8
+[19:26:22.893] |T| [close_file]: sceIoClose: Closing file fd: 0xa8
+[19:26:22.893] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game017.bin
+[19:26:22.893] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game017.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game017.bin), fd: 0xa9
+[19:26:22.894] |T| [close_file]: sceIoClose: Closing file fd: 0xa9
+[19:26:22.894] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game018.bin
+[19:26:22.894] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game018.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game018.bin), fd: 0xaa
+[19:26:22.895] |T| [close_file]: sceIoClose: Closing file fd: 0xaa
+[19:26:22.895] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game019.bin
+[19:26:22.895] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game019.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game019.bin), fd: 0xab
+[19:26:22.896] |T| [close_file]: sceIoClose: Closing file fd: 0xab
+[19:26:22.896] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game020.bin
+[19:26:22.896] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game020.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game020.bin), fd: 0xac
+[19:26:22.897] |T| [close_file]: sceIoClose: Closing file fd: 0xac
+[19:26:22.897] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game021.bin
+[19:26:22.897] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game021.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game021.bin), fd: 0xad
+[19:26:22.898] |T| [close_file]: sceIoClose: Closing file fd: 0xad
+[19:26:22.898] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game022.bin
+[19:26:22.898] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game022.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game022.bin), fd: 0xae
+[19:26:22.899] |T| [close_file]: sceIoClose: Closing file fd: 0xae
+[19:26:22.899] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game023.bin
+[19:26:22.899] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game023.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game023.bin), fd: 0xaf
+[19:26:22.900] |T| [close_file]: sceIoClose: Closing file fd: 0xaf
+[19:26:22.900] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game024.bin
+[19:26:22.900] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game024.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game024.bin), fd: 0xb0
+[19:26:22.901] |T| [close_file]: sceIoClose: Closing file fd: 0xb0
+[19:26:22.901] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game025.bin
+[19:26:22.901] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game025.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game025.bin), fd: 0xb1
+[19:26:22.902] |T| [close_file]: sceIoClose: Closing file fd: 0xb1
+[19:26:22.902] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game026.bin
+[19:26:22.902] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game026.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game026.bin), fd: 0xb2
+[19:26:22.903] |T| [close_file]: sceIoClose: Closing file fd: 0xb2
+[19:26:22.903] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game027.bin
+[19:26:22.903] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game027.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game027.bin), fd: 0xb3
+[19:26:22.904] |T| [close_file]: sceIoClose: Closing file fd: 0xb3
+[19:26:22.904] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game028.bin
+[19:26:22.905] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game028.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game028.bin), fd: 0xb4
+[19:26:22.905] |T| [close_file]: sceIoClose: Closing file fd: 0xb4
+[19:26:22.905] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game029.bin
+[19:26:22.906] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game029.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game029.bin), fd: 0xb5
+[19:26:22.906] |T| [close_file]: sceIoClose: Closing file fd: 0xb5
+[19:26:22.906] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game030.bin
+[19:26:22.907] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game030.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game030.bin), fd: 0xb6
+[19:26:22.908] |T| [close_file]: sceIoClose: Closing file fd: 0xb6
+[19:26:22.908] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game031.bin
+[19:26:22.909] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game031.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game031.bin), fd: 0xb7
+[19:26:22.909] |T| [close_file]: sceIoClose: Closing file fd: 0xb7
+[19:26:22.909] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game032.bin
+[19:26:22.910] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game032.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game032.bin), fd: 0xb8
+[19:26:22.910] |T| [close_file]: sceIoClose: Closing file fd: 0xb8
+[19:26:22.910] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game033.bin
+[19:26:22.911] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game033.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game033.bin), fd: 0xb9
+[19:26:22.911] |T| [close_file]: sceIoClose: Closing file fd: 0xb9
+[19:26:22.911] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game034.bin
+[19:26:22.912] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game034.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game034.bin), fd: 0xba
+[19:26:22.912] |T| [close_file]: sceIoClose: Closing file fd: 0xba
+[19:26:22.912] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game035.bin
+[19:26:22.913] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game035.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game035.bin), fd: 0xbb
+[19:26:22.913] |T| [close_file]: sceIoClose: Closing file fd: 0xbb
+[19:26:22.913] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game036.bin
+[19:26:22.914] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game036.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game036.bin), fd: 0xbc
+[19:26:22.914] |T| [close_file]: sceIoClose: Closing file fd: 0xbc
+[19:26:22.914] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game037.bin
+[19:26:22.915] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game037.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game037.bin), fd: 0xbd
+[19:26:22.915] |T| [close_file]: sceIoClose: Closing file fd: 0xbd
+[19:26:22.916] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game038.bin
+[19:26:22.916] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game038.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game038.bin), fd: 0xbe
+[19:26:22.916] |T| [close_file]: sceIoClose: Closing file fd: 0xbe
+[19:26:22.917] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game039.bin
+[19:26:22.917] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game039.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game039.bin), fd: 0xbf
+[19:26:22.918] |T| [close_file]: sceIoClose: Closing file fd: 0xbf
+[19:26:22.918] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game040.bin
+[19:26:22.918] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game040.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game040.bin), fd: 0xc0
+[19:26:22.919] |T| [close_file]: sceIoClose: Closing file fd: 0xc0
+[19:26:22.919] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game041.bin
+[19:26:22.919] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game041.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game041.bin), fd: 0xc1
+[19:26:22.920] |T| [close_file]: sceIoClose: Closing file fd: 0xc1
+[19:26:22.920] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game042.bin
+[19:26:22.920] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game042.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game042.bin), fd: 0xc2
+[19:26:22.921] |T| [close_file]: sceIoClose: Closing file fd: 0xc2
+[19:26:22.921] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game043.bin
+[19:26:22.921] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game043.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game043.bin), fd: 0xc3
+[19:26:22.922] |T| [close_file]: sceIoClose: Closing file fd: 0xc3
+[19:26:22.923] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game044.bin
+[19:26:22.923] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game044.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game044.bin), fd: 0xc4
+[19:26:22.923] |T| [close_file]: sceIoClose: Closing file fd: 0xc4
+[19:26:22.924] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game045.bin
+[19:26:22.924] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game045.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game045.bin), fd: 0xc5
+[19:26:22.924] |T| [close_file]: sceIoClose: Closing file fd: 0xc5
+[19:26:22.925] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game046.bin
+[19:26:22.925] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game046.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game046.bin), fd: 0xc6
+[19:26:22.925] |T| [close_file]: sceIoClose: Closing file fd: 0xc6
+[19:26:22.926] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game047.bin
+[19:26:22.926] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game047.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game047.bin), fd: 0xc7
+[19:26:22.926] |T| [close_file]: sceIoClose: Closing file fd: 0xc7
+[19:26:22.927] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game048.bin
+[19:26:22.927] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game048.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game048.bin), fd: 0xc8
+[19:26:22.927] |T| [close_file]: sceIoClose: Closing file fd: 0xc8
+[19:26:22.928] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game049.bin
+[19:26:22.928] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game049.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game049.bin), fd: 0xc9
+[19:26:22.928] |T| [close_file]: sceIoClose: Closing file fd: 0xc9
+[19:26:22.929] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game050.bin
+[19:26:22.929] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game050.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game050.bin), fd: 0xca
+[19:26:22.929] |T| [close_file]: sceIoClose: Closing file fd: 0xca
+[19:26:22.930] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game051.bin
+[19:26:22.930] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game051.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game051.bin), fd: 0xcb
+[19:26:22.931] |T| [close_file]: sceIoClose: Closing file fd: 0xcb
+[19:26:22.931] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game052.bin
+[19:26:22.931] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game052.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game052.bin), fd: 0xcc
+[19:26:22.932] |T| [close_file]: sceIoClose: Closing file fd: 0xcc
+[19:26:22.932] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game053.bin
+[19:26:22.932] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game053.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game053.bin), fd: 0xcd
+[19:26:22.933] |T| [close_file]: sceIoClose: Closing file fd: 0xcd
+[19:26:22.933] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game054.bin
+[19:26:22.933] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game054.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game054.bin), fd: 0xce
+[19:26:22.934] |T| [close_file]: sceIoClose: Closing file fd: 0xce
+[19:26:22.934] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game055.bin
+[19:26:22.935] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game055.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game055.bin), fd: 0xcf
+[19:26:22.935] |T| [close_file]: sceIoClose: Closing file fd: 0xcf
+[19:26:22.935] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game056.bin
+[19:26:22.936] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game056.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game056.bin), fd: 0xd0
+[19:26:22.936] |T| [close_file]: sceIoClose: Closing file fd: 0xd0
+[19:26:22.936] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game057.bin
+[19:26:22.937] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game057.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game057.bin), fd: 0xd1
+[19:26:22.937] |T| [close_file]: sceIoClose: Closing file fd: 0xd1
+[19:26:22.938] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game058.bin
+[19:26:22.939] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game058.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game058.bin), fd: 0xd2
+[19:26:22.939] |T| [close_file]: sceIoClose: Closing file fd: 0xd2
+[19:26:22.940] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game059.bin
+[19:26:22.940] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game059.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game059.bin), fd: 0xd3
+[19:26:22.940] |T| [close_file]: sceIoClose: Closing file fd: 0xd3
+[19:26:22.941] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game060.bin
+[19:26:22.941] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game060.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game060.bin), fd: 0xd4
+[19:26:22.942] |T| [close_file]: sceIoClose: Closing file fd: 0xd4
+[19:26:22.942] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game061.bin
+[19:26:22.942] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game061.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game061.bin), fd: 0xd5
+[19:26:22.943] |T| [close_file]: sceIoClose: Closing file fd: 0xd5
+[19:26:22.943] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game062.bin
+[19:26:22.943] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game062.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game062.bin), fd: 0xd6
+[19:26:22.944] |T| [close_file]: sceIoClose: Closing file fd: 0xd6
+[19:26:22.944] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game063.bin
+[19:26:22.945] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game063.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game063.bin), fd: 0xd7
+[19:26:22.945] |T| [close_file]: sceIoClose: Closing file fd: 0xd7
+[19:26:22.945] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game064.bin
+[19:26:22.946] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game064.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game064.bin), fd: 0xd8
+[19:26:22.946] |T| [close_file]: sceIoClose: Closing file fd: 0xd8
+[19:26:22.946] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game065.bin
+[19:26:22.947] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game065.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game065.bin), fd: 0xd9
+[19:26:22.947] |T| [close_file]: sceIoClose: Closing file fd: 0xd9
+[19:26:22.947] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game066.bin
+[19:26:22.948] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game066.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game066.bin), fd: 0xda
+[19:26:22.948] |T| [close_file]: sceIoClose: Closing file fd: 0xda
+[19:26:22.949] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game067.bin
+[19:26:22.949] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game067.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game067.bin), fd: 0xdb
+[19:26:22.949] |T| [close_file]: sceIoClose: Closing file fd: 0xdb
+[19:26:22.950] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game068.bin
+[19:26:22.950] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game068.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game068.bin), fd: 0xdc
+[19:26:22.950] |T| [close_file]: sceIoClose: Closing file fd: 0xdc
+[19:26:22.951] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game069.bin
+[19:26:22.951] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game069.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game069.bin), fd: 0xdd
+[19:26:22.952] |T| [close_file]: sceIoClose: Closing file fd: 0xdd
+[19:26:22.952] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game070.bin
+[19:26:22.952] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game070.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game070.bin), fd: 0xde
+[19:26:22.954] |T| [close_file]: sceIoClose: Closing file fd: 0xde
+[19:26:22.954] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game071.bin
+[19:26:22.954] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game071.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game071.bin), fd: 0xdf
+[19:26:22.955] |T| [close_file]: sceIoClose: Closing file fd: 0xdf
+[19:26:22.955] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game072.bin
+[19:26:22.955] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game072.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game072.bin), fd: 0xe0
+[19:26:22.956] |T| [close_file]: sceIoClose: Closing file fd: 0xe0
+[19:26:22.956] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game073.bin
+[19:26:22.956] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game073.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game073.bin), fd: 0xe1
+[19:26:22.957] |T| [close_file]: sceIoClose: Closing file fd: 0xe1
+[19:26:22.957] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game074.bin
+[19:26:22.957] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game074.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game074.bin), fd: 0xe2
+[19:26:22.958] |T| [close_file]: sceIoClose: Closing file fd: 0xe2
+[19:26:22.958] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game075.bin
+[19:26:22.958] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game075.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game075.bin), fd: 0xe3
+[19:26:22.959] |T| [close_file]: sceIoClose: Closing file fd: 0xe3
+[19:26:22.959] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game076.bin
+[19:26:22.959] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game076.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game076.bin), fd: 0xe4
+[19:26:22.960] |T| [close_file]: sceIoClose: Closing file fd: 0xe4
+[19:26:22.960] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game077.bin
+[19:26:22.960] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game077.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game077.bin), fd: 0xe5
+[19:26:22.961] |T| [close_file]: sceIoClose: Closing file fd: 0xe5
+[19:26:22.961] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game078.bin
+[19:26:22.961] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game078.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game078.bin), fd: 0xe6
+[19:26:22.962] |T| [close_file]: sceIoClose: Closing file fd: 0xe6
+[19:26:22.962] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game079.bin
+[19:26:22.962] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game079.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game079.bin), fd: 0xe7
+[19:26:22.963] |T| [close_file]: sceIoClose: Closing file fd: 0xe7
+[19:26:22.963] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game080.bin
+[19:26:22.963] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game080.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game080.bin), fd: 0xe8
+[19:26:22.964] |T| [close_file]: sceIoClose: Closing file fd: 0xe8
+[19:26:22.964] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game081.bin
+[19:26:22.964] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game081.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game081.bin), fd: 0xe9
+[19:26:22.965] |T| [close_file]: sceIoClose: Closing file fd: 0xe9
+[19:26:22.965] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game082.bin
+[19:26:22.965] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game082.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game082.bin), fd: 0xea
+[19:26:22.966] |T| [close_file]: sceIoClose: Closing file fd: 0xea
+[19:26:22.966] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game083.bin
+[19:26:22.967] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game083.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game083.bin), fd: 0xeb
+[19:26:22.967] |T| [close_file]: sceIoClose: Closing file fd: 0xeb
+[19:26:22.967] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game084.bin
+[19:26:22.968] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game084.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game084.bin), fd: 0xec
+[19:26:22.968] |T| [close_file]: sceIoClose: Closing file fd: 0xec
+[19:26:22.969] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game085.bin
+[19:26:22.969] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game085.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game085.bin), fd: 0xed
+[19:26:22.970] |T| [close_file]: sceIoClose: Closing file fd: 0xed
+[19:26:22.970] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game086.bin
+[19:26:22.970] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game086.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game086.bin), fd: 0xee
+[19:26:22.971] |T| [close_file]: sceIoClose: Closing file fd: 0xee
+[19:26:22.971] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game087.bin
+[19:26:22.971] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game087.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game087.bin), fd: 0xef
+[19:26:22.972] |T| [close_file]: sceIoClose: Closing file fd: 0xef
+[19:26:22.972] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game088.bin
+[19:26:22.972] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game088.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game088.bin), fd: 0xf0
+[19:26:22.973] |T| [close_file]: sceIoClose: Closing file fd: 0xf0
+[19:26:22.973] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game089.bin
+[19:26:22.973] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game089.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game089.bin), fd: 0xf1
+[19:26:22.974] |T| [close_file]: sceIoClose: Closing file fd: 0xf1
+[19:26:22.974] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game090.bin
+[19:26:22.974] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game090.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game090.bin), fd: 0xf2
+[19:26:22.975] |T| [close_file]: sceIoClose: Closing file fd: 0xf2
+[19:26:22.975] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game091.bin
+[19:26:22.975] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game091.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game091.bin), fd: 0xf3
+[19:26:22.976] |T| [close_file]: sceIoClose: Closing file fd: 0xf3
+[19:26:22.976] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game092.bin
+[19:26:22.977] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game092.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game092.bin), fd: 0xf4
+[19:26:22.977] |T| [close_file]: sceIoClose: Closing file fd: 0xf4
+[19:26:22.977] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game093.bin
+[19:26:22.978] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game093.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game093.bin), fd: 0xf5
+[19:26:22.978] |T| [close_file]: sceIoClose: Closing file fd: 0xf5
+[19:26:22.979] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game094.bin
+[19:26:22.979] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game094.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game094.bin), fd: 0xf6
+[19:26:22.979] |T| [close_file]: sceIoClose: Closing file fd: 0xf6
+[19:26:22.980] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game095.bin
+[19:26:22.980] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game095.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game095.bin), fd: 0xf7
+[19:26:22.980] |T| [close_file]: sceIoClose: Closing file fd: 0xf7
+[19:26:22.981] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game096.bin
+[19:26:22.981] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game096.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game096.bin), fd: 0xf8
+[19:26:22.982] |T| [close_file]: sceIoClose: Closing file fd: 0xf8
+[19:26:22.982] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game097.bin
+[19:26:22.982] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game097.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game097.bin), fd: 0xf9
+[19:26:22.983] |T| [close_file]: sceIoClose: Closing file fd: 0xf9
+[19:26:22.983] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game098.bin
+[19:26:22.983] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game098.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game098.bin), fd: 0xfa
+[19:26:22.984] |T| [close_file]: sceIoClose: Closing file fd: 0xfa
+[19:26:22.985] |I| [export_sceIoOpen]: Opening file: savedata0:savedata/game/game099.bin
+[19:26:22.985] |T| [open_file]: sceIoOpen: Opening file savedata0:savedata/game/game099.bin (ux0:/user/00/savedata/PCSG00654/savedata/game/game099.bin), fd: 0xfb
+[19:26:22.986] |T| [close_file]: sceIoClose: Closing file fd: 0xfb
+[19:26:23.207] |I| [ngs::PlayerModule::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[19:26:30.834] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[19:26:30.835] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[19:26:30.837] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[19:26:30.837] |I| [load_self]: Loaded module segment 0 @ [0x80799000 - 0x807AD9FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[19:26:30.837] |I| [load_self]: Loaded module segment 1 @ [0x80797000 - 0x8079706C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[19:26:30.838] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[19:26:30.838] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x807aad40
+[19:26:30.838] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x807a9548
+[19:26:30.839] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[19:26:30.839] |D| [start_module]: Running module_start of library: SceAvPlayer at address 0x80799001
+[19:26:30.846] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[19:26:30.848] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[19:26:30.849] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[19:26:30.849] |I| [load_self]: Loaded module segment 0 @ [0x807AE000 - 0x807BDD20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[19:26:30.849] |I| [load_self]: Loaded module segment 1 @ [0x80798000 - 0x80798028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[19:26:30.850] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[19:26:30.850] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x807bd9d0
+[19:26:30.851] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x807bc8c4
+[19:26:30.851] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[19:26:30.885] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4c847adf sceAvPlayerInit at 0x8007dc60
+[19:26:30.894] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbc83c8fd sceAvPlayerAddSource at 0x8007dca0
+[19:26:30.896] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5474af0 sceMp4OpenFile at 0x807a91a8
+[19:26:30.897] |I| [export_sceIoOpen]: Opening file: app0:/Data/MOVIE/IF_LOGO.MP4
+[19:26:30.897] |T| [open_file]: sceIoOpen: Opening file app0:/Data/MOVIE/IF_LOGO.MP4 (ux0:/app/PCSG00654/Data/MOVIE/IF_LOGO.MP4), fd: 0xfc
+[19:26:30.906] |T| [log_import_call]: [LLE] TID: 98  FUNC: 0x30e49e4d sceMp4StartFileStreaming at 0x807a91c8
+[19:26:30.912] |T| [log_import_call]: [LLE] TID: 111 FUNC: 0xa9363e6b memalign at 0x8007e000
+[19:26:30.912] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2e4ff35f sceAvPlayerIsActive at 0x8007dc50
+[19:26:30.912] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8bc3221b sceAvPlayerGetVideoData at 0x8007dc80
+[19:26:30.914] |T| [log_import_call]: [LLE] TID: 111 FUNC: 0xa10fc252 sceAvPlayerGetAudioData at 0x8007dc90
+[19:26:31.171] |T| [log_import_call]: [LLE] TID: 98  FUNC: 0xd5b26179 UNRECOGNISED at 0x807a92c8
+[19:26:31.180] |W| [export_sceAudiodecGetContextSize::<lambda_1>::operator ()]: Stubbed sceAudiodecGetContextSize import called. (fake size)
+[19:26:31.181] |W| [export_sceCodecEngineAllocMemoryFromUnmapMemBlock::<lambda_1>::operator ()]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[19:26:31.183] |T| [log_import_call]: [LLE] TID: 98  FUNC: 0x609e57ad sceMp4EnableStream at 0x807a9208
+[19:26:31.186] |W| [export_sceVideodecQueryMemSize::<lambda_1>::operator ()]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[19:26:31.211] |T| [log_import_call]: [LLE] TID: 196 FUNC: 0x20a01112 sceMp4GetNextUnit at 0x807a91b8
+[19:26:31.218] |T| [log_import_call]: [LLE] TID: 196 FUNC: 0xd092a066 sceMp4GetNextUnitData at 0x807a92a8
+[19:26:31.221] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[19:26:31.221] |E| [handle_timeout::<lambda_2>::operator ()]: _sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[19:26:32.367] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbd35e360 sceAvPlayerStop at 0x8007dcb0
+[19:26:32.373] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc05dff01 UNRECOGNISED at 0x807a9288
+[19:26:32.373] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x40351e1a sceMp4Reset at 0x807a91e8
+[19:26:32.377] |T| [log_import_call]: [LLE] TID: 111 FUNC: 0x5b9bb802 free at 0x8007df40
+[19:26:32.377] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7aa29b2d sceAvPlayerClose at 0x8007dc70
+[19:26:32.379] |W| [export_sceCodecEngineFreeMemoryFromUnmapMemBlock::<lambda_1>::operator ()]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[19:26:32.381] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x920623c8 sceMp4CloseFile at 0x807a9238
+[19:26:32.384] |T| [close_file]: sceIoClose: Closing file fd: 0xfc
+[19:26:32.387] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7b4832fe sceMp4ReleaseBuffer at 0x807a9228
+[19:26:32.457] |I| [export_sceIoOpen]: Opening file: app0:/Data/MOVIE/ICHI_LOGO.MP4
+[19:26:32.457] |T| [open_file]: sceIoOpen: Opening file app0:/Data/MOVIE/ICHI_LOGO.MP4 (ux0:/app/PCSG00654/Data/MOVIE/ICHI_LOGO.MP4), fd: 0xfd
+[19:26:35.730] |T| [close_file]: sceIoClose: Closing file fd: 0xfd
+[19:26:35.789] |I| [export_sceIoOpen]: Opening file: app0:/Data/MOVIE/OTM_LOGO.MP4
+[19:26:35.789] |T| [open_file]: sceIoOpen: Opening file app0:/Data/MOVIE/OTM_LOGO.MP4 (ux0:/app/PCSG00654/Data/MOVIE/OTM_LOGO.MP4), fd: 0xfe
+[19:26:36.106] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[19:26:38.150] |T| [close_file]: sceIoClose: Closing file fd: 0xfe
+[19:26:38.223] |I| [export_sceIoOpen]: Opening file: app0:/Data/MOVIE/OP.MP4
+[19:26:38.223] |T| [open_file]: sceIoOpen: Opening file app0:/Data/MOVIE/OP.MP4 (ux0:/app/PCSG00654/Data/MOVIE/OP.MP4), fd: 0xff
+[19:26:38.547] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[19:26:40.370] |T| [close_file]: sceIoClose: Closing file fd: 0xff
+[19:26:40.432] |W| [export_sceSysmoduleUnloadModule::<lambda_1>::operator ()]: Unimplemented sceSysmoduleUnloadModule import called.
+[19:26:41.183] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3e7c3db sceFiosFHOpenSync at 0x8007d940
+[19:26:41.191] |I| [export_sceIoOpen]: Opening file: app0:/Data/BGM/0/BGM000.AT9
+[19:26:41.191] |T| [open_file]: sceIoOpen: Opening file app0:/Data/BGM/0/BGM000.AT9 (ux0:/app/PCSG00654/Data/BGM/0/BGM000.AT9), fd: 0x100
+[19:26:41.195] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x76945919 sceFiosFHReadSync at 0x8007d8e0
+[19:26:41.199] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe2805059 sceFiosFHPreadSync at 0x8007d960
+[19:26:46.853] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x8007e040
+[19:26:46.854] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x8007df10
+[19:26:47.534] |T| [close_file]: sceIoClose: Closing file fd: 0x100
+[19:26:47.534] |I| [export_sceIoOpen]: Opening file: app0:/Data/BGM/0/BGM001.AT9
+[19:26:47.535] |T| [open_file]: sceIoOpen: Opening file app0:/Data/BGM/0/BGM001.AT9 (ux0:/app/PCSG00654/Data/BGM/0/BGM001.AT9), fd: 0x101
+[19:26:52.269] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1434fa46 strcat at 0x8007deb0
+[19:26:54.603] |T| [close_file]: sceIoClose: Closing file fd: 0x101
+[19:26:55.272] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x75348906 fabsf at 0x8007e0a0
+[19:26:55.272] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x93fc85ed _FSinx at 0x8007e0b0
+[19:26:56.619] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x8007ded0

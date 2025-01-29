@@ -1,0 +1,874 @@
+[01:06:17.430] |I| [config::init_config]: backend-renderer: Vulkan
+[01:06:17.431] |I| [config::init_config]: log-level: 0
+[01:06:17.512] |I| [SDL_main]: Vita3K v0.2.0 3587-cb15157c
+[01:06:17.512] |I| [SDL_main]: OS: Microsoft Windows 11  (build 22621)
+[01:06:17.513] |I| [SDL_main]: CPU: AMD Ryzen 5 4600G with Radeon Graphics | 12 Threads | 3.7 GHz
+[01:06:17.513] |I| [SDL_main]: Available ram memory: 15661 MiB
+[01:06:17.515] |I| [app::init]: Base path: D:\Vita 3K\
+[01:06:17.515] |I| [app::init]: User pref path: C:\Users\jueab\AppData\Roaming\Vita3K\Vita3K\
+[01:06:17.578] |I| [renderer::vulkan::VKState::create]: Vulkan device: AMD Radeon(TM) Graphics
+[01:06:17.578] |I| [renderer::vulkan::VKState::create]: Driver version: 2.0.279
+[01:06:17.579] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[01:06:17.604] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: FifoRelaxed
+[01:06:17.942] |I| [compat::update_app_compat_db]: Applications compatibility database is up to date.
+[01:10:14.214] |W| [gui::init_app_background]: Background not found for application Forelli Redemption [GTAFR0000].
+[01:10:14.214] |I| [renderer::vulkan::VKState::late_init]: The Vulkan renderer is using texture viewport for better performance
+[01:10:14.215] |I| [renderer::vulkan::PipelineCache::set_async_compilation]: Enabling asynchronous pipeline compilation with 4 threads
+[01:10:14.216] |I| [load_app_impl]: cpu-backend: Dynarmic
+[01:10:14.216] |I| [load_app_impl]: CPU Optimisation state: true
+[01:10:14.217] |I| [load_app_impl]: ngs state: true
+[01:10:14.217] |I| [load_app_impl]: Resolution multiplier: 1
+[01:10:14.217] |I| [load_app_impl]: modules mode: Automatic
+[01:10:14.217] |I| [load_app_impl]: Title: Forelli Redemption
+[01:10:14.217] |I| [load_app_impl]: Serial: GTAFR0000
+[01:10:14.217] |I| [load_app_impl]: Version: 0.00
+[01:10:14.218] |I| [load_app_impl]: Category: gd
+[01:10:14.219] |I| [load_module]: Loading module "app0:eboot.bin"
+[01:10:14.299] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x803D4CAC / 0x81000000] (size: 0x003D0CAC) of module app0:eboot.bin
+[01:10:14.299] |I| [load_self]: Loaded module segment 1 @ [0x803D5000 - 0x8093D5EC / 0x813E0000] (size: 0x005685EC) of module app0:eboot.bin
+[01:10:14.299] |I| [load_self]: Linking SELF app0:eboot.bin...
+[01:10:14.299] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x803d3e60
+[01:10:14.300] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x803d3ec0
+[01:10:14.300] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x803d3ebc
+[01:10:14.300] |I| [load_module]: Module GTA3.elf (at "app0:eboot.bin") loaded
+[01:10:14.300] |I| [load_app_impl]: Main executable GTA3.elf (eboot.bin) loaded
+[01:10:14.300] |I| [load_module]: Loading module "vs0:sys/external/libc.suprx"
+[01:10:14.316] |I| [load_self]: vs0:sys/external/libc.suprx: Skipping special segment 0x6fffff01...
+[01:10:14.316] |I| [load_self]: Loaded module segment 0 @ [0x8093E000 - 0x8098F8A4 / 0x81000000] (size: 0x000518A4) of module vs0:sys/external/libc.suprx
+[01:10:14.316] |I| [load_self]: Loaded module segment 1 @ [0x80990000 - 0x809928A0 / 0x81052000] (size: 0x000028A0) of module vs0:sys/external/libc.suprx
+[01:10:14.316] |I| [load_self]: Linking SELF vs0:sys/external/libc.suprx...
+[01:10:14.316] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80985314
+[01:10:14.317] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8097a4dc
+[01:10:14.317] |I| [load_module]: Module SceLibc (at "vs0:sys/external/libc.suprx") loaded
+[01:10:14.317] |I| [load_module]: Loading module "vs0:sys/external/libfios2.suprx"
+[01:10:14.329] |I| [load_self]: vs0:sys/external/libfios2.suprx: Skipping special segment 0x6fffff01...
+[01:10:14.329] |I| [load_self]: Loaded module segment 0 @ [0x80993000 - 0x809BFCBF / 0x81000000] (size: 0x0002CCBF) of module vs0:sys/external/libfios2.suprx
+[01:10:14.329] |I| [load_self]: Loaded module segment 1 @ [0x809C0000 - 0x809C5255 / 0x8102D000] (size: 0x00005255) of module vs0:sys/external/libfios2.suprx
+[01:10:14.329] |I| [load_self]: Linking SELF vs0:sys/external/libfios2.suprx...
+[01:10:14.330] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x809bfbc8
+[01:10:14.330] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x809b6f08
+[01:10:14.330] |I| [load_module]: Module SceLibFios2 (at "vs0:sys/external/libfios2.suprx") loaded
+[01:10:14.330] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[01:10:14.344] |I| [load_self]: Loaded module segment 0 @ [0x809C6000 - 0x80A16F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[01:10:14.344] |I| [load_self]: Loaded module segment 1 @ [0x80A17000 - 0x80A172F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[01:10:14.344] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[01:10:14.345] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80a027dc
+[01:10:14.345] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80a01f10
+[01:10:14.345] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[01:10:14.345] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[01:10:14.353] |I| [load_self]: Loaded module segment 0 @ [0x80A18000 - 0x80A27F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[01:10:14.353] |I| [load_self]: Loaded module segment 1 @ [0x80A28000 - 0x80A28008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[01:10:14.353] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[01:10:14.354] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80a26710
+[01:10:14.354] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80a26300
+[01:10:14.354] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[01:10:14.397] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[01:10:14.399] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[01:10:14.414] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/11
+[01:10:14.426] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/11
+[01:10:14.434] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/11
+[01:10:14.447] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/11
+[01:10:14.454] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/11
+[01:10:14.465] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/11
+[01:10:14.484] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 7/11
+[01:10:14.499] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 8/11
+[01:10:14.509] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 9/11
+[01:10:14.529] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 10/11
+[01:10:14.537] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 11/11
+[01:10:14.556] |D| [start_module]: Running module_start of library: SceLibc at address 0x8093e871
+[01:10:14.625] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[01:10:14.625] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[01:10:14.625] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[01:10:14.633] |I| [start_module]: Module SceLibc (at "vs0:sys/external/libc.suprx") module_start returned 0x0
+[01:10:14.634] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x80993001
+[01:10:14.647] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[01:10:14.648] |I| [start_module]: Module SceLibFios2 (at "vs0:sys/external/libfios2.suprx") module_start returned 0x0
+[01:10:14.787] |I| [export_sceIoOpen]: Opening file: tty0:
+[01:10:14.787] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[01:10:14.788] |I| [export_sceIoOpen]: Opening file: tty0:
+[01:10:14.788] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[01:10:14.788] |I| [export_sceIoOpen]: Opening file: tty0:
+[01:10:14.788] |T| [open_file]: sceIoOpen: Opening terminal tty0:
+[01:10:14.847] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models\coll\peds.col
+[01:10:14.855] |E| [handle_timeout::<lambda_2>::operator ()]: _sceKernelWaitSema returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[01:10:14.856] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models\coll\peds.col (ux0:/data/gta3/models/coll/peds.col), fd: 0x6
+[01:10:14.861] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[01:10:14.862] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/text/polish.gxt
+[01:10:14.870] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/text/polish.gxt (ux0:/data/gta3/text/polish.gxt), fd: 0x7
+[01:10:14.871] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models/fonts_p.txd
+[01:10:14.877] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models/fonts_p.txd (ux0:/data/gta3/models/fonts_p.txd), fd: 0x8
+[01:10:14.878] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[01:10:14.878] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[01:10:14.878] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/text/russian.gxt
+[01:10:14.885] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/text/russian.gxt (ux0:/data/gta3/text/russian.gxt), fd: 0x9
+[01:10:14.886] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models/fonts_r.txd
+[01:10:14.892] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models/fonts_r.txd (ux0:/data/gta3/models/fonts_r.txd), fd: 0xa
+[01:10:14.893] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[01:10:14.893] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[01:10:14.893] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/text/japanese.gxt
+[01:10:14.900] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/text/japanese.gxt (ux0:/data/gta3/text/japanese.gxt), fd: 0xb
+[01:10:14.901] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models/fonts_j.txd
+[01:10:14.907] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models/fonts_j.txd (ux0:/data/gta3/models/fonts_j.txd), fd: 0xc
+[01:10:14.908] |T| [close_file]: sceIoClose: Closing file fd: 0xc
+[01:10:14.908] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[01:10:14.911] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TEXT/AMERICAN.GXT
+[01:10:14.919] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TEXT/AMERICAN.GXT (ux0:/data/gta3/TEXT/AMERICAN.GXT), fd: 0xd
+[01:10:14.921] |T| [close_file]: sceIoClose: Closing file fd: 0xd
+[01:10:14.922] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/userfiles/gta3.set
+[01:10:14.923] |E| [open_file]: Missing file at C:/Users/jueab/AppData/Roaming/Vita3K/Vita3K/ux0/data/gta3/userfiles/gta3.set (target path: ux0:data/gta3/userfiles/gta3.set)
+[01:10:14.923] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:14.923] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/re3.ini
+[01:10:14.929] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/re3.ini (ux0:/data/gta3/re3.ini), fd: 0xe
+[01:10:14.937] |T| [close_file]: sceIoClose: Closing file fd: 0xe
+[01:10:14.956] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/re3.ini
+[01:10:14.957] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/re3.ini (ux0:/data/gta3/re3.ini), fd: 0xf
+[01:10:14.960] |T| [write_file]: sceIoWrite: Writing to fd: 0xf, size: 1024
+[01:10:14.960] |T| [write_file]: sceIoWrite: Writing to fd: 0xf, size: 1024
+[01:10:14.961] |T| [write_file]: sceIoWrite: Writing to fd: 0xf, size: 329
+[01:10:14.961] |T| [close_file]: sceIoClose: Closing file fd: 0xf
+[01:10:14.963] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/re3.ini
+[01:10:14.967] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/re3.ini (ux0:/data/gta3/re3.ini), fd: 0x10
+[01:10:14.967] |T| [write_file]: sceIoWrite: Writing to fd: 0x10, size: 1024
+[01:10:14.968] |T| [write_file]: sceIoWrite: Writing to fd: 0x10, size: 1024
+[01:10:14.968] |T| [write_file]: sceIoWrite: Writing to fd: 0x10, size: 329
+[01:10:14.968] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[01:10:14.969] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TEXT/POLISH.GXT
+[01:10:14.970] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TEXT/POLISH.GXT (ux0:/data/gta3/TEXT/POLISH.GXT), fd: 0x11
+[01:10:14.972] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[01:10:14.974] |T| [open_dir]: _sceIoDopen: Opening dir ux0:data/gta3/skins (ux0:/data/gta3/skins), fd: 0x12
+[01:10:14.975] |T| [read_dir]: _sceIoDread: Reading entry ux0:data/gta3/skins/playa2.bmp of fd: 0x12
+[01:10:14.976] |T| [read_dir]: _sceIoDread: Reading entry ux0:data/gta3/skins/player.bmp of fd: 0x12
+[01:10:14.976] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x12
+[01:10:14.994] |W| [export_sceAppMgrGetBudgetInfo::<lambda_1>::operator ()]: Stubbed sceAppMgrGetBudgetInfo import called. (not system mode)
+[01:10:15.007] |W| [export_sceKernelGetFreeMemorySize::<lambda_1>::operator ()]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[01:10:15.009] |W| [io_error_impl]: create_dir (_sceIoMkdir) returned 0x80010011
+[01:10:15.446] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[01:10:15.477] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[01:10:15.485] |W| [io_error_impl]: stat_file_by_fd (sceIoGetstatByFd) returned 0x80010051
+[01:10:15.486] |T| [write_file]: *** TTY: version OpenGL ES 2 VitaGL
+[01:10:15.486] |T| [write_file]: *** TTY: GL_VENDOR: Rinnegatamante
+[01:10:15.487] |T| [write_file]: *** TTY: GL_RENDERER: SGX543MP4+
+[01:10:15.487] |T| [write_file]: *** TTY: GL_VERSION: OpenGL ES 2 VitaGL
+[01:10:15.487] |T| [write_file]: *** TTY: GL_EXTENSIONS: GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OES_depth_texture GL_EXT_texture_format_BGRA8888 GL_EXT_read_format_bgra GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_dxt3 GL_EXT_texture_compression_dxt5 GL_EXT_texture_compression_s3tc GL_IMG_texture_compression_pvrtc
+[01:10:15.513] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/FONTS_P.TXD
+[01:10:15.513] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/FONTS_P.TXD (ux0:/data/gta3/MODELS/FONTS_P.TXD), fd: 0x13
+[01:10:15.535] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[01:10:15.537] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/X360BTNS.TXD
+[01:10:15.545] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/X360BTNS.TXD (ux0:/data/gta3/MODELS/X360BTNS.TXD), fd: 0x14
+[01:10:15.545] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[01:10:15.545] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/X360BTNS.TXD
+[01:10:15.546] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/X360BTNS.TXD (ux0:/data/gta3/MODELS/X360BTNS.TXD), fd: 0x15
+[01:10:15.549] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[01:10:15.550] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/HUD.TXD
+[01:10:15.558] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/HUD.TXD (ux0:/data/gta3/MODELS/HUD.TXD), fd: 0x16
+[01:10:15.912] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[01:10:15.913] |I| [export_sceIoOpen]: Opening file: .tga
+[01:10:15.913] |E| [open_file]: Cannot find device for path: .tga
+[01:10:15.913] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.913] |I| [export_sceIoOpen]: Opening file: .bmp
+[01:10:15.913] |E| [open_file]: Cannot find device for path: .bmp
+[01:10:15.914] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.914] |I| [export_sceIoOpen]: Opening file: .png
+[01:10:15.914] |E| [open_file]: Cannot find device for path: .png
+[01:10:15.914] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.914] |I| [export_sceIoOpen]: Opening file: .tga
+[01:10:15.915] |E| [open_file]: Cannot find device for path: .tga
+[01:10:15.915] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.915] |I| [export_sceIoOpen]: Opening file: .bmp
+[01:10:15.915] |E| [open_file]: Cannot find device for path: .bmp
+[01:10:15.915] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.915] |I| [export_sceIoOpen]: Opening file: .png
+[01:10:15.915] |E| [open_file]: Cannot find device for path: .png
+[01:10:15.915] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.916] |I| [export_sceIoOpen]: Opening file: .tga
+[01:10:15.916] |E| [open_file]: Cannot find device for path: .tga
+[01:10:15.916] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.916] |I| [export_sceIoOpen]: Opening file: .bmp
+[01:10:15.916] |E| [open_file]: Cannot find device for path: .bmp
+[01:10:15.916] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.916] |I| [export_sceIoOpen]: Opening file: .png
+[01:10:15.917] |E| [open_file]: Cannot find device for path: .png
+[01:10:15.917] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.917] |I| [export_sceIoOpen]: Opening file: .tga
+[01:10:15.917] |E| [open_file]: Cannot find device for path: .tga
+[01:10:15.917] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.917] |I| [export_sceIoOpen]: Opening file: .bmp
+[01:10:15.917] |E| [open_file]: Cannot find device for path: .bmp
+[01:10:15.917] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.917] |I| [export_sceIoOpen]: Opening file: .png
+[01:10:15.918] |E| [open_file]: Cannot find device for path: .png
+[01:10:15.918] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.918] |I| [export_sceIoOpen]: Opening file: bleeder.tga
+[01:10:15.918] |E| [open_file]: Cannot find device for path: bleeder.tga
+[01:10:15.918] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.918] |I| [export_sceIoOpen]: Opening file: bleeder.bmp
+[01:10:15.918] |E| [open_file]: Cannot find device for path: bleeder.bmp
+[01:10:15.918] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.918] |I| [export_sceIoOpen]: Opening file: bleeder.png
+[01:10:15.918] |E| [open_file]: Cannot find device for path: bleeder.png
+[01:10:15.919] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.924] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/userfiles/gta3.set
+[01:10:15.925] |E| [open_file]: Missing file at C:/Users/jueab/AppData/Roaming/Vita3K/Vita3K/ux0/data/gta3/userfiles/gta3.set (target path: ux0:data/gta3/userfiles/gta3.set)
+[01:10:15.925] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:15.926] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/re3.ini
+[01:10:15.926] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/re3.ini (ux0:/data/gta3/re3.ini), fd: 0x17
+[01:10:15.926] |T| [write_file]: sceIoWrite: Writing to fd: 0x17, size: 1024
+[01:10:15.926] |T| [write_file]: sceIoWrite: Writing to fd: 0x17, size: 1024
+[01:10:15.927] |T| [write_file]: sceIoWrite: Writing to fd: 0x17, size: 329
+[01:10:15.927] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[01:10:15.928] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_AVPLAYER
+[01:10:15.928] |I| [load_module]: Loading module "vs0:sys/external/libsceavplayer.suprx"
+[01:10:15.937] |I| [load_self]: vs0:sys/external/libsceavplayer.suprx: Skipping special segment 0x6fffff01...
+[01:10:15.937] |I| [load_self]: Loaded module segment 0 @ [0x80B8E000 - 0x80BA29FC / 0x81000000] (size: 0x000149FC) of module vs0:sys/external/libsceavplayer.suprx
+[01:10:15.937] |I| [load_self]: Loaded module segment 1 @ [0x80BA3000 - 0x80BA306C / 0x81015000] (size: 0x0000006C) of module vs0:sys/external/libsceavplayer.suprx
+[01:10:15.937] |I| [load_self]: Linking SELF vs0:sys/external/libsceavplayer.suprx...
+[01:10:15.937] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80b9fd40
+[01:10:15.938] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80b9e548
+[01:10:15.938] |I| [load_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") loaded
+[01:10:15.938] |D| [start_module]: Running module_start of library: SceAvPlayer at address 0x80b8e001
+[01:10:15.951] |I| [start_module]: Module SceAvPlayer (at "vs0:sys/external/libsceavplayer.suprx") module_start returned 0x0
+[01:10:15.952] |I| [load_module]: Loading module "vs0:sys/external/libscemp4.suprx"
+[01:10:15.960] |I| [load_self]: vs0:sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[01:10:15.960] |I| [load_self]: Loaded module segment 0 @ [0x80BA4000 - 0x80BB3D20 / 0x81000000] (size: 0x0000FD20) of module vs0:sys/external/libscemp4.suprx
+[01:10:15.960] |I| [load_self]: Loaded module segment 1 @ [0x80BB4000 - 0x80BB4028 / 0x81010000] (size: 0x00000028) of module vs0:sys/external/libscemp4.suprx
+[01:10:15.961] |I| [load_self]: Linking SELF vs0:sys/external/libscemp4.suprx...
+[01:10:15.961] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80bb39d0
+[01:10:15.961] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80bb28c4
+[01:10:15.961] |I| [load_module]: Module SceMp4 (at "vs0:sys/external/libscemp4.suprx") loaded
+[01:10:15.962] |W| [export_sceAudioOutGetConfig::<lambda_1>::operator ()]: Unimplemented sceAudioOutGetConfig import called.
+[01:10:15.963] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4c847adf sceAvPlayerInit at 0x803100a0
+[01:10:15.980] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbc83c8fd sceAvPlayerAddSource at 0x80310060
+[01:10:15.982] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5474af0 sceMp4OpenFile at 0x80b9e1a8
+[01:10:15.985] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/movies/Logo.mp4
+[01:10:15.991] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/movies/Logo.mp4 (ux0:/data/gta3/movies/Logo.mp4), fd: 0x18
+[01:10:16.009] |T| [log_import_call]: [LLE] TID: 81  FUNC: 0x30e49e4d sceMp4StartFileStreaming at 0x80b9e1c8
+[01:10:16.017] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x2e4ff35f sceAvPlayerIsActive at 0x803100b0
+[01:10:16.018] |T| [log_import_call]: [LLE] TID: 94  FUNC: 0xa10fc252 sceAvPlayerGetAudioData at 0x80310080
+[01:10:16.018] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8bc3221b sceAvPlayerGetVideoData at 0x80310090
+[01:10:16.037] |T| [log_import_call]: [LLE] TID: 81  FUNC: 0xd5b26179 UNRECOGNISED at 0x80b9e2c8
+[01:10:16.050] |W| [export_sceVideodecQueryMemSize::<lambda_1>::operator ()]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[01:10:16.053] |W| [export_sceCodecEngineAllocMemoryFromUnmapMemBlock::<lambda_1>::operator ()]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[01:10:16.054] |T| [log_import_call]: [LLE] TID: 81  FUNC: 0x609e57ad sceMp4EnableStream at 0x80b9e208
+[01:10:16.098] |T| [log_import_call]: [LLE] TID: 144 FUNC: 0x20a01112 sceMp4GetNextUnit at 0x80b9e1b8
+[01:10:16.105] |T| [log_import_call]: [LLE] TID: 144 FUNC: 0xd092a066 sceMp4GetNextUnitData at 0x80b9e2a8
+[01:10:16.119] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[01:10:16.121] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[01:10:17.950] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbd35e360 sceAvPlayerStop at 0x803100c0
+[01:10:17.955] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc05dff01 UNRECOGNISED at 0x80b9e288
+[01:10:17.956] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x40351e1a sceMp4Reset at 0x80b9e1e8
+[01:10:17.957] |E| [export__sceKernelWaitThreadEnd::<lambda_1>::operator ()]: _sceKernelWaitThreadEnd returned SCE_KERNEL_ERROR_UNKNOWN_THREAD_ID (0x80028021)
+[01:10:17.957] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7aa29b2d sceAvPlayerClose at 0x80310070
+[01:10:17.959] |W| [export_sceCodecEngineFreeMemoryFromUnmapMemBlock::<lambda_1>::operator ()]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[01:10:17.961] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x920623c8 sceMp4CloseFile at 0x80b9e238
+[01:10:17.963] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[01:10:17.969] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7b4832fe sceMp4ReleaseBuffer at 0x80b9e228
+[01:10:17.976] |E| [export_sceAudioOutSetConfig::<lambda_1>::operator ()]: sceAudioOutSetConfig returned SCE_AUDIO_OUT_ERROR_INVALID_SIZE (0x80260006)
+[01:10:17.978] |E| [export_sceGxmSetFragmentDefaultUniformBuffer::<lambda_1>::operator ()]: sceGxmSetFragmentDefaultUniformBuffer returned SCE_GXM_ERROR_INVALID_POINTER (0x805b0004)
+[01:10:17.978] |E| [export_sceGxmSetVertexDefaultUniformBuffer::<lambda_1>::operator ()]: sceGxmSetVertexDefaultUniformBuffer returned SCE_GXM_ERROR_INVALID_POINTER (0x805b0004)
+[01:10:17.992] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/movies/GTAtitles.mp4
+[01:10:17.998] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/movies/GTAtitles.mp4 (ux0:/data/gta3/movies/GTAtitles.mp4), fd: 0x19
+[01:10:18.112] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[01:10:18.114] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[01:10:20.113] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[01:10:20.117] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TXD/loadsc0.txd
+[01:10:20.125] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TXD/loadsc0.txd (ux0:/data/gta3/TXD/loadsc0.txd), fd: 0x1a
+[01:10:20.525] |T| [close_file]: sceIoClose: Closing file fd: 0x1a
+[01:10:20.539] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[01:10:20.543] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TEXT/POLISH.GXT
+[01:10:20.544] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TEXT/POLISH.GXT (ux0:/data/gta3/TEXT/POLISH.GXT), fd: 0x1b
+[01:10:20.545] |T| [close_file]: sceIoClose: Closing file fd: 0x1b
+[01:10:20.565] |I| [export_sceIoOpen]: Opening file: /etc/openal/alsoft.conf
+[01:10:20.565] |E| [open_file]: Cannot find device for path: /etc/openal/alsoft.conf
+[01:10:20.565] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:20.567] |I| [export_sceIoOpen]: Opening file: /etc/xdg/alsoft.conf
+[01:10:20.567] |E| [open_file]: Cannot find device for path: /etc/xdg/alsoft.conf
+[01:10:20.567] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:20.597] |W| [export__sceKernelGetThreadInfo::<lambda_1>::operator ()]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[01:10:20.844] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/audio\sound.cache
+[01:10:20.850] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/audio\sound.cache (ux0:/data/gta3/audio/sound.cache), fd: 0x1c
+[01:10:20.851] |T| [close_file]: sceIoClose: Closing file fd: 0x1c
+[01:10:20.851] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/audio/sfx.SDT
+[01:10:20.858] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/audio/sfx.SDT (ux0:/data/gta3/audio/sfx.SDT), fd: 0x1d
+[01:10:20.858] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/audio/sfx.RAW
+[01:10:20.865] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/audio/sfx.RAW (ux0:/data/gta3/audio/sfx.RAW), fd: 0x1e
+[01:10:20.866] |T| [close_file]: sceIoClose: Closing file fd: 0x1d
+[01:10:20.918] |T| [open_dir]: _sceIoDopen: Opening dir ux0:data/gta3/\MP3 (ux0:/data/gta3/MP3), fd: 0x1f
+[01:10:20.919] |T| [read_dir]: _sceIoDread: Reading entry ux0:data/gta3/\MP3/MP3Report.txt of fd: 0x1f
+[01:10:20.920] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x1f
+[01:10:20.930] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\DATA/HANDLING.CFG
+[01:10:20.938] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\DATA/HANDLING.CFG (ux0:/data/gta3/DATA/HANDLING.CFG), fd: 0x20
+[01:10:20.942] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[01:10:20.948] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\SURFACE.DAT
+[01:10:20.953] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\SURFACE.DAT (ux0:/data/gta3/DATA/SURFACE.DAT), fd: 0x21
+[01:10:20.953] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[01:10:20.956] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\DATA/PEDSTATS.DAT
+[01:10:20.982] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\DATA/PEDSTATS.DAT (ux0:/data/gta3/DATA/PEDSTATS.DAT), fd: 0x22
+[01:10:20.983] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[01:10:20.984] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\DATA/TIMECYC.DAT
+[01:10:20.991] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\DATA/TIMECYC.DAT (ux0:/data/gta3/DATA/TIMECYC.DAT), fd: 0x23
+[01:10:20.992] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[01:10:21.000] |I| [export_sceIoOpen]: Opening file: $$"".tga
+[01:10:21.000] |E| [open_file]: Cannot find device for path: $$"".tga
+[01:10:21.000] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:21.001] |I| [export_sceIoOpen]: Opening file: $$"".bmp
+[01:10:21.001] |E| [open_file]: Cannot find device for path: $$"".bmp
+[01:10:21.001] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:21.001] |I| [export_sceIoOpen]: Opening file: $$"".png
+[01:10:21.001] |E| [open_file]: Cannot find device for path: $$"".png
+[01:10:21.001] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:21.002] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models\generic\player.bmp
+[01:10:21.003] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models\generic\player.bmp (ux0:/data/gta3/models/generic/player.bmp), fd: 0x24
+[01:10:21.004] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[01:10:21.004] |I| [export_sceIoOpen]: Opening file: $$"".tga
+[01:10:21.004] |E| [open_file]: Cannot find device for path: $$"".tga
+[01:10:21.004] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:21.005] |I| [export_sceIoOpen]: Opening file: $$"".bmp
+[01:10:21.005] |E| [open_file]: Cannot find device for path: $$"".bmp
+[01:10:21.005] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:21.005] |I| [export_sceIoOpen]: Opening file: $$"".png
+[01:10:21.005] |E| [open_file]: Cannot find device for path: $$"".png
+[01:10:21.005] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:21.005] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models\generic\player.bmp
+[01:10:21.006] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models\generic\player.bmp (ux0:/data/gta3/models/generic/player.bmp), fd: 0x25
+[01:10:21.006] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[01:10:21.010] |T| [write_file]: *** TTY: LOAD frontend
+[01:10:21.010] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/FRONTEND.TXD
+[01:10:21.031] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/FRONTEND.TXD (ux0:/data/gta3/MODELS/FRONTEND.TXD), fd: 0x26
+[01:10:21.306] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[01:10:21.307] |T| [write_file]: *** TTY: LOAD sprite
+[01:10:21.307] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/MENU.TXD
+[01:10:21.313] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/MENU.TXD (ux0:/data/gta3/MODELS/MENU.TXD), fd: 0x27
+[01:10:21.942] |T| [close_file]: sceIoClose: Closing file fd: 0x27
+[01:10:36.016] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[01:10:36.017] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[01:10:46.798] |T| [write_file]: *** TTY: REMOVE frontend
+[01:10:46.799] |T| [write_file]: *** TTY: REMOVE menu textures
+[01:10:46.833] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/gta3.ini
+[01:10:46.837] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/gta3.ini (ux0:/data/gta3/gta3.ini), fd: 0x28
+[01:10:46.838] |T| [close_file]: sceIoClose: Closing file fd: 0x28
+[01:10:46.839] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TXD/loadsc22.txd
+[01:10:46.846] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TXD/loadsc22.txd (ux0:/data/gta3/TXD/loadsc22.txd), fd: 0x29
+[01:10:46.969] |T| [close_file]: sceIoClose: Closing file fd: 0x29
+[01:10:46.971] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/PARTICLE.TXD
+[01:10:46.978] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/PARTICLE.TXD (ux0:/data/gta3/MODELS/PARTICLE.TXD), fd: 0x2a
+[01:10:46.986] |T| [close_file]: sceIoClose: Closing file fd: 0x2a
+[01:10:46.991] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/playback.dat
+[01:10:46.991] |E| [open_file]: Missing file at C:/Users/jueab/AppData/Roaming/Vita3K/Vita3K/ux0/data/gta3/playback.dat (target path: ux0:data/gta3/playback.dat)
+[01:10:46.991] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:46.992] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/record.dat
+[01:10:46.992] |E| [open_file]: Missing file at C:/Users/jueab/AppData/Roaming/Vita3K/Vita3K/ux0/data/gta3/record.dat (target path: ux0:data/gta3/record.dat)
+[01:10:46.992] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:46.993] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\DATA/PARTICLE.CFG
+[01:10:47.001] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\DATA/PARTICLE.CFG (ux0:/data/gta3/DATA/PARTICLE.CFG), fd: 0x2b
+[01:10:47.008] |T| [close_file]: sceIoClose: Closing file fd: 0x2b
+[01:10:47.015] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/ANIM\CUTS.DIR
+[01:10:47.016] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/ANIM\CUTS.DIR (ux0:/data/gta3/ANIM/CUTS.DIR), fd: 0x2c
+[01:10:47.016] |T| [close_file]: sceIoClose: Closing file fd: 0x2c
+[01:10:47.018] |I| [export_sceIoOpen]: Opening file: MODELS\GTA3.IMG
+[01:10:47.018] |E| [open_file]: Cannot find device for path: MODELS\GTA3.IMG
+[01:10:47.018] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.018] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\GTA3.IMG
+[01:10:47.024] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\GTA3.IMG (ux0:/data/gta3/MODELS/GTA3.IMG), fd: 0x2d
+[01:10:47.025] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\DEFAULT.DAT
+[01:10:47.030] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\DEFAULT.DAT (ux0:/data/gta3/DATA/DEFAULT.DAT), fd: 0x2e
+[01:10:47.031] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\DEFAULT.IDE
+[01:10:47.038] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\DEFAULT.IDE (ux0:/data/gta3/DATA/DEFAULT.IDE), fd: 0x2f
+[01:10:47.054] |T| [close_file]: sceIoClose: Closing file fd: 0x2f
+[01:10:47.055] |I| [export_sceIoOpen]: Opening file: MODELS\FR.IMG 
+[01:10:47.055] |E| [open_file]: Cannot find device for path: MODELS\FR.IMG 
+[01:10:47.055] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.055] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\FR.IMG
+[01:10:47.062] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\FR.IMG (ux0:/data/gta3/MODELS/FR.IMG), fd: 0x30
+[01:10:47.063] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\MISC.TXD
+[01:10:47.068] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\MISC.TXD (ux0:/data/gta3/MODELS/MISC.TXD), fd: 0x31
+[01:10:47.070] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[01:10:47.071] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\GENERIC.TXD
+[01:10:47.079] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\GENERIC.TXD (ux0:/data/gta3/MODELS/GENERIC.TXD), fd: 0x32
+[01:10:47.086] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[01:10:47.087] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TXD/loadsc21.txd
+[01:10:47.094] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TXD/loadsc21.txd (ux0:/data/gta3/TXD/loadsc21.txd), fd: 0x33
+[01:10:47.216] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[01:10:47.216] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\GENERIC\AIR_VLO.DFF
+[01:10:47.222] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\GENERIC\AIR_VLO.DFF (ux0:/data/gta3/MODELS/GENERIC/AIR_VLO.DFF), fd: 0x34
+[01:10:47.231] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[01:10:47.231] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\GENERIC\LOPLYGUY.DFF
+[01:10:47.237] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\GENERIC\LOPLYGUY.DFF (ux0:/data/gta3/MODELS/GENERIC/LOPLYGUY.DFF), fd: 0x35
+[01:10:47.238] |I| [export_sceIoOpen]: Opening file: Gang1_Back_64.tga
+[01:10:47.239] |E| [open_file]: Cannot find device for path: Gang1_Back_64.tga
+[01:10:47.239] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.239] |I| [export_sceIoOpen]: Opening file: Gang1_Back_64.bmp
+[01:10:47.239] |E| [open_file]: Cannot find device for path: Gang1_Back_64.bmp
+[01:10:47.239] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.239] |I| [export_sceIoOpen]: Opening file: Gang1_Back_64.png
+[01:10:47.239] |E| [open_file]: Cannot find device for path: Gang1_Back_64.png
+[01:10:47.239] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.240] |I| [export_sceIoOpen]: Opening file: black_bird64.tga
+[01:10:47.240] |E| [open_file]: Cannot find device for path: black_bird64.tga
+[01:10:47.240] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.240] |I| [export_sceIoOpen]: Opening file: black_bird64.bmp
+[01:10:47.240] |E| [open_file]: Cannot find device for path: black_bird64.bmp
+[01:10:47.240] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.240] |I| [export_sceIoOpen]: Opening file: black_bird64.png
+[01:10:47.241] |E| [open_file]: Cannot find device for path: black_bird64.png
+[01:10:47.241] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.241] |I| [export_sceIoOpen]: Opening file: Gang1_Front_64.tga
+[01:10:47.241] |E| [open_file]: Cannot find device for path: Gang1_Front_64.tga
+[01:10:47.241] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.241] |I| [export_sceIoOpen]: Opening file: Gang1_Front_64.bmp
+[01:10:47.241] |E| [open_file]: Cannot find device for path: Gang1_Front_64.bmp
+[01:10:47.241] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.241] |I| [export_sceIoOpen]: Opening file: Gang1_Front_64.png
+[01:10:47.242] |E| [open_file]: Cannot find device for path: Gang1_Front_64.png
+[01:10:47.242] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.242] |I| [export_sceIoOpen]: Opening file: black_bloke64.tga
+[01:10:47.242] |E| [open_file]: Cannot find device for path: black_bloke64.tga
+[01:10:47.242] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.242] |I| [export_sceIoOpen]: Opening file: black_bloke64.bmp
+[01:10:47.242] |E| [open_file]: Cannot find device for path: black_bloke64.bmp
+[01:10:47.242] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.243] |I| [export_sceIoOpen]: Opening file: black_bloke64.png
+[01:10:47.243] |E| [open_file]: Cannot find device for path: black_bloke64.png
+[01:10:47.243] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:47.243] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[01:10:47.244] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\GENERIC\WEAPONS.DFF
+[01:10:47.251] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\GENERIC\WEAPONS.DFF (ux0:/data/gta3/MODELS/GENERIC/WEAPONS.DFF), fd: 0x36
+[01:10:47.256] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[01:10:47.256] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\GENERIC\WHEELS.DFF
+[01:10:47.264] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\GENERIC\WHEELS.DFF (ux0:/data/gta3/MODELS/GENERIC/WHEELS.DFF), fd: 0x37
+[01:10:47.268] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[01:10:47.269] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\COLL\VEHICLES.COL
+[01:10:47.275] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\COLL\VEHICLES.COL (ux0:/data/gta3/MODELS/COLL/VEHICLES.COL), fd: 0x38
+[01:10:47.278] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[01:10:47.281] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\COLL\WEAPONS.COL
+[01:10:47.286] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\COLL\WEAPONS.COL (ux0:/data/gta3/MODELS/COLL/WEAPONS.COL), fd: 0x39
+[01:10:47.287] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[01:10:47.287] |T| [close_file]: sceIoClose: Closing file fd: 0x2e
+[01:10:47.287] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\GTA3.DAT
+[01:10:47.293] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\GTA3.DAT (ux0:/data/gta3/DATA/GTA3.DAT), fd: 0x3a
+[01:10:47.297] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\generic.IDE
+[01:10:47.305] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\generic.IDE (ux0:/data/gta3/DATA/MAPS/generic.IDE), fd: 0x3b
+[01:10:47.348] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[01:10:47.349] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTNE\INDUSTNE.ide
+[01:10:47.355] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTNE\INDUSTNE.ide (ux0:/data/gta3/DATA/MAPS/INDUSTNE/INDUSTNE.ide), fd: 0x3c
+[01:10:47.362] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[01:10:47.363] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTNW\INDUSTNW.ide
+[01:10:47.370] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTNW\INDUSTNW.ide (ux0:/data/gta3/DATA/MAPS/INDUSTNW/INDUSTNW.ide), fd: 0x3d
+[01:10:47.377] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[01:10:47.378] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTSE\INDUSTSE.ide
+[01:10:47.384] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTSE\INDUSTSE.ide (ux0:/data/gta3/DATA/MAPS/INDUSTSE/INDUSTSE.ide), fd: 0x3e
+[01:10:47.399] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[01:10:47.400] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTSW\INDUSTSW.ide
+[01:10:47.406] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTSW\INDUSTSW.ide (ux0:/data/gta3/DATA/MAPS/INDUSTSW/INDUSTSW.ide), fd: 0x3f
+[01:10:47.417] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[01:10:47.418] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\MAKING\MAKING.ide
+[01:10:47.424] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\MAKING\MAKING.ide (ux0:/data/gta3/DATA/MAPS/MAKING/MAKING.ide), fd: 0x40
+[01:10:47.426] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[01:10:47.427] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\TEMPPART\TEMPPART.ide
+[01:10:47.433] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\TEMPPART\TEMPPART.ide (ux0:/data/gta3/DATA/MAPS/TEMPPART/TEMPPART.ide), fd: 0x41
+[01:10:47.439] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[01:10:47.440] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDROADS\INDROADS.ide
+[01:10:47.447] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDROADS\INDROADS.ide (ux0:/data/gta3/DATA/MAPS/INDROADS/INDROADS.ide), fd: 0x42
+[01:10:47.478] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[01:10:47.479] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMNtop\COMNtop.ide
+[01:10:47.485] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMNtop\COMNtop.ide (ux0:/data/gta3/DATA/MAPS/COMNtop/COMNtop.ide), fd: 0x43
+[01:10:47.498] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[01:10:47.500] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMNbtm\COMNbtm.ide
+[01:10:47.507] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMNbtm\COMNbtm.ide (ux0:/data/gta3/DATA/MAPS/COMNbtm/COMNbtm.ide), fd: 0x44
+[01:10:47.524] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[01:10:47.528] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMSE\COMSE.ide
+[01:10:47.535] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMSE\COMSE.ide (ux0:/data/gta3/DATA/MAPS/COMSE/COMSE.ide), fd: 0x45
+[01:10:47.549] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[01:10:47.553] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMSW\COMSW.ide
+[01:10:47.560] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMSW\COMSW.ide (ux0:/data/gta3/DATA/MAPS/COMSW/COMSW.ide), fd: 0x46
+[01:10:47.575] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[01:10:47.580] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMROAD\COMROAD.ide
+[01:10:47.586] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMROAD\COMROAD.ide (ux0:/data/gta3/DATA/MAPS/COMROAD/COMROAD.ide), fd: 0x47
+[01:10:47.617] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[01:10:47.622] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\LANDne\LANDne.ide
+[01:10:47.628] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\LANDne\LANDne.ide (ux0:/data/gta3/DATA/MAPS/LANDne/LANDne.ide), fd: 0x48
+[01:10:47.643] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[01:10:47.651] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\LANDsw\LANDsw.ide
+[01:10:47.657] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\LANDsw\LANDsw.ide (ux0:/data/gta3/DATA/MAPS/LANDsw/LANDsw.ide), fd: 0x49
+[01:10:47.684] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[01:10:47.695] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\SUBROADS\SUBROADS.ide
+[01:10:47.701] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\SUBROADS\SUBROADS.ide (ux0:/data/gta3/DATA/MAPS/SUBROADS/SUBROADS.ide), fd: 0x4a
+[01:10:47.728] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[01:10:47.736] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\bank\bank.ide
+[01:10:47.743] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\bank\bank.ide (ux0:/data/gta3/DATA/MAPS/bank/bank.ide), fd: 0x4b
+[01:10:47.751] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[01:10:47.759] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TXD/loadsc10.txd
+[01:10:47.768] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TXD/loadsc10.txd (ux0:/data/gta3/TXD/loadsc10.txd), fd: 0x4c
+[01:10:47.887] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[01:10:47.888] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\COLL\GENERIC.COL
+[01:10:47.895] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\COLL\GENERIC.COL (ux0:/data/gta3/MODELS/COLL/GENERIC.COL), fd: 0x4d
+[01:10:47.905] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[01:10:47.905] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTNE\INDUSTNE.col
+[01:10:47.912] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTNE\INDUSTNE.col (ux0:/data/gta3/DATA/MAPS/INDUSTNE/INDUSTNE.col), fd: 0x4e
+[01:10:47.916] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[01:10:47.917] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTNW\INDUSTNW.col
+[01:10:47.924] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTNW\INDUSTNW.col (ux0:/data/gta3/DATA/MAPS/INDUSTNW/INDUSTNW.col), fd: 0x4f
+[01:10:47.926] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[01:10:47.926] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTSE\INDUSTSE.col
+[01:10:47.932] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTSE\INDUSTSE.col (ux0:/data/gta3/DATA/MAPS/INDUSTSE/INDUSTSE.col), fd: 0x50
+[01:10:47.939] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[01:10:47.939] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTSW\INDUSTSW.col
+[01:10:47.945] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTSW\INDUSTSW.col (ux0:/data/gta3/DATA/MAPS/INDUSTSW/INDUSTSW.col), fd: 0x51
+[01:10:47.949] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[01:10:47.950] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\MAKING\MAKING.col
+[01:10:47.955] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\MAKING\MAKING.col (ux0:/data/gta3/DATA/MAPS/MAKING/MAKING.col), fd: 0x52
+[01:10:47.956] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[01:10:47.963] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\TEMPPART\TEMPPART.col
+[01:10:47.969] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\TEMPPART\TEMPPART.col (ux0:/data/gta3/DATA/MAPS/TEMPPART/TEMPPART.col), fd: 0x53
+[01:10:47.971] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[01:10:47.981] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDROADS\INDROADS.col
+[01:10:47.987] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDROADS\INDROADS.col (ux0:/data/gta3/DATA/MAPS/INDROADS/INDROADS.col), fd: 0x54
+[01:10:47.991] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[01:10:47.998] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMNtop\COMNtop.col
+[01:10:48.005] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMNtop\COMNtop.col (ux0:/data/gta3/DATA/MAPS/COMNtop/COMNtop.col), fd: 0x55
+[01:10:48.014] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[01:10:48.015] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMNbtm\COMNbtm.col
+[01:10:48.022] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMNbtm\COMNbtm.col (ux0:/data/gta3/DATA/MAPS/COMNbtm/COMNbtm.col), fd: 0x56
+[01:10:48.036] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[01:10:48.037] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMSE\COMSE.col
+[01:10:48.043] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMSE\COMSE.col (ux0:/data/gta3/DATA/MAPS/COMSE/COMSE.col), fd: 0x57
+[01:10:48.049] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[01:10:48.050] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMSW\COMSW.col
+[01:10:48.056] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMSW\COMSW.col (ux0:/data/gta3/DATA/MAPS/COMSW/COMSW.col), fd: 0x58
+[01:10:48.064] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[01:10:48.064] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMROAD\COMROAD.col
+[01:10:48.070] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMROAD\COMROAD.col (ux0:/data/gta3/DATA/MAPS/COMROAD/COMROAD.col), fd: 0x59
+[01:10:48.076] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[01:10:48.081] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\LANDne\LANDne.col
+[01:10:48.088] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\LANDne\LANDne.col (ux0:/data/gta3/DATA/MAPS/LANDne/LANDne.col), fd: 0x5a
+[01:10:48.110] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[01:10:48.110] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\LANDsw\LANDsw.col
+[01:10:48.117] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\LANDsw\LANDsw.col (ux0:/data/gta3/DATA/MAPS/LANDsw/LANDsw.col), fd: 0x5b
+[01:10:48.145] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[01:10:48.145] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\SUBROADS\SUBROADS.col
+[01:10:48.151] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\SUBROADS\SUBROADS.col (ux0:/data/gta3/DATA/MAPS/SUBROADS/SUBROADS.col), fd: 0x5c
+[01:10:48.160] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[01:10:48.160] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\bank\bank.COL
+[01:10:48.166] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\bank\bank.COL (ux0:/data/gta3/DATA/MAPS/bank/bank.COL), fd: 0x5d
+[01:10:48.172] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[01:10:48.173] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TXD/loadsc3.txd
+[01:10:48.181] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TXD/loadsc3.txd (ux0:/data/gta3/TXD/loadsc3.txd), fd: 0x5e
+[01:10:48.302] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[01:10:48.302] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAP.ZON
+[01:10:48.308] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAP.ZON (ux0:/data/gta3/DATA/MAP.ZON), fd: 0x5f
+[01:10:48.310] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[01:10:48.311] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\OBJECT.DAT
+[01:10:48.316] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\OBJECT.DAT (ux0:/data/gta3/DATA/OBJECT.DAT), fd: 0x60
+[01:10:48.321] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[01:10:48.327] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\GTA3.ZON
+[01:10:48.334] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\GTA3.ZON (ux0:/data/gta3/DATA/GTA3.ZON), fd: 0x61
+[01:10:48.337] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[01:10:48.337] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMNtop\COMNtop.IPL
+[01:10:48.345] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMNtop\COMNtop.IPL (ux0:/data/gta3/DATA/MAPS/COMNtop/COMNtop.IPL), fd: 0x62
+[01:10:48.383] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[01:10:48.383] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMNbtm\COMNbtm.IPL
+[01:10:48.389] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMNbtm\COMNbtm.IPL (ux0:/data/gta3/DATA/MAPS/COMNbtm/COMNbtm.IPL), fd: 0x63
+[01:10:48.392] |T| [write_file]: *** TTY: 2138:LODctm_rd4_ug txd has been set to generic
+[01:10:48.417] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[01:10:48.417] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMSE\COMSE.IPL
+[01:10:48.423] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMSE\COMSE.IPL (ux0:/data/gta3/DATA/MAPS/COMSE/COMSE.IPL), fd: 0x64
+[01:10:48.443] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[01:10:48.444] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\COMSW\COMSW.IPL
+[01:10:48.450] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\COMSW\COMSW.IPL (ux0:/data/gta3/DATA/MAPS/COMSW/COMSW.IPL), fd: 0x65
+[01:10:48.472] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[01:10:48.473] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\CULL.IPL
+[01:10:48.481] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\CULL.IPL (ux0:/data/gta3/DATA/MAPS/CULL.IPL), fd: 0x66
+[01:10:48.504] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[01:10:48.504] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTNE\INDUSTNE.IPL
+[01:10:48.511] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTNE\INDUSTNE.IPL (ux0:/data/gta3/DATA/MAPS/INDUSTNE/INDUSTNE.IPL), fd: 0x67
+[01:10:48.527] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[01:10:48.527] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTNW\INDUSTNW.IPL
+[01:10:48.533] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTNW\INDUSTNW.IPL (ux0:/data/gta3/DATA/MAPS/INDUSTNW/INDUSTNW.IPL), fd: 0x68
+[01:10:48.554] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[01:10:48.554] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTSE\INDUSTSE.IPL
+[01:10:48.560] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTSE\INDUSTSE.IPL (ux0:/data/gta3/DATA/MAPS/INDUSTSE/INDUSTSE.IPL), fd: 0x69
+[01:10:48.581] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[01:10:48.581] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\INDUSTSW\INDUSTSW.IPL
+[01:10:48.588] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\INDUSTSW\INDUSTSW.IPL (ux0:/data/gta3/DATA/MAPS/INDUSTSW/INDUSTSW.IPL), fd: 0x6a
+[01:10:48.608] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[01:10:48.608] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\LANDne\LANDne.IPL
+[01:10:48.615] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\LANDne\LANDne.IPL (ux0:/data/gta3/DATA/MAPS/LANDne/LANDne.IPL), fd: 0x6b
+[01:10:48.625] |T| [write_file]: *** TTY: 2472:LODnt7 txd has been set to generic
+[01:10:48.625] |T| [write_file]: *** TTY: 2474:LODnt6 txd has been set to generic
+[01:10:48.644] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[01:10:48.644] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\LANDsw\LANDsw.IPL
+[01:10:48.651] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\LANDsw\LANDsw.IPL (ux0:/data/gta3/DATA/MAPS/LANDsw/LANDsw.IPL), fd: 0x6c
+[01:10:48.688] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[01:10:48.688] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\overview.IPL
+[01:10:48.694] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\overview.IPL (ux0:/data/gta3/DATA/MAPS/overview.IPL), fd: 0x6d
+[01:10:48.697] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[01:10:48.698] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\props.IPL
+[01:10:48.704] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\props.IPL (ux0:/data/gta3/DATA/MAPS/props.IPL), fd: 0x6e
+[01:10:48.719] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[01:10:48.719] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\MAPS\bank\bank.IPL
+[01:10:48.725] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\MAPS\bank\bank.IPL (ux0:/data/gta3/DATA/MAPS/bank/bank.IPL), fd: 0x6f
+[01:10:48.728] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[01:10:48.729] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[01:10:48.731] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\DATA/CARCOLS.DAT
+[01:10:48.737] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\DATA/CARCOLS.DAT (ux0:/data/gta3/DATA/CARCOLS.DAT), fd: 0x70
+[01:10:48.743] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[01:10:48.745] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TXD/loadsc7.txd
+[01:10:48.753] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TXD/loadsc7.txd (ux0:/data/gta3/TXD/loadsc7.txd), fd: 0x71
+[01:10:48.873] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[01:10:48.874] |T| [write_file]: *** TTY: PreparePathData
+[01:10:49.000] |T| [write_file]: *** TTY: Single car node: 311.002502 -938.778015 22.178200 (1817)
+[01:10:49.000] |T| [write_file]: *** TTY: GraphType:0. FloodFill groups:4
+[01:10:49.001] |T| [write_file]: *** TTY: GraphType:1. FloodFill groups:87
+[01:10:49.002] |T| [write_file]: *** TTY: Done with PreparePathData
+[01:10:49.002] |I| [export_sceIoOpen]: Opening file: $$"".tga
+[01:10:49.002] |E| [open_file]: Cannot find device for path: $$"".tga
+[01:10:49.002] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.002] |I| [export_sceIoOpen]: Opening file: $$"".bmp
+[01:10:49.002] |E| [open_file]: Cannot find device for path: $$"".bmp
+[01:10:49.003] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.003] |I| [export_sceIoOpen]: Opening file: $$"".png
+[01:10:49.003] |E| [open_file]: Cannot find device for path: $$"".png
+[01:10:49.003] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.003] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models\generic\player.bmp
+[01:10:49.004] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models\generic\player.bmp (ux0:/data/gta3/models/generic/player.bmp), fd: 0x72
+[01:10:49.004] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[01:10:49.004] |I| [export_sceIoOpen]: Opening file: $$"".tga
+[01:10:49.004] |E| [open_file]: Cannot find device for path: $$"".tga
+[01:10:49.004] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.004] |I| [export_sceIoOpen]: Opening file: $$"".bmp
+[01:10:49.005] |E| [open_file]: Cannot find device for path: $$"".bmp
+[01:10:49.005] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.005] |I| [export_sceIoOpen]: Opening file: $$"".png
+[01:10:49.005] |E| [open_file]: Cannot find device for path: $$"".png
+[01:10:49.005] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.005] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models\generic\player.bmp
+[01:10:49.005] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models\generic\player.bmp (ux0:/data/gta3/models/generic/player.bmp), fd: 0x73
+[01:10:49.006] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[01:10:49.006] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\waterpro.dat
+[01:10:49.012] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\waterpro.dat (ux0:/data/gta3/DATA/waterpro.dat), fd: 0x74
+[01:10:49.013] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[01:10:49.020] |T| [write_file]: *** TTY: Done Initing waterlevels
+[01:10:49.021] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\TXD.IMG
+[01:10:49.028] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\TXD.IMG (ux0:/data/gta3/MODELS/TXD.IMG), fd: 0x75
+[01:10:49.029] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[01:10:49.029] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\CAPS.DAT
+[01:10:49.030] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\CAPS.DAT (ux0:/data/gta3/DATA/CAPS.DAT), fd: 0x76
+[01:10:49.031] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[01:10:49.031] |I| [export_sceIoOpen]: Opening file: MODELS\TXD.IMG
+[01:10:49.031] |E| [open_file]: Cannot find device for path: MODELS\TXD.IMG
+[01:10:49.031] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.031] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\TXD.IMG
+[01:10:49.032] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\TXD.IMG (ux0:/data/gta3/MODELS/TXD.IMG), fd: 0x77
+[01:10:49.033] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\TXD.DIR
+[01:10:49.038] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\TXD.DIR (ux0:/data/gta3/MODELS/TXD.DIR), fd: 0x78
+[01:10:49.046] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[01:10:49.046] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\FR.DIR
+[01:10:49.051] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\FR.DIR (ux0:/data/gta3/MODELS/FR.DIR), fd: 0x79
+[01:10:49.059] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[01:10:49.059] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS\GTA3.DIR
+[01:10:49.066] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS\GTA3.DIR (ux0:/data/gta3/MODELS/GTA3.DIR), fd: 0x7a
+[01:10:49.181] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[01:10:49.195] |I| [export_sceIoOpen]: Opening file: LO1road_128.tga
+[01:10:49.195] |E| [open_file]: Cannot find device for path: LO1road_128.tga
+[01:10:49.195] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.195] |I| [export_sceIoOpen]: Opening file: LO1road_128.bmp
+[01:10:49.195] |E| [open_file]: Cannot find device for path: LO1road_128.bmp
+[01:10:49.195] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.195] |I| [export_sceIoOpen]: Opening file: LO1road_128.png
+[01:10:49.195] |E| [open_file]: Cannot find device for path: LO1road_128.png
+[01:10:49.196] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.200] |T| [write_file]: *** TTY: Start loading taxi
+[01:10:49.202] |T| [write_file]: *** TTY: Finish loading taxi
+[01:10:49.215] |T| [write_file]: *** TTY: Start loading police
+[01:10:49.216] |T| [write_file]: *** TTY: Finish loading police
+[01:10:49.233] |I| [export_sceIoOpen]: Opening file: cutscenebank64.tga
+[01:10:49.233] |E| [open_file]: Cannot find device for path: cutscenebank64.tga
+[01:10:49.233] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.233] |I| [export_sceIoOpen]: Opening file: cutscenebank64.bmp
+[01:10:49.233] |E| [open_file]: Cannot find device for path: cutscenebank64.bmp
+[01:10:49.233] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.233] |I| [export_sceIoOpen]: Opening file: cutscenebank64.png
+[01:10:49.234] |E| [open_file]: Cannot find device for path: cutscenebank64.png
+[01:10:49.234] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.234] |I| [export_sceIoOpen]: Opening file: police station side.tga
+[01:10:49.234] |E| [open_file]: Cannot find device for path: police station side.tga
+[01:10:49.234] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.234] |I| [export_sceIoOpen]: Opening file: police station side.bmp
+[01:10:49.234] |E| [open_file]: Cannot find device for path: police station side.bmp
+[01:10:49.234] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.235] |I| [export_sceIoOpen]: Opening file: police station side.png
+[01:10:49.235] |E| [open_file]: Cannot find device for path: police station side.png
+[01:10:49.235] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.235] |I| [export_sceIoOpen]: Opening file: police station front.tga
+[01:10:49.235] |E| [open_file]: Cannot find device for path: police station front.tga
+[01:10:49.235] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.235] |I| [export_sceIoOpen]: Opening file: police station front.bmp
+[01:10:49.235] |E| [open_file]: Cannot find device for path: police station front.bmp
+[01:10:49.236] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.236] |I| [export_sceIoOpen]: Opening file: police station front.png
+[01:10:49.236] |E| [open_file]: Cannot find device for path: police station front.png
+[01:10:49.236] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.236] |I| [export_sceIoOpen]: Opening file: police station back.tga
+[01:10:49.236] |E| [open_file]: Cannot find device for path: police station back.tga
+[01:10:49.236] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.236] |I| [export_sceIoOpen]: Opening file: police station back.bmp
+[01:10:49.237] |E| [open_file]: Cannot find device for path: police station back.bmp
+[01:10:49.237] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.237] |I| [export_sceIoOpen]: Opening file: police station back.png
+[01:10:49.237] |E| [open_file]: Cannot find device for path: police station back.png
+[01:10:49.237] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.267] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TXD/loadsc8.txd
+[01:10:49.275] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TXD/loadsc8.txd (ux0:/data/gta3/TXD/loadsc8.txd), fd: 0x7b
+[01:10:49.396] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[01:10:49.398] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/ANIM\PED.IFP
+[01:10:49.410] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/ANIM\PED.IFP (ux0:/data/gta3/ANIM/PED.IFP), fd: 0x7c
+[01:10:49.481] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[01:10:49.495] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\DATA/PED.DAT
+[01:10:49.503] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\DATA/PED.DAT (ux0:/data/gta3/DATA/PED.DAT), fd: 0x7d
+[01:10:49.504] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[01:10:49.507] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\fistfite.dat
+[01:10:49.511] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\fistfite.dat (ux0:/data/gta3/DATA/fistfite.dat), fd: 0x7e
+[01:10:49.512] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[01:10:49.518] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\DATA/WEAPON.DAT
+[01:10:49.524] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\DATA/WEAPON.DAT (ux0:/data/gta3/DATA/WEAPON.DAT), fd: 0x7f
+[01:10:49.525] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[01:10:49.562] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\DATA/PEDGRP.DAT
+[01:10:49.569] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\DATA/PEDGRP.DAT (ux0:/data/gta3/DATA/PEDGRP.DAT), fd: 0x80
+[01:10:49.571] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[01:10:49.575] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\data/main.scm
+[01:10:49.583] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\data/main.scm (ux0:/data/gta3/data/main.scm), fd: 0x81
+[01:10:49.584] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[01:10:49.612] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models/generic/arrow.dff
+[01:10:49.617] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models/generic/arrow.dff (ux0:/data/gta3/models/generic/arrow.dff), fd: 0x82
+[01:10:49.618] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[01:10:49.618] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/models/generic/zonecylb.dff
+[01:10:49.623] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/models/generic/zonecylb.dff (ux0:/data/gta3/models/generic/zonecylb.dff), fd: 0x83
+[01:10:49.624] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[01:10:49.671] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/DATA\cullzone.dat
+[01:10:49.679] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/DATA\cullzone.dat (ux0:/data/gta3/DATA/cullzone.dat), fd: 0x84
+[01:10:49.681] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[01:10:49.682] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/data\paths\tracks.dat
+[01:10:49.689] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/data\paths\tracks.dat (ux0:/data/gta3/data/paths/tracks.dat), fd: 0x85
+[01:10:49.691] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[01:10:49.695] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/data\paths\tracks2.dat
+[01:10:49.701] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/data\paths\tracks2.dat (ux0:/data/gta3/data/paths/tracks2.dat), fd: 0x86
+[01:10:49.705] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[01:10:49.715] |T| [write_file]: *** TTY: Streaming uses zuK of its memoryStart loading train
+[01:10:49.715] |T| [write_file]: *** TTY: Finish loading train
+[01:10:49.720] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/data\paths\flight.dat
+[01:10:49.725] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/data\paths\flight.dat (ux0:/data/gta3/data/paths/flight.dat), fd: 0x87
+[01:10:49.727] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[01:10:49.730] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/data\paths\flight2.dat
+[01:10:49.735] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/data\paths\flight2.dat (ux0:/data/gta3/data/paths/flight2.dat), fd: 0x88
+[01:10:49.736] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[01:10:49.737] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/data\paths\flight3.dat
+[01:10:49.742] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/data\paths\flight3.dat (ux0:/data/gta3/data/paths/flight3.dat), fd: 0x89
+[01:10:49.743] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[01:10:49.743] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/data\paths\flight4.dat
+[01:10:49.749] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/data\paths\flight4.dat (ux0:/data/gta3/data/paths/flight4.dat), fd: 0x8a
+[01:10:49.750] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[01:10:49.753] |T| [write_file]: *** TTY: Start loading airtrain
+[01:10:49.753] |T| [write_file]: *** TTY: Finish loading airtrain
+[01:10:49.756] |T| [write_file]: *** TTY: Start loading deaddodo
+[01:10:49.757] |T| [write_file]: *** TTY: Finish loading deaddodo
+[01:10:49.778] |T| [write_file]: *** TTY: &&&&&&&&&&&&&Creating player: 0
+[01:10:49.892] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/AUDIO\WATER.WAV
+[01:10:49.899] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/AUDIO\WATER.WAV (ux0:/data/gta3/AUDIO/WATER.WAV), fd: 0x8b
+[01:10:49.916] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/data\main.scm
+[01:10:49.917] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/data\main.scm (ux0:/data/gta3/data/main.scm), fd: 0x8c
+[01:10:49.917] |T| [close_file]: sceIoClose: Closing file fd: 0x8c
+[01:10:49.955] |I| [export_sceIoOpen]: Opening file: dustyconcrete128.tga
+[01:10:49.955] |E| [open_file]: Cannot find device for path: dustyconcrete128.tga
+[01:10:49.955] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.955] |I| [export_sceIoOpen]: Opening file: dustyconcrete128.bmp
+[01:10:49.955] |E| [open_file]: Cannot find device for path: dustyconcrete128.bmp
+[01:10:49.955] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:49.955] |I| [export_sceIoOpen]: Opening file: dustyconcrete128.png
+[01:10:49.955] |E| [open_file]: Cannot find device for path: dustyconcrete128.png
+[01:10:49.956] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:50.014] |I| [export_sceIoOpen]: Opening file: newall6_16c128.tga
+[01:10:50.015] |E| [open_file]: Cannot find device for path: newall6_16c128.tga
+[01:10:50.015] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:50.015] |I| [export_sceIoOpen]: Opening file: newall6_16c128.bmp
+[01:10:50.015] |E| [open_file]: Cannot find device for path: newall6_16c128.bmp
+[01:10:50.015] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:50.015] |I| [export_sceIoOpen]: Opening file: newall6_16c128.png
+[01:10:50.015] |E| [open_file]: Cannot find device for path: newall6_16c128.png
+[01:10:50.015] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:10:50.099] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3\TXD/splash1.txd
+[01:10:50.107] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3\TXD/splash1.txd (ux0:/data/gta3/TXD/splash1.txd), fd: 0x8d
+[01:10:50.195] |T| [close_file]: sceIoClose: Closing file fd: 0x8d
+[01:10:50.198] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[01:10:50.198] |T| [write_file]: *** TTY: Start preload end of game audio
+[01:10:50.202] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/AUDIO\END.MP3
+[01:10:50.209] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/AUDIO\END.MP3 (ux0:/data/gta3/AUDIO/END.MP3), fd: 0x8e
+[01:10:50.228] |T| [write_file]: *** TTY: End preload end of game audio
+[01:10:50.231] |T| [write_file]: *** TTY: Start loading kuruma
+[01:10:50.232] |T| [write_file]: *** TTY: Finish loading kuruma
+[01:10:51.195] |T| [write_file]: *** TTY: Start loading coach
+[01:10:51.229] |T| [write_file]: *** TTY: Finish loading coach
+[01:10:51.263] |T| [write_file]: *** TTY: Start loading mafia
+[01:10:51.297] |T| [write_file]: *** TTY: Finish loading mafia
+[01:10:52.190] |T| [write_file]: *** TTY: Start loading linerun
+[01:10:52.224] |T| [write_file]: *** TTY: Finish loading linerun
+[01:10:52.530] |T| [write_file]: *** TTY: Start loading esperant
+[01:10:52.564] |T| [write_file]: *** TTY: Finish loading esperant
+[01:11:03.422] |I| [export_sceIoOpen]: Opening file: redwhite_stripe_B.tga
+[01:11:03.423] |E| [open_file]: Cannot find device for path: redwhite_stripe_B.tga
+[01:11:03.423] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:03.423] |I| [export_sceIoOpen]: Opening file: redwhite_stripe_B.bmp
+[01:11:03.423] |E| [open_file]: Cannot find device for path: redwhite_stripe_B.bmp
+[01:11:03.423] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:03.423] |I| [export_sceIoOpen]: Opening file: redwhite_stripe_B.png
+[01:11:03.424] |E| [open_file]: Cannot find device for path: redwhite_stripe_B.png
+[01:11:03.424] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:04.477] |T| [close_file]: sceIoClose: Closing file fd: 0x8e
+[01:11:04.478] |T| [write_file]: *** TTY: LOAD frontend
+[01:11:04.478] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/FRONTEND.TXD
+[01:11:04.478] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/FRONTEND.TXD (ux0:/data/gta3/MODELS/FRONTEND.TXD), fd: 0x8f
+[01:11:04.752] |T| [close_file]: sceIoClose: Closing file fd: 0x8f
+[01:11:04.752] |T| [write_file]: *** TTY: LOAD sprite
+[01:11:04.752] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/MENU.TXD
+[01:11:04.753] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/MENU.TXD (ux0:/data/gta3/MODELS/MENU.TXD), fd: 0x90
+[01:11:05.335] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[01:11:09.247] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/AUDIO\WATER.WAV
+[01:11:09.247] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/AUDIO\WATER.WAV (ux0:/data/gta3/AUDIO/WATER.WAV), fd: 0x91
+[01:11:09.281] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/re3.ini
+[01:11:09.281] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/re3.ini (ux0:/data/gta3/re3.ini), fd: 0x92
+[01:11:09.281] |T| [write_file]: sceIoWrite: Writing to fd: 0x92, size: 1024
+[01:11:09.282] |T| [write_file]: sceIoWrite: Writing to fd: 0x92, size: 1024
+[01:11:09.282] |T| [write_file]: sceIoWrite: Writing to fd: 0x92, size: 329
+[01:11:09.282] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[01:11:09.282] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/re3.ini
+[01:11:09.283] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/re3.ini (ux0:/data/gta3/re3.ini), fd: 0x93
+[01:11:09.283] |T| [write_file]: sceIoWrite: Writing to fd: 0x93, size: 1024
+[01:11:09.284] |T| [write_file]: sceIoWrite: Writing to fd: 0x93, size: 1024
+[01:11:09.284] |T| [write_file]: sceIoWrite: Writing to fd: 0x93, size: 329
+[01:11:09.284] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[01:11:09.284] |T| [write_file]: *** TTY: REMOVE frontend
+[01:11:09.285] |T| [write_file]: *** TTY: REMOVE menu textures
+[01:11:16.931] |T| [write_file]: *** TTY: Start loading landstal
+[01:11:16.965] |T| [write_file]: *** TTY: Finish loading landstal
+[01:11:23.459] |I| [export_sceIoOpen]: Opening file: black64.tga
+[01:11:23.459] |E| [open_file]: Cannot find device for path: black64.tga
+[01:11:23.459] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:23.460] |I| [export_sceIoOpen]: Opening file: black64.bmp
+[01:11:23.460] |E| [open_file]: Cannot find device for path: black64.bmp
+[01:11:23.460] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:23.460] |I| [export_sceIoOpen]: Opening file: black64.png
+[01:11:23.460] |E| [open_file]: Cannot find device for path: black64.png
+[01:11:23.460] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[01:11:34.000] |T| [write_file]: *** TTY: Start loading yankee
+[01:11:34.034] |T| [write_file]: *** TTY: Finish loading yankee
+[01:11:42.330] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[01:11:42.331] |T| [write_file]: *** TTY: LOAD frontend
+[01:11:42.331] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/FRONTEND.TXD
+[01:11:42.331] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/FRONTEND.TXD (ux0:/data/gta3/MODELS/FRONTEND.TXD), fd: 0x94
+[01:11:42.607] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[01:11:42.607] |T| [write_file]: *** TTY: LOAD sprite
+[01:11:42.607] |I| [export_sceIoOpen]: Opening file: ux0:data/gta3/MODELS/MENU.TXD
+[01:11:42.608] |T| [open_file]: sceIoOpen: Opening file ux0:data/gta3/MODELS/MENU.TXD (ux0:/data/gta3/MODELS/MENU.TXD), fd: 0x95
+[01:11:43.203] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[01:11:48.034] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[01:11:48.035] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[01:12:10.312] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[01:12:10.313] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved

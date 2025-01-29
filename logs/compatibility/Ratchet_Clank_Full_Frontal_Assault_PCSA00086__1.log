@@ -1,0 +1,713 @@
+[19:44:05.619] |I| [config::init_config]: backend-renderer: Vulkan
+[19:44:05.620] |I| [config::init_config]: log-level: 0
+[19:44:05.740] |I| [SDL_main]: Vita3K v0.1.6 2840-4a2c6582
+[19:44:05.740] |I| [SDL_main]: Number of logical CPU cores: 8
+[19:44:05.741] |I| [SDL_main]: Available ram memory: 16215 MiB
+[19:44:05.955] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[19:44:06.027] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060 Laptop GPU
+[19:44:06.027] |I| [renderer::vulkan::VKState::create]: Driver version: 516.94.0.0
+[19:44:06.428] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[19:44:24.079] |I| [load_app_impl]: cpu-backend: Dynarmic
+[19:44:24.079] |I| [load_app_impl]: CPU Optimisation state: true
+[19:44:24.079] |I| [load_app_impl]: ngs state: true
+[19:44:24.079] |I| [load_app_impl]: Resolution multiplier: 1
+[19:44:24.080] |I| [load_app_impl]: modules mode: Auto & Manual
+[19:44:24.080] |I| [load_app_impl]: lle-modules: libhttp
+[19:44:24.080] |I| [load_app_impl]: Title: Ratchet & Clank: Full Frontal Assault™
+[19:44:24.080] |I| [load_app_impl]: Serial: PCSA00086
+[19:44:24.080] |I| [load_app_impl]: Version: 1.00
+[19:44:24.080] |I| [load_app_impl]: Category: gd
+[19:44:24.103] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6FFFFF01...
+[19:44:24.104] |I| [load_self]: Loaded module segment 0 @ [0x00004000 - 0x0003FC2C / 0x81000000] (size: 0x0003BC2C) of module app0:sce_module/libc.suprx
+[19:44:24.104] |I| [load_self]: Loaded module segment 1 @ [0x00040000 - 0x00042380 / 0x8103C000] (size: 0x00002380) of module app0:sce_module/libc.suprx
+[19:44:24.105] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[19:44:24.105] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x31540
+[19:44:24.106] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x34D88, setting to stub value 0xDEADBEEF
+[19:44:24.107] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[19:44:24.123] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6FFFFF01...
+[19:44:24.124] |I| [load_self]: Loaded module segment 0 @ [0x00044000 - 0x000653BC / 0x81000000] (size: 0x000213BC) of module app0:sce_module/libfios2.suprx
+[19:44:24.126] |I| [load_self]: Loaded module segment 1 @ [0x00066000 - 0x0006B1B8 / 0x81022000] (size: 0x000051B8) of module app0:sce_module/libfios2.suprx
+[19:44:24.128] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[19:44:24.129] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x5ED84
+[19:44:24.130] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[19:44:24.143] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6FFFFF01...
+[19:44:24.143] |I| [load_self]: Loaded module segment 0 @ [0x0006C000 - 0x0007F474 / 0x81000000] (size: 0x00013474) of module app0:sce_module/libult.suprx
+[19:44:24.146] |I| [load_self]: Loaded module segment 1 @ [0x00080000 - 0x00080814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[19:44:24.149] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[19:44:24.150] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7B714
+[19:44:24.151] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[19:44:24.166] |I| [load_self]: Loaded module segment 0 @ [0x00081000 - 0x000D1F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[19:44:24.168] |I| [load_self]: Loaded module segment 1 @ [0x000D2000 - 0x000D22F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[19:44:24.170] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[19:44:24.171] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xBD7DC
+[19:44:24.172] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xBCF10
+[19:44:24.173] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0xD1EE0, setting to stub value 0xDEADBEEF
+[19:44:24.177] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[19:44:24.184] |I| [load_self]: Loaded module segment 0 @ [0x000D4000 - 0x000E3F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[19:44:24.185] |I| [load_self]: Loaded module segment 1 @ [0x000E4000 - 0x000E4008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[19:44:24.187] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[19:44:24.188] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE2710
+[19:44:24.189] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE2300
+[19:44:24.190] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[19:44:24.565] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6FFFFF01...
+[19:44:24.565] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81AF33F0 / 0x81000000] (size: 0x00AF33F0) of module app0:eboot.bin
+[19:44:24.571] |I| [load_self]: Loaded module segment 1 @ [0x81AF4000 - 0x81E9F308 / 0x81AF4000] (size: 0x003AB308) of module app0:eboot.bin
+[19:44:24.573] |I| [load_self]: Linking SELF app0:eboot.bin...
+[19:44:24.575] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8197A580
+[19:44:24.576] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81B05A40
+[19:44:24.577] |I| [load_app_impl]: Main executable game_vita (eboot.bin) loaded
+[19:44:24.605] |D| [run_app]: Running module_start of library: SceLibc at address 0x45B1
+[19:44:24.638] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[19:44:24.638] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[19:44:24.645] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[19:44:24.674] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[19:44:24.683] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x44001
+[19:44:24.715] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[19:44:24.716] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetList import called.
+[19:44:24.720] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[19:44:24.729] |D| [run_app]: Running module_start of library: SceUlt at address 0x6F95D
+[19:44:24.756] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[19:44:24.756] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[19:44:25.085] |T| [write_file]: *** TTY: BUILD MD5 = {f7c9833ecbd2fd58bdeabf7961805d861dc1e4f8}
+[19:44:25.107] |T| [write_file]: *** TTY: 
+[19:44:25.108] |T| [write_file]: *** TTY: 
+[19:44:25.119] |T| [write_file]: *** TTY: (s_log_file is null.)
+[19:44:25.123] |T| [write_file]: *** TTY: 
+[19:44:25.129] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  X:\sdk\eskimo\1.3\eskimo\shared\validation.cpp:127:RunTests() 
+[19:44:25.139] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.144] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.152] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.158] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.165] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  Starting unit tests.
+[19:44:25.171] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.178] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.183] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.189] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.198] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.208] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  
+[19:44:25.216] |T| [write_file]: *** TTY: 0927.184425.0 Main  TRACE  [0] validation 0x81dcbfc0, level 100, function 0x8181df0b, user_data (nil), next (nil), X:\sdk\eskimo\1.3\eskimo\shared\messageBufferQueue.cpp:763
+[19:44:25.256] |I| [load_module]: Loading module ID: 0x2
+[19:44:25.279] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6FFFFF01...
+[19:44:25.280] |I| [load_self]: Loaded module segment 0 @ [0x00232000 - 0x0024F150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[19:44:25.297] |I| [load_self]: Loaded module segment 1 @ [0x00127000 - 0x00127640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[19:44:25.309] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[19:44:25.319] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x24DE68
+[19:44:25.325] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x24ACA0
+[19:44:25.343] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[19:44:25.344] |D| [load_module]: Running module_start of module: SceLibHttp
+[19:44:25.370] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[19:44:25.380] |I| [load_module]: Loading module ID: 0x4
+[19:44:25.397] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6FFFFF01...
+[19:44:25.397] |I| [load_self]: Loaded module segment 0 @ [0x00250000 - 0x0026D150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[19:44:25.403] |I| [load_self]: Loaded module segment 1 @ [0x00128000 - 0x00128640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[19:44:25.415] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[19:44:25.419] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x26BE68
+[19:44:25.425] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x268CA0
+[19:44:25.432] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[19:44:25.435] |D| [load_module]: Running module_start of module: SceLibHttp
+[19:44:25.440] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[19:44:25.476] |I| [load_self]: Loaded module segment 0 @ [0x0026E000 - 0x002D4EA4 / 0x81000000] (size: 0x00066EA4) of module sys/external/libssl.suprx
+[19:44:25.481] |I| [load_self]: Loaded module segment 1 @ [0x00129000 - 0x0012E188 / 0x81067000] (size: 0x00005188) of module sys/external/libssl.suprx
+[19:44:25.490] |I| [load_self]: Linking SELF sys/external/libssl.suprx...
+[19:44:25.495] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2C09B0
+[19:44:25.498] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2BAC70
+[19:44:25.505] |I| [load_module]: Module SceLibSsl (at "sys/external/libssl.suprx") loaded
+[19:44:25.511] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[19:44:25.517] |T| [write_file]: *** TTY: SysUtil configured for SysUtilAppHome!
+[19:44:25.558] |I| [export_sceIoOpen]: Opening file: app0:/region.cfg
+[19:44:25.561] |T| [open_file]: sceIoOpen: Opening file app0:/region.cfg (ux0:/app/PCSA00086/region.cfg), fd: 0x3
+[19:44:25.567] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[19:44:25.575] |T| [write_file]: *** TTY: Running Final Build
+[19:44:25.577] |W| [unimplemented_impl]: Unimplemented sceCoredumpRegisterCoredumpHandler import called.
+[19:44:25.832] |T| [write_file]: *** TTY: Front Panel Active X(0-1919) Y(0-1087) Disp X(0-1919) Y(0-1087) F(1-128)
+[19:44:25.833] |T| [write_file]: *** TTY: Back Panel Active X(0-1919) Y(108-889) Disp X(0-1919) Y(0-1087) F(1-128)
+[19:44:25.840] |W| [unimplemented_impl]: Unimplemented sceTouchEnableTouchForce import called.
+[19:44:25.847] |I| [load_module]: Loading module ID: 0x13
+[19:44:25.853] |I| [load_self]: sys/external/libsystemgesture.suprx: Skipping special segment 0x6FFFFF01...
+[19:44:25.859] |I| [load_self]: Loaded module segment 0 @ [0x002EC000 - 0x002EF08C / 0x81000000] (size: 0x0000308C) of module sys/external/libsystemgesture.suprx
+[19:44:25.866] |I| [load_self]: Loaded module segment 1 @ [0x002F0000 - 0x002F0BF0 / 0x81004000] (size: 0x00000BF0) of module sys/external/libsystemgesture.suprx
+[19:44:25.879] |I| [load_self]: Linking SELF sys/external/libsystemgesture.suprx...
+[19:44:25.886] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2EF074
+[19:44:25.896] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2EEBD4
+[19:44:25.907] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") loaded
+[19:44:25.911] |D| [load_module]: Running module_start of module: SceSystemGesture
+[19:44:25.917] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") module_start returned 0x0
+[19:44:25.929] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x6078A08B sceSystemGestureInitializePrimitiveTouchRecognizer at 0x819796B4
+[19:44:25.942] |W| [unimplemented_impl]: Unimplemented sceTouchGetPixelDensity2 import called.
+[19:44:25.955] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xC3367370 sceSystemGestureCreateTouchRecognizer at 0x819796F4
+[19:44:25.967] |E| [call_import]: Import function for NID 0xE340C02E not found (thread name: PCSA00086, thread ID: 7)
+[19:44:26.024] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[19:44:26.179] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MiB emuenv mem)
+[19:44:26.190] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[19:44:26.385] |W| [stubbed_impl]: Stubbed sceGxmSetVisibilityBuffer import called. (Set all visible)
+[19:44:26.450] |E| [stat_file]: Missing file at C:/Users/AOUIOUED Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSA00086/code/devel (target path: app0:/code/devel)
+[19:44:26.458] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[19:44:26.467] |T| [write_file]: *** TTY: 
+[19:44:26.468] |T| [write_file]: *** TTY: Boot Information
+[19:44:26.475] |T| [write_file]: *** TTY:   Title Id:            PCSA00086
+[19:44:26.482] |T| [write_file]: *** TTY:   Asset Folder:        app0:/assets/devel
+[19:44:26.494] |T| [write_file]: *** TTY:   Code Folder:         N/A
+[19:44:26.496] |T| [write_file]: *** TTY:   Create Game Data:    No
+[19:44:26.499] |T| [write_file]: *** TTY:   Game Data Enabled:   No
+[19:44:26.507] |T| [write_file]: *** TTY:   Game Data Folder:    N/A
+[19:44:26.514] |T| [write_file]: *** TTY:   Cache Enabled:       Yes
+[19:44:26.525] |T| [write_file]: *** TTY:   Fios Cache Enabled:  Yes
+[19:44:26.531] |T| [write_file]: *** TTY:   Clear Cache:         Yes
+[19:44:26.540] |T| [write_file]: *** TTY:   Cache Folder:        N/A
+[19:44:26.546] |T| [write_file]: *** TTY:   Content Folder:      N/A
+[19:44:26.549] |T| [write_file]: *** TTY:   Parental Level:      0
+[19:44:26.561] |T| [write_file]: *** TTY:   System Free Space:   17179867136.00GB
+[19:44:26.561] |T| [write_file]: *** TTY: 
+[19:44:26.567] |T| [write_file]: *** TTY: Finished Loading Tier (1.31806100 seconds)
+[19:44:26.576] |T| [write_file]: *** TTY: 
+[19:44:26.577] |T| [write_file]: *** TTY:  o DoFirstTransition...
+[19:44:26.587] |T| [write_file]: *** TTY: Created heap 'Fios Mem Heap'
+[19:44:26.633] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[19:44:26.634] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
+[19:44:26.827] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
+[19:44:26.843] |I| [export_sceIoOpen]: Opening file: app0:/assets.psarc
+[19:44:26.859] |T| [open_file]: sceIoOpen: Opening file app0:/assets.psarc (ux0:/app/PCSA00086/assets.psarc), fd: 0x4
+[19:44:26.910] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[19:44:26.927] |I| [export_sceIoOpen]: Opening file: app0:/assets.psarc
+[19:44:26.929] |T| [open_file]: sceIoOpen: Opening file app0:/assets.psarc (ux0:/app/PCSA00086/assets.psarc), fd: 0x5
+[19:44:27.051] |I| [export_sceIoOpen]: Opening file: app0:/sounds.psarc
+[19:44:27.060] |T| [open_file]: sceIoOpen: Opening file app0:/sounds.psarc (ux0:/app/PCSA00086/sounds.psarc), fd: 0x6
+[19:44:27.061] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[19:44:27.065] |I| [export_sceIoOpen]: Opening file: app0:/sounds.psarc
+[19:44:27.066] |T| [open_file]: sceIoOpen: Opening file app0:/sounds.psarc (ux0:/app/PCSA00086/sounds.psarc), fd: 0x7
+[19:44:27.186] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/packed/game/game.toc
+[19:44:27.195] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/packed/game/game.toc (ux0:/app/PCSA00086/assets/devel/packed/game/game.toc), fd: 0x8
+[19:44:27.198] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[19:44:27.205] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/packed/game/global_cached.toc
+[19:44:27.216] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/packed/game/global_cached.toc (ux0:/app/PCSA00086/assets/devel/packed/game/global_cached.toc), fd: 0x9
+[19:44:27.218] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[19:44:27.226] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/packed/game/global_uncached.toc
+[19:44:27.237] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/packed/game/global_uncached.toc (ux0:/app/PCSA00086/assets/devel/packed/game/global_uncached.toc), fd: 0xA
+[19:44:27.240] |T| [close_file]: sceIoClose: Closing file fd: 0xA
+[19:44:27.250] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/packed/game/global_sound_us.toc
+[19:44:27.260] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/packed/game/global_sound_us.toc (ux0:/app/PCSA00086/assets/devel/packed/game/global_sound_us.toc), fd: 0xB
+[19:44:27.270] |T| [close_file]: sceIoClose: Closing file fd: 0xB
+[19:44:27.293] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/847/847fa0e9e00e7d33/header.dat
+[19:44:27.306] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/847/847fa0e9e00e7d33/header.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/847/847fa0e9e00e7d33/header.dat), fd: 0xC
+[19:44:27.313] |T| [close_file]: sceIoClose: Closing file fd: 0xC
+[19:44:27.318] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/847/847fa0e9e00e7d33/texel.dat
+[19:44:27.339] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/847/847fa0e9e00e7d33/texel.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/847/847fa0e9e00e7d33/texel.dat), fd: 0xD
+[19:44:27.348] |T| [close_file]: sceIoClose: Closing file fd: 0xD
+[19:44:27.350] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/c54/c54d015ce012f80f/header.dat
+[19:44:27.364] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/c54/c54d015ce012f80f/header.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/c54/c54d015ce012f80f/header.dat), fd: 0xE
+[19:44:27.370] |T| [close_file]: sceIoClose: Closing file fd: 0xE
+[19:44:27.375] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/c54/c54d015ce012f80f/texel.dat
+[19:44:27.392] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/c54/c54d015ce012f80f/texel.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/c54/c54d015ce012f80f/texel.dat), fd: 0xF
+[19:44:27.400] |T| [close_file]: sceIoClose: Closing file fd: 0xF
+[19:44:27.414] |T| [write_file]: *** TTY: 
+[19:44:27.417] |T| [write_file]: *** TTY:  o Starting to load file '/built/tuids/243/243c96e8c94b3d4e/font.dat'...
+[19:44:27.431] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/243/243c96e8c94b3d4e/font.dat
+[19:44:27.457] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/243/243c96e8c94b3d4e/font.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/243/243c96e8c94b3d4e/font.dat), fd: 0x10
+[19:44:27.472] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[19:44:27.480] |T| [write_file]: *** TTY: 
+[19:44:27.481] |T| [write_file]: *** TTY:  o Starting to load file '/built/tuids/243/243c96e8c94b3d4e/font_texel.dat'...
+[19:44:27.484] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/243/243c96e8c94b3d4e/font_texel.dat
+[19:44:27.499] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/243/243c96e8c94b3d4e/font_texel.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/243/243c96e8c94b3d4e/font_texel.dat), fd: 0x11
+[19:44:27.504] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[19:44:27.508] |T| [write_file]: *** TTY: 
+[19:44:27.516] |T| [write_file]: *** TTY:  o Starting to load file '/built/tuids/243/243c96e8c94b3d4e/font_header.dat'...
+[19:44:27.524] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/243/243c96e8c94b3d4e/font_header.dat
+[19:44:27.535] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/243/243c96e8c94b3d4e/font_header.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/243/243c96e8c94b3d4e/font_header.dat), fd: 0x12
+[19:44:27.540] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[19:44:27.542] |T| [write_file]: *** TTY: 
+[19:44:27.544] |T| [write_file]: *** TTY:  o Starting to load file '/built/game/core_text_tags.us.pkg'...
+[19:44:27.546] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/game/core_text_tags.us.pkg
+[19:44:27.558] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/game/core_text_tags.us.pkg (ux0:/app/PCSA00086/assets/devel/built/game/core_text_tags.us.pkg), fd: 0x13
+[19:44:27.559] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[19:44:27.561] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[19:44:28.273] |W| [unimplemented_impl]: Unimplemented sceNgsSystemSetFlags import called.
+[19:44:28.274] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 1, using passthrough.
+[19:44:28.279] |W| [stubbed_impl]: Stubbed sceNgsVoiceInit import called. (Default preset not implemented)
+[19:44:28.279] |T| [write_file]: *** TTY: # Audio out thread started
+[19:44:28.280] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[19:44:28.288] |I| [ngs::scream::Atrac9VoiceDefinition::new_modules]: Scream Atrac9 voice definition stubbed
+[19:44:28.290] |I| [ngs::scream::PlayerVoiceDefinition::new_modules]: Scream player voice definition stubbed
+[19:44:28.294] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 10, using passthrough.
+[19:44:28.297] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9495D50:0:0 to 0x94502B0:0
+[19:44:28.308] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94502B0:0:0 to 0x9450750:0
+[19:44:28.310] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9450900:1:1 to 0x9495D50:0
+[19:44:28.312] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9450C80:1:1 to 0x9495D50:0
+[19:44:28.316] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9451000:1:1 to 0x9495D50:0
+[19:44:28.319] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9451380:1:1 to 0x9495D50:0
+[19:44:28.321] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9451700:1:1 to 0x9495D50:0
+[19:44:28.322] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9451A80:1:1 to 0x9495D50:0
+[19:44:28.324] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9451E00:1:1 to 0x9495D50:0
+[19:44:28.327] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9452180:1:1 to 0x9495D50:0
+[19:44:28.331] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9452500:1:1 to 0x9495D50:0
+[19:44:28.335] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9452880:1:1 to 0x9495D50:0
+[19:44:28.336] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9452C00:1:1 to 0x9495D50:0
+[19:44:28.338] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9452F80:1:1 to 0x9495D50:0
+[19:44:28.341] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9453300:1:1 to 0x9495D50:0
+[19:44:28.345] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9453680:1:1 to 0x9495D50:0
+[19:44:28.352] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9453A00:1:1 to 0x9495D50:0
+[19:44:28.355] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9453D80:1:1 to 0x9495D50:0
+[19:44:28.359] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9454100:1:1 to 0x9495D50:0
+[19:44:28.366] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9454480:1:1 to 0x9495D50:0
+[19:44:28.369] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9454800:1:1 to 0x9495D50:0
+[19:44:28.373] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9454B80:1:1 to 0x9495D50:0
+[19:44:28.381] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9454F00:1:1 to 0x9495D50:0
+[19:44:28.386] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9455280:1:1 to 0x9495D50:0
+[19:44:28.388] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9455600:1:1 to 0x9495D50:0
+[19:44:28.396] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9455980:1:1 to 0x9495D50:0
+[19:44:28.401] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9455D00:1:1 to 0x9495D50:0
+[19:44:28.406] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9456080:1:1 to 0x9495D50:0
+[19:44:28.416] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9456400:1:1 to 0x9495D50:0
+[19:44:28.423] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9456780:1:1 to 0x9495D50:0
+[19:44:28.429] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9456B00:1:1 to 0x9495D50:0
+[19:44:28.434] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9456E80:1:1 to 0x9495D50:0
+[19:44:28.441] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9457200:1:1 to 0x9495D50:0
+[19:44:28.449] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9457580:1:1 to 0x9495D50:0
+[19:44:28.456] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9457900:1:1 to 0x9495D50:0
+[19:44:28.470] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9457C80:1:1 to 0x9495D50:0
+[19:44:28.474] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9458000:1:1 to 0x9495D50:0
+[19:44:28.480] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9458380:1:1 to 0x9495D50:0
+[19:44:28.490] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9458700:1:1 to 0x9495D50:0
+[19:44:28.491] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9458A80:1:1 to 0x9495D50:0
+[19:44:28.496] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9458E00:1:1 to 0x9495D50:0
+[19:44:28.504] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9459180:1:1 to 0x9495D50:0
+[19:44:28.509] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9459500:1:1 to 0x9495D50:0
+[19:44:28.521] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9459880:1:1 to 0x9495D50:0
+[19:44:28.536] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9459C00:1:1 to 0x9495D50:0
+[19:44:28.541] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9459F80:1:1 to 0x9495D50:0
+[19:44:28.550] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945A300:1:1 to 0x9495D50:0
+[19:44:28.557] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945A680:1:1 to 0x9495D50:0
+[19:44:28.572] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945AA00:1:1 to 0x9495D50:0
+[19:44:28.577] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945AD80:1:1 to 0x9495D50:0
+[19:44:28.581] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945B100:1:1 to 0x9495D50:0
+[19:44:28.587] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945B480:1:1 to 0x9495D50:0
+[19:44:28.596] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945B800:1:1 to 0x9495D50:0
+[19:44:28.598] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945BB80:1:1 to 0x9495D50:0
+[19:44:28.603] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945BF00:1:1 to 0x9495D50:0
+[19:44:28.606] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945C280:1:1 to 0x9495D50:0
+[19:44:28.619] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945C600:1:1 to 0x9495D50:0
+[19:44:28.627] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945C980:1:1 to 0x9495D50:0
+[19:44:28.631] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945CD00:1:1 to 0x9495D50:0
+[19:44:28.637] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945D080:1:1 to 0x9495D50:0
+[19:44:28.643] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945D400:1:1 to 0x9495D50:0
+[19:44:28.651] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945D780:1:1 to 0x9495D50:0
+[19:44:28.660] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945DB00:1:1 to 0x9495D50:0
+[19:44:28.665] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945DE80:1:1 to 0x9495D50:0
+[19:44:28.671] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945E200:1:1 to 0x9495D50:0
+[19:44:28.677] |T| [export_sceNgsPatchCreateRouting]: Patching 0x945E580:1:1 to 0x9495D50:0
+[19:44:28.685] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947ECE0:1:1 to 0x9495D50:0
+[19:44:28.696] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947F060:1:1 to 0x9495D50:0
+[19:44:28.700] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947F3E0:1:1 to 0x9495D50:0
+[19:44:28.706] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947F760:1:1 to 0x9495D50:0
+[19:44:28.712] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947FAE0:1:1 to 0x9495D50:0
+[19:44:28.720] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947FE60:1:1 to 0x9495D50:0
+[19:44:28.724] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94801E0:1:1 to 0x9495D50:0
+[19:44:28.726] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9480560:1:1 to 0x9495D50:0
+[19:44:28.730] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94808E0:1:1 to 0x9495D50:0
+[19:44:28.737] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9480C60:1:1 to 0x9495D50:0
+[19:44:28.741] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9480FE0:1:1 to 0x9495D50:0
+[19:44:28.744] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9481360:1:1 to 0x9495D50:0
+[19:44:28.748] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94816E0:1:1 to 0x9495D50:0
+[19:44:28.752] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9481A60:1:1 to 0x9495D50:0
+[19:44:28.754] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9481DE0:1:1 to 0x9495D50:0
+[19:44:28.757] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9482160:1:1 to 0x9495D50:0
+[19:44:28.761] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94824E0:1:1 to 0x9495D50:0
+[19:44:28.767] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9482860:1:1 to 0x9495D50:0
+[19:44:28.771] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9482BE0:1:1 to 0x9495D50:0
+[19:44:28.775] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9482F60:1:1 to 0x9495D50:0
+[19:44:28.782] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94832E0:1:1 to 0x9495D50:0
+[19:44:28.787] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9483660:1:1 to 0x9495D50:0
+[19:44:28.791] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94839E0:1:1 to 0x9495D50:0
+[19:44:28.800] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9483D60:1:1 to 0x9495D50:0
+[19:44:28.805] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94840E0:1:1 to 0x9495D50:0
+[19:44:28.810] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9484460:1:1 to 0x9495D50:0
+[19:44:28.814] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94847E0:1:1 to 0x9495D50:0
+[19:44:28.820] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9484B60:1:1 to 0x9495D50:0
+[19:44:28.828] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9484EE0:1:1 to 0x9495D50:0
+[19:44:28.835] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9485260:1:1 to 0x9495D50:0
+[19:44:28.842] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94855E0:1:1 to 0x9495D50:0
+[19:44:28.848] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9485960:1:1 to 0x9495D50:0
+[19:44:28.850] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9485CE0:1:1 to 0x9495D50:0
+[19:44:28.857] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9486060:1:1 to 0x9495D50:0
+[19:44:28.862] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94863E0:1:1 to 0x9495D50:0
+[19:44:28.865] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9486760:1:1 to 0x9495D50:0
+[19:44:28.869] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9486AE0:1:1 to 0x9495D50:0
+[19:44:28.876] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9486E60:1:1 to 0x9495D50:0
+[19:44:28.882] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94871E0:1:1 to 0x9495D50:0
+[19:44:28.889] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9487560:1:1 to 0x9495D50:0
+[19:44:28.894] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94878E0:1:1 to 0x9495D50:0
+[19:44:28.901] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9487C60:1:1 to 0x9495D50:0
+[19:44:28.907] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9487FE0:1:1 to 0x9495D50:0
+[19:44:28.913] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9488360:1:1 to 0x9495D50:0
+[19:44:28.918] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94886E0:1:1 to 0x9495D50:0
+[19:44:28.922] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9488A60:1:1 to 0x9495D50:0
+[19:44:28.927] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9488DE0:1:1 to 0x9495D50:0
+[19:44:28.939] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9489160:1:1 to 0x9495D50:0
+[19:44:28.950] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94894E0:1:1 to 0x9495D50:0
+[19:44:28.955] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9489860:1:1 to 0x9495D50:0
+[19:44:28.970] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9489BE0:1:1 to 0x9495D50:0
+[19:44:28.977] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9489F60:1:1 to 0x9495D50:0
+[19:44:28.981] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948A2E0:1:1 to 0x9495D50:0
+[19:44:28.987] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948A660:1:1 to 0x9495D50:0
+[19:44:28.997] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948A9E0:1:1 to 0x9495D50:0
+[19:44:29.004] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948AD60:1:1 to 0x9495D50:0
+[19:44:29.012] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948B0E0:1:1 to 0x9495D50:0
+[19:44:29.022] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948B460:1:1 to 0x9495D50:0
+[19:44:29.038] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948B7E0:1:1 to 0x9495D50:0
+[19:44:29.040] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948BB60:1:1 to 0x9495D50:0
+[19:44:29.059] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948BEE0:1:1 to 0x9495D50:0
+[19:44:29.064] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948C260:1:1 to 0x9495D50:0
+[19:44:29.081] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948C5E0:1:1 to 0x9495D50:0
+[19:44:29.085] |T| [export_sceNgsPatchCreateRouting]: Patching 0x948C960:1:1 to 0x9495D50:0
+[19:44:29.093] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9467970:1:1 to 0x9495D50:0
+[19:44:29.106] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9467CFC:1:1 to 0x9495D50:0
+[19:44:29.123] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9468088:1:1 to 0x9495D50:0
+[19:44:29.130] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9468414:1:1 to 0x9495D50:0
+[19:44:29.139] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94687A0:1:1 to 0x9495D50:0
+[19:44:29.149] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9468B2C:1:1 to 0x9495D50:0
+[19:44:29.154] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9468EB8:1:1 to 0x9495D50:0
+[19:44:29.164] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9469244:1:1 to 0x9495D50:0
+[19:44:29.174] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94695D0:1:1 to 0x9495D50:0
+[19:44:29.182] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946995C:1:1 to 0x9495D50:0
+[19:44:29.187] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9469CE8:1:1 to 0x9495D50:0
+[19:44:29.193] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946A074:1:1 to 0x9495D50:0
+[19:44:29.200] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946A400:1:1 to 0x9495D50:0
+[19:44:29.204] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946A78C:1:1 to 0x9495D50:0
+[19:44:29.208] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946AB18:1:1 to 0x9495D50:0
+[19:44:29.216] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946AEA4:1:1 to 0x9495D50:0
+[19:44:29.227] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946B230:1:1 to 0x9495D50:0
+[19:44:29.233] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946B5BC:1:1 to 0x9495D50:0
+[19:44:29.239] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946B948:1:1 to 0x9495D50:0
+[19:44:29.250] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946BCD4:1:1 to 0x9495D50:0
+[19:44:29.257] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946C060:1:1 to 0x9495D50:0
+[19:44:29.264] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946C3EC:1:1 to 0x9495D50:0
+[19:44:29.275] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946C778:1:1 to 0x9495D50:0
+[19:44:29.281] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946CB04:1:1 to 0x9495D50:0
+[19:44:29.285] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946CE90:1:1 to 0x9495D50:0
+[19:44:29.293] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946D21C:1:1 to 0x9495D50:0
+[19:44:29.299] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946D5A8:1:1 to 0x9495D50:0
+[19:44:29.308] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946D934:1:1 to 0x9495D50:0
+[19:44:29.316] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946DCC0:1:1 to 0x9495D50:0
+[19:44:29.324] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946E04C:1:1 to 0x9495D50:0
+[19:44:29.329] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946E3D8:1:1 to 0x9495D50:0
+[19:44:29.336] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946E764:1:1 to 0x9495D50:0
+[19:44:29.340] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946EAF0:1:1 to 0x9495D50:0
+[19:44:29.346] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946EE7C:1:1 to 0x9495D50:0
+[19:44:29.355] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946F208:1:1 to 0x9495D50:0
+[19:44:29.364] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946F594:1:1 to 0x9495D50:0
+[19:44:29.373] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946F920:1:1 to 0x9495D50:0
+[19:44:29.375] |T| [export_sceNgsPatchCreateRouting]: Patching 0x946FCAC:1:1 to 0x9495D50:0
+[19:44:29.383] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9470038:1:1 to 0x9495D50:0
+[19:44:29.387] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94703C4:1:1 to 0x9495D50:0
+[19:44:29.392] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9470750:1:1 to 0x9495D50:0
+[19:44:29.400] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9470ADC:1:1 to 0x9495D50:0
+[19:44:29.406] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9470E68:1:1 to 0x9495D50:0
+[19:44:29.413] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94711F4:1:1 to 0x9495D50:0
+[19:44:29.417] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9471580:1:1 to 0x9495D50:0
+[19:44:29.419] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947190C:1:1 to 0x9495D50:0
+[19:44:29.421] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9471C98:1:1 to 0x9495D50:0
+[19:44:29.423] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9472024:1:1 to 0x9495D50:0
+[19:44:29.428] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94723B0:1:1 to 0x9495D50:0
+[19:44:29.430] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947273C:1:1 to 0x9495D50:0
+[19:44:29.432] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9472AC8:1:1 to 0x9495D50:0
+[19:44:29.433] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9472E54:1:1 to 0x9495D50:0
+[19:44:29.435] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94731E0:1:1 to 0x9495D50:0
+[19:44:29.437] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947356C:1:1 to 0x9495D50:0
+[19:44:29.439] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94738F8:1:1 to 0x9495D50:0
+[19:44:29.440] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9473C84:1:1 to 0x9495D50:0
+[19:44:29.444] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9474010:1:1 to 0x9495D50:0
+[19:44:29.447] |T| [export_sceNgsPatchCreateRouting]: Patching 0x947439C:1:1 to 0x9495D50:0
+[19:44:29.449] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9474728:1:1 to 0x9495D50:0
+[19:44:29.451] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9474AB4:1:1 to 0x9495D50:0
+[19:44:29.452] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9474E40:1:1 to 0x9495D50:0
+[19:44:29.454] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94751CC:1:1 to 0x9495D50:0
+[19:44:29.456] |T| [export_sceNgsPatchCreateRouting]: Patching 0x9475558:1:1 to 0x9495D50:0
+[19:44:29.460] |T| [export_sceNgsPatchCreateRouting]: Patching 0x94758E4:1:1 to 0x9495D50:0
+[19:44:29.555] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[19:44:29.659] |E| [logging::ret_error_impl]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[19:44:29.665] |E| [logging::ret_error_impl]: sceKernelUnlockLwMutex2 returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[19:44:29.840] |E| [stat_file]: Cannot find device for path: /ui/screens/fonts/gfxfontlib_latin.swf
+[19:44:29.841] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[19:44:29.850] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/ui/screens/fonts/gfxfontlib_latin.swf
+[19:44:29.863] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/ui/screens/fonts/gfxfontlib_latin.swf (ux0:/app/PCSA00086/assets/devel/ui/screens/fonts/gfxfontlib_latin.swf), fd: 0x14
+[19:44:30.087] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[19:44:30.105] |E| [stat_file]: Cannot find device for path: /ui/screens/ui_manager.swf
+[19:44:30.107] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[19:44:30.113] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/ui/screens/ui_manager.swf
+[19:44:30.134] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/ui/screens/ui_manager.swf (ux0:/app/PCSA00086/assets/devel/ui/screens/ui_manager.swf), fd: 0x15
+[19:44:30.186] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[19:44:30.577] |E| [stat_file]: Cannot find device for path: /ui/screens/UI_Overwatch.swf
+[19:44:30.578] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[19:44:30.585] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/ui/screens/UI_Overwatch.swf
+[19:44:30.604] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/ui/screens/UI_Overwatch.swf (ux0:/app/PCSA00086/assets/devel/ui/screens/UI_Overwatch.swf), fd: 0x16
+[19:44:30.660] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[19:44:30.861] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x3C733316 sceSslInit at 0x81978A64
+[19:44:30.868] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x214926D9 sceHttpInit at 0x81978AB4
+[19:44:30.884] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[19:44:30.890] |W| [unimplemented_impl]: Unimplemented sceNpSignalingInit import called.
+[19:44:30.894] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[19:44:30.898] |T| [write_file]: *** TTY: called sceNpSignalingInit with standard default initializer values. ret = 0x10000100
+[19:44:30.913] |T| [write_file]: *** TTY: Created heap 'RUDP Heap'
+[19:44:30.918] |W| [unimplemented_impl]: Unimplemented sceRudpInit import called.
+[19:44:30.926] |W| [unimplemented_impl]: Unimplemented sceRudpSetEventHandler import called.
+[19:44:30.975] |W| [unimplemented_impl]: Unimplemented sceNetEpollCreate import called.
+[19:44:30.987] |W| [stubbed_impl]: Stubbed sceNetEpollWait import called. (only timeout)
+[19:44:30.989] |W| [unimplemented_impl]: Unimplemented sceRudpProcessEvents import called.
+[19:44:31.066] |T| [write_file]: *** TTY: Finished Loading Tier (4.48351400 seconds)
+[19:44:31.089] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/0AE/0AE3B20A01363855/header.dat
+[19:44:31.100] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/0AE/0AE3B20A01363855/header.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/0AE/0AE3B20A01363855/header.dat), fd: 0x17
+[19:44:31.107] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[19:44:31.109] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/0AE/0AE3B20A01363855/texel.dat
+[19:44:31.122] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/0AE/0AE3B20A01363855/texel.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/0AE/0AE3B20A01363855/texel.dat), fd: 0x18
+[19:44:31.129] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[19:44:31.142] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/8ac/8ac2d3020145b132/header.dat
+[19:44:31.152] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/8ac/8ac2d3020145b132/header.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/8ac/8ac2d3020145b132/header.dat), fd: 0x19
+[19:44:31.157] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[19:44:31.162] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/8ac/8ac2d3020145b132/texel.dat
+[19:44:31.178] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/8ac/8ac2d3020145b132/texel.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/8ac/8ac2d3020145b132/texel.dat), fd: 0x1A
+[19:44:31.180] |T| [close_file]: sceIoClose: Closing file fd: 0x1A
+[19:44:31.190] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/433/433fd6b1343c97f7/header.dat
+[19:44:31.199] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/433/433fd6b1343c97f7/header.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/433/433fd6b1343c97f7/header.dat), fd: 0x1B
+[19:44:31.206] |T| [close_file]: sceIoClose: Closing file fd: 0x1B
+[19:44:31.211] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/built/tuids/433/433fd6b1343c97f7/texel.dat
+[19:44:31.232] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/built/tuids/433/433fd6b1343c97f7/texel.dat (ux0:/app/PCSA00086/assets/devel/built/tuids/433/433fd6b1343c97f7/texel.dat), fd: 0x1C
+[19:44:31.240] |T| [close_file]: sceIoClose: Closing file fd: 0x1C
+[19:44:31.261] |T| [write_file]: *** TTY: Finished Loading Tier (0.19392100 seconds)
+[19:44:31.275] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[19:44:31.276] |E| [stat_file]: Cannot find device for path: /ui/screens/legal.swf
+[19:44:31.279] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[19:44:31.325] |W| [unimplemented_impl]: Unimplemented sceGxmSetUserMarker import called.
+[19:44:31.368] |I| [export_sceIoOpen]: Opening file: app0:/assets/devel/ui/screens/legal.swf
+[19:44:31.382] |T| [open_file]: sceIoOpen: Opening file app0:/assets/devel/ui/screens/legal.swf (ux0:/app/PCSA00086/assets/devel/ui/screens/legal.swf), fd: 0x1D
+[19:44:31.401] |W| [unimplemented_impl]: Unimplemented sceGxmSetFrontVisibilityTestEnable import called.
+[19:44:31.421] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[19:44:31.439] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b59a26bbc6d40bcf287b27ba35f2a078959e9bb37b8581539fbaf07431861d51
+[19:44:31.448] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b59a26bbc6d40bcf287b27ba35f2a078959e9bb37b8581539fbaf07431861d51
+[19:44:31.455] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float2) in_position
+[19:44:31.456] |D| [shader::create_parameters]: [BUFFER0  + 2] pa2 = (uchar4) in_col
+[19:44:31.463] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[19:44:31.501] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader faec1abd1bc09106268f6d30b7fdfcc63078d04e3cb19531b96c7418e05f6006
+[19:44:31.503] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader faec1abd1bc09106268f6d30b7fdfcc63078d04e3cb19531b96c7418e05f6006
+[19:44:31.514] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[19:44:31.517] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[19:44:31.569] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b008e08e4f5efedd418f9b2f4963b59b6112a7239f2ad278b2741636e1390abc
+[19:44:31.577] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader b008e08e4f5efedd418f9b2f4963b59b6112a7239f2ad278b2741636e1390abc
+[19:44:31.589] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) pos
+[19:44:31.590] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mvp[2]
+[19:44:31.596] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[19:44:31.668] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2406619bb25412c6565e2d2ff047e56fd3eaabe9e99427a7c38fa615dcbe43ab
+[19:44:31.678] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 2406619bb25412c6565e2d2ff047e56fd3eaabe9e99427a7c38fa615dcbe43ab
+[19:44:31.685] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) cxmul
+[19:44:31.689] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:44:31.847] |T| [close_file]: sceIoClose: Closing file fd: 0x1D
+[19:44:32.026] |W| [unimplemented_impl]: Unimplemented sceNpMatching2Init import called.
+[19:44:32.156] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[19:44:32.175] |E| [open_file]: Missing file at C:/Users/AOUIOUED Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSA00086/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[19:44:32.183] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:44:32.186] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[19:44:32.199] |E| [open_file]: Missing file at C:/Users/AOUIOUED Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSA00086/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[19:44:32.208] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:44:32.211] |E| [open_file]: Missing file at C:/Users/AOUIOUED Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSA00086/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[19:44:32.216] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:44:32.222] |E| [open_file]: Missing file at C:/Users/AOUIOUED Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSA00086/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[19:44:32.229] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:44:32.234] |E| [open_file]: Missing file at C:/Users/AOUIOUED Othmane/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSA00086/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[19:44:32.243] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[19:44:32.249] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR03529_00/TROPHY.TRP (ux0:/app/PCSA00086/sce_sys/trophy/NPWR03529_00/TROPHY.TRP), fd: 0x1E
+[19:44:32.266] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR03529_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR03529_00/TROPUSR.DAT), fd: 0x1F
+[19:44:32.285] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROPCONF.SFM), fd: 0x20
+[19:44:32.289] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 1768
+[19:44:32.293] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[19:44:32.313] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP.SFM), fd: 0x21
+[19:44:32.317] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 4637
+[19:44:32.319] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[19:44:32.322] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_00.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_00.SFM), fd: 0x22
+[19:44:32.330] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 5224
+[19:44:32.333] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[19:44:32.348] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_02.SFM), fd: 0x23
+[19:44:32.352] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 4867
+[19:44:32.355] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[19:44:32.375] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_03.SFM), fd: 0x24
+[19:44:32.381] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 4886
+[19:44:32.385] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[19:44:32.408] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_04.SFM), fd: 0x25
+[19:44:32.413] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 4855
+[19:44:32.418] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[19:44:32.442] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_05.SFM), fd: 0x26
+[19:44:32.446] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 4838
+[19:44:32.456] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[19:44:32.476] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_06.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_06.SFM), fd: 0x27
+[19:44:32.478] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 4627
+[19:44:32.490] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[19:44:32.511] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_07.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_07.SFM), fd: 0x28
+[19:44:32.528] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 4899
+[19:44:32.537] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[19:44:32.564] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_08.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_08.SFM), fd: 0x29
+[19:44:32.568] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 6194
+[19:44:32.572] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[19:44:32.595] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_12.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_12.SFM), fd: 0x2A
+[19:44:32.606] |T| [write_file]: install_trophy_context: Writing to fd: 0x2A, size: 4738
+[19:44:32.616] |T| [close_file]: install_trophy_context: Closing file fd: 0x2A
+[19:44:32.640] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_13.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_13.SFM), fd: 0x2B
+[19:44:32.643] |T| [write_file]: install_trophy_context: Writing to fd: 0x2B, size: 4658
+[19:44:32.651] |T| [close_file]: install_trophy_context: Closing file fd: 0x2B
+[19:44:32.675] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_14.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_14.SFM), fd: 0x2C
+[19:44:32.681] |T| [write_file]: install_trophy_context: Writing to fd: 0x2C, size: 4698
+[19:44:32.683] |T| [close_file]: install_trophy_context: Closing file fd: 0x2C
+[19:44:32.708] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_15.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_15.SFM), fd: 0x2D
+[19:44:32.711] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f83d1bf6a0ca4216227aff38ddbecc5116f10f335914f5c398e117c5c0e2b75e
+[19:44:32.711] |T| [write_file]: install_trophy_context: Writing to fd: 0x2D, size: 4702
+[19:44:32.722] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader f83d1bf6a0ca4216227aff38ddbecc5116f10f335914f5c398e117c5c0e2b75e
+[19:44:32.725] |T| [close_file]: install_trophy_context: Closing file fd: 0x2D
+[19:44:32.732] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) afactor
+[19:44:32.738] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) pos
+[19:44:32.745] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) cxadd
+[19:44:32.748] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_16.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_16.SFM), fd: 0x2E
+[19:44:32.750] |D| [shader::create_parameters]: [DEFAULT  + 20] sa20 = (float4) cxmul
+[19:44:32.766] |T| [write_file]: install_trophy_context: Writing to fd: 0x2E, size: 4894
+[19:44:32.769] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mvp[2]
+[19:44:32.773] |T| [close_file]: install_trophy_context: Closing file fd: 0x2E
+[19:44:32.781] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) texgen[2]
+[19:44:32.788] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[19:44:32.796] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP_18.SFM (ux0:/user/00/trophy/conf/NPWR03529_00/TROP_18.SFM), fd: 0x2F
+[19:44:32.812] |T| [write_file]: install_trophy_context: Writing to fd: 0x2F, size: 4600
+[19:44:32.825] |T| [close_file]: install_trophy_context: Closing file fd: 0x2F
+[19:44:32.848] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/ICON0.PNG), fd: 0x30
+[19:44:32.865] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 105212
+[19:44:32.879] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[19:44:32.901] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP000.PNG), fd: 0x31
+[19:44:32.910] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 97600
+[19:44:32.923] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[19:44:32.939] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b45182d47487d1290140349582560ded0f3ef26e4745b8362814825430296256
+[19:44:32.954] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP001.PNG), fd: 0x32
+[19:44:32.956] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader b45182d47487d1290140349582560ded0f3ef26e4745b8362814825430296256
+[19:44:32.962] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 94256
+[19:44:32.976] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:44:32.978] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[19:44:32.983] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex, TEXCOORD2.xy)
+[19:44:32.989] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[19:44:32.994] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord1
+[19:44:32.998] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP002.PNG), fd: 0x33
+[19:44:33.000] |I| [shader::make_frag_finalize_function]: Non zero pa offset: 2 at b45182d47487d1290140349582560ded0f3ef26e4745b8362814825430296256
+[19:44:33.006] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 87788
+[19:44:33.015] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[19:44:33.014] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[19:44:33.028] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP003.PNG), fd: 0x34
+[19:44:33.042] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 91430
+[19:44:33.053] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[19:44:33.072] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP004.PNG), fd: 0x35
+[19:44:33.076] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 93239
+[19:44:33.078] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[19:44:33.088] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP005.PNG), fd: 0x36
+[19:44:33.092] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 86448
+[19:44:33.095] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[19:44:33.108] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP006.PNG), fd: 0x37
+[19:44:33.112] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 88473
+[19:44:33.113] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[19:44:33.127] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP007.PNG), fd: 0x38
+[19:44:33.133] |T| [write_file]: install_trophy_context: Writing to fd: 0x38, size: 86585
+[19:44:33.143] |T| [close_file]: install_trophy_context: Closing file fd: 0x38
+[19:44:33.170] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP008.PNG), fd: 0x39
+[19:44:33.179] |T| [write_file]: install_trophy_context: Writing to fd: 0x39, size: 88789
+[19:44:33.193] |T| [close_file]: install_trophy_context: Closing file fd: 0x39
+[19:44:33.194] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 739c47ba6c37c020b9580773226afcce764641d9fab2314e6669ab943a9afc54
+[19:44:33.213] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 739c47ba6c37c020b9580773226afcce764641d9fab2314e6669ab943a9afc54
+[19:44:33.217] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP009.PNG), fd: 0x3A
+[19:44:33.230] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) afactor
+[19:44:33.241] |T| [write_file]: install_trophy_context: Writing to fd: 0x3A, size: 90194
+[19:44:33.248] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) pos
+[19:44:33.252] |T| [close_file]: install_trophy_context: Closing file fd: 0x3A
+[19:44:33.256] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mvp[2]
+[19:44:33.268] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) texgen[2]
+[19:44:33.271] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[19:44:33.273] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP010.PNG), fd: 0x3B
+[19:44:33.294] |T| [write_file]: install_trophy_context: Writing to fd: 0x3B, size: 89987
+[19:44:33.305] |T| [close_file]: install_trophy_context: Closing file fd: 0x3B
+[19:44:33.323] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP011.PNG), fd: 0x3C
+[19:44:33.331] |T| [write_file]: install_trophy_context: Writing to fd: 0x3C, size: 93874
+[19:44:33.336] |T| [close_file]: install_trophy_context: Closing file fd: 0x3C
+[19:44:33.351] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f4c9f757895a237fbf7d616d499d8127c43170621be96c96f56d97fa13b827d8
+[19:44:33.355] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP012.PNG), fd: 0x3D
+[19:44:33.357] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader f4c9f757895a237fbf7d616d499d8127c43170621be96c96f56d97fa13b827d8
+[19:44:33.362] |T| [write_file]: install_trophy_context: Writing to fd: 0x3D, size: 96666
+[19:44:33.366] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:44:33.368] |T| [close_file]: install_trophy_context: Closing file fd: 0x3D
+[19:44:33.374] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex, TEXCOORD0.xy)
+[19:44:33.378] |I| [shader::make_frag_finalize_function]: Non zero pa offset: 2 at f4c9f757895a237fbf7d616d499d8127c43170621be96c96f56d97fa13b827d8
+[19:44:33.382] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:44:33.383] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP013.PNG), fd: 0x3E
+[19:44:33.390] |T| [write_file]: install_trophy_context: Writing to fd: 0x3E, size: 91445
+[19:44:33.392] |T| [close_file]: install_trophy_context: Closing file fd: 0x3E
+[19:44:33.403] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP014.PNG), fd: 0x3F
+[19:44:33.405] |T| [write_file]: install_trophy_context: Writing to fd: 0x3F, size: 92850
+[19:44:33.407] |T| [close_file]: install_trophy_context: Closing file fd: 0x3F
+[19:44:33.415] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP015.PNG), fd: 0x40
+[19:44:33.423] |T| [write_file]: install_trophy_context: Writing to fd: 0x40, size: 89079
+[19:44:33.425] |T| [close_file]: install_trophy_context: Closing file fd: 0x40
+[19:44:33.438] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP016.PNG), fd: 0x41
+[19:44:33.441] |T| [write_file]: install_trophy_context: Writing to fd: 0x41, size: 94181
+[19:44:33.445] |T| [close_file]: install_trophy_context: Closing file fd: 0x41
+[19:44:33.465] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP017.PNG), fd: 0x42
+[19:44:33.467] |T| [write_file]: install_trophy_context: Writing to fd: 0x42, size: 90816
+[19:44:33.471] |T| [close_file]: install_trophy_context: Closing file fd: 0x42
+[19:44:33.487] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP018.PNG), fd: 0x43
+[19:44:33.494] |T| [write_file]: install_trophy_context: Writing to fd: 0x43, size: 90472
+[19:44:33.502] |T| [close_file]: install_trophy_context: Closing file fd: 0x43
+[19:44:33.520] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP019.PNG), fd: 0x44
+[19:44:33.524] |T| [write_file]: install_trophy_context: Writing to fd: 0x44, size: 94243
+[19:44:33.532] |T| [close_file]: install_trophy_context: Closing file fd: 0x44
+[19:44:33.545] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP020.PNG), fd: 0x45
+[19:44:33.551] |T| [write_file]: install_trophy_context: Writing to fd: 0x45, size: 93866
+[19:44:33.556] |T| [close_file]: install_trophy_context: Closing file fd: 0x45
+[19:44:33.576] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP021.PNG), fd: 0x46
+[19:44:33.581] |T| [write_file]: install_trophy_context: Writing to fd: 0x46, size: 91518
+[19:44:33.587] |T| [close_file]: install_trophy_context: Closing file fd: 0x46
+[19:44:33.609] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03529_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR03529_00/TROP022.PNG), fd: 0x47
+[19:44:33.617] |T| [write_file]: install_trophy_context: Writing to fd: 0x47, size: 90727
+[19:44:33.630] |T| [close_file]: install_trophy_context: Closing file fd: 0x47
+[19:44:33.638] |T| [close_file]: create_trophy_context: Closing file fd: 0x1F
+[19:44:33.642] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR03529_00 create successfuly!
+[19:44:33.647] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[19:44:38.329] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1df0d89092c2be146ec407a9e9588f496de51fbd4866da67dc77e5b8ca7a0ebd
+[19:44:38.333] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 1df0d89092c2be146ec407a9e9588f496de51fbd4866da67dc77e5b8ca7a0ebd
+[19:44:38.343] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) acolor
+[19:44:38.344] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) atc
+[19:44:38.346] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) pos
+[19:44:38.352] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float4) cxadd
+[19:44:38.355] |D| [shader::create_parameters]: [DEFAULT  + 12] sa12 = (float4) cxmul
+[19:44:38.356] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) mvp[2]
+[19:44:38.358] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 10
+[19:44:38.390] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 63cd16099c321dfcf9c83f427f98ca728cd66291670991f4306bbf117879f6a9
+[19:44:38.393] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 63cd16099c321dfcf9c83f427f98ca728cd66291670991f4306bbf117879f6a9
+[19:44:38.400] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:44:38.403] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex, TEXCOORD0.xy)
+[19:44:38.405] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:44:38.439] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 162050fecb7979775cb9cbf71e792e6617e270a4b3a5ea9fdc68e0529978f032
+[19:44:38.441] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 162050fecb7979775cb9cbf71e792e6617e270a4b3a5ea9fdc68e0529978f032
+[19:44:38.448] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) acolor
+[19:44:38.448] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) afactor
+[19:44:38.450] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) pos
+[19:44:38.454] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) vfuniforms[96]
+[19:44:38.456] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[19:44:38.469] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 30
+[19:44:38.556] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 808fe6d7818efc3b540e12d144299ba2ce32a491f08b19888543dd161cde5517
+[19:44:38.558] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 808fe6d7818efc3b540e12d144299ba2ce32a491f08b19888543dd161cde5517
+[19:44:38.564] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:44:38.565] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_Color1
+[19:44:38.568] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_TexCoord0
+[19:44:38.572] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_TexCoord1
+[19:44:38.574] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[19:44:40.122] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 96bee5bc3eb2817f44a52894559d449229cec1f3051c39d7d397f40e36cf212e
+[19:44:40.123] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 96bee5bc3eb2817f44a52894559d449229cec1f3051c39d7d397f40e36cf212e
+[19:44:40.133] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) acolor
+[19:44:40.135] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) afactor
+[19:44:40.138] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) pos
+[19:44:40.144] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) vfuniforms[48]
+[19:44:40.148] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:44:40.165] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 18
+[19:44:40.245] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 8c65214b029f1d45c22cd81acbbb8467dae6b2ad1949926f8bb030ee40aec1ce
+[19:44:40.252] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 8c65214b029f1d45c22cd81acbbb8467dae6b2ad1949926f8bb030ee40aec1ce
+[19:44:40.258] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[19:44:40.259] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_Color1
+[19:44:40.264] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[19:45:10.002] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[19:45:10.008] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved

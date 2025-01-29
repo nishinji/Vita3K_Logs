@@ -1,0 +1,876 @@
+[16:02:04.115] |I| [config::init_config]: backend-renderer: Vulkan
+[16:02:04.120] |I| [config::init_config]: log-level: 0
+[16:02:04.358] |I| [SDL_main]: Vita3K v0.1.8 3198-1cd8c837
+[16:02:04.396] |I| [SDL_main]: Number of logical CPU cores: 2
+[16:02:04.397] |I| [SDL_main]: Available ram memory: 3959 MiB
+[16:02:04.683] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[16:02:05.136] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[16:02:05.139] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[16:02:05.141] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[16:02:05.186] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[16:02:06.819] |W| [compat::load_compat_app_db]: App with Title ID PCSE00216 has an issue but no status label. Please check GitHub issue 1601 and request a status label be added.
+[16:02:06.932] |W| [compat::load_compat_app_db]: App with Title ID PCSG00244 has an issue but no status label. Please check GitHub issue 1599 and request a status label be added.
+[16:02:06.933] |W| [compat::load_compat_app_db]: App with Title ID PCSG00448 has an issue but no status label. Please check GitHub issue 1598 and request a status label be added.
+[16:02:06.933] |W| [compat::load_compat_app_db]: App with Title ID PCSG00909 has an issue but no status label. Please check GitHub issue 1597 and request a status label be added.
+[16:02:06.933] |W| [compat::load_compat_app_db]: App with Title ID PCSD00005 has an issue but no status label. Please check GitHub issue 1594 and request a status label be added.
+[16:02:06.933] |W| [compat::load_compat_app_db]: App with Title ID PCSA00127 has an issue but no status label. Please check GitHub issue 1578 and request a status label be added.
+[16:02:07.342] |I| [compat::update_compat_app_db]: Applications compatibility database is up to date.
+[16:02:13.667] |I| [load_app_impl]: cpu-backend: Dynarmic
+[16:02:13.681] |I| [load_app_impl]: CPU Optimisation state: true
+[16:02:13.682] |I| [load_app_impl]: ngs state: true
+[16:02:13.682] |I| [load_app_impl]: Resolution multiplier: 1
+[16:02:13.683] |I| [load_app_impl]: modules mode: Auto & Manual
+[16:02:13.686] |I| [load_app_impl]: Title: 英雄伝説　零の軌跡　Evolution　無料版
+[16:02:13.709] |I| [load_app_impl]: Serial: PCSG90069
+[16:02:13.710] |I| [load_app_impl]: Version: 1.00
+[16:02:13.711] |I| [load_app_impl]: Category: gd
+[16:02:13.837] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[16:02:13.841] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x00040C2C / 0x81000000] (size: 0x0003BC2C) of module app0:sce_module/libc.suprx
+[16:02:13.843] |I| [load_self]: Loaded module segment 1 @ [0x00041000 - 0x00043380 / 0x8103C000] (size: 0x00002380) of module app0:sce_module/libc.suprx
+[16:02:13.846] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[16:02:13.850] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x32540
+[16:02:13.889] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[16:02:13.912] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[16:02:13.916] |I| [load_self]: Loaded module segment 0 @ [0x00044000 - 0x000653BC / 0x81000000] (size: 0x000213BC) of module app0:sce_module/libfios2.suprx
+[16:02:13.919] |I| [load_self]: Loaded module segment 1 @ [0x00066000 - 0x0006B1B8 / 0x81022000] (size: 0x000051B8) of module app0:sce_module/libfios2.suprx
+[16:02:13.925] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[16:02:13.927] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x5ed84
+[16:02:13.928] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[16:02:13.957] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[16:02:13.958] |I| [load_self]: Loaded module segment 0 @ [0x0006C000 - 0x0007F474 / 0x81000000] (size: 0x00013474) of module app0:sce_module/libult.suprx
+[16:02:13.962] |I| [load_self]: Loaded module segment 1 @ [0x00080000 - 0x00080814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[16:02:13.969] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[16:02:13.972] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x7b714
+[16:02:13.974] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[16:02:14.078] |I| [load_self]: Loaded module segment 0 @ [0x00081000 - 0x000D1F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[16:02:14.083] |I| [load_self]: Loaded module segment 1 @ [0x000D2000 - 0x000D22F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[16:02:14.086] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[16:02:14.092] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xbd7dc
+[16:02:14.094] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xbcf10
+[16:02:14.095] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[16:02:14.123] |I| [load_self]: Loaded module segment 0 @ [0x000D3000 - 0x000E2F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[16:02:14.125] |I| [load_self]: Loaded module segment 1 @ [0x000E3000 - 0x000E3008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[16:02:14.127] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[16:02:14.129] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xe1710
+[16:02:14.136] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xe1300
+[16:02:14.137] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[16:02:14.330] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[16:02:14.335] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81218188 / 0x81000000] (size: 0x00218188) of module app0:eboot.bin
+[16:02:14.338] |I| [load_self]: Loaded module segment 1 @ [0x81219000 - 0x81252D48 / 0x81219000] (size: 0x00039D48) of module app0:eboot.bin
+[16:02:14.343] |I| [load_self]: Linking SELF app0:eboot.bin...
+[16:02:14.344] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x811e1c4c
+[16:02:14.347] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x812222b4
+[16:02:14.366] |I| [load_app_impl]: Main executable nana (eboot.bin) loaded
+[16:02:14.508] |D| [run_app]: Running module_start of library: SceLibc at address 0x55b1
+[16:02:14.858] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[16:02:14.876] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[16:02:14.878] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[16:02:14.962] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[16:02:14.976] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x44001
+[16:02:15.044] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[16:02:15.047] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetList import called.
+[16:02:15.050] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[16:02:15.070] |D| [run_app]: Running module_start of library: SceUlt at address 0x6f95d
+[16:02:15.138] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[16:02:15.141] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[16:02:15.209] |T| [write_file]: *** TTY: //----------------------------------------------//
+[16:02:15.212] |T| [write_file]: *** TTY: //                                              //
+[16:02:15.213] |T| [write_file]: *** TTY: // YamanekoCoreSystem Init                      //
+[16:02:15.243] |W| [unimplemented_impl]: Unimplemented sceKernelSetGPO import called.
+[16:02:15.340] |T| [write_file]: *** TTY: //                                              //
+[16:02:15.356] |T| [write_file]: *** TTY: // YamanekoFileSystem Init                      //
+[16:02:15.491] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[16:02:15.495] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayThreadSetDisabled import called.
+[16:02:15.816] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetRecommendedScheduler import called.
+[16:02:15.843] |I| [export_sceIoOpen]: Opening file: app0:/data.psarc
+[16:02:15.845] |T| [open_file]: sceIoOpen: Opening file app0:/data.psarc (ux0:/app/PCSG90069/data.psarc), fd: 0x3
+[16:02:15.945] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[16:02:15.975] |I| [export_sceIoOpen]: Opening file: app0:/data.psarc
+[16:02:15.977] |T| [open_file]: sceIoOpen: Opening file app0:/data.psarc (ux0:/app/PCSG90069/data.psarc), fd: 0x4
+[16:02:16.124] |T| [write_file]: *** TTY: 
+[16:02:16.139] |T| [write_file]: *** TTY:   ----------------- check CSafeFileBase::psarcInit(-) [161308] 
+[16:02:16.151] |I| [export_sceIoOpen]: Opening file: app0:/data0.psarc
+[16:02:16.156] |T| [open_file]: sceIoOpen: Opening file app0:/data0.psarc (ux0:/app/PCSG90069/data0.psarc), fd: 0x5
+[16:02:16.172] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[16:02:16.175] |T| [write_file]: *** TTY: 
+[16:02:16.176] |T| [write_file]: *** TTY:   ----------------- check CSafeFileBase::psarcInit(0) [28692] 
+[16:02:16.179] |I| [export_sceIoOpen]: Opening file: app0:/data0.psarc
+[16:02:16.189] |T| [open_file]: sceIoOpen: Opening file app0:/data0.psarc (ux0:/app/PCSG90069/data0.psarc), fd: 0x6
+[16:02:16.194] |I| [export_sceIoOpen]: Opening file: app0:/data1.psarc
+[16:02:16.196] |T| [open_file]: sceIoOpen: Opening file app0:/data1.psarc (ux0:/app/PCSG90069/data1.psarc), fd: 0x7
+[16:02:16.245] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[16:02:16.258] |T| [write_file]: *** TTY: 
+[16:02:16.259] |T| [write_file]: *** TTY:   ----------------- check CSafeFileBase::psarcInit(1) [74285] 
+[16:02:16.262] |I| [export_sceIoOpen]: Opening file: app0:/data1.psarc
+[16:02:16.264] |T| [open_file]: sceIoOpen: Opening file app0:/data1.psarc (ux0:/app/PCSG90069/data1.psarc), fd: 0x8
+[16:02:16.277] |I| [export_sceIoOpen]: Opening file: app0:/data2.psarc
+[16:02:16.279] |T| [open_file]: sceIoOpen: Opening file app0:/data2.psarc (ux0:/app/PCSG90069/data2.psarc), fd: 0x9
+[16:02:16.529] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[16:02:16.545] |T| [write_file]: *** TTY: 
+[16:02:16.559] |T| [write_file]: *** TTY:   ----------------- check CSafeFileBase::psarcInit(2) [282656] 
+[16:02:16.562] |I| [export_sceIoOpen]: Opening file: app0:/data2.psarc
+[16:02:16.624] |T| [open_file]: sceIoOpen: Opening file app0:/data2.psarc (ux0:/app/PCSG90069/data2.psarc), fd: 0xa
+[16:02:16.706] |T| [write_file]: *** TTY: //                                              //
+[16:02:16.709] |T| [write_file]: *** TTY: // YamanekoGraphicSystem Init Start...          //
+[16:02:16.724] |T| [write_file]: *** TTY: //     Texture Manager Format Finished...       //
+[16:02:16.880] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[16:02:16.989] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[16:02:17.206] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[16:02:17.394] |T| [write_file]: *** TTY: //     Memory Format Finished...                //
+[16:02:17.579] |T| [write_file]: *** TTY: // Yamaneko All Green                           //
+[16:02:17.580] |T| [write_file]: *** TTY: //                                              //
+[16:02:17.603] |T| [write_file]: *** TTY: //----------------------------------------------//
+[16:02:17.860] |I| [export_sceIoOpen]: Opening file: /arc/data.psa
+[16:02:17.863] |E| [open_file]: Cannot find device for path: /arc/data.psa
+[16:02:17.864] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:02:17.936] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[16:02:17.975] |I| [float_to_half_init]: AVX+F16C instruction set is not supported. Using basic f32 to f16 conversion
+[16:02:18.061] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader accd90608a83b85229abce3c18bf5c8ee4956c9c9b10ba47f3e90d58f5fc0fd9
+[16:02:18.064] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader accd90608a83b85229abce3c18bf5c8ee4956c9c9b10ba47f3e90d58f5fc0fd9
+[16:02:18.096] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPos
+[16:02:18.097] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) color
+[16:02:18.130] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float1) z
+[16:02:18.162] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[16:02:18.178] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[16:02:18.343] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b8dffd17bb32df430948372041c01ae608ab4ba9e2d4e98374aaee7fbe14f6b6
+[16:02:18.346] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader b8dffd17bb32df430948372041c01ae608ab4ba9e2d4e98374aaee7fbe14f6b6
+[16:02:18.385] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:02:18.413] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[16:02:19.795] |W| [unimplemented_impl]: Unimplemented sceMotionReset import called.
+[16:02:20.092] |T| [write_file]: *** TTY: //----------------------------------------------//
+[16:02:20.095] |T| [write_file]: *** TTY: //                                              //
+[16:02:20.097] |T| [write_file]: *** TTY: // YamanekoSoundSystem Init Start...            //
+[16:02:20.099] |T| [write_file]: *** TTY: //                                              //
+[16:02:20.111] |T| [write_file]: *** TTY: //----------------------------------------------//
+[16:02:20.121] |I| [load_module]: Loading module ID: 0xd
+[16:02:20.257] |I| [load_self]: Loaded module segment 0 @ [0x07B94000 - 0x07BAB244 / 0x81000000] (size: 0x00017244) of module sys/external/libsas.suprx
+[16:02:20.264] |I| [load_self]: Loaded module segment 1 @ [0x07870000 - 0x07870038 / 0x81018000] (size: 0x00000038) of module sys/external/libsas.suprx
+[16:02:20.273] |I| [load_self]: Linking SELF sys/external/libsas.suprx...
+[16:02:20.277] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x7ba8004
+[16:02:20.279] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x7ba7bf0
+[16:02:20.294] |I| [load_module]: Module SceSasUser (at "sys/external/libsas.suprx") loaded
+[16:02:20.324] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x180c6824 sceSasGetNeededMemorySize at 0x811e086c
+[16:02:20.413] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x820d5f82 sceSasInitWithGrain at 0x811e08bc
+[16:02:20.582] |T| [export_sceNgsPatchCreateRouting]: Patching 0x6772CC0:0:0 to 0x67738F0:0
+[16:02:20.610] |T| [export_sceNgsPatchCreateRouting]: Patching 0x67731DC:1:1 to 0x67738F0:0
+[16:02:20.796] |T| [log_import_call]: [LLE] TID: 91  FUNC: 0x7a4672b2 sceSasCore at 0x811e08ac
+[16:02:21.097] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader db65bc1ff45758f01279d3558169b3f8f1d142b714fac999a714943d777de629
+[16:02:21.103] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader db65bc1ff45758f01279d3558169b3f8f1d142b714fac999a714943d777de629
+[16:02:21.130] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPos
+[16:02:21.147] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) inTexCoord
+[16:02:21.149] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) inColor
+[16:02:21.163] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[16:02:21.243] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader dd619b9b6cee60fa91bd1349dbe3c93621333158751283194fc9f9bac36fa661
+[16:02:21.245] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader dd619b9b6cee60fa91bd1349dbe3c93621333158751283194fc9f9bac36fa661
+[16:02:21.253] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:02:21.254] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex, TEXCOORD0.xy)
+[16:02:21.256] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[16:02:22.140] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/00000_zz.mcz
+[16:02:22.227] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/00000_zz.mcz
+[16:02:22.244] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:02:22.409] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 884f78706218507d2056610e998370d0f2fb8b61c4b0ef178b7171b46e53a584
+[16:02:22.412] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/00000_zp.mcp
+[16:02:22.432] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 884f78706218507d2056610e998370d0f2fb8b61c4b0ef178b7171b46e53a584
+[16:02:22.444] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/00000_zp.mcp
+[16:02:22.447] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) alphaRef
+[16:02:22.478] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:02:22.479] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:02:22.496] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex, TEXCOORD0.xy)
+[16:02:22.554] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[16:02:22.610] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[16:02:22.632] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 2
+[16:02:27.910] |E| [logging::ret_error_impl]: sceKernelReceiveMsgPipe returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[16:02:27.955] |I| [export_sceIoOpen]: Opening file: savedata0:SAVEDATA.DAT
+[16:02:28.398] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSG90069/SAVEDATA.DAT (target path: savedata0:SAVEDATA.DAT)
+[16:02:28.403] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:02:29.765] |E| [logging::ret_error_impl]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[16:02:29.820] |I| [load_module]: Loading module ID: 0x2d
+[16:02:29.844] |I| [load_self]: sys/external/libscemp4.suprx: Skipping special segment 0x6fffff01...
+[16:02:29.847] |I| [load_self]: Loaded module segment 0 @ [0x08114000 - 0x08123D20 / 0x81000000] (size: 0x0000FD20) of module sys/external/libscemp4.suprx
+[16:02:29.850] |I| [load_self]: Loaded module segment 1 @ [0x0787D000 - 0x0787D028 / 0x81010000] (size: 0x00000028) of module sys/external/libscemp4.suprx
+[16:02:29.859] |I| [load_self]: Linking SELF sys/external/libscemp4.suprx...
+[16:02:29.860] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x81239d0
+[16:02:29.862] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x81228c4
+[16:02:29.864] |I| [load_module]: Module SceMp4 (at "sys/external/libscemp4.suprx") loaded
+[16:02:30.006] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x5474af0 sceMp4OpenFile at 0x811e11bc
+[16:02:30.145] |T| [log_import_call]: [LLE] TID: 297 FUNC: 0x30e49e4d sceMp4StartFileStreaming at 0x811e11dc
+[16:02:30.246] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[16:02:30.530] |T| [log_import_call]: [LLE] TID: 297 FUNC: 0xd5b26179 UNRECOGNISED at 0x811e12cc
+[16:02:30.597] |E| [logging::ret_error_impl]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[16:02:30.609] |E| [logging::ret_error_impl]: sceKernelUnlockLwMutex2 returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[16:02:30.692] |W| [stubbed_impl]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[16:02:30.736] |W| [stubbed_impl]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[16:02:30.885] |T| [log_import_call]: [LLE] TID: 297 FUNC: 0x609e57ad sceMp4EnableStream at 0x811e121c
+[16:02:31.202] |T| [log_import_call]: [LLE] TID: 355 FUNC: 0x20a01112 sceMp4GetNextUnit at 0x811e11cc
+[16:02:31.308] |T| [log_import_call]: [LLE] TID: 355 FUNC: 0xd092a066 sceMp4GetNextUnitData at 0x811e12ac
+[16:02:31.542] |E| [logging::ret_error_impl]: sceKernelSignalSema returned SCE_KERNEL_ERROR_SEMA_OVF (0x80028103)
+[16:02:31.972] |E| [logging::ret_error_impl]: _sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[16:02:32.121] |T| [log_import_call]: [LLE] TID: 91  FUNC: 0xbd496983 sceSasCoreWithMix at 0x811e08dc
+[16:02:52.097] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[16:02:52.265] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[16:03:19.290] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x40351e1a sceMp4Reset at 0x811e11fc
+[16:03:19.339] |W| [stubbed_impl]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[16:03:19.380] |W| [unimplemented_impl]: Unimplemented sceKernelCloseMutex import called.
+[16:03:19.390] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x920623c8 sceMp4CloseFile at 0x811e124c
+[16:03:19.424] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x7b4832fe sceMp4ReleaseBuffer at 0x811e123c
+[16:03:19.486] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
+[16:03:19.864] |T| [log_import_call]: [LLE] TID: 91  FUNC: 0x5e42adab sceSasSetKeyOff at 0x811e089c
+[16:04:02.919] |T| [log_import_call]: [LLE] TID: 91  FUNC: 0x7e63e6 sceSasGetEndState at 0x811e084c
+[16:04:02.959] |T| [log_import_call]: [LLE] TID: 91  FUNC: 0x2b75f9bc sceSasSetVoice at 0x811e087c
+[16:04:02.984] |T| [log_import_call]: [LLE] TID: 91  FUNC: 0x2c48a08c sceSasSetPitch at 0x811e088c
+[16:04:03.029] |T| [log_import_call]: [LLE] TID: 91  FUNC: 0xbe8204d sceSasSetVolume at 0x811e085c
+[16:04:03.035] |T| [log_import_call]: [LLE] TID: 91  FUNC: 0xecce0db8 sceSasSetSimpleADSR at 0x811e08fc
+[16:04:03.098] |T| [log_import_call]: [LLE] TID: 91  FUNC: 0xc838db6f sceSasSetKeyOn at 0x811e08ec
+[16:04:03.363] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e88d9b5a0cc355ae332e4fa88ef66cb7cd41eb26256038dcbffd4898925b1eea
+[16:04:03.384] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader e88d9b5a0cc355ae332e4fa88ef66cb7cd41eb26256038dcbffd4898925b1eea
+[16:04:03.389] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPos
+[16:04:03.390] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) inTexCoord
+[16:04:03.392] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) inColor
+[16:04:03.394] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) inSpe
+[16:04:03.395] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) world[4]
+[16:04:03.398] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) viewProj[4]
+[16:04:03.398] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (half4) ambientColor
+[16:04:03.400] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float1) polygonOffset
+[16:04:03.402] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[16:04:03.407] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 20
+[16:04:03.526] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader caea087682c4ddd89c5d48c7d3e5f957ab10c7eca2d213c934c7f7f5539491eb
+[16:04:03.527] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader caea087682c4ddd89c5d48c7d3e5f957ab10c7eca2d213c934c7f7f5539491eb
+[16:04:03.533] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) alphaRef
+[16:04:03.534] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:04:03.535] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex, TEXCOORD0.xy)
+[16:04:03.536] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[16:04:03.538] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[16:04:03.546] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[16:04:03.551] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 4
+[16:04:03.771] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c6577164406dd0f2c0886f2c0ce4b555ff812c23aedafedeb5a431f9d8b4eda1
+[16:04:03.815] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader c6577164406dd0f2c0886f2c0ce4b555ff812c23aedafedeb5a431f9d8b4eda1
+[16:04:03.820] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:04:03.823] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_Color1
+[16:04:03.825] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[16:04:22.935] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 00ba5450525588ca29977855d230a3b195d991b76be50030b5aecdb7a664e058
+[16:04:23.048] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 00ba5450525588ca29977855d230a3b195d991b76be50030b5aecdb7a664e058
+[16:04:23.053] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPos
+[16:04:23.055] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) inColor
+[16:04:23.070] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[16:04:23.096] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1e8b4a847a0adfcb9ca1e2fb37c3e29643e66b2d8acce92a33073b5efcf642ca
+[16:04:23.128] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1e8b4a847a0adfcb9ca1e2fb37c3e29643e66b2d8acce92a33073b5efcf642ca
+[16:04:23.132] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:04:23.134] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[16:04:24.195] |I| [export_sceIoOpen]: Opening file: /arc/data/effect/eps/m3000.eps
+[16:04:24.270] |E| [open_file]: Cannot find device for path: /arc/data/effect/eps/m3000.eps
+[16:04:24.272] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:25.943] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000_zp.mcp
+[16:04:25.949] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c18663fa39cad1f27133b6d00953246dc16d12999b68b5fb6554194e85949b30
+[16:04:25.952] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000_zp.mcp
+[16:04:25.956] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader c18663fa39cad1f27133b6d00953246dc16d12999b68b5fb6554194e85949b30
+[16:04:25.966] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:25.979] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPos
+[16:04:26.018] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) inTexCoord
+[16:04:26.002] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:26.020] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) inColor
+[16:04:26.022] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) inSpe
+[16:04:26.021] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:26.035] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:26.034] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) world[4]
+[16:04:26.039] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) viewProj[4]
+[16:04:26.052] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) cameraPos
+[16:04:26.055] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float2) fogParam
+[16:04:26.056] |D| [shader::create_parameters]: [DEFAULT  + 38] sa38 = (half4) ambientColor
+[16:04:26.069] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float1) polygonOffset
+[16:04:26.071] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[16:04:26.084] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 28
+[16:04:26.129] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:26.260] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 277e418d3ac505c22cd684cff3758bdc44cae31b37e33dcabfc89cbc971c7b53
+[16:04:26.338] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:26.339] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:26.345] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 277e418d3ac505c22cd684cff3758bdc44cae31b37e33dcabfc89cbc971c7b53
+[16:04:26.419] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:26.420] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:26.422] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:26.422] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) fogColor
+[16:04:26.570] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:26.584] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
+[16:04:26.601] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(tex, TEXCOORD0.xy)
+[16:04:26.601] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:26.605] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_Color0
+[16:04:26.616] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_Color1
+[16:04:26.615] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:26.620] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[16:04:27.316] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 54fff9cc3480606479121fa8f0eb92ada4b27bb86eae4067dfa9c1fc115c7eef
+[16:04:27.338] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 54fff9cc3480606479121fa8f0eb92ada4b27bb86eae4067dfa9c1fc115c7eef
+[16:04:27.351] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) alphaRef
+[16:04:27.386] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (half4) fogColor
+[16:04:27.389] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
+[16:04:27.398] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(tex, TEXCOORD0.xy)
+[16:04:27.401] |D| [shader::create_fragment_inputs]: Iterator: pa6 = (half4) v_Color0
+[16:04:27.402] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_Color1
+[16:04:27.405] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[16:04:27.419] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[16:04:27.423] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 7
+[16:04:27.705] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 539079bd10125094edc3ca110541456d2b8ae774acc55383d2ae05e141723838
+[16:04:27.718] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 539079bd10125094edc3ca110541456d2b8ae774acc55383d2ae05e141723838
+[16:04:27.722] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) fogColor
+[16:04:27.753] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_TexCoord0
+[16:04:27.755] |D| [shader::create_fragment_inputs]: Iterator: pa2 = (half4) v_Color0
+[16:04:27.757] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[16:04:27.769] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[16:04:27.961] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1edc6ac7ab674a1afab64277be220d10d0d42cb7523cf7582d8aeabfbc20baf8
+[16:04:27.980] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 1edc6ac7ab674a1afab64277be220d10d0d42cb7523cf7582d8aeabfbc20baf8
+[16:04:27.988] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPos
+[16:04:28.040] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) inTexCoord
+[16:04:28.049] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) inColor
+[16:04:28.051] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) inSpe
+[16:04:28.055] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) world[4]
+[16:04:28.056] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) viewProj[4]
+[16:04:28.067] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float3) cameraPos
+[16:04:28.070] |D| [shader::create_parameters]: [DEFAULT  + 36] sa36 = (float2) fogParam
+[16:04:28.072] |D| [shader::create_parameters]: [DEFAULT  + 38] sa38 = (half4) ambientColor
+[16:04:28.076] |D| [shader::create_parameters]: [DEFAULT  + 40] sa40 = (float4) texOffset
+[16:04:28.083] |D| [shader::create_parameters]: [DEFAULT  + 44] sa44 = (float1) polygonOffset
+[16:04:28.086] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[16:04:28.094] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 28
+[16:04:28.489] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 97f2c72fd70c9138f49d906a507de73cde14a3a27072211be6abbc1a783b4544
+[16:04:28.502] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 97f2c72fd70c9138f49d906a507de73cde14a3a27072211be6abbc1a783b4544
+[16:04:28.507] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPos
+[16:04:28.522] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) inTexCoord
+[16:04:28.524] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) inColor
+[16:04:28.574] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) inSpe
+[16:04:28.574] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) world[4]
+[16:04:28.574] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) viewProj[4]
+[16:04:28.574] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (half4) ambientColor
+[16:04:28.574] |D| [shader::create_parameters]: [DEFAULT  + 34] sa34 = (float4) texOffset
+[16:04:28.574] |D| [shader::create_parameters]: [DEFAULT  + 38] sa38 = (float1) polygonOffset
+[16:04:28.576] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[16:04:28.577] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 21
+[16:04:29.394] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1929b537e1449bfc21d6781174c96b253c16c21aa54efcaf4b2dbd034462f817
+[16:04:29.439] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1929b537e1449bfc21d6781174c96b253c16c21aa54efcaf4b2dbd034462f817
+[16:04:29.446] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:04:29.447] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex, TEXCOORD0.xy)
+[16:04:29.448] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (half4) v_Color1
+[16:04:29.451] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[16:04:30.074] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 0b923ba8a377f25d46eadc27daed5b828adb3d6650b7a2eeedf9b8695e533ab2
+[16:04:30.121] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 0b923ba8a377f25d46eadc27daed5b828adb3d6650b7a2eeedf9b8695e533ab2
+[16:04:30.126] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPos
+[16:04:30.129] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) inTexCoord
+[16:04:30.130] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[16:04:30.152] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 30d3cf404998a38fb26278579cdd30799c9b5c8118894ce673c9c69a2c880dc1
+[16:04:30.156] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 30d3cf404998a38fb26278579cdd30799c9b5c8118894ce673c9c69a2c880dc1
+[16:04:30.162] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half2) offset[9]
+[16:04:30.164] |D| [shader::create_parameters]: [DEFAULT  + 18] sa18 = (half1) weight[9]
+[16:04:30.166] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half2) v_TexCoord0
+[16:04:30.168] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 29
+[16:04:30.788] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ae5c2f500bd3cfc012fb75a3106af2445b49c9a099c6df5e90316e946be40f27
+[16:04:30.858] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader ae5c2f500bd3cfc012fb75a3106af2445b49c9a099c6df5e90316e946be40f27
+[16:04:30.864] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half1) alphaRef
+[16:04:30.865] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[16:04:30.867] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex, TEXCOORD0.xy)
+[16:04:30.869] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 3
+[16:04:30.879] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[16:04:30.882] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 2
+[16:04:31.157] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f32ec03ad479a633c68fa1633b562aa30e77a80ac714ff59f9641b1113136fcf
+[16:04:31.187] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader f32ec03ad479a633c68fa1633b562aa30e77a80ac714ff59f9641b1113136fcf
+[16:04:31.194] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) inPos
+[16:04:31.204] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) world[4]
+[16:04:31.206] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) viewProj[4]
+[16:04:31.208] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) lightViewProj[4]
+[16:04:31.212] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float3) cameraPos
+[16:04:31.214] |D| [shader::create_parameters]: [DEFAULT  + 52] sa52 = (half4) ambientColor
+[16:04:31.216] |D| [shader::create_parameters]: [DEFAULT  + 54] sa54 = (float2) fogParam
+[16:04:31.227] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[16:04:31.233] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 29
+[16:04:31.317] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 33e4f6d3cb1cdcdb81d9d6db0ed09299f44cc219277fdb1a826f6ca805856a3a
+[16:04:31.323] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 33e4f6d3cb1cdcdb81d9d6db0ed09299f44cc219277fdb1a826f6ca805856a3a
+[16:04:31.331] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float3) spotLightPos
+[16:04:31.332] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (float3) spotLightDir
+[16:04:31.334] |D| [shader::create_parameters]: [DEFAULT  + 8] sa8 = (float2) spotLightConeAngle
+[16:04:31.337] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_TexCoord0
+[16:04:31.339] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float4) v_TexCoord1
+[16:04:31.341] |D| [shader::create_fragment_inputs]: Iterator: pa8 = (half4) v_Color0
+[16:04:31.345] |D| [shader::create_fragment_inputs]: Iterator: pa10 = (half1) v_TexCoord2
+[16:04:31.346] |I| [shader::make_frag_finalize_function]: Non zero pa offset: 8 at 33e4f6d3cb1cdcdb81d9d6db0ed09299f44cc219277fdb1a826f6ca805856a3a
+[16:04:31.349] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[16:04:31.354] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 16
+[16:04:31.670] |W| [renderer::vulkan::VKContext::start_recording]: Render Target is using more scenes per frame than what was planned!
+[16:04:41.320] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:41.419] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:41.422] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:41.426] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:41.608] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:41.611] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:42.980] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:43.348] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:43.350] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:43.354] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:43.354] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:43.356] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:50.646] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:50.777] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:50.778] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:50.781] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:50.782] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:50.784] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:51.063] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:51.208] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:51.210] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:51.214] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:51.216] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:51.217] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:52.912] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00206a.itp
+[16:04:53.127] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00206a.itp
+[16:04:53.128] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:53.133] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00206b.itp
+[16:04:53.133] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00206b.itp
+[16:04:53.135] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:55.111] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00106a.itp
+[16:04:55.250] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00106a.itp
+[16:04:55.251] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:55.258] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00106b.itp
+[16:04:55.391] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00106b.itp
+[16:04:55.393] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:56.675] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00306a.itp
+[16:04:56.963] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00306a.itp
+[16:04:56.965] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:56.969] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00306b.itp
+[16:04:56.970] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00306b.itp
+[16:04:56.972] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:58.629] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003a.itp
+[16:04:58.769] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003a.itp
+[16:04:58.770] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:58.777] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003b.itp
+[16:04:58.861] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003b.itp
+[16:04:58.864] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:59.812] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:59.935] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:59.936] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:04:59.950] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:59.952] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:04:59.954] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:00.213] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:05:00.329] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:05:00.330] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:00.334] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:05:00.336] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:05:00.338] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:01.014] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[16:05:01.116] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[16:05:02.894] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:05:02.951] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:05:02.953] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:02.958] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3000u0g.mce
+[16:05:02.959] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3000u0g.mce
+[16:05:02.960] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:03.430] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/battle1/ch60600.bcc
+[16:05:03.484] |E| [open_file]: Cannot find device for path: /arc/data/cclm/battle1/ch60600.bcc
+[16:05:03.486] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:03.493] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/battle1/ch68600.bcc
+[16:05:03.497] |E| [open_file]: Cannot find device for path: /arc/data/cclm/battle1/ch68600.bcc
+[16:05:03.498] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:03.504] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/battle1/ch70900.bcc
+[16:05:03.505] |E| [open_file]: Cannot find device for path: /arc/data/cclm/battle1/ch70900.bcc
+[16:05:03.506] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:22.253] |E| [logging::ret_error_impl]: sceDisplayUnregisterVblankStartCallback returned SCE_DISPLAY_ERROR_INVALID_VALUE (0x80290001)
+[16:05:45.268] |I| [export_sceIoOpen]: Opening file: /arc/data/effect/eps/m3002.eps
+[16:05:45.496] |E| [open_file]: Cannot find device for path: /arc/data/effect/eps/m3002.eps
+[16:05:45.498] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:45.854] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3002_zz.mcz
+[16:05:45.861] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3002_zz.mcz
+[16:05:45.863] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:45.869] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3002_zp.mcp
+[16:05:45.869] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3002_zp.mcp
+[16:05:45.871] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:45.972] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/battle1/ch60600.bcc
+[16:05:46.142] |E| [open_file]: Cannot find device for path: /arc/data/cclm/battle1/ch60600.bcc
+[16:05:46.145] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:46.151] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/battle1/ch68600.bcc
+[16:05:46.367] |E| [open_file]: Cannot find device for path: /arc/data/cclm/battle1/ch68600.bcc
+[16:05:46.368] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:05:50.943] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/m3002_zz.mcz
+[16:05:50.983] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/m3002_zz.mcz
+[16:05:50.984] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:16.535] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00306a.itp
+[16:06:16.627] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00306a.itp
+[16:06:16.630] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:16.633] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00306b.itp
+[16:06:16.636] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00306b.itp
+[16:06:16.638] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:27.740] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00206a.itp
+[16:06:27.820] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00206a.itp
+[16:06:27.822] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:27.826] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00206b.itp
+[16:06:27.895] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00206b.itp
+[16:06:27.900] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:29.895] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003a.itp
+[16:06:30.011] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003a.itp
+[16:06:30.015] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:30.041] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003b.itp
+[16:06:30.061] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003b.itp
+[16:06:30.063] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:31.953] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00203a.itp
+[16:06:32.205] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00203a.itp
+[16:06:32.207] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:32.211] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00203b.itp
+[16:06:32.213] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00203b.itp
+[16:06:32.219] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:35.672] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00106a.itp
+[16:06:36.306] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00106a.itp
+[16:06:36.307] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:36.312] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00106b.itp
+[16:06:36.314] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00106b.itp
+[16:06:36.318] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:40.417] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003a.itp
+[16:06:40.601] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003a.itp
+[16:06:40.604] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:40.611] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003b.itp
+[16:06:40.615] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003b.itp
+[16:06:40.616] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:41.277] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 0 (t = 1) from cache. Current t = 229354.
+[16:06:41.311] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 1 (t = 2) from cache. Current t = 229356.
+[16:06:41.696] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 2 (t = 3) from cache. Current t = 230011.
+[16:06:41.712] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 3 (t = 4) from cache. Current t = 230013.
+[16:06:41.778] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 4 (t = 5) from cache. Current t = 230199.
+[16:06:41.849] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 5 (t = 6) from cache. Current t = 230201.
+[16:06:42.108] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 6 (t = 7) from cache. Current t = 230658.
+[16:06:42.133] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 7 (t = 8) from cache. Current t = 230660.
+[16:06:42.175] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 8 (t = 9) from cache. Current t = 230662.
+[16:06:42.342] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 9 (t = 10) from cache. Current t = 231034.
+[16:06:42.462] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 10 (t = 11) from cache. Current t = 231036.
+[16:06:42.583] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 11 (t = 12) from cache. Current t = 231310.
+[16:06:42.746] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 12 (t = 13) from cache. Current t = 231312.
+[16:06:42.827] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 13 (t = 14) from cache. Current t = 231499.
+[16:06:42.856] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 14 (t = 15) from cache. Current t = 231501.
+[16:06:42.949] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 15 (t = 16) from cache. Current t = 231687.
+[16:06:43.000] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 16 (t = 17) from cache. Current t = 231689.
+[16:06:43.007] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 17 (t = 18) from cache. Current t = 231691.
+[16:06:43.928] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 18 (t = 19) from cache. Current t = 233281.
+[16:06:45.568] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 19 (t = 20) from cache. Current t = 235027.
+[16:06:45.841] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 20 (t = 21) from cache. Current t = 235409.
+[16:06:45.932] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 21 (t = 22) from cache. Current t = 235435.
+[16:06:46.600] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 22 (t = 23) from cache. Current t = 236425.
+[16:06:46.603] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00304a.itp
+[16:06:46.734] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 23 (t = 24) from cache. Current t = 236427.
+[16:06:46.750] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00304a.itp
+[16:06:46.830] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:46.834] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00304b.itp
+[16:06:46.931] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00304b.itp
+[16:06:46.946] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:47.260] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 24 (t = 25) from cache. Current t = 237076.
+[16:06:47.485] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 25 (t = 26) from cache. Current t = 237078.
+[16:06:47.544] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 26 (t = 27) from cache. Current t = 237080.
+[16:06:47.694] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 27 (t = 28) from cache. Current t = 237353.
+[16:06:47.783] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 28 (t = 29) from cache. Current t = 237355.
+[16:06:47.826] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 29 (t = 30) from cache. Current t = 237447.
+[16:06:47.891] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 30 (t = 31) from cache. Current t = 237449.
+[16:06:48.669] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 31 (t = 32) from cache. Current t = 238657.
+[16:06:48.723] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 32 (t = 33) from cache. Current t = 238658.
+[16:06:48.734] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 33 (t = 34) from cache. Current t = 238660.
+[16:06:49.543] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 34 (t = 35) from cache. Current t = 239846.
+[16:06:49.609] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 35 (t = 36) from cache. Current t = 239848.
+[16:06:49.618] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00103a.itp
+[16:06:49.647] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 36 (t = 37) from cache. Current t = 239940.
+[16:06:49.650] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00103a.itp
+[16:06:49.660] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 37 (t = 38) from cache. Current t = 239942.
+[16:06:49.662] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:49.676] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00103b.itp
+[16:06:49.696] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00103b.itp
+[16:06:49.699] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:49.975] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 38 (t = 39) from cache. Current t = 240505.
+[16:06:50.018] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 39 (t = 40) from cache. Current t = 240507.
+[16:06:50.548] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 40 (t = 41) from cache. Current t = 241527.
+[16:06:50.627] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 41 (t = 42) from cache. Current t = 241529.
+[16:06:50.668] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 42 (t = 43) from cache. Current t = 241621.
+[16:06:50.696] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 43 (t = 44) from cache. Current t = 241623.
+[16:06:51.620] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00204a.itp
+[16:06:51.645] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 44 (t = 45) from cache. Current t = 243490.
+[16:06:51.665] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00204a.itp
+[16:06:51.670] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 45 (t = 46) from cache. Current t = 243492.
+[16:06:51.679] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:51.734] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00204b.itp
+[16:06:51.741] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00204b.itp
+[16:06:51.745] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:52.018] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 46 (t = 47) from cache. Current t = 244127.
+[16:06:52.211] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 47 (t = 48) from cache. Current t = 244404.
+[16:06:52.360] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 48 (t = 49) from cache. Current t = 244504.
+[16:06:52.469] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 49 (t = 50) from cache. Current t = 244505.
+[16:06:52.477] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 50 (t = 51) from cache. Current t = 244507.
+[16:06:53.575] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 51 (t = 52) from cache. Current t = 246334.
+[16:06:53.797] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 52 (t = 53) from cache. Current t = 246336.
+[16:06:54.221] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003a.itp
+[16:06:54.248] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 53 (t = 54) from cache. Current t = 247243.
+[16:06:54.293] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003a.itp
+[16:06:54.296] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 54 (t = 55) from cache. Current t = 247245.
+[16:06:54.298] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:54.302] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 55 (t = 56) from cache. Current t = 247247.
+[16:06:54.310] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003b.itp
+[16:06:54.315] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003b.itp
+[16:06:54.316] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:06:54.484] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 56 (t = 57) from cache. Current t = 247622.
+[16:06:54.490] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 57 (t = 58) from cache. Current t = 247624.
+[16:06:54.698] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 58 (t = 59) from cache. Current t = 247811.
+[16:06:54.854] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 59 (t = 60) from cache. Current t = 247813.
+[16:06:55.037] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 60 (t = 61) from cache. Current t = 248181.
+[16:06:55.053] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 61 (t = 62) from cache. Current t = 248183.
+[16:06:55.274] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 62 (t = 63) from cache. Current t = 248651.
+[16:06:55.327] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 63 (t = 64) from cache. Current t = 248653.
+[16:06:55.414] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 66 (t = 1269) from cache. Current t = 248839.
+[16:06:55.430] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 68 (t = 1273) from cache. Current t = 248841.
+[16:07:02.885] |I| [export_sceIoOpen]: Opening file: /arc/data/effect/eps/e0410.eps
+[16:07:02.925] |E| [open_file]: Cannot find device for path: /arc/data/effect/eps/e0410.eps
+[16:07:02.928] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:03.034] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/e0410_zz.mcz
+[16:07:03.057] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/e0410_zz.mcz
+[16:07:03.060] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:03.404] |I| [export_sceIoOpen]: Opening file: /arc/data/cclm/map4/e0410_zz.mcz
+[16:07:03.413] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 69 (t = 1275) from cache. Current t = 259576.
+[16:07:03.426] |E| [open_file]: Cannot find device for path: /arc/data/cclm/map4/e0410_zz.mcz
+[16:07:03.452] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:03.570] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 70 (t = 1291) from cache. Current t = 259577.
+[16:07:03.578] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 67 (t = 1481) from cache. Current t = 259578.
+[16:07:03.587] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 71 (t = 1483) from cache. Current t = 259579.
+[16:07:03.600] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 65 (t = 1491) from cache. Current t = 259580.
+[16:07:03.604] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 64 (t = 1493) from cache. Current t = 259581.
+[16:07:03.713] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 72 (t = 5825) from cache. Current t = 259582.
+[16:07:03.726] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 73 (t = 5829) from cache. Current t = 259583.
+[16:07:03.733] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 74 (t = 5985) from cache. Current t = 259584.
+[16:07:03.840] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 76 (t = 8826) from cache. Current t = 259585.
+[16:07:03.980] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 77 (t = 8828) from cache. Current t = 259587.
+[16:07:03.991] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 81 (t = 9308) from cache. Current t = 259600.
+[16:07:03.994] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 82 (t = 9309) from cache. Current t = 259601.
+[16:07:03.999] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 79 (t = 9433) from cache. Current t = 259602.
+[16:07:04.137] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 105 (t = 13106) from cache. Current t = 259603.
+[16:07:04.155] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 106 (t = 13107) from cache. Current t = 259604.
+[16:07:04.158] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 107 (t = 13109) from cache. Current t = 259605.
+[16:07:04.164] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 104 (t = 13128) from cache. Current t = 259606.
+[16:07:04.169] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 108 (t = 13134) from cache. Current t = 259607.
+[16:07:04.173] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 109 (t = 13136) from cache. Current t = 259608.
+[16:07:04.176] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 113 (t = 13797) from cache. Current t = 259609.
+[16:07:04.308] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 117 (t = 13828) from cache. Current t = 259610.
+[16:07:04.315] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 119 (t = 14565) from cache. Current t = 259611.
+[16:07:09.639] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 120 (t = 14568) from cache. Current t = 266053.
+[16:07:09.776] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 123 (t = 14596) from cache. Current t = 266055.
+[16:07:09.779] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 125 (t = 14600) from cache. Current t = 266057.
+[16:07:09.787] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 128 (t = 15045) from cache. Current t = 266059.
+[16:07:09.791] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 126 (t = 15064) from cache. Current t = 266061.
+[16:07:09.796] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 131 (t = 15074) from cache. Current t = 266063.
+[16:07:09.803] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 133 (t = 15541) from cache. Current t = 266065.
+[16:07:09.806] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 134 (t = 15542) from cache. Current t = 266067.
+[16:07:09.810] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 137 (t = 15571) from cache. Current t = 266069.
+[16:07:14.902] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 139 (t = 15808) from cache. Current t = 274330.
+[16:07:15.243] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 140 (t = 15809) from cache. Current t = 274920.
+[16:07:15.262] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 138 (t = 15828) from cache. Current t = 274922.
+[16:07:16.255] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 141 (t = 15834) from cache. Current t = 276671.
+[16:07:16.310] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 146 (t = 16050) from cache. Current t = 276734.
+[16:07:17.040] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 147 (t = 16053) from cache. Current t = 278183.
+[16:07:17.290] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 86 (t = 16054) from cache. Current t = 278624.
+[16:07:18.074] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 87 (t = 16056) from cache. Current t = 279947.
+[16:07:21.094] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 144 (t = 16075) from cache. Current t = 284872.
+[16:07:23.207] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00006a.itp
+[16:07:23.213] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 88 (t = 16081) from cache. Current t = 288273.
+[16:07:23.251] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00006a.itp
+[16:07:23.257] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 90 (t = 16085) from cache. Current t = 288274.
+[16:07:23.259] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:23.423] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00006b.itp
+[16:07:23.436] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00006b.itp
+[16:07:23.440] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:23.507] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 92 (t = 16207) from cache. Current t = 288344.
+[16:07:23.537] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 94 (t = 16208) from cache. Current t = 288346.
+[16:07:23.728] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 80 (t = 16219) from cache. Current t = 288849.
+[16:07:23.779] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 91 (t = 16266) from cache. Current t = 288850.
+[16:07:23.783] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 95 (t = 16272) from cache. Current t = 288852.
+[16:07:23.787] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 93 (t = 16274) from cache. Current t = 288854.
+[16:07:23.870] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 96 (t = 16276) from cache. Current t = 289066.
+[16:07:23.914] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 97 (t = 16305) from cache. Current t = 289067.
+[16:07:23.920] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 98 (t = 16365) from cache. Current t = 289069.
+[16:07:23.926] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 100 (t = 16367) from cache. Current t = 289071.
+[16:07:24.133] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 78 (t = 16563) from cache. Current t = 289562.
+[16:07:24.163] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 83 (t = 16565) from cache. Current t = 289563.
+[16:07:24.167] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 84 (t = 16566) from cache. Current t = 289565.
+[16:07:24.484] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 149 (t = 16574) from cache. Current t = 290259.
+[16:07:24.648] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 150 (t = 16575) from cache. Current t = 290535.
+[16:07:24.694] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 151 (t = 16576) from cache. Current t = 290537.
+[16:07:26.188] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 152 (t = 16577) from cache. Current t = 293263.
+[16:07:26.239] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 153 (t = 16578) from cache. Current t = 293265.
+[16:07:26.245] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 154 (t = 16580) from cache. Current t = 293267.
+[16:07:26.250] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 155 (t = 16581) from cache. Current t = 293269.
+[16:07:26.255] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 156 (t = 16582) from cache. Current t = 293271.
+[16:07:26.260] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 157 (t = 16586) from cache. Current t = 293273.
+[16:07:26.268] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 158 (t = 16589) from cache. Current t = 293275.
+[16:07:26.272] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 159 (t = 16590) from cache. Current t = 293277.
+[16:07:26.278] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 161 (t = 16592) from cache. Current t = 293279.
+[16:07:27.762] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 162 (t = 16594) from cache. Current t = 296144.
+[16:07:27.819] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 163 (t = 16598) from cache. Current t = 296146.
+[16:07:29.378] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 164 (t = 16600) from cache. Current t = 298820.
+[16:07:29.428] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 165 (t = 16601) from cache. Current t = 298821.
+[16:07:29.434] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 166 (t = 16606) from cache. Current t = 298823.
+[16:07:29.439] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 167 (t = 16608) from cache. Current t = 298825.
+[16:07:30.230] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 148 (t = 16609) from cache. Current t = 299912.
+[16:07:30.277] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 160 (t = 16611) from cache. Current t = 299913.
+[16:07:30.287] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 196 (t = 18088) from cache. Current t = 299915.
+[16:07:30.307] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 199 (t = 18143) from cache. Current t = 299917.
+[16:07:30.403] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 191 (t = 18183) from cache. Current t = 300050.
+[16:07:30.438] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 193 (t = 18203) from cache. Current t = 300051.
+[16:07:30.446] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 194 (t = 18204) from cache. Current t = 300052.
+[16:07:30.455] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 189 (t = 18206) from cache. Current t = 300054.
+[16:07:30.469] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 190 (t = 18207) from cache. Current t = 300056.
+[16:07:30.503] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 195 (t = 18210) from cache. Current t = 300120.
+[16:07:30.545] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 282 (t = 36723) from cache. Current t = 300121.
+[16:07:30.552] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 322 (t = 38816) from cache. Current t = 300123.
+[16:07:30.556] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 323 (t = 38824) from cache. Current t = 300125.
+[16:07:31.395] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 325 (t = 38916) from cache. Current t = 301145.
+[16:07:32.330] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 326 (t = 38920) from cache. Current t = 301147.
+[16:07:32.575] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 324 (t = 38961) from cache. Current t = 301149.
+[16:07:38.457] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00006a.itp
+[16:07:38.463] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 328 (t = 39020) from cache. Current t = 305432.
+[16:07:38.552] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00006a.itp
+[16:07:38.560] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:38.557] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 327 (t = 39028) from cache. Current t = 305433.
+[16:07:38.566] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00006b.itp
+[16:07:38.571] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00006b.itp
+[16:07:38.570] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 329 (t = 39061) from cache. Current t = 305435.
+[16:07:38.574] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:38.580] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 335 (t = 39122) from cache. Current t = 305437.
+[16:07:38.682] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 332 (t = 39163) from cache. Current t = 305707.
+[16:07:38.848] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 334 (t = 39216) from cache. Current t = 305709.
+[16:07:38.982] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 336 (t = 39224) from cache. Current t = 305911.
+[16:07:39.084] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 337 (t = 39228) from cache. Current t = 305913.
+[16:07:39.196] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 333 (t = 39261) from cache. Current t = 306111.
+[16:07:39.913] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 341 (t = 41466) from cache. Current t = 306946.
+[16:07:40.440] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 342 (t = 41468) from cache. Current t = 307010.
+[16:07:40.610] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 343 (t = 41470) from cache. Current t = 307138.
+[16:07:41.060] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 347 (t = 44143) from cache. Current t = 307204.
+[16:07:41.072] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 348 (t = 44145) from cache. Current t = 307206.
+[16:07:41.085] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 349 (t = 44147) from cache. Current t = 307208.
+[16:07:42.399] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 344 (t = 44251) from cache. Current t = 309196.
+[16:07:42.426] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 345 (t = 44253) from cache. Current t = 309198.
+[16:07:42.437] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00012a.itp
+[16:07:42.451] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00012a.itp
+[16:07:42.453] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:42.457] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00012b.itp
+[16:07:42.460] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00012b.itp
+[16:07:42.461] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:42.473] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 346 (t = 44255) from cache. Current t = 309264.
+[16:07:42.477] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 340 (t = 45004) from cache. Current t = 309266.
+[16:07:42.996] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 338 (t = 45314) from cache. Current t = 310295.
+[16:07:43.080] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 339 (t = 45316) from cache. Current t = 310297.
+[16:07:43.127] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 375 (t = 49924) from cache. Current t = 310431.
+[16:07:43.139] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 376 (t = 50134) from cache. Current t = 310433.
+[16:07:43.456] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 377 (t = 50136) from cache. Current t = 311005.
+[16:07:43.761] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 380 (t = 51001) from cache. Current t = 311451.
+[16:07:43.826] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 381 (t = 51003) from cache. Current t = 311453.
+[16:07:43.831] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 382 (t = 51213) from cache. Current t = 311455.
+[16:07:44.194] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 379 (t = 51317) from cache. Current t = 312135.
+[16:07:45.568] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 383 (t = 51319) from cache. Current t = 314114.
+[16:07:45.617] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 384 (t = 51425) from cache. Current t = 314116.
+[16:07:46.192] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 385 (t = 52280) from cache. Current t = 315091.
+[16:07:47.222] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 112 (t = 52493) from cache. Current t = 316549.
+[16:07:47.512] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 388 (t = 52705) from cache. Current t = 316971.
+[16:07:47.548] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 389 (t = 52915) from cache. Current t = 317033.
+[16:07:47.621] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 390 (t = 53021) from cache. Current t = 317095.
+[16:07:47.679] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 391 (t = 53127) from cache. Current t = 317157.
+[16:07:48.345] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 393 (t = 53235) from cache. Current t = 318055.
+[16:07:48.389] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00014a.itp
+[16:07:48.394] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 394 (t = 53343) from cache. Current t = 318115.
+[16:07:48.400] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00014a.itp
+[16:07:48.408] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 395 (t = 53451) from cache. Current t = 318116.
+[16:07:48.419] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:48.425] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 392 (t = 54647) from cache. Current t = 318118.
+[16:07:48.429] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00014b.itp
+[16:07:48.447] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00014b.itp
+[16:07:48.448] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:48.711] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 396 (t = 54649) from cache. Current t = 318557.
+[16:07:48.730] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 122 (t = 54862) from cache. Current t = 318558.
+[16:07:48.736] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 118 (t = 54864) from cache. Current t = 318560.
+[16:07:48.841] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 387 (t = 54968) from cache. Current t = 318684.
+[16:07:48.883] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 399 (t = 55190) from cache. Current t = 318686.
+[16:07:48.907] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 400 (t = 55192) from cache. Current t = 318750.
+[16:07:48.912] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 397 (t = 55398) from cache. Current t = 318752.
+[16:07:49.261] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 398 (t = 55400) from cache. Current t = 319271.
+[16:07:49.295] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 401 (t = 55402) from cache. Current t = 319272.
+[16:07:49.300] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 404 (t = 56359) from cache. Current t = 319274.
+[16:07:49.306] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 402 (t = 56674) from cache. Current t = 319276.
+[16:07:50.759] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 403 (t = 56676) from cache. Current t = 321693.
+[16:07:51.626] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 408 (t = 57530) from cache. Current t = 323148.
+[16:07:51.663] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 409 (t = 57532) from cache. Current t = 323211.
+[16:07:52.239] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 410 (t = 57534) from cache. Current t = 324219.
+[16:07:52.269] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 407 (t = 57746) from cache. Current t = 324221.
+[16:07:52.272] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 405 (t = 57952) from cache. Current t = 324223.
+[16:07:52.281] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00004a.itp
+[16:07:52.287] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00004a.itp
+[16:07:52.296] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 406 (t = 57954) from cache. Current t = 324287.
+[16:07:52.296] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:52.300] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 411 (t = 57956) from cache. Current t = 324289.
+[16:07:52.334] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 412 (t = 57958) from cache. Current t = 324291.
+[16:07:52.354] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00004b.itp
+[16:07:52.365] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00004b.itp
+[16:07:52.367] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:52.649] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 415 (t = 58931) from cache. Current t = 324964.
+[16:07:52.702] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 416 (t = 58933) from cache. Current t = 324965.
+[16:07:52.710] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 413 (t = 59139) from cache. Current t = 324967.
+[16:07:52.715] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 414 (t = 59141) from cache. Current t = 324969.
+[16:07:52.724] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 417 (t = 59143) from cache. Current t = 324971.
+[16:07:52.845] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 419 (t = 59992) from cache. Current t = 325299.
+[16:07:52.890] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 371 (t = 60259) from cache. Current t = 325301.
+[16:07:53.147] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 369 (t = 60290) from cache. Current t = 325887.
+[16:07:53.180] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 418 (t = 60304) from cache. Current t = 325889.
+[16:07:53.361] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 370 (t = 60367) from cache. Current t = 326213.
+[16:07:53.815] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 355 (t = 60457) from cache. Current t = 327051.
+[16:07:54.579] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 354 (t = 60553) from cache. Current t = 328491.
+[16:07:54.644] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 353 (t = 60596) from cache. Current t = 328493.
+[16:07:55.150] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003a.itp
+[16:07:55.161] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 358 (t = 60651) from cache. Current t = 329515.
+[16:07:55.167] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003a.itp
+[16:07:55.184] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:55.193] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00003b.itp
+[16:07:55.200] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00003b.itp
+[16:07:55.201] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:07:55.301] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 361 (t = 60655) from cache. Current t = 329772.
+[16:07:55.534] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 364 (t = 60663) from cache. Current t = 329964.
+[16:07:55.713] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 420 (t = 61510) from cache. Current t = 330344.
+[16:07:55.755] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 129 (t = 61515) from cache. Current t = 330346.
+[16:07:55.759] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 421 (t = 61626) from cache. Current t = 330348.
+[16:07:56.014] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 430 (t = 62590) from cache. Current t = 330949.
+[16:07:56.048] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 431 (t = 62592) from cache. Current t = 330951.
+[16:07:56.051] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 432 (t = 62594) from cache. Current t = 330953.
+[16:07:56.228] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 386 (t = 62834) from cache. Current t = 331145.
+[16:07:56.268] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 428 (t = 62836) from cache. Current t = 331147.
+[16:07:56.332] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 429 (t = 62838) from cache. Current t = 331342.
+[16:07:56.357] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 424 (t = 63443) from cache. Current t = 331344.
+[16:07:56.442] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 423 (t = 63450) from cache. Current t = 331537.
+[16:07:56.485] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 427 (t = 63457) from cache. Current t = 331538.
+[16:07:56.491] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 373 (t = 63784) from cache. Current t = 331540.
+[16:07:56.501] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 374 (t = 63786) from cache. Current t = 331542.
+[16:07:57.244] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 378 (t = 63788) from cache. Current t = 333025.
+[16:07:57.857] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 422 (t = 63790) from cache. Current t = 334203.
+[16:07:58.532] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 425 (t = 63792) from cache. Current t = 335386.
+[16:07:58.536] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 426 (t = 63794) from cache. Current t = 335388.
+[16:07:59.179] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 321 (t = 65773) from cache. Current t = 336604.
+[16:08:00.884] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 312 (t = 69839) from cache. Current t = 339516.
+[16:08:00.908] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00012a.itp
+[16:08:00.917] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00012a.itp
+[16:08:00.917] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:08:00.919] |I| [export_sceIoOpen]: Opening file: /arc/data/face/ka00012b.itp
+[16:08:00.924] |E| [open_file]: Cannot find device for path: /arc/data/face/ka00012b.itp
+[16:08:00.924] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[16:08:01.074] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 314 (t = 69843) from cache. Current t = 339835.
+[16:08:01.132] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 309 (t = 69944) from cache. Current t = 340027.
+[16:08:01.324] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 311 (t = 69948) from cache. Current t = 340343.
+[16:08:01.372] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 313 (t = 69952) from cache. Current t = 340345.
+[16:08:01.383] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 315 (t = 69956) from cache. Current t = 340347.
+[16:08:01.388] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 306 (t = 69987) from cache. Current t = 340349.
+[16:08:01.392] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 450 (t = 70280) from cache. Current t = 340351.
+[16:08:01.395] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 451 (t = 70281) from cache. Current t = 340355.
+[16:08:01.467] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 453 (t = 70284) from cache. Current t = 340571.
+[16:08:01.511] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 454 (t = 70285) from cache. Current t = 340573.
+[16:08:01.515] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 455 (t = 70288) from cache. Current t = 340575.
+[16:08:01.518] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 456 (t = 70289) from cache. Current t = 340577.
+[16:08:01.523] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 457 (t = 70292) from cache. Current t = 340579.
+[16:08:01.529] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 458 (t = 70293) from cache. Current t = 340583.
+[16:08:01.602] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 446 (t = 70322) from cache. Current t = 340723.
+[16:08:01.665] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 447 (t = 70323) from cache. Current t = 340725.
+[16:08:01.671] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 362 (t = 70392) from cache. Current t = 340727.
+[16:08:01.676] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 441 (t = 70393) from cache. Current t = 340729.
+[16:08:01.680] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 460 (t = 70394) from cache. Current t = 340731.
+[16:08:01.685] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 357 (t = 70396) from cache. Current t = 340735.
+[16:08:02.860] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 443 (t = 70397) from cache. Current t = 342919.
+[16:08:04.688] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 461 (t = 70398) from cache. Current t = 346408.
+[16:08:04.960] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 359 (t = 70400) from cache. Current t = 346900.
+[16:08:05.850] |D| [renderer::texture::cache_and_bind_texture]: Evicting texture 444 (t = 70401) from cache. Current t = 348425.

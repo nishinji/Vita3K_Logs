@@ -1,0 +1,79 @@
+[05:15:48.761] |I| [SDL_main]:  Vita3K v0.1 571-70599d3
+[05:15:49.044] |I| [init]:  Swap interval = -1
+[05:15:51.613] |I| [install_vpk]:  PCSE00404 already installed, launching application...
+[05:15:51.613] |I| [load_app_impl]:  Title: FEZ
+[05:15:51.614] |I| [load_app_impl]:  Serial: PCSE00404
+[05:15:51.614] |I| [load_app_impl]:  Category: gd
+[05:15:51.657] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libc.suprx
+[05:15:51.658] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x44164
+[05:15:51.658] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3A0FC
+[05:15:51.659] |E| [load_var_imports]:  	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x3FB70: 0x140
+[05:15:51.659] |I| [load_app_impl]:  Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[05:15:51.685] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[05:15:51.685] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x7D034
+[05:15:51.686] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x74548
+[05:15:51.686] |I| [load_app_impl]:  Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[05:15:51.711] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libult.suprx
+[05:15:51.712] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x963C8
+[05:15:51.713] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x93944
+[05:15:51.713] |E| [load_var_imports]:  	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x941A0: 0x1040
+[05:15:51.713] |I| [load_app_impl]:  Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[05:15:52.364] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[05:15:52.365] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x689F80
+[05:15:52.365] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x7D14FC
+[05:15:52.365] |I| [load_app_impl]:  Main executable FezCpp (eboot.bin) loaded
+[05:15:52.370] |D| [run_app]:  Running module_start of library: SceLibc
+[05:15:52.377] |T| [open_file]:  sceKernelGetStdin: Opening file tty0: (tty0:)
+[05:15:52.377] |T| [open_file]:  sceKernelGetStdout: Opening file tty0: (tty0:)
+[05:15:52.378] |T| [open_file]:  sceKernelGetStderr: Opening file tty0: (tty0:)
+[05:15:52.384] |I| [run_app]:  Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[05:15:52.385] |D| [run_app]:  Running module_start of library: SceLibFios2
+[05:15:52.390] |W| [stubbed_impl]:  Stubbed sceKernelGetProcessId import called. (pid: 0)
+[05:15:52.391] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayGetList02 import called.
+[05:15:52.391] |I| [run_app]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[05:15:52.392] |D| [run_app]:  Running module_start of library: SceUlt
+[05:15:52.396] |E| [call_import]:  Import function for NID 0x50F2F2AA not found (thread ID: 35)
+[05:15:52.397] |I| [run_app]:  Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[05:15:52.399] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSE00404/mai_moe/mai.suprx)
+[05:15:52.400] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[05:15:52.400] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[05:15:52.400] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87866
+[05:15:52.442] |I| [load_self]:  Loading symbols for SELF: app0:mai_moe/mai.suprx
+[05:15:52.443] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x86D7E4
+[05:15:52.443] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x86D840
+[05:15:52.443] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x3
+[05:15:52.468] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00404/mai_moe/load_type.mai)
+[05:15:52.469] |I| [export_sceIoOpen]:  Opening file: app0:mai_moe/load_type.mai
+[05:15:52.470] |T| [open_file]:  sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSE00404/mai_moe/load_type.mai)
+[05:15:52.491] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00404/mai_moe/load_type.mai)
+[05:15:52.492] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[05:15:52.492] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1
+[05:15:52.493] |T| [close_file]:  sceIoClose: Closing file: fd: 0x4
+[05:15:52.497] |I| [export_sceKernelLoadStartModule]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[05:15:52.498] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSE00404/sce_module/libfios2_m.suprx)
+[05:15:52.499] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[05:15:52.499] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[05:15:52.500] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x5, size: 261648
+[05:15:52.516] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[05:15:52.517] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x91B034
+[05:15:52.518] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x912548
+[05:15:52.518] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x5
+[05:15:52.523] |I| [export_sceKernelLoadStartModule]:  Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[05:15:52.524] |T| [open_dir]:  sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[05:15:52.525] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x80010002
+[05:15:52.525] |W| [io_error_impl]:  read_dir (sceIoDread) returned 0x80010051
+[05:15:52.525] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x80010002
+[05:15:52.525] |W| [io_error_impl]:  close_dir (sceIoDclose) returned 0x80010051
+[05:15:52.568] |I| [export_sceKernelLoadStartModule]:  Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[05:15:52.605] |W| [unimplemented_impl]:  Unimplemented sceKernelLibcGmtime_r import called.
+[05:15:52.607] |W| [unimplemented_impl]:  Unimplemented sceKernelLibcMktime import called.
+[05:15:52.698] |W| [unimplemented_impl]:  Unimplemented sceAppUtilInit import called.
+[05:15:52.716] |W| [unimplemented_impl]:  Unimplemented sceKernelChangeThreadVfpException import called.
+[05:15:52.717] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[05:15:52.749] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayGetRecommendedScheduler02 import called.
+[05:15:52.753] |T| [stat_file]:  sceIoGetstat: Statting file app0:/data.arc (ux0:/app/PCSE00404//data.arc)
+[05:15:52.791] |E| [call_import]:  Import function for NID 0xE7F5BE00 not found (thread ID: 4)
+[05:15:52.794] |I| [export_sceIoOpen]:  Opening file: app0:/data.arc
+[05:15:52.794] |T| [open_file]:  sceIoOpen: Opening file app0:/data.arc (ux0:/app/PCSE00404//data.arc)
+[05:15:52.796] |T| [stat_file]:  sceIoGetstat: Statting file app0:/data.arc (ux0:/app/PCSE00404//data.arc)
+-1073741510

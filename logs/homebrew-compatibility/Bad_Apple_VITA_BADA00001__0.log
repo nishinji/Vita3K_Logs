@@ -1,0 +1,181 @@
+[05:53:16.888] |I| [config::init]:  input-vpk-path: games\BADAPPLE1.vpk
+[05:53:16.889] |I| [config::init]:  log-level: 0
+[05:53:16.890] |I| [config::init]:  log-imports: false
+[05:53:16.890] |I| [config::init]:  log-exports: false
+[05:53:16.890] |I| [config::init]:  log-active-shaders: false
+[05:53:16.890] |I| [config::init]:  log-uniforms: false
+[05:53:16.890] |I| [SDL_main]:  Vita3K v0.1 696-b915fa1
+[05:53:17.169] |I| [init]:  Swap interval = -1
+[05:53:19.522] |I| [install_vpk]:  BADA00001 already installed, launching application...
+[05:53:19.523] |I| [load_app_impl]:  Title: Bad Apple Vita!!!
+[05:53:19.523] |I| [load_app_impl]:  Serial: BADA00001
+[05:53:19.524] |I| [load_app_impl]:  Category: gd
+[05:53:19.524] |D| [load_app_impl]:  Pre-load module at "sce_module/libc.suprx" not present
+[05:53:19.524] |D| [load_app_impl]:  Pre-load module at "sce_module/libfios2.suprx" not present
+[05:53:19.524] |D| [load_app_impl]:  Pre-load module at "sce_module/libult.suprx" not present
+[05:53:19.570] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[05:53:19.570] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x43070
+[05:53:19.571] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x430CC
+[05:53:19.571] |I| [load_app_impl]:  Main executable badapplevita (eboot.bin) loaded
+[05:53:19.588] |I| [export_sceIoOpen]:  Opening file: tty0:
+[05:53:19.588] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[05:53:19.589] |I| [export_sceIoOpen]:  Opening file: tty0:
+[05:53:19.589] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[05:53:19.589] |I| [export_sceIoOpen]:  Opening file: tty0:
+[05:53:19.589] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[05:53:19.590] |I| [export_sceClibPrintf]:  Start BadAppleVita
+
+[05:53:19.591] |T| [stat_file]:  sceIoGetstat: Statting file app0:/monorale.bin (ux0:/app/BADA00001//monorale.bin)
+[05:53:19.591] |I| [export_sceClibPrintf]:  %s=%lldB
+
+[05:53:19.592] |I| [export_sceClibPrintf]:  Need Allocate 0x%lXB
+
+[05:53:19.592] |I| [export_sceClibPrintf]:  Allocating Memory right now.
+
+[05:53:19.593] |I| [export_sceClibPrintf]:  fb_memblockL 0x%x
+
+[05:53:19.602] |I| [export_sceClibPrintf]:  fdata_memblock 0x%x
+
+[05:53:19.603] |I| [export_sceIoOpen]:  Opening file: app0:/monorale.bin
+[05:53:19.603] |T| [open_file]:  sceIoOpen: Opening file app0:/monorale.bin (ux0:/app/BADA00001//monorale.bin)
+[05:53:19.604] |T| [read_file]:  sceIoRead: Reading file: fd: 0x3, size: 28413350
+[05:53:19.614] |T| [close_file]:  sceIoClose: Closing file: fd: 0x3
+[05:53:19.629] |I| [export_sceClibPrintf]:  sceAudioOutOpenPort : 0x%X
+
+[05:53:19.643] |I| [export_sceClibPrintf]:  0x%08X : sceKernelCreateThread("read thread", soundThread, 0x40, 0x10000, 0, 0, NULL)
+
+[05:53:19.643] |I| [export_sceClibPrintf]:  0x%08X : sceKernelCreateThread("video thread", monoraleThread, 0x40, 0x10000, 0, 0, NULL)
+
+[05:53:19.644] |I| [export_sceClibPrintf]:  0x%08X : sceKernelCreateThread("sound thread", soundThread, 0x40, 0x10000, 0, 0, NULL)
+
+[05:53:19.652] |I| [export_sceClibPrintf]:  ReadThread. I'm in.
+
+[05:53:19.668] |I| [export_sceClibPrintf]:  soundThread I'm in.
+
+[05:53:19.669] |I| [export_sceClibPrintf]:  port : 0x%X
+
+[05:53:19.669] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:53:19.674] |I| [export_sceIoOpen]:  Opening file: app0:/badapple.ogg
+[05:53:19.674] |T| [open_file]:  sceIoOpen: Opening file app0:/badapple.ogg (ux0:/app/BADA00001//badapple.ogg)
+[05:53:19.674] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:53:19.678] |T| [seek_file]:  sceIoLseek32: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_CUR
+[05:53:19.683] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x5, size: 8
+[05:53:19.684] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/badapple.ogg (ux0:/app/BADA00001//badapple.ogg)
+[05:53:19.685] |T| [close_file]:  sceIoClose: Closing file: fd: 0x5
+[05:53:19.686] |I| [export_sceClibPrintf]:  I'm in.
+
+[05:53:19.686] |T| [seek_file]:  sceIoLseek32: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[05:53:19.687] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:53:19.689] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:53:19.690] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.690] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x6, size: 11
+[05:53:19.692] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.692] |T| [close_file]:  sceIoClose: Closing file: fd: 0x6
+[05:53:19.694] |I| [export_sceClibPrintf]:  Render Lv2
+
+[05:53:19.696] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:53:19.696] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:53:19.697] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.698] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x7, size: 13
+[05:53:19.698] |T| [close_file]:  sceIoClose: Closing file: fd: 0x7
+[05:53:19.699] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.705] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.706] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.704] |I| [export_sceClibPrintf]:  13137 frames
+
+[05:53:19.708] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:53:19.709] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:53:19.710] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x8, size: 19
+[05:53:19.711] |T| [close_file]:  sceIoClose: Closing file: fd: 0x8
+[05:53:19.711] |I| [export_sceClibPrintf]:  baseaddr=0x210b000
+
+[05:53:19.712] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:53:19.713] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:53:19.714] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x9, size: 14
+[05:53:19.715] |T| [close_file]:  sceIoClose: Closing file: fd: 0x9
+[05:53:19.715] |I| [export_sceClibPrintf]:  VideoPlayGo()
+
+[05:53:19.716] |I| [export_sceClibPrintf]:  SoundReady()
+
+[05:53:19.718] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.719] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.719] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.720] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.721] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/badapple.ogg (ux0:/app/BADA00001//badapple.ogg)
+[05:53:19.722] |T| [seek_file]:  sceIoLseek32: Seeking file: fd: 0x4 at offset: 0x3A1800, whence: SCE_SEEK_SET
+[05:53:19.724] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.726] |T| [seek_file]:  sceIoLseek32: Seeking file: fd: 0x4 at offset: 0x391800, whence: SCE_SEEK_SET
+[05:53:19.726] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.743] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.744] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.745] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.746] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.746] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.747] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.747] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.748] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.749] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.749] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.749] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.750] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.751] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.751] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.751] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.752] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.753] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.753] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.753] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.754] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.755] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.755] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.756] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.756] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.757] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.757] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.758] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.759] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.760] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.760] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.761] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.761] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.762] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.763] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.763] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.764] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.764] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.765] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.765] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.766] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.767] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.768] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.769] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.769] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.769] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.770] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.770] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.771] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.771] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.772] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.773] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.774] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.775] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.776] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.776] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.777] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.777] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.778] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.778] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.779] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.779] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.780] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.781] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.781] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.785] |T| [seek_file]:  sceIoLseek32: Seeking file: fd: 0x4 at offset: 0x1000, whence: SCE_SEEK_SET
+[05:53:19.785] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.787] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.788] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.788] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.789] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.790] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.790] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1024
+[05:53:19.793] |W| [unimplemented_impl]:  Unimplemented sceAppMgrAcquireBgmPort import called.

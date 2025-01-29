@@ -1,0 +1,80 @@
+[05:51:27.870] |I| [config::init]:  input-vpk-path: games\BADAPPLE1.vpk
+[05:51:27.872] |I| [config::init]:  log-level: 0
+[05:51:27.873] |I| [config::init]:  log-imports: false
+[05:51:27.874] |I| [config::init]:  log-exports: false
+[05:51:27.875] |I| [config::init]:  log-active-shaders: false
+[05:51:27.875] |I| [config::init]:  log-uniforms: false
+[05:51:27.876] |I| [SDL_main]:  Vita3K v0.1 696-b915fa1
+[05:51:28.159] |I| [init]:  Swap interval = -1
+[05:51:29.887] |I| [install_vpk]:  BADA00001 already installed, launching application...
+[05:51:29.889] |I| [load_app_impl]:  Title: Bad Apple Vita!!!
+[05:51:29.889] |I| [load_app_impl]:  Serial: BADA00001
+[05:51:29.890] |I| [load_app_impl]:  Category: gd
+[05:51:29.891] |D| [load_app_impl]:  Pre-load module at "sce_module/libc.suprx" not present
+[05:51:29.892] |D| [load_app_impl]:  Pre-load module at "sce_module/libfios2.suprx" not present
+[05:51:29.893] |D| [load_app_impl]:  Pre-load module at "sce_module/libult.suprx" not present
+[05:51:29.906] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[05:51:29.907] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x42EF0
+[05:51:29.908] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x42F4C
+[05:51:29.909] |I| [load_app_impl]:  Main executable badapplevita (eboot.bin) loaded
+[05:51:29.930] |I| [export_sceIoOpen]:  Opening file: tty0:
+[05:51:29.931] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[05:51:29.932] |I| [export_sceIoOpen]:  Opening file: tty0:
+[05:51:29.932] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[05:51:29.933] |I| [export_sceIoOpen]:  Opening file: tty0:
+[05:51:29.933] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[05:51:29.934] |I| [export_sceClibPrintf]:  Start BadAppleVita
+
+[05:51:29.935] |T| [stat_file]:  sceIoGetstat: Statting file app0:/monorale.bin (ux0:/app/BADA00001//monorale.bin)
+[05:51:29.936] |I| [export_sceClibPrintf]:  %s=%lldB
+
+[05:51:29.937] |I| [export_sceClibPrintf]:  Need Allocate 0x%lXB
+
+[05:51:29.938] |I| [export_sceClibPrintf]:  Allocating Memory right now.
+
+[05:51:29.939] |I| [export_sceClibPrintf]:  fb_memblockL 0x%x
+
+[05:51:29.952] |I| [export_sceClibPrintf]:  fdata_memblock 0x%x
+
+[05:51:29.953] |I| [export_sceIoOpen]:  Opening file: app0:/monorale.bin
+[05:51:29.954] |T| [open_file]:  sceIoOpen: Opening file app0:/monorale.bin (ux0:/app/BADA00001//monorale.bin)
+[05:51:29.956] |T| [read_file]:  sceIoRead: Reading file: fd: 0x3, size: 28413350
+[05:51:29.968] |T| [close_file]:  sceIoClose: Closing file: fd: 0x3
+[05:51:29.978] |I| [export_sceClibPrintf]:  0x%08X : sceKernelCreateThread("read thread", soundThread, 0x40, 0x10000, 0, 0, NULL)
+
+[05:51:29.979] |I| [export_sceClibPrintf]:  0x%08X : sceKernelCreateThread("video thread", monoraleThread, 0x40, 0x10000, 0, 0, NULL)
+
+[05:51:29.989] |I| [export_sceClibPrintf]:  ReadThread. I'm in.
+
+[05:51:29.999] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:51:30.000] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:51:30.001] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x4, size: 8
+[05:51:30.002] |T| [close_file]:  sceIoClose: Closing file: fd: 0x4
+[05:51:30.002] |I| [export_sceClibPrintf]:  I'm in.
+
+[05:51:30.003] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:51:30.004] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:51:30.006] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x5, size: 11
+[05:51:30.007] |T| [close_file]:  sceIoClose: Closing file: fd: 0x5
+[05:51:30.008] |I| [export_sceClibPrintf]:  Render Lv2
+
+[05:51:30.009] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:51:30.010] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:51:30.011] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x6, size: 13
+[05:51:30.011] |T| [close_file]:  sceIoClose: Closing file: fd: 0x6
+[05:51:30.012] |I| [export_sceClibPrintf]:  13137 frames
+
+[05:51:30.013] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:51:30.014] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:51:30.014] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x7, size: 19
+[05:51:30.015] |T| [close_file]:  sceIoClose: Closing file: fd: 0x7
+[05:51:30.015] |I| [export_sceClibPrintf]:  baseaddr=0x210b000
+
+[05:51:30.015] |I| [export_sceIoOpen]:  Opening file: ux0:/data/monorale_video.log
+[05:51:30.015] |T| [open_file]:  sceIoOpen: Opening file ux0:/data/monorale_video.log (ux0:/data/monorale_video.log)
+[05:51:30.016] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x8, size: 14
+[05:51:30.016] |T| [close_file]:  sceIoClose: Closing file: fd: 0x8
+[05:51:30.016] |I| [export_sceClibPrintf]:  VideoPlayGo()
+
+[05:51:30.017] |I| [export_sceClibPrintf]:  SoundReady()
+

@@ -1,0 +1,532 @@
+[18:57:40.241] |I| [config::init]: log-level: 0
+[18:57:40.242] |I| [config::init]: log-imports: false
+[18:57:40.242] |I| [config::init]: log-exports: false
+[18:57:40.242] |I| [config::init]: log-active-shaders: false
+[18:57:40.243] |I| [config::init]: log-uniforms: false
+[18:57:40.244] |I| [SDL_main]: Vita3K v0.1 1013-54f39b4
+[18:57:40.874] |I| [init]: Swap interval = 0
+[18:58:49.551] |I| [load_app_impl]: Title: Atelier Totori Plus: The Adventurer of Arland
+[18:58:49.552] |I| [load_app_impl]: Serial: PCSE00231
+[18:58:49.552] |I| [load_app_impl]: Version: 01.00
+[18:58:49.552] |I| [load_app_impl]: Category: gd
+[18:58:49.563] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[18:58:49.563] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2E540
+[18:58:49.563] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x31D88, setting to stub value 0xDEADBEEF
+[18:58:49.564] |I| [load_app_impl]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[18:58:49.571] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[18:58:49.572] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x5BD84
+[18:58:49.572] |I| [load_app_impl]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[18:58:49.576] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[18:58:49.577] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x78A1C
+[18:58:49.577] |W| [load_var_imports]: 	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x78F8C, setting to stub value 0xDEADBEEF
+[18:58:49.577] |I| [load_app_impl]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[18:58:49.871] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[18:58:49.871] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8148E13C
+[18:58:49.871] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x817C2404
+[18:58:49.871] |I| [load_app_impl]: Main executable A12V_Release (eboot.bin) loaded
+[18:58:49.878] |D| [run_app]: Running module_start of library: SceLibc
+[18:58:49.885] |T| [open_file]: sceKernelGetStdin: Opening file tty0: (tty0:)
+[18:58:49.886] |T| [open_file]: sceKernelGetStdout: Opening file tty0: (tty0:)
+[18:58:49.887] |T| [open_file]: sceKernelGetStderr: Opening file tty0: (tty0:)
+[18:58:49.892] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[18:58:49.893] |D| [run_app]: Running module_start of library: SceLibFios2
+[18:58:49.899] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[18:58:49.900] |E| [call_import]: Import function for NID 0x9379E2D5 not found (thread name: SceLibFios2, thread ID: 18)
+[18:58:49.902] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[18:58:49.904] |D| [run_app]: Running module_start of library: SceUlt
+[18:58:49.909] |E| [call_import]: Import function for NID 0x50F2F2AA not found (thread name: SceUlt, thread ID: 29)
+[18:58:49.910] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[18:58:49.913] |T| [open_file]: sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSE00231/mai_moe/mai.suprx)
+[18:58:49.915] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[18:58:49.916] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[18:58:49.920] |T| [read_file]: sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87866
+[18:58:49.926] |I| [load_self]: Loading symbols for SELF: app0:mai_moe/mai.suprx
+[18:58:49.928] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2C37E4
+[18:58:49.931] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x2C3840
+[18:58:49.934] |T| [close_file]: sceKernelLoadStartModule: Closing file: fd: 0x3
+[18:58:49.952] |W| [stubbed_impl]: Stubbed sceKernelDelayThread import called. (bad accuracy)
+[18:58:49.953] |T| [stat_file]: sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00231/mai_moe/load_type.mai)
+[18:58:49.957] |I| [export_sceIoOpen]: Opening file: app0:mai_moe/load_type.mai
+[18:58:49.958] |T| [open_file]: sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSE00231/mai_moe/load_type.mai)
+[18:58:49.961] |T| [stat_file]: sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSE00231/mai_moe/load_type.mai)
+[18:58:49.963] |T| [seek_file]: sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[18:58:49.967] |T| [read_file]: sceIoRead: Reading file: fd: 0x4, size: 1
+[18:58:49.970] |T| [close_file]: sceIoClose: Closing file: fd: 0x4
+[18:58:49.980] |I| [export_sceKernelLoadStartModule]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[18:58:49.985] |T| [open_file]: sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSE00231/sce_module/libfios2_m.suprx)
+[18:58:49.992] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[18:58:49.995] |T| [seek_file]: sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[18:58:49.997] |T| [read_file]: sceKernelLoadStartModule: Reading file: fd: 0x5, size: 211280
+[18:58:50.002] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[18:58:50.003] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x360D84
+[18:58:50.007] |T| [close_file]: sceKernelLoadStartModule: Closing file: fd: 0x5
+[18:58:50.023] |I| [export_sceKernelLoadStartModule]: Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[18:58:50.028] |T| [open_dir]: sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[18:58:50.029] |W| [io_error_impl]: open_dir (sceIoDopen) returned 0x80010002
+[18:58:50.035] |T| [read_dir]: sceIoDread: Reading dir fd: 0x80010002
+[18:58:50.038] |W| [io_error_impl]: read_dir (sceIoDread) returned 0x80010051
+[18:58:50.041] |T| [close_dir]: sceIoDclose: Closing dir fd: 0x80010002
+[18:58:50.042] |W| [io_error_impl]: close_dir (sceIoDclose) returned 0x80010051
+[18:58:50.054] |I| [export_sceKernelLoadStartModule]: Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[18:58:50.062] |W| [unimplemented_impl]: Unimplemented sceKernelGetModuleInfoByAddr import called.
+[18:58:50.065] |W| [unimplemented_impl]: Unimplemented sceKernelRegisterThreadEventHandler import called.
+[18:58:50.253] |I| [export_sceIoOpen]: Opening file: sampleArg.txt
+[18:58:50.254] |T| [open_file]: sceIoOpen: Opening file sampleArg.txt (sampleArg.txt)
+[18:58:50.258] |W| [io_error_impl]: open_file (sceIoOpen) returned 0xFFFFFFFF
+[18:58:50.397] |W| [stubbed_impl]: Stubbed sceKernelLockLwMutexCB import called. (no CB)
+[18:58:50.571] |W| [unimplemented_impl]: Unimplemented sceKernelGetLwMutexInfo import called.
+[18:58:50.572] |W| [unimplemented_impl]: Unimplemented sceKernelCreateCallback import called.
+[18:58:50.576] |W| [unimplemented_impl]: Unimplemented sceDisplayRegisterVblankStartCallback import called.
+[18:58:50.592] |E| [call_import]: Import function for NID 0xAAFD61D5 not found (thread name: PCSE00231, thread ID: 4)
+[18:58:50.594] |W| [unimplemented_impl]: Unimplemented sceGxmProgramParameterIsRegFormat import called.
+[18:58:50.601] |I| [renderer::load_shader]: Generating vert shader 2b751d8d120775c77b3661f6a7074bb40c626228e70f8d3593179ce529865309
+[18:58:50.611] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = pos
+[18:58:50.619] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = color_depth[2]
+[18:58:50.624] |W| [shader::create_parameters]: Container for literal not found, skipping creating literals!
+[18:58:50.685] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 73
+
+                              Capability Shader
+              23:             ExtInstImport  "GLSL.std.450"
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 21  "main_vs" 5 13 14
+               1:             String  "2b751d8d120775c77b3661f6a7074bb40c626228e70f8d3593179ce529865309"
+                              SourceExtension  "gxp"
+                              Name 5  "pos"
+                              Name 11  "color_depth"
+                              Name 13  "v_Position"
+                              Name 14  "v_Color0"
+                              Name 16  "i0"
+                              Name 17  "i1"
+                              Name 18  "i2"
+                              Name 21  "main_vs"
+                              Name 36  "f32_2_2xf16"
+                              Name 43  "twoXf16_2_f32"
+                              Decorate 13(v_Position) BuiltIn Position
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 2
+               4:             TypePointer Input 3(fvec2)
+          5(pos):      4(ptr) Variable Input
+               6:             TypeVector 2(float) 4
+               7:             TypeInt 32 0
+               8:      7(int) Constant 2
+               9:             TypeArray 6(fvec4) 8
+              10:             TypePointer UniformConstant 9
+ 11(color_depth):     10(ptr) Variable UniformConstant
+              12:             TypePointer Output 6(fvec4)
+  13(v_Position):     12(ptr) Variable Output
+    14(v_Color0):     12(ptr) Variable Output
+              15:             TypePointer Private 6(fvec4)
+          16(i0):     15(ptr) Variable Private
+          17(i1):     15(ptr) Variable Private
+          18(i2):     15(ptr) Variable Private
+              19:             TypeVoid
+              20:             TypeFunction 19
+              24:    2(float) Constant 1056964608
+              25:    2(float) Constant 0
+              26:    2(float) Constant 1065353216
+              27:    2(float) Constant 1073741824
+              28:             TypeVector 2(float) 1
+              29:    28(fvec) ConstantComposite 25
+              30:    3(fvec2) ConstantComposite 25 25
+              31:             TypeVector 2(float) 3
+              32:   31(fvec3) ConstantComposite 25 25 25
+              33:    6(fvec4) ConstantComposite 25 25 25 25
+              34:             TypeFunction 3(fvec2) 2(float)
+              41:             TypeFunction 2(float) 3(fvec2)
+              48:             TypeInt 32 1
+              49:     48(int) Constant 0
+              56:     48(int) Constant 1
+              60:     48(int) Constant 2
+              65:     48(int) Constant 3
+              67:    6(fvec4) ConstantComposite 26 26 26 26
+     21(main_vs):          19 Function None 20
+              22:             Label
+                              Line 1 1 0
+              50:     15(ptr) AccessChain 11(color_depth) 49
+              51:    3(fvec2) VectorShuffle 50 33 0 1
+              52:    6(fvec4) VectorShuffle 51 14(v_Color0) 0 1 4 5
+                              Store 14(v_Color0) 52
+              53:     15(ptr) AccessChain 11(color_depth) 49
+              54:    3(fvec2) VectorShuffle 53 33 2 3
+              55:    6(fvec4) VectorShuffle 54 14(v_Color0) 2 3 0 1
+                              Store 14(v_Color0) 55
+                              Line 1 2 0
+              57:     15(ptr) AccessChain 11(color_depth) 56
+              58:    2(float) VectorShuffle 57 33 0
+              59:    6(fvec4) Load 13(v_Position)
+              61:    6(fvec4) VectorInsertDynamic 59 58 60
+                              Store 13(v_Position) 61
+                              Line 1 3 0
+              62:    3(fvec2) Load 5(pos)
+              63:    6(fvec4) VectorShuffle 62 13(v_Position) 0 1 4 5
+                              Store 13(v_Position) 63
+                              Line 1 4 0
+              64:    6(fvec4) VectorShuffle 13(v_Position) 33 0 1 2 0
+              66:    6(fvec4) VectorInsertDynamic 64 26 65
+              68:    6(fvec4) FMul 66 67
+                              Store 16(i0) 68
+                              Line 1 5 0
+              69:    3(fvec2) VectorShuffle 16(i0) 33 0 1
+              70:    6(fvec4) VectorShuffle 69 13(v_Position) 0 1 4 5
+                              Store 13(v_Position) 70
+                              Line 1 6 0
+              71:    3(fvec2) VectorShuffle 16(i0) 33 2 3
+              72:    6(fvec4) VectorShuffle 71 13(v_Position) 2 3 0 1
+                              Store 13(v_Position) 72
+                              Return
+                              FunctionEnd
+ 36(f32_2_2xf16):    3(fvec2) Function None 34
+              35:    2(float) FunctionParameter
+              37:             Label
+              38:      7(int) Bitcast 35
+              39:    3(fvec2) ExtInst 23(GLSL.std.450) 61(UnpackUnorm2x16) 38
+                              ReturnValue 39
+                              FunctionEnd
+43(twoXf16_2_f32):    2(float) Function None 41
+              42:    3(fvec2) FunctionParameter
+              44:             Label
+              45:      7(int) ExtInst 23(GLSL.std.450) 57(PackUnorm2x16) 42
+              46:    2(float) Bitcast 45
+                              ReturnValue 46
+                              FunctionEnd
+
+[18:58:50.709] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 color_depth[2];
+
+in vec2 pos;
+out vec4 v_Color0;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+
+void main()
+{
+    v_Color0 = vec4(color_depth[0].xy.x, color_depth[0].xy.y, v_Color0.z, v_Color0.w);
+    v_Color0 = vec4(v_Color0.x, v_Color0.y, color_depth[0].zw.x, color_depth[0].zw.y);
+    vec4 _61 = gl_Position;
+    _61.z = color_depth[1].x;
+    gl_Position = _61;
+    gl_Position = vec4(pos.x, pos.y, gl_Position.z, gl_Position.w);
+    vec4 _66 = gl_Position.xyzx;
+    _66.w = 1.0;
+    i0 = _66 * vec4(1.0);
+    gl_Position = vec4(i0.xy.x, i0.xy.y, gl_Position.z, gl_Position.w);
+    gl_Position = vec4(gl_Position.x, gl_Position.y, i0.zw.x, i0.zw.y);
+}
+
+
+[18:58:50.729] |I| [renderer::load_shader]: Generating vert shader f2d2135028f6473af3f4e429ef98c8aff33855073b89fafdf78ef429c5252c0e
+[18:58:50.733] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = vi_pos
+[18:58:50.737] |D| [shader::create_parameters]: [BUFFER0  + 2] pa2 = vi_clr
+[18:58:50.740] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = vi_tex
+[18:58:50.742] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = ktglViewport
+[18:58:50.745] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = ktglPointSize
+[18:58:50.750] |T| [shader::create_parameters]: [LITERAL + 0] sa4 = 511 (0x43FF8000)
+[18:58:50.753] |T| [shader::create_parameters]: [LITERAL + 1] sa5 = 1 (0x3F800000)
+[18:58:50.806] |D| [shader::spirv_disasm_print]: SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 169
+
+                              Capability Shader
+              36:             ExtInstImport  "GLSL.std.450"
+                              MemoryModel Logical GLSL450
+                              EntryPoint Vertex 34  "main_vs" 5 9 12 21 22 24 27
+               1:             String  "f2d2135028f6473af3f4e429ef98c8aff33855073b89fafdf78ef429c5252c0e"
+                              SourceExtension  "gxp"
+                              Name 5  "vi_pos"
+                              Name 9  "vi_clr"
+                              Name 12  "vi_tex"
+                              Name 14  "ktglViewport"
+                              Name 16  "ktglPointSize"
+                              Name 21  "v_Position"
+                              Name 22  "v_Color0"
+                              Name 24  "v_TexCoord0"
+                              Name 27  "v_Psize"
+                              Name 29  "i0"
+                              Name 30  "i1"
+                              Name 31  "i2"
+                              Name 34  "main_vs"
+                              Name 48  "f32_2_2xf16"
+                              Name 55  "twoXf16_2_f32"
+                              Name 63  "sa0"
+                              Name 96  "pa0"
+                              Decorate 21(v_Position) BuiltIn Position
+               2:             TypeFloat 32
+               3:             TypeVector 2(float) 4
+               4:             TypePointer Input 3(fvec4)
+       5(vi_pos):      4(ptr) Variable Input
+               6:             TypeInt 8 0
+               7:             TypeVector 6(int8_t) 4
+               8:             TypePointer Input 7(i8vec4)
+       9(vi_clr):      8(ptr) Variable Input
+              10:             TypeVector 2(float) 2
+              11:             TypePointer Input 10(fvec2)
+      12(vi_tex):     11(ptr) Variable Input
+              13:             TypePointer UniformConstant 3(fvec4)
+14(ktglViewport):     13(ptr) Variable UniformConstant
+              15:             TypePointer UniformConstant 2(float)
+16(ktglPointSize):     15(ptr) Variable UniformConstant
+              17:    2(float) Constant 1140817920
+              18:    2(float) Constant 1065353216
+              19:   10(fvec2) ConstantComposite 17 18
+              20:             TypePointer Output 3(fvec4)
+  21(v_Position):     20(ptr) Variable Output
+    22(v_Color0):     20(ptr) Variable Output
+              23:             TypePointer Output 10(fvec2)
+ 24(v_TexCoord0):     23(ptr) Variable Output
+              25:             TypeVector 2(float) 1
+              26:             TypePointer Output 25(fvec)
+     27(v_Psize):     26(ptr) Variable Output
+              28:             TypePointer Private 3(fvec4)
+          29(i0):     28(ptr) Variable Private
+          30(i1):     28(ptr) Variable Private
+          31(i2):     28(ptr) Variable Private
+              32:             TypeVoid
+              33:             TypeFunction 32
+              37:             TypeInt 32 0
+              38:    2(float) Constant 1056964608
+              39:    2(float) Constant 0
+              40:    2(float) Constant 1073741824
+              41:    25(fvec) ConstantComposite 39
+              42:   10(fvec2) ConstantComposite 39 39
+              43:             TypeVector 2(float) 3
+              44:   43(fvec3) ConstantComposite 39 39 39
+              45:    3(fvec4) ConstantComposite 39 39 39 39
+              46:             TypeFunction 10(fvec2) 2(float)
+              53:             TypeFunction 2(float) 10(fvec2)
+         63(sa0):     28(ptr) Variable Private
+              66:             TypeInt 32 1
+              67:     66(int) Constant 2
+              75:     66(int) Constant 0
+              78:     66(int) Constant 1
+         96(pa0):     28(ptr) Variable Private
+             135:     66(int) Constant 3
+             167:     37(int) Constant 0
+     34(main_vs):          32 Function None 33
+              35:             Label
+              60:    2(float) VectorShuffle 14(ktglViewport) 45 2
+              61:    2(float) VectorShuffle 19 45 1
+              62:    2(float) ExtInst 36(GLSL.std.450) 40(FMax) 60 61
+              64:    3(fvec4) Load 14(ktglViewport)
+                              Store 63(sa0) 64
+              65:    3(fvec4) Load 63(sa0)
+              68:    3(fvec4) VectorInsertDynamic 65 62 67
+                              Store 63(sa0) 68
+                              Line 1 1 0
+              69:    2(float) VectorShuffle 63(sa0) 45 2
+              70:    2(float) VectorShuffle 19 45 0
+              71:    2(float) ExtInst 36(GLSL.std.450) 37(FMin) 69 70
+              72:    3(fvec4) Load 63(sa0)
+              73:    3(fvec4) VectorInsertDynamic 72 71 67
+                              Store 63(sa0) 73
+              74:   10(fvec2) VectorShuffle 5(vi_pos) 45 0 1
+              76:    2(float) VectorExtractDynamic 74 75
+              77:   10(fvec2) FunctionCall 48(f32_2_2xf16) 76
+              79:    2(float) VectorExtractDynamic 74 78
+              80:   10(fvec2) FunctionCall 48(f32_2_2xf16) 79
+              81:   10(fvec2) VectorShuffle 77 80 2 2
+              82:   10(fvec2) VectorShuffle 63(sa0) 45 0 1
+              83:    2(float) VectorExtractDynamic 82 75
+              84:   10(fvec2) FunctionCall 48(f32_2_2xf16) 83
+              85:    2(float) VectorExtractDynamic 82 78
+              86:   10(fvec2) FunctionCall 48(f32_2_2xf16) 85
+              87:   10(fvec2) VectorShuffle 84 86 2 2
+              88:   10(fvec2) VectorShuffle 63(sa0) 45 0 1
+              89:    2(float) VectorExtractDynamic 88 75
+              90:   10(fvec2) FunctionCall 48(f32_2_2xf16) 89
+              91:    2(float) VectorExtractDynamic 88 78
+              92:   10(fvec2) FunctionCall 48(f32_2_2xf16) 91
+              93:   10(fvec2) VectorShuffle 90 92 3 3
+              94:   10(fvec2) FMul 81 87
+              95:   10(fvec2) FAdd 94 93
+              97:    3(fvec4) Load 5(vi_pos)
+                              Store 96(pa0) 97
+              98:    2(float) VectorExtractDynamic 96(pa0) 75
+              99:   10(fvec2) FunctionCall 48(f32_2_2xf16) 98
+             100:    2(float) VectorExtractDynamic 99 75
+             101:    2(float) VectorExtractDynamic 99 78
+             102:    2(float) VectorExtractDynamic 95 75
+             103:    2(float) VectorExtractDynamic 95 78
+             104:   10(fvec2) CompositeConstruct 100 101
+             105:    2(float) FunctionCall 55(twoXf16_2_f32) 104
+             106:   10(fvec2) CompositeConstruct 102 103
+             107:    2(float) FunctionCall 55(twoXf16_2_f32) 106
+             108:   10(fvec2) CompositeConstruct 105 107
+             109:    3(fvec4) VectorShuffle 108 96(pa0) 0 1 4 5
+                              Store 96(pa0) 109
+                              Line 1 2 0
+             110:    2(float) VectorShuffle 63(sa0) 45 0
+             111:   10(fvec2) FunctionCall 48(f32_2_2xf16) 110
+             112:   10(fvec2) VectorShuffle 111 111 0 1
+             113:    2(float) VectorShuffle 96(pa0) 45 0
+             114:   10(fvec2) FunctionCall 48(f32_2_2xf16) 113
+             115:   10(fvec2) VectorShuffle 114 114 0 1
+             116:   10(fvec2) FAdd 112 115
+             117:    2(float) VectorExtractDynamic 116 75
+             118:    2(float) VectorExtractDynamic 116 78
+             119:    2(float) VectorExtractDynamic 96(pa0) 78
+             120:   10(fvec2) FunctionCall 48(f32_2_2xf16) 119
+             121:    2(float) VectorExtractDynamic 120 75
+             122:    2(float) VectorExtractDynamic 120 78
+             123:   10(fvec2) CompositeConstruct 117 118
+             124:    2(float) FunctionCall 55(twoXf16_2_f32) 123
+             125:   10(fvec2) CompositeConstruct 121 122
+             126:    2(float) FunctionCall 55(twoXf16_2_f32) 125
+             127:   10(fvec2) CompositeConstruct 124 126
+             128:    3(fvec4) VectorShuffle 127 96(pa0) 0 1 4 5
+                              Store 96(pa0) 128
+                              Line 1 3 0
+             129:   10(fvec2) VectorShuffle 96(pa0) 45 0 1
+             130:    2(float) VectorExtractDynamic 129 75
+             131:   10(fvec2) FunctionCall 48(f32_2_2xf16) 130
+             132:    2(float) VectorExtractDynamic 129 78
+             133:   10(fvec2) FunctionCall 48(f32_2_2xf16) 132
+             134:    3(fvec4) VectorShuffle 131 133 0 1 2 0
+             136:    3(fvec4) VectorInsertDynamic 134 18 135
+             137:    3(fvec4) FMul 136 45
+             138:    2(float) VectorExtractDynamic 137 75
+             139:    2(float) VectorExtractDynamic 137 78
+             140:    2(float) VectorExtractDynamic 137 67
+             141:    2(float) VectorExtractDynamic 137 135
+             142:   10(fvec2) CompositeConstruct 138 139
+             143:    2(float) FunctionCall 55(twoXf16_2_f32) 142
+             144:   10(fvec2) CompositeConstruct 140 141
+             145:    2(float) FunctionCall 55(twoXf16_2_f32) 144
+             146:   10(fvec2) CompositeConstruct 143 145
+             147:    3(fvec4) VectorShuffle 146 96(pa0) 0 1 4 5
+                              Store 96(pa0) 147
+                              Line 1 4 0
+             148:    2(float) VectorShuffle 96(pa0) 45 0
+             149:   10(fvec2) FunctionCall 48(f32_2_2xf16) 148
+             150:   10(fvec2) VectorShuffle 149 149 0 1
+             151:    3(fvec4) VectorShuffle 150 21(v_Position) 0 1 4 5
+                              Store 21(v_Position) 151
+                              Line 1 5 0
+             152:   10(fvec2) VectorShuffle 96(pa0) 45 0 1
+             153:    2(float) VectorExtractDynamic 152 75
+             154:   10(fvec2) FunctionCall 48(f32_2_2xf16) 153
+             155:    2(float) VectorExtractDynamic 152 78
+             156:   10(fvec2) FunctionCall 48(f32_2_2xf16) 155
+             157:   10(fvec2) VectorShuffle 154 156 2 3
+             158:    3(fvec4) VectorShuffle 157 21(v_Position) 2 3 0 1
+                              Store 21(v_Position) 158
+                              Line 1 6 0
+             159:   10(fvec2) VectorShuffle 96(pa0) 45 2 3
+             160:    3(fvec4) VectorShuffle 159 22(v_Color0) 0 1 4 5
+                              Store 22(v_Color0) 160
+                              Line 1 7 0
+             161:    3(fvec4) VectorShuffle 9(vi_clr) 45 0 1 2 3
+             162:    3(fvec4) VectorShuffle 161 22(v_Color0) 4 5 0 1
+                              Store 22(v_Color0) 162
+                              Line 1 8 0
+             163:    2(float) VectorShuffle 9(vi_clr) 45 2
+             164:   10(fvec2) FunctionCall 48(f32_2_2xf16) 163
+             165:   10(fvec2) VectorShuffle 164 164 0 1
+                              Store 24(v_TexCoord0) 165
+             166:    2(float) VectorShuffle 63(sa0) 45 2
+             168:     37(int) BitwiseOr 166 167
+                              Store 27(v_Psize) 168
+                              Return
+                              FunctionEnd
+ 48(f32_2_2xf16):   10(fvec2) Function None 46
+              47:    2(float) FunctionParameter
+              49:             Label
+              50:     37(int) Bitcast 47
+              51:   10(fvec2) ExtInst 36(GLSL.std.450) 61(UnpackUnorm2x16) 50
+                              ReturnValue 51
+                              FunctionEnd
+55(twoXf16_2_f32):    2(float) Function None 53
+              54:   10(fvec2) FunctionParameter
+              56:             Label
+              57:     37(int) ExtInst 36(GLSL.std.450) 57(PackUnorm2x16) 54
+              58:    2(float) Bitcast 57
+                              ReturnValue 58
+                              FunctionEnd
+
+[18:58:50.830] |D| [shader::convert_gxp_to_glsl]: Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+#extension GL_EXT_shader_8bit_storage : require
+
+uniform vec4 ktglViewport;
+uniform float ktglPointSize;
+
+in vec4 vi_pos;
+in u8vec4 vi_clr;
+in vec2 vi_tex;
+out vec4 v_Color0;
+out vec2 v_TexCoord0;
+out float v_Psize;
+vec4 i0;
+vec4 i1;
+vec4 i2;
+vec4 sa0;
+vec4 pa0;
+
+vec2 f32_2_2xf16(float _47)
+{
+    return unpackUnorm2x16(floatBitsToUint(_47));
+}
+
+float twoXf16_2_f32(vec2 _54)
+{
+    return uintBitsToFloat(packUnorm2x16(_54));
+}
+
+void main()
+{
+    sa0 = ktglViewport;
+    vec4 _68 = sa0;
+    _68.z = max(ktglViewport.z, vec2(511.0, 1.0).y);
+    sa0 = _68;
+    vec4 _73 = sa0;
+    _73.z = min(sa0.z, vec2(511.0, 1.0).x);
+    sa0 = _73;
+    vec2 _80 = f32_2_2xf16(vi_pos.xy.y);
+    vec2 _86 = f32_2_2xf16(sa0.xy.y);
+    vec2 _92 = f32_2_2xf16(sa0.xy.y);
+    vec2 _95 = (vec2(_80.x, _80.x) * vec2(_86.x, _86.x)) + vec2(_92.y, _92.y);
+    pa0 = vi_pos;
+    vec2 _99 = f32_2_2xf16(pa0.x);
+    vec2 _108 = vec2(twoXf16_2_f32(vec2(_99.x, _99.y)), twoXf16_2_f32(vec2(_95.x, _95.y)));
+    pa0 = vec4(_108.x, _108.y, pa0.z, pa0.w);
+    vec2 _116 = f32_2_2xf16(sa0.x).xy + f32_2_2xf16(pa0.x).xy;
+    vec2 _120 = f32_2_2xf16(pa0.y);
+    vec2 _127 = vec2(twoXf16_2_f32(vec2(_116.x, _116.y)), twoXf16_2_f32(vec2(_120.x, _120.y)));
+    pa0 = vec4(_127.x, _127.y, pa0.z, pa0.w);
+    vec2 _131 = f32_2_2xf16(pa0.xy.x);
+    vec4 _136 = vec4(_131.x, _131.y, f32_2_2xf16(pa0.xy.y).x, _131.x);
+    _136.w = 1.0;
+    vec4 _137 = _136 * vec4(0.0);
+    vec2 _146 = vec2(twoXf16_2_f32(vec2(_137.x, _137.y)), twoXf16_2_f32(vec2(_137.z, _137.w)));
+    pa0 = vec4(_146.x, _146.y, pa0.z, pa0.w);
+    vec2 _150 = f32_2_2xf16(pa0.x).xy;
+    gl_Position = vec4(_150.x, _150.y, gl_Position.z, gl_Position.w);
+    vec2 _156 = f32_2_2xf16(pa0.xy.y);
+    vec2 _157 = vec2(_156.x, _156.y);
+    gl_Position = vec4(gl_Position.x, gl_Position.y, _157.x, _157.y);
+    v_Color0 = vec4(pa0.zw.x, pa0.zw.y, v_Color0.z, v_Color0.w);
+    v_Color0 = vec4(v_Color0.x, v_Color0.y, vi_clr.xyzw.x, vi_clr.xyzw.y);
+    v_TexCoord0 = f32_2_2xf16(vi_clr.z).xy;
+    v_Psize = floatBitsToUint(sa0.z) | 0u;
+}
+
+
+[18:58:50.895] |W| [unimplemented_impl]: Unimplemented sceGxmColorSurfaceInitDisabled import called.
+[18:58:50.898] |W| [unimplemented_impl]: Unimplemented sceGxmDepthStencilSurfaceInitDisabled import called.
+[18:58:50.933] |I| [renderer::create]: GL_VERSION = 4.1.0 NVIDIA 430.64
+[18:58:50.933] |I| [renderer::create]: GL_SHADING_LANGUAGE_VERSION = 4.10 NVIDIA via Cg compiler
+[18:58:50.941] |W| [unimplemented_impl]: Unimplemented sceGxmColorSurfaceSetGammaMode import called.
+[18:58:50.945] |E| [export_sceGxmTextureInitTiled]: Initialized texture with unsupported texture format: 0x15000000
+[18:58:50.972] |C| [run]: Unicorn error 0x6 at: start PC: 0x8164A299 error PC 0x811B3586 LR: 0x671B

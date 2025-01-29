@@ -1,0 +1,951 @@
+[12:16:29.881] |I| [config::init_config]: backend-renderer: Vulkan
+[12:16:29.882] |I| [config::init_config]: log-level: 0
+[12:16:29.883] |I| [config::init_config]: log-uniforms: enabled
+[12:16:29.957] |I| [SDL_main]: Vita3K v0.1.8 3300-5cb4c46c
+[12:16:29.958] |I| [SDL_main]: Number of logical CPU cores: 12
+[12:16:29.958] |I| [SDL_main]: Available ram memory: 6005 MiB
+[12:16:30.054] |I| [renderer::vulkan::VKState::create]: Vulkan device: AMD Radeon(TM) Graphics
+[12:16:30.054] |I| [renderer::vulkan::VKState::create]: Driver version: 2.0.262
+[12:16:30.055] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[12:16:30.073] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: FifoRelaxed
+[12:16:30.511] |W| [compat::load_compat_app_db]: App with Title ID PCSE00266 has an issue but no status label. Please check GitHub issue 2232 and request a status label be added.
+[12:16:30.512] |W| [compat::load_compat_app_db]: App with Title ID PCSB00895 has an issue but no status label. Please check GitHub issue 2231 and request a status label be added.
+[12:16:30.513] |W| [compat::load_compat_app_db]: App with Title ID PCSE01282 has an issue but no status label. Please check GitHub issue 2230 and request a status label be added.
+[12:16:30.513] |W| [compat::load_compat_app_db]: App with Title ID PCSE01261 has an issue but no status label. Please check GitHub issue 2229 and request a status label be added.
+[12:16:30.513] |W| [compat::load_compat_app_db]: App with Title ID PCSB00328 has an issue but no status label. Please check GitHub issue 2228 and request a status label be added.
+[12:16:30.514] |W| [compat::load_compat_app_db]: App with Title ID PCSE00958 has an issue but no status label. Please check GitHub issue 2227 and request a status label be added.
+[12:16:30.514] |W| [compat::load_compat_app_db]: App with Title ID PCSF00269 has an issue but no status label. Please check GitHub issue 2226 and request a status label be added.
+[12:16:30.514] |W| [compat::load_compat_app_db]: App with Title ID PCSG00289 has an issue but no status label. Please check GitHub issue 2218 and request a status label be added.
+[12:16:30.514] |W| [compat::load_compat_app_db]: App with Title ID PCSB00468 has an issue but no status label. Please check GitHub issue 2178 and request a status label be added.
+[12:16:30.515] |W| [compat::load_compat_app_db]: App with Title ID PCSE00307 has an issue but no status label. Please check GitHub issue 2129 and request a status label be added.
+[12:16:30.515] |W| [compat::load_compat_app_db]: App with Title ID PCSA00133 has an issue but no status label. Please check GitHub issue 1649 and request a status label be added.
+[12:16:30.746] |I| [compat::update_compat_app_db]: Applications compatibility database is outdated, attempting to download latest updated at: 07-27-2023 04:07:22
+[12:16:32.893] |W| [compat::load_compat_app_db]: App with Title ID PCSE00995 has an issue but no status label. Please check GitHub issue 2234 and request a status label be added.
+[12:16:32.896] |W| [compat::load_compat_app_db]: App with Title ID PCSE00946 has an issue but no status label. Please check GitHub issue 2233 and request a status label be added.
+[12:16:32.898] |W| [compat::load_compat_app_db]: App with Title ID PCSE00266 has an issue but no status label. Please check GitHub issue 2232 and request a status label be added.
+[12:16:32.900] |W| [compat::load_compat_app_db]: App with Title ID PCSB00895 has an issue but no status label. Please check GitHub issue 2231 and request a status label be added.
+[12:16:32.901] |W| [compat::load_compat_app_db]: App with Title ID PCSE01282 has an issue but no status label. Please check GitHub issue 2230 and request a status label be added.
+[12:16:32.903] |W| [compat::load_compat_app_db]: App with Title ID PCSE01261 has an issue but no status label. Please check GitHub issue 2229 and request a status label be added.
+[12:16:32.904] |W| [compat::load_compat_app_db]: App with Title ID PCSB00328 has an issue but no status label. Please check GitHub issue 2228 and request a status label be added.
+[12:16:32.905] |W| [compat::load_compat_app_db]: App with Title ID PCSE00958 has an issue but no status label. Please check GitHub issue 2227 and request a status label be added.
+[12:16:32.907] |W| [compat::load_compat_app_db]: App with Title ID PCSF00269 has an issue but no status label. Please check GitHub issue 2226 and request a status label be added.
+[12:16:32.908] |W| [compat::load_compat_app_db]: App with Title ID PCSG00289 has an issue but no status label. Please check GitHub issue 2218 and request a status label be added.
+[12:16:32.909] |W| [compat::load_compat_app_db]: App with Title ID PCSB00468 has an issue but no status label. Please check GitHub issue 2178 and request a status label be added.
+[12:16:32.911] |W| [compat::load_compat_app_db]: App with Title ID PCSE00307 has an issue but no status label. Please check GitHub issue 2129 and request a status label be added.
+[12:16:32.917] |W| [compat::load_compat_app_db]: App with Title ID PCSA00133 has an issue but no status label. Please check GitHub issue 1649 and request a status label be added.
+[12:16:56.777] |I| [load_app_impl]: cpu-backend: Dynarmic
+[12:16:56.778] |I| [load_app_impl]: CPU Optimisation state: true
+[12:16:56.779] |I| [load_app_impl]: ngs state: true
+[12:16:56.779] |I| [load_app_impl]: Resolution multiplier: 2
+[12:16:56.780] |I| [load_app_impl]: 1 Controllers Connected
+[12:16:56.781] |I| [load_app_impl]: Controller 0: Controller (Wireless Gamepad F710)
+[12:16:56.782] |I| [load_app_impl]: modules mode: Automatic
+[12:16:56.782] |I| [load_app_impl]: Title: Fast Striker
+[12:16:56.783] |I| [load_app_impl]: Serial: PCSE01334
+[12:16:56.784] |I| [load_app_impl]: Version: 1.00
+[12:16:56.784] |I| [load_app_impl]: Category: gd
+[12:16:56.787] |I| [load_module]: Loading module "app0:eboot.bin"
+[12:16:56.836] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[12:16:56.837] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x0007FD98 / 0x81000000] (size: 0x0007AD98) of module app0:eboot.bin
+[12:16:56.839] |I| [load_self]: Loaded module segment 1 @ [0x00080000 - 0x04660E0C / 0x8107B000] (size: 0x045E0E0C) of module app0:eboot.bin
+[12:16:56.840] |I| [load_self]: Linking SELF app0:eboot.bin...
+[12:16:56.841] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x79378
+[12:16:56.841] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x166120
+[12:16:56.842] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x7dac8
+[12:16:56.843] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x7a8d8, setting to stub value 0xdeadbeef
+[12:16:56.844] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x7a8ec, setting to stub value 0xdeadbeef
+[12:16:56.846] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x7a900, setting to stub value 0xdeadbeef
+[12:16:56.847] |I| [load_module]: Module _striker (at "app0:eboot.bin") loaded
+[12:16:56.848] |I| [load_app_impl]: Main executable _striker (eboot.bin) loaded
+[12:16:56.849] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[12:16:56.859] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[12:16:56.860] |I| [load_self]: Loaded module segment 0 @ [0x04664000 - 0x046B591C / 0x81000000] (size: 0x0005191C) of module app0:sce_module/libc.suprx
+[12:16:56.862] |I| [load_self]: Loaded module segment 1 @ [0x046B6000 - 0x046B88A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[12:16:56.863] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[12:16:56.864] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x46ad468
+[12:16:56.865] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x46ad260
+[12:16:56.865] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x46b65b0
+[12:16:56.868] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x46ab38c
+[12:16:56.868] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x46a0550
+[12:16:56.869] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[12:16:56.870] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[12:16:56.878] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[12:16:56.878] |I| [load_self]: Loaded module segment 0 @ [0x046B9000 - 0x046E5CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[12:16:56.880] |I| [load_self]: Loaded module segment 1 @ [0x046E6000 - 0x046EB255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[12:16:56.881] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[12:16:56.884] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x46e5bc8
+[12:16:56.885] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x46dcf08
+[12:16:56.886] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[12:16:56.887] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[12:16:56.895] |I| [load_self]: Loaded module segment 0 @ [0x046EC000 - 0x0473CF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[12:16:56.897] |I| [load_self]: Loaded module segment 1 @ [0x04661000 - 0x046612F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[12:16:56.900] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[12:16:56.901] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x47287dc
+[12:16:56.902] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x4727f10
+[12:16:56.903] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[12:16:56.903] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[12:16:56.907] |I| [load_self]: Loaded module segment 0 @ [0x0473D000 - 0x0474CF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[12:16:56.909] |I| [load_self]: Loaded module segment 1 @ [0x04662000 - 0x04662008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[12:16:56.910] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[12:16:56.911] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x474b710
+[12:16:56.912] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x474b300
+[12:16:56.915] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[12:16:56.933] |D| [start_module]: Running module_start of library: SceLibc at address 0x4664871
+[12:16:56.984] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[12:16:56.985] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[12:16:56.987] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[12:16:56.996] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[12:16:57.000] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x46b9001
+[12:16:57.016] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[12:16:57.017] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[12:16:57.021] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x79038
+[12:16:57.025] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x79058
+[12:16:57.026] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x79088
+[12:16:57.027] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x78eb8
+[12:16:57.031] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x640db443 pow at 0x790e8
+[12:16:57.036] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x79198
+[12:16:57.063] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[12:16:57.112] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x78f38
+[12:16:57.133] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[12:16:57.134] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[12:16:57.162] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x78ef8
+[12:16:57.178] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[12:16:57.179] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_FIBER
+[12:16:57.180] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_ULT
+[12:16:57.181] |I| [load_module]: Loading module "app0:sce_module/libult.suprx"
+[12:16:57.187] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[12:16:57.187] |I| [load_self]: Loaded module segment 0 @ [0x04855000 - 0x048689BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
+[12:16:57.189] |I| [load_self]: Loaded module segment 1 @ [0x04869000 - 0x04869814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[12:16:57.191] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[12:16:57.192] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x48672e8
+[12:16:57.193] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x4864870
+[12:16:57.194] |I| [load_module]: Module SceUlt (at "app0:sce_module/libult.suprx") loaded
+[12:16:57.195] |D| [start_module]: Running module_start of library: SceUlt at address 0x4858771
+[12:16:57.213] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[12:16:57.214] |I| [start_module]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[12:16:57.219] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[12:16:57.220] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NET
+[12:16:57.221] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_HTTPS
+[12:16:57.222] |I| [load_module]: Loading module "vs0:sys/external/libhttp.suprx"
+[12:16:57.226] |I| [load_self]: vs0:sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[12:16:57.228] |I| [load_self]: Loaded module segment 0 @ [0x0486A000 - 0x04887150 / 0x81000000] (size: 0x0001D150) of module vs0:sys/external/libhttp.suprx
+[12:16:57.230] |I| [load_self]: Loaded module segment 1 @ [0x04888000 - 0x04888640 / 0x8101E000] (size: 0x00000640) of module vs0:sys/external/libhttp.suprx
+[12:16:57.232] |I| [load_self]: Linking SELF vs0:sys/external/libhttp.suprx...
+[12:16:57.233] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x4885e68
+[12:16:57.233] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x4882ca0
+[12:16:57.234] |I| [load_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") loaded
+[12:16:57.235] |D| [start_module]: Running module_start of library: SceLibHttp at address 0x48732e5
+[12:16:57.252] |I| [start_module]: Module SceLibHttp (at "vs0:sys/external/libhttp.suprx") module_start returned 0x0
+[12:16:57.255] |I| [load_module]: Loading module "vs0:sys/external/libssl.suprx"
+[12:16:57.266] |I| [load_self]: Loaded module segment 0 @ [0x154E0000 - 0x15546EA4 / 0x81000000] (size: 0x00066EA4) of module vs0:sys/external/libssl.suprx
+[12:16:57.268] |I| [load_self]: Loaded module segment 1 @ [0x04889000 - 0x0488E188 / 0x81067000] (size: 0x00005188) of module vs0:sys/external/libssl.suprx
+[12:16:57.269] |I| [load_self]: Linking SELF vs0:sys/external/libssl.suprx...
+[12:16:57.270] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x155329b0
+[12:16:57.271] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x1552cc70
+[12:16:57.271] |I| [load_module]: Module SceLibSsl (at "vs0:sys/external/libssl.suprx") loaded
+[12:16:57.273] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[12:16:57.273] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3c733316 sceSslInit at 0x787c8
+[12:16:57.277] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x214926d9 sceHttpInit at 0x787a8
+[12:16:57.280] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x644da029 sceUltWaitingQueueResourcePoolGetWorkAreaSize at 0x78878
+[12:16:57.282] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x62f9493e _sceUltWaitingQueueResourcePoolCreate at 0x78868
+[12:16:57.284] |E| [call_import]: Import function for NID 0xd7f0f610 not found (thread name: PCSE01334, thread ID: 6)
+[12:16:57.284] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xecda7fee sceUltQueueDataResourcePoolGetWorkAreaSize at 0x788a8
+[12:16:57.286] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x40856827 _sceUltQueueDataResourcePoolCreate at 0x78858
+[12:16:57.288] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x14da1bb4 _sceUltQueueCreate at 0x78828
+[12:16:57.290] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[12:16:57.290] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR16520_00/TROPHY.TRP (ux0:/app/PCSE01334/sce_sys/trophy/NPWR16520_00/TROPHY.TRP), fd: 0x3
+[12:16:57.294] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/trophy/data/NPWR16520_00/TROPUSR.DAT (target path: ux0:/user/00/trophy/data/NPWR16520_00/TROPUSR.DAT)
+[12:16:57.295] |W| [io_error_impl]: open_file (create_trophy_context) returned 0x80010002
+[12:16:57.297] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR16520_00/TROPCONF.SFM), fd: 0x4
+[12:16:57.298] |T| [write_file]: install_trophy_context: Writing to fd: 0x4, size: 1657
+[12:16:57.299] |T| [close_file]: install_trophy_context: Closing file fd: 0x4
+[12:16:57.300] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR16520_00/TROP.SFM), fd: 0x5
+[12:16:57.301] |T| [write_file]: install_trophy_context: Writing to fd: 0x5, size: 3343
+[12:16:57.301] |T| [close_file]: install_trophy_context: Closing file fd: 0x5
+[12:16:57.303] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/ICON0.PNG), fd: 0x6
+[12:16:57.304] |T| [write_file]: install_trophy_context: Writing to fd: 0x6, size: 122283
+[12:16:57.304] |T| [close_file]: install_trophy_context: Closing file fd: 0x6
+[12:16:57.306] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP000.PNG), fd: 0x7
+[12:16:57.309] |T| [write_file]: install_trophy_context: Writing to fd: 0x7, size: 123685
+[12:16:57.310] |T| [close_file]: install_trophy_context: Closing file fd: 0x7
+[12:16:57.312] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP001.PNG), fd: 0x8
+[12:16:57.313] |T| [write_file]: install_trophy_context: Writing to fd: 0x8, size: 86223
+[12:16:57.314] |T| [close_file]: install_trophy_context: Closing file fd: 0x8
+[12:16:57.316] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP002.PNG), fd: 0x9
+[12:16:57.317] |T| [write_file]: install_trophy_context: Writing to fd: 0x9, size: 85364
+[12:16:57.318] |T| [close_file]: install_trophy_context: Closing file fd: 0x9
+[12:16:57.320] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP003.PNG), fd: 0xa
+[12:16:57.321] |T| [write_file]: install_trophy_context: Writing to fd: 0xa, size: 88078
+[12:16:57.322] |T| [close_file]: install_trophy_context: Closing file fd: 0xa
+[12:16:57.324] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP004.PNG), fd: 0xb
+[12:16:57.327] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 85549
+[12:16:57.328] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[12:16:57.330] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP005.PNG), fd: 0xc
+[12:16:57.331] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 87185
+[12:16:57.331] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[12:16:57.333] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP006.PNG), fd: 0xd
+[12:16:57.335] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 88682
+[12:16:57.335] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[12:16:57.337] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP007.PNG), fd: 0xe
+[12:16:57.338] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 91338
+[12:16:57.339] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[12:16:57.343] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP008.PNG), fd: 0xf
+[12:16:57.344] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 78865
+[12:16:57.344] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[12:16:57.346] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP009.PNG), fd: 0x10
+[12:16:57.348] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 87533
+[12:16:57.348] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[12:16:57.350] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP010.PNG), fd: 0x11
+[12:16:57.352] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 78547
+[12:16:57.352] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[12:16:57.353] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP011.PNG), fd: 0x12
+[12:16:57.355] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 98279
+[12:16:57.358] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[12:16:57.359] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP012.PNG), fd: 0x13
+[12:16:57.361] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 72503
+[12:16:57.361] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[12:16:57.363] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP013.PNG), fd: 0x14
+[12:16:57.365] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 83398
+[12:16:57.365] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[12:16:57.367] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP014.PNG), fd: 0x15
+[12:16:57.368] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 97315
+[12:16:57.369] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[12:16:57.370] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP015.PNG), fd: 0x16
+[12:16:57.376] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 80655
+[12:16:57.376] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[12:16:57.378] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP016.PNG), fd: 0x17
+[12:16:57.379] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 96928
+[12:16:57.380] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[12:16:57.381] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP017.PNG), fd: 0x18
+[12:16:57.383] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 81841
+[12:16:57.383] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[12:16:57.385] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP018.PNG), fd: 0x19
+[12:16:57.386] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 121338
+[12:16:57.388] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[12:16:57.390] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP019.PNG), fd: 0x1a
+[12:16:57.392] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 123011
+[12:16:57.392] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[12:16:57.394] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR16520_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR16520_00/TROP020.PNG), fd: 0x1b
+[12:16:57.396] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 49008
+[12:16:57.396] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[12:16:57.398] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR16520_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR16520_00/TROPUSR.DAT), fd: 0x1c
+[12:16:57.399] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 4
+[12:16:57.400] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 16
+[12:16:57.400] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 16
+[12:16:57.403] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 4
+[12:16:57.404] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 4
+[12:16:57.406] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 4
+[12:16:57.407] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 64
+[12:16:57.408] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 1024
+[12:16:57.408] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x1c, size: 512
+[12:16:57.409] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x1c
+[12:16:57.410] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR16520_00 create successfuly!
+[12:16:57.429] |T| [log_import_call]: [LLE] TID: 51  FUNC: 0x1ad58a53 sceUltQueuePop at 0x78838
+[12:16:57.430] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[12:16:57.432] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[12:16:57.445] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x78f18
+[12:16:57.451] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7fb2bf4 _Znaj at 0x79188
+[12:16:57.451] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x603caa93 _Sinx at 0x790d8
+[12:16:57.489] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x78ed8
+[12:16:57.491] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfffbe239 fopen at 0x790a8
+[12:16:57.493] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xee681e1d sceFiosFHOpenWithModeSync at 0x46a0530
+[12:16:57.494] |I| [export_sceIoOpen]: Opening file: app0:/content/stringpool
+[12:16:57.494] |T| [open_file]: sceIoOpen: Opening file app0:/content/stringpool (ux0:/app/PCSE01334/content/stringpool), fd: 0x1d
+[12:16:57.496] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x41c2af95 ftell at 0x78ea8
+[12:16:57.497] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa75f3c4a sceFiosFHSeek at 0x46a04d0
+[12:16:57.498] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3a7cde1 fseek at 0x79048
+[12:16:57.500] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb31c73a9 fread at 0x79008
+[12:16:57.501] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb309e327 sceFiosIsValidHandle at 0x46a04f0
+[12:16:57.502] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x76945919 sceFiosFHReadSync at 0x46a04b0
+[12:16:57.504] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec97321c fclose at 0x79078
+[12:16:57.505] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x45182328 sceFiosFHCloseSync at 0x46a0490
+[12:16:57.506] |T| [close_file]: sceIoClose: Closing file fd: 0x1d
+[12:16:57.509] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x78fd8
+[12:16:57.510] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7ec3d0b calloc at 0x79068
+[12:16:57.513] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x78f08
+[12:16:57.523] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x91b0dc47 _ZdaPv at 0x79178
+[12:16:57.590] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fshowto0.dat.ofz
+[12:16:57.592] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fshowto0.dat.ofz (ux0:/app/PCSE01334/content/raw/fshowto0.dat.ofz), fd: 0x1e
+[12:16:57.594] |T| [close_file]: sceIoClose: Closing file fd: 0x1e
+[12:16:57.595] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsintro0.dat.ofz
+[12:16:57.596] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsintro0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsintro0.dat.ofz), fd: 0x1f
+[12:16:57.602] |T| [close_file]: sceIoClose: Closing file fd: 0x1f
+[12:16:57.602] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsl0spr0.dat.ofz
+[12:16:57.604] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsl0spr0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsl0spr0.dat.ofz), fd: 0x20
+[12:16:57.606] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[12:16:57.607] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsl1spr0.dat.ofz
+[12:16:57.609] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsl1spr0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsl1spr0.dat.ofz), fd: 0x21
+[12:16:57.617] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[12:16:57.617] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsl2spr0.dat.ofz
+[12:16:57.619] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsl2spr0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsl2spr0.dat.ofz), fd: 0x22
+[12:16:57.624] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[12:16:57.625] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsl3spr0.dat.ofz
+[12:16:57.626] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsl3spr0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsl3spr0.dat.ofz), fd: 0x23
+[12:16:57.630] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[12:16:57.630] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsl4spr0.dat.ofz
+[12:16:57.631] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsl4spr0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsl4spr0.dat.ofz), fd: 0x24
+[12:16:57.637] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[12:16:57.637] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsl5spr0.dat.ofz
+[12:16:57.641] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsl5spr0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsl5spr0.dat.ofz), fd: 0x25
+[12:16:57.644] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[12:16:57.644] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsl6spr0.dat.ofz
+[12:16:57.645] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsl6spr0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsl6spr0.dat.ofz), fd: 0x26
+[12:16:57.650] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[12:16:57.651] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsmenu0.dat.ofz
+[12:16:57.652] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsmenu0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsmenu0.dat.ofz), fd: 0x27
+[12:16:57.657] |T| [close_file]: sceIoClose: Closing file fd: 0x27
+[12:16:57.658] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/fsoutro0.dat.ofz
+[12:16:57.659] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/fsoutro0.dat.ofz (ux0:/app/PCSE01334/content/raw/fsoutro0.dat.ofz), fd: 0x28
+[12:16:57.662] |T| [close_file]: sceIoClose: Closing file fd: 0x28
+[12:16:57.662] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x78f68
+[12:16:57.663] |I| [export_sceIoOpen]: Opening file: app0:/content/anims/buttons
+[12:16:57.664] |T| [open_file]: sceIoOpen: Opening file app0:/content/anims/buttons (ux0:/app/PCSE01334/content/anims/buttons), fd: 0x29
+[12:16:57.697] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x78e78
+[12:16:57.704] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x78ff8
+[12:16:57.705] |T| [close_file]: sceIoClose: Closing file fd: 0x29
+[12:16:57.706] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72293931 _ZdlPv at 0x79168
+[12:16:57.707] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x78f28
+[12:16:57.709] |I| [export_sceIoOpen]: Opening file: app0:/content/fonts/BigFont.binfont
+[12:16:57.711] |T| [open_file]: sceIoOpen: Opening file app0:/content/fonts/BigFont.binfont (ux0:/app/PCSE01334/content/fonts/BigFont.binfont), fd: 0x2a
+[12:16:57.731] |T| [close_file]: sceIoClose: Closing file fd: 0x2a
+[12:16:57.733] |I| [export_sceIoOpen]: Opening file: app0:/content/art/title/Press_Button.art
+[12:16:57.734] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/title/Press_Button.art (ux0:/app/PCSE01334/content/art/title/Press_Button.art), fd: 0x2b
+[12:16:57.735] |T| [close_file]: sceIoClose: Closing file fd: 0x2b
+[12:16:57.739] |I| [export_sceIoOpen]: Opening file: app0:/content/art/title/Button_X.art
+[12:16:57.739] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE01334/content/art/title/Button_X.art (target path: app0:/content/art/title/Button_X.art)
+[12:16:57.741] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:16:57.743] |I| [export_sceIoOpen]: Opening file: app0:/content/loc/en/art/title/Button_X.art
+[12:16:57.743] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE01334/content/loc/en/art/title/Button_X.art (target path: app0:/content/loc/en/art/title/Button_X.art)
+[12:16:57.744] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:16:57.745] |I| [export_sceIoOpen]: Opening file: art/title/Button_X.art
+[12:16:57.746] |E| [open_file]: Cannot find device for path: art/title/Button_X.art
+[12:16:57.748] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:16:57.749] |I| [export_sceIoOpen]: Opening file: app0:/content/art/title/Button_O.art
+[12:16:57.750] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE01334/content/art/title/Button_O.art (target path: app0:/content/art/title/Button_O.art)
+[12:16:57.752] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:16:57.753] |I| [export_sceIoOpen]: Opening file: app0:/content/loc/en/art/title/Button_O.art
+[12:16:57.753] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE01334/content/loc/en/art/title/Button_O.art (target path: app0:/content/loc/en/art/title/Button_O.art)
+[12:16:57.754] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:16:57.755] |I| [export_sceIoOpen]: Opening file: art/title/Button_O.art
+[12:16:57.756] |E| [open_file]: Cannot find device for path: art/title/Button_O.art
+[12:16:57.756] |T| [log_import_call]: [LLE] TID: 55  FUNC: 0x9a004680 printf at 0x78f88
+[12:16:57.757] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:16:57.758] |I| [export_sceIoOpen]: Opening file: app0:/content/art/title/Button_Xv.art
+[12:16:57.759] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/title/Button_Xv.art (ux0:/app/PCSE01334/content/art/title/Button_Xv.art), fd: 0x2c
+[12:16:57.761] |T| [close_file]: sceIoClose: Closing file fd: 0x2c
+[12:16:57.761] |I| [export_sceIoOpen]: Opening file: app0:/content/art/title/Button_Ov.art
+[12:16:57.762] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/title/Button_Ov.art (ux0:/app/PCSE01334/content/art/title/Button_Ov.art), fd: 0x2d
+[12:16:57.764] |T| [write_file]: *** TTY: Audio out started (port#1,256[samples],48000[Hz],2[ch])
+[12:16:57.766] |T| [close_file]: sceIoClose: Closing file fd: 0x2d
+[12:16:57.767] |T| [write_file]: *** TTY:   Buffer[0] : 156997ac
+[12:16:57.767] |I| [export_sceIoOpen]: Opening file: app0:/content/art/title/Button_A.art
+[12:16:57.768] |T| [write_file]: *** TTY:   Buffer[1] : 15699bac
+[12:16:57.768] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE01334/content/art/title/Button_A.art (target path: app0:/content/art/title/Button_A.art)
+[12:16:57.769] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[12:16:57.770] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:16:57.771] |I| [export_sceIoOpen]: Opening file: app0:/content/loc/en/art/title/Button_A.art
+[12:16:57.772] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/app/PCSE01334/content/loc/en/art/title/Button_A.art (target path: app0:/content/loc/en/art/title/Button_A.art)
+[12:16:57.773] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:16:57.774] |I| [export_sceIoOpen]: Opening file: art/title/Button_A.art
+[12:16:57.775] |E| [open_file]: Cannot find device for path: art/title/Button_A.art
+[12:16:57.775] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:16:57.776] |I| [export_sceIoOpen]: Opening file: app0:/content/art/title/Title_Logo.art
+[12:16:57.777] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/title/Title_Logo.art (ux0:/app/PCSE01334/content/art/title/Title_Logo.art), fd: 0x2e
+[12:16:57.782] |T| [close_file]: sceIoClose: Closing file fd: 0x2e
+[12:16:57.796] |E| [logging::ret_error_impl]: sceGxmTextureSetMagFilter returned SCE_GXM_ERROR_INVALID_POINTER (0x805b0004)
+[12:16:57.798] |E| [logging::ret_error_impl]: sceGxmTextureSetMinFilter returned SCE_GXM_ERROR_INVALID_POINTER (0x805b0004)
+[12:16:57.800] |E| [logging::ret_error_impl]: sceGxmTextureSetUAddrMode returned SCE_GXM_ERROR_INVALID_POINTER (0x805b0004)
+[12:16:57.802] |E| [logging::ret_error_impl]: sceGxmTextureSetVAddrMode returned SCE_GXM_ERROR_INVALID_POINTER (0x805b0004)
+[12:16:57.803] |I| [export_sceIoOpen]: Opening file: app0:/content/art/menu/marker.art
+[12:16:57.804] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/menu/marker.art (ux0:/app/PCSE01334/content/art/menu/marker.art), fd: 0x2f
+[12:16:57.805] |T| [close_file]: sceIoClose: Closing file fd: 0x2f
+[12:16:57.829] |I| [export_sceIoOpen]: Opening file: app0:/content/art/wallpapers/fs_bg_544/png/black.png
+[12:16:57.830] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/wallpapers/fs_bg_544/png/black.png (ux0:/app/PCSE01334/content/art/wallpapers/fs_bg_544/png/black.png), fd: 0x30
+[12:16:57.839] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[12:16:57.845] |T| [log_import_call]: [LLE] TID: 99  FUNC: 0x6b54ba realloc at 0x78e68
+[12:16:57.845] |I| [export_sceIoOpen]: Opening file: app0:/content/art/wallpapers/fs_bg_544/png/gather.png
+[12:16:57.847] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/wallpapers/fs_bg_544/png/gather.png (ux0:/app/PCSE01334/content/art/wallpapers/fs_bg_544/png/gather.png), fd: 0x31
+[12:16:57.859] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[12:16:57.865] |I| [export_sceIoOpen]: Opening file: app0:/content/art/wallpapers/fs_bg_544/png/limited.png
+[12:16:57.866] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/wallpapers/fs_bg_544/png/limited.png (ux0:/app/PCSE01334/content/art/wallpapers/fs_bg_544/png/limited.png), fd: 0x32
+[12:16:57.878] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[12:16:57.883] |I| [export_sceIoOpen]: Opening file: app0:/content/art/wallpapers/fs_bg_544/png/machine.png
+[12:16:57.884] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/wallpapers/fs_bg_544/png/machine.png (ux0:/app/PCSE01334/content/art/wallpapers/fs_bg_544/png/machine.png), fd: 0x33
+[12:16:57.895] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[12:16:57.900] |I| [export_sceIoOpen]: Opening file: app0:/content/art/wallpapers/fs_bg_544/png/planet.png
+[12:16:57.901] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/wallpapers/fs_bg_544/png/planet.png (ux0:/app/PCSE01334/content/art/wallpapers/fs_bg_544/png/planet.png), fd: 0x34
+[12:16:57.913] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[12:16:57.921] |I| [export_sceIoOpen]: Opening file: app0:/content/art/wallpapers/fs_bg_544/png/title.png
+[12:16:57.922] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/wallpapers/fs_bg_544/png/title.png (ux0:/app/PCSE01334/content/art/wallpapers/fs_bg_544/png/title.png), fd: 0x35
+[12:16:57.939] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[12:16:57.945] |I| [export_sceIoOpen]: Opening file: app0:/content/art/wallpapers/fs_bg_544/png/splash_publisher.png
+[12:16:57.945] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/wallpapers/fs_bg_544/png/splash_publisher.png (ux0:/app/PCSE01334/content/art/wallpapers/fs_bg_544/png/splash_publisher.png), fd: 0x36
+[12:16:57.959] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[12:16:57.964] |I| [export_sceIoOpen]: Opening file: app0:/content/art/wallpapers/fs_bg_544/png/splash_ngdev.png
+[12:16:57.965] |T| [open_file]: sceIoOpen: Opening file app0:/content/art/wallpapers/fs_bg_544/png/splash_ngdev.png (ux0:/app/PCSE01334/content/art/wallpapers/fs_bg_544/png/splash_ngdev.png), fd: 0x37
+[12:16:57.976] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[12:16:58.027] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx10.wav
+[12:16:58.028] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx10.wav (ux0:/app/PCSE01334/content/sfx/sfx10.wav), fd: 0x38
+[12:16:58.029] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xff6f77c7 strdup at 0x79098
+[12:16:58.030] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx10.wav
+[12:16:58.031] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx10.wav (ux0:/app/PCSE01334/content/sfx/sfx10.wav), fd: 0x39
+[12:16:58.033] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[12:16:58.034] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[12:16:58.035] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx11.wav
+[12:16:58.036] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx11.wav (ux0:/app/PCSE01334/content/sfx/sfx11.wav), fd: 0x3a
+[12:16:58.037] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx11.wav
+[12:16:58.038] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx11.wav (ux0:/app/PCSE01334/content/sfx/sfx11.wav), fd: 0x3b
+[12:16:58.039] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[12:16:58.040] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[12:16:58.040] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx12.wav
+[12:16:58.041] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx12.wav (ux0:/app/PCSE01334/content/sfx/sfx12.wav), fd: 0x3c
+[12:16:58.042] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx12.wav
+[12:16:58.043] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx12.wav (ux0:/app/PCSE01334/content/sfx/sfx12.wav), fd: 0x3d
+[12:16:58.045] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[12:16:58.046] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[12:16:58.050] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx13.wav
+[12:16:58.051] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx13.wav (ux0:/app/PCSE01334/content/sfx/sfx13.wav), fd: 0x3e
+[12:16:58.052] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx13.wav
+[12:16:58.052] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx13.wav (ux0:/app/PCSE01334/content/sfx/sfx13.wav), fd: 0x3f
+[12:16:58.054] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[12:16:58.055] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[12:16:58.055] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx14.wav
+[12:16:58.056] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx14.wav (ux0:/app/PCSE01334/content/sfx/sfx14.wav), fd: 0x40
+[12:16:58.057] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx14.wav
+[12:16:58.058] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx14.wav (ux0:/app/PCSE01334/content/sfx/sfx14.wav), fd: 0x41
+[12:16:58.060] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[12:16:58.060] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[12:16:58.061] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx15.wav
+[12:16:58.062] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx15.wav (ux0:/app/PCSE01334/content/sfx/sfx15.wav), fd: 0x42
+[12:16:58.065] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx15.wav
+[12:16:58.066] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx15.wav (ux0:/app/PCSE01334/content/sfx/sfx15.wav), fd: 0x43
+[12:16:58.068] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[12:16:58.069] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[12:16:58.069] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx16.wav
+[12:16:58.070] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx16.wav (ux0:/app/PCSE01334/content/sfx/sfx16.wav), fd: 0x44
+[12:16:58.071] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx16.wav
+[12:16:58.072] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx16.wav (ux0:/app/PCSE01334/content/sfx/sfx16.wav), fd: 0x45
+[12:16:58.074] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[12:16:58.074] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[12:16:58.075] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx17.wav
+[12:16:58.076] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx17.wav (ux0:/app/PCSE01334/content/sfx/sfx17.wav), fd: 0x46
+[12:16:58.077] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx17.wav
+[12:16:58.077] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx17.wav (ux0:/app/PCSE01334/content/sfx/sfx17.wav), fd: 0x47
+[12:16:58.081] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[12:16:58.082] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[12:16:58.083] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx18.wav
+[12:16:58.083] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx18.wav (ux0:/app/PCSE01334/content/sfx/sfx18.wav), fd: 0x48
+[12:16:58.085] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx18.wav
+[12:16:58.085] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx18.wav (ux0:/app/PCSE01334/content/sfx/sfx18.wav), fd: 0x49
+[12:16:58.087] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[12:16:58.088] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[12:16:58.088] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx19.wav
+[12:16:58.089] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx19.wav (ux0:/app/PCSE01334/content/sfx/sfx19.wav), fd: 0x4a
+[12:16:58.091] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx19.wav
+[12:16:58.091] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx19.wav (ux0:/app/PCSE01334/content/sfx/sfx19.wav), fd: 0x4b
+[12:16:58.093] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[12:16:58.093] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[12:16:58.094] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1a.wav
+[12:16:58.097] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1a.wav (ux0:/app/PCSE01334/content/sfx/sfx1a.wav), fd: 0x4c
+[12:16:58.098] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1a.wav
+[12:16:58.099] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1a.wav (ux0:/app/PCSE01334/content/sfx/sfx1a.wav), fd: 0x4d
+[12:16:58.101] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[12:16:58.101] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[12:16:58.102] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1b.wav
+[12:16:58.103] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1b.wav (ux0:/app/PCSE01334/content/sfx/sfx1b.wav), fd: 0x4e
+[12:16:58.103] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1b.wav
+[12:16:58.104] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1b.wav (ux0:/app/PCSE01334/content/sfx/sfx1b.wav), fd: 0x4f
+[12:16:58.106] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[12:16:58.106] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[12:16:58.107] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1c.wav
+[12:16:58.108] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1c.wav (ux0:/app/PCSE01334/content/sfx/sfx1c.wav), fd: 0x50
+[12:16:58.109] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1c.wav
+[12:16:58.110] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1c.wav (ux0:/app/PCSE01334/content/sfx/sfx1c.wav), fd: 0x51
+[12:16:58.114] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[12:16:58.115] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[12:16:58.115] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1d.wav
+[12:16:58.116] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1d.wav (ux0:/app/PCSE01334/content/sfx/sfx1d.wav), fd: 0x52
+[12:16:58.117] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1d.wav
+[12:16:58.118] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1d.wav (ux0:/app/PCSE01334/content/sfx/sfx1d.wav), fd: 0x53
+[12:16:58.119] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[12:16:58.120] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[12:16:58.120] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1e.wav
+[12:16:58.121] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1e.wav (ux0:/app/PCSE01334/content/sfx/sfx1e.wav), fd: 0x54
+[12:16:58.122] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1e.wav
+[12:16:58.123] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1e.wav (ux0:/app/PCSE01334/content/sfx/sfx1e.wav), fd: 0x55
+[12:16:58.125] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[12:16:58.126] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[12:16:58.128] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1f.wav
+[12:16:58.129] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1f.wav (ux0:/app/PCSE01334/content/sfx/sfx1f.wav), fd: 0x56
+[12:16:58.130] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx1f.wav
+[12:16:58.131] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx1f.wav (ux0:/app/PCSE01334/content/sfx/sfx1f.wav), fd: 0x57
+[12:16:58.133] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[12:16:58.133] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[12:16:58.134] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx20.wav
+[12:16:58.135] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx20.wav (ux0:/app/PCSE01334/content/sfx/sfx20.wav), fd: 0x58
+[12:16:58.136] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx20.wav
+[12:16:58.137] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx20.wav (ux0:/app/PCSE01334/content/sfx/sfx20.wav), fd: 0x59
+[12:16:58.138] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[12:16:58.139] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[12:16:58.140] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx21.wav
+[12:16:58.140] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx21.wav (ux0:/app/PCSE01334/content/sfx/sfx21.wav), fd: 0x5a
+[12:16:58.142] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx21.wav
+[12:16:58.145] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx21.wav (ux0:/app/PCSE01334/content/sfx/sfx21.wav), fd: 0x5b
+[12:16:58.147] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[12:16:58.147] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[12:16:58.148] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx22.wav
+[12:16:58.149] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx22.wav (ux0:/app/PCSE01334/content/sfx/sfx22.wav), fd: 0x5c
+[12:16:58.150] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx22.wav
+[12:16:58.150] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx22.wav (ux0:/app/PCSE01334/content/sfx/sfx22.wav), fd: 0x5d
+[12:16:58.152] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[12:16:58.152] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[12:16:58.153] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx23.wav
+[12:16:58.154] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx23.wav (ux0:/app/PCSE01334/content/sfx/sfx23.wav), fd: 0x5e
+[12:16:58.155] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx23.wav
+[12:16:58.156] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx23.wav (ux0:/app/PCSE01334/content/sfx/sfx23.wav), fd: 0x5f
+[12:16:58.157] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[12:16:58.158] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[12:16:58.161] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx24.wav
+[12:16:58.162] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx24.wav (ux0:/app/PCSE01334/content/sfx/sfx24.wav), fd: 0x60
+[12:16:58.163] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx24.wav
+[12:16:58.164] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx24.wav (ux0:/app/PCSE01334/content/sfx/sfx24.wav), fd: 0x61
+[12:16:58.166] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[12:16:58.166] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[12:16:58.167] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx25.wav
+[12:16:58.168] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx25.wav (ux0:/app/PCSE01334/content/sfx/sfx25.wav), fd: 0x62
+[12:16:58.169] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx25.wav
+[12:16:58.170] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx25.wav (ux0:/app/PCSE01334/content/sfx/sfx25.wav), fd: 0x63
+[12:16:58.171] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[12:16:58.172] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[12:16:58.173] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx26.wav
+[12:16:58.174] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx26.wav (ux0:/app/PCSE01334/content/sfx/sfx26.wav), fd: 0x64
+[12:16:58.177] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx26.wav
+[12:16:58.178] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx26.wav (ux0:/app/PCSE01334/content/sfx/sfx26.wav), fd: 0x65
+[12:16:58.180] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[12:16:58.180] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[12:16:58.181] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx27.wav
+[12:16:58.182] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx27.wav (ux0:/app/PCSE01334/content/sfx/sfx27.wav), fd: 0x66
+[12:16:58.183] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx27.wav
+[12:16:58.183] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx27.wav (ux0:/app/PCSE01334/content/sfx/sfx27.wav), fd: 0x67
+[12:16:58.185] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[12:16:58.185] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[12:16:58.186] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx28.wav
+[12:16:58.187] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx28.wav (ux0:/app/PCSE01334/content/sfx/sfx28.wav), fd: 0x68
+[12:16:58.188] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx28.wav
+[12:16:58.189] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx28.wav (ux0:/app/PCSE01334/content/sfx/sfx28.wav), fd: 0x69
+[12:16:58.193] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[12:16:58.193] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[12:16:58.194] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx29.wav
+[12:16:58.195] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx29.wav (ux0:/app/PCSE01334/content/sfx/sfx29.wav), fd: 0x6a
+[12:16:58.196] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx29.wav
+[12:16:58.197] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx29.wav (ux0:/app/PCSE01334/content/sfx/sfx29.wav), fd: 0x6b
+[12:16:58.198] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[12:16:58.198] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[12:16:58.199] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2a.wav
+[12:16:58.200] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2a.wav (ux0:/app/PCSE01334/content/sfx/sfx2a.wav), fd: 0x6c
+[12:16:58.201] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2a.wav
+[12:16:58.202] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2a.wav (ux0:/app/PCSE01334/content/sfx/sfx2a.wav), fd: 0x6d
+[12:16:58.203] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[12:16:58.204] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[12:16:58.204] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2b.wav
+[12:16:58.205] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2b.wav (ux0:/app/PCSE01334/content/sfx/sfx2b.wav), fd: 0x6e
+[12:16:58.208] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2b.wav
+[12:16:58.210] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2b.wav (ux0:/app/PCSE01334/content/sfx/sfx2b.wav), fd: 0x6f
+[12:16:58.211] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[12:16:58.212] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[12:16:58.212] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2c.wav
+[12:16:58.213] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2c.wav (ux0:/app/PCSE01334/content/sfx/sfx2c.wav), fd: 0x70
+[12:16:58.214] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2c.wav
+[12:16:58.215] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2c.wav (ux0:/app/PCSE01334/content/sfx/sfx2c.wav), fd: 0x71
+[12:16:58.217] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[12:16:58.217] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[12:16:58.218] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2d.wav
+[12:16:58.218] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2d.wav (ux0:/app/PCSE01334/content/sfx/sfx2d.wav), fd: 0x72
+[12:16:58.219] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2d.wav
+[12:16:58.220] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2d.wav (ux0:/app/PCSE01334/content/sfx/sfx2d.wav), fd: 0x73
+[12:16:58.222] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[12:16:58.225] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[12:16:58.225] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2e.wav
+[12:16:58.226] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2e.wav (ux0:/app/PCSE01334/content/sfx/sfx2e.wav), fd: 0x74
+[12:16:58.228] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2e.wav
+[12:16:58.228] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2e.wav (ux0:/app/PCSE01334/content/sfx/sfx2e.wav), fd: 0x75
+[12:16:58.230] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[12:16:58.231] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[12:16:58.231] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2f.wav
+[12:16:58.232] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2f.wav (ux0:/app/PCSE01334/content/sfx/sfx2f.wav), fd: 0x76
+[12:16:58.233] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx2f.wav
+[12:16:58.234] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx2f.wav (ux0:/app/PCSE01334/content/sfx/sfx2f.wav), fd: 0x77
+[12:16:58.236] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[12:16:58.236] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[12:16:58.237] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx30.wav
+[12:16:58.238] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx30.wav (ux0:/app/PCSE01334/content/sfx/sfx30.wav), fd: 0x78
+[12:16:58.242] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx30.wav
+[12:16:58.242] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx30.wav (ux0:/app/PCSE01334/content/sfx/sfx30.wav), fd: 0x79
+[12:16:58.244] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[12:16:58.244] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[12:16:58.245] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx31.wav
+[12:16:58.246] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx31.wav (ux0:/app/PCSE01334/content/sfx/sfx31.wav), fd: 0x7a
+[12:16:58.247] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx31.wav
+[12:16:58.247] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx31.wav (ux0:/app/PCSE01334/content/sfx/sfx31.wav), fd: 0x7b
+[12:16:58.250] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[12:16:58.250] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[12:16:58.251] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx32.wav
+[12:16:58.251] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx32.wav (ux0:/app/PCSE01334/content/sfx/sfx32.wav), fd: 0x7c
+[12:16:58.252] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx32.wav
+[12:16:58.253] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx32.wav (ux0:/app/PCSE01334/content/sfx/sfx32.wav), fd: 0x7d
+[12:16:58.257] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[12:16:58.258] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[12:16:58.258] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx33.wav
+[12:16:58.259] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx33.wav (ux0:/app/PCSE01334/content/sfx/sfx33.wav), fd: 0x7e
+[12:16:58.260] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx33.wav
+[12:16:58.261] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx33.wav (ux0:/app/PCSE01334/content/sfx/sfx33.wav), fd: 0x7f
+[12:16:58.263] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[12:16:58.263] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[12:16:58.264] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx34.wav
+[12:16:58.264] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx34.wav (ux0:/app/PCSE01334/content/sfx/sfx34.wav), fd: 0x80
+[12:16:58.266] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx34.wav
+[12:16:58.266] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx34.wav (ux0:/app/PCSE01334/content/sfx/sfx34.wav), fd: 0x81
+[12:16:58.268] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[12:16:58.268] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[12:16:58.269] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx35.wav
+[12:16:58.270] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx35.wav (ux0:/app/PCSE01334/content/sfx/sfx35.wav), fd: 0x82
+[12:16:58.274] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx35.wav
+[12:16:58.275] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx35.wav (ux0:/app/PCSE01334/content/sfx/sfx35.wav), fd: 0x83
+[12:16:58.277] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[12:16:58.277] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[12:16:58.278] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx36.wav
+[12:16:58.278] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx36.wav (ux0:/app/PCSE01334/content/sfx/sfx36.wav), fd: 0x84
+[12:16:58.279] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx36.wav
+[12:16:58.280] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx36.wav (ux0:/app/PCSE01334/content/sfx/sfx36.wav), fd: 0x85
+[12:16:58.282] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[12:16:58.282] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[12:16:58.283] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx37.wav
+[12:16:58.284] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx37.wav (ux0:/app/PCSE01334/content/sfx/sfx37.wav), fd: 0x86
+[12:16:58.285] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx37.wav
+[12:16:58.286] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx37.wav (ux0:/app/PCSE01334/content/sfx/sfx37.wav), fd: 0x87
+[12:16:58.290] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[12:16:58.290] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[12:16:58.291] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx38.wav
+[12:16:58.292] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx38.wav (ux0:/app/PCSE01334/content/sfx/sfx38.wav), fd: 0x88
+[12:16:58.293] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx38.wav
+[12:16:58.293] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx38.wav (ux0:/app/PCSE01334/content/sfx/sfx38.wav), fd: 0x89
+[12:16:58.295] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[12:16:58.295] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[12:16:58.296] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx39.wav
+[12:16:58.297] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx39.wav (ux0:/app/PCSE01334/content/sfx/sfx39.wav), fd: 0x8a
+[12:16:58.298] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx39.wav
+[12:16:58.299] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx39.wav (ux0:/app/PCSE01334/content/sfx/sfx39.wav), fd: 0x8b
+[12:16:58.301] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[12:16:58.301] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[12:16:58.302] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3a.wav
+[12:16:58.305] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3a.wav (ux0:/app/PCSE01334/content/sfx/sfx3a.wav), fd: 0x8c
+[12:16:58.307] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3a.wav
+[12:16:58.308] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3a.wav (ux0:/app/PCSE01334/content/sfx/sfx3a.wav), fd: 0x8d
+[12:16:58.309] |T| [close_file]: sceIoClose: Closing file fd: 0x8d
+[12:16:58.310] |T| [close_file]: sceIoClose: Closing file fd: 0x8c
+[12:16:58.310] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3b.wav
+[12:16:58.311] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3b.wav (ux0:/app/PCSE01334/content/sfx/sfx3b.wav), fd: 0x8e
+[12:16:58.312] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3b.wav
+[12:16:58.313] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3b.wav (ux0:/app/PCSE01334/content/sfx/sfx3b.wav), fd: 0x8f
+[12:16:58.315] |T| [close_file]: sceIoClose: Closing file fd: 0x8f
+[12:16:58.315] |T| [close_file]: sceIoClose: Closing file fd: 0x8e
+[12:16:58.316] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3c.wav
+[12:16:58.317] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3c.wav (ux0:/app/PCSE01334/content/sfx/sfx3c.wav), fd: 0x90
+[12:16:58.318] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3c.wav
+[12:16:58.321] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3c.wav (ux0:/app/PCSE01334/content/sfx/sfx3c.wav), fd: 0x91
+[12:16:58.323] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[12:16:58.323] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[12:16:58.324] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3d.wav
+[12:16:58.325] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3d.wav (ux0:/app/PCSE01334/content/sfx/sfx3d.wav), fd: 0x92
+[12:16:58.326] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3d.wav
+[12:16:58.327] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3d.wav (ux0:/app/PCSE01334/content/sfx/sfx3d.wav), fd: 0x93
+[12:16:58.328] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[12:16:58.328] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[12:16:58.329] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3e.wav
+[12:16:58.330] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3e.wav (ux0:/app/PCSE01334/content/sfx/sfx3e.wav), fd: 0x94
+[12:16:58.331] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3e.wav
+[12:16:58.332] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3e.wav (ux0:/app/PCSE01334/content/sfx/sfx3e.wav), fd: 0x95
+[12:16:58.333] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[12:16:58.334] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[12:16:58.337] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3f.wav
+[12:16:58.338] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3f.wav (ux0:/app/PCSE01334/content/sfx/sfx3f.wav), fd: 0x96
+[12:16:58.339] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx3f.wav
+[12:16:58.340] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx3f.wav (ux0:/app/PCSE01334/content/sfx/sfx3f.wav), fd: 0x97
+[12:16:58.341] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[12:16:58.342] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[12:16:58.342] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx40.wav
+[12:16:58.343] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx40.wav (ux0:/app/PCSE01334/content/sfx/sfx40.wav), fd: 0x98
+[12:16:58.344] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx40.wav
+[12:16:58.345] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx40.wav (ux0:/app/PCSE01334/content/sfx/sfx40.wav), fd: 0x99
+[12:16:58.346] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[12:16:58.347] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[12:16:58.347] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx41.wav
+[12:16:58.348] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx41.wav (ux0:/app/PCSE01334/content/sfx/sfx41.wav), fd: 0x9a
+[12:16:58.349] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx41.wav
+[12:16:58.353] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx41.wav (ux0:/app/PCSE01334/content/sfx/sfx41.wav), fd: 0x9b
+[12:16:58.354] |T| [close_file]: sceIoClose: Closing file fd: 0x9b
+[12:16:58.355] |T| [close_file]: sceIoClose: Closing file fd: 0x9a
+[12:16:58.356] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx42.wav
+[12:16:58.357] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx42.wav (ux0:/app/PCSE01334/content/sfx/sfx42.wav), fd: 0x9c
+[12:16:58.358] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx42.wav
+[12:16:58.358] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx42.wav (ux0:/app/PCSE01334/content/sfx/sfx42.wav), fd: 0x9d
+[12:16:58.360] |T| [close_file]: sceIoClose: Closing file fd: 0x9d
+[12:16:58.361] |T| [close_file]: sceIoClose: Closing file fd: 0x9c
+[12:16:58.361] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx43.wav
+[12:16:58.362] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx43.wav (ux0:/app/PCSE01334/content/sfx/sfx43.wav), fd: 0x9e
+[12:16:58.363] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx43.wav
+[12:16:58.364] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx43.wav (ux0:/app/PCSE01334/content/sfx/sfx43.wav), fd: 0x9f
+[12:16:58.366] |T| [close_file]: sceIoClose: Closing file fd: 0x9f
+[12:16:58.366] |T| [close_file]: sceIoClose: Closing file fd: 0x9e
+[12:16:58.369] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx44.wav
+[12:16:58.370] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx44.wav (ux0:/app/PCSE01334/content/sfx/sfx44.wav), fd: 0xa0
+[12:16:58.371] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx44.wav
+[12:16:58.372] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx44.wav (ux0:/app/PCSE01334/content/sfx/sfx44.wav), fd: 0xa1
+[12:16:58.373] |T| [close_file]: sceIoClose: Closing file fd: 0xa1
+[12:16:58.374] |T| [close_file]: sceIoClose: Closing file fd: 0xa0
+[12:16:58.374] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx45.wav
+[12:16:58.375] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx45.wav (ux0:/app/PCSE01334/content/sfx/sfx45.wav), fd: 0xa2
+[12:16:58.376] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx45.wav
+[12:16:58.377] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx45.wav (ux0:/app/PCSE01334/content/sfx/sfx45.wav), fd: 0xa3
+[12:16:58.378] |T| [close_file]: sceIoClose: Closing file fd: 0xa3
+[12:16:58.379] |T| [close_file]: sceIoClose: Closing file fd: 0xa2
+[12:16:58.379] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx46.wav
+[12:16:58.380] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx46.wav (ux0:/app/PCSE01334/content/sfx/sfx46.wav), fd: 0xa4
+[12:16:58.381] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx46.wav
+[12:16:58.385] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx46.wav (ux0:/app/PCSE01334/content/sfx/sfx46.wav), fd: 0xa5
+[12:16:58.387] |T| [close_file]: sceIoClose: Closing file fd: 0xa5
+[12:16:58.388] |T| [close_file]: sceIoClose: Closing file fd: 0xa4
+[12:16:58.388] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx47.wav
+[12:16:58.389] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx47.wav (ux0:/app/PCSE01334/content/sfx/sfx47.wav), fd: 0xa6
+[12:16:58.390] |I| [export_sceIoOpen]: Opening file: app0:/content/sfx/sfx47.wav
+[12:16:58.391] |T| [open_file]: sceIoOpen: Opening file app0:/content/sfx/sfx47.wav (ux0:/app/PCSE01334/content/sfx/sfx47.wav), fd: 0xa7
+[12:16:58.393] |T| [close_file]: sceIoClose: Closing file fd: 0xa7
+[12:16:58.393] |T| [close_file]: sceIoClose: Closing file fd: 0xa6
+[12:16:58.394] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/FSFIX0.DAT.ofz
+[12:16:58.395] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/FSFIX0.DAT.ofz (ux0:/app/PCSE01334/content/raw/FSFIX0.DAT.ofz), fd: 0xa8
+[12:16:58.398] |T| [close_file]: sceIoClose: Closing file fd: 0xa8
+[12:16:58.427] |I| [export_sceIoOpen]: Opening file: app0:/content/raw/ss.bin.ofz
+[12:16:58.428] |T| [open_file]: sceIoOpen: Opening file app0:/content/raw/ss.bin.ofz (ux0:/app/PCSE01334/content/raw/ss.bin.ofz), fd: 0xa9
+[12:16:58.433] |T| [close_file]: sceIoClose: Closing file fd: 0xa9
+[12:16:58.435] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa1bff606 snprintf at 0x78fa8
+[12:16:58.436] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE01334/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[12:16:58.437] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[12:16:58.438] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[12:16:58.440] |E| [open_file]: Missing file at C:/Users/Sam/AppData/Roaming/Vita3K/Vita3K/ux0/user/00/savedata/PCSE01334/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[12:16:58.441] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[12:16:58.442] |T| [remove_dir]: sceAppUtilSaveDataDataRemove: Removing dir savedata0:/save (ux0:/user/00/savedata/PCSE01334/save)
+[12:16:58.443] |E| [remove_dir]: Cannot remove dir: savedata0:/save (ux0:/user/00/savedata/PCSE01334/save)
+[12:16:58.444] |W| [io_error_impl]: remove_dir (sceAppUtilSaveDataDataRemove) returned 0x80010002
+[12:16:58.444] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x78f98
+[12:16:58.446] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/save (ux0:/user/00/savedata/PCSE01334/save), fd: 0xaa
+[12:16:58.449] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xaa, size: 568
+[12:16:58.450] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xaa
+[12:16:58.451] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01334/SlotParam_0.bin), fd: 0xab
+[12:16:58.452] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xab, size: 844
+[12:16:58.452] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xab
+[12:16:58.454] |I| [export_sceIoOpen]: Opening file: savedata0:save
+[12:16:58.461] |T| [open_file]: sceIoOpen: Opening file savedata0:save (ux0:/user/00/savedata/PCSE01334/save), fd: 0xac
+[12:16:58.462] |T| [close_file]: sceIoClose: Closing file fd: 0xac
+[12:16:58.482] |T| [write_file]: *** TTY: CALCULATING SCANLINES
+[12:16:58.485] |T| [write_file]: *** TTY: PLAY MUSIC 19
+[12:16:58.486] |I| [export_sceIoOpen]: Opening file: app0:/content/mus/19_hypno.ogg
+[12:16:58.487] |T| [open_file]: sceIoOpen: Opening file app0:/content/mus/19_hypno.ogg (ux0:/app/PCSE01334/content/mus/19_hypno.ogg), fd: 0xad
+[12:16:58.495] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa7cbe4a6 qsort at 0x78fc8
+[12:16:58.502] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe61e016 ldexpf at 0x790b8
+[12:16:58.503] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5bd8d5c _FLog at 0x79128
+[12:16:58.504] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x56473bc7 expf at 0x790c8
+[12:16:58.505] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcd7c05bd floorf at 0x79118
+[12:16:58.516] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x93fc85ed _FSinx at 0x79108
+[12:16:58.539] |T| [write_file]: *** TTY: MUSIC (1.000000)
+[12:16:58.551] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9bf5bdf57f77779f7747d158943b7832e04ad13dc836dd74f5e1e21ba8ccb152
+[12:16:58.553] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9bf5bdf57f77779f7747d158943b7832e04ad13dc836dd74f5e1e21ba8ccb152
+[12:16:58.558] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[12:16:58.558] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexcoord
+[12:16:58.560] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) uModelviewProjection[4]
+[12:16:58.561] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[12:16:58.571] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 979024d89be777264b4e5f22cb6b2d2babbd554793b76f8ebd519fa8c502a144
+[12:16:58.573] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 979024d89be777264b4e5f22cb6b2d2babbd554793b76f8ebd519fa8c502a144
+[12:16:58.578] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (uchar4) uModulateColor
+[12:16:58.578] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (uchar2) uMasterBrightness
+[12:16:58.580] |T| [shader::create_fragment_inputs]: pa0 = tex2D<intX4>(ubyteSampler0, TEXCOORD0.xy)
+[12:16:58.581] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[12:16:58.583] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[12:16:58.660] |T| [write_file]: *** TTY: DONE CALCULATING SCANLINES
+[12:17:05.678] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b60e20cbfe9c01db0539725f71c2dd2f633f7bbcef7c21d6ed4db62c9ddb3d8f
+[12:17:05.681] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader b60e20cbfe9c01db0539725f71c2dd2f633f7bbcef7c21d6ed4db62c9ddb3d8f
+[12:17:05.684] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) uGamma
+[12:17:05.684] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (uchar4) uModulateColor
+[12:17:05.686] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (uchar4) uTint
+[12:17:05.687] |D| [shader::create_parameters]: [DEFAULT  + 3] sa3 = (uchar4) uAddColor
+[12:17:05.688] |D| [shader::create_parameters]: [DEFAULT  + 4] sa4 = (uchar2) uMasterBrightness
+[12:17:05.688] |T| [shader::create_fragment_inputs]: pa0 = tex2D<intX4>(ubyteSampler0, TEXCOORD0.xy)
+[12:17:05.689] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[12:17:05.694] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[12:17:05.703] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_7, size = 14
+[12:17:05.715] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_21, size = 5
+[12:17:27.357] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 0ed70018771e21d231e0784729da6c50540511ff8901eb9fbe3c71bab217aa55
+[12:17:27.360] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 0ed70018771e21d231e0784729da6c50540511ff8901eb9fbe3c71bab217aa55
+[12:17:27.363] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (uchar4) uModulateColor
+[12:17:27.364] |T| [shader::create_fragment_inputs]: pa0 = tex2D<intX4>(ubyteSampler0, TEXCOORD0.xy)
+[12:17:27.364] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[12:17:27.391] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fb409deae0caefed31c5b3f272ba091497a1b3b257957bc0b2c8c12571691779
+[12:17:27.395] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader fb409deae0caefed31c5b3f272ba091497a1b3b257957bc0b2c8c12571691779
+[12:17:27.397] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (uchar4) uModulateColor
+[12:17:27.397] |D| [shader::create_parameters]: [DEFAULT  + 1] sa1 = (uchar4) uTint
+[12:17:27.398] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (uchar2) uMasterBrightness
+[12:17:27.399] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[12:17:27.403] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[12:17:28.813] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01334/SlotParam_0.bin), fd: 0xae
+[12:17:28.816] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0xae
+[12:17:28.818] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/save (ux0:/user/00/savedata/PCSE01334/save), fd: 0xaf
+[12:17:28.819] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xaf, size: 568
+[12:17:28.820] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xaf
+[12:17:28.821] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01334/SlotParam_0.bin), fd: 0xb0
+[12:17:28.822] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xb0, size: 844
+[12:17:28.823] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xb0
+[12:17:28.837] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 138c5add2bb4c22ba4d2af45f6ce7961c34cdb00f3d7003177d6eb5aa6a9aa4f
+[12:17:28.839] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 138c5add2bb4c22ba4d2af45f6ce7961c34cdb00f3d7003177d6eb5aa6a9aa4f
+[12:17:28.841] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) uGamma
+[12:17:28.842] |T| [shader::create_fragment_inputs]: pa0 = tex2D<intX4>(ubyteSampler0, TEXCOORD0.xy)
+[12:17:28.842] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[12:17:28.848] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 12
+[12:17:28.912] |T| [write_file]: *** TTY: MUSIC (0.250000)
+[12:17:28.926] |T| [write_file]: *** TTY: MUSIC (0.176758)
+[12:17:28.943] |T| [write_file]: *** TTY: MUSIC (0.125000)
+[12:17:28.960] |T| [write_file]: *** TTY: MUSIC (0.088379)
+[12:17:28.976] |T| [write_file]: *** TTY: MUSIC (0.062500)
+[12:17:28.993] |T| [write_file]: *** TTY: MUSIC (0.044189)
+[12:17:29.010] |T| [write_file]: *** TTY: MUSIC (0.031250)
+[12:17:29.026] |T| [write_file]: *** TTY: MUSIC (0.022095)
+[12:17:29.042] |T| [write_file]: *** TTY: MUSIC (0.015625)
+[12:17:29.059] |T| [write_file]: *** TTY: MUSIC (0.011047)
+[12:17:29.077] |T| [write_file]: *** TTY: MUSIC (0.007813)
+[12:17:29.094] |T| [write_file]: *** TTY: MUSIC (0.000000)
+[12:17:29.095] |T| [write_file]: *** TTY: STOP MUSIC
+[12:17:29.102] |T| [close_file]: sceIoClose: Closing file fd: 0xad
+[12:17:29.104] |T| [write_file]: *** TTY: MUSIC (0.000000)
+[12:17:29.287] |T| [write_file]: *** TTY: MUSIC (0.707092)
+[12:17:29.288] |T| [write_file]: *** TTY: PLAY MUSIC 1
+[12:17:29.289] |I| [export_sceIoOpen]: Opening file: app0:/content/mus/01_Main Title_cut.ogg
+[12:17:29.293] |T| [open_file]: sceIoOpen: Opening file app0:/content/mus/01_Main Title_cut.ogg (ux0:/app/PCSE01334/content/mus/01_Main Title_cut.ogg), fd: 0xb1
+[12:17:29.302] |T| [write_file]: *** TTY: MUSIC (0.707092)
+[12:17:33.441] |T| [write_file]: *** TTY: MUSIC (0.500000)
+[12:17:33.459] |T| [write_file]: *** TTY: MUSIC (0.353546)
+[12:17:33.476] |T| [write_file]: *** TTY: MUSIC (0.250000)
+[12:17:33.494] |T| [write_file]: *** TTY: MUSIC (0.176758)
+[12:17:33.508] |T| [write_file]: *** TTY: MUSIC (0.125000)
+[12:17:33.525] |T| [write_file]: *** TTY: MUSIC (0.088379)
+[12:17:33.540] |T| [write_file]: *** TTY: MUSIC (0.062500)
+[12:17:33.561] |T| [write_file]: *** TTY: MUSIC (0.044189)
+[12:17:33.574] |T| [write_file]: *** TTY: MUSIC (0.031250)
+[12:17:33.593] |T| [write_file]: *** TTY: MUSIC (0.022095)
+[12:17:33.609] |T| [write_file]: *** TTY: MUSIC (0.015625)
+[12:17:33.624] |T| [write_file]: *** TTY: MUSIC (0.011047)
+[12:17:33.643] |T| [write_file]: *** TTY: MUSIC (0.007813)
+[12:17:33.660] |T| [write_file]: *** TTY: MUSIC (0.000000)
+[12:17:33.660] |T| [write_file]: *** TTY: STOP MUSIC
+[12:17:33.666] |T| [close_file]: sceIoClose: Closing file fd: 0xb1
+[12:17:33.668] |T| [write_file]: *** TTY: MUSIC (0.000000)
+[12:17:33.669] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01334/SlotParam_0.bin), fd: 0xb2
+[12:17:33.670] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0xb2
+[12:17:33.671] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/save (ux0:/user/00/savedata/PCSE01334/save), fd: 0xb3
+[12:17:33.673] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xb3, size: 568
+[12:17:33.673] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xb3
+[12:17:33.675] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE01334/SlotParam_0.bin), fd: 0xb4
+[12:17:33.676] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xb4, size: 844
+[12:17:33.677] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xb4
+[12:17:33.678] |T| [write_file]: *** TTY: vrng_trigger_achievement 1
+[12:17:33.745] |T| [write_file]: *** TTY: MUSIC (0.707092)
+[12:17:33.746] |T| [write_file]: *** TTY: PLAY MUSIC 19
+[12:17:33.747] |I| [export_sceIoOpen]: Opening file: app0:/content/mus/19_hypno.ogg
+[12:17:33.748] |T| [open_file]: sceIoOpen: Opening file app0:/content/mus/19_hypno.ogg (ux0:/app/PCSE01334/content/mus/19_hypno.ogg), fd: 0xb5
+[12:17:33.757] |T| [write_file]: *** TTY: MUSIC (0.707092)
+[12:17:43.620] |T| [write_file]: *** TTY: MUSIC (0.707092)
+[12:17:43.621] |T| [write_file]: *** TTY: STOP MUSIC
+[12:17:43.629] |T| [close_file]: sceIoClose: Closing file fd: 0xb5
+[12:17:43.630] |T| [write_file]: *** TTY: PLAY MUSIC 2
+[12:17:43.630] |I| [export_sceIoOpen]: Opening file: app0:/content/mus/02_level1.ogg
+[12:17:43.632] |T| [open_file]: sceIoOpen: Opening file app0:/content/mus/02_level1.ogg (ux0:/app/PCSE01334/content/mus/02_level1.ogg), fd: 0xb6
+[12:17:43.641] |T| [write_file]: *** TTY: MUSIC (0.707092)
+[12:17:50.775] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:50.925] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:51.084] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:51.991] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:52.151] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:53.108] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:53.308] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:53.575] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:53.658] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:53.773] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:17:53.843] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:54.526] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:54.945] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:17:55.993] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:56.012] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:17:57.207] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:17:57.306] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:17:57.875] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:17:57.879] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:17:57.908] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:17:57.942] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:17:58.005] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[12:17:58.007] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[12:18:00.858] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:01.025] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:01.208] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:01.442] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:02.158] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:12.558] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:12.608] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:21.965] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:22.156] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:23.657] |T| [write_file]: *** TTY: SOUND LIMITED 3f
+[12:18:26.615] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:18:26.642] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:18:32.919] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:33.108] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:33.224] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:33.581] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:33.856] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:34.140] |T| [write_file]: *** TTY: SOUND LIMITED 3f
+[12:18:34.679] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:34.923] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:35.739] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:35.745] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:35.774] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:35.941] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:35.959] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:35.989] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:36.780] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:36.908] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:36.974] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:36.983] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:36.994] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:37.690] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:39.007] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:39.106] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:39.291] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:40.923] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:40.929] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:41.175] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:41.640] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:41.708] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:41.719] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:42.691] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:43.288] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:18:43.308] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:18:43.564] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:18:43.823] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:18:51.505] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:51.589] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:51.605] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:51.738] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:51.755] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:52.022] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:52.155] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:52.424] |T| [write_file]: *** TTY: SOUND LIMITED 11
+[12:18:56.821] |T| [write_file]: *** TTY: SOUND LIMITED 13
+[12:18:59.373] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:18:59.383] |T| [write_file]: *** TTY: SOUND LIMITED 10
+[12:19:34.768] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[12:19:34.770] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved

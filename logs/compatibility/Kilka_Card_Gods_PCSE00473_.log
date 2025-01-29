@@ -1,0 +1,819 @@
+[12:47:33.945] |I| [config::init_config]: backend-renderer: Vulkan
+[12:47:33.947] |I| [config::init_config]: log-level: 0
+[12:47:34.088] |I| [SDL_main]: Vita3K v0.1.8 3329-c8e7c1b1
+[12:47:34.089] |I| [SDL_main]: Number of logical CPU cores: 2
+[12:47:34.089] |I| [SDL_main]: Available ram memory: 3959 MiB
+[12:47:34.369] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[12:47:35.310] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[12:47:35.312] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[12:47:35.314] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[12:47:35.314] |I| [renderer::vulkan::VKState::create]: Using shader interlock for accurate framebuffer fetch emulation
+[12:47:35.352] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[12:47:36.304] |W| [compat::load_compat_app_db]: App with Title ID PCSB00734 has an issue but no status label. Please check GitHub issue 2312 and request a status label be added.
+[12:47:36.313] |W| [compat::load_compat_app_db]: App with Title ID PCSB01445 has an issue but no status label. Please check GitHub issue 2311 and request a status label be added.
+[12:47:36.313] |W| [compat::load_compat_app_db]: App with Title ID PCSB01154 has an issue but no status label. Please check GitHub issue 2310 and request a status label be added.
+[12:47:36.313] |W| [compat::load_compat_app_db]: App with Title ID PCSB00861 has an issue but no status label. Please check GitHub issue 2309 and request a status label be added.
+[12:47:37.329] |I| [compat::update_compat_app_db]: Applications compatibility database is up to date.
+[12:48:14.936] |I| [load_app_impl]: cpu-backend: Dynarmic
+[12:48:14.937] |I| [load_app_impl]: CPU Optimisation state: true
+[12:48:14.938] |I| [load_app_impl]: ngs state: true
+[12:48:14.938] |I| [load_app_impl]: Resolution multiplier: 1
+[12:48:14.938] |I| [load_app_impl]: modules mode: Automatic
+[12:48:14.939] |I| [load_app_impl]: Title: Kilka Card Gods
+[12:48:14.939] |I| [load_app_impl]: Serial: PCSE00473
+[12:48:14.939] |I| [load_app_impl]: Version: 1.00
+[12:48:14.940] |I| [load_app_impl]: Category: gd
+[12:48:14.968] |I| [load_module]: Loading module "app0:eboot.bin"
+[12:48:15.608] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[12:48:15.619] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x004D25C0 / 0x81000000] (size: 0x004CD5C0) of module app0:eboot.bin
+[12:48:15.622] |I| [load_self]: Loaded module segment 1 @ [0x004D3000 - 0x00679DA4 / 0x814CE000] (size: 0x001A6DA4) of module app0:eboot.bin
+[12:48:15.625] |I| [load_self]: Linking SELF app0:eboot.bin...
+[12:48:15.631] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x3f3850
+[12:48:15.631] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x4d44e0
+[12:48:15.641] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x4528f8
+[12:48:15.687] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x41a628, setting to stub value 0xdeadbeef
+[12:48:15.696] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x41a544, setting to stub value 0xdeadbeef
+[12:48:15.706] |W| [load_var_imports]: 	NID NOT FOUND 0x5d8c1282 (UNRECOGNISED) at 0x41a520, setting to stub value 0xdeadbeef
+[12:48:15.725] |W| [load_var_imports]: 	NID NOT FOUND 0x66b7406c (UNRECOGNISED) at 0x41a4fc, setting to stub value 0xdeadbeef
+[12:48:15.738] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x41a65c, setting to stub value 0xdeadbeef
+[12:48:15.743] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x416da8, setting to stub value 0xdeadbeef
+[12:48:15.754] |W| [load_var_imports]: 	NID NOT FOUND 0x35e135a0 (UNRECOGNISED) at 0x3f4948, setting to stub value 0xdeadbeef
+[12:48:15.764] |W| [load_var_imports]: 	NID NOT FOUND 0x461e17f0 (UNRECOGNISED) at 0x41a734, setting to stub value 0xdeadbeef
+[12:48:15.770] |W| [load_var_imports]: 	NID NOT FOUND 0x6bc74629 (UNRECOGNISED) at 0x4181c4, setting to stub value 0xdeadbeef
+[12:48:15.778] |W| [load_var_imports]: 	NID NOT FOUND 0x7242603b (UNRECOGNISED) at 0x41a6a0, setting to stub value 0xdeadbeef
+[12:48:15.785] |W| [load_var_imports]: 	NID NOT FOUND 0xa7ca7c93 (UNRECOGNISED) at 0x41a7bc, setting to stub value 0xdeadbeef
+[12:48:15.790] |W| [load_var_imports]: 	NID NOT FOUND 0xaa57484d (UNRECOGNISED) at 0x419798, setting to stub value 0xdeadbeef
+[12:48:15.794] |W| [load_var_imports]: 	NID NOT FOUND 0xb80bff06 (UNRECOGNISED) at 0x41a768, setting to stub value 0xdeadbeef
+[12:48:15.800] |W| [load_var_imports]: 	NID NOT FOUND 0xbfef56b5 (UNRECOGNISED) at 0x416ff0, setting to stub value 0xdeadbeef
+[12:48:15.805] |W| [load_var_imports]: 	NID NOT FOUND 0xf79ae8e1 (UNRECOGNISED) at 0x416f7c, setting to stub value 0xdeadbeef
+[12:48:15.813] |I| [load_module]: Module mymain (at "app0:eboot.bin") loaded
+[12:48:15.815] |I| [load_app_impl]: Main executable mymain (eboot.bin) loaded
+[12:48:15.903] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[12:48:15.957] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[12:48:15.958] |I| [load_self]: Loaded module segment 0 @ [0x00689000 - 0x006D8BD4 / 0x81000000] (size: 0x0004FBD4) of module app0:sce_module/libc.suprx
+[12:48:15.962] |I| [load_self]: Loaded module segment 1 @ [0x006D9000 - 0x006DB688 / 0x81050000] (size: 0x00002688) of module app0:sce_module/libc.suprx
+[12:48:15.968] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[12:48:15.971] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x6d07a0
+[12:48:16.001] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x6cf508
+[12:48:16.003] |D| [load_var_exports]: Found previously not found variable. nid:0x5d8c1282, new_entry_point:0x6d94b0
+[12:48:16.005] |D| [load_var_exports]: Found previously not found variable. nid:0x66b7406c, new_entry_point:0x6d93b0
+[12:48:16.006] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x6d0598
+[12:48:16.009] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x6d95b0
+[12:48:16.012] |D| [load_var_exports]: Found previously not found variable. nid:0x35e135a0, new_entry_point:0x6d6ad8
+[12:48:16.017] |D| [load_var_exports]: Found previously not found variable. nid:0x461e17f0, new_entry_point:0x6d8470
+[12:48:16.021] |D| [load_var_exports]: Found previously not found variable. nid:0x6bc74629, new_entry_point:0x6d83e4
+[12:48:16.023] |D| [load_var_exports]: Found previously not found variable. nid:0x7242603b, new_entry_point:0x6d6b98
+[12:48:16.025] |D| [load_var_exports]: Found previously not found variable. nid:0xa7ca7c93, new_entry_point:0x6d6b74
+[12:48:16.026] |D| [load_var_exports]: Found previously not found variable. nid:0xaa57484d, new_entry_point:0x6d8414
+[12:48:16.028] |D| [load_var_exports]: Found previously not found variable. nid:0xb80bff06, new_entry_point:0x6d847c
+[12:48:16.033] |D| [load_var_exports]: Found previously not found variable. nid:0xbfef56b5, new_entry_point:0x6db0fc
+[12:48:16.037] |D| [load_var_exports]: Found previously not found variable. nid:0xf79ae8e1, new_entry_point:0x6d83d4
+[12:48:16.039] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x6ce6c4
+[12:48:16.041] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x6c4488
+[12:48:16.043] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[12:48:16.048] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[12:48:16.105] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[12:48:16.107] |I| [load_self]: Loaded module segment 0 @ [0x006DC000 - 0x00706AA8 / 0x81000000] (size: 0x0002AAA8) of module app0:sce_module/libfios2.suprx
+[12:48:16.110] |I| [load_self]: Loaded module segment 1 @ [0x0067A000 - 0x0067F23D / 0x8102B000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[12:48:16.113] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[12:48:16.115] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x7069b0
+[12:48:16.116] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x6fe138
+[12:48:16.119] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[12:48:16.120] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[12:48:16.231] |I| [load_self]: Loaded module segment 0 @ [0x00707000 - 0x00757F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[12:48:16.232] |I| [load_self]: Loaded module segment 1 @ [0x00680000 - 0x006802F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[12:48:16.240] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[12:48:16.242] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x7437dc
+[12:48:16.243] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x742f10
+[12:48:16.245] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[12:48:16.247] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[12:48:16.329] |I| [load_self]: Loaded module segment 0 @ [0x00758000 - 0x00767F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[12:48:16.332] |I| [load_self]: Loaded module segment 1 @ [0x00681000 - 0x00681008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[12:48:16.337] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[12:48:16.340] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x766710
+[12:48:16.343] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x766300
+[12:48:16.345] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[12:48:16.517] |D| [start_module]: Running module_start of library: SceLibc at address 0x689805
+[12:48:16.767] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x6dc1f0d8 memset at 0x3f2990
+[12:48:16.801] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x8e5a06c5 abs at 0x3f2a20
+[12:48:16.938] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[12:48:16.939] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[12:48:16.942] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[12:48:16.975] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[12:48:16.982] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x6dc001
+[12:48:17.032] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[12:48:17.035] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[12:48:17.049] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x3f2af0
+[12:48:17.061] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x54f87eac _sceLdTlsRegisterModuleInfo at 0x3f2970
+[12:48:17.078] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x3f2ea0
+[12:48:17.082] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x3f2a00
+[12:48:17.090] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x3f29a0
+[12:48:17.096] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72293931 _ZdlPv at 0x3f2e00
+[12:48:17.104] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x3f29c0
+[12:48:17.121] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x3f2bc0
+[12:48:17.127] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbc529b7b __tls_get_addr at 0x3f2ad0
+[12:48:17.177] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x3f29d0
+[12:48:17.531] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7fb2bf4 _Znaj at 0x3f2e70
+[12:48:17.537] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6b54ba realloc at 0x3f2890
+[12:48:17.552] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x395490da setbuf at 0x3f2910
+[12:48:17.619] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x3f28d0
+[12:48:17.635] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3aad41b0 srand at 0x3f2920
+[12:48:17.637] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc0883865 rand at 0x3f2b00
+[12:48:17.882] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdb15f0fc _ZNKSt9type_infoeqERKS_ at 0x3f2e50
+[12:48:17.883] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbae38df9 _ZNKSt9type_info4nameEv at 0x3f33e0
+[12:48:17.925] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x67e99979 _Log at 0x3f2ca0
+[12:48:18.193] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[12:48:18.194] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[12:48:18.588] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[12:48:18.967] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[12:48:19.575] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[12:48:19.716] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa1bff606 snprintf at 0x3f2a60
+[12:48:19.742] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd9f9ddcd wmemcpy at 0x3f2b40
+[12:48:19.810] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdae8d60f time at 0x3f2b50
+[12:48:19.814] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd1a2dfc3 mktime at 0x3f2b30
+[12:48:19.817] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf4a2e0bf localtime at 0x3f2bf0
+[12:48:19.822] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xeeb76fed strftime at 0x3f2bd0
+[12:48:19.996] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfffbe239 fopen at 0x3f2c00
+[12:48:20.072] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xee681e1d sceFiosFHOpenWithModeSync at 0x6c4478
+[12:48:20.142] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/main_menu.ss
+[12:48:20.201] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/main_menu.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/main_menu.ss), fd: 0x3
+[12:48:20.213] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3a7cde1 fseek at 0x3f2b10
+[12:48:20.218] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa75f3c4a sceFiosFHSeek at 0x6c4428
+[12:48:20.225] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x41c2af95 ftell at 0x3f2930
+[12:48:20.251] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb31c73a9 fread at 0x3f2aa0
+[12:48:20.262] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb309e327 sceFiosIsValidHandle at 0x6c4448
+[12:48:20.265] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x76945919 sceFiosFHReadSync at 0x6c4408
+[12:48:20.292] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec97321c fclose at 0x3f2bb0
+[12:48:20.308] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x45182328 sceFiosFHCloseSync at 0x6c43e8
+[12:48:20.318] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[12:48:20.365] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x184c4b07 strcasecmp at 0x3f28b0
+[12:48:20.426] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/mainmenu.png
+[12:48:20.563] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/mainmenu.png (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/mainmenu.png), fd: 0x4
+[12:48:20.607] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x50b326ce setjmp at 0x3f2950
+[12:48:22.119] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x3f2980
+[12:48:22.129] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[12:48:22.144] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x181827ed strtol at 0x3f28a0
+[12:48:22.177] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/mainmenu_2.png
+[12:48:22.183] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/mainmenu_2.png (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/mainmenu_2.png), fd: 0x5
+[12:48:22.344] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[12:48:22.362] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbf94193b _Stod at 0x3f2ae0
+[12:48:22.464] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/global_config.xml
+[12:48:22.519] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/global_config.xml (ux0:/app/PCSE00473/assets_widescreen/global_config.xml), fd: 0x6
+[12:48:22.554] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[12:48:22.607] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[12:48:22.625] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/strings/strings_en.xml
+[12:48:22.722] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/strings/strings_en.xml (ux0:/app/PCSE00473/assets_widescreen/strings/strings_en.xml), fd: 0x7
+[12:48:22.756] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[12:48:22.785] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/urls.xml
+[12:48:22.790] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/urls.xml (ux0:/app/PCSE00473/assets_widescreen/urls.xml), fd: 0x8
+[12:48:22.842] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[12:48:22.873] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/sounds.xml
+[12:48:22.878] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/sounds.xml (ux0:/app/PCSE00473/assets_widescreen/sounds.xml), fd: 0x9
+[12:48:22.952] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[12:48:22.957] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/game_levels.xml
+[12:48:23.011] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/game_levels.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/game_levels.xml), fd: 0xa
+[12:48:23.063] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[12:48:23.065] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/game_levels_hard.xml
+[12:48:23.068] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/game_levels_hard.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/game_levels_hard.xml), fd: 0xb
+[12:48:23.128] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[12:48:23.230] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/wonders.xml
+[12:48:23.256] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/wonders.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/wonders.xml), fd: 0xc
+[12:48:23.259] |T| [close_file]: sceIoClose: Closing file fd: 0xc
+[12:48:23.261] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/chain.xml
+[12:48:23.275] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/chain.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/chain.xml), fd: 0xd
+[12:48:23.303] |T| [close_file]: sceIoClose: Closing file fd: 0xd
+[12:48:23.304] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/tutorial.xml
+[12:48:23.322] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/tutorial.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/tutorial.xml), fd: 0xe
+[12:48:23.326] |T| [close_file]: sceIoClose: Closing file fd: 0xe
+[12:48:23.329] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/powerups.xml
+[12:48:23.331] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/powerups.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/powerups.xml), fd: 0xf
+[12:48:23.335] |T| [close_file]: sceIoClose: Closing file fd: 0xf
+[12:48:23.336] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/guifx.xml
+[12:48:23.340] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/guifx.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/guifx.xml), fd: 0x10
+[12:48:23.370] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[12:48:23.373] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects.xml
+[12:48:23.377] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects.xml), fd: 0x11
+[12:48:23.380] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[12:48:23.382] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/card_joke.xml
+[12:48:23.452] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/card_joke.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/card_joke.xml), fd: 0x12
+[12:48:23.478] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[12:48:23.482] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_brazilboss_crystal.xml
+[12:48:23.650] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_brazilboss_crystal.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_brazilboss_crystal.xml), fd: 0x13
+[12:48:23.702] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[12:48:23.705] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_chineseboss_dragon.xml
+[12:48:23.710] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_chineseboss_dragon.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_chineseboss_dragon.xml), fd: 0x14
+[12:48:23.741] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[12:48:23.744] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_indyboss_crystal.xml
+[12:48:23.748] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_indyboss_crystal.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_indyboss_crystal.xml), fd: 0x15
+[12:48:23.774] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[12:48:23.776] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_mexicanboss_sandstorm.xml
+[12:48:23.781] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_mexicanboss_sandstorm.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_mexicanboss_sandstorm.xml), fd: 0x16
+[12:48:23.816] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[12:48:23.817] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_peruboss_tumi.xml
+[12:48:23.820] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_peruboss_tumi.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_peruboss_tumi.xml), fd: 0x17
+[12:48:23.847] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[12:48:23.849] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_petraboss_sandblock.xml
+[12:48:23.852] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_petraboss_sandblock.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_petraboss_sandblock.xml), fd: 0x18
+[12:48:23.922] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[12:48:23.926] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_romaboss_fire.xml
+[12:48:23.939] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_romaboss_fire.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_romaboss_fire.xml), fd: 0x19
+[12:48:23.955] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[12:48:23.958] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_mistake_01.xml
+[12:48:23.961] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_mistake_01.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_mistake_01.xml), fd: 0x1a
+[12:48:24.001] |T| [close_file]: sceIoClose: Closing file fd: 0x1a
+[12:48:24.101] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_trail.xml
+[12:48:24.168] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_trail.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_trail.xml), fd: 0x1b
+[12:48:24.341] |T| [close_file]: sceIoClose: Closing file fd: 0x1b
+[12:48:24.345] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/confetti_high.xml
+[12:48:24.351] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/confetti_high.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/confetti_high.xml), fd: 0x1c
+[12:48:24.386] |T| [close_file]: sceIoClose: Closing file fd: 0x1c
+[12:48:24.388] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/confetti_low_l.xml
+[12:48:24.391] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/confetti_low_l.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/confetti_low_l.xml), fd: 0x1d
+[12:48:24.437] |T| [close_file]: sceIoClose: Closing file fd: 0x1d
+[12:48:24.445] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/confetti_low_r.xml
+[12:48:24.447] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/confetti_low_r.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/confetti_low_r.xml), fd: 0x1e
+[12:48:24.511] |T| [close_file]: sceIoClose: Closing file fd: 0x1e
+[12:48:24.515] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/confetti_medium.xml
+[12:48:24.517] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/confetti_medium.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/confetti_medium.xml), fd: 0x1f
+[12:48:24.582] |T| [close_file]: sceIoClose: Closing file fd: 0x1f
+[12:48:24.587] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_chain_cards.xml
+[12:48:24.596] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_chain_cards.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_chain_cards.xml), fd: 0x20
+[12:48:24.627] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[12:48:24.632] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_finish.xml
+[12:48:24.634] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_finish.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_finish.xml), fd: 0x21
+[12:48:24.646] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[12:48:24.649] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/effects/fx_put_cards.xml
+[12:48:24.651] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/effects/fx_put_cards.xml (ux0:/app/PCSE00473/assets_widescreen/root/global/effects/fx_put_cards.xml), fd: 0x22
+[12:48:24.674] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[12:48:24.676] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/boss_battle.ss
+[12:48:24.724] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/boss_battle.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/boss_battle.ss), fd: 0x23
+[12:48:24.754] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[12:48:24.756] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_brazil_1.ss
+[12:48:24.781] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_brazil_1.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_brazil_1.ss), fd: 0x24
+[12:48:24.787] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[12:48:24.791] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_brazil_2.ss
+[12:48:24.796] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_brazil_2.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_brazil_2.ss), fd: 0x25
+[12:48:24.806] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[12:48:24.808] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_buttons.ss
+[12:48:24.831] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_buttons.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_buttons.ss), fd: 0x26
+[12:48:24.846] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[12:48:24.851] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_china_1.ss
+[12:48:24.862] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_china_1.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_china_1.ss), fd: 0x27
+[12:48:24.867] |T| [close_file]: sceIoClose: Closing file fd: 0x27
+[12:48:24.868] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_china_2.ss
+[12:48:24.874] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_china_2.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_china_2.ss), fd: 0x28
+[12:48:24.880] |T| [close_file]: sceIoClose: Closing file fd: 0x28
+[12:48:24.884] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_egypt_1.ss
+[12:48:24.926] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_egypt_1.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_egypt_1.ss), fd: 0x29
+[12:48:24.936] |T| [close_file]: sceIoClose: Closing file fd: 0x29
+[12:48:24.939] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_egypt_2.ss
+[12:48:24.941] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_egypt_2.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_egypt_2.ss), fd: 0x2a
+[12:48:24.950] |T| [close_file]: sceIoClose: Closing file fd: 0x2a
+[12:48:24.954] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_india_1.ss
+[12:48:25.007] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_india_1.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_india_1.ss), fd: 0x2b
+[12:48:25.018] |T| [close_file]: sceIoClose: Closing file fd: 0x2b
+[12:48:25.020] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_india_2.ss
+[12:48:25.058] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_india_2.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_india_2.ss), fd: 0x2c
+[12:48:25.067] |T| [close_file]: sceIoClose: Closing file fd: 0x2c
+[12:48:25.068] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_italy_1.ss
+[12:48:25.091] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_italy_1.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_italy_1.ss), fd: 0x2d
+[12:48:25.098] |T| [close_file]: sceIoClose: Closing file fd: 0x2d
+[12:48:25.100] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_italy_2.ss
+[12:48:25.140] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_italy_2.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_italy_2.ss), fd: 0x2e
+[12:48:25.153] |T| [close_file]: sceIoClose: Closing file fd: 0x2e
+[12:48:25.154] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_jordan_1.ss
+[12:48:25.157] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_jordan_1.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_jordan_1.ss), fd: 0x2f
+[12:48:25.163] |T| [close_file]: sceIoClose: Closing file fd: 0x2f
+[12:48:25.165] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_jordan_2.ss
+[12:48:25.224] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_jordan_2.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_jordan_2.ss), fd: 0x30
+[12:48:25.241] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[12:48:25.246] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_mexico_1.ss
+[12:48:25.251] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_mexico_1.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_mexico_1.ss), fd: 0x31
+[12:48:25.256] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[12:48:25.258] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_mexico_2.ss
+[12:48:25.280] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_mexico_2.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_mexico_2.ss), fd: 0x32
+[12:48:25.288] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[12:48:25.295] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_peru_1.ss
+[12:48:25.336] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_peru_1.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_peru_1.ss), fd: 0x33
+[12:48:25.344] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[12:48:25.345] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/comic_peru_2.ss
+[12:48:25.374] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/comic_peru_2.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/comic_peru_2.ss), fd: 0x34
+[12:48:25.398] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[12:48:25.400] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/credits.ss
+[12:48:25.403] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/credits.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/credits.ss), fd: 0x35
+[12:48:25.470] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[12:48:25.471] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/game_elements.ss
+[12:48:25.476] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/game_elements.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/game_elements.ss), fd: 0x36
+[12:48:25.568] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[12:48:25.571] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/game_fx.ss
+[12:48:25.574] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/game_fx.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/game_fx.ss), fd: 0x37
+[12:48:25.631] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[12:48:25.636] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/gameBrazil.ss
+[12:48:25.654] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/gameBrazil.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/gameBrazil.ss), fd: 0x38
+[12:48:25.696] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[12:48:25.699] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/gameChina.ss
+[12:48:25.701] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/gameChina.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/gameChina.ss), fd: 0x39
+[12:48:25.729] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[12:48:25.730] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/gameEgypt.ss
+[12:48:25.732] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/gameEgypt.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/gameEgypt.ss), fd: 0x3a
+[12:48:25.793] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[12:48:25.799] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/gameIndia.ss
+[12:48:25.802] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/gameIndia.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/gameIndia.ss), fd: 0x3b
+[12:48:25.818] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[12:48:25.820] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/gameItaly.ss
+[12:48:25.832] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/gameItaly.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/gameItaly.ss), fd: 0x3c
+[12:48:25.851] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[12:48:25.853] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/gameJordan.ss
+[12:48:25.856] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/gameJordan.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/gameJordan.ss), fd: 0x3d
+[12:48:25.874] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[12:48:25.877] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/gameMexico.ss
+[12:48:25.880] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/gameMexico.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/gameMexico.ss), fd: 0x3e
+[12:48:25.897] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[12:48:25.899] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/gamePeru.ss
+[12:48:25.903] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/gamePeru.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/gamePeru.ss), fd: 0x3f
+[12:48:25.930] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[12:48:25.933] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/kilka_intro.ss
+[12:48:25.955] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/kilka_intro.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/kilka_intro.ss), fd: 0x40
+[12:48:25.977] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[12:48:25.978] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/kilka_new_difficulty.ss
+[12:48:25.988] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/kilka_new_difficulty.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/kilka_new_difficulty.ss), fd: 0x41
+[12:48:25.998] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[12:48:26.003] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/kilka_options.ss
+[12:48:26.008] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/kilka_options.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/kilka_options.ss), fd: 0x42
+[12:48:26.028] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[12:48:26.030] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/kilka_reward_challenges.ss
+[12:48:26.047] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/kilka_reward_challenges.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/kilka_reward_challenges.ss), fd: 0x43
+[12:48:26.080] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[12:48:26.082] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/kilka_scorecard_collectables.ss
+[12:48:26.086] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/kilka_scorecard_collectables.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/kilka_scorecard_collectables.ss), fd: 0x44
+[12:48:26.112] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[12:48:26.113] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/kilka_scorecard_wonder_collectables.ss
+[12:48:26.119] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/kilka_scorecard_wonder_collectables.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/kilka_scorecard_wonder_collectables.ss), fd: 0x45
+[12:48:26.140] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[12:48:26.142] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/kilka_shop.ss
+[12:48:26.144] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/kilka_shop.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/kilka_shop.ss), fd: 0x46
+[12:48:26.151] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[12:48:26.153] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/kilka_youLose.ss
+[12:48:26.158] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/kilka_youLose.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/kilka_youLose.ss), fd: 0x47
+[12:48:26.163] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[12:48:26.165] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/level_selection.ss
+[12:48:26.167] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/level_selection.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/level_selection.ss), fd: 0x48
+[12:48:26.194] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[12:48:26.196] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/main_menu.ss
+[12:48:26.198] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/main_menu.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/main_menu.ss), fd: 0x49
+[12:48:26.206] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[12:48:26.210] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/map_selection.ss
+[12:48:26.213] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/map_selection.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/map_selection.ss), fd: 0x4a
+[12:48:26.251] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[12:48:26.252] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/pause.ss
+[12:48:26.271] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/pause.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/pause.ss), fd: 0x4b
+[12:48:26.278] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[12:48:26.282] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/scorecard_background.ss
+[12:48:26.285] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/scorecard_background.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/scorecard_background.ss), fd: 0x4c
+[12:48:26.290] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[12:48:26.292] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/transition.ss
+[12:48:26.295] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/transition.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/transition.ss), fd: 0x4d
+[12:48:26.325] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[12:48:26.327] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/trophies.ss
+[12:48:26.331] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/trophies.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/trophies.ss), fd: 0x4e
+[12:48:26.359] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[12:48:26.361] |I| [export_sceIoOpen]: Opening file: app0:assets_widescreen/root/global/animo/tutorials.ss
+[12:48:26.363] |T| [open_file]: sceIoOpen: Opening file app0:assets_widescreen/root/global/animo/tutorials.ss (ux0:/app/PCSE00473/assets_widescreen/root/global/animo/tutorials.ss), fd: 0x4f
+[12:48:26.391] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[12:48:26.418] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00473/sce_sys/safemem.dat (target path: savedata0:/sce_sys/safemem.dat)
+[12:48:26.428] |W| [io_error_impl]: open_file (sceAppUtilLoadSafeMemory) returned 0x80010002
+[12:48:26.436] |T| [open_file]: sceAppUtilLoadSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0x50
+[12:48:26.445] |T| [write_file]: sceAppUtilLoadSafeMemory: Writing to fd: 0x50, size: 65536
+[12:48:26.446] |T| [close_file]: sceAppUtilLoadSafeMemory: Closing file fd: 0x50
+[12:48:26.449] |C| [logging::exception_handler]: Exception EXCEPTION_ACCESS_VIOLATION (0xc0000005). 
+[12:48:26.451] |C| [logging::exception_handler]: Read violation at address 0x400000000.
+[12:48:26.500] |E| [ArmDynarmicCallback::MemoryRead]: Invalid read of uint8_t at address: 0x0
+PC: 0x0021d58a,   SP: 0x00792458,   LR: 0x0021d585
+r0 : 0x00000000   r6 : 0x007a24e4
+r1 : 0x00010000   r7 : 0x007a2478
+r2 : 0x00000000   r8 : 0x00002000
+r3 : 0x00000000   r9 : 0x0046f7ac
+r4 : 0x00000000   r10: 0x007a24e8
+r5 : 0x009737f0   r11: 0x00002000
+r12: 0x00010004
+Thumb: true
+
+[12:48:26.565] |E| [ArmDynarmicCallback::MemoryRead]: Executing: movs r4, #0
+[12:48:26.608] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[12:48:26.663] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x3f2a80
+[12:48:26.732] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/m1.vag
+[12:48:26.754] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/m1.vag (ux0:/app/PCSE00473/psp2_assets/music/m1.vag), fd: 0x51
+[12:48:26.785] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x3f2b70
+[12:48:26.976] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[12:48:26.984] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/m2.vag
+[12:48:27.005] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/m2.vag (ux0:/app/PCSE00473/psp2_assets/music/m2.vag), fd: 0x52
+[12:48:27.083] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[12:48:27.083] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/m3.vag
+[12:48:27.087] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/m3.vag (ux0:/app/PCSE00473/psp2_assets/music/m3.vag), fd: 0x53
+[12:48:27.195] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[12:48:27.198] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/m4.vag
+[12:48:27.202] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/m4.vag (ux0:/app/PCSE00473/psp2_assets/music/m4.vag), fd: 0x54
+[12:48:27.341] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[12:48:27.344] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/m5.vag
+[12:48:27.346] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/m5.vag (ux0:/app/PCSE00473/psp2_assets/music/m5.vag), fd: 0x55
+[12:48:27.414] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[12:48:27.417] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/m6.vag
+[12:48:27.427] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/m6.vag (ux0:/app/PCSE00473/psp2_assets/music/m6.vag), fd: 0x56
+[12:48:27.630] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[12:48:27.632] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/m7.vag
+[12:48:27.645] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/m7.vag (ux0:/app/PCSE00473/psp2_assets/music/m7.vag), fd: 0x57
+[12:48:27.693] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[12:48:27.696] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/m8.vag
+[12:48:27.698] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/m8.vag (ux0:/app/PCSE00473/psp2_assets/music/m8.vag), fd: 0x58
+[12:48:27.735] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[12:48:27.738] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/menu.vag
+[12:48:27.743] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/menu.vag (ux0:/app/PCSE00473/psp2_assets/music/menu.vag), fd: 0x59
+[12:48:27.770] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[12:48:27.774] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/win_game.vag
+[12:48:27.792] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/win_game.vag (ux0:/app/PCSE00473/psp2_assets/music/win_game.vag), fd: 0x5a
+[12:48:27.807] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[12:48:27.811] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/lose.vag
+[12:48:27.816] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/lose.vag (ux0:/app/PCSE00473/psp2_assets/music/lose.vag), fd: 0x5b
+[12:48:27.861] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[12:48:27.864] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/music/win.vag
+[12:48:27.867] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/music/win.vag (ux0:/app/PCSE00473/psp2_assets/music/win.vag), fd: 0x5c
+[12:48:27.895] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[12:48:27.898] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_achievement.vag
+[12:48:27.914] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_achievement.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_achievement.vag), fd: 0x5d
+[12:48:27.925] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[12:48:27.926] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_cardsload1.vag
+[12:48:27.931] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_cardsload1.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_cardsload1.vag), fd: 0x5e
+[12:48:27.939] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[12:48:27.943] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_cardsload2.vag
+[12:48:27.949] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_cardsload2.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_cardsload2.vag), fd: 0x5f
+[12:48:27.954] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[12:48:27.956] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_cardsload3.vag
+[12:48:27.962] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_cardsload3.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_cardsload3.vag), fd: 0x60
+[12:48:27.968] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[12:48:27.970] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_cardsload4.vag
+[12:48:27.975] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_cardsload4.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_cardsload4.vag), fd: 0x61
+[12:48:27.983] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[12:48:27.986] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_cardsload5.vag
+[12:48:27.992] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_cardsload5.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_cardsload5.vag), fd: 0x62
+[12:48:28.008] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[12:48:28.010] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_cardsload6.vag
+[12:48:28.015] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_cardsload6.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_cardsload6.vag), fd: 0x63
+[12:48:28.038] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[12:48:28.044] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_combo.vag
+[12:48:28.054] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_combo.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_combo.vag), fd: 0x64
+[12:48:28.070] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[12:48:28.072] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_combo1.vag
+[12:48:28.078] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_combo1.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_combo1.vag), fd: 0x65
+[12:48:28.092] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[12:48:28.095] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_combo2.vag
+[12:48:28.098] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_combo2.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_combo2.vag), fd: 0x66
+[12:48:28.115] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[12:48:28.118] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_combo3.vag
+[12:48:28.143] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_combo3.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_combo3.vag), fd: 0x67
+[12:48:28.167] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[12:48:28.168] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_combo4.vag
+[12:48:28.181] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_combo4.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_combo4.vag), fd: 0x68
+[12:48:28.194] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[12:48:28.197] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_combo5.vag
+[12:48:28.200] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_combo5.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_combo5.vag), fd: 0x69
+[12:48:28.221] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[12:48:28.225] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_correctcard.vag
+[12:48:28.228] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_correctcard.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_correctcard.vag), fd: 0x6a
+[12:48:28.251] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[12:48:28.254] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_hint.vag
+[12:48:28.261] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_hint.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_hint.vag), fd: 0x6b
+[12:48:28.271] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[12:48:28.272] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_levelgeneric.vag
+[12:48:28.277] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_levelgeneric.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_levelgeneric.vag), fd: 0x6c
+[12:48:28.284] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[12:48:28.285] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_mainplay.vag
+[12:48:28.297] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_mainplay.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_mainplay.vag), fd: 0x6d
+[12:48:28.321] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[12:48:28.325] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_medal1.vag
+[12:48:28.328] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_medal1.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_medal1.vag), fd: 0x6e
+[12:48:28.360] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[12:48:28.363] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_medal2.vag
+[12:48:28.365] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_medal2.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_medal2.vag), fd: 0x6f
+[12:48:28.386] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[12:48:28.387] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_medal3.vag
+[12:48:28.390] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_medal3.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_medal3.vag), fd: 0x70
+[12:48:28.401] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[12:48:28.402] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_level_glow.vag
+[12:48:28.405] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_level_glow.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_level_glow.vag), fd: 0x71
+[12:48:28.413] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[12:48:28.415] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_newgame.vag
+[12:48:28.433] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_newgame.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_newgame.vag), fd: 0x72
+[12:48:28.445] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[12:48:28.446] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_next.vag
+[12:48:28.456] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_next.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_next.vag), fd: 0x73
+[12:48:28.470] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[12:48:28.473] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_pause.vag
+[12:48:28.476] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_pause.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_pause.vag), fd: 0x74
+[12:48:28.501] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[12:48:28.502] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_pausegeneric.vag
+[12:48:28.504] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_pausegeneric.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_pausegeneric.vag), fd: 0x75
+[12:48:28.525] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[12:48:28.527] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_prev.vag
+[12:48:28.530] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_prev.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_prev.vag), fd: 0x76
+[12:48:28.551] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[12:48:28.554] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_resume.vag
+[12:48:28.558] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_resume.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_resume.vag), fd: 0x77
+[12:48:28.582] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[12:48:28.584] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_score.vag
+[12:48:28.587] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_score.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_score.vag), fd: 0x78
+[12:48:28.623] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[12:48:28.627] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_specialcards.vag
+[12:48:28.645] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_specialcards.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_specialcards.vag), fd: 0x79
+[12:48:28.664] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[12:48:28.665] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_tapcard.vag
+[12:48:28.669] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_tapcard.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_tapcard.vag), fd: 0x7a
+[12:48:28.699] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[12:48:28.701] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_timer.vag
+[12:48:28.788] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_timer.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_timer.vag), fd: 0x7b
+[12:48:28.834] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[12:48:28.837] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_trophies.vag
+[12:48:28.842] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_trophies.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_trophies.vag), fd: 0x7c
+[12:48:28.871] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[12:48:28.880] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/snd_kc_wrongcard.vag
+[12:48:28.883] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/snd_kc_wrongcard.vag (ux0:/app/PCSE00473/psp2_assets/sfx/snd_kc_wrongcard.vag), fd: 0x7d
+[12:48:28.907] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[12:48:28.910] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/voices/snd_kc_boss_angry.vag
+[12:48:28.913] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/voices/snd_kc_boss_angry.vag (ux0:/app/PCSE00473/psp2_assets/sfx/voices/snd_kc_boss_angry.vag), fd: 0x7e
+[12:48:28.956] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[12:48:28.958] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/voices/snd_kc_boss_attack.vag
+[12:48:28.960] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/voices/snd_kc_boss_attack.vag (ux0:/app/PCSE00473/psp2_assets/sfx/voices/snd_kc_boss_attack.vag), fd: 0x7f
+[12:48:28.993] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[12:48:28.996] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/voices/snd_kc_boss_surprise.vag
+[12:48:28.999] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/voices/snd_kc_boss_surprise.vag (ux0:/app/PCSE00473/psp2_assets/sfx/voices/snd_kc_boss_surprise.vag), fd: 0x80
+[12:48:29.027] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[12:48:29.029] |I| [export_sceIoOpen]: Opening file: app0:psp2_assets/sfx/voices/snd_kc_boss_happy.vag
+[12:48:29.033] |T| [open_file]: sceIoOpen: Opening file app0:psp2_assets/sfx/voices/snd_kc_boss_happy.vag (ux0:/app/PCSE00473/psp2_assets/sfx/voices/snd_kc_boss_happy.vag), fd: 0x81
+[12:48:29.043] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[12:48:29.518] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x3f2a90
+[12:48:29.831] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR05336_00/TROPHY.TRP (ux0:/app/PCSE00473/sce_sys/trophy/NPWR05336_00/TROPHY.TRP), fd: 0x82
+[12:48:29.848] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/trophy/data/NPWR05336_00/TROPUSR.DAT (target path: ux0:/user/00/trophy/data/NPWR05336_00/TROPUSR.DAT)
+[12:48:29.850] |W| [io_error_impl]: open_file (create_trophy_context) returned 0x80010002
+[12:48:29.862] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR05336_00/TROPCONF.SFM), fd: 0x83
+[12:48:29.865] |T| [write_file]: install_trophy_context: Writing to fd: 0x83, size: 1279
+[12:48:29.866] |T| [close_file]: install_trophy_context: Closing file fd: 0x83
+[12:48:29.870] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR05336_00/TROP.SFM), fd: 0x84
+[12:48:29.874] |T| [write_file]: install_trophy_context: Writing to fd: 0x84, size: 2648
+[12:48:29.877] |T| [close_file]: install_trophy_context: Closing file fd: 0x84
+[12:48:29.882] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP_01.SFM (ux0:/user/00/trophy/conf/NPWR05336_00/TROP_01.SFM), fd: 0x85
+[12:48:29.887] |T| [write_file]: install_trophy_context: Writing to fd: 0x85, size: 2648
+[12:48:29.890] |T| [close_file]: install_trophy_context: Closing file fd: 0x85
+[12:48:29.895] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR05336_00/TROP_02.SFM), fd: 0x86
+[12:48:29.898] |T| [write_file]: install_trophy_context: Writing to fd: 0x86, size: 2819
+[12:48:29.901] |T| [close_file]: install_trophy_context: Closing file fd: 0x86
+[12:48:29.906] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR05336_00/TROP_03.SFM), fd: 0x87
+[12:48:29.912] |T| [write_file]: install_trophy_context: Writing to fd: 0x87, size: 2718
+[12:48:29.913] |T| [close_file]: install_trophy_context: Closing file fd: 0x87
+[12:48:29.923] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR05336_00/TROP_04.SFM), fd: 0x88
+[12:48:29.934] |T| [write_file]: install_trophy_context: Writing to fd: 0x88, size: 2749
+[12:48:29.934] |T| [close_file]: install_trophy_context: Closing file fd: 0x88
+[12:48:30.001] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR05336_00/TROP_05.SFM), fd: 0x89
+[12:48:30.010] |T| [write_file]: install_trophy_context: Writing to fd: 0x89, size: 2756
+[12:48:30.012] |T| [close_file]: install_trophy_context: Closing file fd: 0x89
+[12:48:30.015] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP_08.SFM (ux0:/user/00/trophy/conf/NPWR05336_00/TROP_08.SFM), fd: 0x8a
+[12:48:30.019] |T| [write_file]: install_trophy_context: Writing to fd: 0x8a, size: 3288
+[12:48:30.020] |T| [close_file]: install_trophy_context: Closing file fd: 0x8a
+[12:48:30.025] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP_17.SFM (ux0:/user/00/trophy/conf/NPWR05336_00/TROP_17.SFM), fd: 0x8b
+[12:48:30.029] |T| [write_file]: install_trophy_context: Writing to fd: 0x8b, size: 2751
+[12:48:30.031] |T| [close_file]: install_trophy_context: Closing file fd: 0x8b
+[12:48:30.036] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/ICON0.PNG), fd: 0x8c
+[12:48:30.040] |T| [write_file]: install_trophy_context: Writing to fd: 0x8c, size: 27387
+[12:48:30.046] |T| [close_file]: install_trophy_context: Closing file fd: 0x8c
+[12:48:30.051] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP000.PNG), fd: 0x8d
+[12:48:30.055] |T| [write_file]: install_trophy_context: Writing to fd: 0x8d, size: 55993
+[12:48:30.056] |T| [close_file]: install_trophy_context: Closing file fd: 0x8d
+[12:48:30.064] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP001.PNG), fd: 0x8e
+[12:48:30.067] |T| [write_file]: install_trophy_context: Writing to fd: 0x8e, size: 48559
+[12:48:30.073] |T| [close_file]: install_trophy_context: Closing file fd: 0x8e
+[12:48:30.080] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP002.PNG), fd: 0x8f
+[12:48:30.084] |T| [write_file]: install_trophy_context: Writing to fd: 0x8f, size: 50605
+[12:48:30.085] |T| [close_file]: install_trophy_context: Closing file fd: 0x8f
+[12:48:30.090] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP003.PNG), fd: 0x90
+[12:48:30.096] |T| [write_file]: install_trophy_context: Writing to fd: 0x90, size: 60412
+[12:48:30.097] |T| [close_file]: install_trophy_context: Closing file fd: 0x90
+[12:48:30.105] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP004.PNG), fd: 0x91
+[12:48:30.110] |T| [write_file]: install_trophy_context: Writing to fd: 0x91, size: 50969
+[12:48:30.111] |T| [close_file]: install_trophy_context: Closing file fd: 0x91
+[12:48:30.114] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP005.PNG), fd: 0x92
+[12:48:30.122] |T| [write_file]: install_trophy_context: Writing to fd: 0x92, size: 54463
+[12:48:30.123] |T| [close_file]: install_trophy_context: Closing file fd: 0x92
+[12:48:30.136] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP006.PNG), fd: 0x93
+[12:48:30.140] |T| [write_file]: install_trophy_context: Writing to fd: 0x93, size: 45595
+[12:48:30.142] |T| [close_file]: install_trophy_context: Closing file fd: 0x93
+[12:48:30.148] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP007.PNG), fd: 0x94
+[12:48:30.151] |T| [write_file]: install_trophy_context: Writing to fd: 0x94, size: 55059
+[12:48:30.152] |T| [close_file]: install_trophy_context: Closing file fd: 0x94
+[12:48:30.156] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP008.PNG), fd: 0x95
+[12:48:30.164] |T| [write_file]: install_trophy_context: Writing to fd: 0x95, size: 42499
+[12:48:30.166] |T| [close_file]: install_trophy_context: Closing file fd: 0x95
+[12:48:30.178] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP009.PNG), fd: 0x96
+[12:48:30.210] |T| [write_file]: install_trophy_context: Writing to fd: 0x96, size: 59532
+[12:48:30.213] |T| [close_file]: install_trophy_context: Closing file fd: 0x96
+[12:48:30.216] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP010.PNG), fd: 0x97
+[12:48:30.219] |T| [write_file]: install_trophy_context: Writing to fd: 0x97, size: 33165
+[12:48:30.220] |T| [close_file]: install_trophy_context: Closing file fd: 0x97
+[12:48:30.223] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP011.PNG), fd: 0x98
+[12:48:30.230] |T| [write_file]: install_trophy_context: Writing to fd: 0x98, size: 36051
+[12:48:30.232] |T| [close_file]: install_trophy_context: Closing file fd: 0x98
+[12:48:30.237] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP012.PNG), fd: 0x99
+[12:48:30.245] |T| [write_file]: install_trophy_context: Writing to fd: 0x99, size: 34088
+[12:48:30.252] |T| [close_file]: install_trophy_context: Closing file fd: 0x99
+[12:48:30.256] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR05336_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR05336_00/TROP013.PNG), fd: 0x9a
+[12:48:30.271] |T| [write_file]: install_trophy_context: Writing to fd: 0x9a, size: 33312
+[12:48:30.273] |T| [close_file]: install_trophy_context: Closing file fd: 0x9a
+[12:48:30.311] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR05336_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR05336_00/TROPUSR.DAT), fd: 0x9b
+[12:48:30.315] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x9b, size: 4
+[12:48:30.316] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x9b, size: 16
+[12:48:30.320] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x9b, size: 16
+[12:48:30.322] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x9b, size: 4
+[12:48:30.327] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x9b, size: 4
+[12:48:30.329] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x9b, size: 4
+[12:48:30.332] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x9b, size: 64
+[12:48:30.334] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x9b, size: 1024
+[12:48:30.336] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x9b, size: 512
+[12:48:30.340] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x9b
+[12:48:30.344] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR05336_00 create successfuly!
+[12:48:30.351] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0x9c
+[12:48:30.354] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0x9c
+[12:48:30.356] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0x9d
+[12:48:30.361] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0x9d, size: 65536
+[12:48:30.362] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0x9d
+[12:48:30.438] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00473/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[12:48:30.460] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[12:48:30.462] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[12:48:30.465] |I| [export_sceIoOpen]: Opening file: savedata0:data.bin
+[12:48:30.467] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00473/data.bin (target path: savedata0:data.bin)
+[12:48:30.472] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[12:48:30.814] |I| [ngs::PlayerModule::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[12:48:30.828] |I| [float_to_half_init]: AVX+F16C instruction set is not supported. Using basic f32 to f16 conversion
+[12:48:30.840] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x93fc85ed _FSinx at 0x3f2cf0
+[12:48:30.988] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[12:48:31.097] |T| [log_import_call]: [LLE] TID: 133 FUNC: 0x9f87712d strncpy at 0x3f2a50
+[12:48:31.118] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00473/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[12:48:31.121] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[12:48:31.130] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSE00473/data.bin), fd: 0x9e
+[12:48:31.140] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x9e, size: 65536
+[12:48:31.142] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x9e
+[12:48:31.149] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00473/SlotParam_0.bin), fd: 0x9f
+[12:48:31.155] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x9f, size: 844
+[12:48:31.157] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x9f
+[12:48:31.624] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 26f3b5a1482db83c652ee88c922bd9b854f35654cfca8e6a33a5df8eedd84588
+[12:48:31.659] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 26f3b5a1482db83c652ee88c922bd9b854f35654cfca8e6a33a5df8eedd84588
+[12:48:31.744] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[12:48:31.753] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[12:48:31.961] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 7942c458eb55ce548240ffc5d18987fb84eafb80f46e2ae0560ed3711536b244
+[12:48:31.964] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 7942c458eb55ce548240ffc5d18987fb84eafb80f46e2ae0560ed3711536b244
+[12:48:31.970] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) color
+[12:48:31.972] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[12:48:32.904] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader cf8817174cbccc49322ade3b98d7872341d898b2ee0dacc35d2cb6d4e484c559
+[12:48:32.908] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader cf8817174cbccc49322ade3b98d7872341d898b2ee0dacc35d2cb6d4e484c559
+[12:48:32.915] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[12:48:32.917] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aColor
+[12:48:32.920] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord
+[12:48:32.921] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) wvp[4]
+[12:48:32.924] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[12:48:32.970] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader f9109844caa5f9dbcdd4d386aec6f855186a9083c9fadb3c6b3779470c28c78c
+[12:48:32.973] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader f9109844caa5f9dbcdd4d386aec6f855186a9083c9fadb3c6b3779470c28c78c
+[12:48:32.977] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[12:48:32.979] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(uImage0, TEXCOORD0.xy)
+[12:48:32.981] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[12:48:33.685] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa0
+[12:48:33.695] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa0
+[12:48:33.698] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa1
+[12:48:33.704] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xa1, size: 65536
+[12:48:33.708] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa1
+[12:48:33.865] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa2
+[12:48:33.873] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa2
+[12:48:33.878] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa3
+[12:48:33.887] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xa3, size: 65536
+[12:48:33.889] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa3
+[12:48:33.957] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa4
+[12:48:33.964] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa4
+[12:48:33.967] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa5
+[12:48:33.973] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xa5, size: 65536
+[12:48:33.975] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa5
+[12:48:34.042] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa6
+[12:48:34.046] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa6
+[12:48:34.050] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa7
+[12:48:34.052] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xa7, size: 65536
+[12:48:34.053] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa7
+[12:48:34.180] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa8
+[12:48:34.186] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa8
+[12:48:34.190] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xa9
+[12:48:34.196] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xa9, size: 65536
+[12:48:34.197] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xa9
+[12:48:34.269] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xaa
+[12:48:34.275] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xaa
+[12:48:34.280] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xab
+[12:48:34.285] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xab, size: 65536
+[12:48:34.288] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xab
+[12:48:34.353] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xac
+[12:48:34.356] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xac
+[12:48:34.361] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xad
+[12:48:34.363] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xad, size: 65536
+[12:48:34.364] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xad
+[12:48:34.415] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xae
+[12:48:34.420] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xae
+[12:48:34.423] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xaf
+[12:48:34.425] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xaf, size: 65536
+[12:48:34.427] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xaf
+[12:48:34.488] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb0
+[12:48:34.492] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb0
+[12:48:34.496] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb1
+[12:48:34.499] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xb1, size: 65536
+[12:48:34.500] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb1
+[12:48:34.575] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb2
+[12:48:34.579] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb2
+[12:48:34.583] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb3
+[12:48:34.587] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xb3, size: 65536
+[12:48:34.587] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb3
+[12:48:34.679] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb4
+[12:48:34.684] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb4
+[12:48:34.687] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb5
+[12:48:34.690] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xb5, size: 65536
+[12:48:34.691] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb5
+[12:48:34.740] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb6
+[12:48:34.744] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb6
+[12:48:34.747] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb7
+[12:48:34.750] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xb7, size: 65536
+[12:48:34.751] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb7
+[12:48:34.820] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb8
+[12:48:34.824] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb8
+[12:48:34.829] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xb9
+[12:48:34.832] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xb9, size: 65536
+[12:48:34.833] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xb9
+[12:48:34.887] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xba
+[12:48:34.895] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xba
+[12:48:34.897] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xbb
+[12:48:34.901] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xbb, size: 65536
+[12:48:34.901] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xbb
+[12:48:34.964] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xbc
+[12:48:34.971] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xbc
+[12:48:34.973] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xbd
+[12:48:34.976] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xbd, size: 65536
+[12:48:34.978] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xbd
+[12:48:35.039] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xbe
+[12:48:35.048] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xbe
+[12:48:35.057] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xbf
+[12:48:35.064] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xbf, size: 65536
+[12:48:35.066] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xbf
+[12:48:35.123] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xc0
+[12:48:35.131] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xc0
+[12:48:35.133] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xc1
+[12:48:35.136] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xc1, size: 65536
+[12:48:35.139] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xc1
+[12:48:35.203] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xc2
+[12:48:35.210] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xc2
+[12:48:35.214] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xc3
+[12:48:35.219] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xc3, size: 65536
+[12:48:35.224] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xc3
+[12:48:35.285] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xc4
+[12:48:35.292] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xc4
+[12:48:35.297] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xc5
+[12:48:35.301] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xc5, size: 65536
+[12:48:35.304] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xc5
+[12:48:35.376] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xc6
+[12:48:35.384] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xc6
+[12:48:35.386] |T| [open_file]: sceAppUtilSaveSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSE00473/sce_sys/safemem.dat), fd: 0xc7
+[12:48:35.391] |T| [write_file]: sceAppUtilSaveSafeMemory: Writing to fd: 0xc7, size: 65536
+[12:48:35.392] |T| [close_file]: sceAppUtilSaveSafeMemory: Closing file fd: 0xc7
+[12:48:35.482] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa778a14b wcslen at 0x3f2a70
+[12:48:35.489] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9864c99f wmemcmp at 0x3f2a30
+[12:48:35.517] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x75348906 fabsf at 0x3f2cd0
+[12:48:35.518] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[12:48:35.521] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[12:48:35.545] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72e58672 scePvfNewLib at 0x3f3070
+[12:48:35.575] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc4444fb3 scePvfSetResolution at 0x3f30a0
+[12:48:35.585] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd535520f scePvfOpenUserFile at 0x3f30d0
+[12:48:35.591] |I| [export_sceIoOpen]: Opening file: app0:assets/font/bvfg1.ttf
+[12:48:35.593] |T| [open_file]: sceIoOpen: Opening file app0:assets/font/bvfg1.ttf (ux0:/app/PCSE00473/assets/font/bvfg1.ttf), fd: 0xc8
+[12:48:35.598] |I| [export_sceClibPrintf]: LIBPVF>>> FILE: app0:assets/font/bvfg1.ttf
+
+[12:48:35.603] |W| [unimplemented_impl]: Unimplemented sceIoIoctl import called.
+[12:48:35.622] |T| [close_file]: sceIoClose: Closing file fd: 0xc8
+[12:48:35.831] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcda282d2 scePvfPixelToPointV at 0x3f30b0
+[12:48:35.835] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xdfb677c5 scePvfSetEM at 0x3f30e0
+[12:48:35.838] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf17ade4d scePvfSetCharSize at 0x3f3100
+[12:48:35.841] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xab0c7cf2 scePvfGetFontInfo at 0x3f3090
+[12:48:35.861] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa88eedb0 scePvfGetCharInfo at 0x3f3080
+[12:48:35.930] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x37da496a scePvfGetCharGlyphImage at 0x3f3060
+[12:48:36.205] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x603caa93 _Sinx at 0x3f2c70
+[12:48:36.222] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcd7c05bd floorf at 0x3f2d20
+[12:48:36.225] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6bbfec89 ceilf at 0x3f2cb0
+[12:48:36.341] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d1dc037a039dd779e8a920db115e003fe0911c3581df809470f5bcc715e3a87c
+[12:48:36.350] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader d1dc037a039dd779e8a920db115e003fe0911c3581df809470f5bcc715e3a87c
+[12:48:36.355] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[12:48:36.358] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord
+[12:48:36.366] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) wvp[4]
+[12:48:36.368] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[12:48:36.425] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 677afc9e331cee0256cf6056b3858e28466b32e8ac042eaa54999e823e67b894
+[12:48:36.433] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 677afc9e331cee0256cf6056b3858e28466b32e8ac042eaa54999e823e67b894
+[12:48:36.441] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) uTint
+[12:48:36.443] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(uImage0, TEXCOORD0.xy)
+[12:48:36.446] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[12:49:06.121] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[12:49:06.141] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved

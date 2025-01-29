@@ -1,0 +1,917 @@
+[00:48:23.020] |I| [config::init_config]: backend-renderer: Vulkan
+[00:48:23.021] |I| [config::init_config]: log-level: 0
+[00:48:23.128] |I| [SDL_main]: Vita3K v0.1.6 2850-47bcc636
+[00:48:23.128] |I| [SDL_main]: Number of logical CPU cores: 8
+[00:48:23.129] |I| [SDL_main]: Available ram memory: 16215 MiB
+[00:48:23.368] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[00:48:23.490] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3060 Laptop GPU
+[00:48:23.491] |I| [renderer::vulkan::VKState::create]: Driver version: 516.94.0.0
+[00:48:24.099] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[00:48:56.943] |I| [load_app_impl]: cpu-backend: Dynarmic
+[00:48:56.943] |I| [load_app_impl]: CPU Optimisation state: true
+[00:48:56.944] |I| [load_app_impl]: ngs state: true
+[00:48:56.944] |I| [load_app_impl]: Resolution multiplier: 1
+[00:48:56.945] |I| [load_app_impl]: modules mode: Auto & Manual
+[00:48:56.945] |I| [load_app_impl]: lle-modules: libhttp
+[00:48:56.945] |I| [load_app_impl]: Title: Ecolibrium™
+[00:48:56.945] |I| [load_app_impl]: Serial: PCSA00087
+[00:48:56.945] |I| [load_app_impl]: Version: 1.00
+[00:48:56.945] |I| [load_app_impl]: Category: gd
+[00:48:56.956] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6FFFFF01...
+[00:48:56.956] |I| [load_self]: Loaded module segment 0 @ [0x00004000 - 0x0003FC2C / 0x81000000] (size: 0x0003BC2C) of module app0:sce_module/libc.suprx
+[00:48:56.957] |I| [load_self]: Loaded module segment 1 @ [0x00040000 - 0x00042380 / 0x8103C000] (size: 0x00002380) of module app0:sce_module/libc.suprx
+[00:48:56.957] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[00:48:56.958] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x31540
+[00:48:56.958] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x34D88, setting to stub value 0xDEADBEEF
+[00:48:56.958] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[00:48:56.965] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6FFFFF01...
+[00:48:56.965] |I| [load_self]: Loaded module segment 0 @ [0x00044000 - 0x000653BC / 0x81000000] (size: 0x000213BC) of module app0:sce_module/libfios2.suprx
+[00:48:56.966] |I| [load_self]: Loaded module segment 1 @ [0x00066000 - 0x0006B1B8 / 0x81022000] (size: 0x000051B8) of module app0:sce_module/libfios2.suprx
+[00:48:56.967] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[00:48:56.968] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x5ED84
+[00:48:56.968] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[00:48:56.974] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6FFFFF01...
+[00:48:56.974] |I| [load_self]: Loaded module segment 0 @ [0x0006C000 - 0x0007F474 / 0x81000000] (size: 0x00013474) of module app0:sce_module/libult.suprx
+[00:48:56.974] |I| [load_self]: Loaded module segment 1 @ [0x00080000 - 0x00080814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[00:48:56.975] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[00:48:56.975] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7B714
+[00:48:56.975] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[00:48:56.985] |I| [load_self]: Loaded module segment 0 @ [0x00081000 - 0x000D1F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[00:48:56.988] |I| [load_self]: Loaded module segment 1 @ [0x000D2000 - 0x000D22F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[00:48:56.989] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[00:48:56.989] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xBD7DC
+[00:48:56.990] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xBCF10
+[00:48:56.991] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0xD1EE0, setting to stub value 0xDEADBEEF
+[00:48:56.992] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[00:48:56.995] |I| [load_self]: Loaded module segment 0 @ [0x000D4000 - 0x000E3F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[00:48:56.995] |I| [load_self]: Loaded module segment 1 @ [0x000E4000 - 0x000E4008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[00:48:56.996] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[00:48:56.996] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE2710
+[00:48:56.997] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE2300
+[00:48:56.997] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[00:48:57.020] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6FFFFF01...
+[00:48:57.021] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x810E2770 / 0x81000000] (size: 0x000E2770) of module app0:eboot.bin
+[00:48:57.022] |I| [load_self]: Loaded module segment 1 @ [0x810E3000 - 0x8143D4D0 / 0x810E3000] (size: 0x0035A4D0) of module app0:eboot.bin
+[00:48:57.022] |I| [load_self]: Linking SELF app0:eboot.bin...
+[00:48:57.023] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x810B9E9C
+[00:48:57.023] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x810E3234
+[00:48:57.024] |I| [load_app_impl]: Main executable eboot (eboot.bin) loaded
+[00:48:57.027] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/40
+[00:48:57.029] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/40
+[00:48:57.034] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/40
+[00:48:57.037] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/40
+[00:48:57.047] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/40
+[00:48:57.056] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/40
+[00:48:57.059] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 7/40
+[00:48:57.061] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 8/40
+[00:48:57.066] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 9/40
+[00:48:57.070] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 10/40
+[00:48:57.077] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 11/40
+[00:48:57.081] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 12/40
+[00:48:57.098] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 13/40
+[00:48:57.103] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 14/40
+[00:48:57.110] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 15/40
+[00:48:57.114] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 16/40
+[00:48:57.118] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 17/40
+[00:48:57.121] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 18/40
+[00:48:57.124] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 19/40
+[00:48:57.128] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 20/40
+[00:48:57.131] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 21/40
+[00:48:57.135] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 22/40
+[00:48:57.142] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 23/40
+[00:48:57.147] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 24/40
+[00:48:57.152] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 25/40
+[00:48:57.159] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 26/40
+[00:48:57.162] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 27/40
+[00:48:57.165] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 28/40
+[00:48:57.169] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 29/40
+[00:48:57.175] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 30/40
+[00:48:57.182] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 31/40
+[00:48:57.186] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 32/40
+[00:48:57.198] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 33/40
+[00:48:57.207] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 34/40
+[00:48:57.215] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 35/40
+[00:48:57.220] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 36/40
+[00:48:57.225] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 37/40
+[00:48:57.230] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 38/40
+[00:48:57.234] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 39/40
+[00:48:57.247] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 40/40
+[00:48:57.274] |D| [run_app]: Running module_start of library: SceLibc at address 0x45B1
+[00:48:57.392] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[00:48:57.393] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[00:48:57.393] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[00:48:57.402] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[00:48:57.409] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x44001
+[00:48:57.433] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[00:48:57.434] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetList import called.
+[00:48:57.435] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[00:48:57.442] |D| [run_app]: Running module_start of library: SceUlt at address 0x6F95D
+[00:48:57.466] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[00:48:57.467] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[00:48:57.562] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xEE681E1D sceFiosFHOpenWithModeSync at 0x31534
+[00:48:57.564] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:48:57.565] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x3
+[00:48:57.571] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xA75F3C4A sceFiosFHSeek at 0x314E4
+[00:48:57.574] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xB309E327 sceFiosIsValidHandle at 0x31504
+[00:48:57.575] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x76945919 sceFiosFHReadSync at 0x314C4
+[00:48:57.584] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x45182328 sceFiosFHCloseSync at 0x314A4
+[00:48:57.585] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[00:48:57.591] |I| [load_module]: Loading module ID: 0x2
+[00:48:57.601] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6FFFFF01...
+[00:48:57.602] |I| [load_self]: Loaded module segment 0 @ [0x08132000 - 0x0814F150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[00:48:57.606] |I| [load_self]: Loaded module segment 1 @ [0x00127000 - 0x00127640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[00:48:57.613] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[00:48:57.613] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x814DE68
+[00:48:57.614] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x814ACA0
+[00:48:57.615] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[00:48:57.617] |D| [load_module]: Running module_start of module: SceLibHttp
+[00:48:57.619] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[00:48:57.619] |I| [load_module]: Loading module ID: 0x4
+[00:48:57.627] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6FFFFF01...
+[00:48:57.628] |I| [load_self]: Loaded module segment 0 @ [0x08150000 - 0x0816D150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[00:48:57.630] |I| [load_self]: Loaded module segment 1 @ [0x00128000 - 0x00128640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[00:48:57.632] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[00:48:57.633] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x816BE68
+[00:48:57.633] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x8168CA0
+[00:48:57.635] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[00:48:57.637] |D| [load_module]: Running module_start of module: SceLibHttp
+[00:48:57.639] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[00:48:57.665] |I| [load_self]: Loaded module segment 0 @ [0x0816E000 - 0x081D4EA4 / 0x81000000] (size: 0x00066EA4) of module sys/external/libssl.suprx
+[00:48:57.667] |I| [load_self]: Loaded module segment 1 @ [0x00129000 - 0x0012E188 / 0x81067000] (size: 0x00005188) of module sys/external/libssl.suprx
+[00:48:57.668] |I| [load_self]: Linking SELF sys/external/libssl.suprx...
+[00:48:57.669] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x81C09B0
+[00:48:57.673] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81BAC70
+[00:48:57.675] |I| [load_module]: Module SceLibSsl (at "sys/external/libssl.suprx") loaded
+[00:48:57.677] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[00:48:57.677] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x3C733316 sceSslInit at 0x810B9410
+[00:48:57.683] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x214926D9 sceHttpInit at 0x810B9450
+[00:48:57.689] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xC6D60403 sceHttpsDisableOption at 0x810B9550
+[00:48:57.901] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[00:48:58.080] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MiB emuenv mem)
+[00:48:58.120] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[00:48:58.171] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[00:48:58.177] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[00:48:58.177] |W| [unimplemented_impl]: Unimplemented sceMotionMagnetometerOn import called.
+[00:48:58.179] |W| [unimplemented_impl]: Unimplemented sceMotionSetDeadband import called.
+[00:48:58.195] |T| [export_sceNgsPatchCreateRouting]: Patching 0x276A070:0:0 to 0x5D93B0:0
+[00:48:58.196] |T| [export_sceNgsPatchCreateRouting]: Patching 0x276A58C:0:0 to 0x5D93B0:0
+[00:48:58.196] |T| [export_sceNgsPatchCreateRouting]: Patching 0x276AAA8:0:0 to 0x5D93B0:0
+[00:48:58.197] |T| [export_sceNgsPatchCreateRouting]: Patching 0x276AFC4:0:0 to 0x5D93B0:0
+[00:48:58.198] |T| [export_sceNgsPatchCreateRouting]: Patching 0x276B4E0:0:0 to 0x5D93B0:0
+[00:48:58.199] |T| [export_sceNgsPatchCreateRouting]: Patching 0x276B9FC:0:0 to 0x5D93B0:0
+[00:48:58.200] |T| [export_sceNgsPatchCreateRouting]: Patching 0x276BF18:0:0 to 0x5D93B0:0
+[00:48:58.201] |T| [export_sceNgsPatchCreateRouting]: Patching 0x276C434:0:0 to 0x5D93B0:0
+[00:48:58.201] |T| [export_sceNgsPatchCreateRouting]: Patching 0x2767070:0:0 to 0x5D93B0:0
+[00:48:58.202] |T| [export_sceNgsPatchCreateRouting]: Patching 0x2767580:0:0 to 0x5D93B0:0
+[00:48:58.203] |T| [export_sceNgsPatchCreateRouting]: Patching 0x2767A90:0:0 to 0x5D93B0:0
+[00:48:58.203] |T| [export_sceNgsPatchCreateRouting]: Patching 0x2767FA0:0:0 to 0x5D93B0:0
+[00:48:58.205] |T| [export_sceNgsPatchCreateRouting]: Patching 0x27684B0:0:0 to 0x5D93B0:0
+[00:48:58.206] |T| [export_sceNgsPatchCreateRouting]: Patching 0x27689C0:0:0 to 0x5D93B0:0
+[00:48:58.207] |T| [export_sceNgsPatchCreateRouting]: Patching 0x2768ED0:0:0 to 0x5D93B0:0
+[00:48:58.208] |T| [export_sceNgsPatchCreateRouting]: Patching 0x27693E0:0:0 to 0x5D93B0:0
+[00:48:58.325] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[00:48:58.375] |E| [call_import]: Import function for NID 0xE340C004 not found (thread name: PCSA00087, thread ID: 7)
+[00:48:58.376] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:48:58.377] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x4
+[00:48:58.646] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[00:48:58.693] |I| [export_sceIoOpen]: Opening file: app0:_SCEA_EN-US_PSVITA.VFS
+[00:48:58.694] |T| [open_file]: sceIoOpen: Opening file app0:_SCEA_EN-US_PSVITA.VFS (ux0:/app/PCSA00087/_SCEA_EN-US_PSVITA.VFS), fd: 0x5
+[00:48:58.695] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[00:48:58.697] |I| [export_sceIoOpen]: Opening file: app0:_SCEA_EN-US_PSVITA.VFS
+[00:48:58.697] |T| [open_file]: sceIoOpen: Opening file app0:_SCEA_EN-US_PSVITA.VFS (ux0:/app/PCSA00087/_SCEA_EN-US_PSVITA.VFS), fd: 0x6
+[00:48:58.712] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[00:48:58.747] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[00:48:58.756] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[00:48:58.757] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:48:58.757] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x7
+[00:48:58.759] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[00:48:58.762] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:48:58.763] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x8
+[00:48:58.858] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[00:48:58.859] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:48:58.860] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x9
+[00:48:58.861] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[00:48:58.862] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:48:58.863] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xA
+[00:48:58.887] |T| [close_file]: sceIoClose: Closing file fd: 0xA
+[00:48:58.889] |I| [export_sceIoOpen]: Opening file: app0:_SCEA_EN-US_PSVITA.VFS
+[00:48:58.893] |T| [open_file]: sceIoOpen: Opening file app0:_SCEA_EN-US_PSVITA.VFS (ux0:/app/PCSA00087/_SCEA_EN-US_PSVITA.VFS), fd: 0xB
+[00:48:58.895] |T| [close_file]: sceIoClose: Closing file fd: 0xB
+[00:48:58.896] |I| [export_sceIoOpen]: Opening file: app0:_SCEA_EN-US_PSVITA.VFS
+[00:48:58.897] |T| [open_file]: sceIoOpen: Opening file app0:_SCEA_EN-US_PSVITA.VFS (ux0:/app/PCSA00087/_SCEA_EN-US_PSVITA.VFS), fd: 0xC
+[00:48:58.917] |T| [close_file]: sceIoClose: Closing file fd: 0xC
+[00:48:58.918] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:48:58.921] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xD
+[00:48:58.924] |T| [close_file]: sceIoClose: Closing file fd: 0xD
+[00:48:58.925] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:48:58.925] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xE
+[00:48:58.927] |T| [close_file]: sceIoClose: Closing file fd: 0xE
+[00:48:58.928] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:48:58.929] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xF
+[00:48:59.497] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[00:48:59.498] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[00:48:59.499] |W| [unimplemented_impl]: Unimplemented sceNpBasicCheckCallback import called.
+[00:48:59.534] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
+[00:48:59.803] |T| [close_file]: sceIoClose: Closing file fd: 0xF
+[00:48:59.803] |I| [export_sceIoOpen]: Opening file: app0:_SCEA_EN-US_PSVITA.VFS
+[00:48:59.804] |T| [open_file]: sceIoOpen: Opening file app0:_SCEA_EN-US_PSVITA.VFS (ux0:/app/PCSA00087/_SCEA_EN-US_PSVITA.VFS), fd: 0x10
+[00:48:59.804] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[00:48:59.805] |I| [export_sceIoOpen]: Opening file: app0:_SCEA_EN-US_PSVITA.VFS
+[00:48:59.805] |T| [open_file]: sceIoOpen: Opening file app0:_SCEA_EN-US_PSVITA.VFS (ux0:/app/PCSA00087/_SCEA_EN-US_PSVITA.VFS), fd: 0x11
+[00:48:59.937] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[00:48:59.937] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterHandler import called.
+[00:48:59.939] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
+[00:48:59.940] |W| [unimplemented_impl]: Unimplemented sceNpManagerGetAccountRegion import called.
+[00:48:59.940] |W| [unimplemented_impl]: Unimplemented sceNpTusInit import called.
+[00:48:59.941] |W| [unimplemented_impl]: Unimplemented sceNpTusCreateTitleCtx import called.
+[00:48:59.942] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR02970_00/TROPHY.TRP (ux0:/app/PCSA00087/sce_sys/trophy/NPWR02970_00/TROPHY.TRP), fd: 0x12
+[00:48:59.943] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR02970_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR02970_00/TROPUSR.DAT), fd: 0x13
+[00:48:59.945] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROPCONF.SFM), fd: 0x14
+[00:48:59.945] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 1180
+[00:48:59.946] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[00:48:59.946] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP.SFM), fd: 0x15
+[00:48:59.947] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 2378
+[00:48:59.947] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[00:48:59.948] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_01.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_01.SFM), fd: 0x16
+[00:48:59.949] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 2374
+[00:48:59.949] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[00:48:59.950] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_02.SFM), fd: 0x17
+[00:48:59.951] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 2455
+[00:48:59.951] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[00:48:59.952] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_03.SFM), fd: 0x18
+[00:48:59.954] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 2441
+[00:48:59.958] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[00:48:59.960] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_04.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_04.SFM), fd: 0x19
+[00:48:59.962] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 2444
+[00:48:59.962] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[00:48:59.963] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_05.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_05.SFM), fd: 0x1A
+[00:48:59.964] |T| [write_file]: install_trophy_context: Writing to fd: 0x1A, size: 2394
+[00:48:59.965] |T| [close_file]: install_trophy_context: Closing file fd: 0x1A
+[00:48:59.966] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_06.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_06.SFM), fd: 0x1B
+[00:48:59.967] |T| [write_file]: install_trophy_context: Writing to fd: 0x1B, size: 2392
+[00:48:59.967] |T| [close_file]: install_trophy_context: Closing file fd: 0x1B
+[00:48:59.968] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_07.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_07.SFM), fd: 0x1C
+[00:48:59.969] |T| [write_file]: install_trophy_context: Writing to fd: 0x1C, size: 2441
+[00:48:59.969] |T| [close_file]: install_trophy_context: Closing file fd: 0x1C
+[00:48:59.970] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_08.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_08.SFM), fd: 0x1D
+[00:48:59.974] |T| [write_file]: install_trophy_context: Writing to fd: 0x1D, size: 2940
+[00:48:59.975] |T| [close_file]: install_trophy_context: Closing file fd: 0x1D
+[00:48:59.975] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_12.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_12.SFM), fd: 0x1E
+[00:48:59.976] |T| [write_file]: install_trophy_context: Writing to fd: 0x1E, size: 2379
+[00:48:59.977] |T| [close_file]: install_trophy_context: Closing file fd: 0x1E
+[00:48:59.978] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_13.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_13.SFM), fd: 0x1F
+[00:48:59.978] |T| [write_file]: install_trophy_context: Writing to fd: 0x1F, size: 2387
+[00:48:59.979] |T| [close_file]: install_trophy_context: Closing file fd: 0x1F
+[00:48:59.980] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_14.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_14.SFM), fd: 0x20
+[00:48:59.981] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 2373
+[00:48:59.982] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[00:48:59.983] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_15.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_15.SFM), fd: 0x21
+[00:48:59.984] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 2383
+[00:48:59.984] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[00:48:59.985] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_16.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_16.SFM), fd: 0x22
+[00:48:59.988] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 2421
+[00:48:59.989] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[00:48:59.990] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_17.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_17.SFM), fd: 0x23
+[00:48:59.991] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 2441
+[00:48:59.991] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[00:48:59.992] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP_18.SFM (ux0:/user/00/trophy/conf/NPWR02970_00/TROP_18.SFM), fd: 0x24
+[00:48:59.993] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 2374
+[00:48:59.993] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[00:48:59.994] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/ICON0.PNG), fd: 0x25
+[00:48:59.995] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 15478
+[00:48:59.996] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[00:48:59.996] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP000.PNG), fd: 0x26
+[00:48:59.997] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 71869
+[00:48:59.998] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[00:48:59.999] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP001.PNG), fd: 0x27
+[00:49:00.000] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 58508
+[00:49:00.000] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[00:49:00.007] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP002.PNG), fd: 0x28
+[00:49:00.009] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 56661
+[00:49:00.009] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[00:49:00.011] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP003.PNG), fd: 0x29
+[00:49:00.011] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 61657
+[00:49:00.013] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[00:49:00.014] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP004.PNG), fd: 0x2A
+[00:49:00.015] |T| [write_file]: install_trophy_context: Writing to fd: 0x2A, size: 60860
+[00:49:00.016] |T| [close_file]: install_trophy_context: Closing file fd: 0x2A
+[00:49:00.016] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP005.PNG), fd: 0x2B
+[00:49:00.020] |T| [write_file]: install_trophy_context: Writing to fd: 0x2B, size: 63863
+[00:49:00.020] |T| [close_file]: install_trophy_context: Closing file fd: 0x2B
+[00:49:00.021] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP006.PNG), fd: 0x2C
+[00:49:00.023] |T| [write_file]: install_trophy_context: Writing to fd: 0x2C, size: 64360
+[00:49:00.024] |T| [close_file]: install_trophy_context: Closing file fd: 0x2C
+[00:49:00.025] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP007.PNG), fd: 0x2D
+[00:49:00.026] |T| [write_file]: install_trophy_context: Writing to fd: 0x2D, size: 58919
+[00:49:00.026] |T| [close_file]: install_trophy_context: Closing file fd: 0x2D
+[00:49:00.027] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP008.PNG), fd: 0x2E
+[00:49:00.028] |T| [write_file]: install_trophy_context: Writing to fd: 0x2E, size: 63061
+[00:49:00.029] |T| [close_file]: install_trophy_context: Closing file fd: 0x2E
+[00:49:00.030] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP009.PNG), fd: 0x2F
+[00:49:00.030] |T| [write_file]: install_trophy_context: Writing to fd: 0x2F, size: 63978
+[00:49:00.031] |T| [close_file]: install_trophy_context: Closing file fd: 0x2F
+[00:49:00.032] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP010.PNG), fd: 0x30
+[00:49:00.036] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 61240
+[00:49:00.037] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[00:49:00.037] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR02970_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR02970_00/TROP011.PNG), fd: 0x31
+[00:49:00.038] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 59291
+[00:49:00.039] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[00:49:00.039] |T| [close_file]: create_trophy_context: Closing file fd: 0x13
+[00:49:00.040] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR02970_00 create successfuly!
+[00:49:00.044] |W| [unimplemented_impl]: Unimplemented ksceKernelGetThreadCurrentPriority import called.
+[00:49:00.061] |W| [unimplemented_impl]: Unimplemented sceNpAuthInit import called.
+[00:49:00.062] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2Init import called.
+[00:49:00.063] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2CreateCtx import called.
+[00:49:00.087] |W| [unimplemented_impl]: Unimplemented sceNpSnsFacebookInit import called.
+[00:49:00.087] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[00:49:00.088] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:00.088] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x32
+[00:49:00.089] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[00:49:00.089] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:00.089] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x33
+[00:49:00.090] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[00:49:00.091] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:00.091] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x34
+[00:49:00.092] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[00:49:00.096] |W| [unimplemented_impl]: Unimplemented sceJpegEncoderGetContextSize import called.
+[00:49:00.097] |W| [unimplemented_impl]: Unimplemented sceJpegEncoderInitWithParam import called.
+[00:49:00.118] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:00.119] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x35
+[00:49:00.124] |E| [ArmDynarmicCallback::MemoryWrite]: Invalid write of uint32_t at addr: 0x0, val = 0x2479b0
+PC: 0x81088338,   SP: 0x00125c90,   LR: 0x81088339
+r0 : 0x00000000   r6 : 0x0000013a
+r1 : 0x002479b0   r7 : 0x002479d0
+r2 : 0x00000000   r8 : 0x000004e8
+r3 : 0x00000013   r9 : 0x00000000
+r4 : 0x81431b4c   r10: 0x00131034
+r5 : 0x001fee80   r11: 0x0000038c
+r12: 0x00125c90
+Thumb: true
+
+[00:49:00.125] |E| [ArmDynarmicCallback::MemoryWrite]: Executing: ldr r0, [r7, #4]
+[00:49:00.130] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[00:49:00.130] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.131] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x36
+[00:49:00.131] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[00:49:00.132] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.132] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x37
+[00:49:00.144] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[00:49:00.144] |I| [export_sceIoOpen]: Opening file: app0:GAMEPACKS_PSVITA.VFS
+[00:49:00.145] |T| [open_file]: sceIoOpen: Opening file app0:GAMEPACKS_PSVITA.VFS (ux0:/app/PCSA00087/GAMEPACKS_PSVITA.VFS), fd: 0x38
+[00:49:00.145] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[00:49:00.146] |I| [export_sceIoOpen]: Opening file: app0:GAMEPACKS_PSVITA.VFS
+[00:49:00.146] |T| [open_file]: sceIoOpen: Opening file app0:GAMEPACKS_PSVITA.VFS (ux0:/app/PCSA00087/GAMEPACKS_PSVITA.VFS), fd: 0x39
+[00:49:00.150] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[00:49:00.151] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.151] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x3A
+[00:49:00.152] |T| [close_file]: sceIoClose: Closing file fd: 0x3A
+[00:49:00.153] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.153] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x3B
+[00:49:00.155] |T| [close_file]: sceIoClose: Closing file fd: 0x3B
+[00:49:00.155] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.156] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x3C
+[00:49:00.157] |T| [close_file]: sceIoClose: Closing file fd: 0x3C
+[00:49:00.160] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.161] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x3D
+[00:49:00.170] |T| [close_file]: sceIoClose: Closing file fd: 0x3D
+[00:49:00.170] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.171] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x3E
+[00:49:00.175] |T| [close_file]: sceIoClose: Closing file fd: 0x3E
+[00:49:00.175] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.176] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x3F
+[00:49:00.178] |T| [close_file]: sceIoClose: Closing file fd: 0x3F
+[00:49:00.179] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.180] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x40
+[00:49:00.181] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[00:49:00.181] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.182] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x41
+[00:49:00.185] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[00:49:00.185] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.186] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x42
+[00:49:00.187] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[00:49:00.187] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.191] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x43
+[00:49:00.194] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[00:49:00.195] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.196] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x44
+[00:49:00.196] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[00:49:00.197] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.198] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x45
+[00:49:00.200] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[00:49:00.201] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.201] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x46
+[00:49:00.202] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[00:49:00.203] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.207] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x47
+[00:49:00.210] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[00:49:00.211] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.211] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x48
+[00:49:00.213] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[00:49:00.213] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.214] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x49
+[00:49:00.216] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[00:49:00.216] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.217] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x4A
+[00:49:00.218] |T| [close_file]: sceIoClose: Closing file fd: 0x4A
+[00:49:00.221] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.222] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x4B
+[00:49:00.224] |T| [close_file]: sceIoClose: Closing file fd: 0x4B
+[00:49:00.225] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.225] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x4C
+[00:49:00.226] |T| [close_file]: sceIoClose: Closing file fd: 0x4C
+[00:49:00.227] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.227] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x4D
+[00:49:00.230] |T| [close_file]: sceIoClose: Closing file fd: 0x4D
+[00:49:00.230] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.231] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x4E
+[00:49:00.232] |T| [close_file]: sceIoClose: Closing file fd: 0x4E
+[00:49:00.233] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.234] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x4F
+[00:49:00.240] |T| [close_file]: sceIoClose: Closing file fd: 0x4F
+[00:49:00.240] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.241] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x50
+[00:49:00.242] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[00:49:00.242] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.243] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x51
+[00:49:00.245] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[00:49:00.245] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.246] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x52
+[00:49:00.247] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[00:49:00.247] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.248] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x53
+[00:49:00.251] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[00:49:00.253] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.254] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x54
+[00:49:00.255] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[00:49:00.255] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.256] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x55
+[00:49:00.259] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[00:49:00.259] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.260] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x56
+[00:49:00.261] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[00:49:00.261] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.262] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x57
+[00:49:00.267] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[00:49:00.268] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.269] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x58
+[00:49:00.270] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[00:49:00.271] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.272] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x59
+[00:49:00.276] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[00:49:00.276] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.277] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x5A
+[00:49:00.278] |T| [close_file]: sceIoClose: Closing file fd: 0x5A
+[00:49:00.279] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.279] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x5B
+[00:49:00.280] |T| [close_file]: sceIoClose: Closing file fd: 0x5B
+[00:49:00.281] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.285] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x5C
+[00:49:00.287] |T| [close_file]: sceIoClose: Closing file fd: 0x5C
+[00:49:00.287] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.287] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x5D
+[00:49:00.289] |T| [close_file]: sceIoClose: Closing file fd: 0x5D
+[00:49:00.289] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.289] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x5E
+[00:49:00.290] |T| [close_file]: sceIoClose: Closing file fd: 0x5E
+[00:49:00.291] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.291] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x5F
+[00:49:00.293] |T| [close_file]: sceIoClose: Closing file fd: 0x5F
+[00:49:00.293] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.294] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x60
+[00:49:00.295] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[00:49:00.296] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.301] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x61
+[00:49:00.302] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[00:49:00.303] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.303] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x62
+[00:49:00.305] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[00:49:00.305] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.306] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x63
+[00:49:00.307] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[00:49:00.308] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.308] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x64
+[00:49:00.309] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[00:49:00.310] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.310] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x65
+[00:49:00.315] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[00:49:00.316] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.316] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x66
+[00:49:00.318] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[00:49:00.318] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.319] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x67
+[00:49:00.320] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[00:49:00.321] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.321] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x68
+[00:49:00.322] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[00:49:00.323] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.323] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x69
+[00:49:00.324] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[00:49:00.325] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.326] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x6A
+[00:49:00.330] |T| [close_file]: sceIoClose: Closing file fd: 0x6A
+[00:49:00.330] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.331] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x6B
+[00:49:00.331] |T| [close_file]: sceIoClose: Closing file fd: 0x6B
+[00:49:00.332] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.333] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x6C
+[00:49:00.335] |T| [close_file]: sceIoClose: Closing file fd: 0x6C
+[00:49:00.335] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.336] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x6D
+[00:49:00.338] |T| [close_file]: sceIoClose: Closing file fd: 0x6D
+[00:49:00.338] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.339] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x6E
+[00:49:00.340] |T| [close_file]: sceIoClose: Closing file fd: 0x6E
+[00:49:00.340] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.341] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x6F
+[00:49:00.345] |T| [close_file]: sceIoClose: Closing file fd: 0x6F
+[00:49:00.346] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.346] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x70
+[00:49:00.348] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[00:49:00.348] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.349] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x71
+[00:49:00.350] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[00:49:00.350] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.351] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x72
+[00:49:00.352] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[00:49:00.352] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.353] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x73
+[00:49:00.354] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[00:49:00.355] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.356] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x74
+[00:49:00.361] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[00:49:00.362] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.363] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x75
+[00:49:00.364] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[00:49:00.364] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.365] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x76
+[00:49:00.366] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[00:49:00.366] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.367] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x77
+[00:49:00.368] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[00:49:00.369] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.369] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x78
+[00:49:00.370] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[00:49:00.371] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.371] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x79
+[00:49:00.377] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[00:49:00.378] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.379] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x7A
+[00:49:00.380] |T| [close_file]: sceIoClose: Closing file fd: 0x7A
+[00:49:00.380] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.381] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x7B
+[00:49:00.382] |T| [close_file]: sceIoClose: Closing file fd: 0x7B
+[00:49:00.383] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.383] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x7C
+[00:49:00.385] |T| [close_file]: sceIoClose: Closing file fd: 0x7C
+[00:49:00.385] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.386] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x7D
+[00:49:00.387] |T| [close_file]: sceIoClose: Closing file fd: 0x7D
+[00:49:00.387] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.391] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x7E
+[00:49:00.392] |T| [close_file]: sceIoClose: Closing file fd: 0x7E
+[00:49:00.392] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.393] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x7F
+[00:49:00.395] |T| [close_file]: sceIoClose: Closing file fd: 0x7F
+[00:49:00.395] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.396] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x80
+[00:49:00.397] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[00:49:00.398] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.398] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x81
+[00:49:00.400] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[00:49:00.400] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.400] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x82
+[00:49:00.401] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[00:49:00.402] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.403] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x83
+[00:49:00.407] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[00:49:00.407] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.408] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x84
+[00:49:00.409] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[00:49:00.409] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.410] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x85
+[00:49:00.412] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[00:49:00.412] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.413] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x86
+[00:49:00.414] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[00:49:00.415] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.416] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x87
+[00:49:00.417] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[00:49:00.417] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.419] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x88
+[00:49:00.423] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[00:49:00.424] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.424] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x89
+[00:49:00.426] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[00:49:00.426] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.427] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x8A
+[00:49:00.428] |T| [close_file]: sceIoClose: Closing file fd: 0x8A
+[00:49:00.429] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.429] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x8B
+[00:49:00.430] |T| [close_file]: sceIoClose: Closing file fd: 0x8B
+[00:49:00.431] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.431] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x8C
+[00:49:00.432] |T| [close_file]: sceIoClose: Closing file fd: 0x8C
+[00:49:00.433] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.433] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x8D
+[00:49:00.438] |T| [close_file]: sceIoClose: Closing file fd: 0x8D
+[00:49:00.439] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.440] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x8E
+[00:49:00.441] |T| [close_file]: sceIoClose: Closing file fd: 0x8E
+[00:49:00.441] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.442] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x8F
+[00:49:00.443] |T| [close_file]: sceIoClose: Closing file fd: 0x8F
+[00:49:00.444] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.444] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x90
+[00:49:00.445] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[00:49:00.446] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.446] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x91
+[00:49:00.447] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[00:49:00.448] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.448] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x92
+[00:49:00.452] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[00:49:00.453] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.454] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x93
+[00:49:00.455] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[00:49:00.455] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.456] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x94
+[00:49:00.457] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[00:49:00.458] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.458] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x95
+[00:49:00.461] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[00:49:00.461] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.462] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x96
+[00:49:00.463] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[00:49:00.467] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.468] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x97
+[00:49:00.469] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[00:49:00.470] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.470] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x98
+[00:49:00.471] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[00:49:00.472] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.473] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x99
+[00:49:00.475] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[00:49:00.476] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.476] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x9A
+[00:49:00.477] |T| [close_file]: sceIoClose: Closing file fd: 0x9A
+[00:49:00.478] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.478] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x9B
+[00:49:00.482] |T| [close_file]: sceIoClose: Closing file fd: 0x9B
+[00:49:00.484] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.485] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x9C
+[00:49:00.486] |T| [close_file]: sceIoClose: Closing file fd: 0x9C
+[00:49:00.486] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:00.487] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0x9D
+[00:49:00.550] |T| [close_file]: sceIoClose: Closing file fd: 0x9D
+[00:49:00.551] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:00.552] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x9E
+[00:49:00.554] |T| [close_file]: sceIoClose: Closing file fd: 0x9E
+[00:49:00.555] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[00:49:00.555] |W| [unimplemented_impl]: Unimplemented sceNpGetServiceState import called.
+[00:49:00.556] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[00:49:00.770] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:00.771] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0x9F
+[00:49:00.901] |T| [close_file]: sceIoClose: Closing file fd: 0x9F
+[00:49:00.902] |I| [export_sceIoOpen]: Opening file: app0:ROBOLED_PSVITA.VFS
+[00:49:00.903] |T| [open_file]: sceIoOpen: Opening file app0:ROBOLED_PSVITA.VFS (ux0:/app/PCSA00087/ROBOLED_PSVITA.VFS), fd: 0xA0
+[00:49:00.905] |T| [close_file]: sceIoClose: Closing file fd: 0xA0
+[00:49:00.908] |I| [export_sceIoOpen]: Opening file: app0:ROBOLED_PSVITA.VFS
+[00:49:00.908] |T| [open_file]: sceIoOpen: Opening file app0:ROBOLED_PSVITA.VFS (ux0:/app/PCSA00087/ROBOLED_PSVITA.VFS), fd: 0xA1
+[00:49:00.971] |T| [close_file]: sceIoClose: Closing file fd: 0xA1
+[00:49:00.972] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:00.974] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xA2
+[00:49:00.977] |T| [close_file]: sceIoClose: Closing file fd: 0xA2
+[00:49:01.025] |I| [export_sceIoOpen]: Opening file: app0:SFX_PSVITA.VFS
+[00:49:01.026] |T| [open_file]: sceIoOpen: Opening file app0:SFX_PSVITA.VFS (ux0:/app/PCSA00087/SFX_PSVITA.VFS), fd: 0xA3
+[00:49:01.027] |T| [close_file]: sceIoClose: Closing file fd: 0xA3
+[00:49:01.028] |I| [export_sceIoOpen]: Opening file: app0:SFX_PSVITA.VFS
+[00:49:01.029] |T| [open_file]: sceIoOpen: Opening file app0:SFX_PSVITA.VFS (ux0:/app/PCSA00087/SFX_PSVITA.VFS), fd: 0xA4
+[00:49:01.254] |I| [export_sceIoOpen]: Opening file: savedata0:GameSlot0.bin
+[00:49:01.255] |T| [open_file]: sceIoOpen: Opening file savedata0:GameSlot0.bin (ux0:/user/00/savedata/PCSA00087/GameSlot0.bin), fd: 0xA5
+[00:49:01.259] |T| [close_file]: sceIoClose: Closing file fd: 0xA5
+[00:49:01.260] |T| [close_file]: sceIoClose: Closing file fd: 0xA4
+[00:49:01.261] |I| [export_sceIoOpen]: Opening file: savedata0:GameSlot0.bin
+[00:49:01.262] |T| [open_file]: sceIoOpen: Opening file savedata0:GameSlot0.bin (ux0:/user/00/savedata/PCSA00087/GameSlot0.bin), fd: 0xA6
+[00:49:01.264] |T| [close_file]: sceIoClose: Closing file fd: 0xA6
+[00:49:01.311] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:01.312] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xA7
+[00:49:01.314] |T| [close_file]: sceIoClose: Closing file fd: 0xA7
+[00:49:01.316] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:01.317] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xA8
+[00:49:01.462] |W| [unimplemented_impl]: Unimplemented sceLocationInit import called.
+[00:49:01.463] |W| [unimplemented_impl]: Unimplemented sceLocationOpen import called.
+[00:49:01.494] |W| [unimplemented_impl]: Unimplemented sceLocationGetPermission import called.
+[00:49:01.547] |T| [close_file]: sceIoClose: Closing file fd: 0xA8
+[00:49:01.547] |I| [export_sceIoOpen]: Opening file: app0:PANGEA_PSVITA.VFS
+[00:49:01.548] |T| [open_file]: sceIoOpen: Opening file app0:PANGEA_PSVITA.VFS (ux0:/app/PCSA00087/PANGEA_PSVITA.VFS), fd: 0xA9
+[00:49:01.549] |T| [close_file]: sceIoClose: Closing file fd: 0xA9
+[00:49:01.550] |I| [export_sceIoOpen]: Opening file: app0:PANGEA_PSVITA.VFS
+[00:49:01.550] |T| [open_file]: sceIoOpen: Opening file app0:PANGEA_PSVITA.VFS (ux0:/app/PCSA00087/PANGEA_PSVITA.VFS), fd: 0xAA
+[00:49:01.778] |T| [close_file]: sceIoClose: Closing file fd: 0xAA
+[00:49:01.779] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:01.779] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xAB
+[00:49:01.781] |T| [close_file]: sceIoClose: Closing file fd: 0xAB
+[00:49:01.781] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:01.782] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xAC
+[00:49:01.785] |W| [unimplemented_impl]: Unimplemented sceLocationReopen import called.
+[00:49:01.786] |W| [unimplemented_impl]: Unimplemented sceLocationStartLocationCallback import called.
+[00:49:01.786] |W| [unimplemented_impl]: Unimplemented sceLocationGetMethod import called.
+[00:49:01.787] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[00:49:01.788] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogInit import called.
+[00:49:01.788] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetStatus import called. (SCE_COMMON_DIALOG_STATUS_FINISHED)
+[00:49:01.792] |W| [stubbed_impl]: Stubbed sceNetCheckDialogGetResult import called. (result->result = -1, return 0)
+[00:49:01.793] |W| [unimplemented_impl]: Unimplemented sceNetCheckDialogTerm import called.
+[00:49:01.875] |W| [unimplemented_impl]: Unimplemented sceNpBasicGetFriendListEntryCount import called.
+[00:49:01.877] |W| [unimplemented_impl]: Unimplemented sceNpCommerce2HidePsStoreIcon import called.
+[00:49:08.928] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:08.928] |E| [logging::ret_error_impl]: sceNgsVoicePatchSetVolumesMatrix returned SCE_NGS_ERROR_INVALID_ARG (0x804A0002)
+[00:49:09.177] |W| [stubbed_impl]: Stubbed sceNpManagerGetContentRatingFlag import called. (isRestricted = 0; age = 21; return 0;)
+[00:49:09.181] |W| [unimplemented_impl]: Unimplemented sceNpTusCreateRequest import called.
+[00:49:09.182] |W| [unimplemented_impl]: Unimplemented sceNpTssGetSmallStorageAsync import called.
+[00:49:09.221] |T| [close_file]: sceIoClose: Closing file fd: 0xAC
+[00:49:09.222] |I| [export_sceIoOpen]: Opening file: app0:SKY_PSVITA.VFS
+[00:49:09.223] |T| [open_file]: sceIoOpen: Opening file app0:SKY_PSVITA.VFS (ux0:/app/PCSA00087/SKY_PSVITA.VFS), fd: 0xAD
+[00:49:09.225] |T| [close_file]: sceIoClose: Closing file fd: 0xAD
+[00:49:09.227] |I| [export_sceIoOpen]: Opening file: app0:SKY_PSVITA.VFS
+[00:49:09.228] |T| [open_file]: sceIoOpen: Opening file app0:SKY_PSVITA.VFS (ux0:/app/PCSA00087/SKY_PSVITA.VFS), fd: 0xAE
+[00:49:09.334] |T| [open_file]: sceAppUtilLoadSafeMemory: Opening file savedata0:/sce_sys/safemem.dat (ux0:/user/00/savedata/PCSA00087/sce_sys/safemem.dat), fd: 0xAF
+[00:49:09.335] |T| [close_file]: sceAppUtilLoadSafeMemory: Closing file fd: 0xAF
+[00:49:09.337] |I| [export_sceIoOpen]: Opening file: app0:NPWR02970_00-0.tss
+[00:49:09.338] |T| [open_file]: sceIoOpen: Opening file app0:NPWR02970_00-0.tss (ux0:/app/PCSA00087/NPWR02970_00-0.tss), fd: 0xB0
+[00:49:09.339] |T| [close_file]: sceIoClose: Closing file fd: 0xB0
+[00:49:09.524] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSA00087/SlotParam_0.bin), fd: 0xB1
+[00:49:09.526] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0xB1
+[00:49:09.529] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/GameSlot0.bin (ux0:/user/00/savedata/PCSA00087/GameSlot0.bin), fd: 0xB2
+[00:49:09.530] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xB2, size: 2183
+[00:49:09.531] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xB2
+[00:49:09.533] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/GameSlot0.bin (ux0:/user/00/savedata/PCSA00087/GameSlot0.bin), fd: 0xB3
+[00:49:09.537] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0xB3, to size: 2183
+[00:49:09.538] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xB3
+[00:49:09.538] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSA00087/SlotParam_0.bin), fd: 0xB4
+[00:49:09.540] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xB4, size: 844
+[00:49:09.540] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xB4
+[00:49:09.575] |T| [close_file]: sceIoClose: Closing file fd: 0xAE
+[00:49:09.576] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:09.577] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xB5
+[00:49:09.579] |T| [close_file]: sceIoClose: Closing file fd: 0xB5
+[00:49:09.582] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:09.583] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xB6
+[00:49:09.610] |W| [unimplemented_impl]: Unimplemented sceNpScoreCreateTitleCtx import called.
+[00:49:09.611] |T| [close_file]: sceIoClose: Closing file fd: 0xB6
+[00:49:09.614] |I| [export_sceIoOpen]: Opening file: app0:SYSTEM_PSVITA.VFS
+[00:49:09.615] |T| [open_file]: sceIoOpen: Opening file app0:SYSTEM_PSVITA.VFS (ux0:/app/PCSA00087/SYSTEM_PSVITA.VFS), fd: 0xB7
+[00:49:09.621] |T| [close_file]: sceIoClose: Closing file fd: 0xB7
+[00:49:09.639] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.660] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.661] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.798] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.816] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.832] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.848] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.865] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.882] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.899] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.915] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.933] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.948] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.966] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.982] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:09.998] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.016] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.032] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.049] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.065] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.082] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.099] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.115] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.132] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.148] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.166] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.182] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.199] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.216] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.232] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.248] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.266] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.282] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.299] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.316] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:10.733] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[00:49:13.550] |E| [logging::ret_error_impl]: sceNgsVoiceGetOutputPatch returned SCE_NGS_ERROR_INVALID_ARG (0x804A0002)
+[00:49:15.782] |I| [export_sceIoOpen]: Opening file: app0:HELP_PSVITA.VFS
+[00:49:15.782] |T| [open_file]: sceIoOpen: Opening file app0:HELP_PSVITA.VFS (ux0:/app/PCSA00087/HELP_PSVITA.VFS), fd: 0xB8
+[00:49:15.785] |T| [close_file]: sceIoClose: Closing file fd: 0xB8
+[00:49:15.787] |I| [export_sceIoOpen]: Opening file: app0:HELP_PSVITA.VFS
+[00:49:15.788] |T| [open_file]: sceIoOpen: Opening file app0:HELP_PSVITA.VFS (ux0:/app/PCSA00087/HELP_PSVITA.VFS), fd: 0xB9
+[00:49:17.066] |T| [close_file]: sceIoClose: Closing file fd: 0xB9
+[00:49:17.068] |I| [export_sceIoOpen]: Opening file: app0:HELP_PSVITA.VFS
+[00:49:17.069] |T| [open_file]: sceIoOpen: Opening file app0:HELP_PSVITA.VFS (ux0:/app/PCSA00087/HELP_PSVITA.VFS), fd: 0xBA
+[00:49:17.070] |T| [close_file]: sceIoClose: Closing file fd: 0xBA
+[00:49:17.081] |I| [export_sceIoOpen]: Opening file: app0:HELP_PSVITA.VFS
+[00:49:17.081] |T| [open_file]: sceIoOpen: Opening file app0:HELP_PSVITA.VFS (ux0:/app/PCSA00087/HELP_PSVITA.VFS), fd: 0xBB
+[00:49:18.632] |T| [close_file]: sceIoClose: Closing file fd: 0xBB
+[00:49:18.633] |I| [export_sceIoOpen]: Opening file: app0:HELP_PSVITA.VFS
+[00:49:18.634] |T| [open_file]: sceIoOpen: Opening file app0:HELP_PSVITA.VFS (ux0:/app/PCSA00087/HELP_PSVITA.VFS), fd: 0xBC
+[00:49:18.635] |T| [close_file]: sceIoClose: Closing file fd: 0xBC
+[00:49:18.651] |I| [export_sceIoOpen]: Opening file: app0:HELP_PSVITA.VFS
+[00:49:18.652] |T| [open_file]: sceIoOpen: Opening file app0:HELP_PSVITA.VFS (ux0:/app/PCSA00087/HELP_PSVITA.VFS), fd: 0xBD
+[00:49:20.925] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:20.940] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:20.956] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:20.973] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:20.991] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.005] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.022] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.038] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.058] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.072] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.090] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.108] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.122] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.143] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.155] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.171] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.380] |T| [close_file]: sceIoClose: Closing file fd: 0xBD
+[00:49:21.380] |I| [export_sceIoOpen]: Opening file: app0:SAVANNA1_SPRING_PSVITA.VFS
+[00:49:21.381] |T| [open_file]: sceIoOpen: Opening file app0:SAVANNA1_SPRING_PSVITA.VFS (ux0:/app/PCSA00087/SAVANNA1_SPRING_PSVITA.VFS), fd: 0xBE
+[00:49:21.383] |T| [close_file]: sceIoClose: Closing file fd: 0xBE
+[00:49:21.393] |I| [export_sceIoOpen]: Opening file: app0:SAVANNA1_SPRING_PSVITA.VFS
+[00:49:21.395] |T| [open_file]: sceIoOpen: Opening file app0:SAVANNA1_SPRING_PSVITA.VFS (ux0:/app/PCSA00087/SAVANNA1_SPRING_PSVITA.VFS), fd: 0xBF
+[00:49:21.514] |T| [close_file]: sceIoClose: Closing file fd: 0xBF
+[00:49:21.515] |I| [export_sceIoOpen]: Opening file: app0:SAVANNA1_MASK_PSVITA.VFS
+[00:49:21.518] |T| [open_file]: sceIoOpen: Opening file app0:SAVANNA1_MASK_PSVITA.VFS (ux0:/app/PCSA00087/SAVANNA1_MASK_PSVITA.VFS), fd: 0xC0
+[00:49:21.519] |T| [close_file]: sceIoClose: Closing file fd: 0xC0
+[00:49:21.519] |I| [export_sceIoOpen]: Opening file: app0:SAVANNA1_MASK_PSVITA.VFS
+[00:49:21.520] |T| [open_file]: sceIoOpen: Opening file app0:SAVANNA1_MASK_PSVITA.VFS (ux0:/app/PCSA00087/SAVANNA1_MASK_PSVITA.VFS), fd: 0xC1
+[00:49:21.599] |T| [close_file]: sceIoClose: Closing file fd: 0xC1
+[00:49:21.599] |I| [export_sceIoOpen]: Opening file: app0:GRASS_PSVITA.VFS
+[00:49:21.600] |T| [open_file]: sceIoOpen: Opening file app0:GRASS_PSVITA.VFS (ux0:/app/PCSA00087/GRASS_PSVITA.VFS), fd: 0xC2
+[00:49:21.601] |T| [close_file]: sceIoClose: Closing file fd: 0xC2
+[00:49:21.602] |I| [export_sceIoOpen]: Opening file: app0:GRASS_PSVITA.VFS
+[00:49:21.603] |T| [open_file]: sceIoOpen: Opening file app0:GRASS_PSVITA.VFS (ux0:/app/PCSA00087/GRASS_PSVITA.VFS), fd: 0xC3
+[00:49:21.605] |T| [close_file]: sceIoClose: Closing file fd: 0xC3
+[00:49:21.606] |I| [export_sceIoOpen]: Opening file: app0:GRASS_PSVITA.VFS
+[00:49:21.607] |T| [open_file]: sceIoOpen: Opening file app0:GRASS_PSVITA.VFS (ux0:/app/PCSA00087/GRASS_PSVITA.VFS), fd: 0xC4
+[00:49:21.685] |T| [close_file]: sceIoClose: Closing file fd: 0xC4
+[00:49:21.686] |I| [export_sceIoOpen]: Opening file: app0:SKY_PSVITA.VFS
+[00:49:21.688] |T| [open_file]: sceIoOpen: Opening file app0:SKY_PSVITA.VFS (ux0:/app/PCSA00087/SKY_PSVITA.VFS), fd: 0xC5
+[00:49:21.690] |T| [close_file]: sceIoClose: Closing file fd: 0xC5
+[00:49:21.693] |I| [export_sceIoOpen]: Opening file: app0:SKY_PSVITA.VFS
+[00:49:21.693] |T| [open_file]: sceIoOpen: Opening file app0:SKY_PSVITA.VFS (ux0:/app/PCSA00087/SKY_PSVITA.VFS), fd: 0xC6
+[00:49:21.748] |T| [close_file]: sceIoClose: Closing file fd: 0xC6
+[00:49:21.748] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:21.749] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0xC7
+[00:49:21.751] |T| [close_file]: sceIoClose: Closing file fd: 0xC7
+[00:49:21.753] |I| [export_sceIoOpen]: Opening file: app0:DEFINITIONS_PSVITA.VFS
+[00:49:21.753] |T| [open_file]: sceIoOpen: Opening file app0:DEFINITIONS_PSVITA.VFS (ux0:/app/PCSA00087/DEFINITIONS_PSVITA.VFS), fd: 0xC8
+[00:49:21.831] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSA00087/SlotParam_0.bin), fd: 0xC9
+[00:49:21.832] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0xC9
+[00:49:21.833] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/GameSlot0.bin (ux0:/user/00/savedata/PCSA00087/GameSlot0.bin), fd: 0xCA
+[00:49:21.835] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xCA, size: 2198
+[00:49:21.836] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xCA
+[00:49:21.837] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/GameSlot0.bin (ux0:/user/00/savedata/PCSA00087/GameSlot0.bin), fd: 0xCB
+[00:49:21.839] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0xCB, to size: 2198
+[00:49:21.839] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xCB
+[00:49:21.841] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSA00087/SlotParam_0.bin), fd: 0xCC
+[00:49:21.845] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0xCC, size: 844
+[00:49:21.846] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0xCC
+[00:49:21.958] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:21.959] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.007] |W| [renderer::vulkan::VKContext::start_recording]: Render Target is using more scenes per frame than what was planned!
+[00:49:22.099] |T| [close_file]: sceIoClose: Closing file fd: 0xC8
+[00:49:22.100] |I| [export_sceIoOpen]: Opening file: app0:HELP_PSVITA.VFS
+[00:49:22.101] |T| [open_file]: sceIoOpen: Opening file app0:HELP_PSVITA.VFS (ux0:/app/PCSA00087/HELP_PSVITA.VFS), fd: 0xCD
+[00:49:22.103] |T| [close_file]: sceIoClose: Closing file fd: 0xCD
+[00:49:22.107] |I| [export_sceIoOpen]: Opening file: app0:HELP_PSVITA.VFS
+[00:49:22.108] |T| [open_file]: sceIoOpen: Opening file app0:HELP_PSVITA.VFS (ux0:/app/PCSA00087/HELP_PSVITA.VFS), fd: 0xCE
+[00:49:22.249] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.282] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.315] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.349] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.382] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.416] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.449] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.482] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.516] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.548] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.582] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.615] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.649] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.682] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.715] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.748] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.782] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.815] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.848] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.882] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.914] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.949] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:22.981] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:23.015] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:23.049] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:23.081] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:23.115] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:23.149] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:23.182] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:23.214] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:23.248] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0
+[00:49:23.281] |W| [export_sceNgsVoiceGetOutputPatch]: Getting non-existen output patch port 0:0

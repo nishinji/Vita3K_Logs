@@ -1,0 +1,356 @@
+[10:37:53.282] |I| [load_app_impl]: cpu-backend: Dynarmic
+[10:37:53.282] |I| [load_app_impl]: CPU Optimisation state: true
+[10:37:53.283] |I| [load_app_impl]: ngs state: true
+[10:37:53.283] |I| [load_app_impl]: Resolution multiplier: 1
+[10:37:53.283] |I| [load_app_impl]: modules mode: Automatic
+[10:37:53.283] |I| [load_app_impl]: Title: ダンボール戦機Ｗ
+[10:37:53.284] |I| [load_app_impl]: Serial: PCSG00077
+[10:37:53.284] |I| [load_app_impl]: Version: 1.00
+[10:37:53.284] |I| [load_app_impl]: Category: gd
+[10:37:53.288] |I| [load_module]: Loading module "app0:eboot.bin"
+[10:37:54.010] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[10:37:54.011] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81662A84 / 0x81000000] (size: 0x00662A84) of module app0:eboot.bin
+[10:37:54.012] |I| [load_self]: Loaded module segment 1 @ [0x81663000 - 0x8175DD70 / 0x81663000] (size: 0x000FAD70) of module app0:eboot.bin
+[10:37:54.014] |I| [load_self]: Linking SELF app0:eboot.bin...
+[10:37:54.016] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8155f374
+[10:37:54.017] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x816630ac
+[10:37:54.019] |W| [load_var_imports]: 	NID NOT FOUND 0x36878958 (UNRECOGNISED) at 0x81565198, setting to stub value 0xdeadbeef
+[10:37:54.022] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x81565008, setting to stub value 0xdeadbeef
+[10:37:54.025] |W| [load_var_imports]: 	NID NOT FOUND 0x5d8c1282 (UNRECOGNISED) at 0x81564ff4, setting to stub value 0xdeadbeef
+[10:37:54.031] |W| [load_var_imports]: 	NID NOT FOUND 0x66b7406c (UNRECOGNISED) at 0x81565150, setting to stub value 0xdeadbeef
+[10:37:54.036] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x81565174, setting to stub value 0xdeadbeef
+[10:37:54.040] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x815650fc, setting to stub value 0xdeadbeef
+[10:37:54.048] |W| [load_var_imports]: 	NID NOT FOUND 0x64ada35 (UNRECOGNISED) at 0x81564e20, setting to stub value 0xdeadbeef
+[10:37:54.050] |W| [load_var_imports]: 	NID NOT FOUND 0x6bc74629 (UNRECOGNISED) at 0x81561454, setting to stub value 0xdeadbeef
+[10:37:54.053] |W| [load_var_imports]: 	NID NOT FOUND 0x7321e731 (UNRECOGNISED) at 0x81564620, setting to stub value 0xdeadbeef
+[10:37:54.057] |W| [load_var_imports]: 	NID NOT FOUND 0x82a84e5e (UNRECOGNISED) at 0x81564c4c, setting to stub value 0xdeadbeef
+[10:37:54.059] |W| [load_var_imports]: 	NID NOT FOUND 0xf79ae8e1 (UNRECOGNISED) at 0x81560c90, setting to stub value 0xdeadbeef
+[10:37:54.064] |I| [load_module]: Module Main (at "app0:eboot.bin") loaded
+[10:37:54.066] |I| [load_app_impl]: Main executable Main (eboot.bin) loaded
+[10:37:54.090] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[10:37:54.160] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[10:37:54.163] |I| [load_self]: Loaded module segment 0 @ [0x8000F000 - 0x8004AC2C / 0x81000000] (size: 0x0003BC2C) of module app0:sce_module/libc.suprx
+[10:37:54.165] |I| [load_self]: Loaded module segment 1 @ [0x8004B000 - 0x8004D380 / 0x8103C000] (size: 0x00002380) of module app0:sce_module/libc.suprx
+[10:37:54.166] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[10:37:54.169] |D| [load_var_exports]: Found previously not found variable. nid:0x36878958, new_entry_point:0x80044514
+[10:37:54.170] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x800439b4
+[10:37:54.172] |D| [load_var_exports]: Found previously not found variable. nid:0x5d8c1282, new_entry_point:0x8004b4b0
+[10:37:54.174] |D| [load_var_exports]: Found previously not found variable. nid:0x66b7406c, new_entry_point:0x8004b3b0
+[10:37:54.176] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x8004430c
+[10:37:54.181] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x8004b5b0
+[10:37:54.183] |D| [load_var_exports]: Found previously not found variable. nid:0x64ada35, new_entry_point:0x8004a238
+[10:37:54.185] |D| [load_var_exports]: Found previously not found variable. nid:0x6bc74629, new_entry_point:0x8004a9e0
+[10:37:54.187] |D| [load_var_exports]: Found previously not found variable. nid:0x7321e731, new_entry_point:0x8004a9f0
+[10:37:54.189] |D| [load_var_exports]: Found previously not found variable. nid:0x82a84e5e, new_entry_point:0x8004a1cc
+[10:37:54.190] |D| [load_var_exports]: Found previously not found variable. nid:0xf79ae8e1, new_entry_point:0x8004a9d0
+[10:37:54.196] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8003c540
+[10:37:54.198] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[10:37:54.200] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[10:37:54.315] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[10:37:54.318] |I| [load_self]: Loaded module segment 0 @ [0x8004E000 - 0x8006F370 / 0x81000000] (size: 0x00021370) of module app0:sce_module/libfios2.suprx
+[10:37:54.323] |I| [load_self]: Loaded module segment 1 @ [0x80004000 - 0x800091B8 / 0x81022000] (size: 0x000051B8) of module app0:sce_module/libfios2.suprx
+[10:37:54.335] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[10:37:54.340] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x80068d38
+[10:37:54.341] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[10:37:54.344] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[10:37:54.372] |I| [load_self]: Loaded module segment 0 @ [0x80070000 - 0x800C0F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[10:37:54.375] |I| [load_self]: Loaded module segment 1 @ [0x8000A000 - 0x8000A2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[10:37:54.381] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[10:37:54.383] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x800ac7dc
+[10:37:54.388] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x800abf10
+[10:37:54.389] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[10:37:54.392] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[10:37:54.401] |I| [load_self]: Loaded module segment 0 @ [0x800C1000 - 0x800D0F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[10:37:54.406] |I| [load_self]: Loaded module segment 1 @ [0x8000B000 - 0x8000B008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[10:37:54.410] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[10:37:54.411] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x800cf710
+[10:37:54.413] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x800cf300
+[10:37:54.419] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[10:37:54.460] |D| [start_module]: Running module_start of library: SceLibc at address 0x8000f5b1
+[10:37:54.515] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[10:37:54.516] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[10:37:54.518] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[10:37:54.537] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[10:37:54.544] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x8004e001
+[10:37:54.584] |W| [export_sceKernelGetProcessId::<lambda_1>::operator ()]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[10:37:54.588] |W| [export__sceFiosKernelOverlayGetList::<lambda_1>::operator ()]: Unimplemented _sceFiosKernelOverlayGetList import called.
+[10:37:54.592] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[10:37:54.600] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8155eb34
+[10:37:54.602] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x54f87eac _sceLdTlsRegisterModuleInfo at 0x8155e994
+[10:37:54.835] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x8155ebd4
+[10:37:54.909] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x8155e9c4
+[10:37:54.915] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x8155e9e4
+[10:37:54.987] |W| [export_sceAppUtilInit::<lambda_1>::operator ()]: Unimplemented sceAppUtilInit import called.
+[10:37:54.989] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_FIBER
+[10:37:54.991] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbc529b7b __tls_get_addr at 0x8155eb04
+[10:37:55.054] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[10:37:55.061] |W| [export_sceGxmMapFragmentUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[10:37:55.147] |W| [export_sceGxmMapVertexUsseMemory::<lambda_1>::operator ()]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[10:37:56.027] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x8155ebf4
+[10:37:56.044] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x8155ea34
+[10:37:56.052] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x8155ea24
+[10:37:56.356] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x8155eb94
+[10:37:56.377] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1434fa46 strcat at 0x8155e894
+[10:37:56.469] |I| [export_sceIoOpen]: Opening file: app0:DA2File_vita.cpk
+[10:37:56.587] |T| [open_file]: sceIoOpen: Opening file app0:DA2File_vita.cpk (ux0:/app/PCSG00077/DA2File_vita.cpk), fd: 0x3
+[10:37:56.725] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x8155e8d4
+[10:37:56.841] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[10:37:56.877] |I| [export_sceIoOpen]: Opening file: app0:DA2File_vita.cpk
+[10:37:56.883] |T| [open_file]: sceIoOpen: Opening file app0:DA2File_vita.cpk (ux0:/app/PCSG00077/DA2File_vita.cpk), fd: 0x4
+[10:37:56.939] |I| [export_sceIoOpen]: Opening file: app0:FilterShader.afsb
+[10:37:57.041] |T| [open_file]: sceIoOpen: Opening file app0:FilterShader.afsb (ux0:/app/PCSG00077/FilterShader.afsb), fd: 0x5
+[10:37:57.052] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[10:37:57.056] |I| [export_sceIoOpen]: Opening file: app0:FilterShader.afsb
+[10:37:57.058] |T| [open_file]: sceIoOpen: Opening file app0:FilterShader.afsb (ux0:/app/PCSG00077/FilterShader.afsb), fd: 0x6
+[10:37:57.061] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[10:37:57.084] |I| [export_sceIoOpen]: Opening file: app0:AHSLDiskCacheVita
+[10:37:57.218] |T| [open_file]: sceIoOpen: Opening file app0:AHSLDiskCacheVita (ux0:/app/PCSG00077/AHSLDiskCacheVita), fd: 0x7
+[10:37:57.225] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[10:37:57.227] |I| [export_sceIoOpen]: Opening file: app0:AHSLDiskCacheVita
+[10:37:57.232] |T| [open_file]: sceIoOpen: Opening file app0:AHSLDiskCacheVita (ux0:/app/PCSG00077/AHSLDiskCacheVita), fd: 0x8
+[10:37:57.256] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[10:37:58.270] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc5b9c8d8 _FDtest at 0x8155ed94
+[10:37:58.292] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x75348906 fabsf at 0x8155ed54
+[10:37:58.295] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x27eab8c1 acosf at 0x8155ec54
+[10:37:58.299] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4a496bc0 _FSin at 0x8155ec94
+[10:37:58.306] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3a3e5424 asinf at 0x8155ec64
+[10:37:58.393] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x184c4b07 strcasecmp at 0x8155e8b4
+[10:37:58.468] |T| [log_import_call]: [LLE] TID: 169 FUNC: 0x7747f6d7 memcmp at 0x8155ea04
+[10:37:58.919] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd78fc94e atanf at 0x8155ede4
+[10:37:58.920] |W| [export__sceDisplaySetFrameBuf::<lambda_7>::operator ()]: Stubbed _sceDisplaySetFrameBuf import called. (SCE_DISPLAY_SETBUF_IMMEDIATE is not supported)
+[10:37:58.955] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SYSTEM_GESTURE
+[10:37:58.966] |I| [load_module]: Loading module "vs0:sys/external/libsystemgesture.suprx"
+[10:37:59.310] |I| [load_self]: vs0:sys/external/libsystemgesture.suprx: Skipping special segment 0x6fffff01...
+[10:37:59.313] |I| [load_self]: Loaded module segment 0 @ [0x807E5000 - 0x807E808C / 0x81000000] (size: 0x0000308C) of module vs0:sys/external/libsystemgesture.suprx
+[10:37:59.335] |I| [load_self]: Loaded module segment 1 @ [0x807E9000 - 0x807E9BF0 / 0x81004000] (size: 0x00000BF0) of module vs0:sys/external/libsystemgesture.suprx
+[10:37:59.340] |I| [load_self]: Linking SELF vs0:sys/external/libsystemgesture.suprx...
+[10:37:59.341] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x807e8074
+[10:37:59.344] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x807e7bd4
+[10:37:59.345] |I| [load_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") loaded
+[10:37:59.347] |D| [start_module]: Running module_start of library: SceSystemGesture at address 0x807e5001
+[10:37:59.389] |I| [start_module]: Module SceSystemGesture (at "vs0:sys/external/libsystemgesture.suprx") module_start returned 0x0
+[10:37:59.425] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6078a08b sceSystemGestureInitializePrimitiveTouchRecognizer at 0x8155e3b4
+[10:37:59.695] |W| [export_sceTouchGetPixelDensity2::<lambda_1>::operator ()]: Stubbed sceTouchGetPixelDensity2 import called. (Return constant values (22.0))
+[10:37:59.857] |E| [export_sceSysmoduleIsLoaded::<lambda_2>::operator ()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[10:37:59.861] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[10:37:59.922] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9a004680 printf at 0x8155ea54
+[10:37:59.956] |T| [write_file]: *** TTY: sceSysmoduleLoadModule(SCE_SYSMODULE_NGS)
+[10:38:00.267] |T| [write_file]: *** TTY: sceNgsSystemInit()
+[10:38:00.272] |T| [write_file]: *** TTY: NGS System work size              :    312
+[10:38:00.305] |T| [write_file]: *** TTY: NGS PCM/VAG Player Rack work size : 248432 (MAX Voices : 32)
+[10:38:00.309] |T| [write_file]: *** TTY: NGS AT9 Player Rack work size     :  75504 (MAX Voices : 16)
+[10:38:00.315] |T| [write_file]: *** TTY: NGS Reverb Rack work size         :    560
+[10:38:00.318] |T| [write_file]: *** TTY: NGS Master Rack work size         :    360
+[10:38:00.475] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x8155ed44
+[10:38:00.988] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[10:38:01.124] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x8155ea74
+[10:38:01.834] |W| [export___sceAppMgrGetAppState::<lambda_1>::operator ()]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[10:38:02.084] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR03631_00/TROPHY.TRP (ux0:/app/PCSG00077/sce_sys/trophy/NPWR03631_00/TROPHY.TRP), fd: 0x9
+[10:38:02.209] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR03631_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR03631_00/TROPUSR.DAT), fd: 0xa
+[10:38:02.371] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR03631_00/TROPCONF.SFM), fd: 0xb
+[10:38:02.378] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 2920
+[10:38:02.380] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[10:38:02.571] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR03631_00/TROP.SFM), fd: 0xc
+[10:38:02.578] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 7781
+[10:38:02.579] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[10:38:02.696] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/ICON0.PNG), fd: 0xd
+[10:38:02.700] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 43276
+[10:38:02.701] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[10:38:02.761] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP000.PNG), fd: 0xe
+[10:38:02.765] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 105396
+[10:38:02.771] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[10:38:02.809] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP001.PNG), fd: 0xf
+[10:38:02.814] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 115082
+[10:38:02.818] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[10:38:02.887] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP002.PNG), fd: 0x10
+[10:38:02.895] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 102951
+[10:38:02.897] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[10:38:03.001] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP003.PNG), fd: 0x11
+[10:38:03.010] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 104664
+[10:38:03.014] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[10:38:03.065] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP004.PNG), fd: 0x12
+[10:38:03.069] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 110820
+[10:38:03.070] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[10:38:03.105] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP005.PNG), fd: 0x13
+[10:38:03.111] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 111279
+[10:38:03.112] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[10:38:03.204] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP006.PNG), fd: 0x14
+[10:38:03.208] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 103937
+[10:38:03.210] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[10:38:03.256] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP007.PNG), fd: 0x15
+[10:38:03.259] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 108272
+[10:38:03.262] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[10:38:03.322] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP008.PNG), fd: 0x16
+[10:38:03.326] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 101872
+[10:38:03.328] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[10:38:03.360] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP009.PNG), fd: 0x17
+[10:38:03.364] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 115212
+[10:38:03.369] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[10:38:03.414] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP010.PNG), fd: 0x18
+[10:38:03.421] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 110670
+[10:38:03.421] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[10:38:03.489] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP011.PNG), fd: 0x19
+[10:38:03.493] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 113995
+[10:38:03.494] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[10:38:03.577] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP012.PNG), fd: 0x1a
+[10:38:03.581] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 109086
+[10:38:03.585] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[10:38:03.635] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP013.PNG), fd: 0x1b
+[10:38:03.640] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 111576
+[10:38:03.640] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[10:38:03.687] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP014.PNG), fd: 0x1c
+[10:38:03.691] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 114179
+[10:38:03.693] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[10:38:03.773] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP015.PNG), fd: 0x1d
+[10:38:03.777] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 114110
+[10:38:03.779] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[10:38:03.819] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP016.PNG), fd: 0x1e
+[10:38:03.824] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 112212
+[10:38:03.825] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[10:38:03.932] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP017.PNG), fd: 0x1f
+[10:38:03.937] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 100421
+[10:38:03.938] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[10:38:04.013] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP018.PNG), fd: 0x20
+[10:38:04.020] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 108652
+[10:38:04.021] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[10:38:04.069] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP019.PNG), fd: 0x21
+[10:38:04.075] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 115844
+[10:38:04.076] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[10:38:04.134] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP020.PNG), fd: 0x22
+[10:38:04.141] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 117891
+[10:38:04.142] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[10:38:04.189] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP021.PNG), fd: 0x23
+[10:38:04.195] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 113857
+[10:38:04.197] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[10:38:04.380] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP022.PNG), fd: 0x24
+[10:38:04.389] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 115448
+[10:38:04.392] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[10:38:04.477] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP023.PNG), fd: 0x25
+[10:38:04.485] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 112035
+[10:38:04.487] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[10:38:04.562] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP024.PNG), fd: 0x26
+[10:38:04.567] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 116500
+[10:38:04.569] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[10:38:04.645] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP025.PNG), fd: 0x27
+[10:38:04.655] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 107045
+[10:38:04.656] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[10:38:04.694] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP026.PNG), fd: 0x28
+[10:38:04.700] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 111417
+[10:38:04.702] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[10:38:04.742] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP027.PNG), fd: 0x29
+[10:38:04.747] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 101417
+[10:38:04.748] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[10:38:04.796] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP028.PNG), fd: 0x2a
+[10:38:04.803] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 114528
+[10:38:04.805] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[10:38:04.852] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP029.PNG), fd: 0x2b
+[10:38:04.856] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 114133
+[10:38:04.858] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[10:38:04.921] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP030.PNG), fd: 0x2c
+[10:38:04.924] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 115721
+[10:38:04.927] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[10:38:04.995] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP031.PNG), fd: 0x2d
+[10:38:04.998] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 115066
+[10:38:05.001] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[10:38:05.046] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP032.PNG), fd: 0x2e
+[10:38:05.051] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 106916
+[10:38:05.053] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[10:38:05.115] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP033.PNG), fd: 0x2f
+[10:38:05.121] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 114271
+[10:38:05.122] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[10:38:05.164] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP034.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP034.PNG), fd: 0x30
+[10:38:05.173] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 104166
+[10:38:05.174] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[10:38:05.235] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP035.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP035.PNG), fd: 0x31
+[10:38:05.239] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 110636
+[10:38:05.241] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[10:38:05.299] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP036.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP036.PNG), fd: 0x32
+[10:38:05.305] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 100162
+[10:38:05.306] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[10:38:05.364] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP037.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP037.PNG), fd: 0x33
+[10:38:05.368] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 113823
+[10:38:05.370] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[10:38:05.418] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP038.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP038.PNG), fd: 0x34
+[10:38:05.422] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 101722
+[10:38:05.424] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[10:38:05.511] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP039.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP039.PNG), fd: 0x35
+[10:38:05.515] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 115157
+[10:38:05.519] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[10:38:05.590] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP040.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP040.PNG), fd: 0x36
+[10:38:05.607] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 104977
+[10:38:05.629] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[10:38:05.698] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP041.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP041.PNG), fd: 0x37
+[10:38:05.705] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 104022
+[10:38:05.707] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[10:38:05.764] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP042.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP042.PNG), fd: 0x38
+[10:38:05.771] |T| [write_file]: install_trophy_context: Writing to fd: 0x38, size: 103976
+[10:38:05.771] |T| [close_file]: install_trophy_context: Closing file fd: 0x38
+[10:38:05.828] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP043.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP043.PNG), fd: 0x39
+[10:38:05.839] |T| [write_file]: install_trophy_context: Writing to fd: 0x39, size: 100403
+[10:38:05.841] |T| [close_file]: install_trophy_context: Closing file fd: 0x39
+[10:38:05.890] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR03631_00/TROP044.PNG (ux0:/user/00/trophy/conf/NPWR03631_00/TROP044.PNG), fd: 0x3a
+[10:38:05.893] |T| [write_file]: install_trophy_context: Writing to fd: 0x3a, size: 98904
+[10:38:05.897] |T| [close_file]: install_trophy_context: Closing file fd: 0x3a
+[10:38:05.931] |T| [close_file]: create_trophy_context: Closing file fd: 0xa
+[10:38:05.946] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR03631_00 create successfuly!
+[10:38:05.957] |W| [export_sceCommonDialogSetConfigParam::<lambda_1>::operator ()]: Unimplemented sceCommonDialogSetConfigParam import called.
+[10:38:06.087] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4e09dd53 atan2f at 0x8155ecb4
+[10:38:06.095] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa98e941b tanf at 0x8155ed74
+[10:38:06.656] |T| [log_import_call]: [LLE] TID: 150 FUNC: 0xd0310e31 __cxa_guard_acquire at 0x8155eb74
+[10:38:06.760] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x26d15ab8e00, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[10:38:07.211] |T| [log_import_call]: [LLE] TID: 150 FUNC: 0x4ed1056f __cxa_guard_release at 0x8155e974
+[10:38:07.926] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x26d15ab8e00, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[10:38:08.379] |T| [log_import_call]: [LLE] TID: 150 FUNC: 0xe71c5cde _Stoul at 0x8155eba4
+[10:38:08.839] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ee5915dc5825fd7120c7241f513ade9914d100e292610f2934c8bd0a54e2d815
+[10:38:09.411] |W| [export_sceCommonDialogUpdate::<lambda_1>::operator ()]: Unimplemented sceCommonDialogUpdate import called.
+[10:38:09.527] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader ee5915dc5825fd7120c7241f513ade9914d100e292610f2934c8bd0a54e2d815
+[10:38:09.614] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_vPos
+[10:38:09.615] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) fClearZ
+[10:38:09.616] |D| [shader::create_parameters]: [DEFAULT  + 2] sa2 = (float4) vClearColor
+[10:38:09.640] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[10:38:09.741] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 7d074508b86704f7a737a5ef39f4a348958579889ba4b61ae80cb1dc924ea64c
+[10:38:09.743] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 7d074508b86704f7a737a5ef39f4a348958579889ba4b61ae80cb1dc924ea64c
+[10:38:09.747] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[10:38:09.748] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:38:10.968] |E| [debug_callback]: Validation layer: Validation Error: [ VUID-VkSubpassDependency-srcSubpass-00867 ] Object 0: handle = 0x26d15ab8e00, type = VK_OBJECT_TYPE_DEVICE; | MessageID = 0xb8360d10 | Dependency 3 specifies a self-dependency from logically-later stage (VK_PIPELINE_STAGE_VERTEX_SHADER_BIT) to a logically-earlier stage (VK_PIPELINE_STAGE_2_INDEX_INPUT_BIT). The Vulkan spec states: If srcSubpass is equal to dstSubpass and not all of the stages in srcStageMask and dstStageMask are framebuffer-space stages, the logically latest pipeline stage in srcStageMask must be logically earlier than or equal to the logically earliest pipeline stage in dstStageMask (https://vulkan.lunarg.com/doc/view/1.3.216.0/windows/1.3-extensions/vkspec.html#VUID-VkSubpassDependency-srcSubpass-00867)
+[10:38:11.024] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader be6ea8e2c0572dfeac86a7975ec78da502b39fc23a8ccf2c835cabb24525351b
+[10:38:11.030] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader be6ea8e2c0572dfeac86a7975ec78da502b39fc23a8ccf2c835cabb24525351b
+[10:38:11.041] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_vPos
+[10:38:11.048] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_vTexCoord0
+[10:38:11.055] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vsin_vTexCoord1
+[10:38:11.059] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[10:38:11.108] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 090fbf3836e77b6f660d03a4bb0e4367bfb31214f1921ffccb108b0b1c92a1ce
+[10:38:11.110] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 090fbf3836e77b6f660d03a4bb0e4367bfb31214f1921ffccb108b0b1c92a1ce
+[10:38:11.115] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(sTex_0, TEXCOORD0_CENTROID.xy)
+[10:38:11.117] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[10:38:11.296] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader da150273679f4a214368008b38ad88749daf3c74572a6e13b5fe8a0b6fc5a066
+[10:38:11.300] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader da150273679f4a214368008b38ad88749daf3c74572a6e13b5fe8a0b6fc5a066
+[10:38:11.306] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_vPos
+[10:38:11.307] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_vColor
+[10:38:11.308] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) cmWVS[4]
+[10:38:11.311] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) cmWorld[3]
+[10:38:11.314] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 7
+[10:38:11.347] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader d0a39b97102abbf231166729a82316300a389cf4559d3694fd7bc3439fe51ccf
+[10:38:11.349] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader d0a39b97102abbf231166729a82316300a389cf4559d3694fd7bc3439fe51ccf
+[10:38:11.356] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) eALBEDO_CONSTCOLOR0
+[10:38:11.358] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[10:38:11.361] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[10:38:11.366] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:38:17.996] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader fdea265563d4ebc356c37d51bf8a36bb9c22ba13ab8ffc66d8b5765483ded6c7
+[10:38:18.005] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader fdea265563d4ebc356c37d51bf8a36bb9c22ba13ab8ffc66d8b5765483ded6c7
+[10:38:18.022] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_vPos
+[10:38:18.028] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_vColor
+[10:38:18.031] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) vsin_vTexCoord0
+[10:38:18.033] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) cvPrimMatrix[2]
+[10:38:18.036] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[10:38:18.112] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 760afc2a8a056a17b6000bc05eedcf850c3aff823728da595c53aca8fa48b634
+[10:38:18.114] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 760afc2a8a056a17b6000bc05eedcf850c3aff823728da595c53aca8fa48b634
+[10:38:18.119] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (half4) v_Color0
+[10:38:18.120] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(sTexStage0, TEXCOORD0.xy)
+[10:38:18.122] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[10:38:26.669] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 282c95474446a7631505a2df887fe10c9356afecf39cab2d44ab7189837f61f6
+[10:38:26.672] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 282c95474446a7631505a2df887fe10c9356afecf39cab2d44ab7189837f61f6
+[10:38:26.679] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) vsin_vPos
+[10:38:26.680] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) vsin_vColor
+[10:38:26.681] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) cvPrimMatrix[2]
+[10:38:26.683] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5

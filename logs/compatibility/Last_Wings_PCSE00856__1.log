@@ -1,0 +1,929 @@
+[17:53:54.243] |I| [config::init_config]: backend-renderer: Vulkan
+[17:53:54.299] |I| [config::init_config]: log-level: 0
+[17:53:54.550] |I| [SDL_main]: Vita3K v0.1.8 3156-e6752f99
+[17:53:54.551] |I| [SDL_main]: Number of logical CPU cores: 2
+[17:53:54.551] |I| [SDL_main]: Available ram memory: 3959 MiB
+[17:53:54.784] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[17:53:55.133] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[17:53:55.135] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[17:53:55.137] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[17:53:55.202] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[17:54:00.738] |W| [compat::load_compat_app_db]: App with Title ID PCSE00963 has an issue but no status label. Please check GitHub issue 1466 and request a status label be added.
+[17:54:01.479] |I| [compat::update_compat_app_db]: Applications compatibility database is up to date.
+[17:56:24.819] |I| [load_app_impl]: cpu-backend: Dynarmic
+[17:56:24.820] |I| [load_app_impl]: CPU Optimisation state: true
+[17:56:24.821] |I| [load_app_impl]: ngs state: true
+[17:56:24.821] |I| [load_app_impl]: Resolution multiplier: 1
+[17:56:24.822] |I| [load_app_impl]: modules mode: Auto & Manual
+[17:56:24.822] |I| [load_app_impl]: lle-modules: libpgf,libhttp
+[17:56:24.823] |I| [load_app_impl]: Title: Last Wings
+[17:56:24.823] |I| [load_app_impl]: Serial: PCSE00856
+[17:56:24.823] |I| [load_app_impl]: Version: 1.00
+[17:56:24.824] |I| [load_app_impl]: Category: gd
+[17:56:24.997] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[17:56:24.999] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x000568A4 / 0x81000000] (size: 0x000518A4) of module app0:sce_module/libc.suprx
+[17:56:24.999] |I| [load_self]: Loaded module segment 1 @ [0x00057000 - 0x000598A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[17:56:25.000] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[17:56:25.001] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x4c314
+[17:56:25.003] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x414dc
+[17:56:25.005] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[17:56:25.069] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[17:56:25.070] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x00086CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[17:56:25.074] |I| [load_self]: Loaded module segment 1 @ [0x00087000 - 0x0008C255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[17:56:25.077] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[17:56:25.079] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x86bc8
+[17:56:25.083] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x7df08
+[17:56:25.084] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[17:56:25.208] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[17:56:25.211] |I| [load_self]: Loaded module segment 0 @ [0x0008D000 - 0x000A09BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
+[17:56:25.216] |I| [load_self]: Loaded module segment 1 @ [0x000A1000 - 0x000A1814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[17:56:25.221] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[17:56:25.224] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x9f2e8
+[17:56:25.227] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x9c870
+[17:56:25.229] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[17:56:25.302] |I| [load_self]: Loaded module segment 0 @ [0x000A2000 - 0x000F2F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[17:56:25.307] |I| [load_self]: Loaded module segment 1 @ [0x000F3000 - 0x000F32F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[17:56:25.315] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[17:56:25.318] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xde7dc
+[17:56:25.319] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xddf10
+[17:56:25.322] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[17:56:25.356] |I| [load_self]: Loaded module segment 0 @ [0x000F4000 - 0x00103F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[17:56:25.360] |I| [load_self]: Loaded module segment 1 @ [0x00104000 - 0x00104008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[17:56:25.366] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[17:56:25.367] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x102710
+[17:56:25.368] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x102300
+[17:56:25.370] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[17:56:25.767] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[17:56:25.767] |I| [load_self]: Loaded module segment 0 @ [0x00105000 - 0x003EEBF8 / 0x81000000] (size: 0x002E9BF8) of module app0:eboot.bin
+[17:56:25.770] |I| [load_self]: Loaded module segment 1 @ [0x003EF000 - 0x0084B4B4 / 0x812EA000] (size: 0x0045C4B4) of module app0:eboot.bin
+[17:56:25.772] |I| [load_self]: Linking SELF app0:eboot.bin...
+[17:56:25.774] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x313808
+[17:56:25.775] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x477c80
+[17:56:25.777] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x3ecaf4
+[17:56:25.779] |I| [load_app_impl]: Main executable PSVitaRunner (eboot.bin) loaded
+[17:56:25.874] |D| [run_app]: Running module_start of library: SceLibc at address 0x5871
+[17:56:25.936] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[17:56:25.939] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[17:56:25.941] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[17:56:25.975] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[17:56:25.984] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5a001
+[17:56:26.061] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[17:56:26.064] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[17:56:26.075] |D| [run_app]: Running module_start of library: SceUlt at address 0x90771
+[17:56:26.153] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[17:56:26.155] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[17:56:26.263] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[17:56:26.316] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[17:56:26.335] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[17:56:26.405] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[17:56:26.427] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.435] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.440] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.442] |T| [write_file]: *** TTY: Name = input.aTexCoord
+[17:56:26.445] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.447] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.450] |T| [write_file]: *** TTY: Name = gm_BaseTexture
+[17:56:26.460] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.460] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.462] |T| [write_file]: *** TTY: Name = input.aNormal
+[17:56:26.466] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.468] |T| [write_file]: *** TTY: Name = input.aTexCoord
+[17:56:26.471] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.472] |T| [write_file]: *** TTY: Name = u_LightEnv.ambientcol
+[17:56:26.475] |T| [write_file]: *** TTY: Name = u_LightEnv.m_pointLights_diffusecol
+[17:56:26.477] |T| [write_file]: *** TTY: Name = u_LightEnv.m_pointLights_posrange
+[17:56:26.478] |T| [write_file]: *** TTY: Name = u_LightEnv.numPointLights
+[17:56:26.481] |T| [write_file]: *** TTY: Name = u_LightEnv.m_dirLights_diffusecol
+[17:56:26.484] |T| [write_file]: *** TTY: Name = u_LightEnv.m_dirLights_dir
+[17:56:26.490] |T| [write_file]: *** TTY: Name = u_LightEnv.numDirLights
+[17:56:26.491] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.494] |T| [write_file]: *** TTY: Name = gm_BaseTexture
+[17:56:26.503] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.504] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.505] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.508] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.509] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.511] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.513] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.516] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.518] |T| [write_file]: *** TTY: Name = input.aTexCoord
+[17:56:26.521] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.523] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.525] |T| [write_file]: *** TTY: Name = gm_AlphaRefValue
+[17:56:26.527] |T| [write_file]: *** TTY: Name = gm_BaseTexture
+[17:56:26.529] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.530] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.534] |T| [write_file]: *** TTY: Name = input.aNormal
+[17:56:26.539] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.541] |T| [write_file]: *** TTY: Name = input.aTexCoord
+[17:56:26.543] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.545] |T| [write_file]: *** TTY: Name = u_LightEnv.ambientcol
+[17:56:26.547] |T| [write_file]: *** TTY: Name = u_LightEnv.m_pointLights_diffusecol
+[17:56:26.552] |T| [write_file]: *** TTY: Name = u_LightEnv.m_pointLights_posrange
+[17:56:26.555] |T| [write_file]: *** TTY: Name = u_LightEnv.numPointLights
+[17:56:26.557] |T| [write_file]: *** TTY: Name = u_LightEnv.m_dirLights_diffusecol
+[17:56:26.559] |T| [write_file]: *** TTY: Name = u_LightEnv.m_dirLights_dir
+[17:56:26.561] |T| [write_file]: *** TTY: Name = u_LightEnv.numDirLights
+[17:56:26.567] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.569] |T| [write_file]: *** TTY: Name = gm_AlphaRefValue
+[17:56:26.571] |T| [write_file]: *** TTY: Name = gm_BaseTexture
+[17:56:26.574] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.576] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.578] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.580] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.586] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.587] |T| [write_file]: *** TTY: Name = gm_AlphaRefValue
+[17:56:26.590] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.596] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.600] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.604] |T| [write_file]: *** TTY: Name = input.aTexCoord
+[17:56:26.605] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.607] |T| [write_file]: *** TTY: Name = gm_FogStart
+[17:56:26.609] |T| [write_file]: *** TTY: Name = gm_RcpFogRange
+[17:56:26.610] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.612] |T| [write_file]: *** TTY: Name = gm_FogColour
+[17:56:26.619] |T| [write_file]: *** TTY: Name = gm_AlphaRefValue
+[17:56:26.620] |T| [write_file]: *** TTY: Name = gm_BaseTexture
+[17:56:26.622] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.624] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.625] |T| [write_file]: *** TTY: Name = input.aNormal
+[17:56:26.666] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.675] |T| [write_file]: *** TTY: Name = input.aTexCoord
+[17:56:26.678] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.690] |T| [write_file]: *** TTY: Name = gm_FogStart
+[17:56:26.694] |T| [write_file]: *** TTY: Name = gm_RcpFogRange
+[17:56:26.696] |T| [write_file]: *** TTY: Name = u_LightEnv.ambientcol
+[17:56:26.701] |T| [write_file]: *** TTY: Name = u_LightEnv.m_pointLights_diffusecol
+[17:56:26.704] |T| [write_file]: *** TTY: Name = u_LightEnv.m_pointLights_posrange
+[17:56:26.707] |T| [write_file]: *** TTY: Name = u_LightEnv.numPointLights
+[17:56:26.707] |T| [write_file]: *** TTY: Name = u_LightEnv.m_dirLights_diffusecol
+[17:56:26.709] |T| [write_file]: *** TTY: Name = u_LightEnv.m_dirLights_dir
+[17:56:26.712] |T| [write_file]: *** TTY: Name = u_LightEnv.numDirLights
+[17:56:26.717] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.720] |T| [write_file]: *** TTY: Name = gm_FogColour
+[17:56:26.722] |T| [write_file]: *** TTY: Name = gm_AlphaRefValue
+[17:56:26.726] |T| [write_file]: *** TTY: Name = gm_BaseTexture
+[17:56:26.729] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.735] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.737] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.744] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.745] |T| [write_file]: *** TTY: Name = gm_FogStart
+[17:56:26.750] |T| [write_file]: *** TTY: Name = gm_RcpFogRange
+[17:56:26.753] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.755] |T| [write_file]: *** TTY: Name = gm_FogColour
+[17:56:26.757] |T| [write_file]: *** TTY: Name = gm_AlphaRefValue
+[17:56:26.760] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.763] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.767] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.770] |T| [write_file]: *** TTY: Name = input.aTexCoord
+[17:56:26.776] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.777] |T| [write_file]: *** TTY: Name = gm_FogStart
+[17:56:26.780] |T| [write_file]: *** TTY: Name = gm_RcpFogRange
+[17:56:26.785] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.792] |T| [write_file]: *** TTY: Name = gm_FogColour
+[17:56:26.794] |T| [write_file]: *** TTY: Name = gm_BaseTexture
+[17:56:26.797] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.800] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.803] |T| [write_file]: *** TTY: Name = input.aNormal
+[17:56:26.808] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.808] |T| [write_file]: *** TTY: Name = input.aTexCoord
+[17:56:26.811] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.812] |T| [write_file]: *** TTY: Name = gm_FogStart
+[17:56:26.815] |T| [write_file]: *** TTY: Name = gm_RcpFogRange
+[17:56:26.818] |T| [write_file]: *** TTY: Name = u_LightEnv.ambientcol
+[17:56:26.825] |T| [write_file]: *** TTY: Name = u_LightEnv.m_pointLights_diffusecol
+[17:56:26.826] |T| [write_file]: *** TTY: Name = u_LightEnv.m_pointLights_posrange
+[17:56:26.828] |T| [write_file]: *** TTY: Name = u_LightEnv.numPointLights
+[17:56:26.830] |T| [write_file]: *** TTY: Name = u_LightEnv.m_dirLights_diffusecol
+[17:56:26.835] |T| [write_file]: *** TTY: Name = u_LightEnv.m_dirLights_dir
+[17:56:26.836] |T| [write_file]: *** TTY: Name = u_LightEnv.numDirLights
+[17:56:26.843] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.846] |T| [write_file]: *** TTY: Name = gm_FogColour
+[17:56:26.847] |T| [write_file]: *** TTY: Name = gm_BaseTexture
+[17:56:26.853] |T| [write_file]: *** TTY: Vertex params:
+[17:56:26.856] |T| [write_file]: *** TTY: Name = input.aPosition
+[17:56:26.857] |T| [write_file]: *** TTY: Name = input.aColour
+[17:56:26.859] |T| [write_file]: *** TTY: Name = gm_Matrices
+[17:56:26.861] |T| [write_file]: *** TTY: Name = gm_FogStart
+[17:56:26.862] |T| [write_file]: *** TTY: Name = gm_RcpFogRange
+[17:56:26.865] |T| [write_file]: *** TTY: Fragment params:
+[17:56:26.869] |T| [write_file]: *** TTY: Name = gm_FogColour
+[17:56:26.871] |I| [load_module]: Loading module ID: 0x4
+[17:56:26.936] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[17:56:26.938] |I| [load_self]: Loaded module segment 0 @ [0x01851000 - 0x0186E150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[17:56:26.944] |I| [load_self]: Loaded module segment 1 @ [0x00B17000 - 0x00B17640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[17:56:26.946] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[17:56:26.950] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x186ce68
+[17:56:26.951] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x1869ca0
+[17:56:26.951] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[17:56:26.951] |D| [load_module]: Running module_start of module: SceLibHttp
+[17:56:26.952] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[17:56:27.000] |I| [load_self]: Loaded module segment 0 @ [0x0186F000 - 0x018D5EA4 / 0x81000000] (size: 0x00066EA4) of module sys/external/libssl.suprx
+[17:56:27.006] |I| [load_self]: Loaded module segment 1 @ [0x00DB2000 - 0x00DB7188 / 0x81067000] (size: 0x00005188) of module sys/external/libssl.suprx
+[17:56:27.011] |I| [load_self]: Linking SELF sys/external/libssl.suprx...
+[17:56:27.012] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x18c19b0
+[17:56:27.017] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x18bbc70
+[17:56:27.019] |I| [load_module]: Module SceLibSsl (at "sys/external/libssl.suprx") loaded
+[17:56:27.025] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[17:56:27.094] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x3c733316 sceSslInit at 0x3126a8
+[17:56:27.095] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[17:56:27.111] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x214926d9 sceHttpInit at 0x3126f8
+[17:56:27.130] |T| [write_file]: *** TTY: libnetctl event: Disconnected, state = IPObtained
+[17:56:27.161] |T| [write_file]: *** TTY: PLATFORM_Init!libnetctl event: result = 0x0
+[17:56:27.162] |T| [write_file]: *** TTY: 
+[17:56:27.162] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[17:56:27.164] |T| [write_file]: *** TTY: ***************************************
+[17:56:27.175] |T| [write_file]: *** TTY: *     YoYo Games PSVita Runner V1.0    *
+[17:56:27.177] |T| [write_file]: *** TTY: ***************************************	 
+[17:56:27.180] |T| [write_file]: *** TTY: CommandLine: 
+[17:56:27.196] |T| [write_file]: *** TTY: MemoryManager allocated: 1728956
+[17:56:27.347] |T| [write_file]: *** TTY: Finished Init
+[17:56:27.353] |T| [write_file]: *** TTY: 
+[17:56:27.356] |T| [write_file]: *** TTY: ***************************************
+[17:56:27.359] |T| [write_file]: *** TTY: *     YoYo Games Runner v1.0(999)[r32908]    *
+[17:56:27.359] |T| [write_file]: *** TTY: ***************************************	 
+[17:56:27.361] |T| [write_file]: *** TTY: RunnerLoadGame: app0:/games/game.win
+[17:56:27.372] |T| [write_file]: *** TTY: #########################################################################
+[17:56:27.373] |T| [write_file]: *** TTY: ####!!!!$$$$$$ pwd - app0:/games/
+[17:56:27.375] |T| [write_file]: *** TTY: #########################################################################
+[17:56:27.383] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xee681e1d sceFiosFHOpenWithModeSync at 0x414bc
+[17:56:27.388] |I| [export_sceIoOpen]: Opening file: app0:/games/game.win
+[17:56:27.446] |T| [open_file]: sceIoOpen: Opening file app0:/games/game.win (ux0:/app/PCSE00856/games/game.win), fd: 0x3
+[17:56:27.478] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x45182328 sceFiosFHCloseSync at 0x4141c
+[17:56:27.540] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[17:56:27.577] |T| [write_file]: *** TTY: RunnerLoadGame() - app0:/games/game.win
+[17:56:27.662] |T| [write_file]: *** TTY: Checking if INIFile app0:/games/options.ini Exists
+[17:56:27.670] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/options.ini
+[17:56:27.723] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/options.ini (ux0:/app/PCSE00856/games/options.ini), fd: 0x4
+[17:56:27.727] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[17:56:27.731] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/options.ini
+[17:56:27.735] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/options.ini (ux0:/app/PCSE00856/games/options.ini), fd: 0x5
+[17:56:27.737] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[17:56:27.739] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/options.ini
+[17:56:27.741] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/options.ini (ux0:/app/PCSE00856/games/options.ini), fd: 0x6
+[17:56:27.747] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xa75f3c4a sceFiosFHSeek at 0x4145c
+[17:56:27.768] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xb309e327 sceFiosIsValidHandle at 0x4147c
+[17:56:27.770] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x76945919 sceFiosFHReadSync at 0x4143c
+[17:56:27.774] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[17:56:27.778] |T| [write_file]: *** TTY: app0:/games/options.ini file contents: ﻿[PSVita]
+[17:56:27.803] |T| [write_file]: *** TTY: nptitleid="NPWR10490_00"
+[17:56:27.807] |T| [write_file]: *** TTY: nptitlesecret="b9dde13b0100000000000000f0e1d359ca90dc7d77ece2fd6d33cb1af5a79d535fcab8e0195aee3a7e30a1519aa0822a751fb0f7da59c73de437f8764d25690a98abfacb332e726d9e10595bf8c027bd1f9d1d4eae27333349c385169dd3a33cbb12bba3391e7b80b42dab8dd2b3b4e1ba1e0dd36f1227013
+[17:56:27.811] |T| [write_file]: *** TTY: 3216c3d5dfcc9a9a6ebdf4e5382a6423aca7f9144d80d485ee5ccc6269db4dbca207906c0070f04"
+[17:56:27.819] |T| [write_file]: *** TTY: nptitlepassphrase="839e401dfefba186844c7e1a4bd17b9cbee574e0c2b8f1bd9a8fa950c6e9ac2531252a3109b3f3b8b54e0c559b23367286b63757a88df7e88487a636730d3e30cf0f8e82ac2859941781ca451cd27c62f6c06b44621521cb266703e2f5c22bac7d4cbc9f65f05b6c0406a413b4e32b3fd539244c76199
+[17:56:27.820] |T| [write_file]: *** TTY: d6b6f228ca80d4d22b9"
+[17:56:27.821] |T| [write_file]: *** TTY: 
+[17:56:27.838] |I| [export_sceIoOpen]: Opening file: app0:/games/game.yydebug
+[17:56:27.839] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSE00856/games/game.yydebug (target path: app0:/games/game.yydebug)
+[17:56:27.842] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:27.853] |T| [write_file]: *** TTY: Reading File app0:/games/game.win
+[17:56:27.855] |I| [export_sceIoOpen]: Opening file: app0:/games/game.win
+[17:56:27.857] |T| [open_file]: sceIoOpen: Opening file app0:/games/game.win (ux0:/app/PCSE00856/games/game.win), fd: 0x7
+[17:56:28.558] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[17:56:28.562] |T| [write_file]: *** TTY: Loaded File app0:/games/game.win(57031158)
+[17:56:28.570] |T| [write_file]: *** TTY: IFF wad found
+[17:56:28.576] |T| [write_file]: *** TTY: Get Resolution
+[17:56:28.579] |T| [write_file]: *** TTY: Get Header Information
+[17:56:28.590] |T| [write_file]: *** TTY: InitGMLFunctions
+[17:56:28.596] |I| [export_sceIoOpen]: Opening file: savedata0:/hiscore.dat
+[17:56:28.611] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/hiscore.dat (target path: savedata0:/hiscore.dat)
+[17:56:28.617] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:28.741] |T| [write_file]: *** TTY: HighScore..Game..Math..Graphic..Action..File..Resource..Interaction..3D..Particle..Misc..DS..Sound..Physics..Gamepad..GAMEPAD: 4 axis values (last) at 0x9728d0
+[17:56:28.779] |I| [export_sceIoOpen]: Opening file: savedata0:/playerachievementcache.dat
+[17:56:28.780] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/playerachievementcache.dat (target path: savedata0:/playerachievementcache.dat)
+[17:56:28.785] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:28.833] |T| [write_file]: *** TTY: Buffers..Networking..Shaders..InitPushFunctions...YoYo..Fini
+[17:56:28.836] |T| [write_file]: *** TTY: Code_Load()
+[17:56:28.837] |T| [write_file]: *** TTY: VARI_Load()
+[17:56:28.840] |T| [write_file]: *** TTY: got 106 global variables
+[17:56:28.842] |T| [write_file]: *** TTY: got 538 instance variables
+[17:56:28.844] |T| [write_file]: *** TTY: got 167 local variables
+[17:56:28.859] |T| [write_file]: *** TTY: ID_STRG
+[17:56:28.860] |T| [write_file]: *** TTY: Create Window
+[17:56:28.862] |T| [write_file]: *** TTY: Init Graphics
+[17:56:28.864] |T| [write_file]: *** TTY: GR_D3D_Init()
+[17:56:28.871] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[17:56:28.878] |W| [unimplemented_impl]: Unimplemented sceGxmTextureValidate import called.
+[17:56:28.973] |T| [write_file]: *** TTY: Background_InitTextures()
+[17:56:28.976] |T| [write_file]: *** TTY: Sprite_InitTextures()
+[17:56:28.977] |T| [write_file]: *** TTY: Font_InitTextures()
+[17:56:28.979] |T| [write_file]: *** TTY: IO Init
+[17:56:28.986] |T| [write_file]: *** TTY: Process Messages
+[17:56:28.987] |T| [write_file]: *** TTY: Splash!
+[17:56:28.989] |T| [write_file]: *** TTY: Start Frame
+[17:56:28.994] |T| [write_file]: *** TTY: Part Create Textures
+[17:56:28.997] |T| [write_file]: *** TTY: Debug Init Remote Interface
+[17:56:29.002] |T| [write_file]: *** TTY: VM Init
+[17:56:29.009] |T| [write_file]: *** TTY: Create Score Form
+[17:56:29.010] |T| [write_file]: *** TTY: Create Load Form
+[17:56:29.012] |T| [write_file]: *** TTY: Create Error Form
+[17:56:29.014] |T| [write_file]: *** TTY: Do The Work
+[17:56:29.020] |T| [write_file]: *** TTY: LoadGameData()
+[17:56:29.022] |T| [write_file]: *** TTY: initialise everything!
+[17:56:29.057] |T| [write_file]: *** TTY: Process Chunk: GEN8   216
+[17:56:29.062] |T| [write_file]: *** TTY: Process Chunk: OPTN   64
+[17:56:29.073] |T| [write_file]: *** TTY: Process Chunk: LANG   12
+[17:56:29.076] |T| [write_file]: *** TTY: Process Chunk: EXTN   1084
+[17:56:29.093] |T| [write_file]: *** TTY: Process Chunk: SOND   764
+[17:56:29.096] |T| [write_file]: *** TTY: Audio_Load()
+[17:56:29.106] |T| [write_file]: *** TTY: Process Chunk: AGRP   20
+[17:56:29.107] |T| [write_file]: *** TTY: AudioGroup_Load()
+[17:56:29.111] |T| [write_file]: *** TTY: Process Chunk: SPRT   11365168
+[17:56:29.143] |T| [write_file]: *** TTY: Process Chunk: BGND   6988
+[17:56:29.157] |T| [write_file]: *** TTY: Process Chunk: PATH   4
+[17:56:29.160] |T| [write_file]: *** TTY: Process Chunk: SCPT   2344
+[17:56:29.169] |T| [write_file]: *** TTY: Process Chunk: GLOB   4
+[17:56:29.170] |T| [write_file]: *** TTY: Process Chunk: SHDR   4
+[17:56:29.172] |T| [write_file]: *** TTY: Process Chunk: FONT   111484
+[17:56:29.180] |T| [write_file]: *** TTY: Process Chunk: TMLN   4
+[17:56:29.186] |T| [write_file]: *** TTY: Process Chunk: OBJT   78628
+[17:56:29.229] |T| [write_file]: *** TTY: Process Chunk: ROOM   35620
+[17:56:29.262] |T| [write_file]: *** TTY: Process Chunk: DAFL   0
+[17:56:29.263] |T| [write_file]: *** TTY: Process Chunk: TPAG   35288
+[17:56:29.267] |T| [write_file]: *** TTY: Process Chunk: CODE   662536
+[17:56:29.279] |T| [write_file]: *** TTY: Process Chunk: VARI   59232
+[17:56:29.280] |T| [write_file]: *** TTY: Process Chunk: FUNC   29688
+[17:56:29.336] |T| [write_file]: *** TTY: Process Chunk: STRG   141352
+[17:56:29.337] |T| [write_file]: *** TTY: Process Chunk: TXTR   39674048
+[17:56:29.467] |T| [write_file]: *** TTY: Process Chunk: AUDO   4826406
+[17:56:29.470] |T| [write_file]: *** TTY: Audio_WAVs()
+[17:56:29.473] |T| [write_file]: *** TTY: PrepareGame()
+[17:56:29.475] |T| [write_file]: *** TTY: Extension_Prepare() 
+[17:56:29.485] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.486] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.488] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.491] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.526] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x8
+[17:56:29.531] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[17:56:29.537] |T| [open_file]: _sceKernelLoadStartModule: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x9
+[17:56:29.563] |I| [load_self]: app0:/games/PSNExtPSVita.suprx: Skipping special segment 0x6fffff01...
+[17:56:29.572] |I| [load_self]: Loaded module segment 0 @ [0x05054000 - 0x050AA45C / 0x81000000] (size: 0x0005645C) of module app0:/games/PSNExtPSVita.suprx
+[17:56:29.577] |I| [load_self]: Loaded module segment 1 @ [0x05C5A000 - 0x05E5B36C / 0x81057000] (size: 0x0020136C) of module app0:/games/PSNExtPSVita.suprx
+[17:56:29.580] |I| [load_self]: Linking SELF app0:/games/PSNExtPSVita.suprx...
+[17:56:29.591] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x509cb44
+[17:56:29.594] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x50a7aa0
+[17:56:29.611] |T| [close_file]: _sceKernelLoadStartModule: Closing file fd: 0x9
+[17:56:29.642] |I| [start_module]: Module PSNExtPSVita (at "app0:/games/PSNExtPSVita.suprx") module_start returned 0x5c5a1d8
+[17:56:29.651] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.656] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.659] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.661] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.663] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0xa
+[17:56:29.669] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[17:56:29.672] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.674] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.676] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.678] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.679] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0xb
+[17:56:29.681] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[17:56:29.688] |T| [write_file]: *** TTY: Callbacks OK
+[17:56:29.690] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.691] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.693] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.695] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.697] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0xc
+[17:56:29.706] |T| [close_file]: sceIoClose: Closing file fd: 0xc
+[17:56:29.708] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.709] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.712] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.714] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.720] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0xd
+[17:56:29.722] |T| [close_file]: sceIoClose: Closing file fd: 0xd
+[17:56:29.725] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.726] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.728] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.729] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.731] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0xe
+[17:56:29.738] |T| [close_file]: sceIoClose: Closing file fd: 0xe
+[17:56:29.740] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.742] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.744] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.746] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.748] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0xf
+[17:56:29.759] |T| [close_file]: sceIoClose: Closing file fd: 0xf
+[17:56:29.760] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.761] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.763] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.770] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.771] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x10
+[17:56:29.774] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[17:56:29.776] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.777] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.779] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.786] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.788] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x11
+[17:56:29.790] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[17:56:29.792] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.793] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.795] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.804] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.807] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x12
+[17:56:29.810] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[17:56:29.811] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.818] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.820] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.822] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.824] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x13
+[17:56:29.826] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[17:56:29.828] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.831] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.836] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.838] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.839] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x14
+[17:56:29.842] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[17:56:29.847] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.851] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.857] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.859] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.861] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x15
+[17:56:29.865] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[17:56:29.869] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.871] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.873] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.875] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.877] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x16
+[17:56:29.881] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[17:56:29.886] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.887] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.889] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.891] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.894] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x17
+[17:56:29.908] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[17:56:29.911] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.914] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.919] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.921] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.923] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x18
+[17:56:29.928] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[17:56:29.929] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.931] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.940] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.944] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.945] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x19
+[17:56:29.947] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[17:56:29.951] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.954] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.959] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.961] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.964] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x1a
+[17:56:29.970] |T| [close_file]: sceIoClose: Closing file fd: 0x1a
+[17:56:29.971] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.973] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.980] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.981] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:29.986] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x1b
+[17:56:29.988] |T| [close_file]: sceIoClose: Closing file fd: 0x1b
+[17:56:29.991] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:29.992] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:29.995] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:29.997] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.001] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x1c
+[17:56:30.007] |T| [close_file]: sceIoClose: Closing file fd: 0x1c
+[17:56:30.010] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:30.011] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:30.014] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:30.017] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.020] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x1d
+[17:56:30.024] |T| [close_file]: sceIoClose: Closing file fd: 0x1d
+[17:56:30.026] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:30.027] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:30.029] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:30.031] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.036] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x1e
+[17:56:30.040] |T| [close_file]: sceIoClose: Closing file fd: 0x1e
+[17:56:30.043] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:30.044] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:30.047] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:30.050] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.057] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x1f
+[17:56:30.059] |T| [close_file]: sceIoClose: Closing file fd: 0x1f
+[17:56:30.062] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:30.064] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:30.069] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:30.071] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.074] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x20
+[17:56:30.076] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[17:56:30.078] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:30.079] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:30.081] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:30.087] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.089] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x21
+[17:56:30.092] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[17:56:30.094] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:30.095] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:30.097] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:30.101] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.105] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x22
+[17:56:30.111] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[17:56:30.112] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:30.114] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:30.121] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:30.122] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.125] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x23
+[17:56:30.127] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[17:56:30.129] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:30.130] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:30.132] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:30.138] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.139] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x24
+[17:56:30.142] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[17:56:30.144] |I| [export_sceIoOpen]: Opening file: savedata0:/PSNExtPSVita.suprx
+[17:56:30.145] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/PSNExtPSVita.suprx (target path: savedata0:/PSNExtPSVita.suprx)
+[17:56:30.147] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:30.156] |I| [export_sceIoOpen]: Opening file: app0:/games/PSNExtPSVita.suprx
+[17:56:30.159] |T| [open_file]: sceIoOpen: Opening file app0:/games/PSNExtPSVita.suprx (ux0:/app/PCSE00856/games/PSNExtPSVita.suprx), fd: 0x25
+[17:56:30.160] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[17:56:30.164] |T| [write_file]: *** TTY: Code_Constant_Prepare() 
+[17:56:30.165] |T| [write_file]: *** TTY: Script_Prepare() 
+[17:56:30.175] |T| [write_file]: *** TTY: TimeLine_Prepare() 
+[17:56:30.177] |T| [write_file]: *** TTY: Object_Prepare() 
+[17:56:30.178] |T| [write_file]: *** TTY: Preparing 174 objects:
+[17:56:30.180] |T| [write_file]: *** TTY: 	Objects 0: obj_Plane_Parent
+[17:56:30.187] |T| [write_file]: *** TTY: 	Objects 1: obj_Plane_Fighter
+[17:56:30.188] |T| [write_file]: *** TTY: 	Objects 2: obj_Plane_Biplane
+[17:56:30.190] |T| [write_file]: *** TTY: 	Objects 3: obj_Plane_Bomber
+[17:56:30.191] |T| [write_file]: *** TTY: 	Objects 4: obj_Plane_Robot_Playerwingmen
+[17:56:30.192] |T| [write_file]: *** TTY: 	Objects 5: obj_plane_explosion
+[17:56:30.195] |T| [write_file]: *** TTY: 	Objects 6: obj_Scenario_Parent
+[17:56:30.196] |T| [write_file]: *** TTY: 	Objects 7: obj_montanha1
+[17:56:30.204] |T| [write_file]: *** TTY: 	Objects 8: obj_montanha_flut1
+[17:56:30.207] |T| [write_file]: *** TTY: 	Objects 9: obj_montanha2
+[17:56:30.208] |T| [write_file]: *** TTY: 	Objects 10: obj_left_border
+[17:56:30.210] |T| [write_file]: *** TTY: 	Objects 11: obj_right_border
+[17:56:30.211] |T| [write_file]: *** TTY: 	Objects 12: obj_wall
+[17:56:30.213] |T| [write_file]: *** TTY: 	Objects 13: obj_montanha_flut4
+[17:56:30.219] |T| [write_file]: *** TTY: 	Objects 14: obj_montanha_flut3
+[17:56:30.220] |T| [write_file]: *** TTY: 	Objects 15: obj_montanha_flut2
+[17:56:30.222] |T| [write_file]: *** TTY: 	Objects 16: obj_Star
+[17:56:30.223] |T| [write_file]: *** TTY: 	Objects 17: obj_chao1
+[17:56:30.225] |T| [write_file]: *** TTY: 	Objects 18: obj_wall_2
+[17:56:30.226] |T| [write_file]: *** TTY: 	Objects 19: obj_scenario_1
+[17:56:30.228] |T| [write_file]: *** TTY: 	Objects 20: obj_scenario_2
+[17:56:30.231] |T| [write_file]: *** TTY: 	Objects 21: obj_scenario_3
+[17:56:30.235] |T| [write_file]: *** TTY: 	Objects 22: obj_scenario_4
+[17:56:30.237] |T| [write_file]: *** TTY: 	Objects 23: obj_scenario_5
+[17:56:30.238] |T| [write_file]: *** TTY: 	Objects 24: obj_scenario_tutorial
+[17:56:30.240] |T| [write_file]: *** TTY: 	Objects 25: obj_Bullets_Parent
+[17:56:30.241] |T| [write_file]: *** TTY: 	Objects 26: obj_Rocket
+[17:56:30.242] |T| [write_file]: *** TTY: 	Objects 27: obj_Bullet_shotgun
+[17:56:30.245] |T| [write_file]: *** TTY: 	Objects 28: obj_Bullet_long_bullet
+[17:56:30.248] |T| [write_file]: *** TTY: 	Objects 29: obj_Missile_Guided
+[17:56:30.251] |T| [write_file]: *** TTY: 	Objects 30: obj_BulletRajada
+[17:56:30.254] |T| [write_file]: *** TTY: 	Objects 31: obj_Bullet_big_bullet
+[17:56:30.258] |T| [write_file]: *** TTY: 	Objects 32: obj_Missile_small
+[17:56:30.259] |T| [write_file]: *** TTY: 	Objects 33: obj_Airmine
+[17:56:30.261] |T| [write_file]: *** TTY: 	Objects 34: obj_Bullet
+[17:56:30.264] |T| [write_file]: *** TTY: 	Objects 35: obj_Bullet_pem
+[17:56:30.269] |T| [write_file]: *** TTY: 	Objects 36: obj_Bullet_flak
+[17:56:30.271] |T| [write_file]: *** TTY: 	Objects 37: obj_flak_explosion
+[17:56:30.273] |T| [write_file]: *** TTY: 	Objects 38: obj_Bombardeio
+[17:56:30.274] |T| [write_file]: *** TTY: 	Objects 39: obj_BulletBack
+[17:56:30.275] |T| [write_file]: *** TTY: 	Objects 40: obj_Fireball
+[17:56:30.278] |T| [write_file]: *** TTY: 	Objects 41: obj_Bullet_super_bomb
+[17:56:30.280] |T| [write_file]: *** TTY: 	Objects 42: obj_controlroom_mainmenu
+[17:56:30.284] |T| [write_file]: *** TTY: 	Objects 43: obj_Controlroom_Parent
+[17:56:30.286] |T| [write_file]: *** TTY: 	Objects 44: obj_controlroom_master
+[17:56:30.288] |T| [write_file]: *** TTY: 	Objects 45: obj_controlroom_cameraview
+[17:56:30.289] |T| [write_file]: *** TTY: 	Objects 46: obj_controlroom_scoreattack
+[17:56:30.290] |T| [write_file]: *** TTY: 	Objects 47: obj_controlroom_teamfight
+[17:56:30.292] |T| [write_file]: *** TTY: 	Objects 48: obj_controlroom_teamfight1life
+[17:56:30.295] |T| [write_file]: *** TTY: 	Objects 49: obj_controlroom_base_defense_attack
+[17:56:30.296] |T| [write_file]: *** TTY: 	Objects 50: obj_controlroom_respawn
+[17:56:30.301] |T| [write_file]: *** TTY: 	Objects 51: obj_controlroom_background
+[17:56:30.304] |T| [write_file]: *** TTY: 	Objects 52: obj_controlroom_loading
+[17:56:30.307] |T| [write_file]: *** TTY: 	Objects 53: obj_controlroom_tutorial_star
+[17:56:30.309] |T| [write_file]: *** TTY: 	Objects 54: obj_controlroom_tutorial_chasing
+[17:56:30.312] |T| [write_file]: *** TTY: 	Objects 55: obj_controlroom_base_attack
+[17:56:30.314] |T| [write_file]: *** TTY: 	Objects 56: obj_controlroom_base_defense
+[17:56:30.318] |T| [write_file]: *** TTY: 	Objects 57: obj_controlroom_pursue_and_kill
+[17:56:30.320] |T| [write_file]: *** TTY: 	Objects 58: obj_controlroom_survival
+[17:56:30.321] |T| [write_file]: *** TTY: 	Objects 59: obj_controlroom_ftptest
+[17:56:30.322] |T| [write_file]: *** TTY: 	Objects 60: obj_controlroom_locked_view
+[17:56:30.324] |T| [write_file]: *** TTY: 	Objects 61: obj_splashscreen
+[17:56:30.327] |T| [write_file]: *** TTY: 	Objects 62: obj_menu_gamepad_manager
+[17:56:30.328] |T| [write_file]: *** TTY: 	Objects 63: obj_planes_array
+[17:56:30.331] |T| [write_file]: *** TTY: 	Objects 64: obj_players_list
+[17:56:30.334] |T| [write_file]: *** TTY: 	Objects 65: obj_gui_message_save_load
+[17:56:30.337] |T| [write_file]: *** TTY: 	Objects 66: obj_gui_message_save_load_yes
+[17:56:30.338] |T| [write_file]: *** TTY: 	Objects 67: obj_gui_message_save_load_no
+[17:56:30.339] |T| [write_file]: *** TTY: 	Objects 68: obj_save_game
+[17:56:30.341] |T| [write_file]: *** TTY: 	Objects 69: obj_load_game
+[17:56:30.344] |T| [write_file]: *** TTY: 	Objects 70: obj_psn_validator
+[17:56:30.346] |T| [write_file]: *** TTY: 	Objects 71: obj_psn_session_join
+[17:56:30.354] |T| [write_file]: *** TTY: 	Objects 72: obj_pinger
+[17:56:30.358] |T| [write_file]: *** TTY: 	Objects 73: obj_multiplayer
+[17:56:30.359] |T| [write_file]: *** TTY: 	Objects 74: obj_select_server
+[17:56:30.360] |T| [write_file]: *** TTY: 	Objects 75: obj_bt_select_server
+[17:56:30.363] |T| [write_file]: *** TTY: 	Objects 76: obj_bt_parent
+[17:56:30.364] |T| [write_file]: *** TTY: 	Objects 77: obj_bt_mult
+[17:56:30.368] |T| [write_file]: *** TTY: 	Objects 78: obj_bt_fixo_parent
+[17:56:30.370] |T| [write_file]: *** TTY: 	Objects 79: obj_bt_gamemode_parent
+[17:56:30.372] |T| [write_file]: *** TTY: 	Objects 80: obj_bt_mainmenu_all_in_one
+[17:56:30.375] |T| [write_file]: *** TTY: 	Objects 81: obj_bt_parent_surface
+[17:56:30.376] |T| [write_file]: *** TTY: 	Objects 82: obj_box_parent
+[17:56:30.379] |T| [write_file]: *** TTY: 	Objects 83: obj_tutorial_box_etapas
+[17:56:30.380] |T| [write_file]: *** TTY: 	Objects 84: obj_tutorial_box_button
+[17:56:30.381] |T| [write_file]: *** TTY: 	Objects 85: obj_bt_difficulty_easy
+[17:56:30.385] |T| [write_file]: *** TTY: 	Objects 86: obj_bt_difficulty_medium
+[17:56:30.388] |T| [write_file]: *** TTY: 	Objects 87: obj_bt_difficulty_hard
+[17:56:30.390] |T| [write_file]: *** TTY: 	Objects 88: obj_bt_difficulty_very_hard
+[17:56:30.391] |T| [write_file]: *** TTY: 	Objects 89: obj_bt_single_play
+[17:56:30.394] |T| [write_file]: *** TTY: 	Objects 90: obj_bt_tutorial
+[17:56:30.395] |T| [write_file]: *** TTY: 	Objects 91: obj_bt_credits
+[17:56:30.397] |T| [write_file]: *** TTY: 	Objects 92: obj_bt_ranking
+[17:56:30.398] |T| [write_file]: *** TTY: 	Objects 93: obj_bt_option
+[17:56:30.407] |T| [write_file]: *** TTY: 	Objects 94: obj_bt_multiplayer
+[17:56:30.408] |T| [write_file]: *** TTY: 	Objects 95: obj_bt_session
+[17:56:30.410] |T| [write_file]: *** TTY: 	Objects 96: obj_gui_mainmenu_fundo
+[17:56:30.412] |T| [write_file]: *** TTY: 	Objects 97: obj_gui_mainmenu_difficulty
+[17:56:30.414] |T| [write_file]: *** TTY: 	Objects 98: obj_gui_mainmenu_press_x
+[17:56:30.418] |T| [write_file]: *** TTY: 	Objects 99: obj_gui_mainmenu_press_quadrado
+[17:56:30.419] |T| [write_file]: *** TTY: 	Objects 100: obj_gui_mainmenu_press_circulo
+[17:56:30.424] |T| [write_file]: *** TTY: 	Objects 101: obj_gui_mainmenu_press_triangulo
+[17:56:30.425] |T| [write_file]: *** TTY: 	Objects 102: obj_mainmenu_local_players_bt_box
+[17:56:30.427] |T| [write_file]: *** TTY: 	Objects 103: obj_mainmenu_local_players_bt
+[17:56:30.428] |T| [write_file]: *** TTY: 	Objects 104: obj_bt_pause_resume
+[17:56:30.430] |T| [write_file]: *** TTY: 	Objects 105: obj_bt_changeplane
+[17:56:30.431] |T| [write_file]: *** TTY: 	Objects 106: obj_bt_options
+[17:56:30.437] |T| [write_file]: *** TTY: 	Objects 107: obj_bt_exit_mainmenu
+[17:56:30.438] |T| [write_file]: *** TTY: 	Objects 108: obj_pause_box
+[17:56:30.440] |T| [write_file]: *** TTY: 	Objects 109: obj_pause_box_multiplayer
+[17:56:30.442] |T| [write_file]: *** TTY: 	Objects 110: obj_desbloqueio
+[17:56:30.444] |T| [write_file]: *** TTY: 	Objects 111: obj_score_box
+[17:56:30.445] |T| [write_file]: *** TTY: 	Objects 112: obj_spec_box
+[17:56:30.446] |T| [write_file]: *** TTY: 	Objects 113: obj_box_score_ingame
+[17:56:30.447] |T| [write_file]: *** TTY: 	Objects 114: obj_box_score_top
+[17:56:30.451] |T| [write_file]: *** TTY: 	Objects 115: obj_log_mortes
+[17:56:30.456] |T| [write_file]: *** TTY: 	Objects 116: obj_gui_fase_select
+[17:56:30.459] |T| [write_file]: *** TTY: 	Objects 117: obj_bt_spec
+[17:56:30.460] |T| [write_file]: *** TTY: 	Objects 118: obj_bt_spec_close
+[17:56:30.462] |T| [write_file]: *** TTY: 	Objects 119: obj_bt_entrar_sala
+[17:56:30.464] |T| [write_file]: *** TTY: 	Objects 120: obj_bt_multiplayer_jogo_rapido
+[17:56:30.465] |T| [write_file]: *** TTY: 	Objects 121: obj_bt_new_game
+[17:56:30.471] |T| [write_file]: *** TTY: 	Objects 122: obj_bt_info_sala
+[17:56:30.472] |T| [write_file]: *** TTY: 	Objects 123: obj_gui_mainmenu_box_select_plane_background
+[17:56:30.474] |T| [write_file]: *** TTY: 	Objects 124: obj_gui_mainmenu_box_select_plane
+[17:56:30.476] |T| [write_file]: *** TTY: 	Objects 125: obj_bt_pause_plane_slot
+[17:56:30.477] |T| [write_file]: *** TTY: 	Objects 126: obj_menu_objective_box
+[17:56:30.479] |T| [write_file]: *** TTY: 	Objects 127: obj_menu_objective_button
+[17:56:30.480] |T| [write_file]: *** TTY: 	Objects 128: obj_box_game_mode
+[17:56:30.481] |T| [write_file]: *** TTY: 	Objects 129: obj_box_bt_multiplayer_game_mode
+[17:56:30.487] |T| [write_file]: *** TTY: 	Objects 130: obj_gui_box_multiplayer_search_match
+[17:56:30.489] |T| [write_file]: *** TTY: 	Objects 131: obj_gui_box_multiplayer_progressbar
+[17:56:30.490] |T| [write_file]: *** TTY: 	Objects 132: obj_gui_gamemode_mapa_box
+[17:56:30.492] |T| [write_file]: *** TTY: 	Objects 133: obj_gui_gamemode_mapa_bt_map0
+[17:56:30.494] |T| [write_file]: *** TTY: 	Objects 134: obj_gui_gamemode_mapa_bt_map1
+[17:56:30.495] |T| [write_file]: *** TTY: 	Objects 135: obj_gui_gamemode_mapa_bt_map2
+[17:56:30.497] |T| [write_file]: *** TTY: 	Objects 136: obj_gui_gamemode_mapa_bt_map3
+[17:56:30.498] |T| [write_file]: *** TTY: 	Objects 137: obj_menu_edit_plane_box
+[17:56:30.507] |T| [write_file]: *** TTY: 	Objects 138: obj_menu_edit_plane_box_plane
+[17:56:30.509] |T| [write_file]: *** TTY: 	Objects 139: obj_menu_edit_plane_box_weapons
+[17:56:30.510] |T| [write_file]: *** TTY: 	Objects 140: obj_menu_edit_plane_box_config
+[17:56:30.512] |T| [write_file]: *** TTY: 	Objects 141: obj_menu_edit_plane_box_config_item
+[17:56:30.514] |T| [write_file]: *** TTY: 	Objects 142: obj_menu_edit_plane_box_cart
+[17:56:30.519] |T| [write_file]: *** TTY: 	Objects 143: obj_menu_edit_plane_box_cart_unlock
+[17:56:30.521] |T| [write_file]: *** TTY: 	Objects 144: obj_menu_edit_plane_box_cart_unlock_confirm
+[17:56:30.522] |T| [write_file]: *** TTY: 	Objects 145: obj_menu_edit_plane_box_cart_unlock_cancel
+[17:56:30.524] |T| [write_file]: *** TTY: 	Objects 146: obj_gui_box_options
+[17:56:30.526] |T| [write_file]: *** TTY: 	Objects 147: obj_gui_box_options_bt_difficulty
+[17:56:30.527] |T| [write_file]: *** TTY: 	Objects 148: obj_gui_box_options_sounds
+[17:56:30.529] |T| [write_file]: *** TTY: 	Objects 149: obj_gui_box_options_back
+[17:56:30.531] |T| [write_file]: *** TTY: 	Objects 150: obj_gui_box_options_control
+[17:56:30.536] |T| [write_file]: *** TTY: 	Objects 151: obj_gui_box_controls
+[17:56:30.537] |T| [write_file]: *** TTY: 	Objects 152: obj_gui_info_player
+[17:56:30.539] |T| [write_file]: *** TTY: 	Objects 153: obj_gui_credits
+[17:56:30.540] |T| [write_file]: *** TTY: 	Objects 154: obj_gui_pontos
+[17:56:30.542] |T| [write_file]: *** TTY: 	Objects 155: obj_ranking_players
+[17:56:30.544] |T| [write_file]: *** TTY: 	Objects 156: obj_gui_message
+[17:56:30.545] |T| [write_file]: *** TTY: 	Objects 157: obj_gui_multiplayer_box
+[17:56:30.547] |T| [write_file]: *** TTY: 	Objects 158: obj_gui_multiplayer_box_confirm
+[17:56:30.561] |T| [write_file]: *** TTY: 	Objects 159: obj_gui_multiplayer_box_cancel
+[17:56:30.571] |T| [write_file]: *** TTY: 	Objects 160: obj_gui_message_bt
+[17:56:30.574] |T| [write_file]: *** TTY: 	Objects 161: obj_gui_unlocked_items
+[17:56:30.576] |T| [write_file]: *** TTY: 	Objects 162: obj_gui_unlocked_items_ok
+[17:56:30.581] |T| [write_file]: *** TTY: 	Objects 163: obj_gui_fundo_unlocked_items
+[17:56:30.589] |T| [write_file]: *** TTY: 	Objects 164: obj_gui_killed_by
+[17:56:30.592] |T| [write_file]: *** TTY: 	Objects 165: obj_bt_autoteste
+[17:56:30.596] |T| [write_file]: *** TTY: 	Objects 166: obj_defense_parent
+[17:56:30.598] |T| [write_file]: *** TTY: 	Objects 167: obj_turret_base
+[17:56:30.601] |T| [write_file]: *** TTY: 	Objects 168: obj_turret_cannon
+[17:56:30.605] |T| [write_file]: *** TTY: 	Objects 169: obj_ground_base
+[17:56:30.608] |T| [write_file]: *** TTY: 	Objects 170: obj_base_explosion
+[17:56:30.610] |T| [write_file]: *** TTY: 	Objects 171: obj_bonus_parent
+[17:56:30.612] |T| [write_file]: *** TTY: 	Objects 172: obj_bonus_health
+[17:56:30.614] |T| [write_file]: *** TTY: 	Objects 173: obj_bonus_energy
+[17:56:30.620] |T| [write_file]: *** TTY: Room_Prepare() 
+[17:56:30.621] |T| [write_file]: *** TTY: Sound_Prepare() 
+[17:56:30.825] |T| [write_file]: *** TTY: InitGraphics() 
+[17:56:30.827] |T| [write_file]: *** TTY: Finished PrepareGame() 
+[17:56:30.828] |T| [write_file]: *** TTY: Run_Start
+[17:56:30.982] |T| [write_file]: *** TTY: been passed id=NPWR10490_00 secret=b9dde13b0100000000000000f0e1d359ca90dc7d77ece2fd6d33cb1af5a79d535fcab8e0195aee3a7e30a1519aa0822a751fb0f7da59c73de437f8764d25690a98abfacb332e726d9e10595bf8c027bd1f9d1d4eae27333349c385169dd3a33cbb12bba3391e7b80b42dab8dd2b3b
+[17:56:30.987] |T| [write_file]: *** TTY: 4e1ba1e0dd36f12270133216c3d5dfcc9a9a6ebdf4e5382a6423aca7f9144d80d485ee5ccc6269db4dbca207906c0070f04, passphrase=839e401dfefba186844c7e1a4bd17b9cbee574e0c2b8f1bd9a8fa950c6e9ac2531252a3109b3f3b8b54e0c559b23367286b63757a88df7e88487a636730d3e30cf0f8e82ac285994
+[17:56:30.990] |T| [write_file]: *** TTY: 1781ca451cd27c62f6c06b44621521cb266703e2f5c22bac7d4cbc9f65f05b6c0406a413b4e32b3fd539244c76199d6b6f228ca80d4d22b9
+[17:56:31.095] |E| [logging::ret_error_impl]: sceNetInit returned SCE_NET_ERROR_EBUSY (0x80410110)
+[17:56:31.097] |E| [logging::ret_error_impl]: sceNetCtlInit returned SCE_NET_CTL_ERROR_NOT_TERMINATED (0x80412102)
+[17:56:31.121] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[17:56:31.167] |E| [logging::ret_error_impl]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[17:56:31.170] |I| [load_module]: Loading module ID: 0x55
+[17:56:31.191] |I| [load_self]: sys/external/libSceJson.suprx: Skipping special segment 0x6fffff01...
+[17:56:31.191] |I| [load_self]: Loaded module segment 0 @ [0x017B9000 - 0x017BF230 / 0x81000000] (size: 0x00006230) of module sys/external/libSceJson.suprx
+[17:56:31.195] |I| [load_self]: Loaded module segment 1 @ [0x00DBE000 - 0x00DBE049 / 0x81007000] (size: 0x00000049) of module sys/external/libSceJson.suprx
+[17:56:31.198] |I| [load_self]: Linking SELF sys/external/libSceJson.suprx...
+[17:56:31.207] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x17bf0a8
+[17:56:31.208] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x17be020
+[17:56:31.210] |I| [load_module]: Module SceLibJson (at "sys/external/libSceJson.suprx") loaded
+[17:56:31.216] |W| [unimplemented_impl]: Unimplemented sceNpBasicRegisterInGameDataMessageHandler import called.
+[17:56:31.258] |E| [logging::ret_error_impl]: sceKernelWaitLwCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[17:56:31.265] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[17:56:31.291] |T| [write_file]: *** TTY: Created InitScore thread ok
+[17:56:31.291] |W| [unimplemented_impl]: Unimplemented sceNpScoreInit import called.
+[17:56:31.295] |W| [unimplemented_impl]: Unimplemented sceNpScoreCreateTitleCtx import called.
+[17:56:31.371] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR10490_00/TROPHY.TRP (ux0:/app/PCSE00856/sce_sys/trophy/NPWR10490_00/TROPHY.TRP), fd: 0x26
+[17:56:31.456] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR10490_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR10490_00/TROPUSR.DAT), fd: 0x27
+[17:56:31.545] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR10490_00/TROPCONF.SFM), fd: 0x28
+[17:56:31.560] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 1920
+[17:56:31.565] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[17:56:31.575] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR10490_00/TROP.SFM), fd: 0x29
+[17:56:31.592] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 4273
+[17:56:31.596] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[17:56:31.706] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP_03.SFM (ux0:/user/00/trophy/conf/NPWR10490_00/TROP_03.SFM), fd: 0x2a
+[17:56:31.709] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 4430
+[17:56:31.712] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[17:56:31.763] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP_07.SFM (ux0:/user/00/trophy/conf/NPWR10490_00/TROP_07.SFM), fd: 0x2b
+[17:56:31.768] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 4391
+[17:56:31.770] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[17:56:31.794] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP_17.SFM (ux0:/user/00/trophy/conf/NPWR10490_00/TROP_17.SFM), fd: 0x2c
+[17:56:31.798] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 4391
+[17:56:31.804] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[17:56:31.847] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/ICON0.PNG), fd: 0x2d
+[17:56:31.852] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 87879
+[17:56:31.857] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[17:56:31.912] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP000.PNG), fd: 0x2e
+[17:56:31.915] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 7123
+[17:56:31.919] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[17:56:31.945] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP001.PNG), fd: 0x2f
+[17:56:31.947] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 7385
+[17:56:31.949] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[17:56:31.981] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP002.PNG), fd: 0x30
+[17:56:31.991] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 7260
+[17:56:31.992] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[17:56:32.024] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP003.PNG), fd: 0x31
+[17:56:32.028] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 14485
+[17:56:32.030] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[17:56:32.049] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP004.PNG), fd: 0x32
+[17:56:32.060] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 11698
+[17:56:32.063] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[17:56:32.089] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP005.PNG), fd: 0x33
+[17:56:32.095] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 5745
+[17:56:32.097] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[17:56:32.121] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP006.PNG), fd: 0x34
+[17:56:32.125] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 9792
+[17:56:32.128] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[17:56:32.161] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP007.PNG), fd: 0x35
+[17:56:32.169] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 6851
+[17:56:32.170] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[17:56:32.198] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP008.PNG), fd: 0x36
+[17:56:32.207] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 11722
+[17:56:32.210] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[17:56:32.246] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP009.PNG), fd: 0x37
+[17:56:32.253] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 9551
+[17:56:32.257] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[17:56:32.276] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP010.PNG), fd: 0x38
+[17:56:32.280] |T| [write_file]: install_trophy_context: Writing to fd: 0x38, size: 5876
+[17:56:32.282] |T| [close_file]: install_trophy_context: Closing file fd: 0x38
+[17:56:32.320] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP011.PNG), fd: 0x39
+[17:56:32.325] |T| [write_file]: install_trophy_context: Writing to fd: 0x39, size: 5403
+[17:56:32.327] |T| [close_file]: install_trophy_context: Closing file fd: 0x39
+[17:56:32.396] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP012.PNG), fd: 0x3a
+[17:56:32.402] |T| [write_file]: install_trophy_context: Writing to fd: 0x3a, size: 15087
+[17:56:32.406] |T| [close_file]: install_trophy_context: Closing file fd: 0x3a
+[17:56:32.427] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP013.PNG), fd: 0x3b
+[17:56:32.431] |T| [write_file]: install_trophy_context: Writing to fd: 0x3b, size: 7619
+[17:56:32.437] |T| [close_file]: install_trophy_context: Closing file fd: 0x3b
+[17:56:32.473] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP014.PNG), fd: 0x3c
+[17:56:32.477] |T| [write_file]: install_trophy_context: Writing to fd: 0x3c, size: 11732
+[17:56:32.479] |T| [close_file]: install_trophy_context: Closing file fd: 0x3c
+[17:56:32.516] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP015.PNG), fd: 0x3d
+[17:56:32.523] |T| [write_file]: install_trophy_context: Writing to fd: 0x3d, size: 5137
+[17:56:32.524] |T| [close_file]: install_trophy_context: Closing file fd: 0x3d
+[17:56:32.527] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP016.PNG), fd: 0x3e
+[17:56:32.531] |T| [write_file]: install_trophy_context: Writing to fd: 0x3e, size: 5461
+[17:56:32.532] |T| [close_file]: install_trophy_context: Closing file fd: 0x3e
+[17:56:32.590] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP017.PNG), fd: 0x3f
+[17:56:32.596] |T| [write_file]: install_trophy_context: Writing to fd: 0x3f, size: 6725
+[17:56:32.598] |T| [close_file]: install_trophy_context: Closing file fd: 0x3f
+[17:56:32.605] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP018.PNG), fd: 0x40
+[17:56:32.611] |T| [write_file]: install_trophy_context: Writing to fd: 0x40, size: 8866
+[17:56:32.612] |T| [close_file]: install_trophy_context: Closing file fd: 0x40
+[17:56:32.649] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP019.PNG), fd: 0x41
+[17:56:32.657] |T| [write_file]: install_trophy_context: Writing to fd: 0x41, size: 14550
+[17:56:32.660] |T| [close_file]: install_trophy_context: Closing file fd: 0x41
+[17:56:32.702] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP020.PNG), fd: 0x42
+[17:56:32.708] |T| [write_file]: install_trophy_context: Writing to fd: 0x42, size: 4964
+[17:56:32.709] |T| [close_file]: install_trophy_context: Closing file fd: 0x42
+[17:56:32.740] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP021.PNG), fd: 0x43
+[17:56:32.742] |T| [write_file]: install_trophy_context: Writing to fd: 0x43, size: 11332
+[17:56:32.744] |T| [close_file]: install_trophy_context: Closing file fd: 0x43
+[17:56:32.771] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP022.PNG), fd: 0x44
+[17:56:32.777] |T| [write_file]: install_trophy_context: Writing to fd: 0x44, size: 6740
+[17:56:32.778] |T| [close_file]: install_trophy_context: Closing file fd: 0x44
+[17:56:32.811] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP023.PNG), fd: 0x45
+[17:56:32.815] |T| [write_file]: install_trophy_context: Writing to fd: 0x45, size: 6621
+[17:56:32.819] |T| [close_file]: install_trophy_context: Closing file fd: 0x45
+[17:56:32.821] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP024.PNG), fd: 0x46
+[17:56:32.827] |T| [write_file]: install_trophy_context: Writing to fd: 0x46, size: 10097
+[17:56:32.827] |T| [close_file]: install_trophy_context: Closing file fd: 0x46
+[17:56:32.870] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10490_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR10490_00/TROP025.PNG), fd: 0x47
+[17:56:32.875] |T| [write_file]: install_trophy_context: Writing to fd: 0x47, size: 11176
+[17:56:32.875] |T| [close_file]: install_trophy_context: Closing file fd: 0x47
+[17:56:32.878] |T| [close_file]: create_trophy_context: Closing file fd: 0x27
+[17:56:32.880] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR10490_00 create successfuly!
+[17:56:32.882] |T| [write_file]: *** TTY: Trophy context success
+[17:56:32.889] |T| [write_file]: *** TTY: Set up dialog successfully
+[17:56:32.958] |T| [write_file]: *** TTY: criou obj_menu_gamepad_manager
+[17:56:33.014] |T| [write_file]: *** TTY: Display: 960x544 - View: 1920x1080 - Disp Asp: 1.76 - View Asp: 1.78
+[17:56:33.024] |T| [write_file]: *** TTY: NEW - Display: 960x544 - View: 1440x810 - Disp Asp: 1.76 - View Asp: 1.78
+[17:56:33.032] |T| [write_file]: *** TTY: Total memory used = 60351806(0x0398e53e) bytes
+[17:56:33.037] |T| [write_file]: *** TTY: **********************************.
+[17:56:33.038] |T| [write_file]: *** TTY: Entering main loop.
+[17:56:33.039] |T| [write_file]: *** TTY: **********************************.
+[17:56:33.045] |W| [unimplemented_impl]: Unimplemented sceMotionReset import called.
+[17:56:33.046] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[17:56:33.048] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[17:56:33.097] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[17:56:33.229] |E| [renderer::vulkan::sync_viewport_real]: Game is using a viewport with negative width!
+[17:56:33.611] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1cfb9c432d8218c2203901a6845be95e9166cc82af857cd070673a10db592b61
+[17:56:33.615] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 1cfb9c432d8218c2203901a6845be95e9166cc82af857cd070673a10db592b61
+[17:56:33.624] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[17:56:33.626] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color
+[17:56:33.628] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[17:56:33.662] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 79895d73949938211f8a4258db6866661b8a7b4a31aeb4025d89e378ef6d2e89
+[17:56:33.670] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 79895d73949938211f8a4258db6866661b8a7b4a31aeb4025d89e378ef6d2e89
+[17:56:33.680] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[17:56:33.681] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[17:56:33.781] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3b388a2e25b060dbb7f704c44253584f8381f2379751dd8da4d631d5e098df35
+[17:56:33.789] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 3b388a2e25b060dbb7f704c44253584f8381f2379751dd8da4d631d5e098df35
+[17:56:33.794] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_aPosition
+[17:56:33.798] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_aColour
+[17:56:33.800] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_aTexCoord
+[17:56:33.808] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) gm_Matrices[20]
+[17:56:33.814] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[17:56:33.821] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 11
+[17:56:33.913] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2442c70433b841510779a03fe521dc8e9013eab28153db3f92edf83e5ebd4470
+[17:56:33.943] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 2442c70433b841510779a03fe521dc8e9013eab28153db3f92edf83e5ebd4470
+[17:56:33.980] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[17:56:33.982] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(gm_BaseTexture, TEXCOORD0.xy)
+[17:56:33.988] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[17:56:35.375] |T| [write_file]: *** TTY:  sceNpTrophySetupDialogGetResult success
+[17:56:35.437] |T| [write_file]: *** TTY: Created init trophy thread ok
+[17:56:35.437] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[17:56:35.443] |T| [write_file]: *** TTY: Iniciando processo de loading
+[17:56:35.466] |T| [write_file]: *** TTY: Received info for 26 trophies 
+[17:56:35.470] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[17:56:35.470] |T| [write_file]: *** TTY: Display: 960x544 - View: 1440x810 - Disp Asp: 1.76 - View Asp: 1.78
+[17:56:35.476] |T| [write_file]: *** TTY: NEW - Display: 960x544 - View: 1440x810 - Disp Asp: 1.76 - View Asp: 1.78
+[17:56:36.006] |I| [export_sceIoOpen]: Opening file: savedata0:/lastwings.sav
+[17:56:36.016] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/lastwings.sav (target path: savedata0:/lastwings.sav)
+[17:56:36.031] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:36.041] |I| [export_sceIoOpen]: Opening file: app0:/games/lastwings.sav
+[17:56:36.043] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/app/PCSE00856/games/lastwings.sav (target path: app0:/games/lastwings.sav)
+[17:56:36.058] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:56:36.066] |T| [write_file]: *** TTY: save_game não existe
+[17:56:36.208] |T| [write_file]: *** TTY: Checking VITA NETWORK
+[17:57:04.041] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[17:57:04.106] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[17:57:05.267] |T| [write_file]: *** TTY: Iniciando processo de savegame
+[17:57:05.307] |T| [write_file]: *** TTY: ####### padindex: 0
+[17:57:05.396] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSE00856/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[17:57:05.402] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[17:57:05.403] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[17:57:05.409] |T| [write_file]: *** TTY: --> NP_STATUS (request: 0)
+[17:57:05.411] |T| [write_file]: *** TTY: CLICOU BOTAO Easy
+[17:57:05.780] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/lastwings.sav (ux0:/user/00/savedata/PCSE00856/lastwings.sav), fd: 0x48
+[17:57:05.806] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x48, size: 4096
+[17:57:05.807] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x48
+[17:57:05.810] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/lastwings.sav (ux0:/user/00/savedata/PCSE00856/lastwings.sav), fd: 0x49
+[17:57:05.811] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0x49, to size: 4096
+[17:57:05.814] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x49
+[17:57:05.821] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00856/SlotParam_0.bin), fd: 0x4a
+[17:57:05.825] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x4a, size: 844
+[17:57:05.827] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x4a
+[17:57:05.834] |E| [logging::ret_error_impl]: sceSaveDataDialogProgressBarSetValue returned SCE_COMMON_DIALOG_ERROR_NOT_SUPPORTED (0x80020405)
+[17:57:05.956] |T| [write_file]: *** TTY: SAVE: {error : 0, id : 1, status : 1}
+[17:57:05.959] |T| [write_file]: *** TTY: saved data status: 1, error: 0
+[17:57:05.959] |T| [write_file]: *** TTY: Checking VITA NETWORK
+[17:57:05.962] |W| [stubbed_impl]: Stubbed sceNpGetServiceState import called. (Stub)
+[17:57:05.971] |T| [write_file]: *** TTY: OBJ_SAVE_GAME - SYSTEM EVENT: {event_type : get_service_state, status : error}
+[17:57:16.468] |T| [write_file]: *** TTY: CLICOU BOTAO LOCAL
+[17:57:19.560] |T| [write_file]: *** TTY: CLICOU BOTAO Score Attack
+[17:57:21.701] |T| [write_file]: *** TTY: CLICOU BOTAO Score Attack
+[17:57:22.580] |C| [protect_inner]: VirtualAlloc failed: unknown error
+[17:57:25.256] |T| [write_file]: *** TTY: Display: 960x544 - View: 1280x800 - Disp Asp: 1.76 - View Asp: 1.78
+[17:57:25.268] |T| [write_file]: *** TTY: NEW - Display: 960x544 - View: 1440x810 - Disp Asp: 1.76 - View Asp: 1.78
+[17:57:25.407] |T| [write_file]: *** TTY: Display: 960x544 - View: 1440x810 - Disp Asp: 1.76 - View Asp: 1.78
+[17:57:25.420] |T| [write_file]: *** TTY: NEW - Display: 960x544 - View: 1440x810 - Disp Asp: 1.76 - View Asp: 1.78
+[17:57:32.092] |T| [write_file]: *** TTY: box de selecao de avião da view 0, foi destruido
+[17:57:33.123] |T| [write_file]: *** TTY: Display: 960x544 - View: 1440x810 - Disp Asp: 1.76 - View Asp: 1.78
+[17:57:33.126] |T| [write_file]: *** TTY: NEW - Display: 960x544 - View: 1440x810 - Disp Asp: 1.76 - View Asp: 1.78
+[17:57:33.128] |T| [write_file]: *** TTY: Unpause Game
+[17:58:41.373] |T| [write_file]: *** TTY: Created init trophy thread ok
+[17:58:41.457] |T| [write_file]: *** TTY: Error unlocking trophy 0x8055160f

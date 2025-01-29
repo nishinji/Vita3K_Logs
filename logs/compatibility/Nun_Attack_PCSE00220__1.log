@@ -1,0 +1,864 @@
+[17:36:11.374] |I| [config::init_config]: backend-renderer: Vulkan
+[17:36:11.430] |I| [config::init_config]: log-level: 0
+[17:36:12.214] |I| [SDL_main]: Vita3K v0.1.6 2935-4a50a4e0
+[17:36:12.307] |I| [SDL_main]: Number of logical CPU cores: 2
+[17:36:12.307] |I| [SDL_main]: Available ram memory: 3959 MiB
+[17:36:16.034] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[17:36:18.996] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[17:36:19.028] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[17:36:20.524] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[17:39:16.014] |I| [load_app_impl]: cpu-backend: Dynarmic
+[17:39:16.016] |I| [load_app_impl]: CPU Optimisation state: true
+[17:39:16.017] |I| [load_app_impl]: ngs state: true
+[17:39:16.019] |I| [load_app_impl]: Resolution multiplier: 1
+[17:39:16.020] |I| [load_app_impl]: modules mode: Auto & Manual
+[17:39:16.021] |I| [load_app_impl]: lle-modules: libhttp
+[17:39:16.022] |I| [load_app_impl]: Title: Nun Attack
+[17:39:16.023] |I| [load_app_impl]: Serial: PCSE00220
+[17:39:16.024] |I| [load_app_impl]: Version: 1.00
+[17:39:16.024] |I| [load_app_impl]: Category: gd
+[17:39:16.271] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6FFFFF01...
+[17:39:16.289] |I| [load_self]: Loaded module segment 0 @ [0x00004000 - 0x0003FC2C / 0x81000000] (size: 0x0003BC2C) of module app0:sce_module/libc.suprx
+[17:39:16.290] |I| [load_self]: Loaded module segment 1 @ [0x00040000 - 0x00042380 / 0x8103C000] (size: 0x00002380) of module app0:sce_module/libc.suprx
+[17:39:16.292] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[17:39:16.293] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x31540
+[17:39:16.391] |W| [load_var_imports]:  NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x34D88, setting to stub value 0xDEADBEEF
+[17:39:16.396] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[17:39:16.540] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6FFFFF01...
+[17:39:16.541] |I| [load_self]: Loaded module segment 0 @ [0x00044000 - 0x000653BC / 0x81000000] (size: 0x000213BC) of module app0:sce_module/libfios2.suprx
+[17:39:16.562] |I| [load_self]: Loaded module segment 1 @ [0x00066000 - 0x0006B1B8 / 0x81022000] (size: 0x000051B8) of module app0:sce_module/libfios2.suprx
+[17:39:16.567] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[17:39:16.569] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x5ED84
+[17:39:16.572] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[17:39:16.634] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6FFFFF01...
+[17:39:16.635] |I| [load_self]: Loaded module segment 0 @ [0x0006C000 - 0x0007F474 / 0x81000000] (size: 0x00013474) of module app0:sce_module/libult.suprx
+[17:39:16.637] |I| [load_self]: Loaded module segment 1 @ [0x00080000 - 0x00080814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[17:39:16.640] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[17:39:16.642] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x7B714
+[17:39:16.645] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[17:39:16.809] |I| [load_self]: Loaded module segment 0 @ [0x00081000 - 0x000D1F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[17:39:16.812] |I| [load_self]: Loaded module segment 1 @ [0x000D2000 - 0x000D22F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[17:39:16.817] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[17:39:16.819] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0xBD7DC
+[17:39:16.822] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0xBCF10
+[17:39:16.857] |W| [load_var_imports]:  NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0xD1EE0, setting to stub value 0xDEADBEEF
+[17:39:16.863] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[17:39:16.960] |I| [load_self]: Loaded module segment 0 @ [0x000D4000 - 0x000E3F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[17:39:16.968] |I| [load_self]: Loaded module segment 1 @ [0x000E4000 - 0x000E4008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[17:39:16.974] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[17:39:16.977] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0xE2710
+[17:39:16.979] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0xE2300
+[17:39:16.983] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[17:39:17.243] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6FFFFF01...
+[17:39:17.245] |I| [load_self]: Loaded module segment 0 @ [0x81000000 - 0x81247490 / 0x81000000] (size: 0x00247490) of module app0:eboot.bin
+[17:39:17.249] |I| [load_self]: Loaded module segment 1 @ [0x81248000 - 0x81267200 / 0x81248000] (size: 0x0001F200) of module app0:eboot.bin
+[17:39:17.251] |I| [load_self]: Linking SELF app0:eboot.bin...
+[17:39:17.253] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x81223C24
+[17:39:17.255] |D| [load_var_exports]:  NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x812482E0
+[17:39:17.257] |I| [load_app_impl]: Main executable NunAttack (eboot.bin) loaded
+[17:39:17.331] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[17:39:17.394] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[17:39:17.563] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/4
+[17:39:17.650] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/4
+[17:39:17.727] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/4
+[17:39:17.849] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/4
+[17:39:18.060] |D| [run_app]: Running module_start of library: SceLibc at address 0x45B1
+[17:39:18.648] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[17:39:18.649] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[17:39:18.652] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[17:39:18.674] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[17:39:18.687] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x44001
+[17:39:18.743] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[17:39:18.746] |W| [unimplemented_impl]: Unimplemented _sceFiosKernelOverlayGetList import called.
+[17:39:18.747] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[17:39:18.760] |D| [run_app]: Running module_start of library: SceUlt at address 0x6F95D
+[17:39:18.851] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[17:39:18.853] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[17:39:19.063] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[17:39:19.069] |W| [unimplemented_impl]: Unimplemented sceCommonDialogSetConfigParam import called.
+[17:39:19.177] |I| [load_module]: Loading module ID: 0xD
+[17:39:19.606] |I| [load_self]: Loaded module segment 0 @ [0x0E732000 - 0x0E749244 / 0x81000000] (size: 0x00017244) of module sys/external/libsas.suprx
+[17:39:19.708] |I| [load_self]: Loaded module segment 1 @ [0x00127000 - 0x00127038 / 0x81018000] (size: 0x00000038) of module sys/external/libsas.suprx
+[17:39:19.713] |I| [load_self]: Linking SELF sys/external/libsas.suprx...
+[17:39:19.715] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0xE746004
+[17:39:19.718] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0xE745BF0
+[17:39:19.719] |I| [load_module]: Module SceSasUser (at "sys/external/libsas.suprx") loaded
+[17:39:20.079] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x180C6824 sceSasGetNeededMemorySize at 0x812230A8
+[17:39:20.434] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x820D5F82 sceSasInitWithGrain at 0x81223108
+[17:39:20.616] |I| [load_module]: Loading module ID: 0x30
+[17:39:20.707] |T| [log_import_call]: [LLE] TID: 39  FUNC: 0x7A4672B2 sceSasCore at 0x812230F8
+[17:39:20.756] |I| [load_self]: sys/external/libatrac.suprx: Skipping special segment 0x6FFFFF01...
+[17:39:20.758] |I| [load_self]: Loaded module segment 0 @ [0x0012A000 - 0x0012D55C / 0x81000000] (size: 0x0000355C) of module sys/external/libatrac.suprx
+[17:39:20.761] |I| [load_self]: Loaded module segment 1 @ [0x0012E000 - 0x0012F038 / 0x81004000] (size: 0x00001038) of module sys/external/libatrac.suprx
+[17:39:20.783] |I| [load_self]: Linking SELF sys/external/libatrac.suprx...
+[17:39:20.784] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0x12D558
+[17:39:20.785] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0x12CDB4
+[17:39:20.788] |I| [load_module]: Module SceAtrac (at "sys/external/libatrac.suprx") loaded
+[17:39:20.790] |D| [load_module]: Running module_start of module: SceAtrac
+[17:39:20.793] |I| [load_module]: Module SceAtrac (at "sys/external/libatrac.suprx") module_start returned 0x0
+[17:39:20.840] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x1A34B331 sceAtracQueryDecoderGroupMemSize at 0x81222FF8
+[17:39:20.842] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x1BFB98C sceAtracCreateDecoderGroup at 0x81222FD8
+[17:39:20.852] |E| [call_import]: Import function for NID 0xE340CE74 not found (thread name: audio_out_thread, thread ID: 39)
+[17:39:21.038] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[17:39:29.406] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[17:39:32.372] |W| [unimplemented_impl]: Unimplemented sceTouchEnableTouchForce import called.
+[17:39:32.537] |I| [export_sceIoOpen]: Opening file: app0:/arch/package.dat
+[17:39:32.586] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/app/PCSE00220/arch/package.dat (target path: app0:/arch/package.dat)
+[17:39:32.592] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:39:32.599] |I| [export_sceIoOpen]: Opening file: app0:/common/package.dat
+[17:39:32.602] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/app/PCSE00220/common/package.dat (target path: app0:/common/package.dat)
+[17:39:32.606] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:39:32.609] |I| [export_sceIoOpen]: Opening file: app0:package.dat
+[17:39:34.579] |T| [open_file]: sceIoOpen: Opening file app0:package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x3
+[17:39:34.588] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[17:39:34.591] |I| [export_sceIoOpen]: Opening file: app0:/arch/file.dat
+[17:39:34.593] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/app/PCSE00220/arch/file.dat (target path: app0:/arch/file.dat)
+[17:39:34.596] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:39:34.599] |I| [export_sceIoOpen]: Opening file: app0:/common/file.dat
+[17:39:34.604] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/app/PCSE00220/common/file.dat (target path: app0:/common/file.dat)
+[17:39:34.606] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:39:34.609] |I| [export_sceIoOpen]: Opening file: app0:file.dat
+[17:39:35.874] |T| [open_file]: sceIoOpen: Opening file app0:file.dat (ux0:/app/PCSE00220/file.dat), fd: 0x4
+[17:39:36.207] |I| [export_sceIoOpen]: Opening file: app0:/arch/data.dat
+[17:39:36.239] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/app/PCSE00220/arch/data.dat (target path: app0:/arch/data.dat)
+[17:39:36.241] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:39:36.252] |I| [export_sceIoOpen]: Opening file: app0:/common/data.dat
+[17:39:36.254] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/app/PCSE00220/common/data.dat (target path: app0:/common/data.dat)
+[17:39:36.257] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:39:36.258] |I| [export_sceIoOpen]: Opening file: app0:data.dat
+[17:39:37.641] |T| [open_file]: sceIoOpen: Opening file app0:data.dat (ux0:/app/PCSE00220/data.dat), fd: 0x5
+[17:39:38.423] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[17:39:38.612] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:38.661] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:38.931] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x6
+[17:39:38.931] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x7
+[17:39:39.148] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[17:39:39.483] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[17:39:39.560] |W| [unimplemented_impl]: Unimplemented sceNearInitialize import called.
+[17:39:39.671] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:39.679] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x8
+[17:39:39.693] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:40.250] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x9
+[17:39:40.263] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[17:39:40.294] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:40.297] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[17:39:40.300] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xA
+[17:39:40.302] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:40.886] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB
+[17:39:40.887] |T| [close_file]: sceIoClose: Closing file fd: 0xA
+[17:39:40.890] |T| [close_file]: sceIoClose: Closing file fd: 0xB
+[17:39:40.891] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:40.894] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:40.896] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC
+[17:39:40.897] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD
+[17:39:40.905] |T| [close_file]: sceIoClose: Closing file fd: 0xC
+[17:39:40.909] |T| [close_file]: sceIoClose: Closing file fd: 0xD
+[17:39:40.914] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:40.917] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:40.919] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xE
+[17:39:40.924] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xF
+[17:39:40.933] |T| [close_file]: sceIoClose: Closing file fd: 0xF
+[17:39:40.934] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:40.936] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x10
+[17:39:40.944] |T| [close_file]: sceIoClose: Closing file fd: 0xE
+[17:39:41.098] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.102] |T| [close_file]: sceIoClose: Closing file fd: 0x10
+[17:39:41.102] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x11
+[17:39:41.103] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.109] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x12
+[17:39:41.109] |T| [close_file]: sceIoClose: Closing file fd: 0x11
+[17:39:41.143] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.145] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x13
+[17:39:41.147] |T| [close_file]: sceIoClose: Closing file fd: 0x12
+[17:39:41.151] |T| [close_file]: sceIoClose: Closing file fd: 0x13
+[17:39:41.152] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.160] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x14
+[17:39:41.155] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.167] |T| [close_file]: sceIoClose: Closing file fd: 0x14
+[17:39:41.170] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.187] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x15
+[17:39:41.192] |T| [close_file]: sceIoClose: Closing file fd: 0x15
+[17:39:41.193] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.209] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x16
+[17:39:41.209] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x17
+[17:39:41.211] |T| [close_file]: sceIoClose: Closing file fd: 0x16
+[17:39:41.217] |T| [close_file]: sceIoClose: Closing file fd: 0x17
+[17:39:41.218] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.221] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.227] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x19
+[17:39:41.222] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x18
+[17:39:41.234] |T| [close_file]: sceIoClose: Closing file fd: 0x19
+[17:39:41.236] |T| [close_file]: sceIoClose: Closing file fd: 0x18
+[17:39:41.237] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.241] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.243] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x1A
+[17:39:41.246] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x1B
+[17:39:41.267] |T| [close_file]: sceIoClose: Closing file fd: 0x1A
+[17:39:41.267] |T| [close_file]: sceIoClose: Closing file fd: 0x1B
+[17:39:41.268] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.270] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.274] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x1C
+[17:39:41.275] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x1D
+[17:39:41.382] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR04310_00/TROPHY.TRP (ux0:/app/PCSE00220/sce_sys/trophy/NPWR04310_00/TROPHY.TRP), fd: 0x1E
+[17:39:41.447] |T| [close_file]: sceIoClose: Closing file fd: 0x1D
+[17:39:41.449] |T| [close_file]: sceIoClose: Closing file fd: 0x1C
+[17:39:41.450] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.452] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.455] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x1F
+[17:39:41.457] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x20
+[17:39:41.461] |T| [close_file]: sceIoClose: Closing file fd: 0x1F
+[17:39:41.467] |T| [close_file]: sceIoClose: Closing file fd: 0x20
+[17:39:41.467] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.469] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.471] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x21
+[17:39:41.474] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x22
+[17:39:41.531] |T| [close_file]: sceIoClose: Closing file fd: 0x21
+[17:39:41.531] |T| [close_file]: sceIoClose: Closing file fd: 0x22
+[17:39:41.533] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.535] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.537] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x23
+[17:39:41.539] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x24
+[17:39:41.551] |T| [close_file]: sceIoClose: Closing file fd: 0x24
+[17:39:41.551] |T| [close_file]: sceIoClose: Closing file fd: 0x23
+[17:39:41.551] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.554] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.557] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x25
+[17:39:41.559] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x26
+[17:39:41.563] |T| [close_file]: sceIoClose: Closing file fd: 0x25
+[17:39:41.565] |T| [close_file]: sceIoClose: Closing file fd: 0x26
+[17:39:41.587] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.587] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.588] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x27
+[17:39:41.590] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x28
+[17:39:41.593] |T| [close_file]: sceIoClose: Closing file fd: 0x27
+[17:39:41.596] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.597] |T| [close_file]: sceIoClose: Closing file fd: 0x28
+[17:39:41.603] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.599] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x29
+[17:39:41.606] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x2A
+[17:39:41.609] |T| [close_file]: sceIoClose: Closing file fd: 0x29
+[17:39:41.612] |T| [close_file]: sceIoClose: Closing file fd: 0x2A
+[17:39:41.614] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.617] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.618] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x2B
+[17:39:41.623] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x2C
+[17:39:41.629] |T| [close_file]: sceIoClose: Closing file fd: 0x2B
+[17:39:41.631] |T| [close_file]: sceIoClose: Closing file fd: 0x2C
+[17:39:41.635] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.638] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR04310_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR04310_00/TROPUSR.DAT), fd: 0x2D
+[17:39:41.639] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.640] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x2E
+[17:39:41.647] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x2F
+[17:39:41.652] |T| [close_file]: sceIoClose: Closing file fd: 0x2E
+[17:39:41.658] |T| [close_file]: sceIoClose: Closing file fd: 0x2F
+[17:39:41.662] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.664] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.667] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x30
+[17:39:41.670] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x31
+[17:39:41.673] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[17:39:41.677] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[17:39:41.678] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.680] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.681] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x32
+[17:39:41.687] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x33
+[17:39:41.689] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[17:39:41.692] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[17:39:41.693] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.695] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.697] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x34
+[17:39:41.702] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x35
+[17:39:41.706] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[17:39:41.710] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[17:39:41.711] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.712] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.716] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x36
+[17:39:41.720] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x37
+[17:39:41.723] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[17:39:41.727] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[17:39:41.727] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.731] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.736] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x38
+[17:39:41.737] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x39
+[17:39:41.741] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[17:39:41.774] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.777] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[17:39:41.777] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x3A
+[17:39:41.778] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.781] |T| [close_file]: sceIoClose: Closing file fd: 0x3A
+[17:39:41.784] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x3B
+[17:39:41.785] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.789] |T| [close_file]: sceIoClose: Closing file fd: 0x3B
+[17:39:41.790] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x3C
+[17:39:41.795] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.799] |T| [close_file]: sceIoClose: Closing file fd: 0x3C
+[17:39:41.800] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x3D
+[17:39:41.801] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.805] |T| [close_file]: sceIoClose: Closing file fd: 0x3D
+[17:39:41.806] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x3E
+[17:39:41.808] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.813] |T| [close_file]: sceIoClose: Closing file fd: 0x3E
+[17:39:41.819] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.817] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x3F
+[17:39:41.820] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x40
+[17:39:41.824] |T| [close_file]: sceIoClose: Closing file fd: 0x3F
+[17:39:41.829] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[17:39:41.831] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.834] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.836] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x41
+[17:39:41.838] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x42
+[17:39:41.844] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[17:39:41.893] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.894] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[17:39:41.895] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x43
+[17:39:41.897] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:41.918] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x44
+[17:39:41.919] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[17:39:42.344] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:42.344] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[17:39:42.358] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x45
+[17:39:42.359] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:42.391] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR04310_00/TROPCONF.SFM), fd: 0x46
+[17:39:42.394] |T| [write_file]: install_trophy_context: Writing to fd: 0x46, size: 1330
+[17:39:42.396] |T| [close_file]: install_trophy_context: Closing file fd: 0x46
+[17:39:42.956] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[17:39:42.958] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:42.961] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x47
+[17:39:43.410] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x48
+[17:39:43.613] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[17:39:43.624] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[17:39:43.631] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:43.634] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:43.636] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x49
+[17:39:43.638] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x4A
+[17:39:44.304] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[17:39:44.372] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR04310_00/TROP.SFM), fd: 0x4B
+[17:39:44.375] |T| [write_file]: install_trophy_context: Writing to fd: 0x4B, size: 2696
+[17:39:44.378] |T| [close_file]: install_trophy_context: Closing file fd: 0x4B
+[17:39:44.534] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.535] |T| [close_file]: sceIoClose: Closing file fd: 0x4A
+[17:39:44.536] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x4C
+[17:39:44.539] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.665] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x4D
+[17:39:44.665] |T| [close_file]: sceIoClose: Closing file fd: 0x4C
+[17:39:44.797] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.797] |T| [close_file]: sceIoClose: Closing file fd: 0x4D
+[17:39:44.801] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x4E
+[17:39:44.804] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.897] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x4F
+[17:39:44.897] |T| [close_file]: sceIoClose: Closing file fd: 0x4E
+[17:39:44.903] |T| [close_file]: sceIoClose: Closing file fd: 0x4F
+[17:39:44.904] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.904] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.906] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x50
+[17:39:44.911] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x51
+[17:39:44.914] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[17:39:44.917] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[17:39:44.922] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.926] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.927] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x52
+[17:39:44.929] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x53
+[17:39:44.932] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[17:39:44.937] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[17:39:44.940] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.944] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.945] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x54
+[17:39:44.947] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x55
+[17:39:44.951] |T| [close_file]: sceIoClose: Closing file fd: 0x54
+[17:39:44.958] |T| [close_file]: sceIoClose: Closing file fd: 0x55
+[17:39:44.960] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.961] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.963] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x56
+[17:39:44.965] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x57
+[17:39:44.972] |T| [close_file]: sceIoClose: Closing file fd: 0x56
+[17:39:44.976] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.978] |T| [close_file]: sceIoClose: Closing file fd: 0x57
+[17:39:44.978] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x58
+[17:39:44.980] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.983] |T| [close_file]: sceIoClose: Closing file fd: 0x58
+[17:39:44.988] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x59
+[17:39:44.991] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:44.996] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[17:39:44.998] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x5A
+[17:39:45.003] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.180] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x5B
+[17:39:45.181] |T| [close_file]: sceIoClose: Closing file fd: 0x5A
+[17:39:45.509] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.587] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x5C
+[17:39:45.587] |T| [close_file]: sceIoClose: Closing file fd: 0x5B
+[17:39:45.590] |T| [close_file]: sceIoClose: Closing file fd: 0x5C
+[17:39:45.592] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.595] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.597] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x5D
+[17:39:45.602] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x5E
+[17:39:45.606] |T| [close_file]: sceIoClose: Closing file fd: 0x5D
+[17:39:45.610] |T| [close_file]: sceIoClose: Closing file fd: 0x5E
+[17:39:45.611] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.616] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.621] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x5F
+[17:39:45.623] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x60
+[17:39:45.628] |T| [close_file]: sceIoClose: Closing file fd: 0x5F
+[17:39:45.634] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[17:39:45.636] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.638] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.640] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x61
+[17:39:45.643] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x62
+[17:39:45.648] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[17:39:45.653] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[17:39:45.654] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.656] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.658] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x63
+[17:39:45.663] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x64
+[17:39:45.669] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[17:39:45.671] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[17:39:45.674] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.679] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.684] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x65
+[17:39:45.686] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x66
+[17:39:45.695] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[17:39:45.696] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.697] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x67
+[17:39:45.702] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[17:39:45.703] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.705] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x68
+[17:39:45.706] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[17:39:45.709] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[17:39:45.713] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.715] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.718] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP_01.SFM (ux0:/user/00/trophy/conf/NPWR04310_00/TROP_01.SFM), fd: 0x69
+[17:39:45.719] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x6A
+[17:39:45.720] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x6B
+[17:39:45.726] |T| [write_file]: install_trophy_context: Writing to fd: 0x69, size: 2696
+[17:39:45.730] |T| [close_file]: sceIoClose: Closing file fd: 0x6A
+[17:39:45.735] |T| [close_file]: sceIoClose: Closing file fd: 0x6B
+[17:39:45.735] |T| [close_file]: install_trophy_context: Closing file fd: 0x69
+[17:39:45.739] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.741] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.746] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x6C
+[17:39:45.748] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x6D
+[17:39:45.751] |T| [close_file]: sceIoClose: Closing file fd: 0x6C
+[17:39:45.758] |T| [close_file]: sceIoClose: Closing file fd: 0x6D
+[17:39:45.758] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.760] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.761] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x6E
+[17:39:45.764] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x6F
+[17:39:45.767] |T| [close_file]: sceIoClose: Closing file fd: 0x6E
+[17:39:45.773] |T| [close_file]: sceIoClose: Closing file fd: 0x6F
+[17:39:45.774] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.775] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.777] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x70
+[17:39:45.779] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x71
+[17:39:45.782] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[17:39:45.785] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[17:39:45.789] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.791] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:45.793] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x72
+[17:39:45.795] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x73
+[17:39:45.798] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[17:39:46.264] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP_02.SFM (ux0:/user/00/trophy/conf/NPWR04310_00/TROP_02.SFM), fd: 0x74
+[17:39:46.271] |T| [write_file]: install_trophy_context: Writing to fd: 0x74, size: 2806
+[17:39:46.272] |T| [close_file]: install_trophy_context: Closing file fd: 0x74
+[17:39:46.321] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:46.942] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x75
+[17:39:46.943] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[17:39:46.953] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:46.954] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[17:39:46.955] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x76
+[17:39:46.957] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:46.988] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x77
+[17:39:47.000] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[17:39:47.055] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:47.055] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[17:39:47.056] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x78
+[17:39:47.059] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:47.064] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x79
+[17:39:47.067] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[17:39:47.244] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:47.244] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[17:39:47.246] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x7A
+[17:39:47.248] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:47.251] |T| [close_file]: sceIoClose: Closing file fd: 0x7A
+[17:39:47.254] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x7B
+[17:39:47.256] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:47.456] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/ICON0.PNG), fd: 0x7C
+[17:39:47.461] |T| [write_file]: install_trophy_context: Writing to fd: 0x7C, size: 69704
+[17:39:47.463] |T| [close_file]: install_trophy_context: Closing file fd: 0x7C
+[17:39:47.920] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x7D
+[17:39:47.920] |T| [close_file]: sceIoClose: Closing file fd: 0x7B
+[17:39:48.385] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:48.385] |T| [close_file]: sceIoClose: Closing file fd: 0x7D
+[17:39:48.387] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x7E
+[17:39:48.389] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:48.391] |T| [close_file]: sceIoClose: Closing file fd: 0x7E
+[17:39:48.393] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x7F
+[17:39:48.395] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:48.400] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x80
+[17:39:48.397] |T| [close_file]: sceIoClose: Closing file fd: 0x7F
+[17:39:48.411] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP000.PNG), fd: 0x81
+[17:39:48.414] |T| [write_file]: install_trophy_context: Writing to fd: 0x81, size: 33889
+[17:39:48.417] |T| [close_file]: install_trophy_context: Closing file fd: 0x81
+[17:39:48.545] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:48.556] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x82
+[17:39:48.556] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[17:39:48.859] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP001.PNG), fd: 0x83
+[17:39:48.864] |T| [write_file]: install_trophy_context: Writing to fd: 0x83, size: 28647
+[17:39:48.868] |T| [close_file]: install_trophy_context: Closing file fd: 0x83
+[17:39:49.340] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[17:39:49.397] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:49.405] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x84
+[17:39:49.410] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:49.416] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP002.PNG), fd: 0x85
+[17:39:49.417] |T| [write_file]: install_trophy_context: Writing to fd: 0x85, size: 28613
+[17:39:49.418] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x86
+[17:39:49.418] |T| [close_file]: install_trophy_context: Closing file fd: 0x85
+[17:39:49.422] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[17:39:49.640] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:49.643] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x87
+[17:39:49.663] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[17:39:50.268] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:50.298] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x88
+[17:39:50.299] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[17:39:50.677] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:50.910] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP003.PNG), fd: 0x89
+[17:39:50.918] |T| [write_file]: install_trophy_context: Writing to fd: 0x89, size: 21941
+[17:39:50.921] |T| [close_file]: install_trophy_context: Closing file fd: 0x89
+[17:39:50.938] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[17:39:50.938] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x8A
+[17:39:50.971] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:50.974] |T| [close_file]: sceIoClose: Closing file fd: 0x8A
+[17:39:50.976] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x8B
+[17:39:51.002] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:39:51.014] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x8C
+[17:39:51.016] |T| [close_file]: sceIoClose: Closing file fd: 0x8B
+[17:39:51.459] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP004.PNG), fd: 0x8D
+[17:39:51.463] |T| [write_file]: install_trophy_context: Writing to fd: 0x8D, size: 22106
+[17:39:51.465] |T| [close_file]: install_trophy_context: Closing file fd: 0x8D
+[17:39:51.817] |T| [close_file]: sceIoClose: Closing file fd: 0x8C
+[17:39:52.339] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP005.PNG), fd: 0x8E
+[17:39:52.346] |T| [write_file]: install_trophy_context: Writing to fd: 0x8E, size: 24609
+[17:39:52.348] |T| [close_file]: install_trophy_context: Closing file fd: 0x8E
+[17:39:52.810] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP006.PNG), fd: 0x8F
+[17:39:52.815] |T| [write_file]: install_trophy_context: Writing to fd: 0x8F, size: 27734
+[17:39:52.819] |T| [close_file]: install_trophy_context: Closing file fd: 0x8F
+[17:39:54.397] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP007.PNG), fd: 0x90
+[17:39:54.408] |T| [write_file]: install_trophy_context: Writing to fd: 0x90, size: 21249
+[17:39:54.411] |T| [close_file]: install_trophy_context: Closing file fd: 0x90
+[17:39:54.947] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP008.PNG), fd: 0x91
+[17:39:54.951] |T| [write_file]: install_trophy_context: Writing to fd: 0x91, size: 20068
+[17:39:54.952] |T| [close_file]: install_trophy_context: Closing file fd: 0x91
+[17:39:55.467] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP009.PNG), fd: 0x92
+[17:39:55.473] |T| [write_file]: install_trophy_context: Writing to fd: 0x92, size: 33185
+[17:39:55.475] |T| [close_file]: install_trophy_context: Closing file fd: 0x92
+[17:39:56.200] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP010.PNG), fd: 0x93
+[17:39:56.204] |T| [write_file]: install_trophy_context: Writing to fd: 0x93, size: 26143
+[17:39:56.207] |T| [close_file]: install_trophy_context: Closing file fd: 0x93
+[17:39:58.594] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP011.PNG), fd: 0x94
+[17:39:58.598] |T| [write_file]: install_trophy_context: Writing to fd: 0x94, size: 22645
+[17:39:58.602] |T| [close_file]: install_trophy_context: Closing file fd: 0x94
+[17:39:59.595] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP012.PNG), fd: 0x95
+[17:39:59.602] |T| [write_file]: install_trophy_context: Writing to fd: 0x95, size: 19714
+[17:39:59.604] |T| [close_file]: install_trophy_context: Closing file fd: 0x95
+[17:40:00.398] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP013.PNG), fd: 0x96
+[17:40:00.401] |T| [write_file]: install_trophy_context: Writing to fd: 0x96, size: 23820
+[17:40:00.405] |T| [close_file]: install_trophy_context: Closing file fd: 0x96
+[17:40:00.867] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR04310_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR04310_00/TROP014.PNG), fd: 0x97
+[17:40:00.872] |T| [write_file]: install_trophy_context: Writing to fd: 0x97, size: 25629
+[17:40:00.873] |T| [close_file]: install_trophy_context: Closing file fd: 0x97
+[17:40:01.055] |T| [close_file]: create_trophy_context: Closing file fd: 0x2D
+[17:40:01.057] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR04310_00 create successfuly!
+[17:40:01.589] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:40:01.593] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x98
+[17:40:01.716] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[17:40:01.865] |I| [export_sceIoOpen]: Opening file: app0:leaderboard1Save.bin
+[17:40:01.866] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/app/PCSE00220/leaderboard1Save.bin (target path: app0:leaderboard1Save.bin)
+[17:40:01.869] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:40:01.871] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:40:01.875] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x99
+[17:40:01.998] |W| [unimplemented_impl]: Unimplemented sceGxmColorSurfaceSetClip import called.
+[17:40:02.012] |I| [float_to_half_init]: AVX+F16C instruction set is not supported. Using basic f32 to f16 conversion
+[17:40:02.016] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[17:40:02.065] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[17:40:02.079] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[17:40:04.818] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:40:04.873] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:40:04.881] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x9A
+[17:40:04.882] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x9B
+[17:40:04.887] |T| [close_file]: sceIoClose: Closing file fd: 0x9A
+[17:40:04.901] |T| [close_file]: sceIoClose: Closing file fd: 0x9B
+[17:40:05.449] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:40:05.453] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x9C
+[17:40:05.491] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:40:05.985] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x9D
+[17:40:05.987] |T| [close_file]: sceIoClose: Closing file fd: 0x9C
+[17:40:06.000] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:40:06.011] |T| [close_file]: sceIoClose: Closing file fd: 0x9D
+[17:40:06.011] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x9E
+[17:40:06.046] |T| [close_file]: sceIoClose: Closing file fd: 0x9E
+[17:40:07.957] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:40:07.965] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0x9F
+[17:40:07.967] |T| [close_file]: sceIoClose: Closing file fd: 0x9F
+[17:40:11.364] |I| [load_module]: Loading module ID: 0x2D
+[17:40:11.782] |I| [load_self]: sys/external/libscemp4.suprx: Skipping special segment 0x6FFFFF01...
+[17:40:11.799] |I| [load_self]: Loaded module segment 0 @ [0x0F1A8000 - 0x0F1B7D20 / 0x81000000] (size: 0x0000FD20) of module sys/external/libscemp4.suprx
+[17:40:11.804] |I| [load_self]: Loaded module segment 1 @ [0x0F136000 - 0x0F136028 / 0x81010000] (size: 0x00000028) of module sys/external/libscemp4.suprx
+[17:40:11.822] |I| [load_self]: Linking SELF sys/external/libscemp4.suprx...
+[17:40:11.823] |D| [load_var_exports]:  NID 0x936C8A78 (SYSLYB) at 0xF1B79D0
+[17:40:11.824] |D| [load_var_exports]:  NID 0x6C2224BA (NID_MODULE_INFO) at 0xF1B68C4
+[17:40:11.827] |I| [load_module]: Module SceMp4 (at "sys/external/libscemp4.suprx") loaded
+[17:40:12.526] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x5474AF0 sceMp4OpenFile at 0x81222E58
+[17:40:12.538] |I| [export_sceIoOpen]: Opening file: app0:/arch/video/frima_splash.mp4
+[17:40:12.915] |T| [open_file]: sceIoOpen: Opening file app0:/arch/video/frima_splash.mp4 (ux0:/app/PCSE00220/arch/video/frima_splash.mp4), fd: 0xA0
+[17:40:12.992] |T| [log_import_call]: [LLE] TID: 207 FUNC: 0x30E49E4D sceMp4StartFileStreaming at 0x81222E78
+[17:40:13.215] |T| [log_import_call]: [LLE] TID: 207 FUNC: 0xD5B26179 UNRECOGNISED at 0x81222F68
+[17:40:13.227] |W| [unimplemented_impl]: Unimplemented sceKernelGetProcessTitleId import called.
+[17:40:13.256] |E| [call_import]: Import function for NID 0xE340CF1A not found (thread name: avPlayer Controller, thread ID: 207)
+[17:40:13.418] |E| [logging::ret_error_impl]: _sceKernelLockLwMutex returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[17:40:13.425] |E| [logging::ret_error_impl]: sceKernelUnlockLwMutex2 returned SCE_KERNEL_ERROR_UNKNOWN_LW_MUTEX_ID (0x80028181)
+[17:40:13.448] |W| [stubbed_impl]: Stubbed sceAudiodecGetContextSize import called. (fake size)
+[17:40:13.478] |W| [stubbed_impl]: Stubbed sceCodecEngineAllocMemoryFromUnmapMemBlock import called. (fake vaddr)
+[17:40:16.075] |T| [log_import_call]: [LLE] TID: 207 FUNC: 0x609E57AD sceMp4EnableStream at 0x81222EB8
+[17:40:16.209] |W| [stubbed_impl]: Stubbed sceVideodecQueryMemSize import called. (fake size)
+[17:40:16.903] |W| [stubbed_impl]: Stubbed sceCodecEngineFreeMemoryFromUnmapMemBlock import called. (always return success)
+[17:40:16.911] |W| [unimplemented_impl]: Unimplemented sceKernelCloseMutex import called.
+[17:40:16.941] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x920623C8 sceMp4CloseFile at 0x81222EE8
+[17:40:17.128] |T| [close_file]: sceIoClose: Closing file fd: 0xA0
+[17:40:17.160] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x7B4832FE sceMp4ReleaseBuffer at 0x81222ED8
+[17:40:17.178] |W| [unimplemented_impl]: Unimplemented sceSysmoduleUnloadModule import called.
+[17:40:17.247] |I| [export_sceIoOpen]: Opening file: app0:/arch/video/Nun_En_HD.mp4
+[17:40:17.673] |T| [open_file]: sceIoOpen: Opening file app0:/arch/video/Nun_En_HD.mp4 (ux0:/app/PCSE00220/arch/video/Nun_En_HD.mp4), fd: 0xA1
+[17:40:17.820] |E| [logging::ret_error_impl]: sceKernelTryLockLwMutex returned SCE_KERNEL_ERROR_LW_MUTEX_FAILED_TO_OWN (0x80028185)
+[17:40:18.581] |T| [log_import_call]: [LLE] TID: 485 FUNC: 0x20A01112 sceMp4GetNextUnit at 0x81222E68
+[17:40:18.706] |T| [log_import_call]: [LLE] TID: 485 FUNC: 0xD092A066 sceMp4GetNextUnitData at 0x81222F48
+[17:40:19.139] |E| [logging::ret_error_impl]: _sceKernelWaitCond returned SCE_KERNEL_ERROR_WAIT_TIMEOUT (0x80028005)
+[17:40:19.168] |W| [H264DecoderState::receive]: Error receiving H264 frame: Requires Another Call (AVERROR(EAGAIN)).
+[17:41:33.559] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x40351E1A sceMp4Reset at 0x81222E98
+[17:41:33.570] |T| [close_file]: sceIoClose: Closing file fd: 0xA1
+[17:41:33.635] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:41:33.635] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:41:33.639] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xA2
+[17:41:33.643] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xA3
+[17:41:33.750] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:41:33.851] |T| [close_file]: sceIoClose: Closing file fd: 0xA2
+[17:41:33.851] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xA4
+[17:41:33.861] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:41:33.854] |T| [close_file]: sceIoClose: Closing file fd: 0xA3
+[17:41:33.975] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xA5
+[17:41:33.976] |T| [close_file]: sceIoClose: Closing file fd: 0xA4
+[17:41:33.988] |T| [close_file]: sceIoClose: Closing file fd: 0xA5
+[17:41:33.994] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xD1997678 sceAtracSetDataAndAcquireHandle at 0x81223058
+[17:41:34.007] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:41:34.010] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xA6
+[17:41:34.042] |T| [close_file]: sceIoClose: Closing file fd: 0xA6
+[17:41:34.104] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x722F5004 sceAtracIsSubBufferNeeded at 0x81223048
+[17:41:34.198] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x68DFC199 sceAtracGetContentInfo at 0x81223028
+[17:41:34.231] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x75B0C63 sceAtracSetOutputSamples at 0x81222FE8
+[17:41:34.288] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:41:34.293] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0x2B75F9BC sceSasSetVoice at 0x812230B8
+[17:41:34.295] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xA7
+[17:41:34.305] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0x2C48A08C sceSasSetPitch at 0x812230C8
+[17:41:34.309] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0xBE8204D sceSasSetVolume at 0x81223098
+[17:41:34.403] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0xECCE0DB8 sceSasSetSimpleADSR at 0x81223138
+[17:41:34.410] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0xC838DB6F sceSasSetKeyOn at 0x81223128
+[17:41:34.420] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0x7E63E6 sceSasGetEndState at 0x81223088
+[17:41:34.588] |T| [close_file]: sceIoClose: Closing file fd: 0xA7
+[17:41:35.049] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0x29C74EE3 sceAtracDecode at 0x81223008
+[17:41:35.134] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0xD9409E57 sceAtracGetStreamInfo at 0x81223078
+[17:41:35.143] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0x53656F1C sceAtracAddStreamData at 0x81223018
+[17:41:35.152] |E| [call_import]: Import function for NID 0xE340C012 not found (thread name: soundmanager_thread, thread ID: 42)
+[17:41:35.696] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0x5E42ADAB sceSasSetKeyOff at 0x812230E8
+[17:41:36.687] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:41:36.703] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xA8
+[17:41:36.736] |T| [close_file]: sceIoClose: Closing file fd: 0xA8
+[17:41:37.113] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:41:37.115] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xA9
+[17:41:37.147] |T| [close_file]: sceIoClose: Closing file fd: 0xA9
+[17:41:37.296] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSE00220/SlotParam_0.bin), fd: 0xAA
+[17:41:37.313] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0xAA
+[17:41:37.318] |I| [export_sceIoOpen]: Opening file: savedata0:SAVEGAME_000.sav
+[17:41:37.405] |T| [open_file]: sceIoOpen: Opening file savedata0:SAVEGAME_000.sav (ux0:/user/00/savedata/PCSE00220/SAVEGAME_000.sav), fd: 0xAB
+[17:41:37.410] |T| [close_file]: sceIoClose: Closing file fd: 0xAB
+[17:41:37.525] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/user/00/savedata/PCSE00220/SlotParam_1.bin (target path: savedata0:/SlotParam_1.bin)
+[17:41:37.532] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[17:41:37.538] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[17:41:37.541] |I| [export_sceIoOpen]: Opening file: savedata0:SAVEGAME_001.sav
+[17:41:37.577] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/user/00/savedata/PCSE00220/SAVEGAME_001.sav (target path: savedata0:SAVEGAME_001.sav)
+[17:41:37.580] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:41:37.602] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/user/00/savedata/PCSE00220/SlotParam_2.bin (target path: savedata0:/SlotParam_2.bin)
+[17:41:37.607] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[17:41:37.610] |I| [export_sceIoOpen]: Opening file: savedata0:SAVEGAME_002.sav
+[17:41:37.614] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/vita3k/storage/ux0/user/00/savedata/PCSE00220/SAVEGAME_002.sav (target path: savedata0:SAVEGAME_002.sav)
+[17:41:37.617] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[17:41:37.719] |W| [unimplemented_impl]: Unimplemented sceNearFinalize import called.
+[17:41:37.721] |W| [unimplemented_impl]: Unimplemented sceNearGetDiscoveredGifts import called.
+[17:41:40.962] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:41:40.964] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xAC
+[17:41:41.014] |T| [close_file]: sceIoClose: Closing file fd: 0xAC
+[17:43:29.777] |T| [log_import_call]: [LLE] TID: 42  FUNC: 0xD81D7280 sceAtracResetNextOutputPosition at 0x81223068
+[17:47:04.174] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:04.174] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:04.277] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xAD
+[17:47:04.277] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xAE
+[17:47:04.578] |T| [close_file]: sceIoClose: Closing file fd: 0xAE
+[17:47:04.578] |T| [close_file]: sceIoClose: Closing file fd: 0xAD
+[17:47:04.621] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:04.649] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xAF
+[17:47:04.622] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:04.655] |T| [close_file]: sceIoClose: Closing file fd: 0xAF
+[17:47:04.736] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB0
+[17:47:04.829] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:04.877] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB1
+[17:47:04.892] |T| [close_file]: sceIoClose: Closing file fd: 0xB0
+[17:47:04.898] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:04.912] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB2
+[17:47:04.908] |T| [close_file]: sceIoClose: Closing file fd: 0xB1
+[17:47:04.941] |T| [close_file]: sceIoClose: Closing file fd: 0xB2
+[17:47:04.949] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:04.967] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB3
+[17:47:04.971] |T| [close_file]: sceIoClose: Closing file fd: 0xB3
+[17:47:04.979] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:04.981] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB4
+[17:47:05.002] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:05.015] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB5
+[17:47:05.040] |T| [close_file]: sceIoClose: Closing file fd: 0xB4
+[17:47:05.077] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x8EF251 sceAtracReleaseHandle at 0x81222FC8
+[17:47:05.079] |T| [close_file]: sceIoClose: Closing file fd: 0xB5
+[17:47:05.159] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:05.161] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB6
+[17:47:05.170] |T| [close_file]: sceIoClose: Closing file fd: 0xB6
+[17:47:05.182] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:05.187] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB7
+[17:47:05.243] |T| [close_file]: sceIoClose: Closing file fd: 0xB7
+[17:47:05.304] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:05.351] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB8
+[17:47:05.404] |T| [close_file]: sceIoClose: Closing file fd: 0xB8
+[17:47:05.532] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:05.535] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xB9
+[17:47:05.571] |T| [close_file]: sceIoClose: Closing file fd: 0xB9
+[17:47:06.054] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:06.056] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xBA
+[17:47:06.120] |T| [close_file]: sceIoClose: Closing file fd: 0xBA
+[17:47:12.242] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:12.242] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:12.260] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xBB
+[17:47:12.263] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xBC
+[17:47:12.283] |T| [close_file]: sceIoClose: Closing file fd: 0xBB
+[17:47:12.283] |T| [close_file]: sceIoClose: Closing file fd: 0xBC
+[17:47:12.725] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:12.727] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xBD
+[17:47:12.875] |T| [close_file]: sceIoClose: Closing file fd: 0xBD
+[17:47:14.013] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:14.013] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:14.014] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xBE
+[17:47:14.017] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xBF
+[17:47:14.032] |T| [close_file]: sceIoClose: Closing file fd: 0xBE
+[17:47:14.129] |T| [close_file]: sceIoClose: Closing file fd: 0xBF
+[17:47:14.177] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:14.180] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC0
+[17:47:14.193] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:14.781] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC1
+[17:47:14.801] |T| [close_file]: sceIoClose: Closing file fd: 0xC0
+[17:47:14.808] |T| [close_file]: sceIoClose: Closing file fd: 0xC1
+[17:47:14.808] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:14.811] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:14.818] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC3
+[17:47:14.813] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC2
+[17:47:14.838] |T| [close_file]: sceIoClose: Closing file fd: 0xC3
+[17:47:14.898] |T| [close_file]: sceIoClose: Closing file fd: 0xC2
+[17:47:14.906] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:14.914] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC4
+[17:47:14.920] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:15.030] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC5
+[17:47:15.095] |T| [close_file]: sceIoClose: Closing file fd: 0xC4
+[17:47:15.280] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:15.459] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC6
+[17:47:15.322] |T| [close_file]: sceIoClose: Closing file fd: 0xC5
+[17:47:15.579] |T| [close_file]: sceIoClose: Closing file fd: 0xC6
+[17:47:16.110] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.112] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC7
+[17:47:16.169] |T| [close_file]: sceIoClose: Closing file fd: 0xC7
+[17:47:16.180] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.340] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.379] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC8
+[17:47:16.381] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xC9
+[17:47:16.457] |T| [close_file]: sceIoClose: Closing file fd: 0xC8
+[17:47:16.484] |T| [close_file]: sceIoClose: Closing file fd: 0xC9
+[17:47:16.516] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.522] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xCA
+[17:47:16.521] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.529] |T| [close_file]: sceIoClose: Closing file fd: 0xCA
+[17:47:16.532] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xCB
+[17:47:16.536] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.546] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xCC
+[17:47:16.551] |T| [close_file]: sceIoClose: Closing file fd: 0xCB
+[17:47:16.837] |T| [close_file]: sceIoClose: Closing file fd: 0xCC
+[17:47:16.838] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.859] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xCD
+[17:47:16.861] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.861] |T| [close_file]: sceIoClose: Closing file fd: 0xCD
+[17:47:16.863] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xCE
+[17:47:16.870] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.871] |T| [close_file]: sceIoClose: Closing file fd: 0xCE
+[17:47:16.874] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xCF
+[17:47:16.878] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.884] |T| [close_file]: sceIoClose: Closing file fd: 0xCF
+[17:47:16.890] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD0
+[17:47:16.890] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:16.945] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD1
+[17:47:17.042] |T| [close_file]: sceIoClose: Closing file fd: 0xD0
+[17:47:17.110] |T| [close_file]: sceIoClose: Closing file fd: 0xD1
+[17:47:17.376] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:17.425] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD2
+[17:47:17.620] |T| [close_file]: sceIoClose: Closing file fd: 0xD2
+[17:47:18.365] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:18.367] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD3
+[17:47:18.399] |T| [close_file]: sceIoClose: Closing file fd: 0xD3
+[17:47:18.933] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:18.935] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD4
+[17:47:19.090] |T| [close_file]: sceIoClose: Closing file fd: 0xD4
+[17:47:19.151] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:19.153] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:19.167] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD6
+[17:47:19.170] |T| [close_file]: sceIoClose: Closing file fd: 0xD6
+[17:47:19.185] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:19.198] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD7
+[17:47:19.201] |T| [close_file]: sceIoClose: Closing file fd: 0xD7
+[17:47:19.162] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD5
+[17:47:19.221] |T| [close_file]: sceIoClose: Closing file fd: 0xD5
+[17:47:19.252] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:19.280] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:19.288] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD8
+[17:47:19.292] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xD9
+[17:47:19.297] |T| [close_file]: sceIoClose: Closing file fd: 0xD8
+[17:47:19.318] |T| [close_file]: sceIoClose: Closing file fd: 0xD9
+[17:47:21.377] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:21.380] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xDA
+[17:47:21.453] |T| [close_file]: sceIoClose: Closing file fd: 0xDA
+[17:47:21.630] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:21.634] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:21.636] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xDB
+[17:47:21.638] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xDC
+[17:47:21.795] |T| [close_file]: sceIoClose: Closing file fd: 0xDC
+[17:47:21.812] |T| [close_file]: sceIoClose: Closing file fd: 0xDB
+[17:47:21.854] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:21.855] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:21.864] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xDE
+[17:47:21.857] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xDD
+[17:47:21.867] |T| [close_file]: sceIoClose: Closing file fd: 0xDE
+[17:47:21.869] |T| [close_file]: sceIoClose: Closing file fd: 0xDD
+[17:47:25.890] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:25.894] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xDF
+[17:47:25.952] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:26.034] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xE0
+[17:47:26.151] |T| [close_file]: sceIoClose: Closing file fd: 0xDF
+[17:47:26.288] |T| [close_file]: sceIoClose: Closing file fd: 0xE0
+[17:47:26.322] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:26.326] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xE1
+[17:47:26.331] |T| [close_file]: sceIoClose: Closing file fd: 0xE1
+[17:47:26.335] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:26.336] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xE2
+[17:47:26.339] |T| [close_file]: sceIoClose: Closing file fd: 0xE2
+[17:47:33.586] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:47:33.593] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xE3
+[17:47:33.854] |T| [close_file]: sceIoClose: Closing file fd: 0xE3
+[17:48:26.591] |I| [export_sceIoOpen]: Opening file: app0://package.dat
+[17:48:26.697] |T| [open_file]: sceIoOpen: Opening file app0://package.dat (ux0:/app/PCSE00220/package.dat), fd: 0xE4
+[17:48:26.746] |T| [close_file]: sceIoClose: Closing file fd: 0xE4

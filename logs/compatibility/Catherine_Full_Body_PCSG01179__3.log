@@ -1,0 +1,669 @@
+[10:09:56.845] |I| [init_config]: backend-renderer: Vulkan
+[10:09:56.845] |I| [init_config]: log-level: 0
+[10:09:56.994] |I| [main]: Vita3K v0.2.0 3571-6ce9b659
+[10:09:56.994] |I| [main]: Number of logical CPU cores: 8
+[10:09:56.994] |I| [main]: Available ram memory: 16384 MiB
+[10:09:56.995] |I| [init]: Base path: /Applications/Vita3K.app/Contents/Resources/
+[10:09:56.995] |I| [init]: User pref path: /Users/marcinmitura/Library/Application Support/Vita3K/Vita3K/fs
+[10:09:57.029] |I| [create]: MoltenVK full swizzle enabled
+[10:09:57.031] |I| [create]: Vulkan device: Apple M1
+[10:09:57.031] |I| [create]: Driver version: 0.2.2015
+[10:09:57.039] |I| [setup]: Present mode: Fifo
+[10:09:57.540] |I| [update_app_compat_db]: Applications compatibility database is up to date.
+[10:10:01.996] |I| [late_init]: Using shader interlock for accurate framebuffer fetch emulation
+[10:10:01.997] |I| [set_async_compilation]: Enabling asynchronous pipeline compilation with 2 threads
+[10:10:01.998] |I| [load_app_impl]: cpu-backend: Dynarmic
+[10:10:01.998] |I| [load_app_impl]: CPU Optimisation state: true
+[10:10:01.998] |I| [load_app_impl]: ngs state: true
+[10:10:01.998] |I| [load_app_impl]: Resolution multiplier: 1
+[10:10:01.998] |I| [load_app_impl]: modules mode: Automatic
+[10:10:01.998] |I| [load_app_impl]: Title: キャサリン・フルボディ
+[10:10:01.998] |I| [load_app_impl]: Serial: PCSG01179
+[10:10:01.998] |I| [load_app_impl]: Version: 1.03
+[10:10:01.998] |I| [load_app_impl]: Category: gp
+[10:10:02.000] |I| [load_module]: Loading module "app0:eboot.bin"
+[10:10:02.093] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[10:10:02.093] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x804D0D4F / 0x81000000] (size: 0x004CCD4F) of module app0:eboot.bin
+[10:10:02.093] |I| [load_self]: Loaded module segment 1 @ [0x804D1000 - 0x8080E760 / 0x814CD000] (size: 0x0033D760) of module app0:eboot.bin
+[10:10:02.093] |I| [load_self]: Linking SELF app0:eboot.bin...
+[10:10:02.093] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8043fb04
+[10:10:02.093] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x805add88
+[10:10:02.093] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x804b0720
+[10:10:02.093] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x80455850, setting to stub value 0xdeadbeef
+[10:10:02.094] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x80455894, setting to stub value 0xdeadbeef
+[10:10:02.094] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x804558a8, setting to stub value 0xdeadbeef
+[10:10:02.094] |I| [load_module]: Module xrd758_psp2 (at "app0:eboot.bin") loaded
+[10:10:02.094] |I| [load_app_impl]: Main executable xrd758_psp2 (eboot.bin) loaded
+[10:10:02.095] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[10:10:02.099] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[10:10:02.099] |I| [load_self]: Loaded module segment 0 @ [0x80812000 - 0x8086391C / 0x81000000] (size: 0x0005191C) of module app0:sce_module/libc.suprx
+[10:10:02.099] |I| [load_self]: Loaded module segment 1 @ [0x80864000 - 0x808668A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[10:10:02.099] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[10:10:02.099] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x8085a1d0
+[10:10:02.099] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x8085b260
+[10:10:02.099] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x808645b0
+[10:10:02.099] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8085938c
+[10:10:02.099] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8084e550
+[10:10:02.099] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[10:10:02.099] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[10:10:02.102] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[10:10:02.102] |I| [load_self]: Loaded module segment 0 @ [0x80867000 - 0x80893CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[10:10:02.102] |I| [load_self]: Loaded module segment 1 @ [0x80894000 - 0x80899255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[10:10:02.102] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[10:10:02.102] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80893bc8
+[10:10:02.102] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8088af08
+[10:10:02.102] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[10:10:02.102] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[10:10:02.105] |I| [load_self]: Loaded module segment 0 @ [0x8089A000 - 0x808EAF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[10:10:02.105] |I| [load_self]: Loaded module segment 1 @ [0x8080F000 - 0x8080F2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[10:10:02.105] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[10:10:02.105] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808d67dc
+[10:10:02.105] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808d5f10
+[10:10:02.105] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[10:10:02.105] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[10:10:02.106] |I| [load_self]: Loaded module segment 0 @ [0x808EB000 - 0x808FAF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[10:10:02.106] |I| [load_self]: Loaded module segment 1 @ [0x80810000 - 0x80810008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[10:10:02.106] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[10:10:02.106] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808f9710
+[10:10:02.106] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808f9300
+[10:10:02.106] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[10:10:02.117] |D| [start_module]: Running module_start of library: SceLibc at address 0x80812871
+[10:10:02.180] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xcef7c575 mspace_create at 0x8043f584
+[10:10:02.186] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[10:10:02.187] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[10:10:02.187] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[10:10:02.209] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[10:10:02.209] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x80867001
+[10:10:02.223] |W| [operator()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[10:10:02.223] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[10:10:02.224] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8043f554
+[10:10:02.228] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x8043f614
+[10:10:02.233] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x8043f594
+[10:10:02.235] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x8043f394
+[10:10:02.293] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe080b96e mspace_malloc at 0x8043f5a4
+[10:10:02.364] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x8043f7a4
+[10:10:02.365] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x8043f7c4
+[10:10:02.411] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x8043f414
+[10:10:02.563] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x8043f3f4
+[10:10:02.565] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_APPUTIL
+[10:10:02.565] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_FIBER
+[10:10:02.565] |W| [operator()]: Unimplemented sceAppUtilInit import called.
+[10:10:02.566] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x8043f434
+[10:10:02.570] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x8043f404
+[10:10:02.571] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x8043efd4
+[10:10:02.595] |W| [operator()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[10:10:02.596] |W| [operator()]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[10:10:02.626] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x8043f484
+[10:10:02.628] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x8043f474
+[10:10:02.720] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x8043f3d4
+[10:10:02.720] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3cdfd2a3 mspace_free at 0x8043f364
+[10:10:02.734] |E| [operator()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[10:10:02.734] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[10:10:02.736] |W| [operator()]: Unimplemented sceSysmoduleUnloadModule import called.
+[10:10:02.741] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x8043f514
+[10:10:02.741] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x52f780dd mspace_memalign at 0x8043f3a4
+[10:10:02.751] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x8043f634
+[10:10:02.754] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x8043f4e4
+[10:10:02.857] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x8043f6d4
+[10:10:02.915] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x8043f2d4
+[10:10:02.924] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x8043f5b4
+[10:10:02.939] |I| [export_sceIoOpen]: Opening file: app0:/data/Shader.cpk
+[10:10:02.939] |T| [open_file]: sceIoOpen: Opening file app0:/data/Shader.cpk (ux0:/app/PCSG01179/data/Shader.cpk), fd: 0x3
+[10:10:02.991] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x8043f2f4
+[10:10:03.035] |I| [export_sceIoOpen]: Opening file: app0:/data/Base.cpk
+[10:10:03.035] |T| [open_file]: sceIoOpen: Opening file app0:/data/Base.cpk (ux0:/app/PCSG01179/data/Base.cpk), fd: 0x4
+[10:10:03.064] |I| [export_sceIoOpen]: Opening file: app0:/data/Model.cpk
+[10:10:03.064] |T| [open_file]: sceIoOpen: Opening file app0:/data/Model.cpk (ux0:/app/PCSG01179/data/Model.cpk), fd: 0x5
+[10:10:03.091] |I| [export_sceIoOpen]: Opening file: app0:/data/keyfree.cpk
+[10:10:03.091] |T| [open_file]: sceIoOpen: Opening file app0:/data/keyfree.cpk (ux0:/app/PCSG01179/data/keyfree.cpk), fd: 0x6
+[10:10:03.115] |I| [export_sceIoOpen]: Opening file: app0:/data/Puzzle.cpk
+[10:10:03.115] |T| [open_file]: sceIoOpen: Opening file app0:/data/Puzzle.cpk (ux0:/app/PCSG01179/data/Puzzle.cpk), fd: 0x7
+[10:10:03.140] |I| [export_sceIoOpen]: Opening file: app0:/data/Patch.cpk
+[10:10:03.140] |T| [open_file]: sceIoOpen: Opening file app0:/data/Patch.cpk (ux0:/app/PCSG01179/data/Patch.cpk), fd: 0x8
+[10:10:03.173] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[10:10:03.173] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0x9
+[10:10:03.180] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[10:10:03.188] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[10:10:03.188] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xa
+[10:10:03.190] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[10:10:03.230] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[10:10:03.230] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xb
+[10:10:03.230] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[10:10:03.296] |W| [process]: Game is using unimplemented delay audio module
+[10:10:03.297] |W| [process]: Game is using unimplemented reverb audio module
+[10:10:03.312] |C| [signal_handler]: Unhandled access to 0x0
+[12:16:20.422] |I| [init_config]: backend-renderer: Vulkan
+[12:16:20.423] |I| [init_config]: log-level: 0
+[12:16:20.569] |I| [main]: Vita3K v0.2.0 3581-3f5de79b-mavethee/polish_localization
+[12:16:20.569] |I| [main]: Number of logical CPU cores: 8
+[12:16:20.569] |I| [main]: Available ram memory: 16384 MiB
+[12:16:20.570] |I| [init]: Base path: /Volumes/Vita3K Installer/Vita3K.app/Contents/Resources/
+[12:16:20.570] |I| [init]: User pref path: /Users/marcinmitura/Library/Application Support/Vita3K/Vita3K/fs
+[12:16:20.604] |I| [create]: MoltenVK full swizzle enabled
+[12:16:20.605] |I| [create]: Vulkan device: Apple M1
+[12:16:20.605] |I| [create]: Driver version: 0.2.2014
+[12:16:20.612] |I| [setup]: Present mode: Fifo
+[12:16:21.217] |I| [update_app_compat_db]: Applications compatibility database is up to date.
+[12:16:26.194] |I| [late_init]: Using shader interlock for accurate framebuffer fetch emulation
+[12:16:26.194] |I| [set_async_compilation]: Enabling asynchronous pipeline compilation with 2 threads
+[12:16:26.196] |I| [load_app_impl]: cpu-backend: Dynarmic
+[12:16:26.196] |I| [load_app_impl]: CPU Optimisation state: true
+[12:16:26.196] |I| [load_app_impl]: ngs state: true
+[12:16:26.196] |I| [load_app_impl]: Resolution multiplier: 1
+[12:16:26.196] |I| [load_app_impl]: modules mode: Automatic
+[12:16:26.196] |I| [load_app_impl]: Title: キャサリン・フルボディ
+[12:16:26.197] |I| [load_app_impl]: Serial: PCSG01179
+[12:16:26.197] |I| [load_app_impl]: Version: 1.03
+[12:16:26.197] |I| [load_app_impl]: Category: gp
+[12:16:26.198] |I| [load_module]: Loading module "app0:eboot.bin"
+[12:16:26.306] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[12:16:26.306] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x804D0D4F / 0x81000000] (size: 0x004CCD4F) of module app0:eboot.bin
+[12:16:26.306] |I| [load_self]: Loaded module segment 1 @ [0x804D1000 - 0x8080E760 / 0x814CD000] (size: 0x0033D760) of module app0:eboot.bin
+[12:16:26.306] |I| [load_self]: Linking SELF app0:eboot.bin...
+[12:16:26.306] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8043fb04
+[12:16:26.306] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x805add88
+[12:16:26.306] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x804b0720
+[12:16:26.306] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x80455850, setting to stub value 0xdeadbeef
+[12:16:26.307] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x80455894, setting to stub value 0xdeadbeef
+[12:16:26.307] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x804558a8, setting to stub value 0xdeadbeef
+[12:16:26.308] |I| [load_module]: Module xrd758_psp2 (at "app0:eboot.bin") loaded
+[12:16:26.308] |I| [load_app_impl]: Main executable xrd758_psp2 (eboot.bin) loaded
+[12:16:26.308] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[12:16:26.313] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[12:16:26.313] |I| [load_self]: Loaded module segment 0 @ [0x80812000 - 0x8086391C / 0x81000000] (size: 0x0005191C) of module app0:sce_module/libc.suprx
+[12:16:26.313] |I| [load_self]: Loaded module segment 1 @ [0x80864000 - 0x808668A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[12:16:26.313] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[12:16:26.313] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x8085a1d0
+[12:16:26.313] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x8085b260
+[12:16:26.313] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x808645b0
+[12:16:26.313] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8085938c
+[12:16:26.313] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8084e550
+[12:16:26.313] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[12:16:26.313] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[12:16:26.316] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[12:16:26.316] |I| [load_self]: Loaded module segment 0 @ [0x80867000 - 0x80893CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[12:16:26.316] |I| [load_self]: Loaded module segment 1 @ [0x80894000 - 0x80899255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[12:16:26.316] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[12:16:26.316] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80893bc8
+[12:16:26.316] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8088af08
+[12:16:26.316] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[12:16:26.316] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[12:16:26.320] |I| [load_self]: Loaded module segment 0 @ [0x8089A000 - 0x808EAF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[12:16:26.320] |I| [load_self]: Loaded module segment 1 @ [0x8080F000 - 0x8080F2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[12:16:26.320] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[12:16:26.320] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808d67dc
+[12:16:26.320] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808d5f10
+[12:16:26.320] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[12:16:26.320] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[12:16:26.321] |I| [load_self]: Loaded module segment 0 @ [0x808EB000 - 0x808FAF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[12:16:26.321] |I| [load_self]: Loaded module segment 1 @ [0x80810000 - 0x80810008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[12:16:26.321] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[12:16:26.321] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808f9710
+[12:16:26.321] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808f9300
+[12:16:26.321] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[12:16:26.332] |D| [start_module]: Running module_start of library: SceLibc at address 0x80812871
+[12:16:26.409] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xcef7c575 mspace_create at 0x8043f584
+[12:16:26.417] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[12:16:26.417] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[12:16:26.417] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[12:16:26.435] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[12:16:26.435] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x80867001
+[12:16:26.448] |W| [operator()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[12:16:26.449] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[12:16:26.450] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8043f554
+[12:16:26.452] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x8043f614
+[12:16:26.457] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x8043f594
+[12:16:26.458] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x8043f394
+[12:16:26.519] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe080b96e mspace_malloc at 0x8043f5a4
+[12:16:26.592] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x8043f7a4
+[12:16:26.592] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x8043f7c4
+[12:16:26.636] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x8043f414
+[12:16:26.787] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x8043f3f4
+[12:16:26.788] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_APPUTIL
+[12:16:26.789] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_FIBER
+[12:16:26.789] |W| [operator()]: Unimplemented sceAppUtilInit import called.
+[12:16:26.790] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x8043f434
+[12:16:26.794] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x8043f404
+[12:16:26.795] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x8043efd4
+[12:16:26.819] |W| [operator()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[12:16:26.819] |W| [operator()]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[12:16:26.849] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x8043f484
+[12:16:26.850] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x8043f474
+[12:16:26.940] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x8043f3d4
+[12:16:26.940] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3cdfd2a3 mspace_free at 0x8043f364
+[12:16:26.955] |E| [operator()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[12:16:26.955] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[12:16:26.957] |W| [operator()]: Unimplemented sceSysmoduleUnloadModule import called.
+[12:16:26.962] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x8043f514
+[12:16:26.962] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x52f780dd mspace_memalign at 0x8043f3a4
+[12:16:26.972] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x8043f634
+[12:16:26.974] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x8043f4e4
+[12:16:27.074] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x8043f6d4
+[12:16:27.131] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x8043f2d4
+[12:16:27.140] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x8043f5b4
+[12:16:27.154] |I| [export_sceIoOpen]: Opening file: app0:/data/Shader.cpk
+[12:16:27.154] |T| [open_file]: sceIoOpen: Opening file app0:/data/Shader.cpk (ux0:/app/PCSG01179/data/Shader.cpk), fd: 0x3
+[12:16:27.171] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x8043f2f4
+[12:16:27.195] |I| [export_sceIoOpen]: Opening file: app0:/data/Base.cpk
+[12:16:27.195] |T| [open_file]: sceIoOpen: Opening file app0:/data/Base.cpk (ux0:/app/PCSG01179/data/Base.cpk), fd: 0x4
+[12:16:27.222] |I| [export_sceIoOpen]: Opening file: app0:/data/Model.cpk
+[12:16:27.222] |T| [open_file]: sceIoOpen: Opening file app0:/data/Model.cpk (ux0:/app/PCSG01179/data/Model.cpk), fd: 0x5
+[12:16:27.248] |I| [export_sceIoOpen]: Opening file: app0:/data/keyfree.cpk
+[12:16:27.248] |T| [open_file]: sceIoOpen: Opening file app0:/data/keyfree.cpk (ux0:/app/PCSG01179/data/keyfree.cpk), fd: 0x6
+[12:16:27.273] |I| [export_sceIoOpen]: Opening file: app0:/data/Puzzle.cpk
+[12:16:27.273] |T| [open_file]: sceIoOpen: Opening file app0:/data/Puzzle.cpk (ux0:/app/PCSG01179/data/Puzzle.cpk), fd: 0x7
+[12:16:27.299] |I| [export_sceIoOpen]: Opening file: app0:/data/Patch.cpk
+[12:16:27.299] |T| [open_file]: sceIoOpen: Opening file app0:/data/Patch.cpk (ux0:/app/PCSG01179/data/Patch.cpk), fd: 0x8
+[12:16:27.331] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[12:16:27.331] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0x9
+[12:16:27.337] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[12:16:27.345] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[12:16:27.346] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xa
+[12:16:27.347] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[12:16:27.384] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[12:16:27.384] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xb
+[12:16:27.385] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[12:16:27.466] |W| [process]: Game is using unimplemented reverb audio module
+[12:16:27.466] |C| [signal_handler]: Unhandled access to 0x0
+[12:23:30.893] |I| [init_config]: backend-renderer: Vulkan
+[12:23:30.893] |I| [init_config]: log-level: 0
+[12:23:31.053] |I| [main]: Vita3K v0.2.0 3571-6ce9b659
+[12:23:31.053] |I| [main]: Number of logical CPU cores: 8
+[12:23:31.053] |I| [main]: Available ram memory: 16384 MiB
+[12:23:31.055] |I| [init]: Base path: /Applications/Vita3K.app/Contents/Resources/
+[12:23:31.055] |I| [init]: User pref path: /Users/marcinmitura/Library/Application Support/Vita3K/Vita3K/fs
+[12:23:31.103] |I| [create]: MoltenVK full swizzle enabled
+[12:23:31.105] |I| [create]: Vulkan device: Apple M1
+[12:23:31.105] |I| [create]: Driver version: 0.2.2015
+[12:23:31.117] |I| [setup]: Present mode: Fifo
+[12:23:31.944] |I| [update_app_compat_db]: Applications compatibility database is up to date.
+[12:23:37.971] |I| [late_init]: Using shader interlock for accurate framebuffer fetch emulation
+[12:23:37.972] |I| [set_async_compilation]: Enabling asynchronous pipeline compilation with 2 threads
+[12:23:37.975] |I| [load_app_impl]: cpu-backend: Dynarmic
+[12:23:37.975] |I| [load_app_impl]: CPU Optimisation state: true
+[12:23:37.975] |I| [load_app_impl]: ngs state: true
+[12:23:37.975] |I| [load_app_impl]: Resolution multiplier: 1
+[12:23:37.975] |I| [load_app_impl]: modules mode: Automatic
+[12:23:37.975] |I| [load_app_impl]: Title: キャサリン・フルボディ
+[12:23:37.975] |I| [load_app_impl]: Serial: PCSG01179
+[12:23:37.975] |I| [load_app_impl]: Version: 1.03
+[12:23:37.975] |I| [load_app_impl]: Category: gp
+[12:23:37.978] |I| [load_module]: Loading module "app0:eboot.bin"
+[12:23:38.067] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[12:23:38.067] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x804D0D4F / 0x81000000] (size: 0x004CCD4F) of module app0:eboot.bin
+[12:23:38.067] |I| [load_self]: Loaded module segment 1 @ [0x804D1000 - 0x8080E760 / 0x814CD000] (size: 0x0033D760) of module app0:eboot.bin
+[12:23:38.067] |I| [load_self]: Linking SELF app0:eboot.bin...
+[12:23:38.067] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8043fb04
+[12:23:38.067] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x805add88
+[12:23:38.067] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x804b0720
+[12:23:38.068] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x80455850, setting to stub value 0xdeadbeef
+[12:23:38.068] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x80455894, setting to stub value 0xdeadbeef
+[12:23:38.069] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x804558a8, setting to stub value 0xdeadbeef
+[12:23:38.069] |I| [load_module]: Module xrd758_psp2 (at "app0:eboot.bin") loaded
+[12:23:38.069] |I| [load_app_impl]: Main executable xrd758_psp2 (eboot.bin) loaded
+[12:23:38.069] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[12:23:38.074] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[12:23:38.074] |I| [load_self]: Loaded module segment 0 @ [0x80812000 - 0x8086391C / 0x81000000] (size: 0x0005191C) of module app0:sce_module/libc.suprx
+[12:23:38.074] |I| [load_self]: Loaded module segment 1 @ [0x80864000 - 0x808668A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[12:23:38.074] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[12:23:38.074] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x8085a1d0
+[12:23:38.074] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x8085b260
+[12:23:38.074] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x808645b0
+[12:23:38.074] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8085938c
+[12:23:38.074] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8084e550
+[12:23:38.074] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[12:23:38.074] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[12:23:38.078] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[12:23:38.078] |I| [load_self]: Loaded module segment 0 @ [0x80867000 - 0x80893CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[12:23:38.078] |I| [load_self]: Loaded module segment 1 @ [0x80894000 - 0x80899255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[12:23:38.078] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[12:23:38.078] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80893bc8
+[12:23:38.078] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8088af08
+[12:23:38.078] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[12:23:38.078] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[12:23:38.082] |I| [load_self]: Loaded module segment 0 @ [0x8089A000 - 0x808EAF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[12:23:38.082] |I| [load_self]: Loaded module segment 1 @ [0x8080F000 - 0x8080F2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[12:23:38.082] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[12:23:38.082] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808d67dc
+[12:23:38.082] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808d5f10
+[12:23:38.082] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[12:23:38.082] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[12:23:38.084] |I| [load_self]: Loaded module segment 0 @ [0x808EB000 - 0x808FAF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[12:23:38.084] |I| [load_self]: Loaded module segment 1 @ [0x80810000 - 0x80810008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[12:23:38.084] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[12:23:38.084] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808f9710
+[12:23:38.084] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808f9300
+[12:23:38.084] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[12:23:38.097] |D| [start_module]: Running module_start of library: SceLibc at address 0x80812871
+[12:23:38.181] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xcef7c575 mspace_create at 0x8043f584
+[12:23:38.194] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[12:23:38.194] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[12:23:38.195] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[12:23:38.216] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[12:23:38.216] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x80867001
+[12:23:38.230] |W| [operator()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[12:23:38.231] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[12:23:38.232] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8043f554
+[12:23:38.234] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x8043f614
+[12:23:38.238] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x8043f594
+[12:23:38.240] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x8043f394
+[12:23:38.304] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe080b96e mspace_malloc at 0x8043f5a4
+[12:23:38.377] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x8043f7a4
+[12:23:38.378] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x8043f7c4
+[12:23:38.424] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x8043f414
+[12:23:38.579] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x8043f3f4
+[12:23:38.582] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_APPUTIL
+[12:23:38.582] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_FIBER
+[12:23:38.582] |W| [operator()]: Unimplemented sceAppUtilInit import called.
+[12:23:38.583] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x8043f434
+[12:23:38.587] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x8043f404
+[12:23:38.589] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x8043efd4
+[12:23:38.616] |W| [operator()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[12:23:38.618] |W| [operator()]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[12:23:38.646] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x8043f484
+[12:23:38.648] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x8043f474
+[12:23:38.743] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x8043f3d4
+[12:23:38.743] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3cdfd2a3 mspace_free at 0x8043f364
+[12:23:38.757] |E| [operator()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[12:23:38.757] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[12:23:38.760] |W| [operator()]: Unimplemented sceSysmoduleUnloadModule import called.
+[12:23:38.765] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x8043f514
+[12:23:38.765] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x52f780dd mspace_memalign at 0x8043f3a4
+[12:23:38.774] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x8043f634
+[12:23:38.777] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x8043f4e4
+[12:23:38.878] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x8043f6d4
+[12:23:38.939] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x8043f2d4
+[12:23:38.948] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x8043f5b4
+[12:23:38.962] |I| [export_sceIoOpen]: Opening file: app0:/data/Shader.cpk
+[12:23:38.963] |T| [open_file]: sceIoOpen: Opening file app0:/data/Shader.cpk (ux0:/app/PCSG01179/data/Shader.cpk), fd: 0x3
+[12:23:38.977] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x8043f2f4
+[12:23:39.001] |I| [export_sceIoOpen]: Opening file: app0:/data/Base.cpk
+[12:23:39.001] |T| [open_file]: sceIoOpen: Opening file app0:/data/Base.cpk (ux0:/app/PCSG01179/data/Base.cpk), fd: 0x4
+[12:23:39.030] |I| [export_sceIoOpen]: Opening file: app0:/data/Model.cpk
+[12:23:39.030] |T| [open_file]: sceIoOpen: Opening file app0:/data/Model.cpk (ux0:/app/PCSG01179/data/Model.cpk), fd: 0x5
+[12:23:39.053] |I| [export_sceIoOpen]: Opening file: app0:/data/keyfree.cpk
+[12:23:39.053] |T| [open_file]: sceIoOpen: Opening file app0:/data/keyfree.cpk (ux0:/app/PCSG01179/data/keyfree.cpk), fd: 0x6
+[12:23:39.075] |I| [export_sceIoOpen]: Opening file: app0:/data/Puzzle.cpk
+[12:23:39.076] |T| [open_file]: sceIoOpen: Opening file app0:/data/Puzzle.cpk (ux0:/app/PCSG01179/data/Puzzle.cpk), fd: 0x7
+[12:23:39.098] |I| [export_sceIoOpen]: Opening file: app0:/data/Patch.cpk
+[12:23:39.099] |T| [open_file]: sceIoOpen: Opening file app0:/data/Patch.cpk (ux0:/app/PCSG01179/data/Patch.cpk), fd: 0x8
+[12:23:39.128] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[12:23:39.128] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0x9
+[12:23:39.132] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[12:23:39.138] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[12:23:39.139] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xa
+[12:23:39.139] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[12:23:39.178] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[12:23:39.178] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xb
+[12:23:39.179] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[12:23:39.255] |W| [process]: Game is using unimplemented delay audio module
+[12:23:39.256] |W| [process]: Game is using unimplemented reverb audio module
+[12:23:39.262] |C| [signal_handler]: Unhandled access to 0x0
+[20:21:27.343] |I| [init_config]: backend-renderer: Vulkan
+[20:21:27.343] |I| [init_config]: log-level: 0
+[20:21:27.495] |I| [main]: Vita3K v0.2.0 3571-6ce9b659
+[20:21:27.495] |I| [main]: Number of logical CPU cores: 8
+[20:21:27.495] |I| [main]: Available ram memory: 16384 MiB
+[20:21:27.496] |I| [init]: Base path: /Applications/Vita3K.app/Contents/Resources/
+[20:21:27.496] |I| [init]: User pref path: /Users/marcinmitura/Library/Application Support/Vita3K/Vita3K/fs
+[20:21:27.538] |I| [create]: MoltenVK full swizzle enabled
+[20:21:27.539] |I| [create]: Vulkan device: Apple M1
+[20:21:27.539] |I| [create]: Driver version: 0.2.2015
+[20:21:27.549] |I| [setup]: Present mode: Fifo
+[20:21:28.385] |I| [update_app_compat_db]: Applications compatibility database is up to date.
+[20:21:33.991] |I| [late_init]: Using shader interlock for accurate framebuffer fetch emulation
+[20:21:33.991] |I| [set_async_compilation]: Enabling asynchronous pipeline compilation with 2 threads
+[20:21:33.993] |I| [load_app_impl]: cpu-backend: Dynarmic
+[20:21:33.993] |I| [load_app_impl]: CPU Optimisation state: true
+[20:21:33.993] |I| [load_app_impl]: ngs state: true
+[20:21:33.993] |I| [load_app_impl]: Resolution multiplier: 1
+[20:21:33.993] |I| [load_app_impl]: modules mode: Automatic
+[20:21:33.993] |I| [load_app_impl]: Title: キャサリン・フルボディ
+[20:21:33.993] |I| [load_app_impl]: Serial: PCSG01179
+[20:21:33.993] |I| [load_app_impl]: Version: 1.03
+[20:21:33.993] |I| [load_app_impl]: Category: gp
+[20:21:33.995] |I| [load_module]: Loading module "app0:eboot.bin"
+[20:21:34.085] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[20:21:34.085] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x804D0D4F / 0x81000000] (size: 0x004CCD4F) of module app0:eboot.bin
+[20:21:34.085] |I| [load_self]: Loaded module segment 1 @ [0x804D1000 - 0x8080E760 / 0x814CD000] (size: 0x0033D760) of module app0:eboot.bin
+[20:21:34.085] |I| [load_self]: Linking SELF app0:eboot.bin...
+[20:21:34.085] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8043fb04
+[20:21:34.085] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x805add88
+[20:21:34.085] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x804b0720
+[20:21:34.085] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x80455850, setting to stub value 0xdeadbeef
+[20:21:34.085] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x80455894, setting to stub value 0xdeadbeef
+[20:21:34.086] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x804558a8, setting to stub value 0xdeadbeef
+[20:21:34.086] |I| [load_module]: Module xrd758_psp2 (at "app0:eboot.bin") loaded
+[20:21:34.086] |I| [load_app_impl]: Main executable xrd758_psp2 (eboot.bin) loaded
+[20:21:34.086] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[20:21:34.091] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[20:21:34.091] |I| [load_self]: Loaded module segment 0 @ [0x80812000 - 0x8086391C / 0x81000000] (size: 0x0005191C) of module app0:sce_module/libc.suprx
+[20:21:34.091] |I| [load_self]: Loaded module segment 1 @ [0x80864000 - 0x808668A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[20:21:34.091] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[20:21:34.091] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x8085a1d0
+[20:21:34.091] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x8085b260
+[20:21:34.091] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x808645b0
+[20:21:34.091] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8085938c
+[20:21:34.091] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8084e550
+[20:21:34.091] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[20:21:34.091] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[20:21:34.094] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[20:21:34.094] |I| [load_self]: Loaded module segment 0 @ [0x80867000 - 0x80893CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[20:21:34.094] |I| [load_self]: Loaded module segment 1 @ [0x80894000 - 0x80899255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[20:21:34.094] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[20:21:34.094] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80893bc8
+[20:21:34.094] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8088af08
+[20:21:34.094] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[20:21:34.094] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[20:21:34.098] |I| [load_self]: Loaded module segment 0 @ [0x8089A000 - 0x808EAF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[20:21:34.098] |I| [load_self]: Loaded module segment 1 @ [0x8080F000 - 0x8080F2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[20:21:34.098] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[20:21:34.098] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808d67dc
+[20:21:34.098] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808d5f10
+[20:21:34.098] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[20:21:34.098] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[20:21:34.100] |I| [load_self]: Loaded module segment 0 @ [0x808EB000 - 0x808FAF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[20:21:34.100] |I| [load_self]: Loaded module segment 1 @ [0x80810000 - 0x80810008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[20:21:34.100] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[20:21:34.100] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808f9710
+[20:21:34.100] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808f9300
+[20:21:34.100] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[20:21:34.111] |D| [start_module]: Running module_start of library: SceLibc at address 0x80812871
+[20:21:34.202] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xcef7c575 mspace_create at 0x8043f584
+[20:21:34.212] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[20:21:34.213] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[20:21:34.213] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[20:21:34.232] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[20:21:34.232] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x80867001
+[20:21:34.246] |W| [operator()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[20:21:34.246] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[20:21:34.247] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8043f554
+[20:21:34.250] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x8043f614
+[20:21:34.254] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x8043f594
+[20:21:34.256] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x8043f394
+[20:21:34.321] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe080b96e mspace_malloc at 0x8043f5a4
+[20:21:34.395] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x8043f7a4
+[20:21:34.395] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x8043f7c4
+[20:21:34.445] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x8043f414
+[20:21:34.613] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x8043f3f4
+[20:21:34.614] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_APPUTIL
+[20:21:34.614] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_FIBER
+[20:21:34.615] |W| [operator()]: Unimplemented sceAppUtilInit import called.
+[20:21:34.615] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x8043f434
+[20:21:34.620] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x8043f404
+[20:21:34.621] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x8043efd4
+[20:21:34.647] |W| [operator()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[20:21:34.647] |W| [operator()]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[20:21:34.678] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x8043f484
+[20:21:34.680] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x8043f474
+[20:21:34.773] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x8043f3d4
+[20:21:34.774] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3cdfd2a3 mspace_free at 0x8043f364
+[20:21:34.788] |E| [operator()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[20:21:34.788] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[20:21:34.790] |W| [operator()]: Unimplemented sceSysmoduleUnloadModule import called.
+[20:21:34.796] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x8043f514
+[20:21:34.796] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x52f780dd mspace_memalign at 0x8043f3a4
+[20:21:34.806] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x8043f634
+[20:21:34.809] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x8043f4e4
+[20:21:34.914] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x8043f6d4
+[20:21:34.972] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x8043f2d4
+[20:21:34.984] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x8043f5b4
+[20:21:34.997] |I| [export_sceIoOpen]: Opening file: app0:/data/Shader.cpk
+[20:21:34.997] |T| [open_file]: sceIoOpen: Opening file app0:/data/Shader.cpk (ux0:/app/PCSG01179/data/Shader.cpk), fd: 0x3
+[20:21:35.015] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x8043f2f4
+[20:21:35.040] |I| [export_sceIoOpen]: Opening file: app0:/data/Base.cpk
+[20:21:35.040] |T| [open_file]: sceIoOpen: Opening file app0:/data/Base.cpk (ux0:/app/PCSG01179/data/Base.cpk), fd: 0x4
+[20:21:35.063] |I| [export_sceIoOpen]: Opening file: app0:/data/Model.cpk
+[20:21:35.063] |T| [open_file]: sceIoOpen: Opening file app0:/data/Model.cpk (ux0:/app/PCSG01179/data/Model.cpk), fd: 0x5
+[20:21:35.088] |I| [export_sceIoOpen]: Opening file: app0:/data/keyfree.cpk
+[20:21:35.088] |T| [open_file]: sceIoOpen: Opening file app0:/data/keyfree.cpk (ux0:/app/PCSG01179/data/keyfree.cpk), fd: 0x6
+[20:21:35.113] |I| [export_sceIoOpen]: Opening file: app0:/data/Puzzle.cpk
+[20:21:35.113] |T| [open_file]: sceIoOpen: Opening file app0:/data/Puzzle.cpk (ux0:/app/PCSG01179/data/Puzzle.cpk), fd: 0x7
+[20:21:35.136] |I| [export_sceIoOpen]: Opening file: app0:/data/Patch.cpk
+[20:21:35.136] |T| [open_file]: sceIoOpen: Opening file app0:/data/Patch.cpk (ux0:/app/PCSG01179/data/Patch.cpk), fd: 0x8
+[20:21:35.163] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[20:21:35.163] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0x9
+[20:21:35.167] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[20:21:35.172] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[20:21:35.173] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xa
+[20:21:35.173] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[20:21:35.205] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[20:21:35.205] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xb
+[20:21:35.205] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[20:21:35.271] |W| [process]: Game is using unimplemented delay audio module
+[20:21:35.271] |W| [process]: Game is using unimplemented reverb audio module
+[20:21:35.285] |C| [signal_handler]: Unhandled access to 0x0
+[14:46:54.071] |I| [init_config]: backend-renderer: Vulkan
+[14:46:54.073] |I| [init_config]: log-level: 0
+[14:46:54.227] |I| [main]: Vita3K v0.2.0 3571-6ce9b659
+[14:46:54.227] |I| [main]: Number of logical CPU cores: 8
+[14:46:54.228] |I| [main]: Available ram memory: 16384 MiB
+[14:46:54.229] |I| [init]: Base path: /Applications/Vita3K.app/Contents/Resources/
+[14:46:54.229] |I| [init]: User pref path: /Users/marcinmitura/Library/Application Support/Vita3K/Vita3K/fs
+[14:46:54.262] |I| [create]: MoltenVK full swizzle enabled
+[14:46:54.263] |I| [create]: Vulkan device: Apple M1
+[14:46:54.263] |I| [create]: Driver version: 0.2.2015
+[14:46:54.270] |I| [setup]: Present mode: Fifo
+[14:46:54.937] |I| [update_app_compat_db]: Applications compatibility database is up to date.
+[14:47:06.035] |I| [late_init]: Using shader interlock for accurate framebuffer fetch emulation
+[14:47:06.035] |I| [set_async_compilation]: Enabling asynchronous pipeline compilation with 2 threads
+[14:47:06.038] |I| [load_app_impl]: cpu-backend: Dynarmic
+[14:47:06.038] |I| [load_app_impl]: CPU Optimisation state: true
+[14:47:06.038] |I| [load_app_impl]: ngs state: true
+[14:47:06.038] |I| [load_app_impl]: Resolution multiplier: 1
+[14:47:06.038] |I| [load_app_impl]: modules mode: Automatic
+[14:47:06.038] |I| [load_app_impl]: Title: キャサリン・フルボディ
+[14:47:06.038] |I| [load_app_impl]: Serial: PCSG01179
+[14:47:06.038] |I| [load_app_impl]: Version: 1.03
+[14:47:06.038] |I| [load_app_impl]: Category: gp
+[14:47:06.039] |I| [load_module]: Loading module "app0:eboot.bin"
+[14:47:06.121] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[14:47:06.121] |I| [load_self]: Loaded module segment 0 @ [0x80004000 - 0x804D0D4F / 0x81000000] (size: 0x004CCD4F) of module app0:eboot.bin
+[14:47:06.121] |I| [load_self]: Loaded module segment 1 @ [0x804D1000 - 0x8080E760 / 0x814CD000] (size: 0x0033D760) of module app0:eboot.bin
+[14:47:06.121] |I| [load_self]: Linking SELF app0:eboot.bin...
+[14:47:06.121] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8043fb04
+[14:47:06.121] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x805add88
+[14:47:06.121] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x804b0720
+[14:47:06.122] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x80455850, setting to stub value 0xdeadbeef
+[14:47:06.122] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x80455894, setting to stub value 0xdeadbeef
+[14:47:06.123] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x804558a8, setting to stub value 0xdeadbeef
+[14:47:06.123] |I| [load_module]: Module xrd758_psp2 (at "app0:eboot.bin") loaded
+[14:47:06.123] |I| [load_app_impl]: Main executable xrd758_psp2 (eboot.bin) loaded
+[14:47:06.124] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[14:47:06.128] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[14:47:06.128] |I| [load_self]: Loaded module segment 0 @ [0x80812000 - 0x8086391C / 0x81000000] (size: 0x0005191C) of module app0:sce_module/libc.suprx
+[14:47:06.128] |I| [load_self]: Loaded module segment 1 @ [0x80864000 - 0x808668A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[14:47:06.128] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[14:47:06.128] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x8085a1d0
+[14:47:06.128] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x8085b260
+[14:47:06.128] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x808645b0
+[14:47:06.129] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x8085938c
+[14:47:06.129] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8084e550
+[14:47:06.129] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[14:47:06.129] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[14:47:06.132] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[14:47:06.132] |I| [load_self]: Loaded module segment 0 @ [0x80867000 - 0x80893CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[14:47:06.132] |I| [load_self]: Loaded module segment 1 @ [0x80894000 - 0x80899255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[14:47:06.132] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[14:47:06.132] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x80893bc8
+[14:47:06.132] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x8088af08
+[14:47:06.132] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[14:47:06.132] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[14:47:06.136] |I| [load_self]: Loaded module segment 0 @ [0x8089A000 - 0x808EAF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[14:47:06.136] |I| [load_self]: Loaded module segment 1 @ [0x8080F000 - 0x8080F2F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[14:47:06.136] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[14:47:06.136] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808d67dc
+[14:47:06.136] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808d5f10
+[14:47:06.136] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[14:47:06.136] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[14:47:06.138] |I| [load_self]: Loaded module segment 0 @ [0x808EB000 - 0x808FAF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[14:47:06.138] |I| [load_self]: Loaded module segment 1 @ [0x80810000 - 0x80810008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[14:47:06.138] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[14:47:06.138] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x808f9710
+[14:47:06.138] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x808f9300
+[14:47:06.138] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[14:47:06.152] |D| [start_module]: Running module_start of library: SceLibc at address 0x80812871
+[14:47:06.228] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xcef7c575 mspace_create at 0x8043f584
+[14:47:06.238] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[14:47:06.238] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[14:47:06.238] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[14:47:06.260] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[14:47:06.260] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x80867001
+[14:47:06.275] |W| [operator()]: Stubbed sceKernelGetProcessId import called. (pid: 1)
+[14:47:06.275] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[14:47:06.276] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x8043f554
+[14:47:06.277] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x8043f614
+[14:47:06.281] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x8043f594
+[14:47:06.286] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x8043f394
+[14:47:06.361] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe080b96e mspace_malloc at 0x8043f5a4
+[14:47:06.434] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x8043f7a4
+[14:47:06.435] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x8043f7c4
+[14:47:06.483] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x8043f414
+[14:47:06.655] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x8043f3f4
+[14:47:06.656] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_APPUTIL
+[14:47:06.656] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_FIBER
+[14:47:06.657] |W| [operator()]: Unimplemented sceAppUtilInit import called.
+[14:47:06.658] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x8043f434
+[14:47:06.662] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x8043f404
+[14:47:06.663] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x774c2c05 sceFiosInitialize at 0x8043efd4
+[14:47:06.691] |W| [operator()]: Unimplemented sceKernelChangeThreadVfpException import called.
+[14:47:06.693] |W| [operator()]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[14:47:06.724] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x8043f484
+[14:47:06.726] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x85b924b7 strcpy at 0x8043f474
+[14:47:06.828] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x8043f3d4
+[14:47:06.828] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3cdfd2a3 mspace_free at 0x8043f364
+[14:47:06.843] |E| [operator()]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[14:47:06.843] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[14:47:06.846] |W| [operator()]: Unimplemented sceSysmoduleUnloadModule import called.
+[14:47:06.851] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x8043f514
+[14:47:06.851] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x52f780dd mspace_memalign at 0x8043f3a4
+[14:47:06.861] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x8043f634
+[14:47:06.864] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x8043f4e4
+[14:47:06.972] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x8043f6d4
+[14:47:07.034] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x8043f2d4
+[14:47:07.045] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x8043f5b4
+[14:47:07.060] |I| [export_sceIoOpen]: Opening file: app0:/data/Shader.cpk
+[14:47:07.061] |T| [open_file]: sceIoOpen: Opening file app0:/data/Shader.cpk (ux0:/app/PCSG01179/data/Shader.cpk), fd: 0x3
+[14:47:07.075] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x8043f2f4
+[14:47:07.113] |I| [export_sceIoOpen]: Opening file: app0:/data/Base.cpk
+[14:47:07.113] |T| [open_file]: sceIoOpen: Opening file app0:/data/Base.cpk (ux0:/app/PCSG01179/data/Base.cpk), fd: 0x4
+[14:47:07.141] |I| [export_sceIoOpen]: Opening file: app0:/data/Model.cpk
+[14:47:07.141] |T| [open_file]: sceIoOpen: Opening file app0:/data/Model.cpk (ux0:/app/PCSG01179/data/Model.cpk), fd: 0x5
+[14:47:07.167] |I| [export_sceIoOpen]: Opening file: app0:/data/keyfree.cpk
+[14:47:07.167] |T| [open_file]: sceIoOpen: Opening file app0:/data/keyfree.cpk (ux0:/app/PCSG01179/data/keyfree.cpk), fd: 0x6
+[14:47:07.187] |I| [export_sceIoOpen]: Opening file: app0:/data/Puzzle.cpk
+[14:47:07.187] |T| [open_file]: sceIoOpen: Opening file app0:/data/Puzzle.cpk (ux0:/app/PCSG01179/data/Puzzle.cpk), fd: 0x7
+[14:47:07.208] |I| [export_sceIoOpen]: Opening file: app0:/data/Patch.cpk
+[14:47:07.208] |T| [open_file]: sceIoOpen: Opening file app0:/data/Patch.cpk (ux0:/app/PCSG01179/data/Patch.cpk), fd: 0x8
+[14:47:07.236] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[14:47:07.236] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0x9
+[14:47:07.239] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[14:47:07.244] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[14:47:07.244] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xa
+[14:47:07.245] |T| [close_file]: sceIoClose: Closing file fd: 0xa
+[14:47:07.275] |I| [export_sceIoOpen]: Opening file: app0:/data/sound/catherineFB.acf
+[14:47:07.275] |T| [open_file]: sceIoOpen: Opening file app0:/data/sound/catherineFB.acf (ux0:/app/PCSG01179/data/sound/catherineFB.acf), fd: 0xb
+[14:47:07.275] |T| [close_file]: sceIoClose: Closing file fd: 0xb
+[14:47:07.349] |W| [process]: Game is using unimplemented delay audio module
+[14:47:07.349] |W| [process]: Game is using unimplemented reverb audio module
+[14:47:07.354] |C| [signal_handler]: Unhandled access to 0x0

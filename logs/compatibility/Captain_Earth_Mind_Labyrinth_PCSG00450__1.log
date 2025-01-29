@@ -1,0 +1,836 @@
+[09:19:36.828] |I| [config::init_config]: backend-renderer: Vulkan
+[09:19:36.831] |I| [config::init_config]: log-level: 0
+[09:19:36.967] |I| [SDL_main]: Vita3K v0.1.8 3312-b39d9bc4
+[09:19:36.968] |I| [SDL_main]: Number of logical CPU cores: 2
+[09:19:36.968] |I| [SDL_main]: Available ram memory: 3959 MiB
+[09:19:37.161] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[09:19:38.013] |I| [renderer::vulkan::VKState::create]: Vulkan device: Intel(R) HD Graphics 500
+[09:19:38.014] |I| [renderer::vulkan::VKState::create]: Driver version: 101.2111
+[09:19:38.016] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[09:19:38.017] |I| [renderer::vulkan::VKState::create]: Using shader interlock for accurate framebuffer fetch emulation
+[09:19:38.064] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Fifo
+[09:19:40.919] |I| [compat::update_compat_app_db]: Applications compatibility database is up to date.
+[09:20:50.799] |I| [load_app_impl]: cpu-backend: Dynarmic
+[09:20:50.801] |I| [load_app_impl]: CPU Optimisation state: true
+[09:20:50.803] |I| [load_app_impl]: ngs state: true
+[09:20:50.803] |I| [load_app_impl]: Resolution multiplier: 1
+[09:20:50.804] |I| [load_app_impl]: modules mode: Automatic
+[09:20:50.806] |I| [load_app_impl]: Title: キャプテン・アース Mind Labyrinth
+[09:20:50.843] |I| [load_app_impl]: Serial: PCSG00450
+[09:20:50.843] |I| [load_app_impl]: Version: 1.00
+[09:20:50.845] |I| [load_app_impl]: Category: gd
+[09:20:50.916] |I| [load_module]: Loading module "app0:eboot.bin"
+[09:20:51.184] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[09:20:51.195] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x002D04CC / 0x81000000] (size: 0x002CB4CC) of module app0:eboot.bin
+[09:20:51.197] |I| [load_self]: Loaded module segment 1 @ [0x002D1000 - 0x002FF490 / 0x812CC000] (size: 0x0002E490) of module app0:eboot.bin
+[09:20:51.197] |I| [load_self]: Linking SELF app0:eboot.bin...
+[09:20:51.197] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x237f68
+[09:20:51.198] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x2d16e0
+[09:20:51.199] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x29d898
+[09:20:51.218] |W| [load_var_imports]: 	NID NOT FOUND 0x3ce6109d (UNRECOGNISED) at 0x260cb4, setting to stub value 0xdeadbeef
+[09:20:51.222] |W| [load_var_imports]: 	NID NOT FOUND 0x5d8c1282 (UNRECOGNISED) at 0x260d1c, setting to stub value 0xdeadbeef
+[09:20:51.228] |W| [load_var_imports]: 	NID NOT FOUND 0xd662e07c (UNRECOGNISED) at 0x260cc8, setting to stub value 0xdeadbeef
+[09:20:51.233] |W| [load_var_imports]: 	NID NOT FOUND 0xddf9bb09 (UNRECOGNISED) at 0x260d80, setting to stub value 0xdeadbeef
+[09:20:51.239] |W| [load_var_imports]: 	NID NOT FOUND 0x1e8c6100 (UNRECOGNISED) at 0x260c20, setting to stub value 0xdeadbeef
+[09:20:51.242] |W| [load_var_imports]: 	NID NOT FOUND 0x2451af0a (UNRECOGNISED) at 0x260d00, setting to stub value 0xdeadbeef
+[09:20:51.249] |W| [load_var_imports]: 	NID NOT FOUND 0x35e135a0 (UNRECOGNISED) at 0x260994, setting to stub value 0xdeadbeef
+[09:20:51.255] |W| [load_var_imports]: 	NID NOT FOUND 0x53f02a18 (UNRECOGNISED) at 0x260cdc, setting to stub value 0xdeadbeef
+[09:20:51.258] |W| [load_var_imports]: 	NID NOT FOUND 0x6bc74629 (UNRECOGNISED) at 0x2603ac, setting to stub value 0xdeadbeef
+[09:20:51.266] |W| [load_var_imports]: 	NID NOT FOUND 0x7321e731 (UNRECOGNISED) at 0x260958, setting to stub value 0xdeadbeef
+[09:20:51.271] |W| [load_var_imports]: 	NID NOT FOUND 0xf79ae8e1 (UNRECOGNISED) at 0x2602d8, setting to stub value 0xdeadbeef
+[09:20:51.276] |I| [load_module]: Module CaptainEarth (at "app0:eboot.bin") loaded
+[09:20:51.278] |I| [load_app_impl]: Main executable CaptainEarth (eboot.bin) loaded
+[09:20:51.281] |I| [load_module]: Loading module "app0:sce_module/libc.suprx"
+[09:20:51.314] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[09:20:51.315] |I| [load_self]: Loaded module segment 0 @ [0x0030B000 - 0x0035AC54 / 0x81000000] (size: 0x0004FC54) of module app0:sce_module/libc.suprx
+[09:20:51.319] |I| [load_self]: Loaded module segment 1 @ [0x0035B000 - 0x0035D688 / 0x81050000] (size: 0x00002688) of module app0:sce_module/libc.suprx
+[09:20:51.320] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[09:20:51.321] |D| [load_var_exports]: Found previously not found variable. nid:0x3ce6109d, new_entry_point:0x351588
+[09:20:51.324] |D| [load_var_exports]: Found previously not found variable. nid:0x5d8c1282, new_entry_point:0x35b4b0
+[09:20:51.325] |D| [load_var_exports]: Found previously not found variable. nid:0xd662e07c, new_entry_point:0x352618
+[09:20:51.328] |D| [load_var_exports]: Found previously not found variable. nid:0xddf9bb09, new_entry_point:0x35b5b0
+[09:20:51.329] |D| [load_var_exports]: Found previously not found variable. nid:0x1e8c6100, new_entry_point:0x358bb0
+[09:20:51.330] |D| [load_var_exports]: Found previously not found variable. nid:0x2451af0a, new_entry_point:0x359ba8
+[09:20:51.332] |D| [load_var_exports]: Found previously not found variable. nid:0x35e135a0, new_entry_point:0x358b58
+[09:20:51.334] |D| [load_var_exports]: Found previously not found variable. nid:0x53f02a18, new_entry_point:0x359b90
+[09:20:51.335] |D| [load_var_exports]: Found previously not found variable. nid:0x6bc74629, new_entry_point:0x35a464
+[09:20:51.336] |D| [load_var_exports]: Found previously not found variable. nid:0x7321e731, new_entry_point:0x35a474
+[09:20:51.341] |D| [load_var_exports]: Found previously not found variable. nid:0xf79ae8e1, new_entry_point:0x35a454
+[09:20:51.343] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x350744
+[09:20:51.345] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x3464f8
+[09:20:51.347] |I| [load_module]: Module SceLibc (at "app0:sce_module/libc.suprx") loaded
+[09:20:51.349] |I| [load_module]: Loading module "app0:sce_module/libfios2.suprx"
+[09:20:51.369] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[09:20:51.370] |I| [load_self]: Loaded module segment 0 @ [0x0035E000 - 0x0038933C / 0x81000000] (size: 0x0002B33C) of module app0:sce_module/libfios2.suprx
+[09:20:51.373] |I| [load_self]: Loaded module segment 1 @ [0x00300000 - 0x0030523D / 0x8102C000] (size: 0x0000523D) of module app0:sce_module/libfios2.suprx
+[09:20:51.375] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[09:20:51.378] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x389244
+[09:20:51.379] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x380878
+[09:20:51.380] |I| [load_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") loaded
+[09:20:51.382] |I| [load_module]: Loading module "vs0:sys/external/libSceFt2.suprx"
+[09:20:51.515] |I| [load_self]: Loaded module segment 0 @ [0x0038A000 - 0x003DAF04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[09:20:51.522] |I| [load_self]: Loaded module segment 1 @ [0x00306000 - 0x003062F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[09:20:51.529] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[09:20:51.531] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x3c67dc
+[09:20:51.534] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x3c5f10
+[09:20:51.536] |I| [load_module]: Module SceLibft2 (at "vs0:sys/external/libSceFt2.suprx") loaded
+[09:20:51.537] |I| [load_module]: Loading module "vs0:sys/external/libpvf.suprx"
+[09:20:51.619] |I| [load_self]: Loaded module segment 0 @ [0x003DB000 - 0x003EAF14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[09:20:51.622] |I| [load_self]: Loaded module segment 1 @ [0x00307000 - 0x00307008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[09:20:51.625] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[09:20:51.629] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x3e9710
+[09:20:51.629] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x3e9300
+[09:20:51.631] |I| [load_module]: Module SceLibPvf (at "vs0:sys/external/libpvf.suprx") loaded
+[09:20:51.798] |D| [start_module]: Running module_start of library: SceLibc at address 0x30b871
+[09:20:51.956] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[09:20:51.958] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[09:20:51.962] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[09:20:52.023] |I| [start_module]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[09:20:52.032] |D| [start_module]: Running module_start of library: SceLibFios2 at address 0x35e001
+[09:20:52.079] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[09:20:52.083] |I| [start_module]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[09:20:52.091] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbfe02b3a __cxa_set_dso_handle_main at 0x237898
+[09:20:52.104] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xedc939e1 __aeabi_atexit at 0x237958
+[09:20:52.313] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7205bfdb memcpy at 0x237748
+[09:20:52.339] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf99ed5ac _Znwj at 0x237c28
+[09:20:52.381] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5e60b2b3 _ZNSt8ios_base4InitC1Ev at 0x237b38
+[09:20:52.404] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xabb11cf9 _ZNSt6_WinitC1Ev at 0x237bc8
+[09:20:52.445] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x775a0cb2 malloc at 0x237778
+[09:20:52.449] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_SCREEN_SHOT
+[09:20:52.450] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_ULT
+[09:20:52.452] |I| [load_module]: Loading module "app0:sce_module/libult.suprx"
+[09:20:52.463] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[09:20:52.464] |I| [load_self]: Loaded module segment 0 @ [0x05D3B000 - 0x05D4E9A4 / 0x81000000] (size: 0x000139A4) of module app0:sce_module/libult.suprx
+[09:20:52.469] |I| [load_self]: Loaded module segment 1 @ [0x0030A000 - 0x0030A814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[09:20:52.473] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[09:20:52.474] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x5d4d2d0
+[09:20:52.476] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x5d4a858
+[09:20:52.478] |I| [load_module]: Module SceUlt (at "app0:sce_module/libult.suprx") loaded
+[09:20:52.479] |D| [start_module]: Running module_start of library: SceUlt at address 0x5d3e769
+[09:20:52.520] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[09:20:52.521] |I| [start_module]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[09:20:52.540] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc082ca03 clock at 0x2378a8
+[09:20:53.110] |C| [renderer::vulkan::VKState::map_memory]: No coherent memory available for memory mapping, this may be caused by an old driver!
+[09:20:53.196] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[09:20:53.198] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[09:20:53.850] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd0310e31 __cxa_guard_acquire at 0x2378e8
+[09:20:53.855] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4ed1056f __cxa_guard_release at 0x2376d8
+[09:20:53.966] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dc1f0d8 memset at 0x237738
+[09:20:54.288] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x644da029 sceUltWaitingQueueResourcePoolGetWorkAreaSize at 0x237188
+[09:20:54.293] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x62f9493e _sceUltWaitingQueueResourcePoolCreate at 0x237168
+[09:20:54.314] |E| [call_import]: Import function for NID 0xd7f0f610 not found (thread name: PCSG00450, thread ID: 6)
+[09:20:54.317] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe7fb2bf4 _Znaj at 0x237bf8
+[09:20:54.319] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcef7c575 mspace_create at 0x2378c8
+[09:20:54.343] |E| [logging::ret_error_impl]: sceSysmoduleIsLoaded returned SCE_SYSMODULE_ERROR_UNLOADED (0x805a1001)
+[09:20:54.346] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NGS
+[09:20:54.393] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa9363e6b memalign at 0x237858
+[09:20:54.407] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8aecc873 strlen at 0x2377c8
+[09:20:54.409] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9f87712d strncpy at 0x237818
+[09:20:54.421] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xfe83f2e4 vsnprintf at 0x237978
+[09:20:54.747] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6dea815a powf at 0x237a08
+[09:20:54.973] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1b58fa3b strcmp at 0x237688
+[09:20:54.977] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7747f6d7 memcmp at 0x237768
+[09:20:55.186] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5afec7a1 _sceUltMutexCreate at 0x237158
+[09:20:55.282] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xaf5c218d memmove at 0x237868
+[09:20:55.350] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xc3e7c3db sceFiosFHOpenSync at 0x237078
+[09:20:55.353] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/Font.gf
+[09:20:55.444] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/Font.gf (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/Font.gf), fd: 0x3
+[09:20:55.450] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xf8beac88 sceFiosFHStatSync at 0x237088
+[09:20:55.474] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x72293931 _ZdlPv at 0x237b68
+[09:20:55.492] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x76945919 sceFiosFHReadSync at 0x237038
+[09:20:55.769] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x45182328 sceFiosFHCloseSync at 0x237028
+[09:20:55.772] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[09:20:55.779] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe4299dcb strncmp at 0x237918
+[09:20:55.910] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x1eac8a sceUltMutexLock at 0x2370d8
+[09:20:55.920] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:20:55.921] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x4
+[09:20:55.926] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[09:20:55.929] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x897c9097 sceUltMutexUnlock at 0x2371b8
+[09:20:56.132] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xecda7fee sceUltQueueDataResourcePoolGetWorkAreaSize at 0x237218
+[09:20:56.138] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x40856827 _sceUltQueueDataResourcePoolCreate at 0x237128
+[09:20:56.145] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x14da1bb4 _sceUltQueueCreate at 0x2370e8
+[09:20:56.152] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP
+[09:20:56.153] |I| [export_sceSysmoduleLoadModule]: Loading module ID: SCE_SYSMODULE_NP_TROPHY
+[09:20:56.414] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR07231_00/TROPHY.TRP (ux0:/app/PCSG00450/sce_sys/trophy/NPWR07231_00/TROPHY.TRP), fd: 0x5
+[09:20:56.609] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/trophy/data/NPWR07231_00/TROPUSR.DAT (target path: ux0:/user/00/trophy/data/NPWR07231_00/TROPUSR.DAT)
+[09:20:56.613] |W| [io_error_impl]: open_file (create_trophy_context) returned 0x80010002
+[09:20:56.730] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR07231_00/TROPCONF.SFM), fd: 0x6
+[09:20:56.734] |T| [write_file]: install_trophy_context: Writing to fd: 0x6, size: 2506
+[09:20:56.736] |T| [close_file]: install_trophy_context: Closing file fd: 0x6
+[09:20:56.741] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR07231_00/TROP.SFM), fd: 0x7
+[09:20:56.744] |T| [write_file]: install_trophy_context: Writing to fd: 0x7, size: 7125
+[09:20:56.748] |T| [close_file]: install_trophy_context: Closing file fd: 0x7
+[09:20:56.752] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP_00.SFM (ux0:/user/00/trophy/conf/NPWR07231_00/TROP_00.SFM), fd: 0x8
+[09:20:56.759] |T| [write_file]: install_trophy_context: Writing to fd: 0x8, size: 7125
+[09:20:56.762] |T| [close_file]: install_trophy_context: Closing file fd: 0x8
+[09:20:56.770] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/ICON0.PNG), fd: 0x9
+[09:20:56.774] |T| [write_file]: install_trophy_context: Writing to fd: 0x9, size: 25313
+[09:20:56.782] |T| [close_file]: install_trophy_context: Closing file fd: 0x9
+[09:20:56.786] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/ICON0_00.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/ICON0_00.PNG), fd: 0xa
+[09:20:56.789] |T| [write_file]: install_trophy_context: Writing to fd: 0xa, size: 25313
+[09:20:56.790] |T| [close_file]: install_trophy_context: Closing file fd: 0xa
+[09:20:56.809] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP000.PNG), fd: 0xb
+[09:20:56.814] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 93208
+[09:20:56.814] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[09:20:56.903] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP001.PNG), fd: 0xc
+[09:20:56.908] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 110639
+[09:20:56.910] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[09:20:56.915] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP002.PNG), fd: 0xd
+[09:20:56.918] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 77474
+[09:20:56.919] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[09:20:56.925] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP003.PNG), fd: 0xe
+[09:20:56.943] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 77474
+[09:20:56.950] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[09:20:56.965] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP004.PNG), fd: 0xf
+[09:20:56.969] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 110639
+[09:20:56.971] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[09:20:57.001] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP005.PNG), fd: 0x10
+[09:20:57.005] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 110639
+[09:20:57.008] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[09:20:57.314] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP006.PNG), fd: 0x11
+[09:20:57.318] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 110639
+[09:20:57.322] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[09:20:57.326] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP007.PNG), fd: 0x12
+[09:20:57.339] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 110639
+[09:20:57.339] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[09:20:57.343] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP008.PNG), fd: 0x13
+[09:20:57.396] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 110639
+[09:20:57.397] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[09:20:57.401] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP009.PNG), fd: 0x14
+[09:20:57.433] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 110639
+[09:20:57.434] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[09:20:57.437] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP010.PNG), fd: 0x15
+[09:20:57.441] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 110639
+[09:20:57.444] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[09:20:57.451] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP011.PNG), fd: 0x16
+[09:20:57.455] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 110639
+[09:20:57.456] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[09:20:57.462] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP012.PNG), fd: 0x17
+[09:20:57.468] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 110639
+[09:20:57.468] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[09:20:57.472] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP013.PNG), fd: 0x18
+[09:20:57.475] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 110639
+[09:20:57.477] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[09:20:57.509] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP014.PNG), fd: 0x19
+[09:20:57.515] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 110639
+[09:20:57.517] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[09:20:57.521] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP015.PNG), fd: 0x1a
+[09:20:57.558] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 110639
+[09:20:57.560] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[09:20:57.566] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP016.PNG), fd: 0x1b
+[09:20:57.575] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 110639
+[09:20:57.577] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[09:20:57.582] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP017.PNG), fd: 0x1c
+[09:20:57.588] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 110639
+[09:20:57.590] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[09:20:57.593] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP018.PNG), fd: 0x1d
+[09:20:57.598] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 110639
+[09:20:57.602] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[09:20:57.606] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP019.PNG), fd: 0x1e
+[09:20:57.610] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 110639
+[09:20:57.612] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[09:20:57.619] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP020.PNG), fd: 0x1f
+[09:20:57.638] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 110639
+[09:20:57.640] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[09:20:57.643] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP021.PNG), fd: 0x20
+[09:20:57.650] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 77474
+[09:20:57.652] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[09:20:57.656] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP022.PNG), fd: 0x21
+[09:20:57.686] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 110639
+[09:20:57.687] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[09:20:57.710] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP023.PNG), fd: 0x22
+[09:20:57.720] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 77474
+[09:20:57.722] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[09:20:57.732] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP024.PNG), fd: 0x23
+[09:20:57.736] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 77474
+[09:20:57.739] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[09:20:57.742] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP025.PNG), fd: 0x24
+[09:20:57.751] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 77474
+[09:20:57.752] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[09:20:57.756] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP026.PNG), fd: 0x25
+[09:20:57.762] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 77474
+[09:20:57.764] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[09:20:57.780] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP027.PNG), fd: 0x26
+[09:20:57.785] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 84086
+[09:20:57.786] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[09:20:57.791] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP028.PNG), fd: 0x27
+[09:20:57.798] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 110639
+[09:20:57.829] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[09:20:57.853] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP029.PNG), fd: 0x28
+[09:20:57.858] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 77474
+[09:20:57.860] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[09:20:57.865] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP030.PNG), fd: 0x29
+[09:20:57.869] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 77474
+[09:20:57.873] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[09:20:57.876] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP031.PNG), fd: 0x2a
+[09:20:57.881] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 77474
+[09:20:57.883] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[09:20:57.889] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP032.PNG), fd: 0x2b
+[09:20:57.895] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 77474
+[09:20:57.898] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[09:20:57.908] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP033.PNG), fd: 0x2c
+[09:20:57.912] |T| [write_file]: install_trophy_context: Writing to fd: 0x2c, size: 84086
+[09:20:57.916] |T| [close_file]: install_trophy_context: Closing file fd: 0x2c
+[09:20:57.921] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP034.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP034.PNG), fd: 0x2d
+[09:20:57.925] |T| [write_file]: install_trophy_context: Writing to fd: 0x2d, size: 84086
+[09:20:57.928] |T| [close_file]: install_trophy_context: Closing file fd: 0x2d
+[09:20:57.960] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP035.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP035.PNG), fd: 0x2e
+[09:20:57.968] |T| [write_file]: install_trophy_context: Writing to fd: 0x2e, size: 110639
+[09:20:57.970] |T| [close_file]: install_trophy_context: Closing file fd: 0x2e
+[09:20:58.016] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07231_00/TROP036.PNG (ux0:/user/00/trophy/conf/NPWR07231_00/TROP036.PNG), fd: 0x2f
+[09:20:58.039] |T| [write_file]: install_trophy_context: Writing to fd: 0x2f, size: 84086
+[09:20:58.039] |T| [close_file]: install_trophy_context: Closing file fd: 0x2f
+[09:20:58.062] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR07231_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR07231_00/TROPUSR.DAT), fd: 0x30
+[09:20:58.068] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x30, size: 4
+[09:20:58.070] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x30, size: 16
+[09:20:58.071] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x30, size: 16
+[09:20:58.072] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x30, size: 4
+[09:20:58.074] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x30, size: 4
+[09:20:58.075] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x30, size: 4
+[09:20:58.079] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x30, size: 64
+[09:20:58.083] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x30, size: 1024
+[09:20:58.085] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x30, size: 512
+[09:20:58.087] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x30
+[09:20:58.089] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR07231_00 create successfuly!
+[09:20:58.152] |T| [log_import_call]: [LLE] TID: 173 FUNC: 0x1ad58a53 sceUltQueuePop at 0x2370f8
+[09:20:58.162] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[09:20:58.201] |W| [unimplemented_impl]: Unimplemented sceScreenShotDisable import called.
+[09:20:58.271] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7449b359 sprintf at 0x237758
+[09:20:58.274] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_config.dat
+[09:20:58.276] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_config.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_config.dat), fd: 0x31
+[09:20:58.289] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[09:20:58.318] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_debug.dat
+[09:20:58.320] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_debug.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_debug.dat), fd: 0x32
+[09:20:58.324] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[09:20:58.336] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_dialog.dat
+[09:20:58.338] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_dialog.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_dialog.dat), fd: 0x33
+[09:20:58.341] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[09:20:58.367] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd9f9ddcd wmemcpy at 0x237908
+[09:20:58.422] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_global.dat
+[09:20:58.424] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_global.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_global.dat), fd: 0x34
+[09:20:58.477] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[09:20:58.507] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_lank_check.dat
+[09:20:58.510] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_lank_check.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_lank_check.dat), fd: 0x35
+[09:20:58.530] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[09:20:58.548] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_message_window.dat
+[09:20:58.550] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_message_window.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_message_window.dat), fd: 0x36
+[09:20:58.555] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[09:20:58.576] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_period.dat
+[09:20:58.578] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_period.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_period.dat), fd: 0x37
+[09:20:58.583] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[09:20:58.597] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_player_first_status.dat
+[09:20:58.601] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_player_first_status.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_player_first_status.dat), fd: 0x38
+[09:20:58.605] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[09:20:58.615] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_save_manager.dat
+[09:20:58.619] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_save_manager.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_save_manager.dat), fd: 0x39
+[09:20:58.636] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[09:20:58.654] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_scene_title.dat
+[09:20:58.656] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_scene_title.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_scene_title.dat), fd: 0x3a
+[09:20:58.659] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[09:20:58.679] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_script.dat
+[09:20:58.682] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_script.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_script.dat), fd: 0x3b
+[09:20:58.686] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[09:20:58.716] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_script_select.dat
+[09:20:58.718] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_script_select.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_script_select.dat), fd: 0x3c
+[09:20:58.722] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[09:20:58.744] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_system_menu.dat
+[09:20:58.746] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_system_menu.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_system_menu.dat), fd: 0x3d
+[09:20:58.762] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[09:20:58.821] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_option.dat
+[09:20:58.824] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_option.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_option.dat), fd: 0x3e
+[09:20:58.840] |T| [close_file]: sceIoClose: Closing file fd: 0x3e
+[09:20:58.903] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_backlog.dat
+[09:20:58.905] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_backlog.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_backlog.dat), fd: 0x3f
+[09:20:58.908] |T| [close_file]: sceIoClose: Closing file fd: 0x3f
+[09:20:58.952] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_particle.dat
+[09:20:58.954] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_particle.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_particle.dat), fd: 0x40
+[09:20:58.975] |T| [close_file]: sceIoClose: Closing file fd: 0x40
+[09:20:59.004] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_chara_select.dat
+[09:20:59.007] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_chara_select.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_chara_select.dat), fd: 0x41
+[09:20:59.027] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[09:20:59.081] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_sub_story.dat
+[09:20:59.083] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_sub_story.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_sub_story.dat), fd: 0x42
+[09:20:59.086] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[09:20:59.102] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_now_loading.dat
+[09:20:59.104] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_now_loading.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_now_loading.dat), fd: 0x43
+[09:20:59.108] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[09:20:59.136] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_script_score.dat
+[09:20:59.138] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_script_score.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_script_score.dat), fd: 0x44
+[09:20:59.142] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[09:20:59.166] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_rhythm.dat
+[09:20:59.169] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_rhythm.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_rhythm.dat), fd: 0x45
+[09:20:59.203] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[09:20:59.314] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_help_mgr.dat
+[09:20:59.317] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_help_mgr.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_help_mgr.dat), fd: 0x46
+[09:20:59.333] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[09:20:59.369] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_complex_anim.dat
+[09:20:59.371] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_complex_anim.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_complex_anim.dat), fd: 0x47
+[09:20:59.385] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[09:20:59.419] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_saveload.dat
+[09:20:59.421] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_saveload.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_saveload.dat), fd: 0x48
+[09:20:59.434] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[09:20:59.464] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_omake.dat
+[09:20:59.467] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_omake.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_omake.dat), fd: 0x49
+[09:20:59.499] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[09:20:59.643] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_flowchart.dat
+[09:20:59.645] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_flowchart.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_flowchart.dat), fd: 0x4a
+[09:20:59.650] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[09:20:59.677] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_first.dat
+[09:20:59.680] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_first.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_first.dat), fd: 0x4b
+[09:20:59.684] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[09:20:59.698] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_map.dat
+[09:20:59.700] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_map.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_map.dat), fd: 0x4c
+[09:20:59.729] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[09:20:59.811] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_live2d.dat
+[09:20:59.814] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_live2d.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_live2d.dat), fd: 0x4d
+[09:20:59.817] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[09:20:59.839] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/env/env_string_format.dat
+[09:20:59.841] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/env/env_string_format.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/env/env_string_format.dat), fd: 0x4e
+[09:20:59.844] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[09:20:59.858] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/first.dat
+[09:20:59.860] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/first.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/first.dat), fd: 0x4f
+[09:20:59.905] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[09:20:59.978] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa98e941b tanf at 0x237a38
+[09:20:59.989] |I| [float_to_half_init]: AVX+F16C instruction set is not supported. Using basic f32 to f16 conversion
+[09:21:00.038] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5b9bb802 free at 0x237728
+[09:21:00.081] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xa778a14b wcslen at 0x237838
+[09:21:00.084] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x9864c99f wmemcmp at 0x2377f8
+[09:21:00.112] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 59ce36c566c4a0afe07f50870aac32211feba5801190895163a3ba98b6b2be36
+[09:21:00.117] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 59ce36c566c4a0afe07f50870aac32211feba5801190895163a3ba98b6b2be36
+[09:21:00.163] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[09:21:00.208] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[09:21:00.218] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xd5200cb strstr at 0x237658
+[09:21:00.230] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcefdd143 strrchr at 0x2378d8
+[09:21:00.274] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b7290bfbfdbcb83c061d0148cf8a04b4ae478f7ca4e8f5943ed10d55f5c5139b
+[09:21:00.277] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader b7290bfbfdbcb83c061d0148cf8a04b4ae478f7ca4e8f5943ed10d55f5c5139b
+[09:21:00.284] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) color
+[09:21:00.285] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[09:21:00.347] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xe71c5cde _Stoul at 0x237928
+[09:21:00.475] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xbf94193b _Stod at 0x237888
+[09:21:00.591] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb9336e16 strchr at 0x237878
+[09:21:00.598] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xec585241 sscanf at 0x237948
+[09:21:01.503] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x7a08be70 wmemchr at 0x237788
+[09:21:02.837] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[09:21:02.873] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSG00450/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[09:21:02.878] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[09:21:02.884] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[09:21:02.930] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x6bbfec89 ceilf at 0x2379f8
+[09:21:03.069] |T| [log_import_call]: [LLE] TID: 66  FUNC: 0x93fc85ed _FSinx at 0x237a28
+[09:21:03.120] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 508fd7ff618be47dbbe849635f11312bc5709c69f5a909d43613047db60ad4ab
+[09:21:03.123] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 508fd7ff618be47dbbe849635f11312bc5709c69f5a909d43613047db60ad4ab
+[09:21:03.128] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[09:21:03.141] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aColor
+[09:21:03.144] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord
+[09:21:03.146] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) wvp[4]
+[09:21:03.151] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[09:21:03.198] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader a13ead345fd496cface51a3fb90848e89adbf4892f168cdb3f833fb34eb9840e
+[09:21:03.259] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader a13ead345fd496cface51a3fb90848e89adbf4892f168cdb3f833fb34eb9840e
+[09:21:03.271] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[09:21:03.288] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(testTex, TEXCOORD0.xy)
+[09:21:03.290] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[09:21:03.304] |T| [log_import_call]: [LLE] TID: 66  FUNC: 0xd5bd8d5c _FLog at 0x237a78
+[09:21:03.719] |I| [ngs::PlayerModule::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[09:21:03.726] |W| [ngs::EqualizerModule::process]: Game is using unimplemented equalizer audio module
+[09:21:03.728] |W| [ngs::EnvelopeModule::process]: Game is using unimplemented envelope audio module
+[09:21:03.880] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8d2a14c4 mspace_malloc_stats at 0x2377d8
+[09:21:03.895] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x52f780dd mspace_memalign at 0x2376e8
+[09:21:03.959] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSG00450/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[09:21:03.969] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[09:21:04.401] |E| [open_file]: Missing file at D:/GAMESANDEMULATORS/Vita3K/storage/ux0/user/00/savedata/PCSG00450/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[09:21:04.405] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[09:21:04.443] |T| [open_file]: sceAppUtilSaveDataSlotCreate: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00450/SlotParam_0.bin), fd: 0x50
+[09:21:04.449] |T| [write_file]: sceAppUtilSaveDataSlotCreate: Writing to fd: 0x50, size: 844
+[09:21:04.455] |T| [close_file]: sceAppUtilSaveDataSlotCreate: Closing file fd: 0x50
+[09:21:04.539] |T| [open_file]: sceAppUtilSaveDataSlotSetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00450/SlotParam_0.bin), fd: 0x51
+[09:21:04.543] |T| [write_file]: sceAppUtilSaveDataSlotSetParam: Writing to fd: 0x51, size: 844
+[09:21:04.545] |T| [close_file]: sceAppUtilSaveDataSlotSetParam: Closing file fd: 0x51
+[09:21:04.591] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/system.bin (ux0:/user/00/savedata/PCSG00450/system.bin), fd: 0x52
+[09:21:04.595] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x52, size: 122880
+[09:21:04.597] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x52
+[09:21:04.601] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00450/SlotParam_0.bin), fd: 0x53
+[09:21:04.604] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x53, size: 844
+[09:21:04.605] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x53
+[09:21:04.619] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x3cdfd2a3 mspace_free at 0x2376c8
+[09:21:05.665] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00450/SlotParam_0.bin), fd: 0x54
+[09:21:05.670] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x54
+[09:21:05.757] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00450/SlotParam_0.bin), fd: 0x55
+[09:21:05.761] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x55
+[09:21:05.766] |T| [open_file]: sceAppUtilSaveDataSlotSetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00450/SlotParam_0.bin), fd: 0x56
+[09:21:05.774] |T| [write_file]: sceAppUtilSaveDataSlotSetParam: Writing to fd: 0x56, size: 844
+[09:21:05.776] |T| [close_file]: sceAppUtilSaveDataSlotSetParam: Closing file fd: 0x56
+[09:21:05.779] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSG00450/data.bin), fd: 0x57
+[09:21:05.791] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x57, size: 1048576
+[09:21:05.793] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x57
+[09:21:05.868] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSG00450/data.bin), fd: 0x58
+[09:21:05.875] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x58, size: 1048576
+[09:21:05.877] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x58
+[09:21:05.921] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSG00450/data.bin), fd: 0x59
+[09:21:05.928] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x59, size: 1048576
+[09:21:05.930] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x59
+[09:21:05.950] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSG00450/data.bin), fd: 0x5a
+[09:21:05.956] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x5a, size: 1048576
+[09:21:05.960] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x5a
+[09:21:05.980] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSG00450/data.bin), fd: 0x5b
+[09:21:05.987] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x5b, size: 1048576
+[09:21:05.990] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x5b
+[09:21:06.009] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/data.bin (ux0:/user/00/savedata/PCSG00450/data.bin), fd: 0x5c
+[09:21:06.015] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x5c, size: 901120
+[09:21:06.016] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x5c
+[09:21:06.021] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSG00450/SlotParam_0.bin), fd: 0x5d
+[09:21:06.039] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x5d, size: 844
+[09:21:06.041] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x5d
+[09:21:11.554] |W| [unimplemented_impl]: Unimplemented sceAppUtilShutdown import called.
+[09:21:11.613] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/bgm.awb
+[09:21:11.614] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/bgm.awb (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/bgm.awb), fd: 0x5e
+[09:21:11.819] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/music.awb
+[09:21:11.821] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/music.awb (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/music.awb), fd: 0x5f
+[09:21:11.858] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/se.awb
+[09:21:11.860] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/se.awb (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/se.awb), fd: 0x60
+[09:21:32.671] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/OP.usm
+[09:21:32.674] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/OP.usm (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/OP.usm), fd: 0x61
+[09:21:33.109] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[09:21:33.112] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[09:21:33.121] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 5f7f0e0f617267a008403568a5a4083d36c727b4390987b942c2991e0601de66
+[09:21:33.125] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 5f7f0e0f617267a008403568a5a4083d36c727b4390987b942c2991e0601de66
+[09:21:33.131] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[09:21:33.133] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aColor
+[09:21:33.136] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) wvp[4]
+[09:21:33.138] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[09:21:33.280] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 545966d2771cb9bb2c89d131a3daf9200ad514905229cb19c306044aeecf6633
+[09:21:33.334] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 545966d2771cb9bb2c89d131a3daf9200ad514905229cb19c306044aeecf6633
+[09:21:33.340] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[09:21:33.344] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[09:21:33.673] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 94bc3c8ad3d5b30fbb1649c9d7cd84a26e21f2aa33bd736cdc96a05d66a320c1
+[09:21:33.684] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 94bc3c8ad3d5b30fbb1649c9d7cd84a26e21f2aa33bd736cdc96a05d66a320c1
+[09:21:33.690] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[09:21:33.692] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aTexCoord
+[09:21:33.694] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[09:21:33.715] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader e7631cd43304b4d6c5882b28d5c350d71b60916b85da86277ebc6aa6b02d81d6
+[09:21:33.723] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader e7631cd43304b4d6c5882b28d5c350d71b60916b85da86277ebc6aa6b02d81d6
+[09:21:33.733] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) use_alpha_tex
+[09:21:33.735] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float2) v_TexCoord0
+[09:21:33.740] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(tex_rgb, TEXCOORD0.xy)
+[09:21:33.742] |I| [shader::make_frag_finalize_function]: Non zero pa offset: 2 at e7631cd43304b4d6c5882b28d5c350d71b60916b85da86277ebc6aa6b02d81d6
+[09:21:33.745] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[09:21:33.750] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[09:21:33.832] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_3, size = 1
+[09:21:33.848] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 3
+[09:21:33.864] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_8, size = 2
+[09:21:35.810] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xcad57bad sceUltUlthreadYield at 0x237208
+[09:21:35.851] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[09:21:36.176] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x5435c586 sceUltUlthreadRuntimeGetWorkAreaSize at 0x237148
+[09:21:36.178] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x8486dde6 _sceUltUlthreadRuntimeOptParamInitialize at 0x237198
+[09:21:36.183] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x86dda3ae _sceUltUlthreadRuntimeCreate at 0x2371a8
+[09:21:36.314] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[09:21:36.420] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb1290375 _sceUltUlthreadCreate at 0x2371d8
+[09:21:36.431] |W| [stubbed_impl]: Stubbed sceKernelSendSignal import called. (sceKernelSendSignal)
+[09:21:36.445] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0xb4cf88ac sceUltUlthreadTryJoin at 0x2371e8
+[09:21:36.473] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:21:36.475] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x62
+[09:21:36.493] |T| [log_import_call]: [LLE] TID: 188 FUNC: 0xa75f3c4a sceFiosFHSeek at 0x237058
+[09:21:36.532] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[09:21:36.536] |T| [log_import_call]: [LLE] TID: 188 FUNC: 0x1e401df8 sceUltUlthreadExit at 0x237108
+[09:21:36.572] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x4e9a745c sceUltUlthreadRuntimeDestroy at 0x237138
+[09:21:36.573] |E| [call_import]: Import function for NID 0xf9c0f5da not found (thread name: PCSG00450, thread ID: 6)
+[09:21:36.804] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:21:36.806] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x63
+[09:21:36.857] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[09:21:36.970] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x67e99979 _Log at 0x2379e8
+[09:21:36.975] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x603caa93 _Sinx at 0x2379c8
+[09:21:36.986] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x75348906 fabsf at 0x237a18
+[09:22:03.005] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[09:22:03.008] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[09:22:25.614] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:25.615] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x64
+[09:22:25.664] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[09:22:25.880] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:25.884] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x65
+[09:22:25.918] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[09:22:26.147] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:26.149] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x66
+[09:22:26.188] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[09:22:26.526] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:26.528] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x67
+[09:22:26.617] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[09:22:27.401] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:27.404] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x68
+[09:22:27.445] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[09:22:27.576] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/voice.awb
+[09:22:27.578] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/voice.awb (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/voice.awb), fd: 0x69
+[09:22:27.848] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:27.849] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x6a
+[09:22:27.884] |T| [close_file]: sceIoClose: Closing file fd: 0x6a
+[09:22:28.123] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:28.125] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x6b
+[09:22:28.190] |T| [close_file]: sceIoClose: Closing file fd: 0x6b
+[09:22:28.681] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader c3fe1db438bca0699a5ef4163a5eddc5b9e2fc30b032a6c9a6418b927f9c04d9
+[09:22:28.690] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader c3fe1db438bca0699a5ef4163a5eddc5b9e2fc30b032a6c9a6418b927f9c04d9
+[09:22:28.693] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) atref
+[09:22:28.696] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[09:22:28.696] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(testTex, TEXCOORD0.xy)
+[09:22:28.706] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[09:22:28.718] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 1
+[09:22:28.720] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_5, size = 3
+[09:22:28.864] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:28.886] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x6c
+[09:22:28.946] |T| [close_file]: sceIoClose: Closing file fd: 0x6c
+[09:22:30.716] |T| [log_import_call]: [LLE] TID: 6   FUNC: 0x91b0dc47 _ZdaPv at 0x237bb8
+[09:22:37.628] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:37.631] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x6d
+[09:22:37.709] |T| [close_file]: sceIoClose: Closing file fd: 0x6d
+[09:22:38.573] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:38.591] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x6e
+[09:22:38.639] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[09:22:44.572] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:44.581] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x6f
+[09:22:44.651] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[09:22:45.842] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:45.857] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x70
+[09:22:45.910] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[09:22:46.725] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:46.734] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x71
+[09:22:46.769] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[09:22:48.218] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:48.231] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x72
+[09:22:48.293] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[09:22:49.888] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:49.894] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x73
+[09:22:49.953] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[09:22:50.834] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:50.841] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x74
+[09:22:50.879] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[09:22:52.235] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:22:52.243] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x75
+[09:22:52.322] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[09:22:58.061] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[09:22:58.076] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[09:23:02.169] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:02.175] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x76
+[09:23:02.236] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[09:23:03.260] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:03.261] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x77
+[09:23:03.292] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[09:23:04.393] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:04.397] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x78
+[09:23:04.431] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[09:23:05.732] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:05.739] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x79
+[09:23:05.801] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[09:23:09.075] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:09.077] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x7a
+[09:23:09.110] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[09:23:10.526] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:10.532] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x7b
+[09:23:10.576] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[09:23:11.879] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:11.889] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x7c
+[09:23:11.929] |T| [close_file]: sceIoClose: Closing file fd: 0x7c
+[09:23:13.322] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:13.332] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x7d
+[09:23:13.410] |T| [close_file]: sceIoClose: Closing file fd: 0x7d
+[09:23:15.105] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:15.112] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x7e
+[09:23:15.146] |T| [close_file]: sceIoClose: Closing file fd: 0x7e
+[09:23:16.478] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:16.480] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x7f
+[09:23:16.510] |T| [close_file]: sceIoClose: Closing file fd: 0x7f
+[09:23:18.917] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:18.922] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x80
+[09:23:18.954] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[09:23:19.024] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 54493930aeebb68cd678435bab14d02ddf3b18104a8adb5068a44404a4c680f3
+[09:23:19.029] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 54493930aeebb68cd678435bab14d02ddf3b18104a8adb5068a44404a4c680f3
+[09:23:19.035] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[09:23:19.036] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aColor
+[09:23:19.040] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord
+[09:23:19.046] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) wvp[4]
+[09:23:19.049] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[09:23:19.082] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1fabaeb2348406362cb226c778c0c29bc5c5ae484a4bf9fc11b400209d0a3287
+[09:23:19.086] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1fabaeb2348406362cb226c778c0c29bc5c5ae484a4bf9fc11b400209d0a3287
+[09:23:19.111] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) rule_value
+[09:23:19.114] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[09:23:19.115] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(tex2, TEXCOORD0.xy)
+[09:23:19.117] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[09:23:20.800] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:20.802] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x81
+[09:23:20.885] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[09:23:21.209] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:21.211] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x82
+[09:23:21.243] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[09:23:21.444] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:21.447] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x83
+[09:23:21.480] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[09:23:21.938] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader ad8d09b6ee38da6a555d611d21d9491ce5118734c2c38e94b701d4d827304ed9
+[09:23:21.941] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader ad8d09b6ee38da6a555d611d21d9491ce5118734c2c38e94b701d4d827304ed9
+[09:23:21.948] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) rule_value
+[09:23:21.949] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[09:23:21.950] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(tex, TEXCOORD0.xy)
+[09:23:21.953] |T| [shader::create_fragment_inputs]: pa8 = tex2D<float4>(tex2, TEXCOORD0.xy)
+[09:23:21.955] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 8
+[09:23:22.061] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 59c5eb17ef9a6a78fc5de989813236eabf98386a7d5f5dc751ada6164b997b4d
+[09:23:22.068] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 59c5eb17ef9a6a78fc5de989813236eabf98386a7d5f5dc751ada6164b997b4d
+[09:23:22.088] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[09:23:22.092] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) aColor
+[09:23:22.094] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) aTexCoord
+[09:23:22.098] |D| [shader::create_parameters]: [BUFFER0  + 12] pa12 = (float4) aDest
+[09:23:22.100] |D| [shader::create_parameters]: [BUFFER0  + 16] pa16 = (float4) aRotate
+[09:23:22.102] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) view[4]
+[09:23:22.104] |D| [shader::create_parameters]: [DEFAULT  + 16] sa16 = (float4) proj[4]
+[09:23:22.107] |D| [shader::create_parameters]: [DEFAULT  + 32] sa32 = (float4) world[4]
+[09:23:22.110] |D| [shader::create_parameters]: [DEFAULT  + 48] sa48 = (float1) asp
+[09:23:22.114] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 14
+[09:23:22.143] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 123
+[09:23:22.798] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:22.799] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x84
+[09:23:22.855] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[09:23:25.441] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:25.463] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x85
+[09:23:25.521] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[09:23:26.321] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:26.327] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x86
+[09:23:26.416] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[09:23:26.733] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:26.736] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x87
+[09:23:26.766] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[09:23:28.620] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:28.635] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x88
+[09:23:28.709] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[09:23:29.913] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:29.930] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x89
+[09:23:29.957] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[09:23:31.081] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:31.085] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x8a
+[09:23:31.154] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[09:23:31.398] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:31.402] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x8b
+[09:23:31.436] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[09:23:32.780] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:32.782] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x8c
+[09:23:32.810] |T| [close_file]: sceIoClose: Closing file fd: 0x8c
+[09:23:33.150] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:33.153] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x8d
+[09:23:33.183] |T| [close_file]: sceIoClose: Closing file fd: 0x8d
+[09:23:34.026] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:34.038] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x8e
+[09:23:34.107] |T| [close_file]: sceIoClose: Closing file fd: 0x8e
+[09:23:43.244] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:43.285] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x8f
+[09:23:43.336] |T| [close_file]: sceIoClose: Closing file fd: 0x8f
+[09:23:44.366] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:44.371] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x90
+[09:23:44.450] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[09:23:44.979] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:44.985] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x91
+[09:23:45.034] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[09:23:45.647] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:45.651] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x92
+[09:23:45.680] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[09:23:46.283] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:46.290] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x93
+[09:23:46.362] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[09:23:46.618] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:46.626] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x94
+[09:23:46.659] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[09:23:48.005] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:48.035] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x95
+[09:23:48.064] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[09:23:48.328] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:48.330] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x96
+[09:23:48.401] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[09:23:49.123] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:49.127] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x97
+[09:23:49.195] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[09:23:50.647] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:50.650] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x98
+[09:23:50.726] |T| [close_file]: sceIoClose: Closing file fd: 0x98
+[09:23:52.058] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:52.062] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x99
+[09:23:52.089] |T| [close_file]: sceIoClose: Closing file fd: 0x99
+[09:23:52.093] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[09:23:52.101] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[09:23:52.649] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:52.652] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x9a
+[09:23:52.753] |T| [close_file]: sceIoClose: Closing file fd: 0x9a
+[09:23:53.256] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:53.268] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x9b
+[09:23:53.339] |T| [close_file]: sceIoClose: Closing file fd: 0x9b
+[09:23:55.187] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:55.191] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x9c
+[09:23:55.291] |T| [close_file]: sceIoClose: Closing file fd: 0x9c
+[09:23:56.166] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:56.177] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x9d
+[09:23:56.247] |T| [close_file]: sceIoClose: Closing file fd: 0x9d
+[09:23:57.304] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:57.309] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x9e
+[09:23:57.389] |T| [close_file]: sceIoClose: Closing file fd: 0x9e
+[09:23:57.968] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:57.971] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0x9f
+[09:23:58.011] |T| [close_file]: sceIoClose: Closing file fd: 0x9f
+[09:23:58.716] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:23:58.721] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa0
+[09:23:58.764] |T| [close_file]: sceIoClose: Closing file fd: 0xa0
+[09:24:00.454] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:00.545] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa1
+[09:24:00.590] |T| [close_file]: sceIoClose: Closing file fd: 0xa1
+[09:24:01.326] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:01.333] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa2
+[09:24:01.406] |T| [close_file]: sceIoClose: Closing file fd: 0xa2
+[09:24:01.683] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:01.689] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa3
+[09:24:01.764] |T| [close_file]: sceIoClose: Closing file fd: 0xa3
+[09:24:03.024] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:03.037] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa4
+[09:24:03.080] |T| [close_file]: sceIoClose: Closing file fd: 0xa4
+[09:24:04.163] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:04.176] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa5
+[09:24:04.245] |T| [close_file]: sceIoClose: Closing file fd: 0xa5
+[09:24:04.868] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:04.876] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa6
+[09:24:04.948] |T| [close_file]: sceIoClose: Closing file fd: 0xa6
+[09:24:05.275] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:05.279] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa7
+[09:24:05.327] |T| [close_file]: sceIoClose: Closing file fd: 0xa7
+[09:24:06.335] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:06.340] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa8
+[09:24:06.371] |T| [close_file]: sceIoClose: Closing file fd: 0xa8
+[09:24:07.088] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:07.097] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xa9
+[09:24:07.128] |T| [close_file]: sceIoClose: Closing file fd: 0xa9
+[09:24:07.413] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:07.420] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xaa
+[09:24:07.446] |T| [close_file]: sceIoClose: Closing file fd: 0xaa
+[09:24:08.574] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:08.577] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xab
+[09:24:08.638] |T| [close_file]: sceIoClose: Closing file fd: 0xab
+[09:24:09.331] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:09.337] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xac
+[09:24:09.370] |T| [close_file]: sceIoClose: Closing file fd: 0xac
+[09:24:10.236] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:10.251] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xad
+[09:24:10.297] |T| [close_file]: sceIoClose: Closing file fd: 0xad
+[09:24:10.576] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:10.585] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xae
+[09:24:10.659] |T| [close_file]: sceIoClose: Closing file fd: 0xae
+[09:24:11.666] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:11.673] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xaf
+[09:24:11.702] |T| [close_file]: sceIoClose: Closing file fd: 0xaf
+[09:24:11.984] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:11.988] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xb0
+[09:24:12.014] |T| [close_file]: sceIoClose: Closing file fd: 0xb0
+[09:24:24.052] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:24.060] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xb1
+[09:24:24.088] |T| [close_file]: sceIoClose: Closing file fd: 0xb1
+[09:24:25.146] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:25.154] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xb2
+[09:24:25.187] |T| [close_file]: sceIoClose: Closing file fd: 0xb2
+[09:24:27.036] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:27.131] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xb3
+[09:24:27.167] |T| [close_file]: sceIoClose: Closing file fd: 0xb3
+[09:24:28.130] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:28.136] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xb4
+[09:24:28.206] |T| [close_file]: sceIoClose: Closing file fd: 0xb4
+[09:24:28.477] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:28.485] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xb5
+[09:24:28.512] |T| [close_file]: sceIoClose: Closing file fd: 0xb5
+[09:24:29.992] |I| [export_sceIoOpen]: Opening file: app0:PSP2_GAME/USRDIR/resource.dat
+[09:24:29.996] |T| [open_file]: sceIoOpen: Opening file app0:PSP2_GAME/USRDIR/resource.dat (ux0:/app/PCSG00450/PSP2_GAME/USRDIR/resource.dat), fd: 0xb6
+[09:24:30.028] |T| [close_file]: sceIoClose: Closing file fd: 0xb6

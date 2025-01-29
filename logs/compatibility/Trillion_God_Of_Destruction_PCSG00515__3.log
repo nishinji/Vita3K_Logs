@@ -1,0 +1,521 @@
+ORD1.xy)
+[18:44:09.087] |T| [shader::create_fragment_inputs]: pa4 = tex2D<half4>(g_aSampler0, TEXCOORD0.xy)
+[18:44:09.087] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 4
+[18:44:09.098] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 3045eb44785c46788aa9338f7c330ff879805f617f29b58d87d19eebec073de1
+[18:44:09.098] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 3045eb44785c46788aa9338f7c330ff879805f617f29b58d87d19eebec073de1
+[18:44:09.100] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) atPosition0
+[18:44:09.100] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) atTexCoord0
+[18:44:09.101] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) g_avTexCoordScaleOffset[2]
+[18:44:09.101] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 6
+[18:44:09.108] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 954570a58280512b3d9373fb9d684c3ec1fca47ed62fc174aaa940afe5fa66e6
+[18:44:09.109] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 954570a58280512b3d9373fb9d684c3ec1fca47ed62fc174aaa940afe5fa66e6
+[18:44:09.110] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (half4) g_avColorWeight[3]
+[18:44:09.110] |T| [shader::create_fragment_inputs]: pa0 = tex2D<half4>(g_aSampler0, TEXCOORD0.xy)
+[18:44:09.111] |T| [shader::create_fragment_inputs]: pa2 = tex2D<half4>(g_aSampler1, TEXCOORD1.xy)
+[18:44:09.112] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 11
+[18:44:39.000] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[18:44:39.001] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[18:47:42.257] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[18:47:42.267] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[18:47:42.329] |I| [config::init_config]: backend-renderer: Vulkan
+[18:47:42.330] |I| [config::init_config]: log-level: 0
+[18:47:42.514] |I| [SDL_main]: Vita3K v0.1.5 2798-b6e1fe24
+[18:47:42.514] |I| [SDL_main]: Number of logical CPU cores: 4
+[18:47:42.515] |I| [SDL_main]: Available ram memory: 16348 MiB
+[18:47:42.632] |I| [renderer::vulkan::VKState::create]: Enabling vulkan validation layers (has a performance impact but allows better error messages)
+[18:47:42.686] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce GTX 1050 Ti
+[18:47:42.687] |I| [renderer::vulkan::VKState::create]: Driver version: 512.15.0.0
+[18:47:42.999] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[18:48:07.860] |I| [gui::set_vsync_state]: V-Sync state: false
+[18:48:07.895] |I| [load_app_impl]: cpu-backend: Dynarmic
+[18:48:07.896] |I| [load_app_impl]: CPU Optimisation state: true
+[18:48:07.897] |I| [load_app_impl]: ngs state: true
+[18:48:07.897] |I| [load_app_impl]: Resolution multiplier: 1
+[18:48:07.898] |I| [load_app_impl]: modules mode: Auto & Manual
+[18:48:07.898] |I| [load_app_impl]: lle-modules: libhttp
+[18:48:07.899] |I| [load_app_impl]: Title: 魔壊神トリリオン
+[18:48:07.899] |I| [load_app_impl]: Serial: PCSG00515
+[18:48:07.900] |I| [load_app_impl]: Version: 1.00
+[18:48:07.900] |I| [load_app_impl]: Category: gd
+[18:48:07.916] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[18:48:07.917] |I| [load_self]: Loaded module segment 0 @ [0x00007000 - 0x00058814 / 0x81000000] (size: 0x00051814) of module app0:sce_module/libc.suprx
+[18:48:07.918] |I| [load_self]: Loaded module segment 1 @ [0x00059000 - 0x0005B8A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[18:48:07.919] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libc.suprx
+[18:48:07.920] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x4E284
+[18:48:07.920] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x4344C
+[18:48:07.921] |W| [load_var_imports]: 	NID NOT FOUND 0x93B8AA67 (__stack_chk_guard) at 0x475AC, setting to stub value 0xDEADBEEF
+[18:48:07.922] |W| [load_var_imports]: 	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x49140, setting to stub value 0xDEADBEEF
+[18:48:07.924] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[18:48:07.933] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[18:48:07.934] |I| [load_self]: Loaded module segment 0 @ [0x0005E000 - 0x0008ACBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[18:48:07.935] |I| [load_self]: Loaded module segment 1 @ [0x0008B000 - 0x00090255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[18:48:07.936] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[18:48:07.936] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x8ABC8
+[18:48:07.937] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81F08
+[18:48:07.937] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[18:48:07.943] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[18:48:07.944] |I| [load_self]: Loaded module segment 0 @ [0x00091000 - 0x000A49A4 / 0x81000000] (size: 0x000139A4) of module app0:sce_module/libult.suprx
+[18:48:07.945] |I| [load_self]: Loaded module segment 1 @ [0x000A5000 - 0x000A5814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[18:48:07.945] |I| [load_self]: Loading symbols for SELF: app0:sce_module/libult.suprx
+[18:48:07.946] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xA32D0
+[18:48:07.946] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xA0858
+[18:48:07.948] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[18:48:07.960] |I| [load_self]: Loaded module segment 0 @ [0x000A6000 - 0x000F6F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[18:48:07.961] |I| [load_self]: Loaded module segment 1 @ [0x000F7000 - 0x000F72F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[18:48:07.963] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libSceFt2.suprx
+[18:48:07.964] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0xE27DC
+[18:48:07.964] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0xE1F10
+[18:48:07.965] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[18:48:07.969] |I| [load_self]: Loaded module segment 0 @ [0x000F8000 - 0x00107F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[18:48:07.970] |I| [load_self]: Loaded module segment 1 @ [0x00108000 - 0x00108008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[18:48:07.971] |I| [load_self]: Loading symbols for SELF: vs0:sys/external/libpvf.suprx
+[18:48:07.971] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x106710
+[18:48:07.972] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x106300
+[18:48:07.972] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[18:48:08.104] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[18:48:08.104] |I| [load_self]: Loaded module segment 0 @ [0x00109000 - 0x00435D34 / 0x81000000] (size: 0x0032CD34) of module app0:eboot.bin
+[18:48:08.105] |I| [load_self]: Loaded module segment 1 @ [0x00436000 - 0x00C4B380 / 0x8132D000] (size: 0x00815380) of module app0:eboot.bin
+[18:48:08.106] |I| [load_self]: Loading symbols for SELF: app0:eboot.bin
+[18:48:08.107] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3AA608
+[18:48:08.107] |D| [load_var_exports]: 	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x449A48
+[18:48:08.108] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x3F2980
+[18:48:08.109] |I| [load_app_impl]: Main executable eboot (eboot.bin) loaded
+[18:48:08.110] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Found pipeline cache, reading...
+[18:48:08.111] |I| [renderer::vulkan::PipelineCache::read_pipeline_cache]: Pipeline cache read and loaded
+[18:48:08.115] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 1/32
+[18:48:08.120] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 2/32
+[18:48:08.124] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 3/32
+[18:48:08.127] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 4/32
+[18:48:08.131] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 5/32
+[18:48:08.135] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 6/32
+[18:48:08.139] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 7/32
+[18:48:08.143] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 8/32
+[18:48:08.147] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 9/32
+[18:48:08.150] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 10/32
+[18:48:08.154] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 11/32
+[18:48:08.159] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 12/32
+[18:48:08.180] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 13/32
+[18:48:08.183] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 14/32
+[18:48:08.197] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 15/32
+[18:48:08.200] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 16/32
+[18:48:08.208] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 17/32
+[18:48:08.211] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 18/32
+[18:48:08.214] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 19/32
+[18:48:08.218] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 20/32
+[18:48:08.221] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 21/32
+[18:48:08.224] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 22/32
+[18:48:08.227] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 23/32
+[18:48:08.232] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 24/32
+[18:48:08.235] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 25/32
+[18:48:08.238] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 26/32
+[18:48:08.242] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 27/32
+[18:48:08.246] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 28/32
+[18:48:08.249] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 29/32
+[18:48:08.252] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 30/32
+[18:48:08.254] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 31/32
+[18:48:08.258] |I| [renderer::vulkan::VKState::precompile_shader]: Program Compiled 32/32
+[18:48:08.283] |D| [run_app]: Running module_start of library: SceLibc at address 0x7871
+[18:48:08.364] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[18:48:08.365] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[18:48:08.365] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[18:48:08.379] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[18:48:08.386] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5E001
+[18:48:08.410] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[18:48:08.410] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayGetList02 import called.
+[18:48:08.411] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[18:48:08.418] |D| [run_app]: Running module_start of library: SceUlt at address 0x94769
+[18:48:08.439] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[18:48:08.439] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[18:48:08.560] |T| [write_file]: *** TTY: main start-----------------------------
+[18:48:08.565] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[18:48:08.706] |W| [stubbed_impl]: Stubbed _sceKernelGetThreadInfo import called. (STUB)
+[18:48:08.752] |E| [call_import]: Import function for NID 0xD7F0F610 not found (thread name: PCSG00515, thread ID: 8)
+[18:48:08.756] |W| [stubbed_impl]: Stubbed _sceKernelWaitSignal import called. (sceKernelWaitSignal)
+[18:48:08.794] |I| [load_module]: Loading module ID: 0x13
+[18:48:08.800] |C| [load_self]: Unknown segment type 0x6FFFFF01
+[18:48:08.801] |I| [load_self]: Loaded module segment 0 @ [0x02E9B000 - 0x02E9E08C / 0x81000000] (size: 0x0000308C) of module sys/external/libsystemgesture.suprx
+[18:48:08.802] |I| [load_self]: Loaded module segment 1 @ [0x02E9F000 - 0x02E9FBF0 / 0x81004000] (size: 0x00000BF0) of module sys/external/libsystemgesture.suprx
+[18:48:08.802] |I| [load_self]: Loading symbols for SELF: sys/external/libsystemgesture.suprx
+[18:48:08.803] |D| [load_var_exports]: 	NID 0x936C8A78 (SYSLYB) at 0x2E9E074
+[18:48:08.803] |D| [load_var_exports]: 	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2E9DBD4
+[18:48:08.804] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") loaded
+[18:48:08.805] |D| [load_module]: Running module_start of module: SceSystemGesture
+[18:48:08.807] |I| [load_module]: Module SceSystemGesture (at "sys/external/libsystemgesture.suprx") module_start returned 0x0
+[18:48:08.808] |W| [unimplemented_impl]: Unimplemented sceTouchEnableTouchForce import called.
+[18:48:08.809] |T| [log_import_call]: [LLE] TID: 8   FUNC: 0x6078A08B sceSystemGestureInitializePrimitiveTouchRecognizer at 0x3A9DCC
+[18:48:08.811] |W| [unimplemented_impl]: Unimplemented sceTouchGetPixelDensity2 import called.
+[18:48:08.811] |T| [log_import_call]: [LLE] TID: 8   FUNC: 0xC3367370 sceSystemGestureCreateTouchRecognizer at 0x3A9DFC
+[18:48:08.814] |E| [call_import]: Import function for NID 0xE340C2E9 not found (thread name: PCSG00515, thread ID: 8)
+[18:48:08.817] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[18:48:08.817] |W| [unimplemented_impl]: Unimplemented sceMotionReset import called.
+[18:48:08.819] |W| [unimplemented_impl]: Unimplemented sceMotionMagnetometerOn import called.
+[18:48:08.980] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[18:48:09.080] |W| [stubbed_impl]: Stubbed sceGxmGetRenderTargetMemSize import called. (2MiB emuenv mem)
+[18:48:09.088] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[18:48:09.118] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampEnable import called.
+[18:48:09.118] |W| [unimplemented_impl]: Unimplemented sceGxmSetWClampValue import called.
+[18:48:09.119] |W| [unimplemented_impl]: Unimplemented sceGxmSetWBufferEnable import called.
+[18:48:09.120] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetParam import called.
+[18:48:09.120] |W| [unimplemented_impl]: Unimplemented sceScreenShotSetOverlayImage import called.
+[18:48:09.121] |W| [unimplemented_impl]: Unimplemented sceScreenShotEnable import called.
+[18:48:09.128] |W| [ngs::create_voice_definition]: Missing voice definition for Buss Type 7, using passthrough.
+[18:48:09.257] |T| [export_sceNgsPatchCreateRouting]: Patching 0xBF8DFE0:0:0 to 0xBF92EE0:0
+[18:48:09.426] |W| [unimplemented_impl]: Unimplemented sceKernelChangeThreadVfpException import called.
+[18:48:09.427] |W| [unimplemented_impl]: Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[18:48:09.504] |E| [logging::ret_error_impl]: sceAppUtilDrmClose returned SCE_APPUTIL_ERROR_NOT_MOUNTED (0x80100604)
+[18:48:09.700] |T| [write_file]: *** TTY: gameStart()----------------- main()
+[18:48:09.726] |T| [write_file]: *** TTY: runtimeGameEngine()----------------- main()
+[18:48:09.755] |I| [export_sceIoOpen]: Opening file: app0:/data/SYSTEM.cpk
+[18:48:09.757] |T| [open_file]: sceIoOpen: Opening file app0:/data/SYSTEM.cpk (ux0:/app/PCSG00515/data/SYSTEM.cpk), fd: 0x3
+[18:48:09.769] |I| [float_to_half_init]: AVX+F16C instruction set is supported. Using fast f32 to f16 conversion
+[18:48:09.778] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[18:48:09.781] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[18:48:09.784] |T| [log_import_call]: [LLE] TID: 8   FUNC: 0xDF4C665A sceSystemGestureUpdatePrimitiveTouchRecognizer at 0x3A9E0C
+[18:48:09.787] |T| [log_import_call]: [LLE] TID: 8   FUNC: 0x851FB144 sceSystemGestureUpdateTouchRecognizer at 0x3A9DEC
+[18:48:09.793] |T| [log_import_call]: [LLE] TID: 8   FUNC: 0x13AD2218 sceSystemGestureGetTouchEventsCount at 0x3A9DAC
+[18:48:09.794] |W| [unimplemented_impl]: Unimplemented sceMotionGetState import called.
+[18:48:09.795] |I| [export_sceIoOpen]: Opening file: app0:/data/SYSTEM.cpk
+[18:48:09.795] |T| [open_file]: sceIoOpen: Opening file app0:/data/SYSTEM.cpk (ux0:/app/PCSG00515/data/SYSTEM.cpk), fd: 0x4
+[18:48:09.825] |I| [export_sceIoOpen]: Opening file: app0:/data/GAME.cpk
+[18:48:09.825] |T| [open_file]: sceIoOpen: Opening file app0:/data/GAME.cpk (ux0:/app/PCSG00515/data/GAME.cpk), fd: 0x5
+[18:48:09.826] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[18:48:09.838] |I| [export_sceIoOpen]: Opening file: app0:/data/GAME.cpk
+[18:48:09.838] |T| [open_file]: sceIoOpen: Opening file app0:/data/GAME.cpk (ux0:/app/PCSG00515/data/GAME.cpk), fd: 0x6
+[18:48:09.860] |I| [export_sceIoOpen]: Opening file: app0:/data/MOVIE.cpk
+[18:48:09.860] |T| [open_file]: sceIoOpen: Opening file app0:/data/MOVIE.cpk (ux0:/app/PCSG00515/data/MOVIE.cpk), fd: 0x7
+[18:48:09.862] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[18:48:09.872] |I| [export_sceIoOpen]: Opening file: app0:/data/MOVIE.cpk
+[18:48:09.875] |T| [open_file]: sceIoOpen: Opening file app0:/data/MOVIE.cpk (ux0:/app/PCSG00515/data/MOVIE.cpk), fd: 0x8
+[18:48:09.894] |I| [export_sceIoOpen]: Opening file: app0:/data/SOUND.cpk
+[18:48:09.895] |T| [open_file]: sceIoOpen: Opening file app0:/data/SOUND.cpk (ux0:/app/PCSG00515/data/SOUND.cpk), fd: 0x9
+[18:48:09.896] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[18:48:09.908] |I| [export_sceIoOpen]: Opening file: app0:/data/SOUND.cpk
+[18:48:09.909] |T| [open_file]: sceIoOpen: Opening file app0:/data/SOUND.cpk (ux0:/app/PCSG00515/data/SOUND.cpk), fd: 0xA
+[18:48:09.930] |I| [export_sceIoOpen]: Opening file: app0:/data/MA.cpk
+[18:48:09.931] |T| [open_file]: sceIoOpen: Opening file app0:/data/MA.cpk (ux0:/app/PCSG00515/data/MA.cpk), fd: 0xB
+[18:48:09.932] |T| [close_file]: sceIoClose: Closing file fd: 0xB
+[18:48:09.943] |I| [export_sceIoOpen]: Opening file: app0:/data/MA.cpk
+[18:48:09.944] |T| [open_file]: sceIoOpen: Opening file app0:/data/MA.cpk (ux0:/app/PCSG00515/data/MA.cpk), fd: 0xC
+[18:48:09.965] |I| [export_sceIoOpen]: Opening file: app0:/data/SCRIPT.cpk
+[18:48:09.966] |T| [open_file]: sceIoOpen: Opening file app0:/data/SCRIPT.cpk (ux0:/app/PCSG00515/data/SCRIPT.cpk), fd: 0xD
+[18:48:09.968] |T| [close_file]: sceIoClose: Closing file fd: 0xD
+[18:48:09.978] |I| [export_sceIoOpen]: Opening file: app0:/data/SCRIPT.cpk
+[18:48:09.979] |T| [open_file]: sceIoOpen: Opening file app0:/data/SCRIPT.cpk (ux0:/app/PCSG00515/data/SCRIPT.cpk), fd: 0xE
+[18:48:10.025] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00004.cpk
+[18:48:10.025] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00004.cpk (target path: app0:/data/TRILLIONDLC00004.cpk)
+[18:48:10.026] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.029] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00004.cpk
+[18:48:10.029] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00004.cpk (target path: app0:/data/TRILLIONDLC00004.cpk)
+[18:48:10.030] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.045] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00004/data/TRILLIONDLC00004.cpk
+[18:48:10.046] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00004/data/TRILLIONDLC00004.cpk (target path: addcont0:TRILLIONDLC00004/data/TRILLIONDLC00004.cpk)
+[18:48:10.047] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.049] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00004/data/TRILLIONDLC00004.cpk
+[18:48:10.050] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00004/data/TRILLIONDLC00004.cpk (target path: addcont0:TRILLIONDLC00004/data/TRILLIONDLC00004.cpk)
+[18:48:10.050] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.060] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00001.cpk
+[18:48:10.061] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00001.cpk (target path: app0:/data/TRILLIONDLC00001.cpk)
+[18:48:10.062] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.064] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00001.cpk
+[18:48:10.064] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00001.cpk (target path: app0:/data/TRILLIONDLC00001.cpk)
+[18:48:10.065] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.076] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00001/data/TRILLIONDLC00001.cpk
+[18:48:10.077] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00001/data/TRILLIONDLC00001.cpk (target path: addcont0:TRILLIONDLC00001/data/TRILLIONDLC00001.cpk)
+[18:48:10.078] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.081] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00001/data/TRILLIONDLC00001.cpk
+[18:48:10.082] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00001/data/TRILLIONDLC00001.cpk (target path: addcont0:TRILLIONDLC00001/data/TRILLIONDLC00001.cpk)
+[18:48:10.082] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.092] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00002.cpk
+[18:48:10.093] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00002.cpk (target path: app0:/data/TRILLIONDLC00002.cpk)
+[18:48:10.094] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.096] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00002.cpk
+[18:48:10.096] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00002.cpk (target path: app0:/data/TRILLIONDLC00002.cpk)
+[18:48:10.098] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.108] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00002/data/TRILLIONDLC00002.cpk
+[18:48:10.108] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00002/data/TRILLIONDLC00002.cpk (target path: addcont0:TRILLIONDLC00002/data/TRILLIONDLC00002.cpk)
+[18:48:10.110] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.111] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00002/data/TRILLIONDLC00002.cpk
+[18:48:10.111] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00002/data/TRILLIONDLC00002.cpk (target path: addcont0:TRILLIONDLC00002/data/TRILLIONDLC00002.cpk)
+[18:48:10.112] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.122] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00003.cpk
+[18:48:10.125] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00003.cpk (target path: app0:/data/TRILLIONDLC00003.cpk)
+[18:48:10.126] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.127] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00003.cpk
+[18:48:10.127] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00003.cpk (target path: app0:/data/TRILLIONDLC00003.cpk)
+[18:48:10.128] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.139] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00003/data/TRILLIONDLC00003.cpk
+[18:48:10.140] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00003/data/TRILLIONDLC00003.cpk (target path: addcont0:TRILLIONDLC00003/data/TRILLIONDLC00003.cpk)
+[18:48:10.141] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.142] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00003/data/TRILLIONDLC00003.cpk
+[18:48:10.142] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00003/data/TRILLIONDLC00003.cpk (target path: addcont0:TRILLIONDLC00003/data/TRILLIONDLC00003.cpk)
+[18:48:10.143] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.152] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00006.cpk
+[18:48:10.152] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00006.cpk (target path: app0:/data/TRILLIONDLC00006.cpk)
+[18:48:10.153] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.154] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00006.cpk
+[18:48:10.155] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00006.cpk (target path: app0:/data/TRILLIONDLC00006.cpk)
+[18:48:10.157] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.165] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00006/data/TRILLIONDLC00006.cpk
+[18:48:10.166] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00006/data/TRILLIONDLC00006.cpk (target path: addcont0:TRILLIONDLC00006/data/TRILLIONDLC00006.cpk)
+[18:48:10.167] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.168] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00006/data/TRILLIONDLC00006.cpk
+[18:48:10.169] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00006/data/TRILLIONDLC00006.cpk (target path: addcont0:TRILLIONDLC00006/data/TRILLIONDLC00006.cpk)
+[18:48:10.171] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.179] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00007.cpk
+[18:48:10.179] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00007.cpk (target path: app0:/data/TRILLIONDLC00007.cpk)
+[18:48:10.181] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.183] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00007.cpk
+[18:48:10.184] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00007.cpk (target path: app0:/data/TRILLIONDLC00007.cpk)
+[18:48:10.185] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.194] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00007/data/TRILLIONDLC00007.cpk
+[18:48:10.195] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00007/data/TRILLIONDLC00007.cpk (target path: addcont0:TRILLIONDLC00007/data/TRILLIONDLC00007.cpk)
+[18:48:10.196] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.198] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00007/data/TRILLIONDLC00007.cpk
+[18:48:10.199] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00007/data/TRILLIONDLC00007.cpk (target path: addcont0:TRILLIONDLC00007/data/TRILLIONDLC00007.cpk)
+[18:48:10.200] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.211] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00005.cpk
+[18:48:10.213] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00005.cpk (target path: app0:/data/TRILLIONDLC00005.cpk)
+[18:48:10.219] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.222] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00005.cpk
+[18:48:10.226] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00005.cpk (target path: app0:/data/TRILLIONDLC00005.cpk)
+[18:48:10.231] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.243] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00005/data/TRILLIONDLC00005.cpk
+[18:48:10.245] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00005/data/TRILLIONDLC00005.cpk (target path: addcont0:TRILLIONDLC00005/data/TRILLIONDLC00005.cpk)
+[18:48:10.247] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.250] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00005/data/TRILLIONDLC00005.cpk
+[18:48:10.251] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00005/data/TRILLIONDLC00005.cpk (target path: addcont0:TRILLIONDLC00005/data/TRILLIONDLC00005.cpk)
+[18:48:10.252] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.261] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00008.cpk
+[18:48:10.261] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00008.cpk (target path: app0:/data/TRILLIONDLC00008.cpk)
+[18:48:10.263] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.265] |I| [export_sceIoOpen]: Opening file: app0:/data/TRILLIONDLC00008.cpk
+[18:48:10.266] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/app/PCSG00515/data/TRILLIONDLC00008.cpk (target path: app0:/data/TRILLIONDLC00008.cpk)
+[18:48:10.267] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.276] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00008/data/TRILLIONDLC00008.cpk
+[18:48:10.276] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00008/data/TRILLIONDLC00008.cpk (target path: addcont0:TRILLIONDLC00008/data/TRILLIONDLC00008.cpk)
+[18:48:10.278] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.280] |I| [export_sceIoOpen]: Opening file: addcont0:TRILLIONDLC00008/data/TRILLIONDLC00008.cpk
+[18:48:10.281] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/addcont/PCSG00515/TRILLIONDLC00008/data/TRILLIONDLC00008.cpk (target path: addcont0:TRILLIONDLC00008/data/TRILLIONDLC00008.cpk)
+[18:48:10.282] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[18:48:10.645] |W| [stubbed_impl]: Stubbed sceKernelSendSignal import called. (sceKernelSendSignal)
+[18:48:10.930] |W| [unimplemented_impl]: Unimplemented sceKernelSetGPO import called.
+[18:48:10.976] |T| [write_file]: *** TTY: 616---
+[18:48:10.976] |T| [write_file]: *** TTY: ---
+[18:48:10.976] |T| [write_file]: *** TTY: ------------------
+[18:48:11.217] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR07835_00/TROPHY.TRP (ux0:/app/PCSG00515/sce_sys/trophy/NPWR07835_00/TROPHY.TRP), fd: 0xF
+[18:48:11.221] |T| [open_file]: create_trophy_context: Opening file ux0:/user/00/trophy/data/NPWR07835_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR07835_00/TROPUSR.DAT), fd: 0x10
+[18:48:11.229] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR07835_00/TROPCONF.SFM), fd: 0x11
+[18:48:11.231] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 2455
+[18:48:11.231] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[18:48:11.232] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR07835_00/TROP.SFM), fd: 0x12
+[18:48:11.233] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 6597
+[18:48:11.233] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[18:48:11.235] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/ICON0.PNG), fd: 0x13
+[18:48:11.238] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 115129
+[18:48:11.238] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[18:48:11.239] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP000.PNG), fd: 0x14
+[18:48:11.244] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 145266
+[18:48:11.244] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[18:48:11.245] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP001.PNG), fd: 0x15
+[18:48:11.246] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 139220
+[18:48:11.246] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[18:48:11.247] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP002.PNG), fd: 0x16
+[18:48:11.248] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 129286
+[18:48:11.249] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[18:48:11.250] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP003.PNG), fd: 0x17
+[18:48:11.253] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 123329
+[18:48:11.254] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[18:48:11.255] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP004.PNG), fd: 0x18
+[18:48:11.256] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 108277
+[18:48:11.260] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[18:48:11.261] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP005.PNG), fd: 0x19
+[18:48:11.262] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 115490
+[18:48:11.262] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[18:48:11.263] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP006.PNG), fd: 0x1A
+[18:48:11.264] |T| [write_file]: install_trophy_context: Writing to fd: 0x1A, size: 107046
+[18:48:11.264] |T| [close_file]: install_trophy_context: Closing file fd: 0x1A
+[18:48:11.265] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP007.PNG), fd: 0x1B
+[18:48:11.266] |T| [write_file]: install_trophy_context: Writing to fd: 0x1B, size: 112201
+[18:48:11.266] |T| [close_file]: install_trophy_context: Closing file fd: 0x1B
+[18:48:11.269] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP008.PNG), fd: 0x1C
+[18:48:11.269] |T| [write_file]: install_trophy_context: Writing to fd: 0x1C, size: 95767
+[18:48:11.270] |T| [close_file]: install_trophy_context: Closing file fd: 0x1C
+[18:48:11.271] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP009.PNG), fd: 0x1D
+[18:48:11.272] |T| [write_file]: install_trophy_context: Writing to fd: 0x1D, size: 103569
+[18:48:11.272] |T| [close_file]: install_trophy_context: Closing file fd: 0x1D
+[18:48:11.273] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP010.PNG), fd: 0x1E
+[18:48:11.277] |T| [write_file]: install_trophy_context: Writing to fd: 0x1E, size: 107507
+[18:48:11.277] |T| [close_file]: install_trophy_context: Closing file fd: 0x1E
+[18:48:11.278] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP011.PNG), fd: 0x1F
+[18:48:11.279] |T| [write_file]: install_trophy_context: Writing to fd: 0x1F, size: 100577
+[18:48:11.279] |T| [close_file]: install_trophy_context: Closing file fd: 0x1F
+[18:48:11.280] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP012.PNG), fd: 0x20
+[18:48:11.281] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 67629
+[18:48:11.281] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[18:48:11.282] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP013.PNG), fd: 0x21
+[18:48:11.285] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 93005
+[18:48:11.285] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[18:48:11.286] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP014.PNG), fd: 0x22
+[18:48:11.287] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 111598
+[18:48:11.287] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[18:48:11.288] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP015.PNG), fd: 0x23
+[18:48:11.289] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 95555
+[18:48:11.289] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[18:48:11.291] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP016.PNG), fd: 0x24
+[18:48:11.295] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 98284
+[18:48:11.295] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[18:48:11.296] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP017.PNG), fd: 0x25
+[18:48:11.297] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 97624
+[18:48:11.298] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[18:48:11.299] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP018.PNG), fd: 0x26
+[18:48:11.301] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 89765
+[18:48:11.301] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[18:48:11.302] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP019.PNG), fd: 0x27
+[18:48:11.303] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 97598
+[18:48:11.303] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[18:48:11.304] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP020.PNG), fd: 0x28
+[18:48:11.304] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 84889
+[18:48:11.305] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[18:48:11.306] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP021.PNG), fd: 0x29
+[18:48:11.308] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 76076
+[18:48:11.310] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[18:48:11.311] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP022.PNG), fd: 0x2A
+[18:48:11.312] |T| [write_file]: install_trophy_context: Writing to fd: 0x2A, size: 88644
+[18:48:11.313] |T| [close_file]: install_trophy_context: Closing file fd: 0x2A
+[18:48:11.314] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP023.PNG), fd: 0x2B
+[18:48:11.315] |T| [write_file]: install_trophy_context: Writing to fd: 0x2B, size: 125730
+[18:48:11.316] |T| [close_file]: install_trophy_context: Closing file fd: 0x2B
+[18:48:11.317] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP024.PNG), fd: 0x2C
+[18:48:11.319] |T| [write_file]: install_trophy_context: Writing to fd: 0x2C, size: 68015
+[18:48:11.319] |T| [close_file]: install_trophy_context: Closing file fd: 0x2C
+[18:48:11.320] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP025.PNG), fd: 0x2D
+[18:48:11.321] |T| [write_file]: install_trophy_context: Writing to fd: 0x2D, size: 87472
+[18:48:11.321] |T| [close_file]: install_trophy_context: Closing file fd: 0x2D
+[18:48:11.322] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP026.PNG), fd: 0x2E
+[18:48:11.323] |T| [write_file]: install_trophy_context: Writing to fd: 0x2E, size: 103667
+[18:48:11.325] |T| [close_file]: install_trophy_context: Closing file fd: 0x2E
+[18:48:11.326] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP027.PNG), fd: 0x2F
+[18:48:11.327] |T| [write_file]: install_trophy_context: Writing to fd: 0x2F, size: 71789
+[18:48:11.327] |T| [close_file]: install_trophy_context: Closing file fd: 0x2F
+[18:48:11.329] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP028.PNG), fd: 0x30
+[18:48:11.330] |T| [write_file]: install_trophy_context: Writing to fd: 0x30, size: 82667
+[18:48:11.331] |T| [close_file]: install_trophy_context: Closing file fd: 0x30
+[18:48:11.333] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP029.PNG), fd: 0x31
+[18:48:11.333] |T| [write_file]: install_trophy_context: Writing to fd: 0x31, size: 81401
+[18:48:11.334] |T| [close_file]: install_trophy_context: Closing file fd: 0x31
+[18:48:11.334] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP030.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP030.PNG), fd: 0x32
+[18:48:11.335] |T| [write_file]: install_trophy_context: Writing to fd: 0x32, size: 103244
+[18:48:11.336] |T| [close_file]: install_trophy_context: Closing file fd: 0x32
+[18:48:11.337] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP031.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP031.PNG), fd: 0x33
+[18:48:11.337] |T| [write_file]: install_trophy_context: Writing to fd: 0x33, size: 86573
+[18:48:11.337] |T| [close_file]: install_trophy_context: Closing file fd: 0x33
+[18:48:11.338] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP032.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP032.PNG), fd: 0x34
+[18:48:11.341] |T| [write_file]: install_trophy_context: Writing to fd: 0x34, size: 88034
+[18:48:11.342] |T| [close_file]: install_trophy_context: Closing file fd: 0x34
+[18:48:11.343] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP033.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP033.PNG), fd: 0x35
+[18:48:11.344] |T| [write_file]: install_trophy_context: Writing to fd: 0x35, size: 75937
+[18:48:11.344] |T| [close_file]: install_trophy_context: Closing file fd: 0x35
+[18:48:11.345] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP034.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP034.PNG), fd: 0x36
+[18:48:11.346] |T| [write_file]: install_trophy_context: Writing to fd: 0x36, size: 97804
+[18:48:11.346] |T| [close_file]: install_trophy_context: Closing file fd: 0x36
+[18:48:11.349] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR07835_00/TROP035.PNG (ux0:/user/00/trophy/conf/NPWR07835_00/TROP035.PNG), fd: 0x37
+[18:48:11.350] |T| [write_file]: install_trophy_context: Writing to fd: 0x37, size: 86976
+[18:48:11.350] |T| [close_file]: install_trophy_context: Closing file fd: 0x37
+[18:48:11.350] |T| [close_file]: create_trophy_context: Closing file fd: 0x10
+[18:48:11.351] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR07835_00 create successfuly!
+[18:48:16.915] |T| [export_sceNgsPatchCreateRouting]: Patching 0xBF7FE60:0:0 to 0xBF8DFE0:0
+[18:48:16.958] |I| [ngs::player::Module::process]: The currently running game requests playback rate scaling when decoding audio. Audio might crackle.
+[18:48:27.245] |T| [log_import_call]: [LLE] TID: 8   FUNC: 0x74724147 sceSystemGestureGetTouchEventByIndex at 0x3A9DDC
+[18:48:27.246] |T| [log_import_call]: [LLE] TID: 8   FUNC: 0x480564C9 sceSystemGestureGetPrimitiveTouchEventByPrimitiveID at 0x3A9DBC
+[18:48:30.105] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SaveData_0000.sav (target path: savedata0:SaveData_0000.sav)
+[18:48:30.106] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.240] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SaveData_0000.sav (target path: savedata0:SaveData_0000.sav)
+[18:48:30.241] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.303] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0001.sav (target path: savedata0:SDataBP_0001.sav)
+[18:48:30.304] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.370] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0002.sav (target path: savedata0:SDataBP_0002.sav)
+[18:48:30.370] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.437] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0003.sav (target path: savedata0:SDataBP_0003.sav)
+[18:48:30.438] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.506] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0004.sav (target path: savedata0:SDataBP_0004.sav)
+[18:48:30.507] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.572] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0005.sav (target path: savedata0:SDataBP_0005.sav)
+[18:48:30.573] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.638] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0006.sav (target path: savedata0:SDataBP_0006.sav)
+[18:48:30.638] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.704] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0007.sav (target path: savedata0:SDataBP_0007.sav)
+[18:48:30.705] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.772] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0008.sav (target path: savedata0:SDataBP_0008.sav)
+[18:48:30.773] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.839] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0009.sav (target path: savedata0:SDataBP_0009.sav)
+[18:48:30.840] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.903] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0010.sav (target path: savedata0:SDataBP_0010.sav)
+[18:48:30.904] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:30.970] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0011.sav (target path: savedata0:SDataBP_0011.sav)
+[18:48:30.971] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.037] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0012.sav (target path: savedata0:SDataBP_0012.sav)
+[18:48:31.038] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.104] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0013.sav (target path: savedata0:SDataBP_0013.sav)
+[18:48:31.104] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.172] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0014.sav (target path: savedata0:SDataBP_0014.sav)
+[18:48:31.173] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.240] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0015.sav (target path: savedata0:SDataBP_0015.sav)
+[18:48:31.241] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.321] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0016.sav (target path: savedata0:SDataBP_0016.sav)
+[18:48:31.322] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.387] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0017.sav (target path: savedata0:SDataBP_0017.sav)
+[18:48:31.389] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.454] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0018.sav (target path: savedata0:SDataBP_0018.sav)
+[18:48:31.455] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.523] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0019.sav (target path: savedata0:SDataBP_0019.sav)
+[18:48:31.524] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.587] |E| [stat_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SDataBP_0020.sav (target path: savedata0:SDataBP_0020.sav)
+[18:48:31.588] |W| [io_error_impl]: stat_file (_sceIoGetstat) returned 0x80010002
+[18:48:31.849] |T| [export_sceNgsPatchCreateRouting]: Patching 0xBF7CBC0:0:0 to 0xBF8DFE0:0
+[18:48:34.282] |T| [export_sceNgsPatchCreateRouting]: Patching 0xBF7A340:0:0 to 0xBF8DFE0:0
+[18:48:34.739] |T| [export_sceNgsPatchCreateRouting]: Patching 0xBF7A850:0:0 to 0xBF8DFE0:0
+[18:48:34.759] |T| [open_file]: sceSaveDataDialogInit: Opening file savedata0:/SlotParam_4294967295.bin (ux0:/user/00/savedata/PCSG00515/SlotParam_4294967295.bin), fd: 0x38
+[18:48:34.760] |T| [close_file]: sceSaveDataDialogInit: Closing file fd: 0x38
+[18:48:34.761] |T| [open_file]: sceSaveDataDialogInit: Opening file savedata0:/SlotParam_1.bin (ux0:/user/00/savedata/PCSG00515/SlotParam_1.bin), fd: 0x39
+[18:48:34.762] |T| [close_file]: sceSaveDataDialogInit: Closing file fd: 0x39
+[18:48:34.764] |T| [open_file]: sceSaveDataDialogInit: Opening file savedata0:/SlotParam_2.bin (ux0:/user/00/savedata/PCSG00515/SlotParam_2.bin), fd: 0x3A
+[18:48:34.764] |T| [close_file]: sceSaveDataDialogInit: Closing file fd: 0x3A
+[18:48:34.766] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_3.bin (target path: savedata0:/SlotParam_3.bin)
+[18:48:34.766] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.766] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_4.bin (target path: savedata0:/SlotParam_4.bin)
+[18:48:34.767] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.767] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_5.bin (target path: savedata0:/SlotParam_5.bin)
+[18:48:34.768] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.768] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_6.bin (target path: savedata0:/SlotParam_6.bin)
+[18:48:34.769] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.769] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_7.bin (target path: savedata0:/SlotParam_7.bin)
+[18:48:34.770] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.770] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_8.bin (target path: savedata0:/SlotParam_8.bin)
+[18:48:34.770] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.771] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_9.bin (target path: savedata0:/SlotParam_9.bin)
+[18:48:34.771] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.771] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_10.bin (target path: savedata0:/SlotParam_10.bin)
+[18:48:34.772] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.772] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_11.bin (target path: savedata0:/SlotParam_11.bin)
+[18:48:34.772] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.773] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_12.bin (target path: savedata0:/SlotParam_12.bin)
+[18:48:34.773] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.774] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_13.bin (target path: savedata0:/SlotParam_13.bin)
+[18:48:34.774] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.774] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_14.bin (target path: savedata0:/SlotParam_14.bin)
+[18:48:34.775] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.775] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_15.bin (target path: savedata0:/SlotParam_15.bin)
+[18:48:34.776] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.776] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_16.bin (target path: savedata0:/SlotParam_16.bin)
+[18:48:34.776] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.777] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_17.bin (target path: savedata0:/SlotParam_17.bin)
+[18:48:34.777] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.777] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_18.bin (target path: savedata0:/SlotParam_18.bin)
+[18:48:34.778] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.778] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_19.bin (target path: savedata0:/SlotParam_19.bin)
+[18:48:34.778] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:34.779] |E| [open_file]: Missing file at C:/Users/Unlighted/Documents/vita/windows-latest/ux0/user/00/savedata/PCSG00515/SlotParam_20.bin (target path: savedata0:/SlotParam_20.bin)
+[18:48:34.779] |W| [io_error_impl]: open_file (sceSaveDataDialogInit) returned 0x80010002
+[18:48:35.377] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotParam_1.bin (ux0:/user/00/savedata/PCSG00515/SlotParam_1.bin), fd: 0x3B
+[18:48:35.378] |T| [close_file]: sceSaveDataDialogContinue: Closing file fd: 0x3B
+[18:48:35.877] |T| [open_file]: sceSaveDataDialogContinue: Opening file savedata0:/SlotP

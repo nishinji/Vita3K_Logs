@@ -1,0 +1,141 @@
+[22:50:38.169] |I| [SDL_main]:  Vita3K v0.1 647-42cde29
+[22:50:38.562] |I| [init]:  Swap interval = -1
+[22:50:41.712] |I| [load_app_impl]:  Title: Run Sackboy! Run!
+[22:50:41.712] |I| [load_app_impl]:  Serial: PCSA00490
+[22:50:41.713] |I| [load_app_impl]:  Category: gd
+[22:50:41.778] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libc.suprx
+[22:50:41.778] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x46744
+[22:50:41.778] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x3C4F8
+[22:50:41.779] |E| [load_var_imports]:  	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x420A4: 0x140
+[22:50:41.779] |I| [load_app_impl]:  Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[22:50:41.856] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[22:50:41.856] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x7F244
+[22:50:41.856] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x76878
+[22:50:41.856] |I| [load_app_impl]:  Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[22:50:41.884] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libult.suprx
+[22:50:41.884] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x982D0
+[22:50:41.884] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x95858
+[22:50:41.884] |E| [load_var_imports]:  	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x960A4: 0x1040
+[22:50:41.884] |I| [load_app_impl]:  Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[22:50:41.981] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[22:50:41.981] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x81CC9C50
+[22:50:41.981] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x81E0407C
+[22:50:41.981] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x81CF85B8
+[22:50:41.981] |I| [load_app_impl]:  Main executable RSBR (eboot.bin) loaded
+[22:50:41.986] |D| [run_app]:  Running module_start of library: SceLibc
+[22:50:42.023] |T| [open_file]:  sceKernelGetStdin: Opening file tty0: (tty0:)
+[22:50:42.023] |T| [open_file]:  sceKernelGetStdout: Opening file tty0: (tty0:)
+[22:50:42.024] |T| [open_file]:  sceKernelGetStderr: Opening file tty0: (tty0:)
+[22:50:42.029] |I| [run_app]:  Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[22:50:42.030] |D| [run_app]:  Running module_start of library: SceLibFios2
+[22:50:42.035] |W| [stubbed_impl]:  Stubbed sceKernelGetProcessId import called. (pid: 0)
+[22:50:42.036] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayGetList02 import called.
+[22:50:42.037] |I| [run_app]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[22:50:42.039] |D| [run_app]:  Running module_start of library: SceUlt
+[22:50:42.047] |E| [call_import]:  Import function for NID 0x50F2F2AA not found (thread name: SceUlt, thread ID: 36)
+[22:50:42.047] |I| [run_app]:  Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[22:50:42.049] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSA00490/mai_moe/mai.suprx)
+[22:50:42.082] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[22:50:42.083] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[22:50:42.083] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87866
+[22:50:42.084] |I| [load_self]:  Loading symbols for SELF: app0:mai_moe/mai.suprx
+[22:50:42.084] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x50DF7E4
+[22:50:42.085] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x50DF840
+[22:50:42.085] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x3
+[22:50:42.104] |W| [stubbed_impl]:  Stubbed sceKernelDelayThread import called. (bad accuracy)
+[22:50:42.104] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSA00490/mai_moe/load_type.mai)
+[22:50:42.106] |I| [export_sceIoOpen]:  Opening file: app0:mai_moe/load_type.mai
+[22:50:42.106] |T| [open_file]:  sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSA00490/mai_moe/load_type.mai)
+[22:50:42.107] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSA00490/mai_moe/load_type.mai)
+[22:50:42.108] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[22:50:42.108] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1
+[22:50:42.109] |T| [close_file]:  sceIoClose: Closing file: fd: 0x4
+[22:50:42.113] |I| [export_sceKernelLoadStartModule]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[22:50:42.114] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSA00490/sce_module/libfios2_m.suprx)
+[22:50:42.156] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[22:50:42.157] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[22:50:42.157] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x5, size: 257648
+[22:50:42.158] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[22:50:42.159] |D| [load_var_exports]:  	NID 0x936C8A78 (SYSLYB) at 0x518D244
+[22:50:42.159] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x5184878
+[22:50:42.159] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x5
+[22:50:42.165] |I| [export_sceKernelLoadStartModule]:  Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[22:50:42.167] |T| [open_dir]:  sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[22:50:42.168] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[22:50:42.168] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[22:50:42.169] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x6
+[22:50:42.169] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x6
+[22:50:42.206] |I| [export_sceKernelLoadStartModule]:  Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[22:50:42.239] |W| [unimplemented_impl]:  Unimplemented sceAppUtilInit import called.
+[22:50:42.242] |I| [export_sceIoOpen]:  Opening file: app0:/regionus
+[22:50:42.242] |T| [open_file]:  sceIoOpen: Opening file app0:/regionus (ux0:/app/PCSA00490//regionus)
+[22:50:42.246] |T| [close_file]:  sceIoClose: Closing file: fd: 0x7
+[22:50:42.275] |I| [renderer::create]:  GL_VERSION = 4.1.0 NVIDIA 398.11
+[22:50:42.276] |I| [renderer::create]:  GL_SHADING_LANGUAGE_VERSION = 4.10 NVIDIA via Cg compiler
+[22:50:42.279] |I| [renderer::create]:  GL_VERSION = 4.1.0 NVIDIA 398.11
+[22:50:42.279] |I| [renderer::create]:  GL_SHADING_LANGUAGE_VERSION = 4.10 NVIDIA via Cg compiler
+[22:50:42.391] |W| [unimplemented_impl]:  Unimplemented sceTouchGetPanelInfo import called.
+[22:50:42.392] |W| [unimplemented_impl]:  Unimplemented sceTouchSetSamplingState import called.
+[22:50:42.393] |W| [unimplemented_impl]:  Unimplemented sceNpSnsFacebookInit import called.
+[22:50:42.394] |W| [unimplemented_impl]:  Unimplemented sceNetCtlInit import called.
+[22:50:42.394] |W| [unimplemented_impl]:  Unimplemented sceSslInit import called.
+[22:50:42.395] |W| [unimplemented_impl]:  Unimplemented sceHttpInit import called.
+[22:50:42.395] |W| [unimplemented_impl]:  Unimplemented sceNpInit import called.
+[22:50:42.407] |E| [ret_error_impl]:  sceNetInit returned SCE_NET_ERROR_EINTERNAL (0x804101CC)
+[22:50:42.407] |W| [unimplemented_impl]:  Unimplemented sceKernelGetThreadExitStatus import called.
+[22:50:42.410] |W| [unimplemented_impl]:  Unimplemented sceNpTrophyInit import called.
+[22:50:42.411] |W| [unimplemented_impl]:  Unimplemented sceNpTrophyCreateContext import called.
+[22:50:42.412] |W| [unimplemented_impl]:  Unimplemented sceNpScoreInit import called.
+[22:50:42.412] |W| [unimplemented_impl]:  Unimplemented sceNpLookupInit import called.
+[22:50:42.413] |W| [unimplemented_impl]:  Unimplemented sceScreenShotSetParam import called.
+[22:50:42.413] |W| [unimplemented_impl]:  Unimplemented sceScreenShotSetOverlayImage import called.
+[22:50:42.414] |W| [unimplemented_impl]:  Unimplemented sceScreenShotEnable import called.
+[22:50:42.417] |I| [export_sceIoOpen]:  Opening file: app0:/datavita.pak
+[22:50:42.418] |T| [open_file]:  sceIoOpen: Opening file app0:/datavita.pak (ux0:/app/PCSA00490//datavita.pak)
+[22:50:42.446] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x8 at offset: 0x0, whence: SCE_SEEK_END
+[22:50:42.450] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x8 at offset: 0x0, whence: SCE_SEEK_CUR
+[22:50:42.451] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x8 at offset: 0x0, whence: SCE_SEEK_SET
+[22:50:42.455] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x8 at offset: 0x0, whence: SCE_SEEK_SET
+[22:50:42.457] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x8 at offset: 0x0, whence: SCE_SEEK_SET
+[22:50:42.458] |T| [read_file]:  sceIoRead: Reading file: fd: 0x8, size: 65536
+[22:50:42.461] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x8 at offset: 0x40C, whence: SCE_SEEK_SET
+[22:50:42.467] |I| [export_sceIoOpen]:  Opening file: app0:/datavita1.pak
+[22:50:42.468] |T| [open_file]:  sceIoOpen: Opening file app0:/datavita1.pak (ux0:/app/PCSA00490//datavita1.pak)
+[22:50:42.480] |W| [unimplemented_impl]:  Unimplemented sceKernelChangeThreadVfpException import called.
+[22:50:42.480] |W| [unimplemented_impl]:  Unimplemented sceFiosOverlayThreadSetDisabled02 import called.
+[22:50:42.493] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetScreamVoice import called.
+[22:50:42.494] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetScreamAtrac9Voice import called.
+[22:50:42.500] |W| [stubbed_impl]:  Stubbed sceNgsSystemGetRequiredMemorySize import called. (size = 1)
+[22:50:42.500] |W| [unimplemented_impl]:  Unimplemented sceNgsSystemInit import called.
+[22:50:42.501] |W| [unimplemented_impl]:  Unimplemented sceNgsSystemSetFlags import called.
+[22:50:42.501] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetCompressorBuss import called.
+[22:50:42.501] |I| [write_file]:  *** TTY: # Audio out thread started
+[22:50:42.502] |W| [stubbed_impl]:  Stubbed sceNgsRackGetRequiredMemorySize import called. (size = 1)
+[22:50:42.502] |W| [unimplemented_impl]:  Unimplemented sceAudioOutSetVolume import called.
+[22:50:42.502] |W| [unimplemented_impl]:  Unimplemented sceNgsRackInit import called.
+[22:50:42.503] |W| [unimplemented_impl]:  Unimplemented sceNgsRackGetVoiceHandle import called.
+[22:50:42.504] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceInit import called.
+[22:50:42.504] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceBypassModule import called.
+[22:50:42.505] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetMasterBuss import called.
+[22:50:42.506] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceDefGetReverbBuss import called.
+[22:50:42.507] |W| [stubbed_impl]:  Stubbed sceNgsVoiceLockParams import called. (Ngs buffer stubbed)
+[22:50:42.507] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceUnlockParams import called.
+[22:50:42.508] |W| [unimplemented_impl]:  Unimplemented sceNgsPatchCreateRouting import called.
+[22:50:42.508] |W| [stubbed_impl]:  Stubbed sceNgsPatchGetInfo import called. (2 in/out channels)
+[22:50:42.509] |W| [unimplemented_impl]:  Unimplemented sceNgsVoicePatchSetVolumesMatrix import called.
+[22:50:42.509] |W| [unimplemented_impl]:  Unimplemented sceNgsVoicePlay import called.
+[22:50:42.512] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceSetFinishedCallback import called.
+[22:50:42.517] |W| [unimplemented_impl]:  Unimplemented sceNgsVoiceSetModuleCallback import called.
+[22:50:42.523] |I| [write_file]:  *** TTY: SCREAM Version 7.6.40 Build 0 of Branch SCE Built on Sep 18 2014 at 08:22:27
+[22:50:42.524] |I| [write_file]:  *** TTY: SndStream Version 7.6.40 Build 0 of Branch SCE Built on Sep 18 2014 at 08:22:27
+[22:50:42.539] |I| [export_sceIoOpen]:  Opening file: app0:/vitaaudio.bnk
+[22:50:42.540] |T| [open_file]:  sceIoOpen: Opening file app0:/vitaaudio.bnk (ux0:/app/PCSA00490//vitaaudio.bnk)
+[22:50:42.569] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x9 at offset: 0x0, whence: SCE_SEEK_SET
+[22:50:42.570] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x9 at offset: 0x0, whence: SCE_SEEK_SET
+[22:50:42.570] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x9 at offset: 0x0, whence: SCE_SEEK_CUR
+[22:50:42.571] |T| [read_file]:  sceIoRead: Reading file: fd: 0x9, size: 32
+[22:50:42.571] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x9 at offset: 0x0, whence: SCE_SEEK_SET
+[22:50:42.572] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x9 at offset: 0x0, whence: SCE_SEEK_CUR
+[22:50:42.573] |T| [read_file]:  sceIoRead: Reading file: fd: 0x9, size: 11893568
+[22:50:42.725] |T| [close_file]:  sceIoClose: Closing file: fd: 0x9
+[22:50:42.727] |I| [export_sceIoOpen]:  Opening file: app0:/vitamusic.bnk

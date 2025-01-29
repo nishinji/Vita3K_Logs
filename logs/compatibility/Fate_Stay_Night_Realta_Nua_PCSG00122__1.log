@@ -1,0 +1,944 @@
+[19:13:45.049] |I| [SDL_main]:  Vita3K v0.1 572-44c6d04
+[19:13:45.319] |I| [init]:  Swap interval = -1
+[19:13:47.088] |I| [install_vpk]:  PCSG00122 already installed, launching application...
+[19:13:47.088] |I| [load_app_impl]:  Title: Fate/stay night [Realta Nua]
+[19:13:47.089] |I| [load_app_impl]:  Serial: PCSG00122
+[19:13:47.089] |I| [load_app_impl]:  Category: gd
+[19:13:47.130] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libc.suprx
+[19:13:47.131] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x2F220
+[19:13:47.131] |E| [load_var_imports]:  	NID NOT FOUND 0xDF084DFA (UNRECOGNISED) at 0x329F0: 0x240
+[19:13:47.132] |I| [load_app_impl]:  Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[19:13:47.152] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2.suprx
+[19:13:47.153] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x5CCB0
+[19:13:47.153] |I| [load_app_impl]:  Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[19:13:47.172] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libult.suprx
+[19:13:47.173] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x7AB68
+[19:13:47.174] |E| [load_var_imports]:  	NID NOT FOUND 0x936A5F31 (_pLibPerfCaptureFlagPtr) at 0x7AFF0: 0x1A40
+[19:13:47.174] |I| [load_app_impl]:  Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[19:13:47.261] |I| [load_self]:  Loading symbols for SELF: app0:eboot.bin
+[19:13:47.262] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x810FD210
+[19:13:47.262] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0x8123C500
+[19:13:47.263] |I| [load_app_impl]:  Main executable test_d (eboot.bin) loaded
+[19:13:47.267] |D| [run_app]:  Running module_start of library: SceLibc
+[19:13:47.273] |I| [export_sceIoOpen]:  Opening file: tty0:
+[19:13:47.274] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[19:13:47.274] |I| [export_sceIoOpen]:  Opening file: tty0:
+[19:13:47.274] |T| [open_file]:  sceIoOpen: Opening file tty0: (tty0:)
+[19:13:47.275] |I| [export_sceIoOpen]:  Opening file: tty1:
+[19:13:47.275] |T| [open_file]:  sceIoOpen: Opening file tty1: (tty1:)
+[19:13:47.279] |I| [run_app]:  Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[19:13:47.281] |D| [run_app]:  Running module_start of library: SceLibFios2
+[19:13:47.285] |W| [stubbed_impl]:  Stubbed sceKernelGetProcessId import called. (pid: 0)
+[19:13:47.286] |E| [call_import]:  Import function for NID 0x9379E2D5 not found (thread ID: 17)
+[19:13:47.286] |I| [run_app]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[19:13:47.287] |D| [run_app]:  Running module_start of library: SceUlt
+[19:13:47.291] |I| [run_app]:  Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[19:13:47.293] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:mai_moe/mai.suprx (ux0:/app/PCSG00122/mai_moe/mai.suprx)
+[19:13:47.294] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_END
+[19:13:47.294] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x3 at offset: 0x0, whence: SCE_SEEK_SET
+[19:13:47.295] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x3, size: 87866
+[19:13:47.305] |I| [load_self]:  Loading symbols for SELF: app0:mai_moe/mai.suprx
+[19:13:47.305] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0xC47E4
+[19:13:47.306] |D| [load_var_exports]:  	NID 0x70FBA1E7 (SCE_PROC_PARAMS) at 0xC4840
+[19:13:47.306] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x3
+[19:13:47.331] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSG00122/mai_moe/load_type.mai)
+[19:13:47.332] |I| [export_sceIoOpen]:  Opening file: app0:mai_moe/load_type.mai
+[19:13:47.332] |T| [open_file]:  sceIoOpen: Opening file app0:mai_moe/load_type.mai (ux0:/app/PCSG00122/mai_moe/load_type.mai)
+[19:13:47.333] |T| [stat_file]:  sceIoGetstat: Statting file app0:mai_moe/load_type.mai (ux0:/app/PCSG00122/mai_moe/load_type.mai)
+[19:13:47.333] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x4 at offset: 0x0, whence: SCE_SEEK_SET
+[19:13:47.334] |T| [read_file]:  sceIoRead: Reading file: fd: 0x4, size: 1
+[19:13:47.334] |T| [close_file]:  sceIoClose: Closing file: fd: 0x4
+[19:13:47.338] |I| [export_sceKernelLoadStartModule]:  Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[19:13:47.339] |T| [open_file]:  sceKernelLoadStartModule: Opening file app0:sce_module/libfios2_m.suprx (ux0:/app/PCSG00122/sce_module/libfios2_m.suprx)
+[19:13:47.340] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_END
+[19:13:47.341] |T| [seek_file]:  sceKernelLoadStartModule: Seeking file: fd: 0x5 at offset: 0x0, whence: SCE_SEEK_SET
+[19:13:47.341] |T| [read_file]:  sceKernelLoadStartModule: Reading file: fd: 0x5, size: 223760
+[19:13:47.353] |I| [load_self]:  Loading symbols for SELF: app0:sce_module/libfios2_m.suprx
+[19:13:47.354] |D| [load_var_exports]:  	NID 0x6C2224BA (NID_MODULE_INFO) at 0x162CB0
+[19:13:47.355] |T| [close_file]:  sceKernelLoadStartModule: Closing file: fd: 0x5
+[19:13:47.360] |I| [export_sceKernelLoadStartModule]:  Module mceLibFios2 (at "app0:sce_module/libfios2_m.suprx") module_start returned 0x0
+[19:13:47.361] |T| [open_dir]:  sceIoDopen: Opening dir ux0:plugins (ux0:plugins)
+[19:13:47.361] |T| [read_dir]:  sceIoDread: Reading dir fd: 0x80010002
+[19:13:47.362] |W| [io_error_impl]:  read_dir (sceIoDread) returned 0x80010051
+[19:13:47.362] |T| [close_dir]:  sceIoDclose: Closing dir fd: 0x80010002
+[19:13:47.362] |W| [io_error_impl]:  close_dir (sceIoDclose) returned 0x80010051
+[19:13:47.430] |I| [export_sceKernelLoadStartModule]:  Module output/testprx.elf (at "app0:mai_moe/mai.suprx") module_start returned 0x0
+[19:13:47.451] |W| [unimplemented_impl]:  Unimplemented sceAppUtilInit import called.
+[19:13:47.583] |W| [unimplemented_impl]:  Unimplemented sceCommonDialogSetConfigParam import called.
+[19:13:47.630] |I| [renderer::create]:  GL_VERSION = 4.1.13399 Core Profile Context 15.200.1062.1004
+[19:13:47.631] |I| [renderer::create]:  GL_SHADING_LANGUAGE_VERSION = 4.40
+[19:13:47.645] |W| [unimplemented_impl]:  Unimplemented sceTouchGetPanelInfo import called.
+[19:13:47.646] |W| [unimplemented_impl]:  Unimplemented sceTouchSetSamplingState import called.
+[19:13:47.650] |W| [unimplemented_impl]:  Unimplemented sceSystemGestureInitializePrimitiveTouchRecognizer import called.
+[19:13:47.655] |E| [renderer::load_vertex_shader]:  Missing vertex shader a3d596925eeb3daafaf8578115b0cd42c7877356004df16f9f819395e7887147
+[19:13:47.655] |D| [gxp::log_parameter]:  Vertex attribute: name:position semantic:POSITION type:0 component_count:4 container_index:0x0
+[19:13:47.656] |D| [gxp::log_parameter]:  Uniform: name:color semantic:NONE type:0 component_count:4 container_index:0xE
+[19:13:47.656] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 14
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Vertex 12  "main_vs"
+                              ExecutionMode 12 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 4  "position"
+                              Name 6  "color"
+                              Name 8  "spv_oPosition"
+                              Name 9  "spv_oColor0"
+                              Name 12  "main_vs"
+               1:             TypeFloat 32
+               2:             TypeVector 1(float) 4
+               3:             TypePointer Input 2(fvec4)
+     4(position):      3(ptr) Variable Input
+               5:             TypePointer UniformConstant 2(fvec4)
+        6(color):      5(ptr) Variable UniformConstant
+               7:             TypePointer Output 2(fvec4)
+8(spv_oPosition):      7(ptr) Variable Output
+  9(spv_oColor0):      7(ptr) Variable Output
+              10:             TypeVoid
+              11:             TypeFunction 10
+     12(main_vs):          10 Function None 11
+              13:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.661] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform vec4 color;
+
+in vec4 position;
+out vec4 spv_oPosition;
+out vec4 spv_oColor0;
+
+void main()
+{
+}
+
+
+[19:13:47.667] |E| [renderer::load_fragment_shader]:  Missing fragment shader 37dc933d3507dee47dc18530986f4e81f322da0fde061864ed41b84a64a42029
+[19:13:47.668] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 5
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 3  "main_fs"
+                              ExecutionMode 3 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 3  "main_fs"
+               1:             TypeVoid
+               2:             TypeFunction 1
+      3(main_fs):           1 Function None 2
+               4:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.671] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+void main()
+{
+}
+
+
+[19:13:47.680] |E| [renderer::load_vertex_shader]:  Missing vertex shader d19e18aec0a86b69b7143e692d78723b07d9408740e72153d5cc4ecdadd11b50
+[19:13:47.681] |D| [gxp::log_parameter]:  Vertex attribute: name:position semantic:POSITION type:0 component_count:4 container_index:0x0
+[19:13:47.681] |D| [gxp::log_parameter]:  Vertex attribute: name:texcoord semantic:TEXCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.681] |D| [gxp::log_parameter]:  Uniform: name:modelViewProj semantic:NONE type:0 component_count:4 container_index:0xE
+[19:13:47.682] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 19
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Vertex 17  "main_vs"
+                              ExecutionMode 17 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 4  "position"
+                              Name 5  "texcoord"
+                              Name 8  "modelViewProj"
+                              Name 10  "spv_oPosition"
+                              Name 11  "spv_oColor0"
+                              Name 14  "spv_oTexcoord0"
+                              Name 17  "main_vs"
+               1:             TypeFloat 32
+               2:             TypeVector 1(float) 4
+               3:             TypePointer Input 2(fvec4)
+     4(position):      3(ptr) Variable Input
+     5(texcoord):      3(ptr) Variable Input
+               6:             TypeMatrix 2(fvec4) 4
+               7:             TypePointer UniformConstant 6
+8(modelViewProj):      7(ptr) Variable UniformConstant
+               9:             TypePointer Output 2(fvec4)
+10(spv_oPosition):      9(ptr) Variable Output
+ 11(spv_oColor0):      9(ptr) Variable Output
+              12:             TypeVector 1(float) 2
+              13:             TypePointer Output 12(fvec2)
+14(spv_oTexcoord0):     13(ptr) Variable Output
+              15:             TypeVoid
+              16:             TypeFunction 15
+     17(main_vs):          15 Function None 16
+              18:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.689] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform mat4 modelViewProj;
+
+in vec4 position;
+in vec4 texcoord;
+out vec4 spv_oPosition;
+out vec4 spv_oColor0;
+out vec2 spv_oTexcoord0;
+
+void main()
+{
+}
+
+
+[19:13:47.697] |E| [renderer::load_fragment_shader]:  Missing fragment shader 2ac0be6057ef33ac00d89adfbb25c776070a927f86a61a888c0771b494427ff2
+[19:13:47.698] |D| [gxp::log_parameter]:  Uniform: name:texture_enable semantic:NONE type:0 component_count:1 container_index:0xE
+[19:13:47.699] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:ATTR type:0 component_count:4 container_index:0x0
+[19:13:47.699] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 12
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 10  "main_fs"
+                              ExecutionMode 10 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 3  "texture_enable"
+                              Name 7  "texture_in"
+                              Name 10  "main_fs"
+               1:             TypeFloat 32
+               2:             TypePointer UniformConstant 1(float)
+3(texture_enable):      2(ptr) Variable UniformConstant
+               4:             TypeImage 1(float) 2D sampled format:Unknown
+               5:             TypeSampledImage 4
+               6:             TypePointer UniformConstant 5
+   7(texture_in):      6(ptr) Variable UniformConstant
+               8:             TypeVoid
+               9:             TypeFunction 8
+     10(main_fs):           8 Function None 9
+              11:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.704] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform float texture_enable;
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.713] |E| [renderer::load_vertex_shader]:  Missing vertex shader 679b325804f358db6b967ff8d68c787bcae14f7ce60315bdb6a9d768a257f892
+[19:13:47.714] |D| [gxp::log_parameter]:  Vertex attribute: name:position semantic:POSITION type:0 component_count:4 container_index:0x0
+[19:13:47.714] |D| [gxp::log_parameter]:  Vertex attribute: name:color semantic:COLOR type:0 component_count:4 container_index:0x0
+[19:13:47.715] |D| [gxp::log_parameter]:  Vertex attribute: name:texcoord semantic:TEXCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.715] |D| [gxp::log_parameter]:  Uniform: name:modelViewProj semantic:NONE type:0 component_count:4 container_index:0xE
+[19:13:47.715] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 20
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Vertex 18  "main_vs"
+                              ExecutionMode 18 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 4  "position"
+                              Name 5  "color"
+                              Name 6  "texcoord"
+                              Name 9  "modelViewProj"
+                              Name 11  "spv_oPosition"
+                              Name 12  "spv_oColor0"
+                              Name 15  "spv_oTexcoord0"
+                              Name 18  "main_vs"
+               1:             TypeFloat 32
+               2:             TypeVector 1(float) 4
+               3:             TypePointer Input 2(fvec4)
+     4(position):      3(ptr) Variable Input
+        5(color):      3(ptr) Variable Input
+     6(texcoord):      3(ptr) Variable Input
+               7:             TypeMatrix 2(fvec4) 4
+               8:             TypePointer UniformConstant 7
+9(modelViewProj):      8(ptr) Variable UniformConstant
+              10:             TypePointer Output 2(fvec4)
+11(spv_oPosition):     10(ptr) Variable Output
+ 12(spv_oColor0):     10(ptr) Variable Output
+              13:             TypeVector 1(float) 2
+              14:             TypePointer Output 13(fvec2)
+15(spv_oTexcoord0):     14(ptr) Variable Output
+              16:             TypeVoid
+              17:             TypeFunction 16
+     18(main_vs):          16 Function None 17
+              19:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.728] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform mat4 modelViewProj;
+
+in vec4 position;
+in vec4 color;
+in vec4 texcoord;
+out vec4 spv_oPosition;
+out vec4 spv_oColor0;
+out vec2 spv_oTexcoord0;
+
+void main()
+{
+}
+
+
+[19:13:47.733] |E| [renderer::load_fragment_shader]:  Missing fragment shader d2e986a12f8e56bc2bc1569a775769a923a72e4f83909cdfb457357b89fd95f7
+[19:13:47.734] |D| [gxp::log_parameter]:  Uniform: name:texture_enable semantic:NONE type:0 component_count:1 container_index:0xE
+[19:13:47.734] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:ATTR type:0 component_count:4 container_index:0x0
+[19:13:47.735] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 12
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 10  "main_fs"
+                              ExecutionMode 10 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 3  "texture_enable"
+                              Name 7  "texture_in"
+                              Name 10  "main_fs"
+               1:             TypeFloat 32
+               2:             TypePointer UniformConstant 1(float)
+3(texture_enable):      2(ptr) Variable UniformConstant
+               4:             TypeImage 1(float) 2D sampled format:Unknown
+               5:             TypeSampledImage 4
+               6:             TypePointer UniformConstant 5
+   7(texture_in):      6(ptr) Variable UniformConstant
+               8:             TypeVoid
+               9:             TypeFunction 8
+     10(main_fs):           8 Function None 9
+              11:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.743] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform float texture_enable;
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.747] |E| [renderer::load_fragment_shader]:  Missing fragment shader 060a59b688f6c115b67e923c821864ea61d9330ea924390732e0f3b5b991d9cf
+[19:13:47.748] |D| [gxp::log_parameter]:  Uniform: name:texture_enable semantic:NONE type:0 component_count:1 container_index:0xE
+[19:13:47.748] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:FOGCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.748] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 12
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 10  "main_fs"
+                              ExecutionMode 10 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 3  "texture_enable"
+                              Name 7  "texture_in"
+                              Name 10  "main_fs"
+               1:             TypeFloat 32
+               2:             TypePointer UniformConstant 1(float)
+3(texture_enable):      2(ptr) Variable UniformConstant
+               4:             TypeImage 1(float) 2D sampled format:Unknown
+               5:             TypeSampledImage 4
+               6:             TypePointer UniformConstant 5
+   7(texture_in):      6(ptr) Variable UniformConstant
+               8:             TypeVoid
+               9:             TypeFunction 8
+     10(main_fs):           8 Function None 9
+              11:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.756] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform float texture_enable;
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.763] |E| [renderer::load_fragment_shader]:  Missing fragment shader c64996d180e1ca79afb9a0e2d5c7a4ae50f4194c7d394ad35af428a732896844
+[19:13:47.764] |D| [gxp::log_parameter]:  Uniform: name:texture_enable semantic:NONE type:0 component_count:1 container_index:0xE
+[19:13:47.764] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:FOGCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.764] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 12
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 10  "main_fs"
+                              ExecutionMode 10 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 3  "texture_enable"
+                              Name 7  "texture_in"
+                              Name 10  "main_fs"
+               1:             TypeFloat 32
+               2:             TypePointer UniformConstant 1(float)
+3(texture_enable):      2(ptr) Variable UniformConstant
+               4:             TypeImage 1(float) 2D sampled format:Unknown
+               5:             TypeSampledImage 4
+               6:             TypePointer UniformConstant 5
+   7(texture_in):      6(ptr) Variable UniformConstant
+               8:             TypeVoid
+               9:             TypeFunction 8
+     10(main_fs):           8 Function None 9
+              11:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.770] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform float texture_enable;
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.778] |E| [renderer::load_fragment_shader]:  Missing fragment shader d723e97bbed6dbba997ec2d765ec8f2ff527a0b530d65afa022ad0b4910bfad5
+[19:13:47.778] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 5
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 3  "main_fs"
+                              ExecutionMode 3 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 3  "main_fs"
+               1:             TypeVoid
+               2:             TypeFunction 1
+      3(main_fs):           1 Function None 2
+               4:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.782] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+void main()
+{
+}
+
+
+[19:13:47.786] |E| [renderer::load_fragment_shader]:  Missing fragment shader 57299236a9a8844edb3cab9bacc1ace2c864daa752677ea339c768d650b802ac
+[19:13:47.786] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 5
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 3  "main_fs"
+                              ExecutionMode 3 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 3  "main_fs"
+               1:             TypeVoid
+               2:             TypeFunction 1
+      3(main_fs):           1 Function None 2
+               4:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.790] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+void main()
+{
+}
+
+
+[19:13:47.797] |E| [renderer::load_fragment_shader]:  Missing fragment shader 64411e426a4942aa22e4c90395ac20d460a68d1001846e39577b94c4e670a32b
+[19:13:47.798] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 5
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 3  "main_fs"
+                              ExecutionMode 3 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 3  "main_fs"
+               1:             TypeVoid
+               2:             TypeFunction 1
+      3(main_fs):           1 Function None 2
+               4:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.801] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+void main()
+{
+}
+
+
+[19:13:47.805] |E| [renderer::load_fragment_shader]:  Missing fragment shader 18c5ddcd4bf0770e2ad309c8f728a948fba8110d979921e19e4c73e06f86b51d
+[19:13:47.806] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:ATTR type:0 component_count:4 container_index:0x0
+[19:13:47.806] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 10
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 8  "main_fs"
+                              ExecutionMode 8 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 5  "texture_in"
+                              Name 8  "main_fs"
+               1:             TypeFloat 32
+               2:             TypeImage 1(float) 2D sampled format:Unknown
+               3:             TypeSampledImage 2
+               4:             TypePointer UniformConstant 3
+   5(texture_in):      4(ptr) Variable UniformConstant
+               6:             TypeVoid
+               7:             TypeFunction 6
+      8(main_fs):           6 Function None 7
+               9:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.813] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.818] |E| [renderer::load_fragment_shader]:  Missing fragment shader cf32e2ef37f9cd3c72ad0861fd00cee83a0eb35c5495b8bd5c9e8d3bfa5224ee
+[19:13:47.819] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:FOGCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.819] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 10
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 8  "main_fs"
+                              ExecutionMode 8 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 5  "texture_in"
+                              Name 8  "main_fs"
+               1:             TypeFloat 32
+               2:             TypeImage 1(float) 2D sampled format:Unknown
+               3:             TypeSampledImage 2
+               4:             TypePointer UniformConstant 3
+   5(texture_in):      4(ptr) Variable UniformConstant
+               6:             TypeVoid
+               7:             TypeFunction 6
+      8(main_fs):           6 Function None 7
+               9:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.827] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.839] |E| [renderer::load_fragment_shader]:  Missing fragment shader 5fa025b2a62ae17091630f3dd0128d5ff334bb0b1ee9f2917663d9742386d298
+[19:13:47.840] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:FOGCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.840] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 10
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 8  "main_fs"
+                              ExecutionMode 8 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 5  "texture_in"
+                              Name 8  "main_fs"
+               1:             TypeFloat 32
+               2:             TypeImage 1(float) 2D sampled format:Unknown
+               3:             TypeSampledImage 2
+               4:             TypePointer UniformConstant 3
+   5(texture_in):      4(ptr) Variable UniformConstant
+               6:             TypeVoid
+               7:             TypeFunction 6
+      8(main_fs):           6 Function None 7
+               9:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.842] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.846] |E| [renderer::load_fragment_shader]:  Missing fragment shader 2dd5a6d1a08401e95028b9f6ba00f921c1396b0199e14508be5673b2fe57fc60
+[19:13:47.846] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:FOGCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.846] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 10
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 8  "main_fs"
+                              ExecutionMode 8 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 5  "texture_in"
+                              Name 8  "main_fs"
+               1:             TypeFloat 32
+               2:             TypeImage 1(float) 2D sampled format:Unknown
+               3:             TypeSampledImage 2
+               4:             TypePointer UniformConstant 3
+   5(texture_in):      4(ptr) Variable UniformConstant
+               6:             TypeVoid
+               7:             TypeFunction 6
+      8(main_fs):           6 Function None 7
+               9:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.854] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.862] |E| [renderer::load_fragment_shader]:  Missing fragment shader dc6d567f98b766c41494fd4638b5cba5eb0cdd54b99d0256f50fcdf6f0fe1b06
+[19:13:47.862] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:FOGCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.863] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 10
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 8  "main_fs"
+                              ExecutionMode 8 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 5  "texture_in"
+                              Name 8  "main_fs"
+               1:             TypeFloat 32
+               2:             TypeImage 1(float) 2D sampled format:Unknown
+               3:             TypeSampledImage 2
+               4:             TypePointer UniformConstant 3
+   5(texture_in):      4(ptr) Variable UniformConstant
+               6:             TypeVoid
+               7:             TypeFunction 6
+      8(main_fs):           6 Function None 7
+               9:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.867] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.871] |E| [renderer::load_fragment_shader]:  Missing fragment shader 95e41561d2834c53c347059fe0d487e0286cc1553d5e111d600a79836b71b23b
+[19:13:47.871] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 5
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 3  "main_fs"
+                              ExecutionMode 3 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 3  "main_fs"
+               1:             TypeVoid
+               2:             TypeFunction 1
+      3(main_fs):           1 Function None 2
+               4:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.878] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+void main()
+{
+}
+
+
+[19:13:47.883] |E| [renderer::load_fragment_shader]:  Missing fragment shader b73aec760d4bfaae853dcec35c687c56becce8a054c86d54f184ec67ab64b725
+[19:13:47.883] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:FOGCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.884] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 10
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 8  "main_fs"
+                              ExecutionMode 8 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 5  "texture_in"
+                              Name 8  "main_fs"
+               1:             TypeFloat 32
+               2:             TypeImage 1(float) 2D sampled format:Unknown
+               3:             TypeSampledImage 2
+               4:             TypePointer UniformConstant 3
+   5(texture_in):      4(ptr) Variable UniformConstant
+               6:             TypeVoid
+               7:             TypeFunction 6
+      8(main_fs):           6 Function None 7
+               9:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.888] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.895] |E| [renderer::load_fragment_shader]:  Missing fragment shader bd708162e99af28d9c5eec84533e0ad33ee9b20329143d247b5eda45cd41b4fd
+[19:13:47.896] |D| [gxp::log_parameter]:  Sampler: name:texture_in semantic:FOGCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.896] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 10
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Fragment 8  "main_fs"
+                              ExecutionMode 8 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 5  "texture_in"
+                              Name 8  "main_fs"
+               1:             TypeFloat 32
+               2:             TypeImage 1(float) 2D sampled format:Unknown
+               3:             TypeSampledImage 2
+               4:             TypePointer UniformConstant 3
+   5(texture_in):      4(ptr) Variable UniformConstant
+               6:             TypeVoid
+               7:             TypeFunction 6
+      8(main_fs):           6 Function None 7
+               9:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.902] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+uniform sampler2D texture_in;
+
+void main()
+{
+}
+
+
+[19:13:47.908] |E| [renderer::load_vertex_shader]:  Missing vertex shader 17302cb7dd22ae46b93a2d06523ebaa90e8b45b0eaf6e1bf1ced76c25d4dd115
+[19:13:47.909] |D| [gxp::log_parameter]:  Vertex attribute: name:position semantic:POSITION type:0 component_count:4 container_index:0x0
+[19:13:47.909] |D| [gxp::log_parameter]:  Vertex attribute: name:color semantic:COLOR type:0 component_count:4 container_index:0x0
+[19:13:47.909] |D| [gxp::log_parameter]:  Vertex attribute: name:texcoord semantic:TEXCOORD type:0 component_count:4 container_index:0x0
+[19:13:47.910] |D| [shadergen::spirv::generate_shader]:  SPIR-V Disassembly:
+// Module Version 10300
+// Generated by (magic number): 1337000
+// Id's are bound by 17
+
+                              Capability Shader
+                              MemoryModel Logical Simple
+                              EntryPoint Vertex 15  "main_vs"
+                              ExecutionMode 15 OriginLowerLeft
+                              SourceExtension  "gxp"
+                              Name 4  "position"
+                              Name 5  "color"
+                              Name 6  "texcoord"
+                              Name 8  "spv_oPosition"
+                              Name 9  "spv_oColor0"
+                              Name 12  "spv_oTexcoord0"
+                              Name 15  "main_vs"
+               1:             TypeFloat 32
+               2:             TypeVector 1(float) 4
+               3:             TypePointer Input 2(fvec4)
+     4(position):      3(ptr) Variable Input
+        5(color):      3(ptr) Variable Input
+     6(texcoord):      3(ptr) Variable Input
+               7:             TypePointer Output 2(fvec4)
+8(spv_oPosition):      7(ptr) Variable Output
+  9(spv_oColor0):      7(ptr) Variable Output
+              10:             TypeVector 1(float) 2
+              11:             TypePointer Output 10(fvec2)
+12(spv_oTexcoord0):     11(ptr) Variable Output
+              13:             TypeVoid
+              14:             TypeFunction 13
+     15(main_vs):          13 Function None 14
+              16:             Label
+                              Return
+                              FunctionEnd
+
+[19:13:47.920] |D| [shadergen::spirv::generate_glsl]:  Generated GLSL:
+#version 410
+#ifdef GL_ARB_shading_language_420pack
+#extension GL_ARB_shading_language_420pack : require
+#endif
+
+in vec4 position;
+in vec4 color;
+in vec4 texcoord;
+out vec4 spv_oPosition;
+out vec4 spv_oColor0;
+out vec2 spv_oTexcoord0;
+
+void main()
+{
+}
+
+
+[19:13:47.942] |E| [export_sceGxmTextureInitLinear]:  Initialized texture with unsupported texture format: 0x4001000
+[19:13:47.943] |E| [ret_error_impl]:  sceGxmTextureSetUAddrModeSafe returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
+[19:13:47.943] |E| [ret_error_impl]:  sceGxmTextureSetVAddrModeSafe returned SCE_GXM_ERROR_UNSUPPORTED (0x805B0009)
+[19:13:47.944] |W| [unimplemented_impl]:  Unimplemented sceGxmTextureSetLodBias import called.
+[19:13:47.957] |W| [unimplemented_impl]:  Unimplemented sceNpTrophyInit import called.
+[19:13:47.958] |W| [unimplemented_impl]:  Unimplemented sceNpTrophyCreateContext import called.
+[19:13:47.959] |W| [unimplemented_impl]:  Unimplemented sceKernelCreateSema_16XX import called.
+[19:13:47.991] |W| [unimplemented_impl]:  Unimplemented sceAudiodecInitLibrary import called.
+[19:13:47.991] |W| [unimplemented_impl]:  Unimplemented sceAtracQueryDecoderGroupMemSize import called.
+[19:13:47.992] |W| [unimplemented_impl]:  Unimplemented sceAtracCreateDecoderGroup import called.
+[19:13:48.197] |W| [unimplemented_impl]:  Unimplemented sceSasGetNeededMemorySize import called.
+[19:13:48.198] |W| [unimplemented_impl]:  Unimplemented sceSasInitWithGrain import called.
+[19:13:48.215] |W| [unimplemented_impl]:  Unimplemented sceSasCore import called.
+[19:13:48.216] |W| [unimplemented_impl]:  Unimplemented sceSasGetEnvelope import called.
+[19:13:48.217] |W| [unimplemented_impl]:  Unimplemented sceTouchEnableTouchForce import called.
+[19:13:48.218] |W| [unimplemented_impl]:  Unimplemented sceSystemGestureCreateTouchRecognizer import called.
+[19:13:48.220] |W| [unimplemented_impl]:  Unimplemented sceScreenShotDisable import called.
+[19:13:48.220] |W| [unimplemented_impl]:  Unimplemented sceScreenShotSetParam import called.
+[19:13:48.220] |W| [unimplemented_impl]:  Unimplemented sceScreenShotSetOverlayImage import called.
+[19:13:48.221] |W| [unimplemented_impl]:  Unimplemented sceScreenShotEnable import called.
+[19:13:48.221] |W| [unimplemented_impl]:  Unimplemented sceKernelCreateCallback import called.
+[19:13:48.222] |W| [unimplemented_impl]:  Unimplemented sceDisplayRegisterVblankStartCallback import called.
+[19:13:48.229] |W| [unimplemented_impl]:  Unimplemented sceGxmTextureInitLinearStrided import called.
+[19:13:48.230] |W| [unimplemented_impl]:  Unimplemented sceGxmTextureInitTiled import called.
+[19:13:48.240] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x1, size: 104
+[19:13:48.241] |W| [io_error_impl]:  write_file (sceIoWrite) returned 0xFFFFFFFF
+[19:13:48.242] |T| [write_file]:  sceIoWrite: Writing file: fd: 0x1, size: 104
+[19:13:48.242] |W| [io_error_impl]:  write_file (sceIoWrite) returned 0xFFFFFFFF
+[19:13:48.242] |W| [unimplemented_impl]:  Unimplemented sceSystemGestureUpdatePrimitiveTouchRecognizer import called.
+[19:13:48.257] |E| [ret_error_impl]:  sceKernelWaitSema returned SCE_KERNEL_ERROR_UNKNOWN_SEMA_ID (0x80028101)
+[19:13:48.258] |I| [export_sceIoOpen]:  Opening file: app0:/image/se.phd
+[19:13:48.259] |T| [open_file]:  sceIoOpen: Opening file app0:/image/se.phd (ux0:/app/PCSG00122//image/se.phd)
+[19:13:48.259] |W| [unimplemented_impl]:  Unimplemented sceKernelWaitEventFlagCB import called.
+[19:13:48.279] |T| [stat_file]:  sceIoGetstatByFd: Statting file app0:/image/se.phd (ux0:/app/PCSG00122//image/se.phd)
+[19:13:48.294] |T| [seek_file]:  sceIoLseek: Seeking file: fd: 0x6 at offset: 0x0, whence: SCE_SEEK_SET
+[19:13:48.294] |W| [unimplemented_impl]:  Unimplemented sceKernelExitDeleteThread import called.
+[19:13:48.295] |T| [read_file]:  sceIoRead: Reading file: fd: 0x6, size: 4632
+-1073741510

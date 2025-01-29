@@ -1,0 +1,945 @@
+[21:54:23.272] |I| [config::init_config]: backend-renderer: Vulkan
+[21:54:23.273] |I| [config::init_config]: log-level: 0
+[21:54:23.371] |I| [SDL_main]: Vita3K v0.1.8 3233-a6f64367
+[21:54:23.371] |I| [SDL_main]: Number of logical CPU cores: 12
+[21:54:23.372] |I| [SDL_main]: Available ram memory: 32655 MiB
+[21:54:23.461] |I| [renderer::vulkan::VKState::create]: Vulkan device: NVIDIA GeForce RTX 3070
+[21:54:23.461] |I| [renderer::vulkan::VKState::create]: Driver version: 536.23.0.0
+[21:54:23.461] |I| [renderer::vulkan::VKState::create]: Memory mapping is enabled
+[21:54:23.797] |I| [renderer::vulkan::ScreenRenderer::setup]: Present mode: Mailbox
+[21:54:24.034] |W| [compat::load_compat_app_db]: App with Title ID PCSH10100 has an issue but no status label. Please check GitHub issue 1716 and request a status label be added.
+[21:54:24.035] |W| [compat::load_compat_app_db]: App with Title ID PCSE00640 has an issue but no status label. Please check GitHub issue 1678 and request a status label be added.
+[21:54:24.035] |W| [compat::load_compat_app_db]: App with Title ID PCSA00158 has an issue but no status label. Please check GitHub issue 1659 and request a status label be added.
+[21:54:24.035] |W| [compat::load_compat_app_db]: App with Title ID PCSA00133 has an issue but no status label. Please check GitHub issue 1649 and request a status label be added.
+[21:54:24.046] |I| [gui::load_app_icon]: Default icon found for App PCSB01124, [PCSB01124] in path PCSB01124.
+[21:54:24.174] |I| [compat::update_compat_app_db]: Applications compatibility database is outdated, attempting to download latest updated at: 06-26-2023 19:53:24
+[21:54:24.895] |E| [https::get_web_response]: 404 Not Found
+[21:54:24.895] |E| [https::download_file]: Failed to get header on redirected url: https://objects.githubusercontent.com/github-production-release-asset-2e65be/130765034/89ef63c5-6924-4c85-bfaf-1642508febe6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230626T195235Z&X-Amz-Expires=300&X-Amz-Signature=52a8efb732ea01f0c0caf54baca1b6b684134a7d1162edcd5240162333c5b197&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=130765034&response-content-disposition=attachment%3B%20filename%3Dapp_compat_db.xml&response-content-type=application%2Foctet-stream
+[21:54:48.980] |I| [load_app_impl]: cpu-backend: Dynarmic
+[21:54:48.980] |I| [load_app_impl]: CPU Optimisation state: true
+[21:54:48.981] |I| [load_app_impl]: ngs state: true
+[21:54:48.981] |I| [load_app_impl]: Resolution multiplier: 1
+[21:54:48.981] |I| [load_app_impl]: 1 Controllers Connected
+[21:54:48.982] |I| [load_app_impl]: Controller 0: Controller (Xbox One For Windows)
+[21:54:48.982] |I| [load_app_impl]: modules mode: Automatic
+[21:54:48.982] |I| [load_app_impl]: Title: Emerald Shores
+[21:54:48.983] |I| [load_app_impl]: Serial: PCSB01325
+[21:54:48.983] |I| [load_app_impl]: Version: 1.00
+[21:54:48.983] |I| [load_app_impl]: Category: gd
+[21:54:48.997] |I| [load_self]: app0:sce_module/libc.suprx: Skipping special segment 0x6fffff01...
+[21:54:48.997] |I| [load_self]: Loaded module segment 0 @ [0x00005000 - 0x0005691C / 0x81000000] (size: 0x0005191C) of module app0:sce_module/libc.suprx
+[21:54:48.998] |I| [load_self]: Loaded module segment 1 @ [0x00057000 - 0x000598A0 / 0x81052000] (size: 0x000028A0) of module app0:sce_module/libc.suprx
+[21:54:48.999] |I| [load_self]: Linking SELF app0:sce_module/libc.suprx...
+[21:54:48.999] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x4c38c
+[21:54:48.999] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x41550
+[21:54:49.000] |I| [pre_load_module]: Pre-load module SceLibc (at "sce_module/libc.suprx") loaded
+[21:54:49.009] |I| [load_self]: app0:sce_module/libfios2.suprx: Skipping special segment 0x6fffff01...
+[21:54:49.009] |I| [load_self]: Loaded module segment 0 @ [0x0005A000 - 0x00086CBF / 0x81000000] (size: 0x0002CCBF) of module app0:sce_module/libfios2.suprx
+[21:54:49.009] |I| [load_self]: Loaded module segment 1 @ [0x00087000 - 0x0008C255 / 0x8102D000] (size: 0x00005255) of module app0:sce_module/libfios2.suprx
+[21:54:49.010] |I| [load_self]: Linking SELF app0:sce_module/libfios2.suprx...
+[21:54:49.010] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x86bc8
+[21:54:49.011] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x7df08
+[21:54:49.011] |I| [pre_load_module]: Pre-load module SceLibFios2 (at "sce_module/libfios2.suprx") loaded
+[21:54:49.015] |I| [load_self]: app0:sce_module/libult.suprx: Skipping special segment 0x6fffff01...
+[21:54:49.016] |I| [load_self]: Loaded module segment 0 @ [0x0008D000 - 0x000A09BC / 0x81000000] (size: 0x000139BC) of module app0:sce_module/libult.suprx
+[21:54:49.017] |I| [load_self]: Loaded module segment 1 @ [0x000A1000 - 0x000A1814 / 0x81014000] (size: 0x00000814) of module app0:sce_module/libult.suprx
+[21:54:49.017] |I| [load_self]: Linking SELF app0:sce_module/libult.suprx...
+[21:54:49.018] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x9f2e8
+[21:54:49.018] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x9c870
+[21:54:49.018] |I| [pre_load_module]: Pre-load module SceUlt (at "sce_module/libult.suprx") loaded
+[21:54:49.028] |I| [load_self]: Loaded module segment 0 @ [0x000A2000 - 0x000F2F04 / 0x81000000] (size: 0x00050F04) of module vs0:sys/external/libSceFt2.suprx
+[21:54:49.028] |I| [load_self]: Loaded module segment 1 @ [0x000F3000 - 0x000F32F4 / 0x81051000] (size: 0x000002F4) of module vs0:sys/external/libSceFt2.suprx
+[21:54:49.029] |I| [load_self]: Linking SELF vs0:sys/external/libSceFt2.suprx...
+[21:54:49.029] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0xde7dc
+[21:54:49.030] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0xddf10
+[21:54:49.030] |I| [pre_load_module]: Pre-load module SceLibft2 (at "sys/external/libSceFt2.suprx") loaded
+[21:54:49.033] |I| [load_self]: Loaded module segment 0 @ [0x000F4000 - 0x00103F14 / 0x81000000] (size: 0x0000FF14) of module vs0:sys/external/libpvf.suprx
+[21:54:49.033] |I| [load_self]: Loaded module segment 1 @ [0x00104000 - 0x00104008 / 0x81010000] (size: 0x00000008) of module vs0:sys/external/libpvf.suprx
+[21:54:49.034] |I| [load_self]: Linking SELF vs0:sys/external/libpvf.suprx...
+[21:54:49.034] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x102710
+[21:54:49.035] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x102300
+[21:54:49.035] |I| [pre_load_module]: Pre-load module SceLibPvf (at "sys/external/libpvf.suprx") loaded
+[21:54:49.152] |I| [load_self]: app0:eboot.bin: Skipping special segment 0x6fffff01...
+[21:54:49.152] |I| [load_self]: Loaded module segment 0 @ [0x00105000 - 0x0046C868 / 0x81000000] (size: 0x00367868) of module app0:eboot.bin
+[21:54:49.153] |I| [load_self]: Loaded module segment 1 @ [0x0046D000 - 0x008DD550 / 0x81368000] (size: 0x00470550) of module app0:eboot.bin
+[21:54:49.154] |I| [load_self]: Linking SELF app0:eboot.bin...
+[21:54:49.154] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x3816f0
+[21:54:49.155] |D| [load_var_exports]: 	NID 0x70fba1e7 (SCE_PROC_PARAMS) at 0x4f5244
+[21:54:49.155] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x469aa0
+[21:54:49.155] |I| [load_app_impl]: Main executable PSVitaRunner (eboot.bin) loaded
+[21:54:49.171] |D| [run_app]: Running module_start of library: SceLibc at address 0x5871
+[21:54:49.189] |T| [open_file]: sceKernelGetStdin: Opening terminal tty0:
+[21:54:49.189] |T| [open_file]: sceKernelGetStdout: Opening terminal tty0:
+[21:54:49.189] |T| [open_file]: sceKernelGetStderr: Opening terminal tty0:
+[21:54:49.198] |I| [run_app]: Module SceLibc (at "app0:sce_module/libc.suprx") module_start returned 0x0
+[21:54:49.200] |D| [run_app]: Running module_start of library: SceLibFios2 at address 0x5a001
+[21:54:49.216] |W| [stubbed_impl]: Stubbed sceKernelGetProcessId import called. (pid: 0)
+[21:54:49.216] |I| [run_app]: Module SceLibFios2 (at "app0:sce_module/libfios2.suprx") module_start returned 0x0
+[21:54:49.219] |D| [run_app]: Running module_start of library: SceUlt at address 0x90771
+[21:54:49.234] |W| [unimplemented_impl]: Unimplemented _sceUlobjMgrRegisterLibultProtocolRevision import called.
+[21:54:49.234] |I| [run_app]: Module SceUlt (at "app0:sce_module/libult.suprx") module_start returned 0x0
+[21:54:49.253] |W| [unimplemented_impl]: Unimplemented sceAppUtilInit import called.
+[21:54:49.272] |W| [stubbed_impl]: Stubbed sceGxmMapFragmentUsseMemory import called. (always return success)
+[21:54:49.302] |W| [stubbed_impl]: Stubbed sceGxmMapVertexUsseMemory import called. (always return success)
+[21:54:49.310] |I| [load_module]: Loading module ID: 0x4
+[21:54:49.319] |I| [load_self]: sys/external/libhttp.suprx: Skipping special segment 0x6fffff01...
+[21:54:49.319] |I| [load_self]: Loaded module segment 0 @ [0x017F6000 - 0x01813150 / 0x81000000] (size: 0x0001D150) of module sys/external/libhttp.suprx
+[21:54:49.320] |I| [load_self]: Loaded module segment 1 @ [0x00B2F000 - 0x00B2F640 / 0x8101E000] (size: 0x00000640) of module sys/external/libhttp.suprx
+[21:54:49.320] |I| [load_self]: Linking SELF sys/external/libhttp.suprx...
+[21:54:49.321] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x1811e68
+[21:54:49.321] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x180eca0
+[21:54:49.322] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") loaded
+[21:54:49.322] |D| [load_module]: Running module_start of module: SceLibHttp
+[21:54:49.322] |I| [load_module]: Module SceLibHttp (at "sys/external/libhttp.suprx") module_start returned 0x0
+[21:54:49.339] |I| [load_self]: Loaded module segment 0 @ [0x01814000 - 0x0187AEA4 / 0x81000000] (size: 0x00066EA4) of module sys/external/libssl.suprx
+[21:54:49.339] |I| [load_self]: Loaded module segment 1 @ [0x00DF8000 - 0x00DFD188 / 0x81067000] (size: 0x00005188) of module sys/external/libssl.suprx
+[21:54:49.340] |I| [load_self]: Linking SELF sys/external/libssl.suprx...
+[21:54:49.340] |D| [load_var_exports]: 	NID 0x936c8a78 (SYSLYB) at 0x18669b0
+[21:54:49.341] |D| [load_var_exports]: 	NID 0x6c2224ba (NID_MODULE_INFO) at 0x1860c70
+[21:54:49.342] |I| [load_module]: Module SceLibSsl (at "sys/external/libssl.suprx") loaded
+[21:54:49.343] |W| [stubbed_impl]: Stubbed sceNetCtlInit import called. (Stub)
+[21:54:49.357] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x3c733316 sceSslInit at 0x380530
+[21:54:49.360] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x214926d9 sceHttpInit at 0x380580
+[21:54:49.361] |T| [write_file]: *** TTY: libnetctl event: Disconnected
+[21:54:49.362] |W| [stubbed_impl]: Stubbed sceNetCtlInetGetState import called. (state = SCE_NETCTL_STATE_CONNECTED)
+[21:54:49.362] |T| [write_file]: *** TTY: libnetctl event: Disconnected, state = IPObtained
+[21:54:49.365] |T| [write_file]: *** TTY: PLATFORM_Init!
+[21:54:49.365] |T| [write_file]: *** TTY: ***************************************
+[21:54:49.365] |T| [write_file]: *** TTY: *     YoYo Games PSVita Runner V1.0    *
+[21:54:49.366] |T| [write_file]: *** TTY: ***************************************	 
+[21:54:49.368] |T| [write_file]: *** TTY: CommandLine: 
+[21:54:49.370] |T| [write_file]: *** TTY: MemoryManager allocated: 33643
+[21:54:49.378] |T| [write_file]: *** TTY: libnetctl event: result = 0x0
+[21:54:49.379] |W| [stubbed_impl]: Stubbed sceNetCtlCheckCallback import called. (Stub)
+[21:54:49.418] |T| [write_file]: *** TTY: Finished Init
+[21:54:49.421] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xee681e1d sceFiosFHOpenWithModeSync at 0x41530
+[21:54:49.421] |I| [export_sceIoOpen]: Opening file: app0:/games/game.win
+[21:54:49.422] |T| [open_file]: sceIoOpen: Opening file app0:/games/game.win (ux0:/app/PCSB01325/games/game.win), fd: 0x3
+[21:54:49.423] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x45182328 sceFiosFHCloseSync at 0x41490
+[21:54:49.423] |T| [close_file]: sceIoClose: Closing file fd: 0x3
+[21:54:49.425] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/options.ini
+[21:54:49.426] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/options.ini (ux0:/app/PCSB01325/games/options.ini), fd: 0x4
+[21:54:49.426] |T| [close_file]: sceIoClose: Closing file fd: 0x4
+[21:54:49.427] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/options.ini
+[21:54:49.427] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/options.ini (ux0:/app/PCSB01325/games/options.ini), fd: 0x5
+[21:54:49.427] |T| [close_file]: sceIoClose: Closing file fd: 0x5
+[21:54:49.428] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/options.ini
+[21:54:49.428] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/options.ini (ux0:/app/PCSB01325/games/options.ini), fd: 0x6
+[21:54:49.430] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xa75f3c4a sceFiosFHSeek at 0x414d0
+[21:54:49.432] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0xb309e327 sceFiosIsValidHandle at 0x414f0
+[21:54:49.433] |T| [log_import_call]: [LLE] TID: 7   FUNC: 0x76945919 sceFiosFHReadSync at 0x414b0
+[21:54:49.434] |T| [close_file]: sceIoClose: Closing file fd: 0x6
+[21:54:49.439] |I| [export_sceIoOpen]: Opening file: app0:/games/game.yydebug
+[21:54:49.439] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/game.yydebug (target path: app0:/games/game.yydebug)
+[21:54:49.440] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:49.441] |I| [export_sceIoOpen]: Opening file: app0:/games/game.win
+[21:54:49.441] |T| [open_file]: sceIoOpen: Opening file app0:/games/game.win (ux0:/app/PCSB01325/games/game.win), fd: 0x7
+[21:54:49.453] |T| [close_file]: sceIoClose: Closing file fd: 0x7
+[21:54:49.455] |I| [export_sceIoOpen]: Opening file: savedata0:/hiscore.dat
+[21:54:49.455] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/hiscore.dat (target path: savedata0:/hiscore.dat)
+[21:54:49.456] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:49.481] |I| [export_sceIoOpen]: Opening file: savedata0:/gamecontrollerdb.txt
+[21:54:49.482] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/gamecontrollerdb.txt (target path: savedata0:/gamecontrollerdb.txt)
+[21:54:49.483] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:49.483] |I| [export_sceIoOpen]: Opening file: app0:/games/gamecontrollerdb.txt
+[21:54:49.483] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/gamecontrollerdb.txt (target path: app0:/games/gamecontrollerdb.txt)
+[21:54:49.484] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:49.485] |T| [write_file]: *** TTY: Attempting to set gamepadcount to 1
+[21:54:49.493] |I| [export_sceIoOpen]: Opening file: savedata0:/playerachievementcache.dat
+[21:54:49.493] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/playerachievementcache.dat (target path: savedata0:/playerachievementcache.dat)
+[21:54:49.494] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:49.512] |W| [stubbed_impl]: Stubbed sceKernelGetFreeMemorySize import called. (Single pool)
+[21:54:49.514] |W| [unimplemented_impl]: Unimplemented sceGxmTextureValidate import called.
+[21:54:49.696] |W| [unimplemented_impl]: Unimplemented sceAppMgrAcquireBgmPort import called.
+[21:54:49.798] |I| [export_sceIoOpen]: Opening file: app0:/games/Emerald Shores.ini
+[21:54:49.799] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/Emerald Shores.ini (target path: app0:/games/Emerald Shores.ini)
+[21:54:49.800] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:49.800] |I| [export_sceIoOpen]: Opening file: savedata0:/Emerald Shores.ini
+[21:54:49.800] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/Emerald Shores.ini (target path: savedata0:/Emerald Shores.ini)
+[21:54:49.801] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:49.801] |I| [export_sceIoOpen]: Opening file: app0:/games/options.ini
+[21:54:49.802] |T| [open_file]: sceIoOpen: Opening file app0:/games/options.ini (ux0:/app/PCSB01325/games/options.ini), fd: 0x8
+[21:54:49.802] |T| [close_file]: sceIoClose: Closing file fd: 0x8
+[21:54:49.803] |I| [export_sceIoOpen]: Opening file: savedata0:/options.ini
+[21:54:49.803] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/options.ini (target path: savedata0:/options.ini)
+[21:54:49.804] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:49.804] |I| [export_sceIoOpen]: Opening file: app0:/games/options.ini
+[21:54:49.804] |T| [open_file]: sceIoOpen: Opening file app0:/games/options.ini (ux0:/app/PCSB01325/games/options.ini), fd: 0x9
+[21:54:49.805] |T| [close_file]: sceIoClose: Closing file fd: 0x9
+[21:54:49.806] |T| [write_file]: *** TTY: About to call psn_init_np_libs
+[21:54:49.814] |W| [unimplemented_impl]: Unimplemented sceNpBasicInit import called.
+[21:54:49.814] |W| [unimplemented_impl]: Unimplemented sceNpLookupInit import called.
+[21:54:49.826] |T| [write_file]: *** TTY: Total memory used = 11941717(0x00b63755) bytes
+[21:54:49.827] |W| [unimplemented_impl]: Unimplemented sceMotionReset import called.
+[21:54:49.827] |W| [unimplemented_impl]: Unimplemented sceMotionStartSampling import called.
+[21:54:49.828] |W| [stubbed_impl]: Stubbed __sceAppMgrGetAppState import called. (Set to 0.)
+[21:54:49.857] |W| [stubbed_impl]: Stubbed sceNpCheckCallback import called. (Stub)
+[21:54:49.859] |T| [open_file]: create_trophy_context: Opening file app0:/sce_sys/trophy/NPWR10488_00/TROPHY.TRP (ux0:/app/PCSB01325/sce_sys/trophy/NPWR10488_00/TROPHY.TRP), fd: 0xa
+[21:54:49.860] |E| [open_file]: Missing file at C:/vita/ux0/user/00/trophy/data/NPWR10488_00/TROPUSR.DAT (target path: ux0:/user/00/trophy/data/NPWR10488_00/TROPUSR.DAT)
+[21:54:49.860] |W| [io_error_impl]: open_file (create_trophy_context) returned 0x80010002
+[21:54:49.861] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROPCONF.SFM (ux0:/user/00/trophy/conf/NPWR10488_00/TROPCONF.SFM), fd: 0xb
+[21:54:49.862] |T| [write_file]: install_trophy_context: Writing to fd: 0xb, size: 2128
+[21:54:49.862] |T| [close_file]: install_trophy_context: Closing file fd: 0xb
+[21:54:49.863] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP.SFM (ux0:/user/00/trophy/conf/NPWR10488_00/TROP.SFM), fd: 0xc
+[21:54:49.863] |T| [write_file]: install_trophy_context: Writing to fd: 0xc, size: 5246
+[21:54:49.863] |T| [close_file]: install_trophy_context: Closing file fd: 0xc
+[21:54:49.864] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/ICON0.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/ICON0.PNG), fd: 0xd
+[21:54:49.865] |T| [write_file]: install_trophy_context: Writing to fd: 0xd, size: 59673
+[21:54:49.865] |T| [close_file]: install_trophy_context: Closing file fd: 0xd
+[21:54:49.866] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP000.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP000.PNG), fd: 0xe
+[21:54:49.866] |T| [write_file]: install_trophy_context: Writing to fd: 0xe, size: 35388
+[21:54:49.866] |T| [close_file]: install_trophy_context: Closing file fd: 0xe
+[21:54:49.867] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP001.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP001.PNG), fd: 0xf
+[21:54:49.869] |T| [write_file]: install_trophy_context: Writing to fd: 0xf, size: 9398
+[21:54:49.869] |T| [close_file]: install_trophy_context: Closing file fd: 0xf
+[21:54:49.870] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP002.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP002.PNG), fd: 0x10
+[21:54:49.871] |T| [write_file]: install_trophy_context: Writing to fd: 0x10, size: 8243
+[21:54:49.871] |T| [close_file]: install_trophy_context: Closing file fd: 0x10
+[21:54:49.872] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP003.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP003.PNG), fd: 0x11
+[21:54:49.873] |T| [write_file]: install_trophy_context: Writing to fd: 0x11, size: 6048
+[21:54:49.873] |T| [close_file]: install_trophy_context: Closing file fd: 0x11
+[21:54:49.874] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP004.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP004.PNG), fd: 0x12
+[21:54:49.874] |T| [write_file]: install_trophy_context: Writing to fd: 0x12, size: 6171
+[21:54:49.874] |T| [close_file]: install_trophy_context: Closing file fd: 0x12
+[21:54:49.875] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP005.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP005.PNG), fd: 0x13
+[21:54:49.876] |T| [write_file]: install_trophy_context: Writing to fd: 0x13, size: 3521
+[21:54:49.876] |T| [close_file]: install_trophy_context: Closing file fd: 0x13
+[21:54:49.877] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP006.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP006.PNG), fd: 0x14
+[21:54:49.877] |T| [write_file]: install_trophy_context: Writing to fd: 0x14, size: 2528
+[21:54:49.878] |T| [close_file]: install_trophy_context: Closing file fd: 0x14
+[21:54:49.879] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP007.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP007.PNG), fd: 0x15
+[21:54:49.879] |T| [write_file]: install_trophy_context: Writing to fd: 0x15, size: 10027
+[21:54:49.879] |T| [close_file]: install_trophy_context: Closing file fd: 0x15
+[21:54:49.880] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP008.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP008.PNG), fd: 0x16
+[21:54:49.881] |T| [write_file]: install_trophy_context: Writing to fd: 0x16, size: 7599
+[21:54:49.881] |T| [close_file]: install_trophy_context: Closing file fd: 0x16
+[21:54:49.882] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP009.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP009.PNG), fd: 0x17
+[21:54:49.882] |T| [write_file]: install_trophy_context: Writing to fd: 0x17, size: 4654
+[21:54:49.882] |T| [close_file]: install_trophy_context: Closing file fd: 0x17
+[21:54:49.883] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP010.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP010.PNG), fd: 0x18
+[21:54:49.885] |T| [write_file]: install_trophy_context: Writing to fd: 0x18, size: 2610
+[21:54:49.885] |T| [close_file]: install_trophy_context: Closing file fd: 0x18
+[21:54:49.886] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP011.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP011.PNG), fd: 0x19
+[21:54:49.887] |T| [write_file]: install_trophy_context: Writing to fd: 0x19, size: 2033
+[21:54:49.887] |T| [close_file]: install_trophy_context: Closing file fd: 0x19
+[21:54:49.888] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP012.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP012.PNG), fd: 0x1a
+[21:54:49.888] |T| [write_file]: install_trophy_context: Writing to fd: 0x1a, size: 1982
+[21:54:49.888] |T| [close_file]: install_trophy_context: Closing file fd: 0x1a
+[21:54:49.889] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP013.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP013.PNG), fd: 0x1b
+[21:54:49.889] |T| [write_file]: install_trophy_context: Writing to fd: 0x1b, size: 1966
+[21:54:49.890] |T| [close_file]: install_trophy_context: Closing file fd: 0x1b
+[21:54:49.890] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP014.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP014.PNG), fd: 0x1c
+[21:54:49.891] |T| [write_file]: install_trophy_context: Writing to fd: 0x1c, size: 2675
+[21:54:49.891] |T| [close_file]: install_trophy_context: Closing file fd: 0x1c
+[21:54:49.892] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP015.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP015.PNG), fd: 0x1d
+[21:54:49.893] |T| [write_file]: install_trophy_context: Writing to fd: 0x1d, size: 2594
+[21:54:49.893] |T| [close_file]: install_trophy_context: Closing file fd: 0x1d
+[21:54:49.894] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP016.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP016.PNG), fd: 0x1e
+[21:54:49.894] |T| [write_file]: install_trophy_context: Writing to fd: 0x1e, size: 6005
+[21:54:49.894] |T| [close_file]: install_trophy_context: Closing file fd: 0x1e
+[21:54:49.895] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP017.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP017.PNG), fd: 0x1f
+[21:54:49.896] |T| [write_file]: install_trophy_context: Writing to fd: 0x1f, size: 6032
+[21:54:49.896] |T| [close_file]: install_trophy_context: Closing file fd: 0x1f
+[21:54:49.897] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP018.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP018.PNG), fd: 0x20
+[21:54:49.897] |T| [write_file]: install_trophy_context: Writing to fd: 0x20, size: 6351
+[21:54:49.898] |T| [close_file]: install_trophy_context: Closing file fd: 0x20
+[21:54:49.898] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP019.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP019.PNG), fd: 0x21
+[21:54:49.900] |T| [write_file]: install_trophy_context: Writing to fd: 0x21, size: 6836
+[21:54:49.901] |T| [close_file]: install_trophy_context: Closing file fd: 0x21
+[21:54:49.901] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP020.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP020.PNG), fd: 0x22
+[21:54:49.902] |T| [write_file]: install_trophy_context: Writing to fd: 0x22, size: 3887
+[21:54:49.902] |T| [close_file]: install_trophy_context: Closing file fd: 0x22
+[21:54:49.903] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP021.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP021.PNG), fd: 0x23
+[21:54:49.903] |T| [write_file]: install_trophy_context: Writing to fd: 0x23, size: 2407
+[21:54:49.904] |T| [close_file]: install_trophy_context: Closing file fd: 0x23
+[21:54:49.904] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP022.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP022.PNG), fd: 0x24
+[21:54:49.905] |T| [write_file]: install_trophy_context: Writing to fd: 0x24, size: 2401
+[21:54:49.905] |T| [close_file]: install_trophy_context: Closing file fd: 0x24
+[21:54:49.906] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP023.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP023.PNG), fd: 0x25
+[21:54:49.907] |T| [write_file]: install_trophy_context: Writing to fd: 0x25, size: 4579
+[21:54:49.907] |T| [close_file]: install_trophy_context: Closing file fd: 0x25
+[21:54:49.908] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP024.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP024.PNG), fd: 0x26
+[21:54:49.908] |T| [write_file]: install_trophy_context: Writing to fd: 0x26, size: 5607
+[21:54:49.908] |T| [close_file]: install_trophy_context: Closing file fd: 0x26
+[21:54:49.909] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP025.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP025.PNG), fd: 0x27
+[21:54:49.910] |T| [write_file]: install_trophy_context: Writing to fd: 0x27, size: 6849
+[21:54:49.910] |T| [close_file]: install_trophy_context: Closing file fd: 0x27
+[21:54:49.911] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP026.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP026.PNG), fd: 0x28
+[21:54:49.911] |T| [write_file]: install_trophy_context: Writing to fd: 0x28, size: 5299
+[21:54:49.911] |T| [close_file]: install_trophy_context: Closing file fd: 0x28
+[21:54:49.912] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP027.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP027.PNG), fd: 0x29
+[21:54:49.913] |T| [write_file]: install_trophy_context: Writing to fd: 0x29, size: 6767
+[21:54:49.913] |T| [close_file]: install_trophy_context: Closing file fd: 0x29
+[21:54:49.914] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP028.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP028.PNG), fd: 0x2a
+[21:54:49.916] |T| [write_file]: install_trophy_context: Writing to fd: 0x2a, size: 9695
+[21:54:49.916] |T| [close_file]: install_trophy_context: Closing file fd: 0x2a
+[21:54:49.917] |T| [open_file]: install_trophy_context: Opening file ux0:/user/00/trophy/conf/NPWR10488_00/TROP029.PNG (ux0:/user/00/trophy/conf/NPWR10488_00/TROP029.PNG), fd: 0x2b
+[21:54:49.918] |T| [write_file]: install_trophy_context: Writing to fd: 0x2b, size: 20176
+[21:54:49.918] |T| [close_file]: install_trophy_context: Closing file fd: 0x2b
+[21:54:49.919] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR10488_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR10488_00/TROPUSR.DAT), fd: 0x2c
+[21:54:49.919] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2c, size: 4
+[21:54:49.919] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2c, size: 16
+[21:54:49.920] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2c, size: 16
+[21:54:49.920] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2c, size: 4
+[21:54:49.920] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2c, size: 4
+[21:54:49.921] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2c, size: 4
+[21:54:49.921] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2c, size: 64
+[21:54:49.922] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2c, size: 1024
+[21:54:49.922] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x2c, size: 512
+[21:54:49.922] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x2c
+[21:54:49.923] |T| [export_sceNpTrophyCreateContext]: Trophy context for NPWR10488_00 create successfuly!
+[21:54:49.923] |T| [write_file]: *** TTY: Trophy context success
+[21:54:49.924] |T| [write_file]: *** TTY: Set up dialog successfully
+[21:54:49.925] |T| [write_file]: *** TTY: psn_setup_trophies() result: 0
+[21:54:49.930] |T| [write_file]: *** TTY: LOAD: checking file essaves.sav
+[21:54:49.931] |I| [export_sceIoOpen]: Opening file: app0:/games/essaves.sav
+[21:54:49.931] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/essaves.sav (target path: app0:/games/essaves.sav)
+[21:54:49.932] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:49.932] |T| [write_file]: *** TTY: LOAD: numFiles 1, numBundleFiles 0
+[21:54:49.934] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[21:54:49.934] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[21:54:49.934] |E| [logging::ret_error_impl]: sceAppUtilSaveDataSlotGetParam returned SCE_APPUTIL_ERROR_SAVEDATA_SLOT_NOT_FOUND (0x80100641)
+[21:54:49.960] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 9622051182914dd8284a5961bd82278b07d06690703753be3f2eca23e23e6e84
+[21:54:49.961] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 9622051182914dd8284a5961bd82278b07d06690703753be3f2eca23e23e6e84
+[21:54:49.963] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) aPosition
+[21:54:49.963] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) color
+[21:54:49.963] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[21:54:49.967] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 1cb20053d85431ef8b8ba077b45fc87b11d886f4d3688411a4e5afe43bda16a9
+[21:54:49.967] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 1cb20053d85431ef8b8ba077b45fc87b11d886f4d3688411a4e5afe43bda16a9
+[21:54:49.969] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[21:54:49.969] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[21:54:49.993] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 304d8634f623ef6cc9b9c81e4b052c85833693a182b124ba51877643f1327499
+[21:54:49.994] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 304d8634f623ef6cc9b9c81e4b052c85833693a182b124ba51877643f1327499
+[21:54:49.995] |W| [unimplemented_impl]: Unimplemented sceCommonDialogUpdate import called.
+[21:54:49.996] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input_aPosition
+[21:54:49.996] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input_aColour
+[21:54:49.996] |E| [logging::ret_error_impl]: sceSaveDataDialogGetResult returned SCE_COMMON_DIALOG_ERROR_NOT_FINISHED (0x80020410)
+[21:54:49.996] |D| [shader::create_parameters]: [BUFFER0  + 8] pa8 = (float4) input_aTexCoord
+[21:54:49.997] |T| [write_file]: *** TTY: Error: sceSaveDataDialogGetResult : 80020410
+[21:54:49.997] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) gm_Matrices[20]
+[21:54:49.998] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[21:54:49.998] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 11
+[21:54:49.998] |T| [write_file]: *** TTY:  sceNpTrophySetupDialogGetResult success
+[21:54:50.005] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader b48c128b9a63bc410b3209358f74e958a23e099df8a7804177c195d5f93ee651
+[21:54:50.005] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader b48c128b9a63bc410b3209358f74e958a23e099df8a7804177c195d5f93ee651
+[21:54:50.007] |D| [shader::create_fragment_inputs]: Iterator: pa0 = (float4) v_Color0
+[21:54:50.008] |T| [shader::create_fragment_inputs]: pa4 = tex2D<float4>(gm_BaseTexture, TEXCOORD0.xy)
+[21:54:50.009] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 5
+[21:54:50.015] |T| [write_file]: *** TTY: Created init trophy thread ok
+[21:54:50.015] |W| [stubbed_impl]: Stubbed sceNpTrophyCreateHandle import called. (Stubbed handle with 1)
+[21:54:50.016] |T| [write_file]: *** TTY: psn_setup_trophies() result: 1
+[21:54:50.022] |T| [write_file]: *** TTY: Received info for 30 trophies 
+[21:54:50.024] |W| [stubbed_impl]: Stubbed sceNpTrophyDestroyHandle import called. (Stubbed with SCE_OK)
+[21:54:50.046] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:54:50.055] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 2.000000, "status": 1.000000 }
+[21:54:50.057] |T| [write_file]: *** TTY: ini file was empty.  Skipped data load.
+[21:54:50.057] |T| [write_file]: *** TTY: Load complete
+[21:54:50.058] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:54:50.058] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 2.000000, "status": 1.000000 }
+[21:54:50.059] |T| [write_file]: *** TTY: callback didn't hit any targets
+[21:54:50.059] |T| [write_file]: *** TTY: ..because global.saving and global.loading were both false
+[21:54:50.061] |I| [export_sceIoOpen]: Opening file: savedata0:/images/fordesoft.png
+[21:54:50.062] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/images/fordesoft.png (target path: savedata0:/images/fordesoft.png)
+[21:54:50.062] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:50.063] |I| [export_sceIoOpen]: Opening file: app0:/games/images/fordesoft.png
+[21:54:50.063] |T| [open_file]: sceIoOpen: Opening file app0:/games/images/fordesoft.png (ux0:/app/PCSB01325/games/images/fordesoft.png), fd: 0x2d
+[21:54:50.064] |T| [close_file]: sceIoClose: Closing file fd: 0x2d
+[21:54:50.065] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/images/fordesoft.png
+[21:54:50.065] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/images/fordesoft.png (ux0:/app/PCSB01325/games/images/fordesoft.png), fd: 0x2e
+[21:54:50.065] |T| [close_file]: sceIoClose: Closing file fd: 0x2e
+[21:54:50.066] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/images/fordesoft.png
+[21:54:50.066] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/images/fordesoft.png (ux0:/app/PCSB01325/games/images/fordesoft.png), fd: 0x2f
+[21:54:50.067] |T| [close_file]: sceIoClose: Closing file fd: 0x2f
+[21:54:53.071] |I| [export_sceIoOpen]: Opening file: savedata0:/images/logo.png
+[21:54:53.072] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/images/logo.png (target path: savedata0:/images/logo.png)
+[21:54:53.072] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:54:53.073] |I| [export_sceIoOpen]: Opening file: app0:/games/images/logo.png
+[21:54:53.073] |T| [open_file]: sceIoOpen: Opening file app0:/games/images/logo.png (ux0:/app/PCSB01325/games/images/logo.png), fd: 0x30
+[21:54:53.074] |T| [close_file]: sceIoClose: Closing file fd: 0x30
+[21:54:53.074] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/images/logo.png
+[21:54:53.074] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/images/logo.png (ux0:/app/PCSB01325/games/images/logo.png), fd: 0x31
+[21:54:53.075] |T| [close_file]: sceIoClose: Closing file fd: 0x31
+[21:54:53.075] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/images/logo.png
+[21:54:53.076] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/images/logo.png (ux0:/app/PCSB01325/games/images/logo.png), fd: 0x32
+[21:54:53.078] |T| [close_file]: sceIoClose: Closing file fd: 0x32
+[21:54:53.125] |I| [export_sceIoOpen]: Opening file: app0:/games/title_screen.ogg
+[21:54:53.126] |T| [open_file]: sceIoOpen: Opening file app0:/games/title_screen.ogg (ux0:/app/PCSB01325/games/title_screen.ogg), fd: 0x33
+[21:54:53.126] |T| [close_file]: sceIoClose: Closing file fd: 0x33
+[21:54:53.145] |I| [export_sceIoOpen]: Opening file: app0:/games/title_screen.ogg
+[21:54:53.146] |T| [open_file]: sceIoOpen: Opening file app0:/games/title_screen.ogg (ux0:/app/PCSB01325/games/title_screen.ogg), fd: 0x34
+[21:54:53.532] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 2265e5eacc5da4da8944c8576d531d0d6af387028b8bde0114d99f7c30294c3a
+[21:54:53.533] |I| [renderer::load_shader_generic]: Generating vert.spv.txt shader 2265e5eacc5da4da8944c8576d531d0d6af387028b8bde0114d99f7c30294c3a
+[21:54:53.534] |D| [shader::create_parameters]: [BUFFER0  + 0] pa0 = (float4) input__in_Position
+[21:54:53.534] |D| [shader::create_parameters]: [BUFFER0  + 4] pa4 = (float4) input__in_TextureCoord
+[21:54:53.534] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float4) _gm_Matrices[20]
+[21:54:53.535] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 9
+[21:54:53.539] |I| [renderer::vulkan::PipelineCache::retrieve_shader]: Generating vulkan spv shader 34eecad20c944e304cf878d55a5d1724f78d215e49cdf52b47aab8479fb97052
+[21:54:53.539] |I| [renderer::load_shader_generic]: Generating frag.spv.txt shader 34eecad20c944e304cf878d55a5d1724f78d215e49cdf52b47aab8479fb97052
+[21:54:53.541] |D| [shader::create_parameters]: [DEFAULT  + 0] sa0 = (float1) _iTime
+[21:54:53.541] |T| [shader::create_fragment_inputs]: pa0 = tex2D<float4>(_gm_BaseTexture, TEXCOORD0.xy)
+[21:54:53.541] |D| [shader::create_fragment_inputs]: Iterator: pa4 = (float1) v_TexCoord0
+[21:54:53.543] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 1
+[21:54:53.544] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_0, size = 2
+[21:54:53.545] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_2, size = 1
+[21:54:53.545] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_4, size = 1
+[21:54:53.546] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_6, size = 1
+[21:54:53.547] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_7, size = 1
+[21:54:53.548] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_8, size = 1
+[21:54:53.548] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_9, size = 1
+[21:54:53.549] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_11, size = 1
+[21:54:53.550] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_12, size = 1
+[21:54:53.551] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_13, size = 1
+[21:54:53.551] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_14, size = 2
+[21:54:53.552] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_16, size = 1
+[21:54:53.553] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_17, size = 1
+[21:54:53.554] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_18, size = 1
+[21:54:53.555] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_19, size = 1
+[21:54:53.556] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_20, size = 1
+[21:54:53.556] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_22, size = 1
+[21:54:53.558] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_23, size = 1
+[21:54:53.560] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_24, size = 1
+[21:54:53.560] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_25, size = 1
+[21:54:53.561] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_27, size = 1
+[21:54:53.561] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_28, size = 1
+[21:54:53.563] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_29, size = 1
+[21:54:53.563] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_30, size = 1
+[21:54:53.564] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_32, size = 1
+[21:54:53.565] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_33, size = 1
+[21:54:53.565] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_34, size = 1
+[21:54:53.566] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_35, size = 1
+[21:54:53.567] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_37, size = 3
+[21:54:53.568] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_40, size = 1
+[21:54:53.569] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_41, size = 1
+[21:54:53.570] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_42, size = 1
+[21:54:53.570] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_44, size = 2
+[21:54:53.571] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_46, size = 1
+[21:54:53.574] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_47, size = 1
+[21:54:53.575] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_48, size = 3
+[21:54:53.576] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_51, size = 1
+[21:54:53.577] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_53, size = 2
+[21:54:53.578] |T| [shader::usse::USSERecompiler::compile_code_node]: Compiling code_55, size = 1
+[21:55:00.037] |T| [write_file]: *** TTY: LOAD: checking file essaves.sav
+[21:55:00.037] |I| [export_sceIoOpen]: Opening file: app0:/games/essaves.sav
+[21:55:00.038] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/essaves.sav (target path: app0:/games/essaves.sav)
+[21:55:00.038] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:00.039] |T| [write_file]: *** TTY: LOAD: numFiles 1, numBundleFiles 0
+[21:55:00.039] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[21:55:00.040] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[21:55:00.057] |I| [export_sceIoOpen]: Opening file: savedata0:/essaves.sav
+[21:55:00.057] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/essaves.sav (target path: savedata0:/essaves.sav)
+[21:55:00.058] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:00.058] |I| [export_sceIoOpen]: Opening file: app0:/games/essaves.sav
+[21:55:00.058] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/essaves.sav (target path: app0:/games/essaves.sav)
+[21:55:00.059] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:00.157] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:55:00.158] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 3.000000, "status": 1.000000 }
+[21:55:00.158] |T| [write_file]: *** TTY: ini file was empty.  Skipped data load.
+[21:55:00.159] |T| [write_file]: *** TTY: Load complete
+[21:55:00.160] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:55:00.160] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 3.000000, "status": 1.000000 }
+[21:55:00.161] |T| [write_file]: *** TTY: callback didn't hit any targets
+[21:55:00.161] |T| [write_file]: *** TTY: ..because global.saving and global.loading were both false
+[21:55:00.217] |T| [close_file]: sceIoClose: Closing file fd: 0x34
+[21:55:00.851] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-house.json
+[21:55:00.852] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-house.json (ux0:/app/PCSB01325/games/maps/levels/1-x-house.json), fd: 0x35
+[21:55:00.853] |T| [close_file]: sceIoClose: Closing file fd: 0x35
+[21:55:00.854] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-x-house.json
+[21:55:00.854] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-x-house.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-x-house.json)
+[21:55:00.854] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:00.855] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-house.json
+[21:55:00.855] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-house.json (ux0:/app/PCSB01325/games/maps/levels/1-x-house.json), fd: 0x36
+[21:55:00.856] |T| [close_file]: sceIoClose: Closing file fd: 0x36
+[21:55:00.885] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-house.json
+[21:55:00.885] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-house.json (ux0:/app/PCSB01325/games/maps/levels/1-x-house.json), fd: 0x37
+[21:55:00.886] |T| [close_file]: sceIoClose: Closing file fd: 0x37
+[21:55:00.886] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-x-house.json
+[21:55:00.886] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-x-house.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-x-house.json)
+[21:55:00.887] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:00.887] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-house.json
+[21:55:00.888] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-house.json (ux0:/app/PCSB01325/games/maps/levels/1-x-house.json), fd: 0x38
+[21:55:00.888] |T| [close_file]: sceIoClose: Closing file fd: 0x38
+[21:55:00.898] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/ts_house.png
+[21:55:00.899] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/ts_house.png (target path: savedata0:/tilesets/ts_house.png)
+[21:55:00.899] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:00.900] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/ts_house.png
+[21:55:00.900] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/ts_house.png (ux0:/app/PCSB01325/games/tilesets/ts_house.png), fd: 0x39
+[21:55:00.901] |T| [close_file]: sceIoClose: Closing file fd: 0x39
+[21:55:00.902] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/ts_house.png
+[21:55:00.902] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/ts_house.png (ux0:/app/PCSB01325/games/tilesets/ts_house.png), fd: 0x3a
+[21:55:00.902] |T| [close_file]: sceIoClose: Closing file fd: 0x3a
+[21:55:00.903] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/ts_house.png
+[21:55:00.903] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/ts_house.png (ux0:/app/PCSB01325/games/tilesets/ts_house.png), fd: 0x3b
+[21:55:00.904] |T| [close_file]: sceIoClose: Closing file fd: 0x3b
+[21:55:00.936] |I| [export_sceIoOpen]: Opening file: app0:/games/temple_guitar_ambiance.ogg
+[21:55:00.937] |T| [open_file]: sceIoOpen: Opening file app0:/games/temple_guitar_ambiance.ogg (ux0:/app/PCSB01325/games/temple_guitar_ambiance.ogg), fd: 0x3c
+[21:55:00.938] |T| [close_file]: sceIoClose: Closing file fd: 0x3c
+[21:55:00.940] |I| [export_sceIoOpen]: Opening file: app0:/games/temple_guitar_ambiance.ogg
+[21:55:00.940] |T| [open_file]: sceIoOpen: Opening file app0:/games/temple_guitar_ambiance.ogg (ux0:/app/PCSB01325/games/temple_guitar_ambiance.ogg), fd: 0x3d
+[21:55:23.008] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[21:55:23.009] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[21:55:23.203] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/SlotParam_0.bin (target path: savedata0:/SlotParam_0.bin)
+[21:55:23.204] |W| [io_error_impl]: open_file (sceAppUtilSaveDataSlotGetParam) returned 0x80010002
+[21:55:23.211] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x3e
+[21:55:23.212] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x3e, size: 16384
+[21:55:23.212] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x3e
+[21:55:23.213] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x3f
+[21:55:23.213] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0x3f, to size: 16384
+[21:55:23.214] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x3f
+[21:55:23.215] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB01325/SlotParam_0.bin), fd: 0x40
+[21:55:23.216] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x40, size: 844
+[21:55:23.216] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x40
+[21:55:23.217] |E| [logging::ret_error_impl]: sceSaveDataDialogProgressBarSetValue returned SCE_COMMON_DIALOG_ERROR_NOT_SUPPORTED (0x80020405)
+[21:55:23.284] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:55:23.284] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 4.000000, "status": 1.000000 }
+[21:55:23.284] |T| [write_file]: *** TTY: Save complete.
+[21:55:23.285] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:55:23.285] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 4.000000, "status": 1.000000 }
+[21:55:23.286] |T| [write_file]: *** TTY: callback didn't hit any targets
+[21:55:23.286] |T| [write_file]: *** TTY: ..because global.saving and global.loading were both false
+[21:55:23.773] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:55:23.775] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x41
+[21:55:23.775] |T| [close_file]: sceIoClose: Closing file fd: 0x41
+[21:55:23.776] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:55:23.776] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json (target path: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json)
+[21:55:23.777] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:23.777] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:55:23.777] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x42
+[21:55:23.778] |T| [close_file]: sceIoClose: Closing file fd: 0x42
+[21:55:23.923] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/worldmap.png
+[21:55:23.924] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/worldmap.png (target path: savedata0:/tilesets/worldmap.png)
+[21:55:23.925] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:23.925] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/worldmap.png
+[21:55:23.925] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x43
+[21:55:23.926] |T| [close_file]: sceIoClose: Closing file fd: 0x43
+[21:55:23.926] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[21:55:23.927] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x44
+[21:55:23.927] |T| [close_file]: sceIoClose: Closing file fd: 0x44
+[21:55:23.928] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[21:55:23.928] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x45
+[21:55:23.929] |T| [close_file]: sceIoClose: Closing file fd: 0x45
+[21:55:24.016] |I| [export_sceIoOpen]: Opening file: app0:/games/world_map2.ogg
+[21:55:24.016] |T| [open_file]: sceIoOpen: Opening file app0:/games/world_map2.ogg (ux0:/app/PCSB01325/games/world_map2.ogg), fd: 0x46
+[21:55:24.017] |T| [close_file]: sceIoClose: Closing file fd: 0x46
+[21:55:24.035] |I| [export_sceIoOpen]: Opening file: app0:/games/world_map2.ogg
+[21:55:24.036] |T| [open_file]: sceIoOpen: Opening file app0:/games/world_map2.ogg (ux0:/app/PCSB01325/games/world_map2.ogg), fd: 0x47
+[21:55:24.084] |T| [close_file]: sceIoClose: Closing file fd: 0x3d
+[21:55:28.280] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/royalroad.json
+[21:55:28.282] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/royalroad.json (ux0:/app/PCSB01325/games/maps/levels/royalroad.json), fd: 0x48
+[21:55:28.283] |T| [close_file]: sceIoClose: Closing file fd: 0x48
+[21:55:28.283] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/royalroad.json
+[21:55:28.284] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/royalroad.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/royalroad.json)
+[21:55:28.284] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:28.285] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/royalroad.json
+[21:55:28.285] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/royalroad.json (ux0:/app/PCSB01325/games/maps/levels/royalroad.json), fd: 0x49
+[21:55:28.287] |T| [close_file]: sceIoClose: Closing file fd: 0x49
+[21:55:28.469] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/royalroad.json
+[21:55:28.470] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/royalroad.json (ux0:/app/PCSB01325/games/maps/levels/royalroad.json), fd: 0x4a
+[21:55:28.471] |T| [close_file]: sceIoClose: Closing file fd: 0x4a
+[21:55:28.471] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/royalroad.json
+[21:55:28.472] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/royalroad.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/royalroad.json)
+[21:55:28.472] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:28.473] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/royalroad.json
+[21:55:28.473] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/royalroad.json (ux0:/app/PCSB01325/games/maps/levels/royalroad.json), fd: 0x4b
+[21:55:28.474] |T| [close_file]: sceIoClose: Closing file fd: 0x4b
+[21:55:28.639] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/tileset1-forest.png
+[21:55:28.639] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/tileset1-forest.png (target path: savedata0:/tilesets/tileset1-forest.png)
+[21:55:28.640] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:28.640] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/tileset1-forest.png
+[21:55:28.641] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/tileset1-forest.png (ux0:/app/PCSB01325/games/tilesets/tileset1-forest.png), fd: 0x4c
+[21:55:28.641] |T| [close_file]: sceIoClose: Closing file fd: 0x4c
+[21:55:28.642] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/tileset1-forest.png
+[21:55:28.642] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/tileset1-forest.png (ux0:/app/PCSB01325/games/tilesets/tileset1-forest.png), fd: 0x4d
+[21:55:28.643] |T| [close_file]: sceIoClose: Closing file fd: 0x4d
+[21:55:28.643] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/tileset1-forest.png
+[21:55:28.644] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/tileset1-forest.png (ux0:/app/PCSB01325/games/tilesets/tileset1-forest.png), fd: 0x4e
+[21:55:28.645] |T| [close_file]: sceIoClose: Closing file fd: 0x4e
+[21:55:28.961] |I| [export_sceIoOpen]: Opening file: app0:/games/summer2.ogg
+[21:55:28.963] |T| [open_file]: sceIoOpen: Opening file app0:/games/summer2.ogg (ux0:/app/PCSB01325/games/summer2.ogg), fd: 0x4f
+[21:55:28.963] |T| [close_file]: sceIoClose: Closing file fd: 0x4f
+[21:55:28.981] |I| [export_sceIoOpen]: Opening file: app0:/games/summer2.ogg
+[21:55:28.982] |T| [open_file]: sceIoOpen: Opening file app0:/games/summer2.ogg (ux0:/app/PCSB01325/games/summer2.ogg), fd: 0x50
+[21:55:29.018] |T| [close_file]: sceIoClose: Closing file fd: 0x47
+[21:55:46.491] |T| [write_file]: *** TTY: Restarting level
+[21:55:47.968] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/royalroad.json
+[21:55:47.968] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/royalroad.json (ux0:/app/PCSB01325/games/maps/levels/royalroad.json), fd: 0x51
+[21:55:47.969] |T| [close_file]: sceIoClose: Closing file fd: 0x51
+[21:55:47.969] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/royalroad.json
+[21:55:47.970] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/royalroad.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/royalroad.json)
+[21:55:47.970] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:55:47.971] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/royalroad.json
+[21:55:47.971] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/royalroad.json (ux0:/app/PCSB01325/games/maps/levels/royalroad.json), fd: 0x52
+[21:55:47.972] |T| [close_file]: sceIoClose: Closing file fd: 0x52
+[21:55:48.156] |I| [export_sceIoOpen]: Opening file: app0:/games/summer2.ogg
+[21:55:48.156] |T| [open_file]: sceIoOpen: Opening file app0:/games/summer2.ogg (ux0:/app/PCSB01325/games/summer2.ogg), fd: 0x53
+[21:55:48.184] |T| [close_file]: sceIoClose: Closing file fd: 0x50
+[21:57:28.029] |T| [write_file]: *** TTY: Created init trophy thread ok
+[21:57:28.029] |T| [open_file]: save_trophy_progress: Opening file ux0:/user/00/trophy/data/NPWR10488_00/TROPUSR.DAT (ux0:/user/00/trophy/data/NPWR10488_00/TROPUSR.DAT), fd: 0x54
+[21:57:28.030] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x54, size: 4
+[21:57:28.031] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x54, size: 16
+[21:57:28.031] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x54, size: 16
+[21:57:28.031] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x54, size: 4
+[21:57:28.032] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x54, size: 4
+[21:57:28.032] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x54, size: 4
+[21:57:28.032] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x54, size: 64
+[21:57:28.033] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x54, size: 1024
+[21:57:28.033] |T| [write_file]: save_trophy_progress_file: Writing to fd: 0x54, size: 512
+[21:57:28.033] |T| [close_file]: save_trophy_progress_file: Closing file fd: 0x54
+[21:57:28.034] |I| [do_trophy_callback]: Trophy unlocked, name: To the castle!, detail: Finish level 1-1: Royal Road, id = 2
+[21:57:28.036] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB01325/SlotParam_0.bin), fd: 0x55
+[21:57:28.036] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x55
+[21:57:28.040] |T| [write_file]: *** TTY: platinum trophy id returned -1 
+[21:57:28.041] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x56
+[21:57:28.041] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x56, size: 16384
+[21:57:28.042] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x56
+[21:57:28.044] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x57
+[21:57:28.044] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0x57, to size: 16384
+[21:57:28.045] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x57
+[21:57:28.045] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB01325/SlotParam_0.bin), fd: 0x58
+[21:57:28.046] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x58, size: 844
+[21:57:28.046] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x58
+[21:57:28.115] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:57:28.116] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 5.000000, "status": 1.000000 }
+[21:57:28.116] |T| [write_file]: *** TTY: Save complete.
+[21:57:28.116] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:57:28.117] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 5.000000, "status": 1.000000 }
+[21:57:28.117] |T| [write_file]: *** TTY: callback didn't hit any targets
+[21:57:28.118] |T| [write_file]: *** TTY: ..because global.saving and global.loading were both false
+[21:57:28.605] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:57:28.605] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x59
+[21:57:28.606] |T| [close_file]: sceIoClose: Closing file fd: 0x59
+[21:57:28.606] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:57:28.607] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json (target path: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json)
+[21:57:28.607] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:57:28.608] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:57:28.608] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x5a
+[21:57:28.609] |T| [close_file]: sceIoClose: Closing file fd: 0x5a
+[21:57:28.749] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/worldmap.png
+[21:57:28.749] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/worldmap.png (target path: savedata0:/tilesets/worldmap.png)
+[21:57:28.750] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:57:28.750] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/worldmap.png
+[21:57:28.751] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x5b
+[21:57:28.751] |T| [close_file]: sceIoClose: Closing file fd: 0x5b
+[21:57:28.752] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[21:57:28.752] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x5c
+[21:57:28.753] |T| [close_file]: sceIoClose: Closing file fd: 0x5c
+[21:57:28.753] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[21:57:28.753] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x5d
+[21:57:28.754] |T| [close_file]: sceIoClose: Closing file fd: 0x5d
+[21:57:28.840] |I| [export_sceIoOpen]: Opening file: app0:/games/world_map2.ogg
+[21:57:28.841] |T| [open_file]: sceIoOpen: Opening file app0:/games/world_map2.ogg (ux0:/app/PCSB01325/games/world_map2.ogg), fd: 0x5e
+[21:57:28.883] |T| [close_file]: sceIoClose: Closing file fd: 0x53
+[21:57:38.255] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:57:38.256] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-castle.json (ux0:/app/PCSB01325/games/maps/levels/1-x-castle.json), fd: 0x5f
+[21:57:38.257] |T| [close_file]: sceIoClose: Closing file fd: 0x5f
+[21:57:38.257] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:57:38.257] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-x-castle.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-x-castle.json)
+[21:57:38.258] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:57:38.259] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:57:38.259] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-castle.json (ux0:/app/PCSB01325/games/maps/levels/1-x-castle.json), fd: 0x60
+[21:57:38.261] |T| [close_file]: sceIoClose: Closing file fd: 0x60
+[21:57:38.274] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:57:38.274] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-castle.json (ux0:/app/PCSB01325/games/maps/levels/1-x-castle.json), fd: 0x61
+[21:57:38.274] |T| [close_file]: sceIoClose: Closing file fd: 0x61
+[21:57:38.275] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:57:38.275] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-x-castle.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-x-castle.json)
+[21:57:38.276] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:57:38.276] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:57:38.277] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-castle.json (ux0:/app/PCSB01325/games/maps/levels/1-x-castle.json), fd: 0x62
+[21:57:38.277] |T| [close_file]: sceIoClose: Closing file fd: 0x62
+[21:57:38.288] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/ts_castle.png
+[21:57:38.288] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/ts_castle.png (target path: savedata0:/tilesets/ts_castle.png)
+[21:57:38.289] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:57:38.289] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/ts_castle.png
+[21:57:38.290] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/ts_castle.png (ux0:/app/PCSB01325/games/tilesets/ts_castle.png), fd: 0x63
+[21:57:38.290] |T| [close_file]: sceIoClose: Closing file fd: 0x63
+[21:57:38.291] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/ts_castle.png
+[21:57:38.291] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/ts_castle.png (ux0:/app/PCSB01325/games/tilesets/ts_castle.png), fd: 0x64
+[21:57:38.292] |T| [close_file]: sceIoClose: Closing file fd: 0x64
+[21:57:38.292] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/ts_castle.png
+[21:57:38.292] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/ts_castle.png (ux0:/app/PCSB01325/games/tilesets/ts_castle.png), fd: 0x65
+[21:57:38.293] |T| [close_file]: sceIoClose: Closing file fd: 0x65
+[21:57:38.329] |I| [export_sceIoOpen]: Opening file: app0:/games/royalty.ogg
+[21:57:38.330] |T| [open_file]: sceIoOpen: Opening file app0:/games/royalty.ogg (ux0:/app/PCSB01325/games/royalty.ogg), fd: 0x66
+[21:57:38.330] |T| [close_file]: sceIoClose: Closing file fd: 0x66
+[21:57:38.339] |I| [export_sceIoOpen]: Opening file: app0:/games/royalty.ogg
+[21:57:38.339] |T| [open_file]: sceIoOpen: Opening file app0:/games/royalty.ogg (ux0:/app/PCSB01325/games/royalty.ogg), fd: 0x67
+[21:57:38.355] |T| [close_file]: sceIoClose: Closing file fd: 0x5e
+[21:57:59.220] |I| [export_sceIoOpen]: Opening file: app0:/games/wacky.ogg
+[21:57:59.221] |T| [open_file]: sceIoOpen: Opening file app0:/games/wacky.ogg (ux0:/app/PCSB01325/games/wacky.ogg), fd: 0x68
+[21:57:59.222] |T| [close_file]: sceIoClose: Closing file fd: 0x68
+[21:57:59.222] |I| [export_sceIoOpen]: Opening file: app0:/games/wacky.ogg
+[21:57:59.222] |T| [open_file]: sceIoOpen: Opening file app0:/games/wacky.ogg (ux0:/app/PCSB01325/games/wacky.ogg), fd: 0x69
+[21:57:59.258] |T| [close_file]: sceIoClose: Closing file fd: 0x67
+[21:58:35.839] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB01325/SlotParam_0.bin), fd: 0x6a
+[21:58:35.840] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x6a
+[21:58:35.853] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x6b
+[21:58:35.854] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x6b, size: 16384
+[21:58:35.854] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x6b
+[21:58:35.855] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x6c
+[21:58:35.855] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0x6c, to size: 16384
+[21:58:35.855] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x6c
+[21:58:35.856] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB01325/SlotParam_0.bin), fd: 0x6d
+[21:58:35.856] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x6d, size: 844
+[21:58:35.857] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x6d
+[21:58:35.918] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:58:35.918] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 7.000000, "status": 1.000000 }
+[21:58:35.919] |T| [write_file]: *** TTY: Save complete.
+[21:58:35.919] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:58:35.919] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 7.000000, "status": 1.000000 }
+[21:58:35.920] |T| [write_file]: *** TTY: callback didn't hit any targets
+[21:58:35.920] |T| [write_file]: *** TTY: ..because global.saving and global.loading were both false
+[21:58:36.393] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:58:36.394] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x6e
+[21:58:36.395] |T| [close_file]: sceIoClose: Closing file fd: 0x6e
+[21:58:36.395] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:58:36.395] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json (target path: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json)
+[21:58:36.396] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:58:36.396] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:58:36.397] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x6f
+[21:58:36.397] |T| [close_file]: sceIoClose: Closing file fd: 0x6f
+[21:58:36.537] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/worldmap.png
+[21:58:36.537] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/worldmap.png (target path: savedata0:/tilesets/worldmap.png)
+[21:58:36.538] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:58:36.538] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/worldmap.png
+[21:58:36.539] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x70
+[21:58:36.539] |T| [close_file]: sceIoClose: Closing file fd: 0x70
+[21:58:36.540] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[21:58:36.540] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x71
+[21:58:36.541] |T| [close_file]: sceIoClose: Closing file fd: 0x71
+[21:58:36.541] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[21:58:36.541] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x72
+[21:58:36.542] |T| [close_file]: sceIoClose: Closing file fd: 0x72
+[21:58:36.640] |I| [export_sceIoOpen]: Opening file: app0:/games/world_map2.ogg
+[21:58:36.640] |T| [open_file]: sceIoOpen: Opening file app0:/games/world_map2.ogg (ux0:/app/PCSB01325/games/world_map2.ogg), fd: 0x73
+[21:58:36.674] |T| [close_file]: sceIoClose: Closing file fd: 0x69
+[21:58:38.035] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:58:38.036] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-castle.json (ux0:/app/PCSB01325/games/maps/levels/1-x-castle.json), fd: 0x74
+[21:58:38.036] |T| [close_file]: sceIoClose: Closing file fd: 0x74
+[21:58:38.037] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:58:38.037] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-x-castle.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-x-castle.json)
+[21:58:38.038] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:58:38.038] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:58:38.039] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-castle.json (ux0:/app/PCSB01325/games/maps/levels/1-x-castle.json), fd: 0x75
+[21:58:38.039] |T| [close_file]: sceIoClose: Closing file fd: 0x75
+[21:58:38.076] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:58:38.076] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-castle.json (ux0:/app/PCSB01325/games/maps/levels/1-x-castle.json), fd: 0x76
+[21:58:38.077] |T| [close_file]: sceIoClose: Closing file fd: 0x76
+[21:58:38.078] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:58:38.078] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-x-castle.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-x-castle.json)
+[21:58:38.079] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:58:38.079] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-x-castle.json
+[21:58:38.079] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-x-castle.json (ux0:/app/PCSB01325/games/maps/levels/1-x-castle.json), fd: 0x77
+[21:58:38.080] |T| [close_file]: sceIoClose: Closing file fd: 0x77
+[21:58:38.091] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/ts_castle.png
+[21:58:38.091] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/ts_castle.png (target path: savedata0:/tilesets/ts_castle.png)
+[21:58:38.092] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:58:38.092] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/ts_castle.png
+[21:58:38.093] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/ts_castle.png (ux0:/app/PCSB01325/games/tilesets/ts_castle.png), fd: 0x78
+[21:58:38.093] |T| [close_file]: sceIoClose: Closing file fd: 0x78
+[21:58:38.094] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/ts_castle.png
+[21:58:38.094] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/ts_castle.png (ux0:/app/PCSB01325/games/tilesets/ts_castle.png), fd: 0x79
+[21:58:38.096] |T| [close_file]: sceIoClose: Closing file fd: 0x79
+[21:58:38.096] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/ts_castle.png
+[21:58:38.097] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/ts_castle.png (ux0:/app/PCSB01325/games/tilesets/ts_castle.png), fd: 0x7a
+[21:58:38.097] |T| [close_file]: sceIoClose: Closing file fd: 0x7a
+[21:58:38.143] |I| [export_sceIoOpen]: Opening file: app0:/games/royalty.ogg
+[21:58:38.144] |T| [open_file]: sceIoOpen: Opening file app0:/games/royalty.ogg (ux0:/app/PCSB01325/games/royalty.ogg), fd: 0x7b
+[21:58:38.168] |T| [close_file]: sceIoClose: Closing file fd: 0x73
+[21:59:12.337] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB01325/SlotParam_0.bin), fd: 0x7c
+[21:59:12.338] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x7c
+[21:59:12.351] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x7d
+[21:59:12.351] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x7d, size: 16384
+[21:59:12.351] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x7d
+[21:59:12.352] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x7e
+[21:59:12.353] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0x7e, to size: 16384
+[21:59:12.353] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x7e
+[21:59:12.354] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB01325/SlotParam_0.bin), fd: 0x7f
+[21:59:12.354] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x7f, size: 844
+[21:59:12.354] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x7f
+[21:59:12.415] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:59:12.416] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 8.000000, "status": 1.000000 }
+[21:59:12.416] |T| [write_file]: *** TTY: Save complete.
+[21:59:12.417] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[21:59:12.417] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 8.000000, "status": 1.000000 }
+[21:59:12.417] |T| [write_file]: *** TTY: callback didn't hit any targets
+[21:59:12.418] |T| [write_file]: *** TTY: ..because global.saving and global.loading were both false
+[21:59:12.891] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:59:12.891] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x80
+[21:59:12.892] |T| [close_file]: sceIoClose: Closing file fd: 0x80
+[21:59:12.892] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:59:12.893] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json (target path: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json)
+[21:59:12.893] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:59:12.894] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[21:59:12.894] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x81
+[21:59:12.895] |T| [close_file]: sceIoClose: Closing file fd: 0x81
+[21:59:13.036] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/worldmap.png
+[21:59:13.036] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/worldmap.png (target path: savedata0:/tilesets/worldmap.png)
+[21:59:13.037] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:59:13.037] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/worldmap.png
+[21:59:13.038] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x82
+[21:59:13.038] |T| [close_file]: sceIoClose: Closing file fd: 0x82
+[21:59:13.039] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[21:59:13.039] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x83
+[21:59:13.040] |T| [close_file]: sceIoClose: Closing file fd: 0x83
+[21:59:13.040] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[21:59:13.040] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x84
+[21:59:13.041] |T| [close_file]: sceIoClose: Closing file fd: 0x84
+[21:59:13.139] |I| [export_sceIoOpen]: Opening file: app0:/games/world_map2.ogg
+[21:59:13.139] |T| [open_file]: sceIoOpen: Opening file app0:/games/world_map2.ogg (ux0:/app/PCSB01325/games/world_map2.ogg), fd: 0x85
+[21:59:13.172] |T| [close_file]: sceIoClose: Closing file fd: 0x7b
+[21:59:21.120] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[21:59:21.122] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x86
+[21:59:21.123] |T| [close_file]: sceIoClose: Closing file fd: 0x86
+[21:59:21.123] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json
+[21:59:21.124] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-a-forest.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json)
+[21:59:21.124] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:59:21.125] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[21:59:21.125] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x87
+[21:59:21.126] |T| [close_file]: sceIoClose: Closing file fd: 0x87
+[21:59:21.224] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[21:59:21.225] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x88
+[21:59:21.225] |T| [close_file]: sceIoClose: Closing file fd: 0x88
+[21:59:21.226] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json
+[21:59:21.226] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-a-forest.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json)
+[21:59:21.227] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:59:21.227] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[21:59:21.227] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x89
+[21:59:21.228] |T| [close_file]: sceIoClose: Closing file fd: 0x89
+[21:59:21.321] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/tileset1-forest.png
+[21:59:21.321] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/tileset1-forest.png (target path: savedata0:/tilesets/tileset1-forest.png)
+[21:59:21.322] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:59:21.322] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/tileset1-forest.png
+[21:59:21.323] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/tileset1-forest.png (ux0:/app/PCSB01325/games/tilesets/tileset1-forest.png), fd: 0x8a
+[21:59:21.323] |T| [close_file]: sceIoClose: Closing file fd: 0x8a
+[21:59:21.323] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/tileset1-forest.png
+[21:59:21.324] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/tileset1-forest.png (ux0:/app/PCSB01325/games/tilesets/tileset1-forest.png), fd: 0x8b
+[21:59:21.324] |T| [close_file]: sceIoClose: Closing file fd: 0x8b
+[21:59:21.325] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/tileset1-forest.png
+[21:59:21.325] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/tileset1-forest.png (ux0:/app/PCSB01325/games/tilesets/tileset1-forest.png), fd: 0x8c
+[21:59:21.326] |T| [close_file]: sceIoClose: Closing file fd: 0x8c
+[21:59:21.538] |I| [export_sceIoOpen]: Opening file: app0:/games/summer1.ogg
+[21:59:21.539] |T| [open_file]: sceIoOpen: Opening file app0:/games/summer1.ogg (ux0:/app/PCSB01325/games/summer1.ogg), fd: 0x8d
+[21:59:21.539] |T| [close_file]: sceIoClose: Closing file fd: 0x8d
+[21:59:21.544] |I| [export_sceIoOpen]: Opening file: app0:/games/summer1.ogg
+[21:59:21.544] |T| [open_file]: sceIoOpen: Opening file app0:/games/summer1.ogg (ux0:/app/PCSB01325/games/summer1.ogg), fd: 0x8e
+[21:59:21.574] |T| [close_file]: sceIoClose: Closing file fd: 0x85
+[21:59:31.541] |T| [write_file]: *** TTY: Restarting level
+[21:59:33.373] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[21:59:33.373] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x8f
+[21:59:33.374] |T| [close_file]: sceIoClose: Closing file fd: 0x8f
+[21:59:33.374] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json
+[21:59:33.375] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-a-forest.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json)
+[21:59:33.375] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[21:59:33.376] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[21:59:33.376] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x90
+[21:59:33.377] |T| [close_file]: sceIoClose: Closing file fd: 0x90
+[21:59:33.472] |I| [export_sceIoOpen]: Opening file: app0:/games/summer1.ogg
+[21:59:33.473] |T| [open_file]: sceIoOpen: Opening file app0:/games/summer1.ogg (ux0:/app/PCSB01325/games/summer1.ogg), fd: 0x91
+[21:59:33.508] |T| [close_file]: sceIoClose: Closing file fd: 0x8e
+[22:00:26.559] |T| [write_file]: *** TTY: Restarting level
+[22:00:28.382] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[22:00:28.382] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x92
+[22:00:28.383] |T| [close_file]: sceIoClose: Closing file fd: 0x92
+[22:00:28.383] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json
+[22:00:28.384] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-a-forest.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json)
+[22:00:28.384] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[22:00:28.385] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[22:00:28.385] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x93
+[22:00:28.386] |T| [close_file]: sceIoClose: Closing file fd: 0x93
+[22:00:28.490] |I| [export_sceIoOpen]: Opening file: app0:/games/summer1.ogg
+[22:00:28.490] |T| [open_file]: sceIoOpen: Opening file app0:/games/summer1.ogg (ux0:/app/PCSB01325/games/summer1.ogg), fd: 0x94
+[22:00:28.522] |T| [close_file]: sceIoClose: Closing file fd: 0x91
+[22:01:01.576] |T| [write_file]: *** TTY: Restarting level
+[22:01:02.936] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[22:01:02.937] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x95
+[22:01:02.937] |T| [close_file]: sceIoClose: Closing file fd: 0x95
+[22:01:02.938] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json
+[22:01:02.938] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-a-forest.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-a-forest.json)
+[22:01:02.939] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[22:01:02.939] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-a-forest.json
+[22:01:02.940] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-a-forest.json (ux0:/app/PCSB01325/games/maps/levels/1-a-forest.json), fd: 0x96
+[22:01:02.941] |T| [close_file]: sceIoClose: Closing file fd: 0x96
+[22:01:03.037] |I| [export_sceIoOpen]: Opening file: app0:/games/summer1.ogg
+[22:01:03.037] |T| [open_file]: sceIoOpen: Opening file app0:/games/summer1.ogg (ux0:/app/PCSB01325/games/summer1.ogg), fd: 0x97
+[22:01:03.063] |T| [close_file]: sceIoClose: Closing file fd: 0x94
+[22:01:56.906] |T| [open_file]: sceAppUtilSaveDataSlotGetParam: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB01325/SlotParam_0.bin), fd: 0x98
+[22:01:56.907] |T| [close_file]: sceAppUtilSaveDataSlotGetParam: Closing file fd: 0x98
+[22:01:56.932] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x99
+[22:01:56.933] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x99, size: 16384
+[22:01:56.933] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x99
+[22:01:56.934] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/essaves.sav (ux0:/user/00/savedata/PCSB01325/essaves.sav), fd: 0x9a
+[22:01:56.934] |T| [truncate_file]: sceAppUtilSaveDataDataSave: Truncating fd: 0x9a, to size: 16384
+[22:01:56.934] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x9a
+[22:01:56.935] |T| [open_file]: sceAppUtilSaveDataDataSave: Opening file savedata0:/SlotParam_0.bin (ux0:/user/00/savedata/PCSB01325/SlotParam_0.bin), fd: 0x9b
+[22:01:56.935] |T| [write_file]: sceAppUtilSaveDataDataSave: Writing to fd: 0x9b, size: 844
+[22:01:56.936] |T| [close_file]: sceAppUtilSaveDataDataSave: Closing file fd: 0x9b
+[22:01:57.062] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[22:01:57.063] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 9.000000, "status": 1.000000 }
+[22:01:57.063] |T| [write_file]: *** TTY: Save complete.
+[22:01:57.063] |T| [write_file]: *** TTY: AsyncSaveLoadCallback() called.
+[22:01:57.064] |T| [write_file]: *** TTY: { "error": 0.000000, "id": 9.000000, "status": 1.000000 }
+[22:01:57.064] |T| [write_file]: *** TTY: callback didn't hit any targets
+[22:01:57.064] |T| [write_file]: *** TTY: ..because global.saving and global.loading were both false
+[22:01:57.927] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[22:01:57.928] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x9c
+[22:01:57.929] |T| [close_file]: sceIoClose: Closing file fd: 0x9c
+[22:01:57.929] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[22:01:57.929] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json (target path: app0:/games/savedata0:/app0:/games/maps/worldmaps/worldmap1.json)
+[22:01:57.930] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[22:01:57.930] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/worldmaps/worldmap1.json
+[22:01:57.931] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/worldmaps/worldmap1.json (ux0:/app/PCSB01325/games/maps/worldmaps/worldmap1.json), fd: 0x9d
+[22:01:57.932] |T| [close_file]: sceIoClose: Closing file fd: 0x9d
+[22:01:58.071] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/worldmap.png
+[22:01:58.071] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/worldmap.png (target path: savedata0:/tilesets/worldmap.png)
+[22:01:58.072] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[22:01:58.073] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/worldmap.png
+[22:01:58.073] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x9e
+[22:01:58.074] |T| [close_file]: sceIoClose: Closing file fd: 0x9e
+[22:01:58.074] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[22:01:58.074] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0x9f
+[22:01:58.075] |T| [close_file]: sceIoClose: Closing file fd: 0x9f
+[22:01:58.075] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/worldmap.png
+[22:01:58.076] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/worldmap.png (ux0:/app/PCSB01325/games/tilesets/worldmap.png), fd: 0xa0
+[22:01:58.077] |T| [close_file]: sceIoClose: Closing file fd: 0xa0
+[22:01:58.160] |I| [export_sceIoOpen]: Opening file: app0:/games/world_map2.ogg
+[22:01:58.161] |T| [open_file]: sceIoOpen: Opening file app0:/games/world_map2.ogg (ux0:/app/PCSB01325/games/world_map2.ogg), fd: 0xa1
+[22:01:58.202] |T| [close_file]: sceIoClose: Closing file fd: 0x97
+[22:02:01.582] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-2-cave.json
+[22:02:01.583] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-2-cave.json (ux0:/app/PCSB01325/games/maps/levels/1-2-cave.json), fd: 0xa2
+[22:02:01.583] |T| [close_file]: sceIoClose: Closing file fd: 0xa2
+[22:02:01.584] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-2-cave.json
+[22:02:01.584] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-2-cave.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-2-cave.json)
+[22:02:01.585] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[22:02:01.585] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-2-cave.json
+[22:02:01.586] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-2-cave.json (ux0:/app/PCSB01325/games/maps/levels/1-2-cave.json), fd: 0xa3
+[22:02:01.588] |T| [close_file]: sceIoClose: Closing file fd: 0xa3
+[22:02:01.858] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-2-cave.json
+[22:02:01.859] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-2-cave.json (ux0:/app/PCSB01325/games/maps/levels/1-2-cave.json), fd: 0xa4
+[22:02:01.860] |T| [close_file]: sceIoClose: Closing file fd: 0xa4
+[22:02:01.860] |I| [export_sceIoOpen]: Opening file: app0:/games/savedata0:/app0:/games/maps/levels/1-2-cave.json
+[22:02:01.860] |E| [open_file]: Missing file at C:/vita/ux0/app/PCSB01325/games/savedata0:/app0:/games/maps/levels/1-2-cave.json (target path: app0:/games/savedata0:/app0:/games/maps/levels/1-2-cave.json)
+[22:02:01.861] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[22:02:01.862] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/maps/levels/1-2-cave.json
+[22:02:01.862] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/maps/levels/1-2-cave.json (ux0:/app/PCSB01325/games/maps/levels/1-2-cave.json), fd: 0xa5
+[22:02:01.863] |T| [close_file]: sceIoClose: Closing file fd: 0xa5
+[22:02:02.114] |I| [export_sceIoOpen]: Opening file: savedata0:/tilesets/tileset1-forest.png
+[22:02:02.115] |E| [open_file]: Missing file at C:/vita/ux0/user/00/savedata/PCSB01325/tilesets/tileset1-forest.png (target path: savedata0:/tilesets/tileset1-forest.png)
+[22:02:02.115] |W| [io_error_impl]: open_file (sceIoOpen) returned 0x80010002
+[22:02:02.116] |I| [export_sceIoOpen]: Opening file: app0:/games/tilesets/tileset1-forest.png
+[22:02:02.116] |T| [open_file]: sceIoOpen: Opening file app0:/games/tilesets/tileset1-forest.png (ux0:/app/PCSB01325/games/tilesets/tileset1-forest.png), fd: 0xa6
+[22:02:02.117] |T| [close_file]: sceIoClose: Closing file fd: 0xa6
+[22:02:02.117] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/tileset1-forest.png
+[22:02:02.117] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/tileset1-forest.png (ux0:/app/PCSB01325/games/tilesets/tileset1-forest.png), fd: 0xa7
+[22:02:02.118] |T| [close_file]: sceIoClose: Closing file fd: 0xa7
+[22:02:02.118] |I| [export_sceIoOpen]: Opening file: savedata0:/app0:/games/tilesets/tileset1-forest.png
+[22:02:02.119] |T| [open_file]: sceIoOpen: Opening file savedata0:/app0:/games/tilesets/tileset1-forest.png (ux0:/app/PCSB01325/games/tilesets/tileset1-forest.png), fd: 0xa8
+[22:02:02.119] |T| [close_file]: sceIoClose: Closing file fd: 0xa8
+[22:02:02.953] |I| [export_sceIoOpen]: Opening file: app0:/games/cave1.ogg
+[22:02:02.955] |T| [open_file]: sceIoOpen: Opening file app0:/games/cave1.ogg (ux0:/app/PCSB01325/games/cave1.ogg), fd: 0xa9
+[22:02:02.955] |T| [close_file]: sceIoClose: Closing file fd: 0xa9
+[22:02:02.964] |I| [export_sceIoOpen]: Opening file: app0:/games/cave1.ogg
+[22:02:02.964] |T| [open_file]: sceIoOpen: Opening file app0:/games/cave1.ogg (ux0:/app/PCSB01325/games/cave1.ogg), fd: 0xaa
+[22:02:03.004] |T| [close_file]: sceIoClose: Closing file fd: 0xa1
+[22:02:24.027] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Saving pipeline cache...
+[22:02:24.027] |I| [renderer::vulkan::PipelineCache::save_pipeline_cache]: Pipeline cache saved
+[22:02:24.028] |E| [discordrpc::update_presence::<lambda_1>::operator ()]: Error updating Discord Rich Presence, err_code: 43
